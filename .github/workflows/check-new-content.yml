@@ -1,0 +1,49 @@
+name: Check new upstream content
+
+on:
+  schedule:
+    - cron: "0 12 1 * *" # monthly, 1st day
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compare lang/en.json with upstream
+        id: diff
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/Foundryborne/daggerheart/HEAD/lang/en.json -o upstream.json
+          flat='[leaf_paths as $p | {key: ($p | map(tostring) | join(".")), value: getpath($p)}] | from_entries'
+          jq -S "$flat" upstream.json > up.flat
+          jq -S "$flat" lang/en.json > our.flat
+          added=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$u[0] | keys[] | select($o[0][.] == null)] | length')
+          changed=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$u[0] | to_entries[] | select($o[0][.key] != null and $o[0][.key] != .value)] | length')
+          removed=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$o[0] | keys[] | select($u[0][.] == null)] | length')
+          echo "added=$added" >> "$GITHUB_OUTPUT"
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+          echo "removed=$removed" >> "$GITHUB_OUTPUT"
+          if cmp -s up.flat our.flat; then echo "differs=false" >> "$GITHUB_OUTPUT"; else echo "differs=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Close previous issue and open a new one
+        if: steps.diff.outputs.differs == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create upstream-sync --color 0E8A16 || true
+          for n in $(gh issue list --label upstream-sync --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --reason "not planned" --comment "Substituída por uma verificação mais recente."
+          done
+          body="O \`lang/en.json\` do [Foundryborne/daggerheart](https://github.com/Foundryborne/daggerheart/blob/HEAD/lang/en.json) difere do nosso. Atualize as traduções para Português do Brasil.
+
+          - Novas traduções a adicionar: **${{ steps.diff.outputs.added }}**
+          - Textos em inglês alterados: ${{ steps.diff.outputs.changed }}
+          - Chaves removidas: ${{ steps.diff.outputs.removed }}"
+          gh issue create --repo "$GITHUB_REPOSITORY" --label upstream-sync \
+            --title "Atualizar traduções pt-BR ($(date +%Y-%m)): ${{ steps.diff.outputs.added }} novas" \
+            --body "$body"
