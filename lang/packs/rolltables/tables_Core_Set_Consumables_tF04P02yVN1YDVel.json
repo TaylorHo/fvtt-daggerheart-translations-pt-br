@@ -1,16 +1,13 @@
 {
-  "name": "Core Set Consumables",
+  "name": "Consumíveis do Conjunto Básico",
   "img": "icons/consumables/potions/bottle-corked-red.webp",
-  "description": "<p>The following table includes the consumables from the Daggerheart Core Set.</p>",
+  "description": "<p>A tabela a seguir inclui os consumíveis do Conjunto Básico de Daggerheart.</p>",
   "results": [
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "name": "Stride Potion",
+      "range": [1, 1],
+      "name": "Poção da Velocidade",
       "img": "icons/consumables/potions/potion-flask-corked-cyan.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.lNtcrkgFGOJNaroE",
       "_id": "HitkUdk2TJyIifWX",
@@ -33,11 +30,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "name": "Bolster Potion",
+      "range": [2, 2],
+      "name": "Poção do Impulso",
       "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.FOPQNqXbiVO0ilYL",
       "_id": "nXdPwzbs1TlhuAPG",
@@ -60,11 +54,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "name": "Control Potion",
+      "range": [3, 3],
+      "name": "Poção de Controle",
       "img": "icons/consumables/potions/flask-corked-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.eeBhZSGLjuNZuJuI",
       "_id": "3vNNo1oURhYA3ku3",
@@ -87,11 +78,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "name": "Attune Potion",
+      "range": [4, 4],
+      "name": "Poção da Sintonia",
       "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.JGD3M9hBHtVAA8XP",
       "_id": "eIfprIpZdRJCoBQ7",
@@ -114,11 +102,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "name": "Charm Potion",
+      "range": [5, 5],
+      "name": "Poção do Charme",
       "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.CVBbFfOY75YwyQsp",
       "_id": "LFWeiTR9rC34Tg03",
@@ -141,11 +126,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "name": "Enlighten Potion",
+      "range": [6, 6],
+      "name": "Poção da Iluminação",
       "img": "icons/consumables/potions/vial-cork-empty.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.aWHSO2AqDufi7nL4",
       "_id": "9wcVzrpjZHL87dGg",
@@ -168,11 +150,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "name": "Minor Health Potion",
+      "range": [7, 7],
+      "name": "Poção de Vida Menor",
       "img": "icons/consumables/potions/potion-tube-corked-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.tPfKtKRRjv8qdSqy",
       "_id": "1IBI7K2c7tyhq9nK",
@@ -195,11 +174,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        8,
-        8
-      ],
-      "name": "Minor Stamina Potion",
+      "range": [8, 8],
+      "name": "Poção de Vigor Menor",
       "img": "icons/consumables/potions/potion-tube-corked-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.b6vGSPFWOlzZZDLO",
       "_id": "1D9VOgGRjhy6eWqA",
@@ -222,11 +198,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "name": "Grindletooth Venom",
+      "range": [9, 9],
+      "name": "Veneno de Presâmia",
       "img": "icons/consumables/potions/bottle-conical-corked-labeled-skull-poison-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.8WkhvSzeOmLdnoLJ",
       "_id": "Nqj2K2UDP27sAkUK",
@@ -249,11 +222,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "name": "Varik Leaves",
+      "range": [10, 10],
+      "name": "Folhas de Varik",
       "img": "icons/consumables/plants/leaf-serrated-pink.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.hvy5BkG3F6iOIXTx",
       "_id": "6ynsrta3MiinHg38",
@@ -276,11 +246,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        11,
-        11
-      ],
-      "name": "Vial of Moondrip",
+      "range": [11, 11],
+      "name": "Frasco de Gota Lunar",
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.VqEX5YwK5oL3r1t6",
       "_id": "UDPco0e4rvz8Ch8X",
@@ -303,11 +270,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        12,
-        12
-      ],
-      "name": "Unstable Arcane Shard",
+      "range": [12, 12],
+      "name": "Fragmento Arcano Instável",
       "img": "icons/commodities/gems/gem-faceted-cushion-teal-black.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.mUepnLbkvFk0ha4Z",
       "_id": "xQV1Uvhy1TqjEpH1",
@@ -330,11 +294,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        13,
-        13
-      ],
-      "name": "Potion of Stability",
+      "range": [13, 13],
+      "name": "Poção da Estabilidade",
       "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.dvL8oaxpEF6jKvYN",
       "_id": "pz4dXNbMYuSbFdzN",
@@ -357,11 +318,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        14,
-        14
-      ],
-      "name": "Improved Grindletooth Venom",
+      "range": [14, 14],
+      "name": "Veneno de Presâmia Aprimorado",
       "img": "icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.BqBWXXe9T07AMV4u",
       "_id": "sqdq6x4SEqLdHDPM",
@@ -384,11 +342,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        15,
-        15
-      ],
-      "name": "Morphing Clay",
+      "range": [15, 15],
+      "name": "Pó do Estalo",
       "img": "icons/commodities/stone/ore-chunk-brown.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.f1NHVSIHJJCIOaBl",
       "_id": "tceGvaaN4diOnr6V",
@@ -411,11 +366,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        16,
-        16
-      ],
-      "name": "Vial of Darksmoke",
+      "range": [16, 16],
+      "name": "Frasco de Fumaça Negra",
       "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.Nwv5ydGf0MWnzq1n",
       "_id": "QtGq1JKzwBzWX6Sd",
@@ -438,11 +390,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        17,
-        17
-      ],
-      "name": "Jumping Root",
+      "range": [17, 17],
+      "name": "Raiz da Cambalhota",
       "img": "icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.c2putn9apuurJhWX",
       "_id": "lidCdzbTqahcajZb",
@@ -465,11 +414,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        18,
-        18
-      ],
-      "name": "Snap Powder",
+      "range": [18, 18],
+      "name": "Molde de Argila",
       "img": "icons/commodities/materials/bowl-powder-gold.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.cg6VtQ0eVZjDdcK0",
       "_id": "m37ithF7wXFYrv6H",
@@ -492,11 +438,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        19,
-        19
-      ],
-      "name": "Health Potion",
+      "range": [19, 19],
+      "name": "Poção de Vida",
       "img": "icons/consumables/potions/bottle-corked-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.Aruc2NLutWuVIjP1",
       "_id": "RFrvEnE7WyDw2YWK",
@@ -519,11 +462,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        20,
-        20
-      ],
-      "name": "Stamina Potion",
+      "range": [20, 20],
+      "name": "Poção de Vigor",
       "img": "icons/consumables/potions/bottle-corked-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.hf3k1POoVSooJyN2",
       "_id": "Lgs8ccMBUaq0XCHs",
@@ -546,11 +486,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        21,
-        21
-      ],
-      "name": "Armor Stitcher",
+      "range": [21, 21],
+      "name": "Remendo de Armadura",
       "img": "icons/skills/trades/textiles-stitching-leather-brown.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.VlbsCjvvLNfTzNXb",
       "_id": "S2nsHwVRSFMbVlKh",
@@ -573,11 +510,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        22,
-        22
-      ],
-      "name": "Gill Salve",
+      "range": [22, 22],
+      "name": "Unguento de Guelras",
       "img": "icons/commodities/materials/bowl-powder-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.Nvbb9mze6o5D0AEg",
       "_id": "B3cL4jMj0eaW8utR",
@@ -600,11 +534,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        23,
-        23
-      ],
-      "name": "Replication Parchment",
+      "range": [23, 23],
+      "name": "Pergaminho da Cópia",
       "img": "icons/sundries/scrolls/scroll-worn-beige.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.yJkwz4AP6yhGo8Vj",
       "_id": "sgkt4zYiFSQMOmvo",
@@ -627,11 +558,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        24,
-        24
-      ],
-      "name": "Improved Arcane Shard",
+      "range": [24, 24],
+      "name": "Fragmento Arcano Aprimorado",
       "img": "icons/commodities/gems/gem-faceted-teardrop-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.nQTo6mNoPTEVBtkm",
       "_id": "CCuzy7Y3KasoCouV",
@@ -654,11 +582,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        25,
-        25
-      ],
-      "name": "Major Stride Potion",
+      "range": [25, 25],
+      "name": "Poção da Velocidade Maior",
       "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.yK6eEDUrsPbZA8G0",
       "_id": "TtXvBYeeMqQ4gDhO",
@@ -681,11 +606,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        26,
-        26
-      ],
-      "name": "Major Bolster Potion",
+      "range": [26, 26],
+      "name": "Poção do Impulso Maior",
       "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.mnyQDRtngWWQeRXF",
       "_id": "cRwTxLNJXMVKFW75",
@@ -708,11 +630,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        27,
-        27
-      ],
-      "name": "Major Control Potion",
+      "range": [27, 27],
+      "name": "Poção de Controle Maior",
       "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.80s1FLmTLtohZ5GH",
       "_id": "q15EknW1P2cw4oyb",
@@ -735,11 +654,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        28,
-        28
-      ],
-      "name": "Major Attune Potion",
+      "range": [28, 28],
+      "name": "Poção da Sintonia Maior",
       "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.CCPFm5iXXwvyYYwR",
       "_id": "tkj1X675uJMTkMTR",
@@ -762,11 +678,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        29,
-        29
-      ],
-      "name": "Major Charm Potion",
+      "range": [29, 29],
+      "name": "Poção do Charme Maior",
       "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.IJLAUlQymbSjzsri",
       "_id": "N6ImVJLHEOXxFSAE",
@@ -789,11 +702,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        30,
-        30
-      ],
-      "name": "Major Enlighten Potion",
+      "range": [30, 30],
+      "name": "Poção da Iluminação Maior",
       "img": "icons/consumables/potions/bottle-corked-empty.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.SDdv1G2veMLKrxcJ",
       "_id": "NuHqSzBX7daJRor8",
@@ -816,11 +726,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        31,
-        31
-      ],
-      "name": "Blood of the Yorgi",
+      "range": [31, 31],
+      "name": "Sangue dos Yorgi",
       "img": "icons/consumables/potions/potion-tube-corked-bat-gold-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.pDGzmczoTlKGmKgd",
       "_id": "jpOQNSqbtl0ry3UU",
@@ -843,11 +750,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        32,
-        32
-      ],
-      "name": "Homet's Secret Potion",
+      "range": [32, 32],
+      "name": "Poção Secreta de Homet",
       "img": "icons/consumables/potions/conical-ornate-purple.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.VSwa1LpQ9PjZKsWF",
       "_id": "QQsRU8GRbQeFU3KP",
@@ -870,11 +774,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        33,
-        33
-      ],
-      "name": "Redthorn Saliva",
+      "range": [33, 33],
+      "name": "Saliva de Espinho-Vermelho",
       "img": "icons/commodities/materials/slime-thick-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.s2Exl2XFuoOhtIov",
       "_id": "UJfqKp0GtIrUEPyb",
@@ -897,11 +798,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        34,
-        34
-      ],
-      "name": "Channelstone",
+      "range": [34, 34],
+      "name": "Pedra Canalizadora",
       "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.IKMVQ6VwtapwoUim",
       "_id": "VHCnZip35MMw57CG",
@@ -924,11 +822,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        35,
-        35
-      ],
-      "name": "Mythic Dust",
+      "range": [35, 35],
+      "name": "Pó Mítico",
       "img": "icons/commodities/materials/bowl-powder-grey.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.Zsh2AvZr8EkGtLyw",
       "_id": "zphlOIuZBXFZcEVa",
@@ -951,11 +846,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        36,
-        36
-      ],
-      "name": "Acidpaste",
+      "range": [36, 36],
+      "name": "Pasta Ácida",
       "img": "icons/commodities/materials/bowl-powder-teal.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.cfVFmS8vT9dbq9s1",
       "_id": "bVFt8cYycBuUItfq",
@@ -978,11 +870,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        37,
-        37
-      ],
-      "name": "Hopehold Flare",
+      "range": [37, 37],
+      "name": "Fogareiro da Esperança",
       "img": "icons/commodities/tech/smoke-bomb-purple.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.EhaQCPJ8oiqpRIwB",
       "_id": "atidisB2nCu9CF3b",
@@ -1005,11 +894,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        38,
-        38
-      ],
-      "name": "Major Arcane Shard",
+      "range": [38, 38],
+      "name": "Fragmento Arcano Maior",
       "img": "icons/commodities/gems/gem-rough-round-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.AA7bmiwv00lshPrC",
       "_id": "VQ75yVBccK73Gif3",
@@ -1032,11 +918,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        39,
-        39
-      ],
-      "name": "Featherbone",
+      "range": [39, 39],
+      "name": "Osso-Pena",
       "img": "icons/commodities/bones/bones-stack-worn-brown.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.DpxEMpwfasEBpORU",
       "_id": "hPKdeNWzJqCuFfjX",
@@ -1059,11 +942,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        40,
-        40
-      ],
-      "name": "Circle of the Void",
+      "range": [40, 40],
+      "name": "Círculo do Vazio",
       "img": "icons/magic/unholy/orb-glowing-purple.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.elsyP6VhHw1JjGSl",
       "_id": "sh98CSXJL593xj0h",
@@ -1086,11 +966,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        41,
-        41
-      ],
-      "name": "Sun Tree Sap",
+      "range": [41, 41],
+      "name": "Seiva da Árvore do Sol",
       "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.kwexUzdM9wm1Qums",
       "_id": "lL2638NxooIcWgfL",
@@ -1113,11 +990,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        42,
-        42
-      ],
-      "name": "Dripfang Poison",
+      "range": [42, 42],
+      "name": "Veneno de Presa Gotejante",
       "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.eU8VpbWB2NHIL47n",
       "_id": "xXPyThPKW3noUC1t",
@@ -1140,11 +1014,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        43,
-        43
-      ],
-      "name": "Major Health Potion",
+      "range": [43, 43],
+      "name": "Poção de Vida Maior",
       "img": "icons/consumables/potions/bottle-round-label-cork-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.cM7pHe8bBAxSZ2xR",
       "_id": "x2EnrXxULti4Chpb",
@@ -1167,11 +1038,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        44,
-        44
-      ],
-      "name": "Major Stamina Potion",
+      "range": [44, 44],
+      "name": "Poção de Vigor Maior",
       "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.I4cQ03xbxnc81EGa",
       "_id": "2WsA7zyGFJROyf8n",
@@ -1194,11 +1062,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        45,
-        45
-      ],
-      "name": "Ogre Musk",
+      "range": [45, 45],
+      "name": "Almíscar de Ogro",
       "img": "icons/commodities/materials/slime-thick-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.qr1bosjFcUfuwq4B",
       "_id": "vNlix6NqUSWwq2MU",
@@ -1221,11 +1086,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        46,
-        46
-      ],
-      "name": "Wingsprout",
+      "range": [46, 46],
+      "name": "Asas Mágicas",
       "img": "icons/consumables/plants/leaf-broad-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.n10vozlmosVR6lo4",
       "_id": "iCj1YAinJxuGT2EN",
@@ -1248,11 +1110,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        47,
-        47
-      ],
-      "name": "Jar of Lost Voices",
+      "range": [47, 47],
+      "name": "Jarra de Vozes Perdidas",
       "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.yUol6M5b8jsbk9za",
       "_id": "mTq9bibanrSynx3t",
@@ -1275,11 +1134,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        48,
-        48
-      ],
-      "name": "Dragonbloom Tea",
+      "range": [48, 48],
+      "name": "Chá de Erva-Dragão",
       "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.wM18PWWW2Ami4fBG",
       "_id": "oEKTJg1p52E1NVqm",
@@ -1302,11 +1158,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        49,
-        49
-      ],
-      "name": "Bridge Seed",
+      "range": [49, 49],
+      "name": "Semente da Ponte",
       "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.RrIasiMCt6mqVTps",
       "_id": "viK90OvIqxwj8kcD",
@@ -1329,11 +1182,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        50,
-        50
-      ],
-      "name": "Sleeping Sap",
+      "range": [50, 50],
+      "name": "Seiva do Sono",
       "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.XZavUVlHEvE2srEt",
       "_id": "7bOHwnq9xyBXT0Or",
@@ -1356,11 +1206,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        51,
-        51
-      ],
-      "name": "Feast of Xuria",
+      "range": [51, 51],
+      "name": "Ceia de Xuria",
       "img": "icons/consumables/food/bowl-stew-tofu-potato-red.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.aX6NyxkNzu0LcJpt",
       "_id": "aF8qVVOuVHUCyDon",
@@ -1383,11 +1230,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        52,
-        52
-      ],
-      "name": "Bonding Honey",
+      "range": [52, 52],
+      "name": "Mel da União",
       "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.PfQvqopXgvroBklL",
       "_id": "dXbNSYrZs1LpnX2D",
@@ -1410,11 +1254,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        53,
-        53
-      ],
-      "name": "Shrinking Potion",
+      "range": [53, 53],
+      "name": "Poção do Encolhimento",
       "img": "icons/consumables/potions/flask-decorated-label-pink.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.HGixKenQwhyRAYNk",
       "_id": "YpBzj89kfEpjmhO7",
@@ -1437,11 +1278,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        54,
-        54
-      ],
-      "name": "Growing Potion",
+      "range": [54, 54],
+      "name": "Poção do Crescimento",
       "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.fl2f3ees8RFMze9t",
       "_id": "3QHLVvfKx73UTKmm",
@@ -1464,11 +1302,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        55,
-        55
-      ],
-      "name": "Knowledge Stone",
+      "range": [55, 55],
+      "name": "Pedra do Conhecimento",
       "img": "icons/commodities/treasure/token-engraved-blue-glowing.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.nL9IALzm9BNi5oSt",
       "_id": "C4MpR7mBHjIiPRzo",
@@ -1491,11 +1326,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        56,
-        56
-      ],
-      "name": "Sweet Moss",
+      "range": [56, 56],
+      "name": "Musgo Doce",
       "img": "icons/consumables/plants/succulent-bundle-green.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.GrDrRqWgv7gvl9vn",
       "_id": "Z5UPngFMi7TSojoM",
@@ -1518,11 +1350,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        57,
-        57
-      ],
-      "name": "Blinding Orb",
+      "range": [57, 57],
+      "name": "Orbe Cegante",
       "img": "icons/magic/light/explosion-star-large-blue-yellow.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.eAXHdzA5qNPldOpn",
       "_id": "bMCETSm5oYxdpRyu",
@@ -1545,11 +1374,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        58,
-        58
-      ],
-      "name": "Death Tea",
+      "range": [58, 58],
+      "name": "Chá da Morte",
       "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.xDnJeF1grkmKck8Q",
       "_id": "wkAnGk1yLHE6bzfr",
@@ -1572,11 +1398,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        59,
-        59
-      ],
-      "name": "Mirror of Marigold",
+      "range": [59, 59],
+      "name": "Espelho-Maravilha",
       "img": "icons/commodities/treasure/token-silver-blue.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.UFQVwgYOUZ88UxcH",
       "_id": "XKAAfJUyqwRSRgh1",
@@ -1599,11 +1422,8 @@
     {
       "type": "document",
       "weight": 1,
-      "range": [
-        60,
-        60
-      ],
-      "name": "Stardrop",
+      "range": [60, 60],
+      "name": "Gota Estelar",
       "img": "icons/magic/light/projectiles-star-purple.webp",
       "documentUuid": "Compendium.daggerheart.consumables.Item.y4c1jrlHrf0wBWOq",
       "_id": "91ALaXvFQDOq5h2A",
@@ -1630,22 +1450,22 @@
   "flags": {
     "daggerheart": {
       "activeAltFormula": "",
-      "formulaName": "Common",
+      "formulaName": "Comum",
       "altFormula": {
         "FGxM2yoxUUUd9Eov": {
-          "name": "Common/Uncommon",
+          "name": "Comum/Incomum",
           "formula": "2d12"
         },
         "Gq6mOIPwSCiJDs9G": {
-          "name": "Uncommon/Rare",
+          "name": "Incomum/Raro",
           "formula": "3d12"
         },
         "siQEVVIEI3QS0tjG": {
-          "name": "Rare/Legendary",
+          "name": "Raro/Lendário",
           "formula": "4d12"
         },
         "0IzFB1jGWCR7TzTT": {
-          "name": "Legendary",
+          "name": "Lendário",
           "formula": "5d12"
         }
       }

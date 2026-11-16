@@ -681,8 +681,8 @@
                     "title": "Determinar o tamanho do grupo",
                     "text": "Não há Conjunto ativo no mundo ou ele está vazio. Informe manualmente o número de personagens jogadores."
                 },
-                "chatMessageTitle": "Consequências do GM",
-                "chatMessageText": "O GM ganha medo",
+                "chatMessageTitle": "Consequências do Mestre",
+                "chatMessageText": "O Mestre ganha medo",
                 "activeEffectPathViewer": "Visualizar caminho de efeitos ativos"
             },
             "DeleteConfirmation": {
@@ -3545,7 +3545,7 @@
                     "label": "Identificador"
                 },
                 "gmNotes": {
-                    "label": "Notas do GM"
+                    "label": "Notas do Mestre"
                 },
                 "quantity": {
                     "label": "Quantidade"
@@ -3570,7 +3570,7 @@
                 }
             },
             "Base": {
-                "addGMNote": "Adicionar Nota GM",
+                "addGMNote": "Adicionar Nota do Mestre",
                 "viewReference": "Ver detalhes completos",
                 "Refresh": {
                     "Title": "Atualizar do Compêndio",
@@ -4410,7 +4410,7 @@
                 "knowTheTide": "Know The Tide ganhou um token",
                 "lackingItemTransferPermission": "O usuário {user} não tem permissão de proprietário necessária para transferir itens para {target}",
                 "noTokenTargeted": "Nenhum token é direcionado",
-                "behaviorRegionRequiresGM": "Criar uma região com um comportamento anexado requer um GM online",
+                "behaviorRegionRequiresGM": "Criar uma região com um comportamento anexado requer um Mestre online",
                 "comboDiceOnlyTwoDiceError": "A funcionalidade de dados combinados só funciona em um único par de dois dados",
                 "reloadRequired": "A {weapon} deve ser recarregada para ser usada!",
                 "partnerRequired": "Um parceiro deve ser designado para usar esta ação.",

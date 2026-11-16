@@ -1,10 +1,10 @@
 {
-  "name": "Welcome - Information",
+  "name": "Boas-vindas - Informações",
   "_id": "g7NhKvwltwafmMyR",
   "pages": [
     {
       "sort": 100000,
-      "name": "The Daggerheart System",
+      "name": "O Sistema Daggerheart",
       "type": "text",
       "_id": "Qn12vkbvV4m8LW3E",
       "system": {},
@@ -15,7 +15,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Greetings prospective GM or Player. The Foundryborne team hopes you'll have a great time using the system and enjoying Daggerheart.</p><p>We've included some good to know information here as a first time message. You refer back to this journal in the Compendium Journals.</p><p></p><p>You can find the comprehensive documentation for the system here:</p><p><a href=\"https://github.com/Foundryborne/daggerheart/wiki\" title=\"System Documentation\">System Documentation</a></p>"
+        "content": "<p>Saudações, futuro Mestre ou Jogador. A equipe Foundryborne espera que você se divirta muito usando o sistema e aproveitando Daggerheart.</p><p>Incluímos aqui algumas informações úteis como uma mensagem de primeiro contato. Você pode consultar este diário novamente nos Diários do Compêndio.</p><p></p><p>Você encontra a documentação completa do sistema aqui:</p><p><a href=\"https://github.com/Foundryborne/daggerheart/wiki\" title=\"Documentação do Sistema\">Documentação do Sistema</a></p>"
       },
       "video": {
         "controls": true,
@@ -43,7 +43,7 @@
     },
     {
       "sort": 200000,
-      "name": "Automation / Manual",
+      "name": "Automação / Manual",
       "type": "text",
       "_id": "VBhZyON3eZi6dfo7",
       "system": {},
@@ -54,7 +54,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The system supports various levels of automation. You find these settings in the <strong>Automation</strong> system settings.</p><p>The most immediate choice you should make is if you want to use the game setting for `Levelup Automation`. You should make a choice there, and then not change it during play to avoid potential unwanted oddities.</p><p></p><hr><blockquote><p>Some parts of the system are not currently automated due to technical limitations. If something is not working correctly you always have the option to manually adjust things to be correct.</p><p>We plan to find a solution for these cases in the future.</p><p>This especially includes things that need a check for specific inventory/loadout conditions, or some actions that have complex conditions or scaling. We hope to find a solution for all of these cases in the future.</p></blockquote><hr>"
+        "content": "<p>O sistema oferece suporte a vários níveis de automação. Você encontra essas opções nas configurações de <strong>Automação</strong> do sistema.</p><p>A escolha mais imediata é se você quer usar a configuração de jogo `Automação de Subida de Nível`. Faça essa escolha e depois não a altere durante o jogo, para evitar comportamentos indesejados.</p><p></p><hr><blockquote><p>Algumas partes do sistema atualmente não são automatizadas devido a limitações técnicas. Se algo não estiver funcionando corretamente, você sempre pode ajustar as coisas manualmente.</p><p>Pretendemos encontrar uma solução para esses casos no futuro.</p><p>Isso inclui especialmente situações que exigem a verificação de condições específicas de inventário/loadout, ou ações com condições ou escalonamento complexos. Esperamos encontrar uma solução para todos esses casos no futuro.</p></blockquote><hr>"
       },
       "video": {
         "controls": true,
@@ -82,7 +82,7 @@
     },
     {
       "sort": 300000,
-      "name": "Dice Rolling",
+      "name": "Rolagem de Dados",
       "type": "text",
       "_id": "PQdKJiorsBUEcPLk",
       "system": {},
@@ -93,7 +93,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>This system includes support for the <a href=\"https://foundryvtt.com/packages/dice-so-nice\" title=\"Dice so Nice! Module\">Dice so Nice!</a> module.</p><p>It is not required to use this module, but when it is installed <em>and enabled</em> you will find additional Appearance Settings in the settings for this system, where you can customize the look of your Hope, Fear, Advantage, and Disadvantage Dice.</p>"
+        "content": "<p>Este sistema inclui suporte ao módulo <a href=\"https://foundryvtt.com/packages/dice-so-nice\" title=\"Módulo Dice so Nice!\">Dice so Nice!</a>.</p><p>Não é obrigatório usar esse módulo, mas, quando ele está instalado <em>e ativado</em>, você encontrará Configurações de Aparência adicionais nas configurações deste sistema, onde poderá personalizar o visual dos seus Dados de Esperança, Medo, Vantagem e Desvantagem.</p>"
       },
       "video": {
         "controls": true,
@@ -121,7 +121,7 @@
     },
     {
       "sort": 400000,
-      "name": "Credits",
+      "name": "Créditos",
       "type": "text",
       "_id": "dP6xSKEld4TSqHhK",
       "system": {},
@@ -132,7 +132,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<blockquote><p>This product includes materials from the Daggerheart System Reference Document 1.0, © Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License. More information can be found at <a href=\"https://www.daggerheart.com/\" title=\"Daggerheart Official Website\">https://www.daggerheart.com</a>. There are no previous modifications by others.</p><p></p></blockquote><h1>The Foundryborne Team</h1><p></p><p>The Foundryborne Team consists of:</p><p></p><ul><li><p>@harryfuralle</p></li><li><p>@cptn_cosmo</p></li><li><p>@molilo</p></li><li><p>@joaquinp98</p></li><li><p>@dapoulp</p></li><li><p>@ikraik</p></li><li><p>@irktheimp</p></li><li><p>@jacobwojo</p></li><li><p>@vyrth</p></li><li><p>@.ontaro</p></li><li><p>@saatsin</p></li><li><p>@david.xyz</p></li><li><p>@lazjen</p></li><li><p>@Skarlso</p></li></ul><p></p><p>With Art from:</p><p></p><ul><li><p>@molilo (Foundryborne User Interface &amp; Domain Card Placeholder Artwork)</p></li><li><p>@UsernameIsInUse (Foundryborne Logo, Website Design, Duality Roll Icon</p></li><li><p>@CyrensMaps (Combat Wheelchair Icons)</p></li></ul><p></p><p>And special thanks to our hard working community testers:<br></p><ul><li><p>@lazjen</p></li></ul><p></p><p>We would also like to thank the FoundryVTT team for their support in publishing this system, as well as providing countless Icons to be used in many places.</p><p>And, of course, special thanks to the teams at Critical Role and Darrington Press for making such a wonderful game and updating the license to allow a FoundryVTT version of the system.</p><p></p><h1>The Foundryborne Community</h1><p></p><p>Without our amazing community this project would not have been possible.</p><p>You kept us going with both direct contributions and just endless support!</p><p>We thank you with all our hearts.</p><p><a href=\"https://foundryborne.online/\" title=\"Foundryborne official website\">Come join us!</a></p>"
+        "content": "<blockquote><p>Este produto inclui materiais do Daggerheart System Reference Document 1.0, © Critical Role, LLC., sob os termos da Licença Darrington Press Community Gaming (DPCGL). Mais informações podem ser encontradas em <a href=\"https://www.daggerheart.com/\" title=\"Site Oficial de Daggerheart\">https://www.daggerheart.com</a>. Não há modificações anteriores feitas por terceiros.</p><p></p></blockquote><h1>A Equipe Foundryborne</h1><p></p><p>A Equipe Foundryborne é composta por:</p><p></p><ul><li><p>@harryfuralle</p></li><li><p>@cptn_cosmo</p></li><li><p>@molilo</p></li><li><p>@joaquinp98</p></li><li><p>@dapoulp</p></li><li><p>@ikraik</p></li><li><p>@irktheimp</p></li><li><p>@jacobwojo</p></li><li><p>@vyrth</p></li><li><p>@.ontaro</p></li><li><p>@saatsin</p></li><li><p>@david.xyz</p></li><li><p>@lazjen</p></li><li><p>@Skarlso</p></li></ul><p></p><p>Com arte de:</p><p></p><ul><li><p>@molilo (Interface de Usuário Foundryborne e Arte Provisória das Cartas de Domínio)</p></li><li><p>@UsernameIsInUse (Logo Foundryborne, Design do Site, Ícone de Rolagem de Dualidade</p></li><li><p>@CyrensMaps (Ícones de Cadeira de Rodas em Combate)</p></li></ul><p></p><p>E agradecimentos especiais aos nossos dedicados testadores da comunidade:<br></p><ul><li><p>@lazjen</p></li></ul><p></p><p>Também gostaríamos de agradecer à equipe do FoundryVTT pelo apoio na publicação deste sistema, além de fornecer incontáveis ícones usados em muitos lugares.</p><p>E, claro, agradecimentos especiais às equipes da Critical Role e da Darrington Press por criarem um jogo tão maravilhoso e por atualizarem a licença para permitir uma versão do sistema para FoundryVTT.</p><p></p><h1>A Comunidade Foundryborne</h1><p></p><p>Sem nossa incrível comunidade, este projeto não teria sido possível.</p><p>Vocês nos mantiveram em frente com contribuições diretas e apoio sem fim!</p><p>Agradecemos de todo o coração.</p><p><a href=\"https://foundryborne.online/\" title=\"Site oficial do Foundryborne\">Venha se juntar a nós!</a></p>"
       },
       "video": {
         "controls": true,
