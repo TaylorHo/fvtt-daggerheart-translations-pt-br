@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "I Am the Weapon",
+  "name": "Eu Sou a Arma",
   "folder": "Rd0lGlKoru8CE1WB",
   "_id": "WgUrpNTlX92k0Xs3",
   "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler's Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals <strong>d8+d6</strong> physical damage using your Proficiency (both the <strong>d8</strong> and <strong>d6</strong> scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.</p>",
+    "description": "<p>Seus ataques de mãos nuas são tão fortes quanto qualquer lâmina. Você tem uma arma principal chamada Golpe de Lutador equipada enquanto não tiver outras Armas Ativas. Ela usa um atributo à sua escolha, tem alcance Corpo a Corpo e causa dano físico de <strong>d8+d6</strong> usando sua Proficiência (tanto o <strong>d8</strong> quanto o <strong>d6</strong> escalam com a sua Proficiência). Enquanto esta arma estiver ativa, você ganha +1 de bônus na sua Evasão.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},
@@ -19,7 +19,7 @@
   },
   "effects": [
     {
-      "name": "I Am the Weapon",
+      "name": "Eu Sou a Arma",
       "type": "base",
       "system": {
         "changes": [
@@ -34,10 +34,8 @@
             "type": "standardAttack",
             "phase": "initial",
             "value": {
-              "name": "Brawler's Strike",
-              "damageTypes": [
-                "physical"
-              ],
+              "name": "Golpe de Lutador",
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "highest",
               "damageFormula": "@profd8 + @profd6",
@@ -72,7 +70,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Your barehanded attacks are as strong as any blade. You have a primary weapon called Brawler's Strike equipped while you have no other Active Weapons. It uses a trait of your choice, has Melee range, and deals <strong>d8+d6</strong> physical damage using your Proficiency (both the <strong>d8</strong> and <strong>d6</strong> scale off your Proficiency). While this weapon is active, you gain a +1 bonus to your Evasion.</p>",
+      "description": "<p>Seus ataques de mãos nuas são tão fortes quanto qualquer lâmina. Você tem uma arma principal chamada Golpe de Lutador equipada enquanto não tiver outras Armas Ativas. Ela usa um atributo à sua escolha, tem alcance Corpo a Corpo e causa dano físico de <strong>d8+d6</strong> usando sua Proficiência (tanto o <strong>d8</strong> quanto o <strong>d6</strong> escalam com a sua Proficiência). Enquanto esta arma estiver ativa, você ganha +1 de bônus na sua Evasão.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

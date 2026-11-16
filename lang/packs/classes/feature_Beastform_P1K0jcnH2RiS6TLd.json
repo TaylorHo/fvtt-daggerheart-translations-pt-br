@@ -1,11 +1,11 @@
 {
   "folder": "GzNP2ejA3XoGSDRu",
-  "name": "Beastform",
+  "name": "Forma de Fera",
   "type": "feature",
   "_id": "P1K0jcnH2RiS6TLd",
   "img": "icons/magic/nature/wolf-paw-glow-large-green.webp",
   "system": {
-    "description": "<p>Mark a Stress to magically transform into a creature of your tier or lower from the Beastform list. You can drop out of this form at any time. While transformed, you can't use weapons or cast spells from domain cards, but you can still use other features or abilities you have access to. Spells you cast before you transform stay active and last for their normal duration, and you can talk and communicate as normal. Additionally, you gain the Beastform's features, add their Evasion bonus to your Evasion, and use the trait specified in their statistics for your attack. While you're in a Beastform, your armor becomes part of your body and you mark Armor Slots as usual; when you drop out of a Beastform, those marked Armor Slots remain marked. If you mark your last Hit Point, you automatically drop out of this form.</p>",
+    "description": "<p>Marque 1 Fadiga para se transformar magicamente em uma criatura do seu patamar ou inferior da lista de Formas de Fera. Você pode sair dessa forma a qualquer momento. Enquanto transformado, você não pode usar armas nem lançar feitiços de cartas de domínio, mas ainda pode usar outras habilidades ou capacidades às quais tenha acesso. Feitiços que você lançou antes de se transformar permanecem ativos e duram o tempo normal, e você pode falar e se comunicar normalmente. Além disso, você ganha as características da Forma de Fera, soma o bônus de Evasão dela à sua Evasão e usa o atributo especificado nas estatísticas dela para o seu ataque. Enquanto estiver em uma Forma de Fera, sua armadura se torna parte do seu corpo e você marca Espaços de Armadura normalmente; ao sair de uma Forma de Fera, esses Espaços de Armadura marcados permanecem marcados. Se você marcar seu último Ponto de Vida, você sai automaticamente dessa forma.</p>",
     "resource": null,
     "actions": {
       "MN2U7f7ypnQeg1PY": {
@@ -39,7 +39,7 @@
             "traitBonuses": []
           }
         },
-        "name": "Beastform",
+        "name": "Forma de Fera",
         "img": "icons/magic/nature/wolf-paw-glow-large-green.webp",
         "range": "",
         "baseAction": false,

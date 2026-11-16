@@ -1,14 +1,11 @@
 {
-  "name": "Guardian",
+  "name": "Guardião",
   "type": "class",
   "_id": "nRAyoC0fOzXPDa4z",
   "img": "icons/equipment/shield/heater-wooden-sword-green.webp",
   "system": {
-    "description": "<p>The title of guardian represents an array of martial professions, speaking more to their moral compass and unshakeable fortitude than the means by which they fight. While many guardians join groups of militants for either a country or cause, they're more likely to follow those few they truly care for, majority be damned. Guardians are known for fighting with remarkable ferocity even against overwhelming odds, defending their cohort above all else. Woe betide those who harm the ally of a guardian, as the guardian will answer this injury in kind.</p>",
-    "domains": [
-      "valor",
-      "blade"
-    ],
+    "description": "<p>O título de guardião representa uma série de profissões marciais, falando mais sobre sua bússola moral e fortitude inabalável do que sobre o modo como lutam. Embora muitos guardiões se juntem a grupos militantes por um país ou causa, são mais propensos a seguir os poucos que realmente estimam, custe o que custar. Guardiões são conhecidos por lutar com ferocidade notável mesmo contra probabilidades esmagadoras, defendendo seu grupo acima de tudo. Ai daqueles que ferirem o aliado de um guardião, pois o guardião responderá a essa ofensa na mesma moeda.</p>",
+    "domains": ["valor", "blade"],
     "classItems": [],
     "hitPoints": 7,
     "evasion": 9,
@@ -57,14 +54,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "Who from your community did you fail to protect, and why do you still think of them?",
-      "You've been tasked with protecting something important and delivering\nit somewhere dangerous. What is it, and where does it need to go?",
-      "You consider an aspect of yourself to be a weakness. What is it, and how has it affected you?"
+      "Quem da sua comunidade você não conseguiu proteger, e por que ainda pensa nessa pessoa?",
+      "Você foi encarregado de proteger algo importante e entregá-lo\nem um lugar perigoso. O que é, e para onde precisa ir?",
+      "Você considera um aspecto seu uma fraqueza. Qual é, e como isso afetou você?"
     ],
     "connections": [
-      "How did I save your life the first time we met?",
-      "What small gift did you give me that you notice I always carry with me?",
-      "What lie have you told me about yourself that I absolutely believe?"
+      "Como salvei sua vida na primeira vez em que nos encontramos?",
+      "Que pequeno presente você me deu que percebo que sempre carrego comigo?",
+      "Que mentira você me contou sobre si mesmo em que eu acredito piamente?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

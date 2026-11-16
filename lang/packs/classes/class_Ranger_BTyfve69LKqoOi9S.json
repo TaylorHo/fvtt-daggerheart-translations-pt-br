@@ -1,14 +1,11 @@
 {
-  "name": "Ranger",
+  "name": "Patrulheiro",
   "type": "class",
   "_id": "BTyfve69LKqoOi9S",
   "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
   "system": {
-    "description": "<p>Rangers are highly skilled hunters who, despite their martial abilities, rarely lend their skills to an army. Through mastery of the body and a deep understanding of the wilderness, rangers become sly tacticians, pursuing their quarry with cunning and patience. Many rangers track and fight alongside an animal companion with whom they've forged a powerful spiritual bond. By honing their skills in the wild, rangers become expert trackers, as likely to ensnare their foes in a trap as they are to assail them head-on.</p>",
-    "domains": [
-      "bone",
-      "sage"
-    ],
+    "description": "<p>Patrulheiros são caçadores altamente habilidosos que, apesar de suas capacidades marciais, raramente emprestam suas habilidades a um exército. Pelo domínio do corpo e por um profundo entendimento da natureza selvagem, patrulheiros se tornam estrategistas astutos, perseguindo suas presas com esperteza e paciência. Muitos patrulheiros rastreiam e lutam ao lado de um companheiro animal com quem forjaram um poderoso laço espiritual. Ao aprimorar suas habilidades na natureza, patrulheiros se tornam rastreadores especialistas, tão propensos a prender seus inimigos em uma armadilha quanto a atacá-los de frente.</p>",
+    "domains": ["bone", "sage"],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 12,
@@ -57,14 +54,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "A terrible creature hurt your community, and you've vowed to hunt them down. What are they, and what unique trail or sign do they leave behind?",
-      "Your first kill almost killed you, too. What was it, and what part of you was never the same after that event?",
-      "You've traveled many dangerous lands, but what is the one place you refuse to go?"
+      "Uma terrível criatura feriu sua comunidade, e você jurou caçá-la. O que ela é, e que rastro ou sinal peculiar ela deixa para trás?",
+      "Sua primeira morte quase matou você também. O que foi, e que parte de você nunca mais foi a mesma depois desse evento?",
+      "Você viajou por muitas terras perigosas, mas qual é o único lugar aonde se recusa a ir?"
     ],
     "connections": [
-      "What friendly competition do we have?",
-      "Why do you act differently when we're alone than when others are around?",
-      "What threat have you asked me to watch for, and why are you worried about it?"
+      "Que competição amistosa temos?",
+      "Por que você age de modo diferente quando estamos a sós do que quando há outras pessoas por perto?",
+      "Que ameaça você me pediu para vigiar, e por que isso preocupa você?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

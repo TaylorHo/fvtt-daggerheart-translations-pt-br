@@ -1,11 +1,11 @@
 {
   "folder": "A7yYfCMQ8NMwDLX1",
-  "name": "Attack Of Opportunity",
+  "name": "Ataque de Oportunidade",
   "type": "feature",
   "_id": "3hNVqD1c0VIw2Nj5",
   "img": "icons/skills/melee/strike-sword-slashing-red.webp",
   "system": {
-    "description": "<p>If an adversary within Melee range attempts to leave that range, make a reaction roll using a trait of your choice against their Difficulty. Choose one effect on a success, or two if you critically succeed:</p><ul><li><p>They can't move from where they are.</p></li><li><p>You deal damage to them equal to your primary weapon's damage.</p></li><li><p>You move with them.</p></li></ul>",
+    "description": "<p>Se um adversário em alcance Corpo a Corpo tentar sair desse alcance, faça uma jogada de reação usando um atributo à sua escolha contra a Dificuldade dele. Escolha um efeito em caso de sucesso, ou dois se você tiver sucesso crítico:</p><ul><li><p>Ele não pode se mover de onde está.</p></li><li><p>Você causa dano a ele igual ao dano da sua arma principal.</p></li><li><p>Você se move com ele.</p></li></ul>",
     "resource": null,
     "actions": {
       "SOuw91PqJqsFJUVO": {
@@ -57,7 +57,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Reaction Roll",
+        "name": "Rolagem de Reação",
         "range": ""
       }
     },

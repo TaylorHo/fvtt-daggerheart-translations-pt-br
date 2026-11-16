@@ -1,14 +1,11 @@
 {
-  "name": "Warrior",
+  "name": "Guerreiro",
   "type": "class",
   "_id": "xCUWwJz4WSthvLfy",
   "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
   "system": {
-    "description": "<p>Becoming a warrior requires years, often a lifetime, of training and dedication to the mastery of weapons and violence. While many who seek to fight hone only their strength, warriors understand the importance of an agile body and mind, making them some of the most sought-after fighters across the realms. Frequently, warriors find employment within an army, a band of mercenaries, or even a royal guard, but their potential is wasted in any position where they cannot continue to improve and expand their skills. Warriors are known to have a favored weapon; to come between them and their blade would be a grievous mistake.</p>",
-    "domains": [
-      "blade",
-      "bone"
-    ],
+    "description": "<p>Tornar-se um guerreiro exige anos, muitas vezes uma vida inteira, de treinamento e dedicação ao domínio das armas e da violência. Enquanto muitos que buscam lutar aprimoram apenas sua força, guerreiros entendem a importância de um corpo e uma mente ágeis, o que os torna alguns dos combatentes mais procurados em todos os reinos. Com frequência, guerreiros encontram trabalho em um exército, em um bando de mercenários ou até em uma guarda real, mas seu potencial é desperdiçado em qualquer posição em que não possam continuar a melhorar e expandir suas habilidades. Guerreiros são conhecidos por ter uma arma favorita; interpor-se entre eles e sua lâmina seria um erro grave.</p>",
+    "domains": ["blade", "bone"],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 11,
@@ -61,14 +58,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "Who taught you to fight, and why did they stay behind when you left home?",
-      "Somebody defeated you in battle years ago and left you to die. Who was it, and how did they betray you?",
-      "What legendary place have you always wanted to visit, and why is it so special?"
+      "Quem ensinou você a lutar, e por que essa pessoa ficou para trás quando você saiu de casa?",
+      "Alguém derrotou você em batalha anos atrás e deixou você para morrer. Quem foi, e como traiu você?",
+      "Que lugar lendário você sempre quis visitar, e por que ele é tão especial?"
     ],
     "connections": [
-      "We knew each other long before this party came together. How?",
-      "What mundane task do you usually help me with off the battlefield?",
-      "What fear am I helping you overcome?"
+      "Nós nos conhecíamos muito antes de este grupo se formar. Como?",
+      "Que tarefa mundana você costuma me ajudar a fazer fora do campo de batalha?",
+      "Que medo estou ajudando você a superar?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

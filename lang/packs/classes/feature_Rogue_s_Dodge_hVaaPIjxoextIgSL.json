@@ -1,11 +1,11 @@
 {
   "folder": "5pExRcJAOymlMX9D",
-  "name": "Rogue's Dodge",
+  "name": "Esquiva do Ladino",
   "type": "feature",
   "_id": "hVaaPIjxoextIgSL",
   "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
   "system": {
-    "description": "<p><strong>Spend 3 Hope</strong> to gain a +2 bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest.</p>",
+    "description": "<p><strong>Gaste 3 de Esperança</strong> para ganhar +2 de bônus na sua Evasão até a próxima vez que um ataque for bem-sucedido contra você. Caso contrário, esse bônus dura até o seu próximo descanso.</p>",
     "resource": null,
     "actions": {
       "GbQca7YphTh7skHG": {
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
         "range": "self",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Rogue's Dodge",
+      "name": "Esquiva do Ladino",
       "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
       "transfer": false,
       "_id": "hhVjBro2osGDTT5g",
@@ -81,7 +81,7 @@
         ],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until the next time an attack succeeds against you.</p>"
+          "description": "<p>Até a próxima vez que um ataque for bem-sucedido contra você.</p>"
         },
         "stacking": {
           "max": null,
@@ -98,7 +98,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p><strong>Spend 3 Hope</strong> to gain a +2 bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest.</p>",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para ganhar +2 de bônus na sua Evasão até a próxima vez que um ataque for bem-sucedido contra você. Caso contrário, esse bônus dura até o seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

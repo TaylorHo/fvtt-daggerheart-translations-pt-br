@@ -1,14 +1,11 @@
 {
-  "name": "Rogue",
+  "name": "Ladino",
   "type": "class",
   "_id": "CvHlkHZfpMiCz5uT",
   "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
   "system": {
-    "description": "<p>Rogues are scoundrels, often in both attitude and practice. Broadly known as liars and thieves, the best among this class move through the world anonymously. Utilizing their sharp wits and blades, rogues trick their foes through social manipulation as easily as breaking locks, climbing through windows, or dealing underhanded blows. These masters of magical craft manipulate shadow and movement, adding an array of useful and deadly tools to their repertoire. Rogues frequently establish guilds to meet future accomplices, hire out jobs, and hone secret skills, proving that there's honor among thieves for those who know where to look.</p>",
-    "domains": [
-      "midnight",
-      "grace"
-    ],
+    "description": "<p>Ladinos são patifes, muitas vezes tanto na atitude quanto na prática. Amplamente conhecidos como mentirosos e ladrões, os melhores desta classe se movem pelo mundo no anonimato. Usando sua inteligência afiada e suas lâminas, ladinos enganam seus inimigos por manipulação social tão facilmente quanto arrombam fechaduras, entram por janelas ou desferem golpes baixos. Esses mestres do ofício mágico manipulam sombra e movimento, acrescentando uma variedade de ferramentas úteis e mortais ao seu repertório. Ladinos frequentemente fundam guildas para conhecer futuros cúmplices, contratar trabalhos e aprimorar habilidades secretas, provando que há honra entre ladrões para quem sabe onde procurar.</p>",
+    "domains": ["midnight", "grace"],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 12,
@@ -61,14 +58,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "What did you get caught doing that got you exiled from your home community?",
-      "You used to have a different life, but you've tried to leave it behind. Who from your past is still chasing you?",
-      "Who from your past were you most sad to say goodbye to?"
+      "Pelo que você foi pego fazendo que o levou a ser exilado da sua comunidade de origem?",
+      "Você tinha uma vida diferente, mas tentou deixá-la para trás. Quem do seu passado ainda está atrás de você?",
+      "De quem do seu passado foi mais triste se despedir?"
     ],
     "connections": [
-      "What did I recently convince you to do that got us both in trouble?",
-      "What have I discovered about your past that I hold secret from the others?",
-      "Who do you know from my past, and how have they influenced your feelings about me?"
+      "O que eu convenci você a fazer recentemente que nos meteu em encrenca?",
+      "O que descobri sobre o seu passado que guardo em segredo dos outros?",
+      "Quem do meu passado você conhece, e como essa pessoa influenciou seus sentimentos por mim?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

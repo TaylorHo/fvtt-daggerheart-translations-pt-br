@@ -1,10 +1,10 @@
 {
   "folder": "C9y59fIkq50d3SyD",
-  "name": "Rally",
+  "name": "Inspirar",
   "type": "feature",
   "img": "icons/tools/instruments/drum-hand-tan.webp",
   "system": {
-    "description": "<p>Once per session, describe how you rally the party and give yourself and each of your allies a Rally Die. At level 1, your Rally Die is a d6. A PC can spend their Rally Die to roll it, adding the result to their action roll, reaction roll, damage roll, or to clear a number of Stress equal to the result. At the end of each session, clear all unspent Rally Dice. At level 5, your Rally Die increases to a d8.</p>",
+    "description": "<p>Uma vez por sessão, descreva como você inspira o grupo e dê a si mesmo e a cada um dos seus aliados um Dado de Inspiração. No nível 1, seu Dado de Inspiração é um d6. Um PJ pode gastar seu Dado de Inspiração para rolá-lo, somando o resultado à sua jogada de ação, jogada de reação, jogada de dano, ou para limpar uma quantidade de Fadiga igual ao resultado. No fim de cada sessão, limpe todos os Dados de Inspiração não gastos. No nível 5, seu Dado de Inspiração aumenta para um d8.</p>",
     "resource": null,
     "actions": {
       "vI4Fph3y9ygsya9e": {
@@ -31,7 +31,7 @@
           "type": "friendly",
           "amount": null
         },
-        "name": "Rally your allies!",
+        "name": "Inspire seus aliados!",
         "img": "icons/tools/instruments/drum-hand-tan.webp",
         "range": "",
         "baseAction": false,
@@ -54,7 +54,7 @@
   },
   "effects": [
     {
-      "name": "Rally",
+      "name": "Inspirar",
       "img": "icons/tools/instruments/drum-hand-tan.webp",
       "transfer": false,
       "_id": "FrSJH9vzDHkFGYQL",

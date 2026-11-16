@@ -1,10 +1,10 @@
 {
-  "name": "Volatile Magic",
+  "name": "Magia Volátil",
   "type": "feature",
   "_id": "ieiQlD0joWSqt53D",
   "img": "icons/magic/lightning/barrier-shield-orb-pink.webp",
   "system": {
-    "description": "<p><strong>Spend 3 Hope</strong> to reroll any number of your damage dice on an attack that deals magic damage.</p>",
+    "description": "<p><strong>Gaste 3 de Esperança</strong> para rolar novamente qualquer quantidade dos seus dados de dano em um ataque que cause dano mágico.</p>",
     "resource": null,
     "actions": {
       "JQPMlMLYMs84rWIy": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend 3 Hope",
+        "name": "Gaste 3 de Esperança",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,

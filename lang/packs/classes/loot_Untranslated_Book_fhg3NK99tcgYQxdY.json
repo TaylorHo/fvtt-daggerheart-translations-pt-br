@@ -1,11 +1,11 @@
 {
   "folder": "utPGR3Z1uORKlNQw",
-  "name": "Untranslated Book",
+  "name": "Livro Não Traduzido",
   "type": "loot",
   "_id": "fhg3NK99tcgYQxdY",
   "img": "icons/sundries/books/book-embossed-spiral-purple-white.webp",
   "system": {
-    "description": "<p>A book you're trying to translate.</p>",
+    "description": "<p>Um livro que você está tentando traduzir.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {},

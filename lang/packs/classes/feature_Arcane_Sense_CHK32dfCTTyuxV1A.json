@@ -1,11 +1,11 @@
 {
   "folder": "oNhnBt8HZ2oaSnSn",
-  "name": "Arcane Sense",
+  "name": "Sentido Arcano",
   "type": "feature",
   "_id": "CHK32dfCTTyuxV1A",
   "img": "icons/magic/perception/third-eye-blue-red.webp",
   "system": {
-    "description": "<p>You can sense the presence of magical people and objects within Close range.</p>",
+    "description": "<p>Você pode sentir a presença de pessoas e objetos mágicos em alcance Próximo.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

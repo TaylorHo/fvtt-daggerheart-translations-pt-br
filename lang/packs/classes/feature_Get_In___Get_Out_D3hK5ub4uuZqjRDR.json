@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Get In & Get Out",
+  "name": "Entrar e Sair",
   "folder": "SivG5XFjrC0Rnh91",
   "_id": "D3hK5ub4uuZqjRDR",
   "img": "icons/tools/navigation/map-chart-tan.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Spend a Hope</strong> to ask the GM for a quick or inconspicuous way into or out of a place you can see. The next roll you make that acts on this information has advantage.</p>",
+    "description": "<p><strong>Gaste 1 de Esperança</strong> para pedir ao Mestre uma forma rápida ou discreta de entrar ou sair de um lugar que você consiga ver. A próxima jogada que você fizer com base nessa informação tem vantagem.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

@@ -1,14 +1,11 @@
 {
   "folder": null,
-  "name": "Bard",
+  "name": "Bardo",
   "type": "class",
   "img": "icons/tools/instruments/harp-red.webp",
   "system": {
-    "description": "<p>Bards are the most charismatic people in all the realms. Members of this class are masters of captivation and specialize in a variety of performance types, including singing, playing musical instruments, weaving tales, or telling jokes. Whether performing for an audience or speaking to an individual, bards thrive in social situations. Members of this profession bond and train at schools or guilds, but a current of egotism runs through those of the bardic persuasion. While they may be the most likely class to bring people together, a bard of ill temper can just as easily tear a party apart.</p>",
-    "domains": [
-      "grace",
-      "codex"
-    ],
+    "description": "<p>Bardos são as pessoas mais carismáticas de todos os reinos. Membros desta classe são mestres em cativar e se especializam em diversos tipos de performance, como cantar, tocar instrumentos musicais, tecer histórias ou contar piadas. Seja se apresentando para uma plateia ou falando com um indivíduo, bardos prosperam em situações sociais. Membros desta profissão se unem e treinam em escolas ou guildas, mas uma corrente de egocentrismo percorre aqueles de persuasão bárdica. Embora possam ser a classe mais propensa a unir as pessoas, um bardo de mau humor pode destruir um grupo com a mesma facilidade.</p>",
+    "domains": ["grace", "codex"],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
@@ -57,14 +54,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "Who from your community taught you to have such confidence in yourself?",
-      "You were in love once. Who did you adore, and how did they hurt you?",
-      "You've always looked up to another bard. Who are they, and why do you idolize them?"
+      "Quem da sua comunidade ensinou você a ter tanta confiança em si mesmo?",
+      "Você já esteve apaixonado. Quem você adorava, e como essa pessoa magoou você?",
+      "Você sempre admirou outro bardo. Quem é, e por que você o idolatra?"
     ],
     "connections": [
-      "What made you realize we were going to be such good friends?",
-      "What do I do that annoys you?",
-      "Why do you grab my hand at night?"
+      "O que fez você perceber que seríamos tão bons amigos?",
+      "O que eu faço que irrita você?",
+      "Por que você segura minha mão à noite?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

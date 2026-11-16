@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Combo Strike",
+  "name": "Golpe Combinado",
   "folder": "Rd0lGlKoru8CE1WB",
   "_id": "LtG3pKzd4gtfLgFJ",
   "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>After rolling damage on a successful attack with a Melee weapon, you can <strong>mark a Stress</strong> to start a combo strike. When you do, roll your Combo Die and note the result, then continue rolling your Combo Die until the result of your latest roll is lower than the roll that preceded it. You deal extra damage equal to the total of all rolled Combo Die results on this attack. The results can't be modified by any means.</p><p>Your Combo Die starts as a <strong>d4</strong>. Once per tier, you can increase your Combo Die by one step as a level advancement option.</p>",
+    "description": "<p>Após rolar o dano de um ataque bem-sucedido com uma arma Corpo a Corpo, você pode <strong>marcar 1 Fadiga</strong> para iniciar um golpe combinado. Ao fazer isso, role seu Dado de Combo e anote o resultado; em seguida, continue rolando seu Dado de Combo até que o resultado da última rolagem seja menor que o da rolagem anterior. Você causa dano extra igual ao total de todos os resultados do Dado de Combo rolados neste ataque. Os resultados não podem ser modificados por nenhum meio.</p><p>Seu Dado de Combo começa como um <strong>d4</strong>. Uma vez por patamar, você pode aumentar seu Dado de Combo em um nível como opção de avanço de nível.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -34,9 +34,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "physical"
-            ],
+            "type": ["physical"],
             "itemId": null
           },
           "resources": {}
@@ -73,7 +71,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },

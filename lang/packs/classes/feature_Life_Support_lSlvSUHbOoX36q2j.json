@@ -1,11 +1,11 @@
 {
   "folder": "xIlwXYiea893J5HF",
-  "name": "Life Support",
+  "name": "Suporte de Vida",
   "type": "feature",
   "_id": "lSlvSUHbOoX36q2j",
   "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
   "system": {
-    "description": "<p><strong>Spend 3 Hope</strong> to clear a Hit Point on an ally within Close range.</p>",
+    "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar 1 Ponto de Vida de um aliado em alcance Próximo.</p>",
     "resource": null,
     "actions": {
       "7xzDLC2PrlK1E2XO": {
@@ -74,7 +74,7 @@
           },
           "useDefault": false
         },
-        "name": "Healing",
+        "name": "Cura",
         "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
         "range": "close",
         "baseAction": false,

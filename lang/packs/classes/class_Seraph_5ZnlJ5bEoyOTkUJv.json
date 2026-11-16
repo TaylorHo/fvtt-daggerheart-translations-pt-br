@@ -1,14 +1,11 @@
 {
-  "name": "Seraph",
+  "name": "Serafim",
   "type": "class",
   "_id": "5ZnlJ5bEoyOTkUJv",
   "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
   "system": {
-    "description": "<p>Seraphs are divine fighters and healers imbued with sacred purpose. A wide array of deities exist within the realms, and thus numerous kinds of seraphs are appointed by these gods. Their ethos traditionally aligns with the domain or goals of their god, such as defending the weak, exacting vengeance, protecting a land or artifact, or upholding a particular faith. Some seraphs ally themselves with an army or locale, much to the satisfaction of their rulers, but other crusaders fight in opposition to the follies of the Mortal Realm. It is better to be a seraph's ally than their enemy, as they are terrifying foes to those who defy their purpose.</p>",
-    "domains": [
-      "valor",
-      "splendor"
-    ],
+    "description": "<p>Serafins são lutadores e curandeiros divinos imbuídos de um propósito sagrado. Uma grande variedade de divindades existe nos reinos e, por isso, vários tipos de serafins são designados por esses deuses. Seu ethos tradicionalmente se alinha ao domínio ou aos objetivos de seu deus, como defender os fracos, exigir vingança, proteger uma terra ou artefato, ou sustentar uma fé em particular. Alguns serafins se aliam a um exército ou local, para grande satisfação de seus governantes, mas outros cruzados lutam em oposição às loucuras do Reino Mortal. É melhor ser aliado de um serafim do que seu inimigo, pois são inimigos aterrorizantes para aqueles que desafiam seu propósito.</p>",
+    "domains": ["valor", "splendor"],
     "classItems": [],
     "hitPoints": 7,
     "evasion": 9,
@@ -57,14 +54,14 @@
       "artist": ""
     },
     "backgroundQuestions": [
-      "Which god did you devote yourself to? What incredible feat did they perform for you in a moment of desperation?",
-      "How did your appearance change after taking your oath?",
-      "In what strange or unique way do you communicate with your god?"
+      "A qual deus você se devotou? Que feito incrível ele realizou por você em um momento de desespero?",
+      "Como sua aparência mudou depois que você fez seu juramento?",
+      "De que modo estranho ou peculiar você se comunica com o seu deus?"
     ],
     "connections": [
-      "What promise did you make me agree to, should you die on the battlefield?",
-      "Why do you ask me so many questions about my god?",
-      "You've told me to protect one member of our party above all others, even yourself. Who are they and why?"
+      "Que promessa você me fez concordar em cumprir caso você morra no campo de batalha?",
+      "Por que você me faz tantas perguntas sobre o meu deus?",
+      "Você me disse para proteger um membro do nosso grupo acima de todos os outros, até de você mesmo. Quem é e por quê?"
     ],
     "gmNotes": "",
     "levelupOptionTiers": {

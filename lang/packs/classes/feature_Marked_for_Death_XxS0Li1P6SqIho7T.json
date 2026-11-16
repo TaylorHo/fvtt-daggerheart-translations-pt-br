@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Marked for Death",
+  "name": "Marca da Morte",
   "folder": "SivG5XFjrC0Rnh91",
   "_id": "XxS0Li1P6SqIho7T",
   "img": "icons/magic/death/skull-trio-badge-purple.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>On a successful weapon attack, you can <strong>mark a Stress</strong> to make the target <em>Marked for Death</em>. When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your tier to the damage roll.</p><p>You can have only one adversary <em>Marked for Death</em> at a time. This condition lasts until you take a rest, the current adversary <em>Marked for Death</em> is defeated, or the GM spends a number of Fear equal to your tier to clear it.</p>",
+    "description": "<p>Em um ataque com arma bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para fazer do alvo uma <em>Marca da Morte</em>. Quando você causar dano a um alvo que marcou com a <em>Marca da Morte</em>, some à jogada de dano uma quantidade de <strong>d4</strong> igual ao seu patamar.</p><p>Você só pode ter um adversário com a <em>Marca da Morte</em> por vez. Essa condição dura até você fazer um descanso, o adversário atual com a <em>Marca da Morte</em> ser derrotado, ou o Mestre gastar uma quantidade de Medo igual ao seu patamar para removê-la.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -18,7 +18,7 @@
         "_id": "oMIvhtdhs9xi7juE",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>On a successful weapon attack, you can <strong>mark a Stress</strong> to make the target <em>Marked for Death</em>. When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your tier to the damage roll.</p>",
+        "description": "<p>Em um ataque com arma bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para fazer do alvo uma <em>Marca da Morte</em>. Quando você causar dano a um alvo que marcou com a <em>Marca da Morte</em>, some à jogada de dano uma quantidade de <strong>d4</strong> igual ao seu patamar.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },
@@ -62,10 +62,10 @@
   },
   "effects": [
     {
-      "name": "Marked For Death",
+      "name": "Marca da Morte",
       "disabled": false,
       "img": "icons/magic/death/skull-trio-badge-purple.webp",
-      "description": "<p>When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your tier to the damage roll.</p><p>You can have only one adversary <em>Marked for Death</em> at a time. This condition lasts until you take a rest, the current adversary <em>Marked for Death</em> is defeated, or the GM spends a number of Fear equal to your tier to clear it.</p>",
+      "description": "<p>Quando você causar dano a um alvo que marcou com a <em>Marca da Morte</em>, some à jogada de dano uma quantidade de <strong>d4</strong> igual ao seu patamar.</p><p>Você só pode ter um adversário com a <em>Marca da Morte</em> por vez. Essa condição dura até você fazer um descanso, o adversário atual com a <em>Marca da Morte</em> ser derrotado, ou o Mestre gastar uma quantidade de Medo igual ao seu patamar para removê-la.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -106,7 +106,7 @@
       "_key": "!items.effects!XxS0Li1P6SqIho7T.JLvo5LKRfs0mMHAj"
     },
     {
-      "name": "Marked For Death",
+      "name": "Marca da Morte",
       "type": "base",
       "system": {
         "changes": [
@@ -144,7 +144,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you deal damage to a target you've <em>Marked for Death</em>, add a number of <strong>d4s</strong> equal to your tier to the damage roll.</p>",
+      "description": "<p>Quando você causar dano a um alvo que marcou com a <em>Marca da Morte</em>, some à jogada de dano uma quantidade de <strong>d4</strong> igual ao seu patamar.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

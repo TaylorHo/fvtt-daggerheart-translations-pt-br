@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "Assassin",
+  "name": "Assassino",
   "type": "class",
   "_id": "0EFzupppM47Bl6Yw",
   "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -11,12 +11,9 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Assassins are masters at inflicting deadly injuries with precise strikes. Unlike those who wield violence as only a means to an end, assassins approach death as a profession. Many members of this class believe theirs is a worthy, if not sacred, trade, and some join guilds to hone their craft, define their beliefs, and earn money. People from all walks of life hire assassins for their skills: powerful rulers looking to avoid all-out war, business leaders seeking to eliminate the competition, and even average people hoping to settle a grudge. Often, an assassin is the last resort for killing those previously believed to be unkillable. While some of these deadly professionals will destroy anyone in their path for the right reasons or the right price, others hold strict moral codes or personal rules that dictate their targets. Those who end up the target of an assassin should count themselves among the dead.</p>",
+    "description": "<p>Assassinos são mestres em infligir ferimentos mortais com golpes precisos. Diferente daqueles que usam a violência apenas como meio para um fim, assassinos encaram a morte como uma profissão. Muitos membros desta classe acreditam que seu ofício é digno, quando não sagrado, e alguns se juntam a guildas para aprimorar sua arte, definir suas crenças e ganhar dinheiro. Pessoas de todas as camadas contratam assassinos por suas habilidades: governantes poderosos que querem evitar uma guerra total, líderes de negócios que desejam eliminar a concorrência e até pessoas comuns que esperam acertar contas com um rancor. Muitas vezes, um assassino é o último recurso para matar aqueles antes considerados impossíveis de matar. Enquanto alguns desses profissionais mortais destruirão qualquer um em seu caminho pelas razões certas ou pelo preço certo, outros seguem códigos morais rígidos ou regras pessoais que ditam seus alvos. Quem se tornar alvo de um assassino deve se considerar entre os mortos.</p>",
     "gmNotes": "",
-    "domains": [
-      "blade",
-      "midnight"
-    ],
+    "domains": ["blade", "midnight"],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 12,
@@ -63,14 +60,14 @@
       "suggestedArmor": "Compendium.daggerheart.armors.Item.uL6AvEhXGaFlzjjS"
     },
     "backgroundQuestions": [
-      "You once killed someone you were close to. What happened, and how did it change you?",
-      "What organization trained you in the art of killing, and how did you become a member?",
-      "Throughout your career, one target has eluded you. Who are they, and how have they slipped through your fingers?"
+      "Certa vez você matou alguém próximo a você. O que aconteceu, e como isso mudou você?",
+      "Que organização treinou você na arte de matar, e como você se tornou membro?",
+      "Ao longo da sua carreira, um alvo escapou de você. Quem é, e como ele escorregou por entre os seus dedos?"
     ],
     "connections": [
-      "I've killed someone for you. Who were they?",
-      "How did you save me when I was on the brink of death? What have I promised you as repayment?",
-      "What secret about myself did I tell you, and how did it change your view of me?"
+      "Matei alguém por você. Quem era?",
+      "Como você me salvou quando eu estava à beira da morte? O que prometi a você como pagamento?",
+      "Que segredo sobre mim eu contei a você, e como isso mudou sua visão sobre mim?"
     ],
     "isMulticlass": false,
     "levelupOptionTiers": {

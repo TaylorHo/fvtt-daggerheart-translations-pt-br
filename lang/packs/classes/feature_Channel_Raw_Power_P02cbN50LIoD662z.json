@@ -1,11 +1,11 @@
 {
   "folder": "oNhnBt8HZ2oaSnSn",
-  "name": "Channel Raw Power",
+  "name": "Canalizar Poder Bruto",
   "type": "feature",
   "_id": "P02cbN50LIoD662z",
   "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
   "system": {
-    "description": "<p>Once per long rest, you can place a domain card from your loadout into your vault and choose to either:</p><ul><li><p>Gain Hope equal to the level of the card.</p></li><li><p>Enhance a spell that deals damage, gaining a bonus to your damage roll equal to twice the level of the card.</p></li></ul>",
+    "description": "<p>Uma vez por descanso longo, você pode colocar uma carta de domínio da sua mão no seu cofre e escolher entre:</p><ul><li><p>Ganhar Esperança igual ao nível da carta.</p></li><li><p>Aprimorar um feitiço que cause dano, ganhando um bônus na sua jogada de dano igual ao dobro do nível da carta.</p></li></ul>",
     "resource": null,
     "actions": {
       "YFmqnbMx540su2Ni": {
@@ -27,7 +27,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Channel",
+        "name": "Canalizar",
         "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
         "range": "",
         "baseAction": false,

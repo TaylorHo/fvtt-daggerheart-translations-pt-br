@@ -1,11 +1,11 @@
 {
   "folder": "onLJZkd7ZOMBaFMG",
-  "name": "Ranger's Focus",
+  "name": "Foco do Patrulheiro",
   "type": "feature",
   "_id": "ncLx2P8BOUtrAD38",
   "img": "icons/magic/perception/eye-ringed-green.webp",
   "system": {
-    "description": "<p>Spend a Hope and make an attack against a target. On a success, deal your attack's normal damage and temporarily make the attack's target your Focus. Until this feature ends or you make a different creature your Focus, you gain the following benefits against your Focus:</p><ul><li><p>You know precisely what direction they are in.</p></li><li><p>When you deal damage to them, they must mark a Stress.</p></li><li><p>When you fail an attack against them, you can end your Ranger's Focus feature to reroll your Duality Dice.</p></li></ul>",
+    "description": "<p>Gaste 1 de Esperança e faça um ataque contra um alvo. Em caso de sucesso, cause o dano normal do seu ataque e faça temporariamente do alvo do ataque o seu Foco. Até que esta habilidade termine ou você faça de outra criatura o seu Foco, você ganha os seguintes benefícios contra o seu Foco:</p><ul><li><p>Você sabe precisamente em que direção ele está.</p></li><li><p>Quando você causar dano a ele, ele deve marcar 1 Fadiga.</p></li><li><p>Quando você falhar em um ataque contra ele, você pode encerrar sua habilidade Foco do Patrulheiro para rolar novamente seus Dados de Dualidade.</p></li></ul>",
     "resource": null,
     "actions": {
       "dTkLqUxZpW4xOEKW": {
@@ -41,7 +41,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/perception/eye-ringed-green.webp",
         "range": "",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Ranger's Focus",
+      "name": "Foco do Patrulheiro",
       "img": "icons/magic/perception/eye-ringed-green.webp",
       "transfer": false,
       "_id": "SXi2dQWqpwY9fap4",
@@ -86,7 +86,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Until this feature ends or the ranger makes a different creature their Focus, they gain the following benefits against this adversary:</p><ul><li><p>They know precisely what direction they are in.</p></li><li><p>When they deal damage to them, the adverasry must mark a Stress.</p></li><li><p>When they fail an attack against them, they can end their Ranger's Focus feature to reroll their Duality Dice.</p></li></ul>",
+      "description": "<p>Até que esta habilidade termine ou o patrulheiro faça de outra criatura o seu Foco, ele ganha os seguintes benefícios contra este adversário:</p><ul><li><p>Ele sabe precisamente em que direção o adversário está.</p></li><li><p>Quando ele causar dano ao adversário, este deve marcar 1 Fadiga.</p></li><li><p>Quando ele falhar em um ataque contra o adversário, pode encerrar sua habilidade Foco do Patrulheiro para rolar novamente seus Dados de Dualidade.</p></li></ul>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

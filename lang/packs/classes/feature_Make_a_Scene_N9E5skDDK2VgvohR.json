@@ -1,10 +1,10 @@
 {
   "folder": "C9y59fIkq50d3SyD",
-  "name": "Make a Scene",
+  "name": "Fazer uma Cena",
   "type": "feature",
   "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
   "system": {
-    "description": "<p>Spend <strong>3 Hope</strong> to temporarily <strong>Distract a target</strong> within <strong>Close</strong> range, giving them a <strong>-2 penalty</strong> to their Difficulty.</p>",
+    "description": "<p>Gaste <strong>3 de Esperança</strong> para <strong>Distrair um alvo</strong> temporariamente em alcance <strong>Próximo</strong>, dando a ele uma <strong>penalidade de -2</strong> na Dificuldade.</p>",
     "resource": null,
     "actions": {
       "T6sfMJ9DRvF0IQZ4": {
@@ -40,7 +40,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/commodities/currency/coin-embossed-ruby-gold.webp",
         "range": "",
         "baseAction": false,
@@ -63,7 +63,7 @@
   },
   "effects": [
     {
-      "name": "Make a Scene",
+      "name": "Fazer uma Cena",
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "transfer": false,
       "_id": "8G9zDv1gac6dEHmS",
@@ -94,7 +94,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Giving them a -2 penalty to their Difficulty.</p>",
+      "description": "<p>Dando a eles uma penalidade de -2 na Dificuldade.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

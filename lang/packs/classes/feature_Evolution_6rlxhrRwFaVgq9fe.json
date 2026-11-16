@@ -1,18 +1,18 @@
 {
   "folder": "GzNP2ejA3XoGSDRu",
-  "name": "Evolution",
+  "name": "Evolução",
   "type": "feature",
   "_id": "6rlxhrRwFaVgq9fe",
   "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
   "system": {
-    "description": "<p><strong>Spend 3 Hope</strong> to transform into a Beastform without marking a Stress. When you do, choose one trait to raise by +1 until you drop out of that Beastform.</p>",
+    "description": "<p><strong>Gaste 3 de Esperança</strong> para se transformar em uma Forma de Fera sem marcar Fadiga. Ao fazer isso, escolha um atributo para aumentar em +1 até você sair dessa Forma de Fera.</p>",
     "resource": null,
     "actions": {
       "bj4m9E8ObFT0xDQ4": {
         "type": "beastform",
         "_id": "bj4m9E8ObFT0xDQ4",
         "systemPath": "actions",
-        "description": "<p>Spend 3 Hope to transform into a Beastform without marking a Stress. When you do, choose one trait to raise by +1 until you drop out of that Beastform.</p>",
+        "description": "<p>Gaste 3 de Esperança para se transformar em uma Forma de Fera sem marcar Fadiga. Ao fazer isso, escolha um atributo para aumentar em +1 até você sair dessa Forma de Fera.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
             ]
           }
         },
-        "name": "Beastform",
+        "name": "Forma de Fera",
         "img": "icons/magic/nature/wolf-paw-glow-large-orange.webp",
         "range": "",
         "baseAction": false,

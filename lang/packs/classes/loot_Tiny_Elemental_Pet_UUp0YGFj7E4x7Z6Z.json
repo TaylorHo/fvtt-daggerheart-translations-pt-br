@@ -1,11 +1,11 @@
 {
   "folder": "utPGR3Z1uORKlNQw",
-  "name": "Tiny Elemental Pet",
+  "name": "Pequeno Animal de Estimação Elemental",
   "type": "loot",
   "_id": "UUp0YGFj7E4x7Z6Z",
   "img": "icons/creatures/magical/spirit-fire-orange.webp",
   "system": {
-    "description": "<p>A tiny elemental pet</p>",
+    "description": "<p>Um pequeno animal de estimação elemental</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {},

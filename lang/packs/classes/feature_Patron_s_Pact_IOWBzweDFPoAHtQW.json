@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Patron's Pact",
+  "name": "Pacto do Patrono",
   "folder": "6ckQvoxhWONRq9XJ",
   "_id": "IOWBzweDFPoAHtQW",
   "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>You have committed yourself to a supernatural entity —such as a god, fae, or demon—in exchange for power. Write their name on your character sheet, then work with your GM to determine their sphere of influence (such as Nature, Chaos, Wisdom, Mischief, Love, War, Justice, or Death). Before making an action roll that relates to your patron's sphere of influence, you can <strong>spend a Favor</strong> to call upon their aid, rolling your Patron Die and adding its result to the total. Your Patron Die starts at a <strong>[[/r d6]]</strong> and increases to a <strong>[[/r d8]]</strong> at level 5.</p>",
+    "description": "<p>Você se comprometeu com uma entidade sobrenatural — como um deus, fada ou demônio — em troca de poder. Escreva o nome dela na sua ficha de personagem e depois defina com o seu Mestre sua esfera de influência (como Natureza, Caos, Sabedoria, Travessura, Amor, Guerra, Justiça ou Morte). Antes de fazer uma jogada de ação relacionada à esfera de influência do seu patrono, você pode <strong>gastar 1 Favor</strong> para invocar a ajuda dele, rolando seu Dado de Patrono e somando o resultado ao total. Seu Dado de Patrono começa como um <strong>[[/r d6]]</strong> e aumenta para um <strong>[[/r d8]]</strong> no nível 5.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -22,7 +22,7 @@
         "_id": "7RijWCUdHjGQDkJv",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>Before making an action roll that relates to your patron's sphere of influence, you can <strong>spend a Favor</strong> to call upon their aid, rolling your Patron Die and adding its result to the total. Your Patron Die starts at a <strong>[[/r d6]]</strong> and increases to a <strong>[[/r d8]]</strong> at level 5.</p>",
+        "description": "<p>Antes de fazer uma jogada de ação relacionada à esfera de influência do seu patrono, você pode <strong>gastar 1 Favor</strong> para invocar a ajuda dele, rolando seu Dado de Patrono e somando o resultado ao total. Seu Dado de Patrono começa como um <strong>[[/r d6]]</strong> e aumenta para um <strong>[[/r d8]]</strong> no nível 5.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -71,7 +71,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Roll Patron Dice",
+        "name": "Rolar Dados de Patrono",
         "range": "self"
       }
     },

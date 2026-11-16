@@ -1,11 +1,11 @@
 {
   "folder": "SwEjiVLbnXT2x9Lz",
-  "name": "Strange Patterns",
+  "name": "Padrões Estranhos",
   "type": "feature",
   "_id": "6YsfFjmCGuFYVhT4",
   "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
   "system": {
-    "description": "<p>Choose a number between 1 and 12. When you roll that number on a Duality Die, gain a Hope or clear a Stress.</p><p>You can change this number when you take a long rest.</p>",
+    "description": "<p>Escolha um número entre 1 e 12. Quando você tirar esse número em um Dado de Dualidade, ganhe 1 de Esperança ou limpe 1 de Fadiga.</p><p>Você pode mudar esse número quando fizer um descanso longo.</p>",
     "resource": {
       "type": "diceValue",
       "value": 1,
@@ -74,7 +74,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
         "range": "",
         "triggers": [

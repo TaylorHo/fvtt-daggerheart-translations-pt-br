@@ -1,11 +1,11 @@
 {
   "folder": "5pExRcJAOymlMX9D",
-  "name": "Cloaked",
+  "name": "Camuflado",
   "type": "feature",
   "_id": "5IT8wYa0m1EFw8Zp",
   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
   "system": {
-    "description": "<p>Any time you would be Hidden, you are instead Cloaked. In addition to the benefits of the Hidden condition, while Cloaked you remain unseen if you are stationary when an adversary moves to where they would normally see you. After you make an attack or end a move within line of sight of an adversary, you are no longer Cloaked.</p>",
+    "description": "<p>Sempre que você ficaria Escondido, você fica Camuflado. Além dos benefícios da condição Escondido, enquanto estiver Camuflado você permanece sem ser visto se estiver parado quando um adversário se mover para onde normalmente o veria. Depois que você fizer um ataque ou terminar um movimento na linha de visão de um adversário, você deixa de estar Camuflado.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

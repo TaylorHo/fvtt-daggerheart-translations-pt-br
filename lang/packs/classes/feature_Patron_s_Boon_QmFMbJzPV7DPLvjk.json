@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Patron's Boon",
+  "name": "Dádiva do Patrono",
   "folder": "6ckQvoxhWONRq9XJ",
   "_id": "QmFMbJzPV7DPLvjk",
   "img": "icons/magic/symbols/runes-triangle-orange.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you fail a roll, you can <strong>spend 3 Hope</strong> to reroll with advantage.</p>",
+    "description": "<p>Quando você falhar em uma jogada, pode <strong>gastar 3 de Esperança</strong> para rolar novamente com vantagem.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

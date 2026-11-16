@@ -1,11 +1,11 @@
 {
   "folder": "lddhMu0Dzts6eJc2",
-  "name": "Unstoppable",
+  "name": "Imparável",
   "type": "feature",
   "_id": "PnD2UCgzIlwX6cY3",
   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
   "system": {
-    "description": "<p>Once per long rest, you can become Unstoppable. You gain an Unstoppable Die. At level 1, your Unstoppable Die is a d4. Place it on your character sheet in the space provided, starting with the 1 value facing up. After you make a damage roll that deals 1 or more Hit Points to a target, increase the Unstoppable Die value by one. When the die's value would exceed its maximum value or when the scene ends, remove the die and drop out of Unstoppable. At level 5, your Unstoppable Die increases to a d6. While Unstoppable, you gain the following benefits:</p><ul><li><p>You reduce the severity of physical damage by one threshold (Severe to Major, Major to Minor, Minor to None).</p></li><li><p>You add the current value of the Unstoppable Die to your damage roll.</p></li><li><p>You can't be Restrained or Vulnerable.</p></li></ul><blockquote><p>Tip: If your Unstoppable Die is a d4 and the 4 is currently facing up, you remove the die the next time you would increase it. However, if your Unstoppable Die has increased to a d6 and the 4 is currently facing up, you'll turn it to 5 the next time you would increase it. In this case, you'll remove the die after you would need to increase it higher than 6.</p></blockquote>",
+    "description": "<p>Uma vez por descanso longo, você pode se tornar Imparável. Você ganha um Dado Imparável. No nível 1, seu Dado Imparável é um d4. Coloque-o na sua ficha de personagem, no espaço indicado, começando com o valor 1 voltado para cima. Depois de fazer uma jogada de dano que cause 1 ou mais Pontos de Vida a um alvo, aumente o valor do Dado Imparável em um. Quando o valor do dado excederia seu valor máximo ou quando a cena terminar, remova o dado e deixe de estar Imparável. No nível 5, seu Dado Imparável aumenta para um d6. Enquanto estiver Imparável, você ganha os seguintes benefícios:</p><ul><li><p>Você reduz a severidade do dano físico em um limiar (Grave para Maior, Maior para Menor, Menor para Nenhum).</p></li><li><p>Você soma o valor atual do Dado Imparável à sua jogada de dano.</p></li><li><p>Você não pode ficar Imobilizado nem Vulnerável.</p></li></ul><blockquote><p>Dica: Se seu Dado Imparável é um d4 e o 4 está voltado para cima, você remove o dado na próxima vez que fosse aumentá-lo. Porém, se seu Dado Imparável aumentou para um d6 e o 4 está voltado para cima, você o virará para 5 na próxima vez que fosse aumentá-lo. Nesse caso, você removerá o dado depois que precisasse aumentá-lo além de 6.</p></blockquote>",
     "resource": {
       "type": "die",
       "value": 0,
@@ -44,7 +44,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Become Unstoppable",
+        "name": "Tornar-se Imparável",
         "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
         "range": "",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Unstoppable",
+      "name": "Imparável",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "transfer": false,
       "_id": "xzQtFSuDS48kUdAZ",
@@ -122,7 +122,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<ul><li><p>You add the current value of the Unstoppable Die to your damage roll.</p></li><li><p>You can't be Restrained or Vulnerable.</p></li><li><p>You reduce the severity of physical damage by one threshold (Severe to Major, Major to Minor, Minor to None).</p></li></ul>",
+      "description": "<ul><li><p>Você soma o valor atual do Dado Imparável à sua jogada de dano.</p></li><li><p>Você não pode ficar Imobilizado nem Vulnerável.</p></li><li><p>Você reduz a severidade do dano físico em um limiar (Grave para Maior, Maior para Menor, Menor para Nenhum).</p></li></ul>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
