@@ -1,11 +1,11 @@
 {
   "folder": "Bb9SLVpYHGBrOB59",
-  "name": "School Of War",
+  "name": "Escola da Guerra",
   "type": "subclass",
   "_id": "4y9Ph7RsCIAbkwTk",
   "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp",
   "system": {
-    "description": "<p>Play the School of War if you want to utilize trained magic for violence.</p>",
+    "description": "<p>Escolha Escola da Guerra se quiser usar magia treinada para a violência.</p>",
     "spellcastingTrait": "knowledge",
     "features": [
       {

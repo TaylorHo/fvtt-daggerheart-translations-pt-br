@@ -1,11 +1,11 @@
 {
   "folder": "eykEGWrxYWGmwPDM",
-  "name": "Shadow Stepper",
+  "name": "Passo das Sombras",
   "type": "feature",
   "_id": "hAwTXjhyphiE3aeW",
   "img": "icons/magic/unholy/projectile-smoke-trail-pink.webp",
   "system": {
-    "description": "<p>You can move from shadow to shadow. When you move into an area of darkness or a shadow cast by another creature or object, you can mark a Stress to disappear from where you are and reappear inside another shadow within Far range. When you reappear, you are Cloaked.</p>",
+    "description": "<p>Você pode se mover de sombra em sombra. Quando entrar em uma área de escuridão ou em uma sombra projetada por outra criatura ou objeto, você pode marcar 1 Fadiga para desaparecer de onde está e reaparecer dentro de outra sombra em alcance Distante. Ao reaparecer, você está Camuflado.</p>",
     "resource": null,
     "actions": {
       "g1VIG6VjYKkm11qJ": {
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/unholy/projectile-smoke-trail-pink.webp",
         "range": "far",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Shadow Stepper: Cloaked",
+      "name": "Passo das Sombras: Camuflado",
       "img": "icons/magic/unholy/projectile-smoke-trail-pink.webp",
       "transfer": false,
       "_id": "RYri0b9z5kq74U5n",
@@ -86,7 +86,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can move from shadow to shadow. When you move into an area of darkness or a shadow cast by another creature or object, you can mark a Stress to disappear from where you are and reappear inside another shadow within Far range. When you reappear, you are Cloaked.</p>",
+      "description": "<p>Você pode se mover de sombra em sombra. Quando entrar em uma área de escuridão ou em uma sombra projetada por outra criatura ou objeto, você pode marcar 1 Fadiga para desaparecer de onde está e reaparecer dentro de outra sombra em alcance Distante. Ao reaparecer, você está Camuflado.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

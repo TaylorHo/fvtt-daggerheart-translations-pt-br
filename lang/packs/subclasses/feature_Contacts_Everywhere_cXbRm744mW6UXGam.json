@@ -1,11 +1,11 @@
 {
   "folder": "Ej8GpWNX79Fw5XTP",
-  "name": "Contacts Everywhere",
+  "name": "Contatos em Toda Parte",
   "type": "feature",
   "_id": "cXbRm744mW6UXGam",
   "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
   "system": {
-    "description": "<p>Once per session, you can briefly call on a shady contact. Choose one of the following benefits and describe what brought them here to help you in this moment:</p><ul><li><p>They provide 1 handful of gold, a unique tool, or a mundane object that the situation requires.</p></li><li><p>On your next action roll, their help provides a +3 bonus to the result of your Hope or Fear Die.</p></li><li><p>The next time you deal damage, they snipe from the shadows, adding 2d8 to your damage roll.</p></li></ul>",
+    "description": "<p>Uma vez por sessão, você pode chamar brevemente um contato suspeito. Escolha um dos seguintes benefícios e descreva o que o trouxe até aqui para ajudar você neste momento:</p><ul><li><p>Ele fornece 1 punhado de ouro, uma ferramenta única ou um objeto comum de que a situação precise.</p></li><li><p>Na sua próxima jogada de ação, a ajuda dele dá +3 de bônus ao resultado do seu Dado de Esperança ou de Medo.</p></li><li><p>Na próxima vez que você causar dano, ele atira das sombras, somando 2d8 à sua jogada de dano.</p></li></ul>",
     "resource": null,
     "actions": {
       "GZDYjtPh0lCJ5VNq": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use Feature",
+        "name": "Usar Habilidade",
         "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
         "range": "",
         "baseAction": false,

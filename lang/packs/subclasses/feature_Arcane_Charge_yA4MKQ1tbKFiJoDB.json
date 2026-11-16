@@ -1,11 +1,11 @@
 {
   "folder": "G0anvImB7zZBUe8a",
-  "name": "Arcane Charge",
+  "name": "Carga Arcana",
   "type": "feature",
   "_id": "yA4MKQ1tbKFiJoDB",
   "img": "icons/magic/unholy/barrier-fire-pink.webp",
   "system": {
-    "description": "<p>You can gather magical energy to enhance your capabilities. When you take magic damage, you become Charged. Alternatively, you can spend 2 Hope to become Charged. When you successfully make an attack that deals magic damage while Charged, you can clear your Charge to either gain a +10 bonus to the damage roll or gain a +3 bonus to the Difficulty of a reaction roll the spell causes the target to make. You stop being Charged at your next long rest.</p>",
+    "description": "<p>Você pode reunir energia mágica para aprimorar suas capacidades. Quando sofrer dano mágico, você fica Carregado. Alternativamente, pode gastar 2 de Esperança para ficar Carregado. Quando você fizer com sucesso um ataque que cause dano mágico enquanto estiver Carregado, pode limpar sua Carga para ganhar +10 de bônus na jogada de dano ou +3 de bônus na Dificuldade de uma jogada de reação que o feitiço faça o alvo realizar. Você deixa de estar Carregado no seu próximo descanso longo.</p>",
     "resource": {
       "type": "simple",
       "value": 0,
@@ -29,7 +29,7 @@
   },
   "effects": [
     {
-      "name": "Charged",
+      "name": "Carregado",
       "type": "base",
       "system": {
         "changes": [
@@ -63,7 +63,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you successfully make an attack that deals magic damage while Charged, you can clear your Charge to either gain a +10 bonus to the damage roll or gain a +3 bonus to the Difficulty of a reaction roll the spell causes the target to make. You stop being Charged at your next long rest.</p>",
+      "description": "<p>Quando você fizer com sucesso um ataque que cause dano mágico enquanto estiver Carregado, pode limpar sua Carga para ganhar +10 de bônus na jogada de dano ou +3 de bônus na Dificuldade de uma jogada de reação que o feitiço faça o alvo realizar. Você deixa de estar Carregado no seu próximo descanso longo.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

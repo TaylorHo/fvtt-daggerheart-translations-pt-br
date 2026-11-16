@@ -1,17 +1,17 @@
 {
   "folder": "Ih9KaoVY4bhZPjsn",
-  "name": "Gifted Performer",
+  "name": "Artista Talentoso",
   "type": "feature",
   "img": "icons/tools/instruments/harp-yellow-teal.webp",
   "system": {
-    "description": "<p>You can play three different types of songs, once each per long rest; describe how you perform for others to gain the listed benefit:</p><ul><li><p><strong>Relaxing Song:</strong> You and all allies within Close range clear a Hit Point.</p></li><li><p><strong>Epic Song:</strong> Make a target within Close range temporarily Vulnerable.</p></li><li><p><strong>Heartbreaking Song:</strong> You and all allies within Close range gain a Hope.</p></li></ul>",
+    "description": "<p>Você pode tocar três tipos diferentes de canções, uma vez cada por descanso longo; descreva como você se apresenta para os outros para ganhar o benefício listado:</p><ul><li><p><strong>Canção Relaxante:</strong> Você e todos os aliados em alcance Próximo limpam 1 Ponto de Vida.</p></li><li><p><strong>Canção Épica:</strong> Deixe um alvo em alcance Próximo temporariamente Vulnerável.</p></li><li><p><strong>Canção de Partir o Coração:</strong> Você e todos os aliados em alcance Próximo ganham 1 de Esperança.</p></li></ul>",
     "resource": null,
     "actions": {
       "xvs7ZKm93AlnZD3F": {
         "type": "healing",
         "_id": "xvs7ZKm93AlnZD3F",
         "systemPath": "actions",
-        "description": "<p><strong>You and all allies</strong> within <strong>Close</strong> range <strong>clear a Hit Point</strong>.</p>",
+        "description": "<p><strong>Você e todos os aliados</strong> em alcance <strong>Próximo</strong> <strong>limpam 1 Ponto de Vida</strong>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -64,7 +64,7 @@
           },
           "useDefault": false
         },
-        "name": "Relaxing Song",
+        "name": "Canção Relaxante",
         "img": "icons/environment/wilderness/tree-oak.webp",
         "range": "",
         "baseAction": false,
@@ -78,7 +78,7 @@
         "type": "effect",
         "_id": "nvfJ8rOx8baI6POZ",
         "systemPath": "actions",
-        "description": "<p>Make <strong>a target</strong> within <strong>Close</strong> range temporarily <strong>Vulnerable</strong>.</p>",
+        "description": "<p>Deixe <strong>um alvo</strong> em alcance <strong>Próximo</strong> temporariamente <strong>Vulnerável</strong>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -98,7 +98,7 @@
           "type": "hostile",
           "amount": null
         },
-        "name": "Epic Song",
+        "name": "Canção Épica",
         "img": "icons/skills/targeting/target-strike-triple-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -112,7 +112,7 @@
         "type": "healing",
         "_id": "QTTgKnhpNE2XHz4u",
         "systemPath": "actions",
-        "description": "<p><strong>You and all allies</strong> within <strong>Close</strong> range <strong>gain a Hope</strong>.</p>",
+        "description": "<p><strong>Você e todos os aliados</strong> em alcance <strong>Próximo</strong> <strong>ganham 1 de Esperança</strong>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -165,7 +165,7 @@
           },
           "useDefault": false
         },
-        "name": "Heartbreaking Song",
+        "name": "Canção de Partir o Coração",
         "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
         "range": "close",
         "baseAction": false,
@@ -188,7 +188,7 @@
   },
   "effects": [
     {
-      "name": "Epic Song",
+      "name": "Canção Épica",
       "img": "icons/tools/instruments/harp-yellow-teal.webp",
       "transfer": false,
       "_id": "FK4IdbxluRErfYor",
@@ -211,11 +211,9 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Make a target within Close range temporarily Vulnerable.</p>",
+      "description": "<p>Deixe um alvo em alcance Próximo temporariamente Vulnerável.</p>",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {

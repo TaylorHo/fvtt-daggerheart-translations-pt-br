@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Diminish My Foes",
+  "name": "Enfraquecer Meus Inimigos",
   "folder": "hpGSiLKGH2r4vuLG",
   "_id": "MEpNIeVPWz0RjEos",
   "img": "icons/magic/control/energy-stream-link-large-white.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you succeed with Hope on an action roll against a target, you can <strong>spend any number of Favor</strong> to force the target to mark an equal number of Stress.</p>",
+    "description": "<p>Quando você for bem-sucedido com Esperança em uma jogada de ação contra um alvo, pode <strong>gastar qualquer quantidade de Favor</strong> para forçar o alvo a marcar a mesma quantidade de Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -70,7 +70,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": ""
       }
     },

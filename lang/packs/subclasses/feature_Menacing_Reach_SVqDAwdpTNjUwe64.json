@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Menacing Reach",
+  "name": "Alcance Ameaçador",
   "folder": "hpGSiLKGH2r4vuLG",
   "_id": "SVqDAwdpTNjUwe64",
   "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Spend a Favor</strong> to increase the range of your primary weapon by one step (such as Melee to Very Close or Very Close to Close) to a maximum of Very Far range. This effect ends when you make a successful attack with that weapon.</p>",
+    "description": "<p><strong>Gaste 1 de Favor</strong> para aumentar o alcance da sua arma principal em um nível (como de Corpo a Corpo para Muito Próximo ou de Muito Próximo para Próximo), até um máximo de alcance Muito Distante. Este efeito termina quando você fizer um ataque bem-sucedido com essa arma.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "self"
       }
     },
@@ -62,10 +62,10 @@
   },
   "effects": [
     {
-      "name": "Menacing Reach",
+      "name": "Alcance Ameaçador",
       "disabled": false,
       "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
-      "description": "<p>The range of your primary weapon has been increased by one step (such as Melee to Very Close or Very Close to Close) to a maximum of Very Far range. This effect ends when you make a successful attack with that weapon.</p>",
+      "description": "<p>O alcance da sua arma principal foi aumentado em um nível (como de Corpo a Corpo para Muito Próximo ou de Muito Próximo para Próximo), até um máximo de alcance Muito Distante. Este efeito termina quando você fizer um ataque bem-sucedido com essa arma.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

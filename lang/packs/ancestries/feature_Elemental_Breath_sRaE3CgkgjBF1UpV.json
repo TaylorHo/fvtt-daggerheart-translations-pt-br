@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Elemental Breath",
+  "name": "Sopro Elemental",
   "type": "feature",
   "_id": "sRaE3CgkgjBF1UpV",
   "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
   "system": {
-    "description": "<p>Choose an element for your breath (such as electricity, fire, or ice). You can use this breath against a target or group of targets within Very Close range, treating it as an Instinct weapon that deals <strong>d8</strong> magic damage using your Proficiency.</p>",
+    "description": "<p>Escolha um elemento para o seu sopro (como eletricidade, fogo ou gelo). Você pode usar este sopro contra um alvo ou grupo de alvos em alcance Muito Próximo, tratando-o como uma arma de Instinto que causa <strong>d8</strong> de dano mágico usando sua Proficiência.</p>",
     "resource": null,
     "actions": {
       "a6WROv0OKx0lbYVa": {
@@ -71,12 +71,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Attack",
+        "name": "Ataque",
         "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Elemental Breath",
+            "name": "Sopro Elemental",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",

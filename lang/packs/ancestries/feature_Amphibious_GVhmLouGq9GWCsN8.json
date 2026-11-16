@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Amphibious",
+  "name": "Anfíbio",
   "type": "feature",
   "_id": "GVhmLouGq9GWCsN8",
   "img": "icons/magic/water/bubbles-air-water-light.webp",
   "system": {
-    "description": "<p>You can breathe and move naturally underwater.</p>",
+    "description": "<p>Você pode respirar e se mover naturalmente debaixo d'água.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

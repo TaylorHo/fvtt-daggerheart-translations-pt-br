@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Herbal Remedies",
+  "name": "Remédios de Ervas",
   "folder": "CsC3T8aq5ueUHWqs",
   "_id": "HE0slu6jR0Io2x84",
   "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you or an ally in the scene clears 1 or more Hit Points or Stress as the result of using a consumable, increase the number cleared by 1.</p>",
+    "description": "<p>Quando você ou um aliado na cena limpar 1 ou mais Pontos de Vida ou de Fadiga pelo uso de um consumível, aumente em 1 a quantidade limpa.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

@@ -1,10 +1,10 @@
 {
-  "name": "Warden of Renewal",
+  "name": "Guardião da Renovação",
   "type": "subclass",
   "_id": "xp0XMjYT85Q7E90o",
   "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
   "system": {
-    "description": "<p>Play the Warden of Renewal if you want to use powerful magic to heal your party.</p>",
+    "description": "<p>Escolha Guardião da Renovação se quiser usar magia poderosa para curar seu grupo.</p>",
     "spellcastingTrait": "instinct",
     "features": [
       {

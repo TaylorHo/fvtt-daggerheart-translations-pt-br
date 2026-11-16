@@ -1,11 +1,11 @@
 {
   "folder": "gysKqIL1lVz4g6zg",
-  "name": "Revenge",
+  "name": "Vingança",
   "type": "feature",
   "_id": "oNfA5F9cKwNR7joq",
   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
   "system": {
-    "description": "<p>When an adversary within Melee range succeeds on an attack against you, you can mark 2 Stress to force the attacker to mark a Hit Point.</p>",
+    "description": "<p>Quando um adversário em alcance Corpo a Corpo for bem-sucedido em um ataque contra você, você pode marcar 2 de Fadiga para forçar o atacante a marcar 1 Ponto de Vida.</p>",
     "resource": null,
     "actions": {
       "e00FXbyXZ8bHRY2t": {
@@ -60,7 +60,7 @@
           "amount": 1
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
         "range": "melee",
         "baseAction": false,

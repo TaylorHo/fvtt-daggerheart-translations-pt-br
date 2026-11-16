@@ -1,10 +1,10 @@
 {
-  "name": "Faun",
+  "name": "Fauno",
   "img": "icons/magic/nature/leaf-flower-wreath-glow-green-blue.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Fauns resemble humanoid goats with curving horns, square pupils, and cloven hooves.</p>",
+    "description": "<p>Faunos se parecem com cabras humanoides, com chifres curvos, pupilas quadradas e cascos fendidos.</p>",
     "features": [
       {
         "type": "primary",

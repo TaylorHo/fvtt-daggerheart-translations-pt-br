@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Eye for an Eye",
+  "name": "Olho por Olho",
   "folder": "IiOnM2uWCNuRaQqs",
   "_id": "mHuqYsV0a2MYnLej",
   "img": "icons/skills/melee/shield-block-bash-yellow.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per rest when an adversary within Melee range forces you to mark any number of Hit Points, you can <strong>mark a Stress</strong> to force them to mark the same number of Hit Points.</p>",
+    "description": "<p>Uma vez por descanso, quando um adversário em alcance Corpo a Corpo forçar você a marcar qualquer quantidade de Pontos de Vida, você pode <strong>marcar 1 Fadiga</strong> para forçá-lo a marcar a mesma quantidade de Pontos de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "melee"
       }
     },

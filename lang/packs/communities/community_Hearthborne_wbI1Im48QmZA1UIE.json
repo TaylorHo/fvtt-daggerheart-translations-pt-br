@@ -1,6 +1,6 @@
 {
   "type": "community",
-  "name": "Hearthborne",
+  "name": "Nascido no Lar (Aldeão)",
   "folder": null,
   "system": {
     "loreReference": "hearthborne",
@@ -10,11 +10,9 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Being part of a hearthborne community means you come from humble origins, having lived in a modest village or quaint countryside.</p>",
+    "description": "<p>Fazer parte de uma comunidade Nascida no Lar significa que você vem de origens humildes, tendo vivido em uma vila modesta ou em um campo pitoresco.</p>",
     "gmNotes": "",
-    "features": [
-      "Compendium.daggerheart.communities.Item.u5OSsvjcD8tvf5Gc"
-    ]
+    "features": ["Compendium.daggerheart.communities.Item.u5OSsvjcD8tvf5Gc"]
   },
   "_id": "wbI1Im48QmZA1UIE",
   "img": "icons/environment/settlement/house-farmland-small.webp",

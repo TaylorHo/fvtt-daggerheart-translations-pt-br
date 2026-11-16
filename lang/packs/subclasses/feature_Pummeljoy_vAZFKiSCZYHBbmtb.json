@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Pummeljoy",
+  "name": "Prazer em Espancar (Pummeljoy)",
   "folder": "oMF7y1qlFnNA6EGC",
   "_id": "vAZFKiSCZYHBbmtb",
   "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you critically succeed on a Melee weapon attack, you gain an additional Hope, clear an additional Stress, and gain a +1 bonus to your Proficiency for that attack.</p>",
+    "description": "<p>Quando você tiver sucesso crítico em um ataque com arma Corpo a Corpo, ganha 1 de Esperança adicional, limpa 1 de Fadiga adicional e ganha +1 de bônus na sua Proficiência nesse ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -109,10 +109,10 @@
   },
   "effects": [
     {
-      "name": "Pummeljoy",
+      "name": "Prazer em Espancar (Pummeljoy)",
       "disabled": false,
       "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
-      "description": "<p>Gain a +1 bonus to your Proficiency for that attack.</p>",
+      "description": "<p>Ganhe +1 de bônus na sua Proficiência nesse ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

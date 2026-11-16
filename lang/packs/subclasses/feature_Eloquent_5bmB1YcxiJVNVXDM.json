@@ -1,10 +1,10 @@
 {
   "folder": "bwENCQMM1EMqEk45",
-  "name": "Eloquent",
+  "name": "Eloquente",
   "type": "feature",
   "img": "icons/skills/social/diplomacy-writing-letter.webp",
   "system": {
-    "description": "<p>Your moving words boost morale. Once per session, when you encourage an ally, you can do one of the following:</p><ul><li><p>Allow them to find a mundane object or tool they need.</p></li><li><p>Help an Ally without spending Hope.</p></li><li><p>Give them an additional downtime move during their next rest.</p></li></ul>",
+    "description": "<p>Suas palavras comoventes elevam o moral. Uma vez por sessão, quando você encorajar um aliado, pode fazer uma das seguintes opções:</p><ul><li><p>Permitir que ele encontre um objeto ou ferramenta comum de que precise.</p></li><li><p>Ajudar um Aliado sem gastar Esperança.</p></li><li><p>Dar a ele uma ação de intervalo adicional durante o próximo descanso.</p></li></ul>",
     "resource": null,
     "actions": {
       "o1MWnafbLsXnvSUl": {
@@ -26,7 +26,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use Feature",
+        "name": "Usar Habilidade",
         "img": "icons/skills/social/diplomacy-writing-letter.webp",
         "range": "",
         "baseAction": false,

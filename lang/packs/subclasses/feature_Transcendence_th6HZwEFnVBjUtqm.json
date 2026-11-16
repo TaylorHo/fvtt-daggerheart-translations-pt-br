@@ -1,11 +1,11 @@
 {
   "folder": "G0anvImB7zZBUe8a",
-  "name": "Transcendence",
+  "name": "Transcendência",
   "type": "feature",
   "_id": "th6HZwEFnVBjUtqm",
   "img": "icons/magic/fire/elemental-fire-flying.webp",
   "system": {
-    "description": "<p>Once per long rest, you can transform into a physical manifestation of your element. When you do, describe your transformation and choose two of the following benefits to gain until your next rest:</p><ul><li><p>+4 bonus to your Severe threshold</p></li><li><p>+1 bonus to a character trait of your choice</p></li><li><p>+1 bonus to your Proficiency</p></li><li><p>+2 bonus to your Evasion</p></li></ul>",
+    "description": "<p>Uma vez por descanso longo, você pode se transformar em uma manifestação física do seu elemento. Ao fazer isso, descreva sua transformação e escolha dois dos seguintes benefícios para ganhar até o seu próximo descanso:</p><ul><li><p>+4 de bônus no seu limiar Grave</p></li><li><p>+1 de bônus em um atributo do personagem à sua escolha</p></li><li><p>+1 de bônus na sua Proficiência</p></li><li><p>+2 de bônus na sua Evasão</p></li></ul>",
     "resource": null,
     "actions": {
       "RIbyJjEkCgqoDmyn": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Transform",
+        "name": "Transformar",
         "img": "icons/magic/fire/elemental-fire-flying.webp",
         "range": "",
         "baseAction": false,
@@ -59,7 +59,7 @@
   },
   "effects": [
     {
-      "name": "Bonus to Threshold",
+      "name": "Bônus de Limiar",
       "type": "base",
       "system": {
         "changes": [
@@ -89,7 +89,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+4 bonus to your Severe threshold</p>",
+      "description": "<p>+4 de bônus no seu limiar Grave</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -111,7 +111,7 @@
       "_key": "!items.effects!th6HZwEFnVBjUtqm.zFOpzO3tBJPcZcRc"
     },
     {
-      "name": "Bonus to Trait",
+      "name": "Bônus de Atributo",
       "type": "base",
       "system": {
         "changes": [],
@@ -132,7 +132,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+1 bonus to a character trait of your choice</p>",
+      "description": "<p>+1 de bônus em um atributo do personagem à sua escolha</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -147,7 +147,7 @@
       "_key": "!items.effects!th6HZwEFnVBjUtqm.cTgSmxkTi89y6sbc"
     },
     {
-      "name": "Bonus to Proficiency",
+      "name": "Bônus de Proficiência",
       "type": "base",
       "system": {
         "changes": [
@@ -176,7 +176,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+1 bonus to your Proficiency</p>",
+      "description": "<p>+1 de bônus na sua Proficiência</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -191,7 +191,7 @@
       "_key": "!items.effects!th6HZwEFnVBjUtqm.oWf3iXf4dawdbmzd"
     },
     {
-      "name": "Bonus to Evasion",
+      "name": "Bônus de Evasão",
       "type": "base",
       "system": {
         "changes": [],
@@ -212,7 +212,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+2 bonus to your Evasion</p>",
+      "description": "<p>+2 de bônus na sua Evasão</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

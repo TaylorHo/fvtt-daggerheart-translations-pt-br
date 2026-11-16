@@ -1,12 +1,12 @@
 {
   "folder": "pwYRu6UvwBmqS8L1",
-  "name": "Scary",
+  "name": "Assustador(a)",
   "type": "feature",
   "_id": "b16QLSE6UYZExF76",
   "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
   "system": {
     "attribution": {},
-    "description": "<p>On a successful attack, the target must mark a Stress.</p>",
+    "description": "<p>Em um ataque bem-sucedido, o alvo deve marcar 1 Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       },
       "8RhhH4QorYXMAGOj": {
@@ -100,7 +100,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Stress Damage",
+        "name": "Dano de Fadiga",
         "range": "",
         "img": "icons/magic/death/skull-energy-light-white.webp"
       }
@@ -111,10 +111,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Scary",
+      "name": "Postura: Assustadora",
       "disabled": false,
       "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
-      "description": "<p>On a successful attack, the target must mark a Stress.</p>",
+      "description": "<p>Em um ataque bem-sucedido, o alvo deve marcar 1 Fadiga.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

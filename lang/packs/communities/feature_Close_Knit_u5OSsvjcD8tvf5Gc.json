@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Close-Knit",
+  "name": "Unidos",
   "folder": "KA1VSGslxkbvVeMp",
   "_id": "u5OSsvjcD8tvf5Gc",
   "img": "icons/magic/life/heart-hand-gold-green-light.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Once per long rest, you can <strong>spend any number of Hope</strong> to grant an ally within Far range an equal number of Hope.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode <strong>gastar qualquer quantidade de Esperança</strong> para conceder a um aliado em alcance Distante a mesma quantidade de Esperança.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -82,7 +82,7 @@
           },
           "useDefault": false
         },
-        "name": "Give Hope",
+        "name": "Dar Esperança",
         "range": "far"
       }
     },

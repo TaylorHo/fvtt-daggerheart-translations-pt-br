@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Gale Force",
+  "name": "Força de Vendaval",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "hgFrDlmnPjhRUxOg",
   "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
   "system": {
     "attribution": {},
-    "description": "<p><strong>Mark a Stress</strong> to conjure a gust of wind that carries you or a Very Close ally up to Very Far range. Additionally, you can always control the speed at which you fall.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para conjurar uma rajada de vento que carrega você ou um aliado Muito Próximo até alcance Muito Distante. Além disso, você sempre pode controlar a velocidade da sua queda.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -44,7 +44,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },

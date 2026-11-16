@@ -1,11 +1,11 @@
 {
   "folder": "mmCmlh5x1cE4EbhN",
-  "name": "Battle Ritual",
+  "name": "Ritual de Batalha",
   "type": "feature",
   "_id": "qqb5acyUSl1sCpWW",
   "img": "icons/weapons/swords/sword-gold-holy.webp",
   "system": {
-    "description": "<p>Once per long rest, before you attempt something incredibly dangerous or face off against a foe who clearly outmatches you, describe what ritual you perform or preparations you make. When you do, clear 2 Stress and gain 2 Hope.</p>",
+    "description": "<p>Uma vez por descanso longo, antes de tentar algo incrivelmente perigoso ou enfrentar um inimigo que claramente supera você, descreva que ritual você realiza ou que preparativos faz. Ao fazer isso, limpe 2 de Fadiga e ganhe 2 de Esperança.</p>",
     "resource": null,
     "actions": {
       "UdZx74Vcz6ip4Plh": {
@@ -83,7 +83,7 @@
           },
           "useDefault": false
         },
-        "name": "Prepare",
+        "name": "Preparar",
         "img": "icons/weapons/swords/sword-gold-holy.webp",
         "range": "",
         "baseAction": false,

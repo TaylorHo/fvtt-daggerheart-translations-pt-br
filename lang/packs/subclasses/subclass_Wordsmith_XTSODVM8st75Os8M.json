@@ -1,10 +1,10 @@
 {
   "folder": "0DMzpFZB8A6vwpRX",
-  "name": "Wordsmith",
+  "name": "Artesão das Palavras",
   "type": "subclass",
   "img": "icons/tools/scribal/ink-quill-red.webp",
   "system": {
-    "description": "<p>Play the Wordsmith if you want to use clever wordplay and captivate crowds.</p>",
+    "description": "<p>Escolha Artesão das Palavras se quiser usar jogos de palavras inteligentes e cativar multidões.</p>",
     "spellcastingTrait": "presence",
     "features": [
       {

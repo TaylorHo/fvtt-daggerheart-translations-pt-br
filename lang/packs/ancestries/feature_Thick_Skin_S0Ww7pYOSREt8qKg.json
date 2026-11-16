@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Thick Skin",
+  "name": "Pele Grossa",
   "type": "feature",
   "_id": "S0Ww7pYOSREt8qKg",
   "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
   "system": {
-    "description": "<p>When you take Minor damage, you can <strong>mark 2 Stress</strong> instead of marking a Hit Point.</p>",
+    "description": "<p>Quando você sofrer dano Menor, pode <strong>marcar 2 de Fadiga</strong> em vez de marcar 1 Ponto de Vida.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Thick Skin",
+      "name": "Pele Grossa",
       "type": "base",
       "_id": "4Lc40mNnRInTKMC5",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you take Minor damage, you can mark 2 Stress instead of marking a Hit Point.</p>",
+      "description": "<p>Quando você sofrer dano Menor, pode marcar 2 de Fadiga em vez de marcar 1 Ponto de Vida.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Damage Sink",
+  "name": "Absorvedor de Dano",
   "folder": "hpGSiLKGH2r4vuLG",
   "_id": "ykvPRG06i68bxV0Y",
   "img": "icons/magic/unholy/orb-swirling-teal.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per rest, you can <strong>spend a Favor</strong> to halve incoming damage.</p>",
+    "description": "<p>Uma vez por descanso, você pode <strong>gastar 1 de Favor</strong> para reduzir pela metade o dano recebido.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "self"
       }
     },

@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Ignition",
+  "name": "Ignição",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "FaHu2yAthY6ZvM2d",
   "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p><strong>Mark a Stress</strong> to wreathe your primary weapon in flame until the end of the scene. While the weapon is ablaze, it gives off a bright light, and you gain a <strong>1d6</strong> bonus to damage rolls with that weapon.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para envolver sua arma principal em chamas até o fim da cena. Enquanto a arma estiver em chamas, ela emite uma luz brilhante e você ganha um bônus de <strong>1d6</strong> nas jogadas de dano com essa arma.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Ignition",
+      "name": "Ignição",
       "disabled": false,
       "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp",
-      "description": "<p>While the weapon is ablaze, it gives off a bright light, and you gain a <strong>1d6</strong> bonus to damage rolls with that weapon.</p>",
+      "description": "<p>Enquanto a arma estiver em chamas, ela emite uma luz brilhante e você ganha um bônus de <strong>1d6</strong> nas jogadas de dano com essa arma.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,12 +1,12 @@
 {
   "folder": "pwYRu6UvwBmqS8L1",
-  "name": "Vigilant",
+  "name": "Vigilante",
   "type": "feature",
   "_id": "4bLcpljjJylzM5xg",
   "img": "icons/magic/perception/eye-ringed-green.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you are targeted by an attack, you can <strong>mark a Stress</strong> to gain a <strong>[[/r d6]]</strong> bonus to your Evasion against the attack.</p>",
+    "description": "<p>Quando você for alvo de um ataque, pode <strong>marcar 1 Fadiga</strong> para ganhar um bônus de <strong>[[/r d6]]</strong> na sua Evasão contra o ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       },
       "akBB4AYAAZBpxLxA": {
@@ -86,7 +86,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Stress",
+        "name": "Gastar Fadiga",
         "range": "",
         "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp"
       }
@@ -97,10 +97,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Vigilant",
+      "name": "Postura: Vigilante",
       "disabled": false,
       "img": "icons/magic/perception/eye-ringed-green.webp",
-      "description": "<p>When you are targeted by an attack, you can <strong>mark a Stress</strong> to gain a <strong>d6</strong> bonus to your Evasion against the attack.</p>",
+      "description": "<p>Quando você for alvo de um ataque, pode <strong>marcar 1 Fadiga</strong> para ganhar um bônus de <strong>d6</strong> na sua Evasão contra o ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,10 +1,10 @@
 {
-  "name": "Dwarf",
+  "name": "Anão",
   "img": "icons/equipment/head/helm-norman-engraved.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Dwarves are most easily recognized as short humanoids with square frames, dense musculature, and thick hair.</p>",
+    "description": "<p>Anões são mais facilmente reconhecidos como humanoides baixos de estrutura quadrada, musculatura densa e cabelos grossos.</p>",
     "features": [
       {
         "type": "primary",

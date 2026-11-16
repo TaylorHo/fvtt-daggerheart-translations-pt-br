@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Fearless",
+  "name": "Destemido",
   "type": "feature",
   "_id": "IlWvn5kCqCBMuUJn",
   "img": "icons/magic/light/orb-container-orange.webp",
   "system": {
-    "description": "<p>When you roll with Fear, you can <strong>mark 2 Stress</strong> to change it into a roll with Hope instead.</p>",
+    "description": "<p>Quando você rolar com Medo, pode <strong>marcar 2 de Fadiga</strong> para transformá-la em uma jogada com Esperança.</p>",
     "resource": null,
     "actions": {
       "G1H7k5RdvS1EJgFu": {
@@ -36,7 +36,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/light/orb-container-orange.webp",
         "range": "",
         "baseAction": false,

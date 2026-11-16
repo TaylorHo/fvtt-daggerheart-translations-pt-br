@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Moon",
+  "name": "Lua",
   "folder": "TLl4l5YXa1uJOgsz",
   "_id": "icIkkMKmVmq1WgRz",
   "img": "icons/magic/nature/moon-crescent.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Moon if you want to embody celestial power to amplify your magic.</p>",
+    "description": "<p>Escolha Lua se quiser encarnar poder celestial para amplificar sua magia.</p>",
     "gmNotes": "",
     "spellcastingTrait": "instinct",
     "features": [

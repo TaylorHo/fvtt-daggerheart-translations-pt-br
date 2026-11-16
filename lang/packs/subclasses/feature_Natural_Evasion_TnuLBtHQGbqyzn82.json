@@ -1,11 +1,11 @@
 {
   "folder": "3PV3wn7IGmusnf4p",
-  "name": "Natural Evasion",
+  "name": "Evasão Natural",
   "type": "feature",
   "_id": "TnuLBtHQGbqyzn82",
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
   "system": {
-    "description": "<p>You can call forth your element to protect you from harm. When an attack roll against you succeeds, you can <strong>mark a Stress</strong> and describe how you use your element to defend you. When you do, roll a <strong>d6</strong> and add its result to your Evasion against the attack.</p>",
+    "description": "<p>Você pode invocar seu elemento para proteger você de danos. Quando uma jogada de ataque contra você for bem-sucedida, você pode <strong>marcar 1 Fadiga</strong> e descrever como usa seu elemento para se defender. Ao fazer isso, role um <strong>d6</strong> e some o resultado à sua Evasão contra o ataque.</p>",
     "resource": null,
     "actions": {
       "amJMKDdSgJHsOsOB": {
@@ -60,7 +60,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Evade",
+        "name": "Evadir",
         "img": "icons/magic/movement/trail-streak-impact-blue.webp",
         "range": "",
         "baseAction": false,

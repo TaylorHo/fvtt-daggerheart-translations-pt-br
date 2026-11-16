@@ -1,11 +1,11 @@
 {
   "folder": "8dyHGlppj08jYLIO",
-  "name": "Battlemage",
+  "name": "Mago de Batalha",
   "type": "feature",
   "_id": "Y9eGMewnFZgPvX0M",
   "img": "icons/equipment/chest/collar-steel.webp",
   "system": {
-    "description": "<p>You've focused your studies on becoming an unconquerable force on the battlefield. Gain an additional Hit Point slot.</p>",
+    "description": "<p>Você concentrou seus estudos em se tornar uma força inconquistável no campo de batalha. Ganhe um espaço adicional de Ponto de Vida.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Battlemage",
+      "name": "Mago de Batalha",
       "type": "base",
       "system": {
         "changes": [
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain an additional Hit Point slot.</p>",
+      "description": "<p>Ganhe um espaço adicional de Ponto de Vida.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

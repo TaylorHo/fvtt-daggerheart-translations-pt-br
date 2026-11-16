@@ -1,13 +1,11 @@
 {
-  "name": "Ridgeborne",
+  "name": "Nascido nas Montanhas",
   "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of a ridgeborne community means you've called the rocky peaks and sharp cliffs of the mountainside home.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.DYmmr5CknLtHnwuj"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida nas Montanhas significa que você chamou de lar os picos rochosos e os penhascos íngremes das encostas.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.DYmmr5CknLtHnwuj"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

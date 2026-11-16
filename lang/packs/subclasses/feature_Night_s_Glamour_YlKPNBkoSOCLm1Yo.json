@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Night's Glamour",
+  "name": "Glamour da Noite",
   "folder": "CsC3T8aq5ueUHWqs",
   "_id": "YlKPNBkoSOCLm1Yo",
   "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Make a <strong>Spellcast Roll (13)</strong> to <em>Glamour</em> yourself in a bewitching facade. While <em>Glamoured</em>, you have advantage on rolls that leverage your illusory appearance. Additionally, adversaries within Close range must mark a Stress to attack you.</p><p>Unless you <strong>mark a Stress</strong> to maintain your <em>Glamour</em>, it drops when you mark a Hit Point or deal damage.</p>",
+    "description": "<p>Faça uma <strong>Jogada de Conjuração (13)</strong> para <em>Glamourizar</em> a si mesmo em uma fachada enfeitiçante. Enquanto estiver <em>Glamourizado</em>, você tem vantagem em jogadas que aproveitem sua aparência ilusória. Além disso, adversários em alcance Próximo devem marcar 1 Fadiga para atacar você.</p><p>A menos que você <strong>marque 1 Fadiga</strong> para manter seu <em>Glamour</em>, ele se desfaz quando você marcar um Ponto de Vida ou causar dano.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Rolagem de Conjuração",
         "range": "self"
       }
     },
@@ -77,10 +77,10 @@
   },
   "effects": [
     {
-      "name": "Glamoured",
+      "name": "Glamourizado",
       "disabled": false,
       "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
-      "description": "<p>While <em>Glamoured</em>, you have advantage on rolls that leverage your illusory appearance. Additionally, adversaries within Close range must mark a Stress to attack you.</p><p>Unless you <strong>mark a Stress</strong> to maintain your <em>Glamour</em>, it drops when you mark a Hit Point or deal damage.</p>",
+      "description": "<p>Enquanto estiver <em>Glamourizado</em>, você tem vantagem em jogadas que aproveitem sua aparência ilusória. Além disso, adversários em alcance Próximo devem marcar 1 Fadiga para atacar você.</p><p>A menos que você <strong>marque 1 Fadiga</strong> para manter seu <em>Glamour</em>, ele se desfaz quando você marcar um Ponto de Vida ou causar dano.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

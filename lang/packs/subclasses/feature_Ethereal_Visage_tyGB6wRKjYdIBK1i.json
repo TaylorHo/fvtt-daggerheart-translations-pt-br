@@ -1,11 +1,11 @@
 {
   "folder": "cwVcmK9rWmi3LMLK",
-  "name": "Ethereal Visage",
+  "name": "Semblante Etéreo",
   "type": "feature",
   "_id": "tyGB6wRKjYdIBK1i",
   "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
   "system": {
-    "description": "<p>Your supernatural visage strikes awe and fear. While flying, you have advantage on Presence Rolls. When you succeed with Hope on a Presence Roll, you can remove a Fear from the GM's Fear pool instead of gaining Hope.</p>",
+    "description": "<p>Seu semblante sobrenatural inspira admiração e medo. Enquanto estiver voando, você tem vantagem em Jogadas de Presença. Quando for bem-sucedido com Esperança em uma Jogada de Presença, pode remover 1 de Medo da reserva de Medo do Mestre em vez de ganhar Esperança.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Ethereal Visage",
+      "name": "Semblante Etéreo",
       "type": "base",
       "system": {
         "changes": [
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While flying, you have advantage on Presence Rolls.</p>",
+      "description": "<p>Enquanto estiver voando, você tem vantagem em Jogadas de Presença.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

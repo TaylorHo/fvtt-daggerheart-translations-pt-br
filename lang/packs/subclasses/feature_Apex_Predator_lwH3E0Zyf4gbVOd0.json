@@ -1,11 +1,11 @@
 {
   "folder": "vIdORiocrNibqNFF",
-  "name": "Apex Predator",
+  "name": "Predador Supremo",
   "type": "feature",
   "_id": "lwH3E0Zyf4gbVOd0",
   "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
   "system": {
-    "description": "<p>Before you make an attack roll against your Focus, you can spend a Hope. On a successful attack, you remove a Fear from the GM's Fear pool.</p>",
+    "description": "<p>Antes de fazer uma jogada de ataque contra o seu Foco, você pode gastar 1 de Esperança. Em um ataque bem-sucedido, você remove 1 de Medo da reserva de Medo do Mestre.</p>",
     "resource": null,
     "actions": {
       "LHDsuveQznbcFUhV": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
         "range": "",
         "baseAction": false,

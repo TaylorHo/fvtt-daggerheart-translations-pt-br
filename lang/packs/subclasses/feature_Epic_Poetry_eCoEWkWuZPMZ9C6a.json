@@ -1,10 +1,10 @@
 {
   "folder": "Xpbd5rv84VaVSu7F",
-  "name": "Epic Poetry",
+  "name": "Poesia Épica",
   "type": "feature",
   "img": "icons/sundries/documents/document-letter-blue.webp",
   "system": {
-    "description": "<p>Your Rally Die increases to a d10. Additionally, when you Help an Ally, you can narrate the moment as if you were writing the tale of their heroism in a memoir. When you do, roll a d10 as your advantage die.</p>",
+    "description": "<p>Seu Dado de Inspiração aumenta para um d10. Além disso, quando você Ajudar um Aliado, pode narrar o momento como se estivesse escrevendo a história do heroísmo dele em um livro de memórias. Ao fazer isso, role um d10 como seu dado de vantagem.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -19,7 +19,7 @@
   },
   "effects": [
     {
-      "name": "Rally:d10",
+      "name": "Inspirar: d10",
       "type": "base",
       "system": {
         "changes": [
@@ -48,7 +48,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Rally die increased to d10.</p>",
+      "description": "<p>Dado de Inspiração aumentado para d10.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

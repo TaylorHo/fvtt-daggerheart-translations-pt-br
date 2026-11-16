@@ -1,11 +1,11 @@
 {
   "folder": "yMp2Hj8av6IWJahF",
-  "name": "Rise to the Challenge",
+  "name": "À Altura do Desafio",
   "type": "feature",
   "_id": "dcutk8RVOJ2sEkO1",
   "img": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
   "system": {
-    "description": "<p>You are vigilant in the face of mounting danger. While you have 2 or fewer Hit Points unmarked, you can roll a <strong>d20</strong> as your Hope Die.</p>",
+    "description": "<p>Você é vigilante diante de um perigo crescente. Enquanto tiver 2 ou menos Pontos de Vida desmarcados, você pode rolar um <strong>d20</strong> como seu Dado de Esperança.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Rise To The Challenge",
+      "name": "À Altura do Desafio",
       "type": "base",
       "system": {
         "conditionals": [
@@ -65,7 +65,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You are vigilant in the face of mounting danger. While you have 2 or fewer Hit Points unmarked, you can roll a <strong>d20</strong> as your Hope Die.</p>",
+      "description": "<p>Você é vigilante diante de um perigo crescente. Enquanto tiver 2 ou menos Pontos de Vida desmarcados, você pode rolar um <strong>d20</strong> como seu Dado de Esperança.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

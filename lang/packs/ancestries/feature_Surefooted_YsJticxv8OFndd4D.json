@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Surefooted",
+  "name": "Pé Firme",
   "type": "feature",
   "_id": "YsJticxv8OFndd4D",
   "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
   "system": {
-    "description": "<p>You ignore disadvantage on Agility Rolls.</p>",
+    "description": "<p>Você ignora desvantagem em Jogadas de Agilidade.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

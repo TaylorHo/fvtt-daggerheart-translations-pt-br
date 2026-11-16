@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Death Connection",
+  "name": "Conexão com a Morte",
   "type": "feature",
   "_id": "WuwXH2r2uM9sDJtj",
   "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
   "system": {
-    "description": "<p>While touching a corpse that died recently, you can <strong>mark a Stress</strong> to extract one memory from the corpse related to a specific emotion or sensation of your choice.</p>",
+    "description": "<p>Enquanto tocar um cadáver que morreu recentemente, você pode <strong>marcar 1 Fadiga</strong> para extrair dele uma memória relacionada a uma emoção ou sensação específica à sua escolha.</p>",
     "resource": null,
     "actions": {
       "0RdKeWfbPRTHcAMf": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Extract",
+        "name": "Extrair",
         "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
         "range": "",
         "baseAction": false,

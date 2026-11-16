@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Adaptability",
+  "name": "Adaptabilidade",
   "type": "feature",
   "_id": "BNofV1UC4ZbdFTkb",
   "img": "icons/magic/control/silhouette-hold-change-blue.webp",
   "system": {
-    "description": "<p>When you fail a roll that utilized one of your Experiences, you can <strong>mark a Stress</strong> to reroll.</p>",
+    "description": "<p>Quando você falhar em uma jogada que utilizou uma das suas Experiências, pode <strong>marcar 1 Fadiga</strong> para rolar novamente.</p>",
     "resource": null,
     "actions": {
       "D7EE2L2Y96nfrfTW": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/control/silhouette-hold-change-blue.webp",
         "range": "",
         "baseAction": false,

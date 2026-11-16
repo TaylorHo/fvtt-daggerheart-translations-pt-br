@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Adder's Blessing",
+  "name": "Bênção da Víbora",
   "folder": "EsyV5lospiAwVQeq",
   "_id": "gpyx5lf1yWjCMVyl",
   "img": "icons/creatures/reptiles/serpent-horned-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>You are immune to poisons and other toxins.</p>",
+    "description": "<p>Você é imune a venenos e outras toxinas.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

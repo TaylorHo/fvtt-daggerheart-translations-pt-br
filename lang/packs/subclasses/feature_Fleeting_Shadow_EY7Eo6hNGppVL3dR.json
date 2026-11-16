@@ -1,11 +1,11 @@
 {
   "folder": "w6agWszBQCnHTo5p",
-  "name": "Fleeting Shadow",
+  "name": "Sombra Fugaz",
   "type": "feature",
   "_id": "EY7Eo6hNGppVL3dR",
   "img": "icons/magic/unholy/projectile-flame-white-purple.webp",
   "system": {
-    "description": "<p>Gain a permanent +1 bonus to your Evasion. You can use your \"Shadow Stepper\" feature to move within Very Far range.</p>",
+    "description": "<p>Ganhe +1 de bônus permanente na sua Evasão. Você pode usar sua habilidade \"Passo das Sombras\" para se mover em alcance Muito Distante.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Fleeting Shadow",
+      "name": "Sombra Fugaz",
       "type": "base",
       "system": {
         "changes": [
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a permanent +1 bonus to your Evasion. You can use your \"Shadow Stepper\" feature to move within Very Far range.</p>",
+      "description": "<p>Ganhe +1 de bônus permanente na sua Evasão. Você pode usar sua habilidade \"Passo das Sombras\" para se mover em alcance Muito Distante.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Celestial Wings",
+  "name": "Asas Celestiais",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "qNoIvEtDIA8JkOiq",
   "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
   "system": {
     "attribution": {},
-    "description": "<p>You have wings that allow you to fly. Once per scene while flying, you can <strong>spend a Hope</strong> instead of marking an Armor Slot.</p>",
+    "description": "<p>Você tem asas que permitem voar. Uma vez por cena, enquanto estiver voando, você pode <strong>gastar 1 de Esperança</strong> em vez de marcar um Espaço de Armadura.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -44,7 +44,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

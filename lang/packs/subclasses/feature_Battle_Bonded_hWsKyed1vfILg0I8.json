@@ -1,11 +1,11 @@
 {
   "folder": "bv1Sw5FYWaS572v3",
-  "name": "Battle-Bonded",
+  "name": "Vínculo de Batalha",
   "type": "feature",
   "_id": "hWsKyed1vfILg0I8",
   "img": "icons/creatures/mammals/humanoid-wolf-dog-blue.webp",
   "system": {
-    "description": "<p>When an adversary attacks you while they're within your companion's Melee range, you gain a +2 bonus to your Evasion against the attack.</p>",
+    "description": "<p>Quando um adversário atacar você enquanto estiver no alcance Corpo a Corpo do seu companheiro, você ganha +2 de bônus na sua Evasão contra o ataque.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Battle Bonded",
+      "name": "Vínculo de Batalha",
       "type": "base",
       "system": {
         "changes": [
@@ -34,7 +34,7 @@
         ],
         "duration": {
           "type": "",
-          "description": "<p>Against the attack.</p>"
+          "description": "<p>Contra o ataque.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -50,7 +50,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When an adversary attacks you while they're within your companion's Melee range, you gain a +2 bonus to your Evasion against the attack.</p>",
+      "description": "<p>Quando um adversário atacar você enquanto estiver no alcance Corpo a Corpo do seu companheiro, você ganha +2 de bônus na sua Evasão contra o ataque.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

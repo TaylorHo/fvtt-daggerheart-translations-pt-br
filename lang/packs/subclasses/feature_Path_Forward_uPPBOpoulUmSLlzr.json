@@ -1,11 +1,11 @@
 {
   "folder": "D1rRX2AQ9wzVOsKy",
-  "name": "Path Forward",
+  "name": "Caminho à Frente",
   "type": "feature",
   "_id": "uPPBOpoulUmSLlzr",
   "img": "icons/environment/wilderness/terrain-river-road-gray.webp",
   "system": {
-    "description": "<p>When you're traveling to a place you've previously visited or you carry an object that has been at the location before, you can identify the shortest, most direct path to your destination.</p>",
+    "description": "<p>Quando você estiver viajando para um lugar que já visitou ou carregar um objeto que já esteve no local, pode identificar o caminho mais curto e direto até o seu destino.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

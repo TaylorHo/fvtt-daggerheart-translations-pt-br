@@ -1,11 +1,11 @@
 {
   "folder": "KA1VSGslxkbvVeMp",
-  "name": "Dedicated",
+  "name": "Dedicado",
   "type": "feature",
   "_id": "7aXWdH3gzaYREK0X",
   "img": "icons/environment/people/cleric-orange.webp",
   "system": {
-    "description": "<p>Record three sayings or values your upbringing instilled in you. Once per rest, when you describe how you're embodying one of these principles through your current action, you can roll a d20 as your Hope Die</p>",
+    "description": "<p>Registre três ditados ou valores que a sua criação incutiu em você. Uma vez por descanso, quando você descrever como está encarnando um desses princípios na sua ação atual, pode rolar um d20 como seu Dado de Esperança</p>",
     "resource": null,
     "actions": {
       "ZBVqSlsDUKf8uGrI": {
@@ -27,7 +27,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/environment/people/cleric-orange.webp",
         "range": "",
         "baseAction": false,

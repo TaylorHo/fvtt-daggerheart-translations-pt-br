@@ -1,11 +1,11 @@
 {
   "folder": "dWQSVhtwClSdRHDK",
-  "name": "Clarity of Nature",
+  "name": "Clareza da Natureza",
   "type": "feature",
   "_id": "etaQ01yGJhBLDUqZ",
   "img": "icons/magic/nature/tree-twisted-glow-yellow.webp",
   "system": {
-    "description": "<p>Once per long rest, you can create a space of natural serenity within Close range. When you spend a few minutes resting within the space, clear Stress equal to your Instinct, distributed as you choose between you and your allies.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode criar um espaço de serenidade natural em alcance Próximo. Quando você passar alguns minutos descansando dentro do espaço, limpe Fadiga igual ao seu Instinto, distribuída como preferir entre você e seus aliados.</p>",
     "resource": null,
     "actions": {
       "az7YUpxy1ysn12tO": {
@@ -65,7 +65,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
         "range": "close",
         "baseAction": false,

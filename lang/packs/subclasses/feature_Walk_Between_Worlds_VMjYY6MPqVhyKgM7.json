@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Walk Between Worlds",
+  "name": "Caminhar Entre Mundos",
   "folder": "y4bIi7tPBdhHfvAj",
   "_id": "VMjYY6MPqVhyKgM7",
   "img": "icons/magic/light/light-lantern-lit-white.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>During a moment of calm, make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you can <strong>mark a Stress</strong> to step beyond the veil of death and converse with any nearby spirits. Place a number of tokens equal to your Spellcast trait on this card and remove one each time a spirit answers a question. When the last token is removed or at the end of the scene, you return to the Mortal Realm in the same spot you left it.</p>",
+    "description": "<p>Durante um momento de calma, faça uma <strong>Jogada de Conjuração (13)</strong>. Uma vez por descanso, em caso de sucesso, você pode <strong>marcar 1 Fadiga</strong> para atravessar o véu da morte e conversar com quaisquer espíritos próximos. Coloque nesta carta uma quantidade de fichas igual ao seu atributo de Conjuração e remova uma a cada vez que um espírito responder a uma pergunta. Quando a última ficha for removida ou ao fim da cena, você retorna ao Reino Mortal no mesmo lugar de onde saiu.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -94,7 +94,7 @@
           },
           "useDefault": false
         },
-        "name": "Spellcast Roll",
+        "name": "Rolagem de Conjuração",
         "range": "self"
       }
     },

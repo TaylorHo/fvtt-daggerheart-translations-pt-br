@@ -1,11 +1,11 @@
 {
   "folder": "eykEGWrxYWGmwPDM",
-  "name": "Well-Connected",
+  "name": "Bem Relacionado",
   "type": "feature",
   "_id": "7KnSOazixXXSnspj",
   "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
   "system": {
-    "description": "<p>When you arrive in a prominent town or environment, you know somebody who calls this place home. Give them a name, note how you think they could be useful, and choose one fact from the following list:</p><ul><li><p>They owe me a favor, but they'll be hard to find.</p></li><li><p>They're going to ask for something in exchange.</p></li><li><p>They're always in a great deal of trouble.</p></li><li><p>We used to be together. It's a long story.</p></li><li><p>We didn't part on great terms.</p></li></ul>",
+    "description": "<p>Quando você chegar a uma cidade ou ambiente de destaque, você conhece alguém que chama este lugar de lar. Dê um nome a essa pessoa, anote como você acha que ela poderia ser útil e escolha um fato da lista a seguir:</p><ul><li><p>Ela me deve um favor, mas será difícil de encontrar.</p></li><li><p>Ela vai pedir algo em troca.</p></li><li><p>Ela está sempre metida em muita encrenca.</p></li><li><p>Nós já fomos um casal. É uma longa história.</p></li><li><p>Não nos separamos em bons termos.</p></li></ul>",
     "resource": null,
     "actions": {},
     "attribution": {

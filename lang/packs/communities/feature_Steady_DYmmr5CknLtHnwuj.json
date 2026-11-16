@@ -1,11 +1,11 @@
 {
   "folder": "KA1VSGslxkbvVeMp",
-  "name": "Steady",
+  "name": "Firme",
   "type": "feature",
   "_id": "DYmmr5CknLtHnwuj",
   "img": "icons/equipment/feet/boots-collared-simple-leather.webp",
   "system": {
-    "description": "<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>",
+    "description": "<p>Você tem vantagem em jogadas para atravessar penhascos e saliências perigosos, navegar por ambientes hostis e usar seu conhecimento de sobrevivência.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Steady",
+      "name": "Firme",
       "type": "base",
       "_id": "QDf9LD8Mhd0Cw0CB",
       "img": "icons/equipment/feet/boots-collared-simple-leather.webp",
@@ -29,21 +29,21 @@
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Traverse dangerous cliffs and ledges",
+            "value": "Atravessar penhascos e saliências perigosos",
             "priority": null,
             "phase": "initial"
           },
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Navigate harsh environment",
+            "value": "Navegar por ambientes hostis",
             "priority": null,
             "phase": "initial"
           },
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Use your survival knowledge",
+            "value": "Usar seu conhecimento de sobrevivência",
             "priority": null,
             "phase": "initial"
           }
@@ -64,7 +64,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>",
+      "description": "<p>Você tem vantagem em jogadas para atravessar penhascos e saliências perigosos, navegar por ambientes hostis e usar seu conhecimento de sobrevivência.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

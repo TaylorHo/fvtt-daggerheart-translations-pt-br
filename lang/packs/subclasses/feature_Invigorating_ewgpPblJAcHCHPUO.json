@@ -1,12 +1,12 @@
 {
   "folder": "M1QUCqLVHPOiWSPz",
-  "name": "Invigorating",
+  "name": "Revigorante",
   "type": "feature",
   "_id": "ewgpPblJAcHCHPUO",
   "img": "icons/magic/life/cross-beam-green.webp",
   "system": {
     "attribution": {},
-    "description": "<p>On a successful attack, roll a d4. On a result of 4, gain a Focus.</p>",
+    "description": "<p>Em um ataque bem-sucedido, role um d4. Com resultado 4, ganhe 1 de Foco.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self",
         "img": "icons/magic/life/cross-beam-green.webp"
       },
@@ -116,7 +116,7 @@
           },
           "useDefault": false
         },
-        "name": "Roll D4",
+        "name": "Rolar d4",
         "range": "self",
         "img": "icons/sundries/gaming/dice-runed-brown.webp"
       }
@@ -127,10 +127,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Invigorating",
+      "name": "Postura: Revigorante",
       "disabled": false,
       "img": "icons/magic/life/cross-beam-green.webp",
-      "description": "<p>On a successful attack, roll a d4. On a result of 4, gain a Focus.</p>",
+      "description": "<p>Em um ataque bem-sucedido, role um d4. Com resultado 4, ganhe 1 de Foco.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

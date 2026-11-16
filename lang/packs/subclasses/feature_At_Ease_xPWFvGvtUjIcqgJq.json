@@ -1,11 +1,11 @@
 {
   "folder": "gysKqIL1lVz4g6zg",
-  "name": "At Ease",
+  "name": "À Vontade",
   "type": "feature",
   "_id": "xPWFvGvtUjIcqgJq",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
-    "description": "<p>Gain an additional Stress slot.</p>",
+    "description": "<p>Ganhe um espaço adicional de Fadiga.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "At Ease",
+      "name": "À Vontade",
       "type": "base",
       "system": {
         "changes": [
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain an additional Stress slot.</p>",
+      "description": "<p>Ganhe um espaço adicional de Fadiga.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,11 +1,11 @@
 {
   "folder": "IIW7boHWq1QoYwOQ",
-  "name": "Conjure Shield",
+  "name": "Conjurar Escudo",
   "type": "feature",
   "_id": "oirsCnN66GOlK3Fa",
   "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
   "system": {
-    "description": "<p>You can maintain a protective barrier of magic. While you have at least 2 Hope, you add your Proficiency to your Evasion.</p>",
+    "description": "<p>Você pode manter uma barreira mágica protetora. Enquanto tiver pelo menos 2 de Esperança, você soma sua Proficiência à sua Evasão.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Conjure Shield",
+      "name": "Conjurar Escudo",
       "type": "base",
       "system": {
         "changes": [
@@ -57,7 +57,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While you have at least 2 Hope, you add your Proficiency to your Evasion.</p>",
+      "description": "<p>Enquanto tiver pelo menos 2 de Esperança, você soma sua Proficiência à sua Evasão.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

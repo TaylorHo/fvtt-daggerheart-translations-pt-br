@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Juggernaut",
+  "name": "Colosso",
   "folder": "YrzAU9sETEGR374I",
   "_id": "9zyjac09CXquXQSo",
   "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Juggernaut if you want to pulverize your opponents with crushing blows.</p>",
+    "description": "<p>Escolha Colosso se quiser pulverizar seus oponentes com golpes esmagadores.</p>",
     "gmNotes": "",
     "spellcastingTrait": null,
     "features": [

@@ -1,13 +1,11 @@
 {
-  "name": "Underborne",
+  "name": "Nascido no Subterrâneo",
   "img": "icons/environment/wilderness/cave-entrance-dwarven-hill.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of an underborne community means you're from a subterranean society.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.aMla3xQuCHEwORGD"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida no Subterrâneo significa que você vem de uma sociedade subterrânea.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.aMla3xQuCHEwORGD"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

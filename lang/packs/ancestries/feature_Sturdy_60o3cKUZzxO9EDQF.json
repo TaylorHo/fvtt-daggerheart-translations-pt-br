@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Sturdy",
+  "name": "Robusto",
   "type": "feature",
   "_id": "60o3cKUZzxO9EDQF",
   "img": "icons/magic/defensive/shield-barrier-glowing-triangle-purple-orange.webp",
   "system": {
-    "description": "<p>When you have 1 Hit Point remaining, attacks against you have disadvantage.</p>",
+    "description": "<p>Quando você tiver 1 Ponto de Vida restante, ataques contra você têm desvantagem.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

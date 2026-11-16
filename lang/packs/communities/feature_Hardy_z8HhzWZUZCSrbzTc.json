@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Hardy",
+  "name": "Resistente",
   "folder": "KA1VSGslxkbvVeMp",
   "_id": "z8HhzWZUZCSrbzTc",
   "img": "icons/magic/life/cross-worn-green.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you take a rest, you clear a Hit Point.</p>",
+    "description": "<p>Quando você fizer um descanso, limpa 1 Ponto de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {

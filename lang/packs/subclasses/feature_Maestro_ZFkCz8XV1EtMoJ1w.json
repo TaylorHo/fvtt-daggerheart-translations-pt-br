@@ -4,7 +4,7 @@
   "type": "feature",
   "img": "icons/weapons/wands/wand-star-white.webp",
   "system": {
-    "description": "<p>Your rallying songs steel the courage of those who listen. When you give a <strong>Rally Die</strong> to an ally, they can <strong>gain a Hope</strong> or <strong>clear a Stress</strong>.</p>",
+    "description": "<p>Suas canções de incentivo fortalecem a coragem de quem as ouve. Quando você der um <strong>Dado de Inspiração</strong> a um aliado, ele pode <strong>ganhar 1 de Esperança</strong> ou <strong>limpar 1 de Fadiga</strong>.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

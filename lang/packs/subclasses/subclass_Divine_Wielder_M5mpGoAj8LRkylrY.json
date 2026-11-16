@@ -1,11 +1,11 @@
 {
   "folder": "RZOEu0ZYQNPs6O2c",
-  "name": "Divine Wielder",
+  "name": "Portador Divino",
   "type": "subclass",
   "_id": "M5mpGoAj8LRkylrY",
   "img": "icons/weapons/swords/sword-gold-holy.webp",
   "system": {
-    "description": "<p>Play the Divine Wielder if you want to dominate the battlefield with a legendary weapon.</p>",
+    "description": "<p>Escolha Portador Divino se quiser dominar o campo de batalha com uma arma lendária.</p>",
     "spellcastingTrait": "strength",
     "features": [
       {

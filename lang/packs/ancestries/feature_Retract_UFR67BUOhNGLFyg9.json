@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Retract",
+  "name": "Retrair",
   "type": "feature",
   "_id": "UFR67BUOhNGLFyg9",
   "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to retract into your shell. While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can't move.<br><br>(When marked, manually enable the Retract effect to Active in effects tab and mark disadvantage when doing any action rolls. Manually disable the Retract effect to Inactive in the effects tab when no longer retracted into your shell.)</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para se retrair no seu casco. Enquanto estiver no casco, você tem resistência a dano físico, tem desvantagem em jogadas de ação e não pode se mover.<br><br>(Ao marcar, ative manualmente o efeito Retrair como Ativo na aba de efeitos e marque desvantagem ao fazer qualquer jogada de ação. Desative manualmente o efeito Retrair, deixando-o Inativo na aba de efeitos, quando não estiver mais retraído no casco.)</p>",
     "resource": null,
     "actions": {
       "HfiAg14hrYt7Yvnj": {
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
         "range": "self",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Retract",
+      "name": "Retrair",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
       "transfer": true,
       "_id": "3V4FPoyjJUnFP9WS",
@@ -102,7 +102,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can't move.</p>",
+      "description": "<p>Enquanto estiver no seu casco, você tem resistência a dano físico, tem desvantagem em jogadas de ação e não pode se mover.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

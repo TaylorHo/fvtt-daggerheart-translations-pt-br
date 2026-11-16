@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Celestial Trance",
+  "name": "Transe Celestial",
   "type": "feature",
   "_id": "TfolXWFG2W2hx6sK",
   "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "system": {
-    "description": "<p>During a rest, you can drop into a trance to choose an additional downtime move.</p>",
+    "description": "<p>Durante um descanso, você pode entrar em transe para escolher uma ação de intervalo adicional.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Celestial Trance",
+      "name": "Transe Celestial",
       "type": "base",
       "_id": "LqQvZJJLNMnFkt1D",
       "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
@@ -56,7 +56,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>During a rest, you can drop into a trance to choose an additional downtime move.</p>",
+      "description": "<p>Durante um descanso, você pode entrar em transe para escolher uma ação de intervalo adicional.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,6 +1,6 @@
 {
   "type": "ancestry",
-  "name": "Earthkin",
+  "name": "Terrano (Earthkin)",
   "folder": null,
   "system": {
     "loreReference": "earthkin",
@@ -10,7 +10,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Earthkin are humanoids whose bodies are made of flesh and earth.</p>",
+    "description": "<p>Terranos são humanoides cujo corpo é feito de carne e terra.</p>",
     "gmNotes": "",
     "features": [
       {

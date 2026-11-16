@@ -1,11 +1,11 @@
 {
   "folder": "bv1Sw5FYWaS572v3",
-  "name": "Expert Training",
+  "name": "Treinamento Especializado",
   "type": "feature",
   "_id": "iCXtOWBKv1FdKdWz",
   "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
   "system": {
-    "description": "<p>Choose an additional level-up option for your companion.</p>",
+    "description": "<p>Escolha uma opção adicional de subida de nível para o seu companheiro.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Expert Training",
+      "name": "Treinamento Especializado",
       "type": "base",
       "system": {
         "changes": [
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Choose an additional level-up option for your companion.</p>",
+      "description": "<p>Escolha uma opção adicional de subida de nível para o seu companheiro.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

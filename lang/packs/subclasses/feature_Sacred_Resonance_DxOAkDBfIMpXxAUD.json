@@ -1,11 +1,11 @@
 {
   "folder": "gdnQftNWn4kxnew9",
-  "name": "Sacred Resonance",
+  "name": "Ressonância Sagrada",
   "type": "feature",
   "_id": "DxOAkDBfIMpXxAUD",
   "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
   "system": {
-    "description": "<p>When you roll damage for your \"Spirit Weapon\" feature, if any of the die results match, double the value of each matching die. For example, if you roll two 5s, they count as two 10s.</p>",
+    "description": "<p>Quando você rolar dano para a sua habilidade \"Arma Espiritual\", se algum dos resultados dos dados coincidir, dobre o valor de cada dado coincidente. Por exemplo, se você rolar dois 5, eles contam como dois 10.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

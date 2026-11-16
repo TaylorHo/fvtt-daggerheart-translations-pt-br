@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Long Tongue",
+  "name": "Língua Longa",
   "type": "feature",
   "_id": "oWbdlh51ajn1Q5kL",
   "img": "icons/commodities/biological/tongue-violet.webp",
   "system": {
-    "description": "<p>You can use your long tongue to grab onto things within Close range. <strong>Mark a Stress</strong> to use your tongue as a Finesse Close weapon that deals <strong>d12</strong> physical damage using your Proficiency.</p>",
+    "description": "<p>Você pode usar sua língua longa para agarrar coisas em alcance Próximo. <strong>Marque 1 Fadiga</strong> para usar sua língua como uma arma de Acuidade de alcance Próximo que causa <strong>d12</strong> de dano físico usando sua Proficiência.</p>",
     "resource": null,
     "actions": {
       "MhAWv7tuvkfOf7wQ": {
@@ -80,7 +80,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/commodities/biological/tongue-violet.webp",
         "range": "close",
         "baseAction": false,

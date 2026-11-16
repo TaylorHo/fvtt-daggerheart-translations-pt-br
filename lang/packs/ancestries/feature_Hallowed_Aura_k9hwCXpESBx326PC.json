@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Hallowed Aura",
+  "name": "Aura Consagrada",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "k9hwCXpESBx326PC",
   "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Once per long rest when an ally within Close range rolls with Fear, you can change it into a roll with Hope instead.</p>",
+    "description": "<p>Uma vez por descanso longo, quando um aliado em alcance Próximo rolar com Medo, você pode transformá-la em uma jogada com Esperança.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Fear To Hope",
+        "name": "Do Medo à Esperança",
         "range": ""
       }
     },

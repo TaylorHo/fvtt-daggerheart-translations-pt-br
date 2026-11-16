@@ -1,10 +1,10 @@
 {
   "folder": "0DMzpFZB8A6vwpRX",
-  "name": "Troubadour",
+  "name": "Trovador",
   "type": "subclass",
   "img": "icons/tools/instruments/harp-gold-glowing.webp",
   "system": {
-    "description": "<p>Play the Troubadour if you want to play music to bolster your allies.</p>",
+    "description": "<p>Escolha Trovador se quiser tocar música para fortalecer seus aliados.</p>",
     "spellcastingTrait": "presence",
     "features": [
       {

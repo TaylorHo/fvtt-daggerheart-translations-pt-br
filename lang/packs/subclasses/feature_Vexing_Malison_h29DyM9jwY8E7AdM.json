@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Vexing Malison",
+  "name": "Maldição Vexatória",
   "folder": "y4bIi7tPBdhHfvAj",
   "_id": "h29DyM9jwY8E7AdM",
   "img": "icons/magic/unholy/hand-marked-pink.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>You have advantage on attacks against Hexed creatures.</p>",
+    "description": "<p>Você tem vantagem em ataques contra criaturas Amaldiçoadas.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},
@@ -19,7 +19,7 @@
   },
   "effects": [
     {
-      "name": "Vexing Malison",
+      "name": "Maldição Vexatória",
       "type": "base",
       "system": {
         "changes": [
@@ -57,7 +57,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You have advantage on attacks against Hexed creatures.</p>",
+      "description": "<p>Você tem vantagem em ataques contra criaturas Amaldiçoadas.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -4,7 +4,7 @@
   "type": "feature",
   "img": "icons/magic/light/explosion-star-small-teal.webp",
   "system": {
-    "description": "<p>You are among the greatest of your craft and your skill is boundless. You can perform each of your <strong>\"Gifted Performer\"</strong> feature's songs <strong>twice per long rest.</strong></p>",
+    "description": "<p>Você está entre os maiores do seu ofício e sua habilidade é ilimitada. Você pode executar cada uma das canções da sua habilidade <strong>\"Artista Talentoso\"</strong> <strong>duas vezes por descanso longo.</strong></p>",
     "resource": null,
     "actions": {},
     "attribution": {

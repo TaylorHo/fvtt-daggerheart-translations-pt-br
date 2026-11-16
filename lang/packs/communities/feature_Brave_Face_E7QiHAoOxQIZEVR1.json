@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Brave Face",
+  "name": "Cara de Coragem",
   "folder": "KA1VSGslxkbvVeMp",
   "_id": "E7QiHAoOxQIZEVR1",
   "img": "icons/magic/control/control-influence-rally-purple.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Once per session when you would be forced to mark a Stress, you can <strong>spend a Hope</strong> instead.</p>",
+    "description": "<p>Uma vez por sessão, quando você fosse forçado a marcar 1 Fadiga, pode <strong>gastar 1 de Esperança</strong> em vez disso.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -44,7 +44,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

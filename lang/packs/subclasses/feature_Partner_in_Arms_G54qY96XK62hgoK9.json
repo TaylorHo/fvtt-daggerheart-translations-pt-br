@@ -1,11 +1,11 @@
 {
   "folder": "DO1MpBfTgnAblNNz",
-  "name": "Partner-in-Arms",
+  "name": "Parceiro de Armas",
   "type": "feature",
   "_id": "G54qY96XK62hgoK9",
   "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
   "system": {
-    "description": "<p>When an ally within Very Close range takes damage, you can mark an Armor Slot to reduce the severity by one threshold.</p>",
+    "description": "<p>Quando um aliado em alcance Muito Próximo sofrer dano, você pode marcar 1 Espaço de Armadura para reduzir a severidade em um limiar.</p>",
     "resource": null,
     "actions": {
       "D6ClOGDgu6cLanjE": {
@@ -36,7 +36,7 @@
           "type": "friendly",
           "amount": 1
         },
-        "name": "Mark Armor Slot",
+        "name": "Marcar Espaço de Armadura",
         "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
         "range": "veryClose",
         "baseAction": false,

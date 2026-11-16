@@ -1,6 +1,6 @@
 {
   "type": "community",
-  "name": "Warborne",
+  "name": "Nascido na Guerra",
   "folder": null,
   "system": {
     "loreReference": "warborne",
@@ -10,11 +10,9 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Being part of a warborne community means you come from a place that is, or was, ravaged by war.</p>",
+    "description": "<p>Fazer parte de uma comunidade Nascida na Guerra significa que você vem de um lugar que é, ou foi, devastado pela guerra.</p>",
     "gmNotes": "",
-    "features": [
-      "Compendium.daggerheart.communities.Item.E7QiHAoOxQIZEVR1"
-    ]
+    "features": ["Compendium.daggerheart.communities.Item.E7QiHAoOxQIZEVR1"]
   },
   "_id": "fB2lEkodBCuyyMs1",
   "img": "icons/environment/settlement/watchtower-lit-orange.webp",

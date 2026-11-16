@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Keen Defenses",
+  "name": "Defesas Aguçadas",
   "folder": "IiOnM2uWCNuRaQqs",
   "_id": "pv1hw4kJ1Q28xSiG",
   "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you're targeted by an attack, you can <strong>spend a Focus</strong> to gain a bonus to your Evasion equal to your tier against the attack.</p>",
+    "description": "<p>Quando você for alvo de um ataque, pode <strong>gastar 1 de Foco</strong> para ganhar um bônus na sua Evasão igual ao seu patamar contra o ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Focus",
+        "name": "Gastar Foco",
         "range": "self"
       }
     },
@@ -62,10 +62,10 @@
   },
   "effects": [
     {
-      "name": "Keen Defenses",
+      "name": "Defesas Aguçadas",
       "disabled": false,
       "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
-      "description": "<p>You have a bonus to your Evasion equal to your tier against the attack.</p>",
+      "description": "<p>Você tem um bônus na sua Evasão igual ao seu patamar contra o ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

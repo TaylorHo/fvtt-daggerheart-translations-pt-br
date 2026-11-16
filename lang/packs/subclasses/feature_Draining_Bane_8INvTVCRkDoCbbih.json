@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Draining Bane",
+  "name": "Maldição Drenante",
   "folder": "wl9jx5leIDw9ox3R",
   "_id": "8INvTVCRkDoCbbih",
   "img": "icons/magic/unholy/orb-contained-pink.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When an adversary targets you or an ally within Very Close range with an attack, you can <strong>spend a Favor</strong> to <em>Drain</em> them. When you do, they must mark a Stress, and you can clear a Stress. While <em>Drained</em>, the target uses a <strong>d12</strong> instead of a d20 for attack rolls (including for advantage or disadvantage) until they fail a roll.</p>",
+    "description": "<p>Quando um adversário escolher você ou um aliado em alcance Muito Próximo como alvo de um ataque, você pode <strong>gastar 1 de Favor</strong> para <em>Drená-lo</em>. Ao fazer isso, ele deve marcar 1 Fadiga e você pode limpar 1 de Fadiga. Enquanto estiver <em>Drenado</em>, o alvo usa um <strong>d12</strong> em vez de um d20 nas jogadas de ataque (inclusive para vantagem ou desvantagem) até falhar em uma jogada.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -75,7 +75,7 @@
             "onSave": false
           }
         ],
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": ""
       }
     },
@@ -85,10 +85,10 @@
   },
   "effects": [
     {
-      "name": "Drained",
+      "name": "Drenado",
       "disabled": false,
       "img": "icons/magic/unholy/orb-contained-pink.webp",
-      "description": "<p>While <em>Drained</em>, the target uses a <strong>d12</strong> instead of a d20 for attack rolls (including for advantage or disadvantage) until they fail a roll.</p>",
+      "description": "<p>Enquanto estiver <em>Drenado</em>, o alvo usa um <strong>d12</strong> em vez de um d20 nas jogadas de ataque (inclusive para vantagem ou desvantagem) até falhar em uma jogada.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

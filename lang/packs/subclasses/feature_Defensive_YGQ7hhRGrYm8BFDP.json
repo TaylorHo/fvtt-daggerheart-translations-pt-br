@@ -1,12 +1,12 @@
 {
   "folder": "K1Zh9uNgiR5UlOOE",
-  "name": "Defensive",
+  "name": "Defensiva",
   "type": "feature",
   "_id": "YGQ7hhRGrYm8BFDP",
   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Attack rolls targeting you from within Melee range have disadvantage unless the attacker marks a Stress to negate the disadvantage.</p>",
+    "description": "<p>Jogadas de ataque que visem você a partir do alcance Corpo a Corpo têm desvantagem, a menos que o atacante marque 1 Fadiga para anular a desvantagem.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Defensive",
+      "name": "Postura: Defensiva",
       "disabled": false,
       "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
-      "description": "<p>Attack rolls targeting you from within Melee range have disadvantage unless the attacker marks a Stress to negate the disadvantage.</p>",
+      "description": "<p>Jogadas de ataque que visem você a partir do alcance Corpo a Corpo têm desvantagem, a menos que o atacante marque 1 Fadiga para anular a desvantagem.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Internal Compass",
+  "name": "Bússola Interna",
   "type": "feature",
   "_id": "e2Cu6exxtvfQzc1e",
   "img": "icons/tools/navigation/compass-worn-copper.webp",
   "system": {
-    "description": "<p>When you roll a 1 on your Hope Die, you can reroll it.</p>",
+    "description": "<p>Quando você tirar 1 no seu Dado de Esperança, pode rolá-lo novamente.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

@@ -1,11 +1,11 @@
 {
   "folder": "bv1Sw5FYWaS572v3",
-  "name": "Elusive Predator",
+  "name": "Predador Esquivo",
   "type": "feature",
   "_id": "Cjtc43V3IzAmfIFG",
   "img": "icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp",
   "system": {
-    "description": "<p>When your Focus makes an attack against you, you gain a +2 bonus to your Evasion against the attack.</p>",
+    "description": "<p>Quando o seu Foco fizer um ataque contra você, você ganha +2 de bônus na sua Evasão contra o ataque.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Elusive Predator",
+      "name": "Predador Esquivo",
       "type": "base",
       "system": {
         "changes": [
@@ -34,7 +34,7 @@
         ],
         "duration": {
           "type": "",
-          "description": "<p>Against the attack.</p>"
+          "description": "<p>Contra o ataque.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -50,7 +50,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When your Focus makes an attack against you, you gain a +2 bonus to your Evasion against the attack.</p>",
+      "description": "<p>Quando o seu Foco fizer um ataque contra você, você ganha +2 de bônus na sua Evasão contra o ataque.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

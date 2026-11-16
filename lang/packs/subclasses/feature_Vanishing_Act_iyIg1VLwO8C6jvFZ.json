@@ -1,11 +1,11 @@
 {
   "folder": "w6agWszBQCnHTo5p",
-  "name": "Vanishing Act",
+  "name": "Ato de Desaparecimento",
   "type": "feature",
   "_id": "iyIg1VLwO8C6jvFZ",
   "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to become Cloaked at any time. When Cloaked from this feature, you automatically clear the Restrained condition if you have it. You remain Cloaked in this way until you roll with Fear or until your next rest.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para ficar Camuflado a qualquer momento. Quando Camuflado por esta habilidade, você limpa automaticamente a condição Imobilizado, se a tiver. Você permanece Camuflado dessa forma até rolar com Medo ou até o seu próximo descanso.</p>",
     "resource": null,
     "actions": {
       "BjAECQULugmbVqXU": {
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
         "range": "self",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Vanishing Act: Cloaked",
+      "name": "Ato de Desaparecimento: Camuflado",
       "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
       "transfer": false,
       "_id": "czrwqq44sEr0uJ8O",
@@ -86,7 +86,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When Cloaked from this feature, you automatically clear the Restrained condition if you have it. You remain Cloaked in this way until you roll with Fear or until your next rest.</p>",
+      "description": "<p>Quando Camuflado por esta habilidade, você limpa automaticamente a condição Imobilizado, se a tiver. Você permanece Camuflado dessa forma até rolar com Medo ou até o seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,11 +1,11 @@
 {
   "folder": "PD8T5cWuSzaoPdl5",
-  "name": "Loyal Protector",
+  "name": "Protetor Leal",
   "type": "feature",
   "_id": "hd7UeBPr86Mz21Pe",
   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
   "system": {
-    "description": "<p>When an ally within Close range has 2 or fewer Hit Points and would take damage, you can <strong>mark a Stress</strong> to sprint to their side and take the damage instead.</p>",
+    "description": "<p>Quando um aliado em alcance Próximo tiver 2 ou menos Pontos de Vida e fosse sofrer dano, você pode <strong>marcar 1 Fadiga</strong> para correr até o lado dele e sofrer o dano no lugar.</p>",
     "resource": null,
     "actions": {
       "Dxnu3gPSTSysJnb8": {
@@ -36,7 +36,7 @@
           "type": "friendly",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
         "range": "close",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Toxic Concoctions",
+  "name": "Misturas Tóxicas",
   "folder": "R7L0dQGkdfNSu2kj",
   "_id": "UNn0fdVUezD9rRJu",
   "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Mark a Stress</strong> to place <strong>1d4+1</strong> tokens on this card. When you make a successful weapon attack, you can spend a token to afflict the target with a poison. You know these poisons:</p><ul><li><p><strong>Ghost Petal:</strong> The target becomes temporarily <em>Vulnerable</em>.</p></li><li><p><strong>Grave Spore:</strong> The target must also mark a Stress.</p></li><li><p><strong>Leech Weed:</strong> You deal an extra <strong>1d6</strong> damage on this attack.</p></li></ul><p>When you take a long rest, clear all unspent tokens.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para colocar <strong>1d4+1</strong> fichas nesta carta. Quando você fizer um ataque com arma bem-sucedido, pode gastar uma ficha para afligir o alvo com um veneno. Você conhece estes venenos:</p><ul><li><p><strong>Pétala Fantasma:</strong> O alvo fica temporariamente <em>Vulnerável</em>.</p></li><li><p><strong>Esporo Sepulcral:</strong> O alvo também deve marcar 1 Fadiga.</p></li><li><p><strong>Erva Sanguessuga:</strong> Você causa <strong>1d6</strong> de dano extra neste ataque.</p></li></ul><p>Quando você fizer um descanso longo, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -27,7 +27,7 @@
         "_id": "muouYqVhSxKflJkl",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p><strong>Mark a Stress</strong> to place <strong>1d4+1</strong> tokens on this card.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para colocar <strong>1d4+1</strong> fichas nesta carta.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -94,7 +94,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Tokens",
+        "name": "Ganhar Tokens",
         "range": "self"
       },
       "RStmr0d20BrcSQpu": {
@@ -102,7 +102,7 @@
         "_id": "RStmr0d20BrcSQpu",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target becomes temporarily <em>Vulnerable</em>.</p>",
+        "description": "<p>O alvo fica temporariamente <em>Vulnerável</em>.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -127,7 +127,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Ghost Petal",
+        "name": "Pétala Fantasma",
         "range": "",
         "img": "icons/magic/nature/plant-undersea-orb-purple.webp"
       },
@@ -159,7 +159,7 @@
         "_id": "2cu2lGBt48HOvb3Q",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target must also mark a Stress.</p>",
+        "description": "<p>O alvo também deve marcar 1 Fadiga.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -179,7 +179,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Grave Spore",
+        "name": "Esporo Sepulcral",
         "range": "",
         "img": "icons/commodities/flowers/flower-grey-orange.webp"
       }
@@ -190,14 +190,12 @@
   },
   "effects": [
     {
-      "name": "Ghost Petal",
+      "name": "Pétala Fantasma",
       "disabled": false,
       "img": "icons/magic/nature/plant-undersea-orb-purple.webp",
-      "description": "<p>The target becomes temporarily <em>Vulnerable</em>.</p>",
+      "description": "<p>O alvo fica temporariamente <em>Vulnerável</em>.</p>",
       "transfer": false,
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "system": {
         "changes": [],
         "duration": {

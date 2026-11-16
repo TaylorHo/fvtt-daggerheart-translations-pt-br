@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Not Done Yet",
+  "name": "Ainda Não Acabei",
   "folder": "oMF7y1qlFnNA6EGC",
   "_id": "kKdC6wJ7YAF4F12p",
   "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you take Severe damage, you can gain a Hope or clear a Stress.</p>",
+    "description": "<p>Quando você sofrer dano Grave, pode ganhar 1 de Esperança ou limpar 1 de Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -76,7 +76,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "range": "self"
       },
       "adUe1ZFmH1JWW0b3": {
@@ -142,7 +142,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "range": "self",
         "img": "icons/magic/life/heart-cross-strong-purple-orange.webp"
       }

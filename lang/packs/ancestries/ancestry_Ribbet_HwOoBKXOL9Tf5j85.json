@@ -1,10 +1,10 @@
 {
-  "name": "Ribbet",
+  "name": "Quacho (Ribbet)",
   "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Ribbets resemble anthropomorphic frogs with protruding eyes and webbed hands and feet.</p>",
+    "description": "<p>Quachos se parecem com sapos antropomórficos, com olhos saltados e mãos e pés palmados.</p>",
     "features": [
       {
         "type": "primary",

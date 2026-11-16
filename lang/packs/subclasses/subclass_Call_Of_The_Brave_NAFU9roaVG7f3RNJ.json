@@ -1,11 +1,11 @@
 {
   "folder": "aTyhcJgENR9uI7u4",
-  "name": "Call Of The Brave",
+  "name": "Chamado da Bravura",
   "type": "subclass",
   "_id": "NAFU9roaVG7f3RNJ",
   "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
   "system": {
-    "description": "<p>Play the Call of the Brave if you want to use the might of your enemies to fuel your own power.</p>",
+    "description": "<p>Escolha Chamado do Bravo se quiser usar a força dos seus inimigos para alimentar o seu próprio poder.</p>",
     "spellcastingTrait": null,
     "features": [
       {

@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Feline Instincts",
+  "name": "Instintos Felinos",
   "type": "feature",
   "_id": "lNgbbYnCKgrdvA85",
   "img": "icons/magic/perception/eye-slit-orange.webp",
   "system": {
-    "description": "<p>When you make an Agility Roll, you can <strong>spend 2 Hope</strong> to reroll your Hope Die.</p>",
+    "description": "<p>Quando você fizer uma Jogada de Agilidade, pode <strong>gastar 2 de Esperança</strong> para rolar novamente seu Dado de Esperança.</p>",
     "resource": null,
     "actions": {
       "ALsGHOy0q5THGxz5": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/perception/eye-slit-orange.webp",
         "range": "",
         "baseAction": false,

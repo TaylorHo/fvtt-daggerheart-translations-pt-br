@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Luckbringer",
+  "name": "Portador de Sorte",
   "type": "feature",
   "_id": "8O6SQQMxKWr430QA",
   "img": "icons/magic/life/heart-hand-gold-green.webp",
   "system": {
-    "description": "<p>At the start of each session, everyone in your party gains a Hope.</p>",
+    "description": "<p>No início de cada sessão, todos no seu grupo ganham 1 de Esperança.</p>",
     "resource": null,
     "actions": {
       "8sK3t73bFkpb999C": {
@@ -65,7 +65,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "img": "icons/magic/life/heart-hand-gold-green.webp",
         "range": "",
         "baseAction": false,

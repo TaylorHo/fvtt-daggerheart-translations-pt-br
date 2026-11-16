@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Fearsome Attack",
+  "name": "Ataque Temível",
   "folder": "wl9jx5leIDw9ox3R",
   "_id": "voLbSV1fvpAQdt3y",
   "img": "icons/magic/unholy/hand-weapon-glow-black-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Spend a Favor</strong> to reroll any number of your damage dice. You can continue spending Favor to use this feature on the same damage roll.</p>",
+    "description": "<p><strong>Gaste 1 de Favor</strong> para rolar novamente qualquer quantidade dos seus dados de dano. Você pode continuar gastando Favor para usar esta habilidade na mesma jogada de dano.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "self"
       }
     },

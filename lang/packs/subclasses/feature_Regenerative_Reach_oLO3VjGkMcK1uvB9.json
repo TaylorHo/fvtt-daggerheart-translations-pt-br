@@ -1,11 +1,11 @@
 {
   "folder": "fJQhss1obELmJ7cK",
-  "name": "Regenerative Reach",
+  "name": "Alcance Regenerativo",
   "type": "feature",
   "_id": "oLO3VjGkMcK1uvB9",
   "img": "icons/magic/nature/root-vines-entwined-leaves.webp",
   "system": {
-    "description": "<p>You can target creatures within Very Close range with your \"Regeneration\" feature.</p>",
+    "description": "<p>Você pode escolher criaturas em alcance Muito Próximo com a sua habilidade \"Regeneração\".</p>",
     "resource": null,
     "actions": {},
     "attribution": {

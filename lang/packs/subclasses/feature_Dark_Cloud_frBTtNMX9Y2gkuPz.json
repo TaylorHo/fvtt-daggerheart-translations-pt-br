@@ -1,11 +1,11 @@
 {
   "folder": "Ej8GpWNX79Fw5XTP",
-  "name": "Dark Cloud",
+  "name": "Nuvem Escura",
   "type": "feature",
   "_id": "frBTtNMX9Y2gkuPz",
   "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
   "system": {
-    "description": "<p>Make <strong>a Spellcast Roll (15)</strong>. On a success, create a temporary dark cloud that covers any area within Close range. Anyone in this cloud can't see outside of it, and anyone outside of it can't see in. You're considered Cloaked from any adversary for whom the cloud blocks line of sight.</p>",
+    "description": "<p>Faça <strong>uma Jogada de Conjuração (15)</strong>. Em caso de sucesso, crie uma nuvem escura temporária que cobre qualquer área em alcance Próximo. Quem estiver nesta nuvem não consegue ver fora dela, e quem estiver fora não consegue ver dentro. Você é considerado Camuflado contra qualquer adversário cuja linha de visão a nuvem bloqueie.</p>",
     "resource": null,
     "actions": {
       "nIgBwYfAVAJ98lzb": {
@@ -51,7 +51,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "SpellCast: Dark Cloud",
+        "name": "Conjuração: Nuvem Escura",
         "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
         "range": "",
         "areas": [],

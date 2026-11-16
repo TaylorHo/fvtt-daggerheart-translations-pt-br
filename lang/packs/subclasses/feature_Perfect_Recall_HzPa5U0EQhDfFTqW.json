@@ -1,11 +1,11 @@
 {
   "folder": "IIW7boHWq1QoYwOQ",
-  "name": "Perfect Recall",
+  "name": "Memória Perfeita",
   "type": "feature",
   "_id": "HzPa5U0EQhDfFTqW",
   "img": "icons/magic/perception/third-eye-blue-red.webp",
   "system": {
-    "description": "<p>Once per rest, when you recall a domain card in your vault, you can reduce its Recall Cost by 1.</p>",
+    "description": "<p>Uma vez por descanso, quando você trocar uma carta de domínio do seu cofre, pode reduzir o Custo de Troca dela em 1.</p>",
     "resource": null,
     "actions": {
       "rFZj0ZsnJCc0PS3h": {
@@ -27,7 +27,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Recall",
+        "name": "Lembrar",
         "img": "icons/magic/perception/third-eye-blue-red.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Martial Artist",
+  "name": "Artista Marcial",
   "folder": "YrzAU9sETEGR374I",
   "_id": "QdoKFfErTEgx6326",
   "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Martial Artist if you want to use a variety of fighting styles to eliminate your foes.</p>",
+    "description": "<p>Escolha Artista Marcial se quiser usar uma variedade de estilos de luta para eliminar seus inimigos.</p>",
     "gmNotes": "",
     "spellcastingTrait": null,
     "features": [

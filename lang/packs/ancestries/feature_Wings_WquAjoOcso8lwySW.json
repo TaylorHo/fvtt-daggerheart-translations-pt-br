@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Wings",
+  "name": "Asas",
   "type": "feature",
   "_id": "WquAjoOcso8lwySW",
   "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
   "system": {
-    "description": "<p>You can fly. While flying, you can <strong>mark a Stress</strong> after an adversary makes an attack against you to gain a +2 bonus to your Evasion against that attack.</p>",
+    "description": "<p>Você pode voar. Enquanto estiver voando, pode <strong>marcar 1 Fadiga</strong> depois que um adversário fizer um ataque contra você para ganhar +2 de bônus na sua Evasão contra esse ataque.</p>",
     "resource": null,
     "actions": {
       "dpKxkDSjXsP8kHMI": {
@@ -36,7 +36,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
         "range": "self",
         "baseAction": false,
@@ -59,7 +59,7 @@
   },
   "effects": [
     {
-      "name": "Wings",
+      "name": "Asas",
       "type": "base",
       "_id": "zD3xVdwkEQi2ivOn",
       "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
@@ -88,7 +88,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You to gain a +2 bonus to your Evasion against the Adversary's attack.</p>",
+      "description": "<p>Você ganha +2 de bônus na sua Evasão contra o ataque do Adversário.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

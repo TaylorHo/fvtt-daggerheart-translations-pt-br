@@ -4,7 +4,7 @@
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Halflings are small humanoids with large hairy feet and prominent rounded ears.</p>",
+    "description": "<p>Halflings são humanoides pequenos de pés grandes e peludos e orelhas arredondadas e proeminentes.</p>",
     "features": [
       {
         "type": "primary",

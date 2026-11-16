@@ -1,10 +1,10 @@
 {
-  "name": "Faerie",
+  "name": "Fada",
   "img": "icons/magic/nature/leaf-drip-light-green.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Faeries are winged humanoid creatures with insectile features.</p>",
+    "description": "<p>Fadas são criaturas humanoides aladas com traços de inseto.</p>",
     "features": [
       {
         "type": "primary",

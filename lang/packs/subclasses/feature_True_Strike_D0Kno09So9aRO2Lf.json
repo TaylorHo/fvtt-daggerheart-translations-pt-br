@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "True Strike",
+  "name": "Golpe Certeiro",
   "folder": "EsyV5lospiAwVQeq",
   "_id": "D0Kno09So9aRO2Lf",
   "img": "icons/magic/death/weapon-sword-skull-purple.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per long rest when you fail an attack, you can <strong>spend a Hope</strong> to make it a success instead.</p>",
+    "description": "<p>Uma vez por descanso longo, quando você falhar em um ataque, pode <strong>gastar 1 de Esperança</strong> para torná-lo um sucesso.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

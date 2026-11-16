@@ -1,17 +1,17 @@
 {
   "folder": "Ih9KaoVY4bhZPjsn",
-  "name": "Rousing Speech",
+  "name": "Discurso Inflamado",
   "type": "feature",
   "img": "icons/tools/instruments/megaphone.webp",
   "system": {
-    "description": "<p><strong>Once per long rest</strong>, you can give a heartfelt, inspiring speech. <strong>All allies</strong> within <strong>Far</strong> range <strong>clear 2 Stress</strong>.</p>",
+    "description": "<p><strong>Uma vez por descanso longo</strong>, você pode fazer um discurso sincero e inspirador. <strong>Todos os aliados</strong> em alcance <strong>Distante</strong> <strong>limpam 2 de Fadiga</strong>.</p>",
     "resource": null,
     "actions": {
       "WNtHiko4DRGbxKnm": {
         "type": "healing",
         "_id": "WNtHiko4DRGbxKnm",
         "systemPath": "actions",
-        "description": "<p><strong>Once per long rest</strong>, you can give a heartfelt, inspiring speech. <strong>All allies</strong> within <strong>Far</strong> range <strong>clear 2 Stress</strong><strong>.</strong></p>",
+        "description": "<p><strong>Uma vez por descanso longo</strong>, você pode fazer um discurso sincero e inspirador. <strong>Todos os aliados</strong> em alcance <strong>Distante</strong> <strong>limpam 2 de Fadiga</strong><strong>.</strong></p>",
         "chatDisplay": false,
         "actionType": "action",
         "cost": [],
@@ -64,12 +64,12 @@
           },
           "useDefault": false
         },
-        "name": "Talk to your allies!",
+        "name": "Converse com seus aliados!",
         "img": "icons/equipment/head/mask-plague-leather-brown.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Rousing Speech",
+            "name": "Discurso Inflamado",
             "type": "placed",
             "shape": "emanation",
             "size": "far",

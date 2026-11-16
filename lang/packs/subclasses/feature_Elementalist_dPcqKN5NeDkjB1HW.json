@@ -1,18 +1,18 @@
 {
   "folder": "sRNZtEniwaOIQ2rY",
-  "name": "Elementalist",
+  "name": "Elementalista",
   "type": "feature",
   "_id": "dPcqKN5NeDkjB1HW",
   "img": "icons/magic/fire/flame-burning-hand-white.webp",
   "system": {
-    "description": "<p>Choose one of the following elements at character creation: air, earth, fire, lightning, water.</p><p>You can shape this element into harmless effects. Additionally, <strong>spend a Hope</strong> and describe how your control over this element helps an action roll you're about to make, then either gain a +2 bonus to the roll or a +3 bonus to the roll's damage.</p>",
+    "description": "<p>Escolha um dos seguintes elementos na criação do personagem: ar, terra, fogo, relâmpago, água.</p><p>Você pode moldar este elemento em efeitos inofensivos. Além disso, <strong>gaste 1 de Esperança</strong> e descreva como seu controle sobre este elemento ajuda uma jogada de ação que você está prestes a fazer; então ganhe +2 de bônus na jogada ou +3 de bônus no dano da jogada.</p>",
     "resource": null,
     "actions": {
       "rxuFLfHP1FILDpds": {
         "type": "effect",
         "_id": "rxuFLfHP1FILDpds",
         "systemPath": "actions",
-        "description": "<p>S<strong>pend a Hope</strong> and describe how your control over this element helps an action roll you're about to make, gain a +2 bonus to the roll.</p>",
+        "description": "<p><strong>Gaste 1 de Esperança</strong> e descreva como seu controle sobre este elemento ajuda uma jogada de ação que você está prestes a fazer; ganhe +2 de bônus na jogada.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Bonus to Roll",
+        "name": "Bônus na Jogada",
         "img": "icons/sundries/gaming/dice-runed-tan.webp",
         "range": "self",
         "baseAction": false,
@@ -55,7 +55,7 @@
         "type": "effect",
         "_id": "S7HvFD3qIR3ifJRL",
         "systemPath": "actions",
-        "description": "<p>S<strong>pend a Hope</strong> and describe how your control over this element helps an action roll you're about to make, gain a +3 bonus to the roll's damage.</p>",
+        "description": "<p><strong>Gaste 1 de Esperança</strong> e descreva como seu controle sobre este elemento ajuda uma jogada de ação que você está prestes a fazer; ganhe +3 de bônus no dano da jogada.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -84,7 +84,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Bonus to Damage",
+        "name": "Bônus de Dano",
         "img": "icons/sundries/gaming/dice-runed-tan.webp",
         "range": "self",
         "baseAction": false,
@@ -107,7 +107,7 @@
   },
   "effects": [
     {
-      "name": "Bonus to Roll",
+      "name": "Bônus na Jogada",
       "img": "icons/magic/fire/flame-burning-hand-white.webp",
       "transfer": false,
       "_id": "EY87mY6ULfIt3XC8",
@@ -131,9 +131,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "action"
-            ],
+            "actionTypes": ["action"],
             "traits": []
           }
         ]
@@ -145,7 +143,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+2 to an action roll</p>",
+      "description": "<p>+2 em uma jogada de ação</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -159,7 +157,7 @@
       "_key": "!items.effects!dPcqKN5NeDkjB1HW.EY87mY6ULfIt3XC8"
     },
     {
-      "name": "Bonus to Damage",
+      "name": "Bônus de Dano",
       "img": "icons/magic/fire/flame-burning-hand-white.webp",
       "transfer": false,
       "_id": "WwibpgaO6Kkks7aZ",
@@ -189,7 +187,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+3 to damage</p>",
+      "description": "<p>+3 de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

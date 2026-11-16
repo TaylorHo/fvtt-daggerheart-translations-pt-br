@@ -1,11 +1,11 @@
 {
   "folder": "36dtJE1CPjPt76pP",
-  "name": "Nightwalker",
+  "name": "Andarilho da Noite (Nightwalker)",
   "type": "subclass",
   "_id": "h161OSIK24Up4qNd",
   "img": "icons/magic/control/buff-flight-wings-blue.webp",
   "system": {
-    "description": "<p>Play the Nightwalker if you want to manipulate shadows to maneuver through the environment.</p>",
+    "description": "<p>Escolha Andarilho da Noite se quiser manipular sombras para se mover pelo ambiente.</p>",
     "spellcastingTrait": "finesse",
     "features": [
       {

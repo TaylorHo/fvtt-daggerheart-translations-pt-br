@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Focus Cannon",
+  "name": "Canhão de Foco",
   "folder": "IiOnM2uWCNuRaQqs",
   "_id": "fMiu9xPbBVDizZEB",
   "img": "icons/magic/light/beam-rays-orange.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Spend a Focus</strong> to make an Instinct Roll against an adversary within Far range. On a success, deal <strong>d20+3</strong> magic damage using your Proficiency.</p>",
+    "description": "<p><strong>Gaste 1 de Foco</strong> para fazer uma Jogada de Instinto contra um adversário em alcance Distante. Em caso de sucesso, cause <strong>d20+3</strong> de dano mágico usando sua Proficiência.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -34,9 +34,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "itemId": null
           },
           "resources": {}
@@ -93,7 +91,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spend Focus",
+        "name": "Gastar Foco",
         "range": "far"
       }
     },

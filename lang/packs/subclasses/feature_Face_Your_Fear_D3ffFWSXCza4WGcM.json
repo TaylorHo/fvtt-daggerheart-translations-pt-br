@@ -1,11 +1,11 @@
 {
   "folder": "8dyHGlppj08jYLIO",
-  "name": "Face Your Fear",
+  "name": "Encare Seu Medo",
   "type": "feature",
   "_id": "D3ffFWSXCza4WGcM",
   "img": "icons/magic/light/orb-hand-green.webp",
   "system": {
-    "description": "<p>When you succeed with Fear on an attack roll, you deal an extra <strong>1d10</strong> magic damage.</p>",
+    "description": "<p>Quando você for bem-sucedido com Medo em uma jogada de ataque, causa <strong>1d10</strong> de dano mágico extra.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

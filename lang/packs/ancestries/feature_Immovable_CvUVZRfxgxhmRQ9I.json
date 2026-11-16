@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Immovable",
+  "name": "Imóvel",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "CvUVZRfxgxhmRQ9I",
   "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
   "system": {
     "attribution": {},
-    "description": "<p>While you're touching the ground, you can't be lifted or moved against your will.</p>",
+    "description": "<p>Enquanto estiver tocando o chão, você não pode ser levantado nem movido contra a sua vontade.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

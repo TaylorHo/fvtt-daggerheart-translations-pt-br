@@ -1,11 +1,11 @@
 {
   "folder": "gysKqIL1lVz4g6zg",
-  "name": "Iron Will",
+  "name": "Vontade de Ferro",
   "type": "feature",
   "_id": "7AVRNyBcd1Nffjtn",
   "img": "icons/equipment/shield/heater-steel-worn.webp",
   "system": {
-    "description": "<p>When you take physical damage, you can <strong>mark an additional Armor Slot</strong> to reduce the severity.</p>",
+    "description": "<p>Quando você sofrer dano físico, pode <strong>marcar 1 Espaço de Armadura adicional</strong> para reduzir a severidade.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Iron Will",
+      "name": "Vontade de Ferro",
       "type": "base",
       "system": {
         "changes": [
@@ -56,7 +56,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you take physical damage, you can <strong>mark an additional Armor Slot</strong> to reduce the severity.</p>",
+      "description": "<p>Quando você sofrer dano físico, pode <strong>marcar 1 Espaço de Armadura adicional</strong> para reduzir a severidade.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

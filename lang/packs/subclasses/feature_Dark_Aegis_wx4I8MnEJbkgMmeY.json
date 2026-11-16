@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Dark Aegis",
+  "name": "Égide Sombria",
   "folder": "wl9jx5leIDw9ox3R",
   "_id": "wx4I8MnEJbkgMmeY",
   "img": "icons/magic/unholy/orb-stone-pink.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per long rest when you would take damage, you can <strong>spend a Favor</strong> instead of marking Hit Points.</p>",
+    "description": "<p>Uma vez por descanso longo, quando você sofreria dano, pode <strong>gastar 1 de Favor</strong> em vez de marcar Pontos de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "self"
       }
     },

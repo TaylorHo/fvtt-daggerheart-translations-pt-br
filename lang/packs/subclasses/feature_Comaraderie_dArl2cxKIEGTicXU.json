@@ -1,18 +1,18 @@
 {
   "folder": "2lqz1Vao2brbVfIH",
-  "name": "Comaraderie",
+  "name": "Camaradagem",
   "type": "feature",
   "_id": "dArl2cxKIEGTicXU",
   "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
   "system": {
-    "description": "<p>Your unwavering bravery is a rallying point for your allies. You can initiate a Tag Team Roll one additional time per session. Additionally, when an ally initiates a Tag Team Roll with you, they only need to spend 2 Hope to do so.</p>",
+    "description": "<p>Sua bravura inabalável é um ponto de encontro para seus aliados. Você pode iniciar uma Jogada em Dupla uma vez adicional por sessão. Além disso, quando um aliado iniciar uma Jogada em Dupla com você, ele só precisa gastar 2 de Esperança para isso.</p>",
     "resource": null,
     "actions": {
       "eBSXC0l2IrRb1F8f": {
         "type": "effect",
         "_id": "eBSXC0l2IrRb1F8f",
         "systemPath": "actions",
-        "description": "<p>You can initiate a Tag Team Roll one additional time per session.</p>",
+        "description": "<p>Você pode iniciar uma Jogada em Dupla uma vez adicional por sessão.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -27,7 +27,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Comaraderie",
+        "name": "Camaradagem",
         "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
         "range": "",
         "baseAction": false,

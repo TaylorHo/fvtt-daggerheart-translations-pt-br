@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Pact of the Wrathful",
+  "name": "Pacto da Ira",
   "folder": "LO7tzHIrpCXH2ck5",
   "_id": "TsJSGjecybUfKfpP",
   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Pact of the Wrathful if you want to destroy those who act against you.</p>",
+    "description": "<p>Escolha Pacto da Ira se quiser destruir aqueles que agem contra você.</p>",
     "gmNotes": "",
     "spellcastingTrait": "presence",
     "features": [

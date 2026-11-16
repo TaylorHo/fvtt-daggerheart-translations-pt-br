@@ -1,11 +1,11 @@
 {
   "folder": "Bb9SLVpYHGBrOB59",
-  "name": "School Of Knowledge",
+  "name": "Escola do Conhecimento",
   "type": "subclass",
   "_id": "qqQlgCqhOivUFoQn",
   "img": "icons/sundries/books/book-tooled-blue-yellow.webp",
   "system": {
-    "description": "<p>Play the School of Knowledge if you want a keen understanding of the world around you.</p>",
+    "description": "<p>Escolha Escola do Conhecimento se quiser um entendimento aguçado do mundo ao seu redor.</p>",
     "spellcastingTrait": "knowledge",
     "features": [
       {

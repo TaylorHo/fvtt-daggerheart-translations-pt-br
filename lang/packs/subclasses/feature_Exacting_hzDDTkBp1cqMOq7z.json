@@ -1,12 +1,12 @@
 {
   "folder": "lWpkV14I1qmLrVHt",
-  "name": "Exacting",
+  "name": "Exigente",
   "type": "feature",
   "_id": "hzDDTkBp1cqMOq7z",
   "img": "icons/skills/melee/strike-axe-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you roll a 1 on a damage die, you can treat it as the highest value on the die instead.</p>",
+    "description": "<p>Quando você tirar 1 em um dado de dano, pode tratá-lo como o maior valor do dado.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Exacting",
+      "name": "Postura: Exigente",
       "disabled": false,
       "img": "icons/skills/melee/strike-axe-red.webp",
-      "description": "<p>When you roll a 1 on a damage die, you can treat it as the highest value on the die instead.</p>",
+      "description": "<p>Quando você tirar 1 em um dado de dano, pode tratá-lo como o maior valor do dado.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

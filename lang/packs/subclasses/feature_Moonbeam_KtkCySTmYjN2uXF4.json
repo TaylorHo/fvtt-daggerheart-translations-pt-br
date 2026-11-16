@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Moonbeam",
+  "name": "Raio de Lua",
   "folder": "y4bIi7tPBdhHfvAj",
   "_id": "KtkCySTmYjN2uXF4",
   "img": "icons/magic/light/projectile-halo-teal.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per session, you can conjure a column of moonlight that illuminates the area within Close range until the end of the scene. While bathed in this moonlight, you and your allies gain a +1 bonus to <strong>Spellcast Roll</strong>s and can see through illusions.</p>",
+    "description": "<p>Uma vez por sessão, você pode conjurar uma coluna de luar que ilumina a área em alcance Próximo até o fim da cena. Enquanto estiverem banhados por este luar, você e seus aliados ganham +1 de bônus em <strong>Jogadas de Conjuração</strong> e podem enxergar através de ilusões.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -27,14 +27,12 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Moonbeam",
+            "name": "Raio de Lua",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
             "hasHole": false,
-            "effects": [
-              "91YMJHhyGeGj7zwm"
-            ]
+            "effects": ["91YMJHhyGeGj7zwm"]
           }
         ],
         "cost": [],
@@ -59,10 +57,10 @@
   },
   "effects": [
     {
-      "name": "Moonbeam",
+      "name": "Raio de Lua",
       "disabled": false,
       "img": "icons/magic/light/projectile-halo-teal.webp",
-      "description": "<p>While bathed in this moonlight, you and your allies gain a +1 bonus to <strong>Spellcast Roll</strong>s and can see through illusions.</p>",
+      "description": "<p>Enquanto estiverem banhados por este luar, você e seus aliados ganham +1 de bônus em <strong>Jogadas de Conjuração</strong> e podem enxergar através de ilusões.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -81,15 +79,11 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [
-          1
-        ],
+        "targetDispositions": [1],
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "spellcast"
-            ],
+            "actionTypes": ["spellcast"],
             "traits": []
           }
         ]

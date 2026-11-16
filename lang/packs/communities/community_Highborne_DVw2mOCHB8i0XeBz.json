@@ -1,13 +1,11 @@
 {
-  "name": "Highborne",
+  "name": "Nascido na Nobreza",
   "img": "icons/environment/settlement/palast.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of a highborne community means you're accustomed to a life of elegance, opulence, and prestige within the upper echelons of society.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.C7NR6qRatawZusmg"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida na Nobreza significa que você está acostumado a uma vida de elegância, opulência e prestígio nos mais altos escalões da sociedade.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.C7NR6qRatawZusmg"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

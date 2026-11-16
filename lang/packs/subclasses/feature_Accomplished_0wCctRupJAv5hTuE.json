@@ -1,11 +1,11 @@
 {
   "folder": "IIW7boHWq1QoYwOQ",
-  "name": "Accomplished",
+  "name": "Talentoso",
   "type": "feature",
   "_id": "0wCctRupJAv5hTuE",
   "img": "icons/sundries/scrolls/scroll-writing-orange-black.webp",
   "system": {
-    "description": "<p>Take an additional domain card of your level or lower from a domain you have access to.</p>",
+    "description": "<p>Receba uma carta de domínio adicional do seu nível ou inferior de um domínio ao qual você tenha acesso.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

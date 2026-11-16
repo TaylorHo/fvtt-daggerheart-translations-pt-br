@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Ambush",
+  "name": "Emboscada",
   "folder": "R7L0dQGkdfNSu2kj",
   "_id": "WkrwX3w8K4wLpaY8",
   "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Your \"Marked for Death\" feature uses <strong>d6s</strong> instead of d4s.</p>",
+    "description": "<p>Sua habilidade \"Marca da Morte\" usa <strong>d6</strong> em vez de d4.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

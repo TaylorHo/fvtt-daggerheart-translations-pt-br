@@ -1,11 +1,11 @@
 {
   "folder": "ArVAtkgkm5bYpKHL",
-  "name": "Wayfinder",
+  "name": "Desbravador",
   "type": "subclass",
   "_id": "zsUglcU4NgZ8tNgZ",
   "img": "icons/environment/wilderness/mine-interior-dungeon-door.webp",
   "system": {
-    "description": "<p>Play the Wayfinder if you want to hunt your prey and strike with deadly force.</p>",
+    "description": "<p>Escolha Desbravador se quiser caçar suas presas e atacar com força mortal.</p>",
     "spellcastingTrait": "agility",
     "features": [
       {

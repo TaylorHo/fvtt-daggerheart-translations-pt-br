@@ -1,11 +1,11 @@
 {
   "folder": "aTyhcJgENR9uI7u4",
-  "name": "Call Of The Slayer",
+  "name": "Chamado do Matador",
   "type": "subclass",
   "_id": "bcNe5qP3o6CKadhK",
   "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
   "system": {
-    "description": "<p>Play the Call of the Slayer if you want to strike down adversaries with immense force.</p>",
+    "description": "<p>Escolha Chamado do Matador se quiser abater adversários com imensa força.</p>",
     "spellcastingTrait": null,
     "features": [
       {

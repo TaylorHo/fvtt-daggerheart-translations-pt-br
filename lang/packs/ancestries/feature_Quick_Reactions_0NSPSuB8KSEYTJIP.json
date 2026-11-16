@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Quick Reactions",
+  "name": "Reações Rápidas",
   "type": "feature",
   "_id": "0NSPSuB8KSEYTJIP",
   "img": "icons/skills/movement/feet-winged-boots-brown.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to gain advantage on a reaction roll.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para ganhar vantagem em uma jogada de reação.</p>",
     "resource": null,
     "actions": {
       "6Av1Y8JXWDkteLhc": {
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/movement/feet-winged-boots-brown.webp",
         "range": "",
         "baseAction": false,

@@ -1,11 +1,11 @@
 {
   "folder": "ArVAtkgkm5bYpKHL",
-  "name": "Beastbound",
+  "name": "Vínculo Bestial",
   "type": "subclass",
   "_id": "TIUsIlTS1WkK5vr2",
   "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
   "system": {
-    "description": "<p>Play the Beastbound if you want to form a deep bond with an animal ally.</p>",
+    "description": "<p>Escolha Vínculo Bestial se quiser formar um laço profundo com um aliado animal.</p>",
     "spellcastingTrait": "agility",
     "features": [
       {

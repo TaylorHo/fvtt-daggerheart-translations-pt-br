@@ -1,18 +1,18 @@
 {
   "folder": "fJQhss1obELmJ7cK",
-  "name": "Warden's Protection",
+  "name": "Proteção do Guardião",
   "type": "feature",
   "_id": "2F1bUFY80oce97C9",
   "img": "icons/magic/nature/barrier-shield-wood-vines.webp",
   "system": {
-    "description": "<p>Once per long rest, spend 2 Hope to clear 2 Hit Points on 1d4 allies within Close range.</p>",
+    "description": "<p>Uma vez por descanso longo, gaste 2 de Esperança para limpar 2 Pontos de Vida de 1d4 aliados em alcance Próximo.</p>",
     "resource": null,
     "actions": {
       "ozYzhQfRt5sp19di": {
         "type": "healing",
         "_id": "ozYzhQfRt5sp19di",
         "systemPath": "actions",
-        "description": "<p>Once per long rest, spend 2 Hope to clear 2 Hit Points on [[/r 1d4]] allies within Close range.</p>",
+        "description": "<p>Uma vez por descanso longo, gaste 2 de Esperança para limpar 2 Pontos de Vida de [[/r 1d4]] aliados em alcance Próximo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -65,12 +65,12 @@
           },
           "useDefault": false
         },
-        "name": "Healing",
+        "name": "Cura",
         "img": "icons/commodities/currency/coin-embossed-ruby-gold.webp",
         "range": "",
         "areas": [
           {
-            "name": "Warden's Protection",
+            "name": "Proteção do Guardião",
             "type": "placed",
             "shape": "emanation",
             "size": "close",

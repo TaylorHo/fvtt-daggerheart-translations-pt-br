@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Efficient",
+  "name": "Eficiente",
   "type": "feature",
   "_id": "2xlqKOkDxWHbuj4t",
   "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
   "system": {
-    "description": "<p>When you take a short rest, you can choose a long rest move instead of a short rest move.</p>",
+    "description": "<p>Quando você fizer um descanso curto, pode escolher uma ação de descanso longo em vez de uma de descanso curto.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Efficient",
+      "name": "Eficiente",
       "type": "base",
       "_id": "EEryWN2nE33ppGHi",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -56,7 +56,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you take a short rest, you can choose a long rest move instead of a short rest move.</p>",
+      "description": "<p>Quando você fizer um descanso curto, pode escolher uma ação de descanso longo em vez de uma de descanso curto.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

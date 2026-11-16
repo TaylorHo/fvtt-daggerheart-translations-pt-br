@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Pact of the Endless",
+  "name": "Pacto do Infinito",
   "folder": "LO7tzHIrpCXH2ck5",
   "_id": "yA10Wf90HYb0DTbK",
   "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Pact of the Endless if you want to stand strong against enemies and avoid death.</p>",
+    "description": "<p>Escolha Pacto do Infindável se quiser se manter firme contra inimigos e evitar a morte.</p>",
     "gmNotes": "",
     "spellcastingTrait": "presence",
     "features": [

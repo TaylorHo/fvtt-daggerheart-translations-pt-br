@@ -1,11 +1,11 @@
 {
   "folder": "fJQhss1obELmJ7cK",
-  "name": "Elemental Aura",
+  "name": "Aura Elemental",
   "type": "feature",
   "_id": "2JH9NaOh69yN80Gw",
   "img": "icons/magic/control/debuff-energy-hold-green.webp",
   "system": {
-    "description": "<p>Once per rest while Channeling, you can assume an aura matching your element. The aura affects targets within Close range until your Channeling ends.</p><ul><li><p><strong>Fire</strong>: When an adversary marks 1 or more Hit Points, they must also mark a Stress.</p></li><li><p><strong>Earth</strong>: Your allies gain a +1 bonus to Strength.</p></li><li><p><strong>Water</strong>: When an adversary deals damage to you, you can mark a Stress to move them anywhere within Very Close range of where they are.</p></li><li><p><strong>Air</strong>: When you or an ally takes damage from an attack beyond Melee range, reduce the damage by 1d8.</p></li></ul>",
+    "description": "<p>Uma vez por descanso, enquanto Canaliza, você pode assumir uma aura correspondente ao seu elemento. A aura afeta alvos em alcance Próximo até sua Canalização terminar.</p><ul><li><p><strong>Fogo</strong>: Quando um adversário marcar 1 ou mais Pontos de Vida, ele também deve marcar 1 Fadiga.</p></li><li><p><strong>Terra</strong>: Seus aliados ganham +1 de bônus em Força.</p></li><li><p><strong>Água</strong>: Quando um adversário causar dano a você, você pode marcar 1 Fadiga para movê-lo para qualquer lugar em alcance Muito Próximo de onde ele está.</p></li><li><p><strong>Ar</strong>: Quando você ou um aliado sofrer dano de um ataque além do alcance Corpo a Corpo, reduza o dano em 1d8.</p></li></ul>",
     "resource": {
       "type": "simple",
       "value": 1,
@@ -20,7 +20,7 @@
         "type": "damage",
         "_id": "AdOnKhi7g6zQu2iv",
         "systemPath": "actions",
-        "description": "<p>When an adversary marks 1 or more Hit Points, they must also mark a Stress.</p>",
+        "description": "<p>Quando um adversário marcar 1 ou mais Pontos de Vida, ele também deve marcar 1 Fadiga.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -72,12 +72,12 @@
             "onSave": false
           }
         ],
-        "name": "Fire",
+        "name": "Fogo",
         "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
         "range": "",
         "areas": [
           {
-            "name": "Elemental Aura: Fire",
+            "name": "Aura Elemental: Fogo",
             "type": "attached",
             "shape": "emanation",
             "size": "close",
@@ -95,7 +95,7 @@
         "type": "effect",
         "_id": "xDBLH5TWidvrYF7z",
         "systemPath": "actions",
-        "description": "<p>Your allies gain a +1 bonus to Strength.</p>",
+        "description": "<p>Seus aliados ganham +1 de bônus em Força.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -119,19 +119,17 @@
           "type": "",
           "amount": null
         },
-        "name": "Earth",
+        "name": "Terra",
         "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
         "range": "",
         "areas": [
           {
-            "name": "Elemental Aura: Earth",
+            "name": "Aura Elemental: Terra",
             "type": "attached",
             "shape": "emanation",
             "size": "close",
             "hasHole": true,
-            "effects": [
-              "yvpWNCNobg0LLjey"
-            ]
+            "effects": ["yvpWNCNobg0LLjey"]
           }
         ],
         "baseAction": false,
@@ -144,7 +142,7 @@
         "type": "effect",
         "_id": "S4t5HlgxWlHwaBDw",
         "systemPath": "actions",
-        "description": "<p>When an adversary deals damage to you, you can mark a Stress to move them anywhere within Very Close range of where they are.</p>",
+        "description": "<p>Quando um adversário causar dano a você, você pode marcar 1 Fadiga para movê-lo para qualquer lugar em alcance Muito Próximo de onde ele está.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -173,12 +171,12 @@
           "type": "self",
           "amount": null
         },
-        "name": "Water",
+        "name": "Água",
         "img": "icons/magic/water/vortex-water-whirlpool.webp",
         "range": "self",
         "areas": [
           {
-            "name": "Elemental Aura: Water",
+            "name": "Aura Elemental: Água",
             "type": "attached",
             "shape": "emanation",
             "size": "close",
@@ -197,7 +195,7 @@
         "_id": "Z5jBzKtGiWh6y1KS",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>When you or an ally takes damage from an attack beyond Melee range, reduce the damage by 1d8.</p>",
+        "description": "<p>Quando você ou um aliado sofrer dano de um ataque além do alcance Corpo a Corpo, reduza o dano em 1d8.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -206,14 +204,12 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Elemental Aura: Air",
+            "name": "Aura Elemental: Ar",
             "type": "attached",
             "shape": "emanation",
             "size": "veryClose",
             "hasHole": false,
-            "effects": [
-              "I7zovLpRwEEbM1pO"
-            ]
+            "effects": ["I7zovLpRwEEbM1pO"]
           }
         ],
         "cost": [
@@ -237,7 +233,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Air",
+        "name": "Ar",
         "range": "",
         "img": "icons/magic/air/air-burst-spiral-blue-gray.webp"
       }
@@ -254,7 +250,7 @@
   },
   "effects": [
     {
-      "name": "Elemental Aura (Water)",
+      "name": "Aura Elemental (Água)",
       "img": "icons/magic/water/vortex-water-whirlpool.webp",
       "transfer": false,
       "_id": "H7W52ps5d3UGmaFr",
@@ -290,7 +286,7 @@
       "_key": "!items.effects!2JH9NaOh69yN80Gw.H7W52ps5d3UGmaFr"
     },
     {
-      "name": "Elemental Aura (Fire)",
+      "name": "Aura Elemental (Fogo)",
       "img": "icons/magic/fire/barrier-wall-explosion-orange.webp",
       "transfer": false,
       "_id": "WX5AMEpmUAutB9Hm",
@@ -326,10 +322,10 @@
       "_key": "!items.effects!2JH9NaOh69yN80Gw.WX5AMEpmUAutB9Hm"
     },
     {
-      "name": "Elemental Aura: Earth",
+      "name": "Aura Elemental (Terra)",
       "disabled": false,
       "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
-      "description": "<p>Your allies gain a +1 bonus to Strength.</p>",
+      "description": "<p>Seus aliados ganham +1 de bônus em Força.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -347,9 +343,7 @@
           "type": ""
         },
         "stacking": null,
-        "targetDispositions": [
-          1
-        ],
+        "targetDispositions": [1],
         "rangeDependence": null,
         "conditionals": []
       },
@@ -380,10 +374,10 @@
       "_key": "!items.effects!2JH9NaOh69yN80Gw.yvpWNCNobg0LLjey"
     },
     {
-      "name": "Elemental Aura: Air",
+      "name": "Aura Elemental (Ar)",
       "disabled": false,
       "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
-      "description": "<p>When you or an ally takes damage from an attack beyond Melee range, reduce the damage by 1d8.</p>",
+      "description": "<p>Quando você ou um aliado sofrer dano de um ataque além do alcance Corpo a Corpo, reduza o dano em 1d8.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -393,7 +387,7 @@
             "phase": "initial",
             "priority": 0,
             "value": {
-              "label": "Elemental Aura: Air",
+              "label": "Aura Elemental (Ar)",
               "value": "1d8",
               "costs": []
             }
@@ -406,9 +400,7 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [
-          1
-        ]
+        "targetDispositions": [1]
       },
       "_id": "I7zovLpRwEEbM1pO",
       "type": "base",

@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Executioners Guild",
+  "name": "Guilda dos Executores",
   "folder": "pWb9BPbxzAMecprJ",
   "_id": "F8uUCjTnvw57oNuQ",
   "img": "icons/skills/melee/strike-dagger-blood-red.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Executioners Guild if you want to strike down your targets with lethal precision.</p>",
+    "description": "<p>Escolha Guilda dos Executores se quiser abater seus alvos com precisão letal.</p>",
     "gmNotes": "",
     "spellcastingTrait": "agility",
     "features": [

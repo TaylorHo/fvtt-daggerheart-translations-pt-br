@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "First Strike",
+  "name": "Primeiro Golpe",
   "folder": "R7L0dQGkdfNSu2kj",
   "_id": "CapfuUdLhzqer78i",
   "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>The first time in a scene you succeed on an attack, you deal double damage.</p>",
+    "description": "<p>Na primeira vez em uma cena em que você for bem-sucedido em um ataque, você causa o dobro de dano.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

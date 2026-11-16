@@ -1,13 +1,11 @@
 {
-  "name": "Wildborne",
+  "name": "Nascido na Selva",
   "img": "icons/environment/wilderness/tree-oak.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of a wildborne community means you lived deep within the forest.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.TQ1AIQjndC4mYmmU"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida na Selva significa que você viveu nas profundezas da floresta.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.TQ1AIQjndC4mYmmU"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

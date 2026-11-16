@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Nimble",
+  "name": "Ágil",
   "type": "feature",
   "_id": "3lNqft3LmOlEIEkw",
   "img": "icons/skills/movement/arrows-up-trio-red.webp",
   "system": {
-    "description": "<p>Gain a permanent +1 bonus to your Evasion at character creation.</p>",
+    "description": "<p>Ganhe +1 de bônus permanente na sua Evasão na criação do personagem.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Nimble",
+      "name": "Ágil",
       "type": "base",
       "_id": "zaxVYqKzUYDJ3SDq",
       "img": "icons/skills/movement/arrows-up-trio-red.webp",
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a permanent +1 bonus to your Evasion at character creation.</p>",
+      "description": "<p>Ganhe +1 de bônus permanente na sua Evasão na criação do personagem.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

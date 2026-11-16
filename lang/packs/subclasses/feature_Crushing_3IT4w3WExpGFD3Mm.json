@@ -1,12 +1,12 @@
 {
   "folder": "lWpkV14I1qmLrVHt",
-  "name": "Crushing",
+  "name": "Esmagadora",
   "type": "feature",
   "_id": "3IT4w3WExpGFD3Mm",
   "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you deal Severe damage, you can <strong>spend a Hope</strong> to force the target to mark an additional Hit Point.</p>",
+    "description": "<p>Quando você causar dano Grave, pode <strong>gastar 1 de Esperança</strong> para forçar o alvo a marcar 1 Ponto de Vida adicional.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       },
       "SNQbyaTZxSfPUjyx": {
@@ -109,7 +109,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": "",
         "img": "icons/skills/melee/strike-slashes-orange.webp"
       }
@@ -120,10 +120,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Crushing",
+      "name": "Postura: Esmagadora",
       "disabled": false,
       "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
-      "description": "<p>When you deal Severe damage, you can <strong>spend a Hope</strong> to force the target to mark an additional Hit Point.</p>",
+      "description": "<p>Quando você causar dano Grave, pode <strong>gastar 1 de Esperança</strong> para forçar o alvo a marcar 1 Ponto de Vida adicional.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

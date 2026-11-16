@@ -1,12 +1,12 @@
 {
   "folder": "M1QUCqLVHPOiWSPz",
-  "name": "Quick",
+  "name": "Veloz",
   "type": "feature",
   "_id": "bGXfEQV5TLujvgp7",
   "img": "icons/skills/movement/arrows-up-trio-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you make an attack, you can spend a Focus or <strong>mark a Stress</strong> to target another creature within range with that attack.</p>",
+    "description": "<p>Quando você fizer um ataque, pode gastar 1 de Foco ou <strong>marcar 1 Fadiga</strong> para escolher outra criatura ao alcance como alvo desse ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "img": "icons/skills/movement/arrows-up-trio-red.webp",
         "range": "self"
       }
@@ -60,10 +60,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Quick",
+      "name": "Postura: Veloz",
       "disabled": false,
       "img": "icons/skills/movement/arrows-up-trio-red.webp",
-      "description": "<p>When you make an attack, you can spend a Focus or <strong>mark a Stress</strong> to target another creature within range with that attack.</p>",
+      "description": "<p>Quando você fizer um ataque, pode gastar 1 de Foco ou <strong>marcar 1 Fadiga</strong> para escolher outra criatura ao alcance como alvo desse ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Poison Compendium",
+  "name": "Compêndio de Venenos",
   "folder": "NysUQtRlcjGiqDHm",
   "_id": "RrYxuotaN5JAjHdT",
   "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>You also know these poisons:</p><ul><li><p><strong>Midnight Vine:</strong> The target has disadvantage on attack rolls until it marks a Stress to clear this condition.</p></li><li><p><strong>Gorgon Root:</strong> The target becomes temporarily <em>Restrained</em>.</p></li></ul>",
+    "description": "<p>Você também conhece estes venenos:</p><ul><li><p><strong>Videira da Meia-noite:</strong> O alvo tem desvantagem em jogadas de ataque até marcar 1 Fadiga para encerrar esta condição.</p></li><li><p><strong>Raiz de Górgona:</strong> O alvo fica temporariamente <em>Imobilizado</em>.</p></li></ul>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -18,7 +18,7 @@
         "_id": "GUWDhuWJiqwANvR3",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target has disadvantage on attack rolls until it marks a Stress to clear this condition.</p>",
+        "description": "<p>O alvo tem desvantagem em jogadas de ataque até marcar 1 Fadiga para encerrar esta condição.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Midnight Vine",
+        "name": "Videira da Meia-noite",
         "range": "",
         "img": "icons/magic/nature/plant-undersea-glow-green.webp"
       },
@@ -52,7 +52,7 @@
         "_id": "tuUUVH5JxDjzF4O9",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target becomes temporarily <em>Restrained</em>.</p>",
+        "description": "<p>O alvo fica temporariamente <em>Imobilizado</em>.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -77,7 +77,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Gorgon Root",
+        "name": "Raiz de Górgona",
         "range": "",
         "img": "icons/commodities/flowers/dandelion-pod-blue.webp"
       }
@@ -88,10 +88,10 @@
   },
   "effects": [
     {
-      "name": "Midnight Vine",
+      "name": "Videira da Meia-noite",
       "disabled": false,
       "img": "icons/magic/nature/plant-undersea-glow-green.webp",
-      "description": "<p>The target has disadvantage on attack rolls until it marks a Stress to clear this condition.</p>",
+      "description": "<p>O alvo tem desvantagem em jogadas de ataque até marcar 1 Fadiga para encerrar esta condição.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -140,14 +140,12 @@
       "_key": "!items.effects!RrYxuotaN5JAjHdT.bNPKUrkGNZLkWRoF"
     },
     {
-      "name": "Gorgon Root",
+      "name": "Raiz de Górgona",
       "disabled": false,
       "img": "icons/commodities/flowers/dandelion-pod-blue.webp",
       "description": "",
       "transfer": false,
-      "statuses": [
-        "restrain"
-      ],
+      "statuses": ["restrain"],
       "system": {
         "changes": [],
         "duration": {

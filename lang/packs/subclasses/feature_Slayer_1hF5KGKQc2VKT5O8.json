@@ -1,11 +1,11 @@
 {
   "folder": "mmCmlh5x1cE4EbhN",
-  "name": "Slayer",
+  "name": "Matador",
   "type": "feature",
   "_id": "1hF5KGKQc2VKT5O8",
   "img": "icons/skills/melee/strike-axe-red.webp",
   "system": {
-    "description": "<p>You gain a pool of dice called Slayer Dice. On a roll with Hope, you can place a <strong>d6</strong> on this card instead of gaining a Hope, adding the die to the pool. You can store a number of Slayer Dice equal to your Proficiency. When you make an attack roll or damage roll, you can spend any number of these Slayer Dice, rolling them and adding their result to the roll. At the end of each session, clear any unspent Slayer Dice on this card and gain a Hope per die cleared.</p>",
+    "description": "<p>Você ganha uma reserva de dados chamada Dados de Matador. Em uma jogada com Esperança, você pode colocar um <strong>d6</strong> nesta carta em vez de ganhar 1 de Esperança, adicionando o dado à reserva. Você pode armazenar uma quantidade de Dados de Matador igual à sua Proficiência. Quando fizer uma jogada de ataque ou de dano, pode gastar qualquer quantidade desses Dados de Matador, rolando-os e somando o resultado à jogada. No fim de cada sessão, limpe os Dados de Matador não gastos desta carta e ganhe 1 de Esperança por dado limpo.</p>",
     "resource": {
       "type": "simple",
       "value": 0,

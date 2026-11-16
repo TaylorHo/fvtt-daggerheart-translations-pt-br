@@ -1,10 +1,10 @@
 {
-  "name": "Elf",
+  "name": "Elfo",
   "img": "icons/weapons/ammunition/arrows-fletching.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Elves are typically tall humanoids with pointed ears and acutely attuned senses.</p>",
+    "description": "<p>Elfos são tipicamente humanoides altos, de orelhas pontudas e sentidos extremamente aguçados.</p>",
     "features": [
       {
         "type": "primary",

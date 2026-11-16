@@ -1,10 +1,10 @@
 {
-  "name": "Warden of the Elements",
+  "name": "Guardião dos Elementos",
   "type": "subclass",
   "_id": "W9hs5kxOWeY7eA4Q",
   "img": "icons/magic/nature/root-vines-face-glow-green.webp",
   "system": {
-    "description": "<p>Play the Warden of the Elements if you want to embody the natural elements of the wild.</p>",
+    "description": "<p>Escolha Guardião dos Elementos se quiser encarnar os elementos naturais da natureza selvagem.</p>",
     "spellcastingTrait": "instinct",
     "features": [
       {

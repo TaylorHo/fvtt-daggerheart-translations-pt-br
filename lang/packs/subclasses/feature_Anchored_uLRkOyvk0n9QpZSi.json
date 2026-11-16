@@ -1,12 +1,12 @@
 {
   "folder": "K1Zh9uNgiR5UlOOE",
-  "name": "Anchored",
+  "name": "Ancorada",
   "type": "feature",
   "_id": "uLRkOyvk0n9QpZSi",
   "img": "icons/commodities/metal/mail-plate-steel.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Gain a +2 bonus to your damage thresholds. While in this stance, you can't be moved against your will.</p>",
+    "description": "<p>Ganhe +2 de bônus nos seus limiares de dano. Enquanto estiver nesta postura, você não pode ser movido contra a sua vontade.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Anchored",
+      "name": "Postura: Ancorada",
       "disabled": false,
       "img": "icons/commodities/metal/mail-plate-steel.webp",
-      "description": "<p>Gain a +2 bonus to your damage thresholds. While in this stance, you can't be moved against your will.</p>",
+      "description": "<p>Ganhe +2 de bônus nos seus limiares de dano. Enquanto estiver nesta postura, você não pode ser movido contra a sua vontade.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

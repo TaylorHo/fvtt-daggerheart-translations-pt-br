@@ -1,17 +1,17 @@
 {
   "folder": "Ih9KaoVY4bhZPjsn",
-  "name": "Heart of a Poet",
+  "name": "Coração de Poeta",
   "type": "feature",
   "img": "icons/magic/life/heart-hand-gold-green.webp",
   "system": {
-    "description": "<p>After you make an action roll to impress, persuade, or offend someone, you can spend a Hope to add a d4 to the roll.</p>",
+    "description": "<p>Depois de fazer uma jogada de ação para impressionar, persuadir ou ofender alguém, você pode gastar 1 de Esperança para somar um d4 à jogada.</p>",
     "resource": null,
     "actions": {
       "pHSfMDmfVQSgqk39": {
         "type": "effect",
         "_id": "pHSfMDmfVQSgqk39",
         "systemPath": "actions",
-        "description": "<p>After you make an action roll to impress, persuade, or offend someone, you can spend a Hope to add a [[/r d4]] to the roll.</p>",
+        "description": "<p>Depois de fazer uma jogada de ação para impressionar, persuadir ou ofender alguém, você pode gastar 1 de Esperança para somar um [[/r d4]] à jogada.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/commodities/currency/coin-embossed-ruby-gold.webp",
         "range": "",
         "baseAction": false,

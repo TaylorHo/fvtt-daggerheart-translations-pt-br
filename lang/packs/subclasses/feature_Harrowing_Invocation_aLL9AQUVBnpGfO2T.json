@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Harrowing Invocation",
+  "name": "Invocação Aterradora",
   "folder": "hpGSiLKGH2r4vuLG",
   "_id": "aLL9AQUVBnpGfO2T",
   "img": "icons/magic/symbols/rune-sigil-rough-white-teal.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When an adversary targets you or an ally within Very Close range with an attack, you can <strong>spend a Favor</strong> to give them disadvantage on the roll. If the adversary fails the roll, they must also mark a Stress.</p>",
+    "description": "<p>Quando um adversário escolher você ou um aliado em alcance Muito Próximo como alvo de um ataque, você pode <strong>gastar 1 de Favor</strong> para dar a ele desvantagem na jogada. Se o adversário falhar na jogada, ele também deve marcar 1 Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "veryClose"
       }
     },

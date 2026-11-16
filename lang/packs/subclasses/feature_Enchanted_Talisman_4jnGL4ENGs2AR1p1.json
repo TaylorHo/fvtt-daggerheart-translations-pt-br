@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Enchanted Talisman",
+  "name": "Talismã Encantado",
   "folder": "CsC3T8aq5ueUHWqs",
   "_id": "4jnGL4ENGs2AR1p1",
   "img": "icons/commodities/treasure/brooch-gold-eye-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per rest, you can imbue a small item with your protective essence. <strong>Spend any number of Hope</strong> to place an equal number of tokens on this card. When the person holding the talisman takes damage, spend a token to reduce the number of Hit Points they mark by one. Clear all tokens from this card when you take a rest.</p>",
+    "description": "<p>Uma vez por descanso, você pode imbuir um item pequeno com sua essência protetora. <strong>Gaste qualquer quantidade de Esperança</strong> para colocar a mesma quantidade de fichas nesta carta. Quando a pessoa que carrega o talismã sofrer dano, gaste uma ficha para reduzir em um o número de Pontos de Vida que ela marca. Limpe todas as fichas desta carta quando você fizer um descanso.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -94,7 +94,7 @@
           },
           "useDefault": false
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": "self"
       }
     },

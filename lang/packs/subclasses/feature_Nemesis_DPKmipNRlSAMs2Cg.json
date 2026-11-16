@@ -1,11 +1,11 @@
 {
   "folder": "PD8T5cWuSzaoPdl5",
-  "name": "Nemesis",
+  "name": "Nêmesis",
   "type": "feature",
   "_id": "DPKmipNRlSAMs2Cg",
   "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
   "system": {
-    "description": "<p><strong>Spend 2 Hope</strong> to Prioritize an adversary until your next rest. When you make an attack against your Prioritized adversary, you can swap the results of your Hope and Fear Dice. You can only Prioritize one adversary at a time.</p>",
+    "description": "<p><strong>Gaste 2 de Esperança</strong> para Priorizar um adversário até o seu próximo descanso. Quando você fizer um ataque contra o seu adversário Priorizado, pode trocar os resultados dos seus Dados de Esperança e de Medo. Você só pode Priorizar um adversário por vez.</p>",
     "resource": null,
     "actions": {
       "Rgc7kBmU3kjHKvfx": {
@@ -41,7 +41,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
         "range": "",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Nemesis",
+      "name": "Nêmesis",
       "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "transfer": false,
       "_id": "JoBFHkhLbm4JyuZm",
@@ -86,7 +86,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you make an attack against your Prioritized adversary, you can swap the results of your Hope and Fear Dice. You can only Prioritize one adversary at a time.</p>",
+      "description": "<p>Quando você fizer um ataque contra o seu adversário Priorizado, pode trocar os resultados dos seus Dados de Esperança e de Medo. Você só pode Priorizar um adversário por vez.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Circle of Power",
+  "name": "Círculo de Poder",
   "folder": "5X2hXr3NYBA0xR4U",
   "_id": "VmX3uaONxYo3wzsU",
   "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per rest, mark a circle on the ground outlining a Very Close area around you, and place a number of tokens equal to your Spellcast trait on this card. While within this circle, you and your allies gain a +2 bonus to damage thresholds, attack rolls, and Evasion. Remove a token each time you or an ally within the circle makes an action roll or evades an attack. This spell lasts until the last token is removed or you exit the circle.</p>",
+    "description": "<p>Uma vez por descanso, marque um círculo no chão delimitando uma área Muito Próxima ao seu redor e coloque nesta carta uma quantidade de fichas igual ao seu atributo de Conjuração. Enquanto estiverem dentro deste círculo, você e seus aliados ganham +2 de bônus nos limiares de dano, nas jogadas de ataque e na Evasão. Remova uma ficha cada vez que você ou um aliado dentro do círculo fizer uma jogada de ação ou evitar um ataque. Este feitiço dura até a última ficha ser removida ou você sair do círculo.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -36,14 +36,12 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Circle of Power",
+            "name": "Círculo de Poder",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
             "hasHole": false,
-            "effects": [
-              "YMhiEmt31R0s5MH0"
-            ]
+            "effects": ["YMhiEmt31R0s5MH0"]
           }
         ],
         "cost": [],
@@ -96,7 +94,7 @@
           },
           "useDefault": false
         },
-        "name": "Mark Circle",
+        "name": "Marcar Círculo",
         "range": "self"
       }
     },
@@ -106,10 +104,10 @@
   },
   "effects": [
     {
-      "name": "Circle of Power",
+      "name": "Círculo de Poder",
       "disabled": false,
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
-      "description": "<p>While within this circle, you and your allies gain a +2 bonus to damage thresholds, attack rolls, and Evasion. Remove a token each time you or an ally within the circle makes an action roll or evades an attack. This spell lasts until the last token is removed or you exit the circle.</p>",
+      "description": "<p>Enquanto estiverem dentro deste círculo, você e seus aliados ganham +2 de bônus nos limiares de dano, nas jogadas de ataque e na Evasão. Remova uma ficha cada vez que você ou um aliado dentro do círculo fizer uma jogada de ação ou evitar um ataque. Este feitiço dura até a última ficha ser removida ou você sair do círculo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -149,15 +147,11 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [
-          1
-        ],
+        "targetDispositions": [1],
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]

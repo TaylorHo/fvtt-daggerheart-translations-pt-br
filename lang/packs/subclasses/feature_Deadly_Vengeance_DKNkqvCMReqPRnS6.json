@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Deadly Vengeance",
+  "name": "Vingança Mortal",
   "folder": "JhZDNJa4DY2fSzje",
   "_id": "DKNkqvCMReqPRnS6",
   "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you mark any number of Hit Points from an attack, you can <strong>spend a Favor</strong> to roll an equal number of Patron Dice. For each result of 4 or higher, the attacker marks a Hit Point.</p>",
+    "description": "<p>Quando você marcar qualquer quantidade de Pontos de Vida de um ataque, pode <strong>gastar 1 de Favor</strong> para rolar a mesma quantidade de Dados de Patrono. Para cada resultado 4 ou maior, o atacante marca 1 Ponto de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": ""
       }
     },

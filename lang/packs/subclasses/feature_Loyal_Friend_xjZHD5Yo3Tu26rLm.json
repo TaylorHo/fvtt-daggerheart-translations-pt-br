@@ -1,11 +1,11 @@
 {
   "folder": "vIdORiocrNibqNFF",
-  "name": "Loyal Friend",
+  "name": "Amigo Leal",
   "type": "feature",
   "_id": "xjZHD5Yo3Tu26rLm",
   "img": "icons/creatures/mammals/humanoid-wolf-dog-blue.webp",
   "system": {
-    "description": "<p>Once per long rest, when the damage from an attack would mark your companion's last Stress or your last Hit Point and you're within Close range of each other, you or your companion can rush to the other's side and take that damage instead.</p>",
+    "description": "<p>Uma vez por descanso longo, quando o dano de um ataque marcaria a última Fadiga do seu companheiro ou o seu último Ponto de Vida e vocês estiverem em alcance Próximo um do outro, você ou seu companheiro podem correr para o lado do outro e sofrer esse dano no lugar.</p>",
     "resource": null,
     "actions": {
       "Z82YQzYWo4eektMa": {
@@ -27,7 +27,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Rush",
+        "name": "Investida",
         "img": "icons/creatures/mammals/humanoid-wolf-dog-blue.webp",
         "range": "close",
         "baseAction": false,

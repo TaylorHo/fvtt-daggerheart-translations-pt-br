@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Unbound",
+  "name": "Desimpedido",
   "folder": "KA1VSGslxkbvVeMp",
   "_id": "OyzEkHdHYwmoofQx",
   "img": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Once per session when you roll with Fear, you can change it into a roll with Hope instead.</p>",
+    "description": "<p>Uma vez por sessão, quando você rolar com Medo, pode transformá-la em uma jogada com Esperança.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Fear To Hope",
+        "name": "Do Medo à Esperança",
         "range": ""
       }
     },

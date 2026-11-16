@@ -1,18 +1,18 @@
 {
   "folder": "dWQSVhtwClSdRHDK",
-  "name": "Elemental Incarnation",
+  "name": "Encarnação Elemental",
   "type": "feature",
   "_id": "f37TTgCc0Q3Ih1A1",
   "img": "icons/magic/nature/thorns-hand-glow-green.webp",
   "system": {
-    "description": "<p>Mark a Stress to Channel one of the following elements until you take Severe damage or until your next rest:</p><ul><li><p><strong>Fire</strong>: When an adversary within Melee range deals damage to you, they take 1d10 magic damage.</p></li><li><p><strong>Earth</strong>: Gain a bonus to your damage thresholds equal to your Proficiency.</p></li><li><p><strong>Wate</strong>r: When you deal damage to an adversary within Melee range, all other adversaries within Very Close range must mark a Stress.</p></li><li><p><strong>Air</strong>: You can hover, gaining advantage on Agility Rolls.</p></li></ul>",
+    "description": "<p>Marque 1 Fadiga para Canalizar um dos seguintes elementos até você sofrer dano Grave ou até o seu próximo descanso:</p><ul><li><p><strong>Fogo</strong>: Quando um adversário em alcance Corpo a Corpo causar dano a você, ele sofre 1d10 de dano mágico.</p></li><li><p><strong>Terra</strong>: Ganhe um bônus nos seus limiares de dano igual à sua Proficiência.</p></li><li><p><strong>Água</strong>: Quando você causar dano a um adversário em alcance Corpo a Corpo, todos os outros adversários em alcance Muito Próximo devem marcar 1 Fadiga.</p></li><li><p><strong>Ar</strong>: Você pode flutuar, ganhando vantagem em Jogadas de Agilidade.</p></li></ul>",
     "resource": null,
     "actions": {
       "wVGSzAnJGs5eXKqI": {
         "type": "attack",
         "_id": "wVGSzAnJGs5eXKqI",
         "systemPath": "actions",
-        "description": "<p>When an adversary within Melee range deals damage to you, they take @Damage[type:magical|value:1d10].</p>",
+        "description": "<p>Quando um adversário em alcance Corpo a Corpo causar dano a você, ele sofre @Damage[type:magical|value:1d10].</p>",
         "chatDisplay": true,
         "actionType": "reaction",
         "cost": [
@@ -44,9 +44,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -87,7 +85,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Fire",
+        "name": "Fogo",
         "img": "icons/magic/fire/elemental-fire-flying.webp",
         "range": "melee",
         "baseAction": false,
@@ -101,7 +99,7 @@
         "type": "effect",
         "_id": "6QXTThhnJpGDIvhJ",
         "systemPath": "actions",
-        "description": "<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
+        "description": "<p>Ganhe um bônus nos seus limiares de dano igual à sua Proficiência.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -130,7 +128,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Earth",
+        "name": "Terra",
         "img": "icons/magic/earth/construct-stone.webp",
         "range": "self",
         "baseAction": false,
@@ -144,7 +142,7 @@
         "type": "damage",
         "_id": "pY2EdEMoyLGYWjK5",
         "systemPath": "actions",
-        "description": "<p>When you deal damage to an adversary within Melee range, all other adversaries within Very Close range must mark a Stress.</p><p>@Template[type:emanation|range:vc]</p>",
+        "description": "<p>Quando você causar dano a um adversário em alcance Corpo a Corpo, todos os outros adversários em alcance Muito Próximo devem marcar 1 Fadiga.</p><p>@Template[type:emanation|range:vc]</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -196,7 +194,7 @@
             "onSave": false
           }
         ],
-        "name": "Water",
+        "name": "Água",
         "img": "icons/magic/water/wave-water-blue.webp",
         "range": "",
         "baseAction": false,
@@ -210,7 +208,7 @@
         "type": "effect",
         "_id": "uk8EgHMxCgoWENzt",
         "systemPath": "actions",
-        "description": "<p>You can hover, gaining advantage on Agility Rolls.</p>",
+        "description": "<p>Você pode flutuar, ganhando vantagem em Jogadas de Agilidade.</p>",
         "chatDisplay": false,
         "actionType": "action",
         "cost": [
@@ -239,7 +237,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Air",
+        "name": "Ar",
         "img": "icons/magic/air/fog-gas-smoke-dense-white.webp",
         "range": "",
         "baseAction": false,
@@ -262,7 +260,7 @@
   },
   "effects": [
     {
-      "name": "Elemental Incarnation (Earth)",
+      "name": "Encarnação Elemental (Terra)",
       "img": "icons/magic/earth/construct-stone.webp",
       "transfer": false,
       "_id": "7xyUtUbBk5jbNnqY",
@@ -313,7 +311,7 @@
       "_key": "!items.effects!f37TTgCc0Q3Ih1A1.7xyUtUbBk5jbNnqY"
     },
     {
-      "name": "Elemental Incarnation (Air)",
+      "name": "Encarnação Elemental (Ar)",
       "img": "icons/magic/air/fog-gas-smoke-dense-white.webp",
       "transfer": false,
       "_id": "3ck6CeapLxQVjE2W",
@@ -343,7 +341,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can hover, gaining advantage on Agility Rolls.</p>",
+      "description": "<p>Você pode flutuar, ganhando vantagem em Jogadas de Agilidade.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -357,7 +355,7 @@
       "_key": "!items.effects!f37TTgCc0Q3Ih1A1.3ck6CeapLxQVjE2W"
     },
     {
-      "name": "Elemental Incarnation (Water)",
+      "name": "Encarnação Elemental (Água)",
       "img": "icons/magic/water/wave-water-blue.webp",
       "transfer": false,
       "_id": "Jy6dpEbzkZ2eRDf5",
@@ -393,7 +391,7 @@
       "_key": "!items.effects!f37TTgCc0Q3Ih1A1.Jy6dpEbzkZ2eRDf5"
     },
     {
-      "name": "Elemental Incarnation (Fire)",
+      "name": "Encarnação Elemental (Fogo)",
       "img": "icons/magic/fire/elemental-fire-flying.webp",
       "transfer": false,
       "_id": "ANle8tuOEZIevTWv",

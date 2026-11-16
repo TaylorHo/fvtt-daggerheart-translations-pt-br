@@ -1,13 +1,11 @@
 {
-  "name": "Orderborne",
+  "name": "Nascido na Ordem",
   "img": "icons/environment/people/infantry-army.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of an orderborne community means you're from a collective that focuses on discipline or faith, and you uphold a set of principles that reflect your experience there.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.7aXWdH3gzaYREK0X"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida na Ordem significa que você vem de um coletivo focado em disciplina ou fé, e você mantém um conjunto de princípios que refletem sua experiência ali.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.7aXWdH3gzaYREK0X"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

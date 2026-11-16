@@ -1,18 +1,18 @@
 {
   "folder": "nVfL09Rh27H0aAqS",
-  "name": "Spirit Weapon",
+  "name": "Arma Espiritual",
   "type": "feature",
   "_id": "McoS0RxNLOg3SfSt",
   "img": "icons/weapons/swords/sword-winged-pink.webp",
   "system": {
-    "description": "<p>When you have an equipped weapon with a range of Melee or Very Close, it can fly from your hand to attack an adversary within Close range and then return to you. You can <strong>mark a Stress</strong> to target an additional adversary within range with the same attack roll.</p>",
+    "description": "<p>Quando você tiver uma arma equipada com alcance Corpo a Corpo ou Muito Próximo, ela pode voar da sua mão para atacar um adversário em alcance Próximo e depois voltar para você. Você pode <strong>marcar 1 Fadiga</strong> para escolher como alvo um adversário adicional ao alcance com a mesma jogada de ataque.</p>",
     "resource": null,
     "actions": {
       "TDvWFqAxu7V33UIC": {
         "type": "effect",
         "_id": "TDvWFqAxu7V33UIC",
         "systemPath": "actions",
-        "description": "<p>You can mark a Stress to target an additional adversary within range with the same attack roll.</p>",
+        "description": "<p>Você pode marcar 1 Fadiga para escolher como alvo um adversário adicional ao alcance com a mesma jogada de ataque.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Target Additional Adversary",
+        "name": "Alvejar Adversário Adicional",
         "img": "icons/weapons/swords/sword-winged-pink.webp",
         "range": "",
         "baseAction": false,

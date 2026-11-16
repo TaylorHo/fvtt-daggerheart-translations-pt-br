@@ -1,11 +1,11 @@
 {
   "folder": "Ej8GpWNX79Fw5XTP",
-  "name": "Adrenaline",
+  "name": "Adrenalina",
   "type": "feature",
   "_id": "uByM34yQlw38yf1V",
   "img": "icons/magic/unholy/hand-marked-pink.webp",
   "system": {
-    "description": "<p>While you're Vulnerable, add your level to your damage rolls.</p>",
+    "description": "<p>Enquanto estiver Vulnerável, some seu nível às suas jogadas de dano.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Adrenaline",
+      "name": "Adrenalina",
       "img": "icons/magic/unholy/hand-marked-pink.webp",
       "transfer": true,
       "_id": "HMx9uZ54mvMiH95x",
@@ -50,7 +50,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While you're Vulnerable, add your level to your damage rolls.</p>",
+      "description": "<p>Enquanto estiver Vulnerável, some seu nível às suas jogadas de dano.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

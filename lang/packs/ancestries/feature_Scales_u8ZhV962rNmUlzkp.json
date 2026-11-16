@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Scales",
+  "name": "Escamas",
   "type": "feature",
   "_id": "u8ZhV962rNmUlzkp",
   "img": "icons/commodities/leather/scales-brown.webp",
   "system": {
-    "description": "<p>Your scales act as natural protection. When you would take Severe damage, you can <strong>mark a Stress</strong> to mark 1 fewer Hit Points.</p>",
+    "description": "<p>Suas escamas funcionam como proteção natural. Quando você fosse sofrer dano Grave, pode <strong>marcar 1 Fadiga</strong> para marcar 1 Ponto de Vida a menos.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Scales",
+      "name": "Escamas",
       "type": "base",
       "_id": "b6Pkwwk7pgBeeUTe",
       "img": "icons/commodities/leather/scales-brown.webp",
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Points.</p>",
+      "description": "<p>Quando você fosse sofrer dano Grave, pode marcar 1 Fadiga para marcar 1 Ponto de Vida a menos.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

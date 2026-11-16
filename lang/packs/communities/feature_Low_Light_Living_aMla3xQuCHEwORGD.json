@@ -1,11 +1,11 @@
 {
   "folder": "KA1VSGslxkbvVeMp",
-  "name": "Low-Light Living",
+  "name": "Vida na Penumbra",
   "type": "feature",
   "_id": "aMla3xQuCHEwORGD",
   "img": "icons/environment/settlement/temple-night.webp",
   "system": {
-    "description": "<p>When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.</p>",
+    "description": "<p>Quando você estiver em uma área com pouca luz ou sombra densa, tem vantagem em jogadas para se esconder, investigar ou perceber detalhes nessa área.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Low-Light Living",
+      "name": "Vida na Penumbra",
       "type": "base",
       "_id": "pCp32u7UwqxCI4WW",
       "img": "icons/environment/settlement/temple-night.webp",
@@ -29,7 +29,7 @@
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Rolls to hide, investigate, or perceive details in low light",
+            "value": "Rolagens para se esconder, investigar ou perceber detalhes em áreas com pouca luz",
             "priority": null,
             "phase": "initial"
           }
@@ -50,7 +50,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.</p>",
+      "description": "<p>Quando você estiver em uma área com pouca luz ou sombra densa, tem vantagem em jogadas para se esconder, investigar ou perceber detalhes nessa área.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

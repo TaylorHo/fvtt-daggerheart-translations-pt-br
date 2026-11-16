@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Venomancer",
+  "name": "Venomante",
   "folder": "EsyV5lospiAwVQeq",
   "_id": "WAkxLnKbtic1O6pC",
   "img": "icons/magic/death/skull-poison-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>You also know these poisons:</p><ul><li><p><strong>Blight Seed:</strong> The target gains a -3 penalty to their damage thresholds until the end of the scene. This effect can't stack.</p></li><li><p><strong>Fear Leaf:</strong> You deal extra damage equal to the result of your Fear Die on this attack.</p></li><li><p><strong>Corpse Thorn:</strong> The target gains disadvantage on reaction rolls until the end of the scene.</p></li></ul>",
+    "description": "<p>Você também conhece estes venenos:</p><ul><li><p><strong>Semente da Praga:</strong> O alvo sofre -3 de penalidade nos seus limiares de dano até o fim da cena. Este efeito não acumula.</p></li><li><p><strong>Folha do Medo:</strong> Você causa dano extra igual ao resultado do seu Dado de Medo neste ataque.</p></li><li><p><strong>Espinho do Cadáver:</strong> O alvo tem desvantagem em jogadas de reação até o fim da cena.</p></li></ul>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -18,7 +18,7 @@
         "_id": "uTNhXJiy5YAG0FdS",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target gains a -3 penalty to their damage thresholds until the end of the scene. This effect can't stack.</p>",
+        "description": "<p>O alvo sofre -3 de penalidade nos seus limiares de dano até o fim da cena. Este efeito não acumula.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Blight Seed",
+        "name": "Semente da Praga",
         "range": "",
         "img": "icons/magic/unholy/orb-glowing-purple.webp"
       },
@@ -52,7 +52,7 @@
         "_id": "8CcarGtcoIg3Dmah",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target gains disadvantage on reaction rolls until the end of the scene.</p>",
+        "description": "<p>O alvo tem desvantagem em jogadas de reação até o fim da cena.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -77,7 +77,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Corpse Thorn",
+        "name": "Espinho do Cadáver",
         "range": "",
         "img": "icons/magic/nature/root-vines-silhouette-teal.webp"
       }
@@ -88,10 +88,10 @@
   },
   "effects": [
     {
-      "name": "Blight Seed",
+      "name": "Semente da Praga",
       "disabled": false,
       "img": "icons/magic/unholy/orb-glowing-purple.webp",
-      "description": "<p>The target gains a -3 penalty to their damage thresholds until the end of the scene. This effect can't stack.</p>",
+      "description": "<p>O alvo sofre -3 de penalidade nos seus limiares de dano até o fim da cena. Este efeito não acumula.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -150,10 +150,10 @@
       "_key": "!items.effects!WAkxLnKbtic1O6pC.BAHnbGqeiUj2Eep3"
     },
     {
-      "name": "Corpse Thorn",
+      "name": "Espinho do Cadáver",
       "disabled": false,
       "img": "icons/magic/nature/root-vines-silhouette-teal.webp",
-      "description": "<p>The target gains disadvantage on reaction rolls until the end of the scene.</p>",
+      "description": "<p>O alvo tem desvantagem em jogadas de reação até o fim da cena.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

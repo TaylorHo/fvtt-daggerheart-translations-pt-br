@@ -1,11 +1,11 @@
 {
   "folder": "36dtJE1CPjPt76pP",
-  "name": "Syndicate",
+  "name": "Mafioso",
   "type": "subclass",
   "_id": "95QxNZwgyEm1LqdG",
   "img": "icons/environment/settlement/city-hall.webp",
   "system": {
-    "description": "<p>Play the Syndicate if you want to have a web of contacts everywhere you go.</p>",
+    "description": "<p>Escolha Mafioso se quiser ter uma rede de contatos em todo lugar aonde for.</p>",
     "spellcastingTrait": "finesse",
     "features": [
       {

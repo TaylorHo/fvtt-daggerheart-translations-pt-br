@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Dread Visage",
+  "name": "Semblante Aterrador",
   "type": "feature",
   "_id": "i92lYjDhVB0LyPid",
   "img": "icons/magic/control/fear-fright-monster-red.webp",
   "system": {
-    "description": "<p>You have advantage on rolls to intimidate hostile creatures.</p>",
+    "description": "<p>Você tem vantagem em jogadas para intimidar criaturas hostis.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Dread Visage",
+      "name": "Semblante Aterrador",
       "type": "base",
       "_id": "2Gd6iHQX521aAZqC",
       "img": "icons/magic/control/fear-fright-monster-red.webp",
@@ -49,7 +49,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You have advantage on rolls to intimidate hostile creatures</p>",
+      "description": "<p>Você tem vantagem em jogadas para intimidar criaturas hostis</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,12 +1,12 @@
 {
   "folder": "M1QUCqLVHPOiWSPz",
-  "name": "Reliable",
+  "name": "Confiável",
   "type": "feature",
   "_id": "zNyqL7wzm1W4dUjN",
   "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Gain a +1 bonus to your attack rolls.</p>",
+    "description": "<p>Ganhe +1 de bônus nas suas jogadas de ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Reliable",
+      "name": "Postura: Confiável",
       "disabled": false,
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
-      "description": "<p>Gain a +1 bonus to your attack rolls.</p>",
+      "description": "<p>Ganhe +1 de bônus nas suas jogadas de ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -85,9 +85,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]

@@ -29,18 +29,30 @@ const PACKS = `modules/${MODULE_ID}/lang/packs/`;
 
 // String keys that are translated (everywhere in a document, including random-ID keys).
 const TEXT_KEYS = new Set([
-  "name", "description", "content", "label", "source", "loreReference",
-  "motivesAndTactics", "impulses", "notes", "examples", "questions",
-  "backgroundQuestions", "connections",
+  "name",
+  "description",
+  "content",
+  "label",
+  "source",
+  "motivesAndTactics",
+  "impulses",
+  "notes",
+  "examples",
+  "questions",
+  "backgroundQuestions",
+  "connections",
 ]);
 
 const fetchJSON = (path) =>
   fetch(foundry.utils.getRoute(PACKS + path))
-    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+    .then((r) =>
+      r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)),
+    )
     .catch((e) => (console.error(`${MODULE_ID} | ${path}`, e), null));
 
 let indexPromise;
-const loadIndex = () => (indexPromise ??= fetchJSON("index.json").then((i) => i ?? {}));
+const loadIndex = () =>
+  (indexPromise ??= fetchJSON("index.json").then((i) => i ?? {}));
 
 const docCache = new Map();
 const loadDoc = (entry) => {
@@ -93,8 +105,17 @@ async function translateResult(result, documentClass, request) {
 
 Hooks.once("init", () => {
   const getDocuments = CONFIG.DatabaseBackend._getDocuments;
-  CONFIG.DatabaseBackend._getDocuments = async function (documentClass, request, ...rest) {
-    const result = await getDocuments.call(this, documentClass, request, ...rest);
+  CONFIG.DatabaseBackend._getDocuments = async function (
+    documentClass,
+    request,
+    ...rest
+  ) {
+    const result = await getDocuments.call(
+      this,
+      documentClass,
+      request,
+      ...rest,
+    );
     return translateResult(result, documentClass, request);
   };
 

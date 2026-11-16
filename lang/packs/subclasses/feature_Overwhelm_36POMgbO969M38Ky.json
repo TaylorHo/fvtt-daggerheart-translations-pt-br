@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Overwhelm",
+  "name": "Subjugar",
   "folder": "RXqga54T8e59bXN3",
   "_id": "36POMgbO969M38Ky",
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you succeed on an attack against a target, you can <strong>spend a Hope</strong> to throw the target within Close range or to force them to mark a Stress.</p>",
+    "description": "<p>Quando você for bem-sucedido em um ataque contra um alvo, pode <strong>gastar 1 de Esperança</strong> para arremessar o alvo até alcance Próximo ou para forçá-lo a marcar 1 Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -70,7 +70,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Patron's Mantle",
+  "name": "Manto do Patrono",
   "folder": "JhZDNJa4DY2fSzje",
   "_id": "LZQ2LeUg9HPjzLR6",
   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p><strong>Spend a Favor</strong> to cloak yourself in a terrifying aspect of your Patron that lasts until you take Severe damage or the scene ends. While this effect is active, you gain a bonus to your damage thresholds equal to your tier and have advantage on action rolls to intimidate a target.</p>",
+    "description": "<p><strong>Gaste 1 de Favor</strong> para se envolver em um aspecto aterrorizante do seu Patrono, que dura até você sofrer dano Grave ou a cena terminar. Enquanto este efeito estiver ativo, você ganha um bônus nos seus limiares de dano igual ao seu patamar e tem vantagem em jogadas de ação para intimidar um alvo.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": "self"
       }
     },
@@ -62,10 +62,10 @@
   },
   "effects": [
     {
-      "name": "Patron's Mantle",
+      "name": "Manto do Patrono",
       "disabled": false,
       "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-      "description": "<p>While this effect is active, you gain a bonus to your damage thresholds equal to your tier and have advantage on action rolls to intimidate a target.</p>",
+      "description": "<p>Enquanto este efeito estiver ativo, você ganha um bônus nos seus limiares de dano igual ao seu patamar e tem vantagem em jogadas de ação para intimidar um alvo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

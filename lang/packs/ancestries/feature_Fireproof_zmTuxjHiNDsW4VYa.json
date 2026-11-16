@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Fireproof",
+  "name": "À Prova de Fogo",
   "folder": "dSAccOl5ccgXPyje",
   "_id": "zmTuxjHiNDsW4VYa",
   "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
   "system": {
     "attribution": {},
-    "description": "<p>You are immune to damage from magical or mundane flame.</p>",
+    "description": "<p>Você é imune a dano de chamas mágicas ou comuns.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

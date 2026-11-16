@@ -1,11 +1,11 @@
 {
   "folder": "WMlU3baiUdMgfuak",
-  "name": "Vengeance",
+  "name": "Vingança",
   "type": "subclass",
   "_id": "SUo8NPBPO8aN193u",
   "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
   "system": {
-    "description": "<p>Play the Vengeance if you want to strike down enemies who harm you or your allies.</p>",
+    "description": "<p>Escolha Vingança se quiser abater inimigos que ferem você ou seus aliados.</p>",
     "spellcastingTrait": null,
     "features": [
       {

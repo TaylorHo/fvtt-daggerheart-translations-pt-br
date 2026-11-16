@@ -4,7 +4,7 @@
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Clanks are sentient mechanical beings built from a variety of materials, including metal, wood, and stone.</p>",
+    "description": "<p>Clanks são seres mecânicos sencientes construídos com diversos materiais, incluindo metal, madeira e pedra.</p>",
     "features": [
       {
         "type": "primary",

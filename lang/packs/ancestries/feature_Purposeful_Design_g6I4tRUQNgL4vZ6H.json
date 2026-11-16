@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Purposeful Design",
+  "name": "Projetado com Propósito",
   "type": "feature",
   "_id": "g6I4tRUQNgL4vZ6H",
   "img": "icons/tools/scribal/lens-blue.webp",
   "system": {
-    "description": "<p>Decide who made you and for what purpose. At character creation, choose one of your Experiences that best aligns with this purpose and gain a permanent +1 bonus to it.</p><section id=\"secret-buVzWddXKTJlXDpq\" class=\"secret\"><p>Note: Automation isn't implemented for the permanent bonus. Manually increase the experience in the respective editing field.</p></section>",
+    "description": "<p>Decida quem criou você e com qual propósito. Na criação do personagem, escolha uma das suas Experiências que melhor se alinhe a esse propósito e ganhe +1 de bônus permanente nela.</p><section id=\"secret-buVzWddXKTJlXDpq\" class=\"secret\"><p>Nota: A automação não está implementada para o bônus permanente. Aumente manualmente a experiência no respectivo campo de edição.</p></section>",
     "resource": null,
     "actions": {},
     "attribution": {

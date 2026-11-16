@@ -1,11 +1,11 @@
 {
   "folder": "F0mW5ofdyyfE2hHo",
-  "name": "Elemental Origin",
+  "name": "Origem Elemental",
   "type": "subclass",
   "_id": "wg1H0hROc2acHwZh",
   "img": "icons/magic/water/orb-water-ice-pink.webp",
   "system": {
-    "description": "<p>Play the Elemental Origin if you want to channel raw magic to</p><p>take the shape of a particular element</p>",
+    "description": "<p>Escolha Origem Elemental se quiser canalizar magia bruta para</p><p>assumir a forma de um elemento específico</p>",
     "spellcastingTrait": "instinct",
     "features": [
       {

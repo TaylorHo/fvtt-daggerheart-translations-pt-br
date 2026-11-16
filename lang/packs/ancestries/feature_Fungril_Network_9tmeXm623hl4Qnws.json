@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Fungril Network",
+  "name": "Rede Fungril",
   "type": "feature",
   "_id": "9tmeXm623hl4Qnws",
   "img": "icons/commodities/biological/suckers-green.webp",
   "system": {
-    "description": "<p>Make an <strong>Instinct Roll (12)</strong> to use your mycelial array to speak with others of your ancestry. On a success, you can communicate across any distance.</p>",
+    "description": "<p>Faça uma <strong>Jogada de Instinto (12)</strong> para usar sua rede micelial e falar com outros da sua ancestralidade. Em caso de sucesso, você pode se comunicar a qualquer distância.</p>",
     "resource": null,
     "actions": {
       "ZYfigAyUdDUteczO": {
@@ -51,7 +51,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Communicate",
+        "name": "Comunicar",
         "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
         "range": "",
         "baseAction": false,

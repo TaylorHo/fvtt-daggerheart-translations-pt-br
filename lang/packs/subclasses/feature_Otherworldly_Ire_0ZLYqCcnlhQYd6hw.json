@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Otherworldly Ire",
+  "name": "Ira de Outro Mundo",
   "folder": "wl9jx5leIDw9ox3R",
   "_id": "0ZLYqCcnlhQYd6hw",
   "img": "icons/magic/death/skull-energy-light-white.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Once per rest when you take damage, you can <strong>spend any number of Favor</strong> to roll that many Patron Dice and target a number of creatures within Close range equal to the highest result. Each target must mark a Hit Point.</p>",
+    "description": "<p>Uma vez por descanso, quando você sofrer dano, pode <strong>gastar qualquer quantidade de Favor</strong> para rolar essa quantidade de Dados de Patrono e escolher como alvo uma quantidade de criaturas em alcance Próximo igual ao maior resultado. Cada alvo deve marcar 1 Ponto de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -50,7 +50,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Otherworldly Ire",
+            "name": "Ira de Outro Mundo",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -79,7 +79,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Spend Favor",
+        "name": "Gastar Favor",
         "range": ""
       }
     },

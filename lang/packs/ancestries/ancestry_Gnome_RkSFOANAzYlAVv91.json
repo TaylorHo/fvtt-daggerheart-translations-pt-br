@@ -1,6 +1,6 @@
 {
   "type": "ancestry",
-  "name": "Gnome",
+  "name": "Gnomo",
   "folder": null,
   "system": {
     "loreReference": "gnome",
@@ -10,7 +10,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Gnomes are typically small humanoids with conical heads and the ability to teleport short distances.</p>",
+    "description": "<p>Gnomos são tipicamente humanoides pequenos de cabeça cônica e com a capacidade de se teletransportar por curtas distâncias.</p>",
     "gmNotes": "",
     "features": [
       {

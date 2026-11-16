@@ -1,10 +1,10 @@
 {
-  "name": "Human",
+  "name": "Humano",
   "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Humans are most easily recognized by their dexterous hands, rounded ears, and bodies built for endurance.</p>",
+    "description": "<p>Humanos são mais facilmente reconhecidos por suas mãos ágeis, orelhas arredondadas e corpos feitos para resistência.</p>",
     "features": [
       {
         "type": "primary",

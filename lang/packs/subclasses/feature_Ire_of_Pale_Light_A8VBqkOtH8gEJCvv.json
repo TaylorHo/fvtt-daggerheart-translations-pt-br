@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Ire of Pale Light",
+  "name": "Ira da Luz Pálida",
   "folder": "y4bIi7tPBdhHfvAj",
   "_id": "A8VBqkOtH8gEJCvv",
   "img": "icons/magic/light/orb-shadow-blue.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When a <em>Hexed</em> creature within Very Far range fails an attack, they must mark a Stress.</p>",
+    "description": "<p>Quando uma criatura <em>Amaldiçoada</em> em alcance Muito Distante falhar em um ataque, ela deve marcar 1 Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -61,7 +61,7 @@
           "amount": 1
         },
         "effects": [],
-        "name": "Stress Damage",
+        "name": "Dano de Fadiga",
         "range": "veryFar"
       }
     },

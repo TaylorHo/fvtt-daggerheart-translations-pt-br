@@ -1,11 +1,11 @@
 {
   "folder": "w6agWszBQCnHTo5p",
-  "name": "Reliable Backup",
+  "name": "Reforço Confiável",
   "type": "feature",
   "_id": "QYNGdH37fsGuxS7L",
   "img": "icons/magic/control/energy-stream-link-white.webp",
   "system": {
-    "description": "<p>You can use your \"Contacts Everywhere\" feature three times per session. The following options are added to the list of benefits you can choose from when you use that feature:</p><ul><li><p>When you mark 1 or more Hit Points, they can rush out to shield you, reducing the Hit Points marked by 1.</p></li><li><p>When you make a Presence Roll in conversation, they back you up. You can roll a d20 as your Hope Die.</p></li></ul>",
+    "description": "<p>Você pode usar sua habilidade \"Contatos em Toda Parte\" três vezes por sessão. As seguintes opções são adicionadas à lista de benefícios que você pode escolher ao usar essa habilidade:</p><ul><li><p>Quando você marcar 1 ou mais Pontos de Vida, ele pode correr para protegê-lo, reduzindo em 1 os Pontos de Vida marcados.</p></li><li><p>Quando você fizer uma Jogada de Presença em uma conversa, ele dá cobertura a você. Você pode rolar um d20 como seu Dado de Esperança.</p></li></ul>",
     "resource": null,
     "actions": {},
     "attribution": {

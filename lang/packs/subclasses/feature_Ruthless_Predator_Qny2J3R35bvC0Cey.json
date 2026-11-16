@@ -1,11 +1,11 @@
 {
   "folder": "D1rRX2AQ9wzVOsKy",
-  "name": "Ruthless Predator",
+  "name": "Predador Implacável",
   "type": "feature",
   "_id": "Qny2J3R35bvC0Cey",
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
   "system": {
-    "description": "<p>When you make a damage roll, you can mark a Stress to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must mark a Stress.</p>",
+    "description": "<p>Quando você fizer uma jogada de dano, pode marcar 1 Fadiga para ganhar +1 de bônus na sua Proficiência. Além disso, quando você causar dano Grave a um adversário, ele deve marcar 1 Fadiga.</p>",
     "resource": null,
     "actions": {
       "0YRLL1HC4XS3tX00": {
@@ -41,7 +41,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/creatures/mammals/wolf-shadow-black.webp",
         "range": "self",
         "baseAction": false,
@@ -64,7 +64,7 @@
   },
   "effects": [
     {
-      "name": "Ruthless Predator",
+      "name": "Predador Implacável",
       "img": "icons/creatures/mammals/wolf-shadow-black.webp",
       "transfer": false,
       "_id": "8BNwCS7ueIQuvn2M",
@@ -94,7 +94,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you make a damage roll, you can mark a Stress to gain a +1 bonus to your Proficiency. Additionally, when you deal Severe damage to an adversary, they must mark a Stress.</p>",
+      "description": "<p>Quando você fizer uma jogada de dano, pode marcar 1 Fadiga para ganhar +1 de bônus na sua Proficiência. Além disso, quando você causar dano Grave a um adversário, ele deve marcar 1 Fadiga.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,13 +1,11 @@
 {
-  "name": "Loreborne",
+  "name": "Nascido no Saber",
   "img": "icons/sundries/scrolls/scroll-writing-brown-gold.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of a loreborne community means you're from a society that favors strong academic or political prowess.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.JBZJmywisJg5X3tH"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida no Saber significa que você vem de uma sociedade que valoriza forte habilidade acadêmica ou política.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.JBZJmywisJg5X3tH"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

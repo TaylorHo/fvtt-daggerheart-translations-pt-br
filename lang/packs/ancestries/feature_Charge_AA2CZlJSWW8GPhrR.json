@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Charge",
+  "name": "Investida",
   "type": "feature",
   "_id": "AA2CZlJSWW8GPhrR",
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
   "system": {
-    "description": "<p>When you succeed on an Agility Roll to move from Far or Very Far range into Melee range with one or more targets, you can <strong>mark a Stress</strong> to deal <strong>1d12</strong> physical damage to all targets within Melee range.</p>",
+    "description": "<p>Quando você for bem-sucedido em uma Jogada de Agilidade para se mover do alcance Distante ou Muito Distante até o alcance Corpo a Corpo de um ou mais alvos, pode <strong>marcar 1 Fadiga</strong> para causar <strong>1d12</strong> de dano físico a todos os alvos em alcance Corpo a Corpo.</p>",
     "resource": null,
     "actions": {
       "KLg0T6I1w24sfIbH": {
@@ -44,9 +44,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -62,7 +60,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Deal Damage",
+        "name": "Causar Dano",
         "img": "icons/magic/movement/trail-streak-impact-blue.webp",
         "range": "",
         "baseAction": false,

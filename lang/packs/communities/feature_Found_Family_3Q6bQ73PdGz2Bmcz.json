@@ -1,12 +1,12 @@
 {
   "type": "feature",
-  "name": "Found Family",
+  "name": "Família Escolhida",
   "folder": "KA1VSGslxkbvVeMp",
   "_id": "3Q6bQ73PdGz2Bmcz",
   "img": "icons/magic/life/heart-pink.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Once per rest, you can <strong>spend a Hope</strong> to use an ally's Experience as if it were your own. When you do so, describe how your time with that ally prepared you for this moment.</p><p>When you join a new community or rediscover your old one, you can permanently trade this card for that one instead.</p>",
+    "description": "<p>Uma vez por descanso, você pode <strong>gastar 1 de Esperança</strong> para usar a Experiência de um aliado como se fosse sua. Ao fazer isso, descreva como o tempo que passou com esse aliado preparou você para este momento.</p><p>Quando você se juntar a uma nova comunidade ou redescobrir a sua antiga, pode trocar permanentemente esta carta pela dessa comunidade.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -44,7 +44,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

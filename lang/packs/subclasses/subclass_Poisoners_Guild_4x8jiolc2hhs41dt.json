@@ -1,6 +1,6 @@
 {
   "type": "subclass",
-  "name": "Poisoners Guild",
+  "name": "Guilda dos Envenenadores",
   "folder": "pWb9BPbxzAMecprJ",
   "_id": "4x8jiolc2hhs41dt",
   "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
@@ -11,7 +11,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Play the Poisoners Guild if you want to debilitate your targets with punishing afflictions.</p>",
+    "description": "<p>Escolha Guilda dos Envenenadores se quiser debilitar seus alvos com aflições castigantes.</p>",
     "gmNotes": "",
     "spellcastingTrait": "knowledge",
     "features": [

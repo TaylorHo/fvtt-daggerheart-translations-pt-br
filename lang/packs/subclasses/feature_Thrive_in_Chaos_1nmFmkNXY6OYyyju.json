@@ -1,11 +1,11 @@
 {
   "folder": "t8AkyVM60h7WuLOD",
-  "name": "Thrive in Chaos",
+  "name": "Prosperar no Caos",
   "type": "feature",
   "_id": "1nmFmkNXY6OYyyju",
   "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
   "system": {
-    "description": "<p>When you succeed on an attack, you can <strong>mark a Stress</strong> after rolling damage to force the target to mark an additional Hit Point.</p>",
+    "description": "<p>Quando você for bem-sucedido em um ataque, pode <strong>marcar 1 Fadiga</strong> após rolar o dano para forçar o alvo a marcar 1 Ponto de Vida adicional.</p>",
     "resource": null,
     "actions": {
       "7Z9v7GWswIQFD5YH": {
@@ -40,7 +40,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
         "range": "",
         "baseAction": false,

@@ -1,11 +1,11 @@
 {
   "folder": "WMlU3baiUdMgfuak",
-  "name": "Stalwart",
+  "name": "Baluarte",
   "type": "subclass",
   "_id": "rKRxFBlkbh9cDK8K",
   "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
   "system": {
-    "description": "<p>Play the Stalwart if you want to take heavy blows and keep fighting.</p>",
+    "description": "<p>Escolha Baluarte se quiser receber golpes pesados e continuar lutando.</p>",
     "spellcastingTrait": null,
     "features": [
       {

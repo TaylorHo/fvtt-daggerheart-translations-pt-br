@@ -1,11 +1,11 @@
 {
   "folder": "t8AkyVM60h7WuLOD",
-  "name": "Brilliant",
+  "name": "Brilhante",
   "type": "feature",
   "_id": "2A0HBDxGc4gEARou",
   "img": "icons/sundries/scrolls/scroll-yellow-teal.webp",
   "system": {
-    "description": "<p>Take an additional domain card of your level or lower from a domain you have access to.</p>",
+    "description": "<p>Receba uma carta de domínio adicional do seu nível ou inferior de um domínio ao qual você tenha acesso.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

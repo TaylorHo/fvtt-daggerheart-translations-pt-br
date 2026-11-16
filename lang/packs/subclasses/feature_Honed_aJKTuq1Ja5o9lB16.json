@@ -1,12 +1,12 @@
 {
   "folder": "lWpkV14I1qmLrVHt",
-  "name": "Honed",
+  "name": "Afiada",
   "type": "feature",
   "_id": "aJKTuq1Ja5o9lB16",
   "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
   "system": {
     "attribution": {},
-    "description": "<p><strong>Spend a Focus</strong> before you make an attack roll to gain a +1 bonus to your Proficiency for that attack.</p>",
+    "description": "<p><strong>Gaste 1 de Foco</strong> antes de fazer uma jogada de ataque para ganhar +1 de bônus na sua Proficiência nesse ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Enter Stance",
+        "name": "Assumir Postura",
         "range": "self"
       },
       "InclNwt5wzExUNUc": {
@@ -82,7 +82,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Focus",
+        "name": "Gastar Foco",
         "range": "self",
         "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp"
       }
@@ -93,10 +93,10 @@
   },
   "effects": [
     {
-      "name": "Stance: Honed",
+      "name": "Postura: Afiada",
       "disabled": false,
       "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
-      "description": "<p><strong>Spend a Focus</strong> before you make an attack roll to gain a +1 bonus to your Proficiency for that attack.</p>",
+      "description": "<p><strong>Gaste 1 de Foco</strong> antes de fazer uma jogada de ataque para ganhar +1 de bônus na sua Proficiência nesse ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -137,10 +137,10 @@
       "_key": "!items.effects!aJKTuq1Ja5o9lB16.HkFjCOTppPwFhoDD"
     },
     {
-      "name": "Honed",
+      "name": "Afiada",
       "disabled": false,
       "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
-      "description": "<p>Gain a +1 bonus to your Proficiency for that attack.</p>",
+      "description": "<p>Ganhe +1 de bônus na sua Proficiência nesse ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

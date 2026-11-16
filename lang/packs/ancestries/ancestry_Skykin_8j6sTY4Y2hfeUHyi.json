@@ -1,6 +1,6 @@
 {
   "type": "ancestry",
-  "name": "Skykin",
+  "name": "Celestino (Skykin)",
   "folder": null,
   "system": {
     "loreReference": "skykin",
@@ -10,7 +10,7 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Skykin are humanoids whose bodies are made of flesh and air.</p>",
+    "description": "<p>Celestinos são humanoides cujo corpo é feito de carne e ar.</p>",
     "gmNotes": "",
     "features": [
       {

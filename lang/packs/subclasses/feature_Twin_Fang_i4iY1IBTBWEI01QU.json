@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Twin Fang",
+  "name": "Presa Gêmea",
   "folder": "NysUQtRlcjGiqDHm",
   "_id": "i4iY1IBTBWEI01QU",
   "img": "icons/skills/melee/strike-dagger-poison-green.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>When you afflict a target <em>Marked for Death</em> with a poison you know, you can spend an additional token to also inflict the effect of a second poison you know.</p>",
+    "description": "<p>Quando você afligir com um veneno que conhece um alvo com a <em>Marca da Morte</em>, pode gastar uma ficha adicional para também infligir o efeito de um segundo veneno que conheça.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

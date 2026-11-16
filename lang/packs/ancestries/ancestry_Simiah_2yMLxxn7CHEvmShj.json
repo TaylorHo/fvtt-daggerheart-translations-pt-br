@@ -1,10 +1,10 @@
 {
-  "name": "Simiah",
+  "name": "Símio",
   "img": "icons/magic/nature/tree-bare-glow-yellow.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Simiah resemble anthropomorphic monkeys and apes with long limbs and prehensile feet.</p>",
+    "description": "<p>Símios se parecem com macacos antropomórficos, com membros longos e pés preênseis.</p>",
     "features": [
       {
         "type": "primary",

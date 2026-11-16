@@ -1,18 +1,18 @@
 {
   "folder": "QFWUKG7xwO5bJyln",
-  "name": "Elemental Dominion",
+  "name": "Domínio Elemental",
   "type": "feature",
   "_id": "EFUJHrkTuyv8uA9l",
   "img": "icons/magic/nature/meteorite-purple.webp",
   "system": {
-    "description": "<p>You further embody your element. While Channeling, you gain the following benefit:</p><ul><li><p><strong>Fire</strong>: You gain a +1 bonus to your Proficiency for attacks and spells that deal damage.</p></li><li><p><strong>Earth</strong>: When you would mark Hit Points, roll a d6 per Hit Point marked. For each result of 6, reduce the number of Hit Points you mark by 1.</p></li><li><p><strong>Water</strong>: When an attack against you succeeds, you can mark a Stress to make the attacker temporarily Vulnerable.</p></li><li><p><strong>Air</strong>: You gain a +1 bonus to your Evasion and can fly</p></li></ul>",
+    "description": "<p>Você incorpora ainda mais o seu elemento. Enquanto Canaliza, você ganha o seguinte benefício:</p><ul><li><p><strong>Fogo</strong>: Você ganha +1 de bônus na sua Proficiência para ataques e feitiços que causem dano.</p></li><li><p><strong>Terra</strong>: Quando você fosse marcar Pontos de Vida, role um d6 por Ponto de Vida marcado. Para cada resultado 6, reduza em 1 o número de Pontos de Vida que você marca.</p></li><li><p><strong>Água</strong>: Quando um ataque contra você for bem-sucedido, você pode marcar 1 Fadiga para deixar o atacante temporariamente Vulnerável.</p></li><li><p><strong>Ar</strong>: Você ganha +1 de bônus na sua Evasão e pode voar</p></li></ul>",
     "resource": null,
     "actions": {
       "ofdSzqY7IfAy5ayv": {
         "type": "effect",
         "_id": "ofdSzqY7IfAy5ayv",
         "systemPath": "actions",
-        "description": "<p>You gain a +1 bonus to your Proficiency for attacks and spells that deal damage.</p>",
+        "description": "<p>Você ganha +1 de bônus na sua Proficiência para ataques e feitiços que causem dano.</p>",
         "chatDisplay": false,
         "actionType": "action",
         "cost": [],
@@ -32,7 +32,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Fire",
+        "name": "Fogo",
         "img": "icons/magic/fire/flame-burning-fist-strike.webp",
         "range": "",
         "baseAction": false,
@@ -46,7 +46,7 @@
         "type": "effect",
         "_id": "knGm3snaplWYDaue",
         "systemPath": "actions",
-        "description": "<p>When you would mark Hit Points, roll a d6 per Hit Point marked. For each result of 6, reduce the number of Hit Points you mark by 1.</p>",
+        "description": "<p>Quando você fosse marcar Pontos de Vida, role um d6 por Ponto de Vida marcado. Para cada resultado 6, reduza em 1 o número de Pontos de Vida que você marca.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -66,7 +66,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Earth",
+        "name": "Terra",
         "img": "icons/magic/earth/strike-fist-stone.webp",
         "range": "",
         "baseAction": false,
@@ -80,7 +80,7 @@
         "type": "effect",
         "_id": "MocaqHUdyVwH0ZFu",
         "systemPath": "actions",
-        "description": "<p>When an attack against you succeeds, you can mark a Stress to make the attacker temporarily Vulnerable.</p>",
+        "description": "<p>Quando um ataque contra você for bem-sucedido, você pode marcar 1 Fadiga para deixar o atacante temporariamente Vulnerável.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -109,7 +109,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Water",
+        "name": "Água",
         "img": "icons/magic/water/heart-ice-freeze.webp",
         "range": "",
         "baseAction": false,
@@ -123,7 +123,7 @@
         "type": "effect",
         "_id": "AQMNJRmVyhJTSCfR",
         "systemPath": "actions",
-        "description": "<p>You gain a +1 bonus to your Evasion and can fly.</p>",
+        "description": "<p>Você ganha +1 de bônus na sua Evasão e pode voar.</p>",
         "chatDisplay": false,
         "actionType": "action",
         "cost": [],
@@ -143,7 +143,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Air",
+        "name": "Ar",
         "img": "icons/magic/air/air-smoke-casting.webp",
         "range": "",
         "baseAction": false,
@@ -166,7 +166,7 @@
   },
   "effects": [
     {
-      "name": "Elemental Dominion (Fire)",
+      "name": "Domínio Elemental (Fogo)",
       "img": "icons/magic/fire/flame-burning-fist-strike.webp",
       "transfer": false,
       "_id": "FoBFRSXRfGa1zkiX",
@@ -196,7 +196,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Proficiency for attacks and spells that deal damage.</p>",
+      "description": "<p>Você ganha +1 de bônus na sua Proficiência para ataques e feitiços que causem dano.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -210,7 +210,7 @@
       "_key": "!items.effects!EFUJHrkTuyv8uA9l.FoBFRSXRfGa1zkiX"
     },
     {
-      "name": "Elemental Dominion (Water)",
+      "name": "Domínio Elemental (Água)",
       "img": "icons/magic/water/heart-ice-freeze.webp",
       "transfer": false,
       "_id": "bGwFZZT4juuaIRmZ",
@@ -233,11 +233,9 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When an attack against you succeeds, you can mark a Stress to make the attacker temporarily Vulnerable.</p>",
+      "description": "<p>Quando um ataque contra você for bem-sucedido, você pode marcar 1 Fadiga para deixar o atacante temporariamente Vulnerável.</p>",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {
@@ -256,7 +254,7 @@
       "_key": "!items.effects!EFUJHrkTuyv8uA9l.bGwFZZT4juuaIRmZ"
     },
     {
-      "name": "Elemental Dominion (Air)",
+      "name": "Domínio Elemental (Ar)",
       "img": "icons/magic/air/air-smoke-casting.webp",
       "transfer": false,
       "_id": "edF2zvvlcGf54r2n",
@@ -286,7 +284,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Evasion and can fly</p>",
+      "description": "<p>Você ganha +1 de bônus na sua Evasão e pode voar</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -300,7 +298,7 @@
       "_key": "!items.effects!EFUJHrkTuyv8uA9l.edF2zvvlcGf54r2n"
     },
     {
-      "name": "Elemental Dominion (Earth)",
+      "name": "Domínio Elemental (Terra)",
       "img": "icons/magic/earth/strike-fist-stone.webp",
       "transfer": false,
       "_id": "p5FoUb4JKQFP405d",

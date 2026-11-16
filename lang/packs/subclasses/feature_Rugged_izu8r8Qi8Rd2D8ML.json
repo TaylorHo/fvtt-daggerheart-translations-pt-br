@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Rugged",
+  "name": "Robusto",
   "folder": "RXqga54T8e59bXN3",
   "_id": "izu8r8Qi8Rd2D8ML",
   "img": "icons/skills/melee/shield-block-gray-orange.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>Gain a permanent +3 bonus to your Severe damage threshold.</p>",
+    "description": "<p>Ganhe +3 de bônus permanente no seu limiar de dano Grave.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},
@@ -19,7 +19,7 @@
   },
   "effects": [
     {
-      "name": "Rugged",
+      "name": "Robusto",
       "type": "base",
       "system": {
         "changes": [
@@ -57,7 +57,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a permanent +3 bonus to your Severe damage threshold.</p>",
+      "description": "<p>Ganhe +3 de bônus permanente no seu limiar de dano Grave.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

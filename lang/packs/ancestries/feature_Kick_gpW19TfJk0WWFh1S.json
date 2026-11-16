@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Kick",
+  "name": "Chute",
   "type": "feature",
   "_id": "gpW19TfJk0WWFh1S",
   "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
   "system": {
-    "description": "<p>When you succeed on an attack against a target within Melee range, you can <strong>mark a Stress</strong> to kick yourself off them, dealing an extra <strong>2d6</strong> damage and knocking back either yourself or the target to Very Close range.</p>",
+    "description": "<p>Quando você for bem-sucedido em um ataque contra um alvo em alcance Corpo a Corpo, pode <strong>marcar 1 Fadiga</strong> para se impulsionar para longe dele, causando <strong>2d6</strong> de dano extra e jogando você ou o alvo para trás até alcance Muito Próximo.</p>",
     "resource": null,
     "actions": {
       "bXbQ57CB1Hfj5XrS": {
@@ -60,7 +60,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Deal Damage",
+        "name": "Causar Dano",
         "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
         "range": "melee",
         "baseAction": false,

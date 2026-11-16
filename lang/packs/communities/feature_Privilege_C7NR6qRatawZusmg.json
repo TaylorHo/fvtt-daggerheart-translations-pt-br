@@ -1,11 +1,11 @@
 {
   "folder": "KA1VSGslxkbvVeMp",
-  "name": "Privilege",
+  "name": "Privilégio",
   "type": "feature",
   "_id": "C7NR6qRatawZusmg",
   "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
   "system": {
-    "description": "<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>",
+    "description": "<p>Você tem vantagem em jogadas para se relacionar com nobres, negociar preços ou usar sua reputação para conseguir o que quer.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Privilege",
+      "name": "Privilégio",
       "type": "base",
       "_id": "xgtjykfgvg142urA",
       "img": "icons/commodities/currency/coins-plain-stack-gold.webp",
@@ -29,21 +29,21 @@
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Consort with nobles",
+            "value": "Conviver com nobres",
             "priority": null,
             "phase": "initial"
           },
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Negotiate prices",
+            "value": "Negociar preços",
             "priority": null,
             "phase": "initial"
           },
           {
             "key": "system.advantageSources",
             "type": "add",
-            "value": "Leverage your reputation to get what you want",
+            "value": "Usar sua reputação para conseguir o que quer",
             "priority": null,
             "phase": "initial"
           }
@@ -64,7 +64,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>",
+      "description": "<p>Você tem vantagem em jogadas para se relacionar com nobres, negociar preços ou usar sua reputação para conseguir o que quer.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,11 +1,11 @@
 {
   "folder": "dWQSVhtwClSdRHDK",
-  "name": "Regeneration",
+  "name": "Regeneração",
   "type": "feature",
   "_id": "KRyrbSLVGreIOTZe",
   "img": "icons/magic/nature/beam-hand-leaves-green.webp",
   "system": {
-    "description": "<p>Touch a creature and spend 3 Hope. That creature clears 1d4 Hit Points.</p>",
+    "description": "<p>Toque uma criatura e gaste 3 de Esperança. Essa criatura limpa 1d4 Pontos de Vida.</p>",
     "resource": null,
     "actions": {
       "kD2kWWj0oR7ZxyVs": {
@@ -74,7 +74,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal a creature",
+        "name": "Curar uma criatura",
         "img": "icons/magic/nature/beam-hand-leaves-green.webp",
         "range": "",
         "baseAction": false,

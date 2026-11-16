@@ -1,10 +1,10 @@
 {
-  "name": "Giant",
+  "name": "Gigante",
   "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
   "type": "ancestry",
   "folder": null,
   "system": {
-    "description": "<p>Giants are towering humanoids with broad shoulders, long arms, and one to three eyes.</p>",
+    "description": "<p>Gigantes são humanoides colossais de ombros largos, braços longos e de um a três olhos.</p>",
     "features": [
       {
         "type": "primary",

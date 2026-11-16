@@ -1,11 +1,11 @@
 {
   "folder": "2lqz1Vao2brbVfIH",
-  "name": "Martial Preparation",
+  "name": "Preparação Marcial",
   "type": "feature",
   "_id": "dHgAnbt9m1KsQFmp",
   "img": "icons/skills/melee/sword-winged-holy-orange.webp",
   "system": {
-    "description": "<p>You're an inspirational warrior to all who travel with you. Your party gains access to the Martial Preparation downtime move. To use this move during a rest, describe how you instruct and train with your party. You and each ally who chooses this downtime move gain a <strong>d6</strong> Slayer Die. A PC with a Slayer Die can spend it to roll the die and add the result to an attack or damage roll of their choice.</p>",
+    "description": "<p>Você é um guerreiro inspirador para todos que viajam com você. Seu grupo ganha acesso à ação de intervalo Preparação Marcial. Para usar esta ação durante um descanso, descreva como você instrui e treina com seu grupo. Você e cada aliado que escolher esta ação de intervalo ganham um Dado de Matador <strong>d6</strong>. Um PJ com um Dado de Matador pode gastá-lo para rolar o dado e somar o resultado a uma jogada de ataque ou de dano à sua escolha.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

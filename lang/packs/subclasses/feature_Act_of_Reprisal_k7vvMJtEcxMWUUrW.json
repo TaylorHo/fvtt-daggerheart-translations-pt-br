@@ -1,11 +1,11 @@
 {
   "folder": "DO1MpBfTgnAblNNz",
-  "name": "Act of Reprisal",
+  "name": "Ato de Retaliação",
   "type": "feature",
   "_id": "k7vvMJtEcxMWUUrW",
   "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
   "system": {
-    "description": "<p>When an adversary damages an ally within Melee range, you gain a +1 bonus to your Proficiency for the next successful attack you make against that adversary.</p>",
+    "description": "<p>Quando um adversário causar dano a um aliado em alcance Corpo a Corpo, você ganha +1 de bônus na sua Proficiência para o próximo ataque bem-sucedido que fizer contra esse adversário.</p>",
     "resource": null,
     "actions": {
       "yalzg4VRmZvakshJ": {
@@ -32,7 +32,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Adversary",
+        "name": "Marcar Adversário",
         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
         "range": "melee",
         "baseAction": false,
@@ -55,7 +55,7 @@
   },
   "effects": [
     {
-      "name": "Act of Reprisal",
+      "name": "Ato de Retaliação",
       "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
       "transfer": false,
       "_id": "9Uo0yOYGn3vandPp",
@@ -64,7 +64,7 @@
         "changes": [],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until the next successful attack you make against that adversary.</p>"
+          "description": "<p>Até o próximo ataque bem-sucedido que você fizer contra esse adversário.</p>"
         },
         "rangeDependence": null,
         "stacking": null,

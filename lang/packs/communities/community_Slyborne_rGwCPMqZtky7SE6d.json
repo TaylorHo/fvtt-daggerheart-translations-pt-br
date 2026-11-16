@@ -1,13 +1,11 @@
 {
-  "name": "Slyborne",
+  "name": "Nascido na Astúcia",
   "img": "icons/environment/settlement/city-night-spire.webp",
   "type": "community",
   "folder": null,
   "system": {
-    "description": "<p>Being part of a slyborne community means you come from a group that operates outside the law, including all manner of criminals, grifters, and con artists.</p>",
-    "features": [
-      "Compendium.daggerheart.communities.Item.ZmEuBdL0JrvuA8le"
-    ],
+    "description": "<p>Fazer parte de uma comunidade Nascida na Astúcia significa que você vem de um grupo que opera fora da lei, incluindo todo tipo de criminosos, trapaceiros e vigaristas.</p>",
+    "features": ["Compendium.daggerheart.communities.Item.ZmEuBdL0JrvuA8le"],
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,

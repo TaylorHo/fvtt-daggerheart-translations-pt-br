@@ -1,11 +1,11 @@
 {
   "folder": "nVfL09Rh27H0aAqS",
-  "name": "Sparing Touch",
+  "name": "Toque Carinhoso",
   "type": "feature",
   "_id": "GfOSgVJW8bS1OjNq",
   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "system": {
-    "description": "<p>Once per long rest, touch a creature and clear 2 Hit Points or 2 Stress from them.</p>",
+    "description": "<p>Uma vez por descanso longo, toque uma criatura e limpe 2 Pontos de Vida ou 2 de Fadiga dela.</p>",
     "resource": {
       "type": "simple",
       "value": 1,
@@ -83,7 +83,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Hit Points",
+        "name": "Limpar Pontos de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -159,7 +159,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,

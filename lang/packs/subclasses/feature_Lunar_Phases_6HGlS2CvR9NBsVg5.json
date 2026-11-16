@@ -1,6 +1,6 @@
 {
   "type": "feature",
-  "name": "Lunar Phases",
+  "name": "Fases da Lua",
   "folder": "5X2hXr3NYBA0xR4U",
   "_id": "6HGlS2CvR9NBsVg5",
   "img": "icons/magic/nature/moon-crescent.webp",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD",
       "page": null
     },
-    "description": "<p>At the beginning of each session, roll a <strong>[[/r d6]]</strong> and place it on this card. You gain the matching effect until the end of session.</p><table><thead><tr><td><p>Roll</p></td><td><p>Phase</p></td><td><p>Effect</p></td></tr></thead><tbody><tr><td><p><strong>1</strong></p></td><td><p>New</p></td><td><p>Spend a Hope to negate Minor damage.</p></td></tr><tr><td><p><strong>2–3</strong></p></td><td><p>Waxing</p></td><td><p>+2 to damage rolls</p></td></tr><tr><td><p><strong>4</strong></p></td><td><p>Full</p></td><td><p>+3 to damage thresholds</p></td></tr><tr><td><p><strong>5–6</strong></p></td><td><p>Waning</p></td><td><p>+1 to Evasion</p></td></tr></tbody></table><p>Once per rest, you can <strong>spend a Hope</strong> to increase the value of this die by one. If you increase the value of a 6, it becomes a 1.</p>",
+    "description": "<p>No início de cada sessão, role um <strong>[[/r d6]]</strong> e coloque-o nesta carta. Você ganha o efeito correspondente até o fim da sessão.</p><table><thead><tr><td><p>Rolagem</p></td><td><p>Fase</p></td><td><p>Efeito</p></td></tr></thead><tbody><tr><td><p><strong>1</strong></p></td><td><p>Nova</p></td><td><p>Gaste 1 de Esperança para anular dano Menor.</p></td></tr><tr><td><p><strong>2–3</strong></p></td><td><p>Crescente</p></td><td><p>+2 nas jogadas de dano</p></td></tr><tr><td><p><strong>4</strong></p></td><td><p>Cheia</p></td><td><p>+3 nos limiares de dano</p></td></tr><tr><td><p><strong>5–6</strong></p></td><td><p>Minguante</p></td><td><p>+1 de Evasão</p></td></tr></tbody></table><p>Uma vez por descanso, você pode <strong>gastar 1 de Esperança</strong> para aumentar o valor deste dado em um. Se você aumentar o valor de um 6, ele se torna 1.</p>",
     "gmNotes": "",
     "resource": {
       "type": "die",
@@ -56,7 +56,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "New: Spend Hope",
+        "name": "Novo: Gastar Esperança",
         "range": ""
       }
     },
@@ -66,7 +66,7 @@
   },
   "effects": [
     {
-      "name": "Waxing",
+      "name": "Crescente",
       "type": "base",
       "system": {
         "changes": [
@@ -104,7 +104,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+2 to damage rolls</p>",
+      "description": "<p>+2 nas jogadas de dano</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -118,7 +118,7 @@
       "_key": "!items.effects!6HGlS2CvR9NBsVg5.K7xu1KI8zehJ8kkY"
     },
     {
-      "name": "Full",
+      "name": "Cheia",
       "type": "base",
       "system": {
         "changes": [
@@ -163,7 +163,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+3 to damage thresholds</p>",
+      "description": "<p>+3 nos limiares de dano</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -177,7 +177,7 @@
       "_key": "!items.effects!6HGlS2CvR9NBsVg5.7V75lzCjChYmZaZ5"
     },
     {
-      "name": "Waning",
+      "name": "Minguante",
       "type": "base",
       "system": {
         "changes": [
@@ -215,7 +215,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+1 to Evasion</p>",
+      "description": "<p>+1 de Evasão</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

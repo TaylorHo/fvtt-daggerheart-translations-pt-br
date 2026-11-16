@@ -1,6 +1,6 @@
 {
   "type": "community",
-  "name": "Freeborne",
+  "name": "Nascido Livre",
   "folder": null,
   "system": {
     "loreReference": "freeborne",
@@ -10,11 +10,9 @@
       "campaignFrame": "",
       "artist": ""
     },
-    "description": "<p>Being part of a freeborne community means you're from a collective that once lived under tyrannical rule but is now liberated.</p>",
+    "description": "<p>Fazer parte de uma comunidade Nascida Livre significa que você vem de um coletivo que um dia viveu sob um governo tirânico, mas agora está liberto.</p>",
     "gmNotes": "",
-    "features": [
-      "Compendium.daggerheart.communities.Item.OyzEkHdHYwmoofQx"
-    ]
+    "features": ["Compendium.daggerheart.communities.Item.OyzEkHdHYwmoofQx"]
   },
   "_id": "XLaNJvrahs9rRraZ",
   "img": "icons/environment/settlement/gazebo.webp",

@@ -1,11 +1,11 @@
 {
   "folder": "dSAccOl5ccgXPyje",
-  "name": "Shell",
+  "name": "Casco",
   "type": "feature",
   "_id": "A6a87OWA3tx16g9V",
   "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
   "system": {
-    "description": "<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
+    "description": "<p>Ganhe um bônus nos seus limiares de dano igual à sua Proficiência.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -20,7 +20,7 @@
   },
   "effects": [
     {
-      "name": "Shell",
+      "name": "Casco",
       "type": "base",
       "_id": "41uiZKXzSSomf9YD",
       "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
@@ -56,7 +56,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>",
+      "description": "<p>Ganhe um bônus nos seus limiares de dano igual à sua Proficiência.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,18 +1,18 @@
 {
   "folder": "nVfL09Rh27H0aAqS",
-  "name": "Wings of Light",
+  "name": "Asas de Luz",
   "type": "feature",
   "_id": "KkQH0tYhagIqe2MT",
   "img": "icons/magic/light/projectile-beam-yellow.webp",
   "system": {
-    "description": "<p>You can fly. While flying, you can do the following:</p><ul><li><p>Mark a Stress to pick up and carry another willing creature approximately your size or smaller.</p></li><li><p>Spend a Hope to deal an extra 1d8 damage on a successful attack.</p></li></ul>",
+    "description": "<p>Você pode voar. Enquanto estiver voando, pode fazer o seguinte:</p><ul><li><p>Marcar 1 Fadiga para pegar e carregar outra criatura voluntária de tamanho aproximadamente igual ou menor que o seu.</p></li><li><p>Gastar 1 de Esperança para causar 1d8 de dano extra em um ataque bem-sucedido.</p></li></ul>",
     "resource": null,
     "actions": {
       "rg2sLCTqY2rTo861": {
         "type": "effect",
         "_id": "rg2sLCTqY2rTo861",
         "systemPath": "actions",
-        "description": "<p>Mark a Stress to pick up and carry another willing creature approximately your size or smaller.</p>",
+        "description": "<p>Marque 1 Fadiga para pegar e carregar outra criatura voluntária de tamanho aproximadamente igual ou menor que o seu.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -36,7 +36,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/light/projectile-beam-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -50,7 +50,7 @@
         "type": "effect",
         "_id": "1qjnoz5I7NqrWMkp",
         "systemPath": "actions",
-        "description": "<p>Spend a Hope to deal an extra 1d8 damage on a successful attack.</p>",
+        "description": "<p>Gaste 1 de Esperança para causar 1d8 de dano extra em um ataque bem-sucedido.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -79,7 +79,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/light/projectile-beam-yellow.webp",
         "range": "self",
         "baseAction": false,
@@ -102,7 +102,7 @@
   },
   "effects": [
     {
-      "name": "Wings of Light",
+      "name": "Asas de Luz",
       "img": "icons/magic/light/projectile-beam-yellow.webp",
       "transfer": false,
       "_id": "PfCwuVbKLxhnrm9X",
@@ -132,7 +132,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Deal an extra 1d8 damage on a successful attack.</p>",
+      "description": "<p>Cause 1d8 de dano extra em um ataque bem-sucedido.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
