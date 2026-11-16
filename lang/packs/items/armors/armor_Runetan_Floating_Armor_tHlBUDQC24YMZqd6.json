@@ -1,0 +1,43 @@
+{
+  "folder": "hLn0v6ov6KuFgptu",
+  "name": "Runetan Floating Armor",
+  "type": "armor",
+  "_id": "tHlBUDQC24YMZqd6",
+  "img": "icons/equipment/chest/breastplate-layered-leather-black.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 4
+    },
+    "description": "",
+    "actions": {},
+    "tier": 2,
+    "equipped": false,
+    "baseThresholds": {
+      "major": 9,
+      "severe": 20
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "itemFeatures": {
+      "shifting": {
+        "value": "shifting",
+        "effectIds": [],
+        "actionIds": [
+          "Nn33zCIcWe6LQMDH"
+        ],
+        "config": {}
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!tHlBUDQC24YMZqd6"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Secondary Weapons",
+  "color": null,
+  "sorting": "a",
+  "_id": "NbXyhDASDCqpg4eG",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "daggerheart": {
+      "defaultEntity": "weapon"
+    }
+  },
+  "_key": "!folders!NbXyhDASDCqpg4eG"
+}

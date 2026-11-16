@@ -1,4 +1,7 @@
-zip:
-	zip module.zip module.json scripts/main.js lang/pt-BR.json lang/en.json
+index:
+	node scripts/build-index.mjs
 
-.PHONY: zip
+zip: index
+	zip -r module.zip module.json src lang/ -x lang/en.json
+
+.PHONY: index zip

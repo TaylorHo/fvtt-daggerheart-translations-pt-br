@@ -3980,6 +3980,8 @@
                 "deleteItemText": "Tem certeza de que deseja excluir o item?",
                 "deleteResourceTitle": "Excluir recurso Homebrew",
                 "deleteResourceText": "Tem certeza de que deseja excluir o recurso?",
+                "deleteAdversaryTypeTitle": "Excluir tipo de inimigo",
+                "deleteAdversaryTypeText": "Tem certeza de que deseja excluir o tipo de inimigo?",
                 "reset": "Reiniciar",
                 "FIELDS": {
                     "domains": {
@@ -4022,6 +4024,13 @@
                     },
                     "tokenSizes": {
                         "label": "Tamanhos de token"
+                    },
+                    "adversaryTypes": {
+                        "defaultImage": {
+                            "img": "Imagem de ator padrão",
+                            "token": "Imagem de token padrão",
+                            "dynamicToken": "Imagem de token dinâmico padrão"
+                        }
                     }
                 },
                 "currency": {

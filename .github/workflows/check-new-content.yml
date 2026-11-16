@@ -2,12 +2,16 @@ name: Check new upstream content
 
 on:
   schedule:
-    - cron: "0 12 1 * *" # monthly, 1st day
+    - cron: "0 12 * * *" # daily
   workflow_dispatch:
 
 permissions:
   contents: read
   issues: write
+
+env:
+  UPSTREAM: Foundryborne/daggerheart
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   check:
@@ -15,35 +19,58 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Compare lang/en.json with upstream
+      - name: Detect newer upstream release and diff
         id: diff
         run: |
-          curl -fsSL https://raw.githubusercontent.com/Foundryborne/daggerheart/HEAD/lang/en.json -o upstream.json
-          flat='[leaf_paths as $p | {key: ($p | map(tostring) | join(".")), value: getpath($p)}] | from_entries'
-          jq -S "$flat" upstream.json > up.flat
-          jq -S "$flat" lang/en.json > our.flat
-          added=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$u[0] | keys[] | select($o[0][.] == null)] | length')
-          changed=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$u[0] | to_entries[] | select($o[0][.key] != null and $o[0][.key] != .value)] | length')
-          removed=$(jq -n --slurpfile u up.flat --slurpfile o our.flat '[$o[0] | keys[] | select($u[0][.] == null)] | length')
-          echo "added=$added" >> "$GITHUB_OUTPUT"
-          echo "changed=$changed" >> "$GITHUB_OUTPUT"
-          echo "removed=$removed" >> "$GITHUB_OUTPUT"
-          if cmp -s up.flat our.flat; then echo "differs=false" >> "$GITHUB_OUTPUT"; else echo "differs=true" >> "$GITHUB_OUTPUT"; fi
+          latest=$(gh api "repos/$UPSTREAM/releases/latest" --jq .tag_name)
+          current=$(tr -d '[:space:]' < .upstream-version)
+          l=${latest#v}; c=${current#v}
+          newest=$(printf '%s\n%s\n' "$c" "$l" | sort -V | tail -1)
+          if [ "$l" = "$c" ] || [ "$newest" != "$l" ]; then
+            echo "Up to date ($current, latest $latest)"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git clone --quiet --filter=blob:none --no-checkout "https://github.com/$UPSTREAM" upstream
+          # tags may or may not carry a "v" prefix
+          resolve() { for t in "$1" "v${1#v}" "${1#v}"; do git -C upstream rev-parse -q --verify "refs/tags/$t" >/dev/null && { echo "$t"; return; }; done; echo "$1"; }
+          old_tag=$(resolve "$current"); new_tag=$(resolve "$latest")
+          git -C upstream diff "$old_tag" "$new_tag" -- lang/en.json packs/ > diff.patch
+          echo "current=$old_tag" >> "$GITHUB_OUTPUT"
+          echo "latest=$new_tag" >> "$GITHUB_OUTPUT"
+          if [ -s diff.patch ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
 
-      - name: Close previous issue and open a new one
-        if: steps.diff.outputs.differs == 'true'
+      - name: Open issue
+        if: steps.diff.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
+          CUR: ${{ steps.diff.outputs.current }}
+          NEW: ${{ steps.diff.outputs.latest }}
         run: |
-          gh label create upstream-sync --color 0E8A16 || true
-          for n in $(gh issue list --label upstream-sync --state open --json number --jq '.[].number'); do
-            gh issue close "$n" --reason "not planned" --comment "Substituída por uma verificação mais recente."
+          title="Upstream Daggerheart mudou: $CUR -> $NEW"
+          if gh issue list --state open --label upstream-sync --search "\"$title\" in:title" --json title --jq '.[].title' | grep -qxF "$title"; then
+            echo "Issue already exists"; exit 0
+          fi
+          gh label create upstream-sync --color 0E8A16 2>/dev/null || true
+          compare="https://github.com/$UPSTREAM/compare/$CUR...$NEW"
+          {
+            echo "Houve mudanças em \`lang/en.json\` e/ou \`packs/\` no sistema Daggerheart upstream entre **$CUR** e **$NEW**."
+            echo
+            echo "Comparação completa: $compare"
+            echo
+            echo '<details>'
+            echo '<summary>Ver diff</summary>'
+            echo
+            echo '```diff'
+            head -c 60000 diff.patch
+            echo
+            echo '```'
+            echo
+            echo '</details>'
+            echo
+            [ "$(wc -c < diff.patch)" -gt 60000 ] && echo "_Diff truncado; veja a comparação completa no link acima._"
+          } > body.md
+          old=$(gh issue list --state open --label upstream-sync --json number --jq '.[].number')
+          url=$(gh issue create --label upstream-sync --title "$title" --body-file body.md)
+          for n in $old; do
+            gh issue close "$n" --reason "not planned" --comment "Substituída por $url, que mostra as mudanças mais recentes ($NEW)."
           done
-          body="O \`lang/en.json\` do [Foundryborne/daggerheart](https://github.com/Foundryborne/daggerheart/blob/HEAD/lang/en.json) difere do nosso. Atualize as traduções para Português do Brasil.
-
-          - Novas traduções a adicionar: **${{ steps.diff.outputs.added }}**
-          - Textos em inglês alterados: ${{ steps.diff.outputs.changed }}
-          - Chaves removidas: ${{ steps.diff.outputs.removed }}"
-          gh issue create --repo "$GITHUB_REPOSITORY" --label upstream-sync \
-            --title "Atualizar traduções pt-BR ($(date +%Y-%m)): ${{ steps.diff.outputs.added }} novas" \
-            --body "$body"

@@ -1,0 +1,21 @@
+{
+  "folder": "D98dAGIivYnU7ing",
+  "name": "Mudar de forma",
+  "type": "feature",
+  "_id": "P1sdtkECFSdLz02W",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "attribution": {},
+    "description": "<p>Durante um descanso, você pode usar uma ação de tempo livre para trocar sua ancestralidade atual por outra. Ao fazer isso, descreva como sua aparência se altera.</p>",
+    "gmNotes": "",
+    "resource": null,
+    "actions": {},
+    "granter": null,
+    "featureForm": "passive",
+    "actorResources": []
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!P1sdtkECFSdLz02W"
+}

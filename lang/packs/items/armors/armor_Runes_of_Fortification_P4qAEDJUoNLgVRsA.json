@@ -1,0 +1,43 @@
+{
+  "folder": "rkSdPu86ybLz6aKF",
+  "name": "Runes of Fortification",
+  "type": "armor",
+  "_id": "P4qAEDJUoNLgVRsA",
+  "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
+  "system": {
+    "armor": {
+      "current": 0,
+      "max": 6
+    },
+    "description": "",
+    "actions": {},
+    "tier": 3,
+    "equipped": false,
+    "baseThresholds": {
+      "major": 17,
+      "severe": 43
+    },
+    "attribution": {
+      "source": "Daggerheart SRD",
+      "page": null,
+      "artist": ""
+    },
+    "gmNotes": "",
+    "resource": null,
+    "quantity": 1,
+    "itemFeatures": {
+      "painful": {
+        "value": "painful",
+        "effectIds": [],
+        "actionIds": [
+          "37KLF2bim9nRdPTU"
+        ],
+        "config": {}
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {},
+  "_key": "!items!P4qAEDJUoNLgVRsA"
+}

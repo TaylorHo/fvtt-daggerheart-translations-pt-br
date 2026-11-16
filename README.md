@@ -8,7 +8,7 @@ Outras traduções estavam incompletas em relação à versão mais recente do s
 
 ## Requisitos
 
-- FoundryVTT v13 ou superior (verificado na v14.370)
+- FoundryVTT v14 ou superior (verificado na v14.370)
 - Sistema Daggerheart instalado
 
 ## Instalação
