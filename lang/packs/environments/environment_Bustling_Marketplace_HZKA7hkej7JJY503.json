@@ -1,19 +1,19 @@
 {
-  "name": "Bustling Marketplace",
+  "name": "Mercado Movimentado",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "potentialAdversaries": {
       "4rGNjVN6eT9xjsAa": {
-        "label": "Guards",
+        "label": "Guardas",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy",
           "Compendium.daggerheart.adversaries.Actor.mK3A5FTx6k8iPU3F"
         ]
       },
       "ucd2xJvPBS43bybO": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.niBpVU7yeo5ccskE",
           "Compendium.daggerheart.adversaries.Actor.Al3w2CgjfdT3p9ma"
@@ -23,9 +23,9 @@
     "notes": "",
     "difficulty": 10,
     "tier": 1,
-    "description": "<p>The economic heart of the settlement, with local artisans, traveling merchants, and patrons across social classes.</p>",
+    "description": "<p>O coração econômico do povoado, com artesãos locais, mercadores viajantes e clientes de todas as classes sociais.</p>",
     "type": "social",
-    "impulses": "Buy low, and sell high, tempt and tantalize with wares from near and far",
+    "impulses": "Comprar barato e vender caro, tentar e seduzir com mercadorias de perto e de longe",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -36,7 +36,7 @@
   "_id": "HZKA7hkej7JJY503",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Bustling Marketplace",
+    "name": "Mercado Movimentado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -129,10 +129,10 @@
   },
   "items": [
     {
-      "name": "Tip the Scales",
+      "name": "Inclinar a Balança",
       "type": "feature",
       "system": {
-        "description": "<p>PCs can gain advantage on a Presence Roll by offering a handful of gold as part of the interaction.</p><section id=\"secret-SkvXxhBWKBtYdJaq\" class=\"secret\"><p><em>Will any coin be accepted or only local currency? How overt are the PCs in offering this bribe?</em></p></section>",
+        "description": "<p>Os personagens podem ganhar vantagem em um Teste de Presença oferecendo um punhado de ouro como parte da interação.</p><section id=\"secret-SkvXxhBWKBtYdJaq\" class=\"secret\"><p><em>Qualquer moeda será aceita ou apenas a moeda local? Quão explícitos os personagens são ao oferecer este suborno?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -153,10 +153,10 @@
       "_key": "!actors.items!HZKA7hkej7JJY503.w8YmhoWPGc66Wrx3"
     },
     {
-      "name": "Unexpected Find",
+      "name": "Achado Inesperado",
       "type": "feature",
       "system": {
-        "description": "<p>Reveal to the PCs that one of the merchants has something they want or need, such as food from their home, a rare book, magical components, a dubious treasure map, or a magical key.</p><section id=\"secret-vuqosTt63aXllb93\" class=\"secret\"><p><em>What cost beyond gold will the merchant ask for in exchange for this rarity?</em></p></section>",
+        "description": "<p>Revele aos personagens que um dos mercadores tem algo que eles querem ou precisam, como comida de sua terra natal, um livro raro, componentes mágicos, um mapa do tesouro duvidoso ou uma chave mágica.</p><section id=\"secret-vuqosTt63aXllb93\" class=\"secret\"><p><em>Que custo além de ouro o mercador pedirá em troca desta raridade?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "action",
@@ -177,17 +177,17 @@
       "_key": "!actors.items!HZKA7hkej7JJY503.60uDqt9omFifZ7xd"
     },
     {
-      "name": "Sticky Fingers",
+      "name": "Dedos Leves",
       "type": "feature",
       "system": {
-        "description": "<p>A thief tries to steal something from a PC. The PC must succeed on an Instinct Roll to notice the thief or lose an item of the GM's choice as the thief escapes to a Close distance. To retrieve the stolen item, the PCs must complete a <em>Progress Countdown (6)</em> to chase down the thief before the thief completes a <em>Consequence Countdown (4)</em> and escapes to their hideout.</p><section class=\"secret\" id=\"secret-UHBqg2AqmIAxgB15\"><p><em>What drove this person to pickpocketing? Where is the thief's hideout and how has it avoided notice?</em></p></section>",
+        "description": "<p>Um ladrão tenta roubar algo de um personagem. O personagem deve ter sucesso em um Teste de Instinto para notar o ladrão ou perde um item à escolha do Mestre enquanto o ladrão foge para uma distância Próxima. Para recuperar o item roubado, os personagens devem completar uma <em>Contagem Regressiva de Progresso (6)</em> para perseguir o ladrão antes que ele complete uma <em>Contagem Regressiva de Consequência (4)</em> e escape para seu esconderijo.</p><section class=\"secret\" id=\"secret-UHBqg2AqmIAxgB15\"><p><em>O que levou esta pessoa a bater carteiras? Onde fica o esconderijo do ladrão e como ele passou despercebido?</em></p></section>",
         "resource": null,
         "actions": {
           "GMy6OcMQnNJDDmtV": {
             "type": "attack",
             "_id": "GMy6OcMQnNJDDmtV",
             "systemPath": "actions",
-            "description": "<p>A thief tries to steal something from a PC. The PC must succeed on an Instinct Roll to notice the thief or lose an item of the GM's choice as the thief escapes to a Close distance.</p>",
+            "description": "<p>Um ladrão tenta roubar algo de um personagem. O personagem deve ter sucesso em um Teste de Instinto para notar o ladrão ou perde um item à escolha do Mestre enquanto o ladrão foge para uma distância Próxima.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -226,7 +226,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
             "range": "",
             "baseAction": false,
@@ -255,7 +255,7 @@
             },
             "countdown": [
               {
-                "name": "Chase Thief",
+                "name": "Perseguir Ladrão",
                 "type": "encounter",
                 "img": "icons/skills/movement/feet-winged-boots-brown.webp",
                 "progress": {
@@ -269,7 +269,7 @@
                 "hidden": null
               },
               {
-                "name": "Escape To Hideout",
+                "name": "Fugir para o Esconderijo",
                 "type": "encounter",
                 "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
                 "progress": {
@@ -283,7 +283,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdowns",
+            "name": "Iniciar Contagens Regressivas",
             "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
             "range": "",
             "baseAction": false,
@@ -309,10 +309,10 @@
       "_key": "!actors.items!HZKA7hkej7JJY503.56qjiKMoN6S9riI6"
     },
     {
-      "name": "Crowd Closes In",
+      "name": "A Multidão Se Aproxima",
       "type": "feature",
       "system": {
-        "description": "<p>When one of the PCs splits from the group, the crowds shift and cut them off  from the party.</p><section id=\"secret-JECVv19GdEo8ngkq\" class=\"secret\"><p><em>Where does the crowd's movement carry them? How do they feel about being alone but surrounded?</em></p></section>",
+        "description": "<p>Quando um dos personagens se separa do grupo, a multidão se move e o isola do grupo.</p><section id=\"secret-JECVv19GdEo8ngkq\" class=\"secret\"><p><em>Para onde o movimento da multidão o leva? Como ele se sente estando sozinho, mas cercado?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",

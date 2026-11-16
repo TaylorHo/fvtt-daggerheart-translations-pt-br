@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Masquerade Ball",
+  "name": "Baile de Máscaras",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "social",
-    "description": "<p>A high society gala where masked revelers trade secrets and favors.</p>",
+    "description": "<p>Uma festa da alta sociedade onde foliões mascarados trocam segredos e favores.</p>",
     "tier": 2,
-    "impulses": "Dance the night away, eat and be merry, make secret deals, trade valuable information",
+    "impulses": "Dançar a noite toda, comer e se divertir, fazer acordos secretos, trocar informações valiosas",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "XrsOn1uflDlwE4EM": {
-        "label": "Operatives",
+        "label": "Operativos",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.niBpVU7yeo5ccskE",
           "Compendium.daggerheart.adversaries.Actor.dNta0cUzr96xcFhf",
@@ -22,7 +22,7 @@
         ]
       },
       "vLC92lDxsxj3rHvi": {
-        "label": "Revelers",
+        "label": "Foliões",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.ZxWaWPdzFIUPNC62",
           "Compendium.daggerheart.adversaries.Actor.Vy02IhGhkJLuezu4",
@@ -34,11 +34,11 @@
   },
   "items": [
     {
-      "name": "Costumes Required",
+      "name": "Fantasias Obrigatórias",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Everyone at the ball is expected to arrive in costume. PCs have advantage on Presence Rolls to convince others they are someone—or something—they're not.</p><section id=\"secret-AG9eLROeP0oeQwD9\" class=\"secret\"><p>What do the PCs come dressed as? What do their costumes reveal about their true selves?</p></section>",
+        "description": "<p>Espera-se que todos no baile cheguem fantasiados. Os personagens têm vantagem em Testes de Presença para convencer os outros de que são alguém — ou algo — que não são.</p><section id=\"secret-AG9eLROeP0oeQwD9\" class=\"secret\"><p>Do que os personagens vêm vestidos? O que suas fantasias revelam sobre quem eles realmente são?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -58,11 +58,11 @@
       "_key": "!actors.items!2LTMLwpFCDE9Ih88.BrmEXZ6Nowpg7LRS"
     },
     {
-      "name": "\"Care to Dance?\"",
+      "name": "\"Aceita uma Dança?\"",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While dancing, a PC can make an Agility Roll instead of a Presence Roll to influence others.</p><section id=\"secret-Xi3GbKgbKvxZGUmM\" class=\"secret\"><p>What's notable or unique about the dances that are in fashion here? Where did the PCs learn how to perform them?</p></section>",
+        "description": "<p>Ao dançar, um personagem pode fazer um Teste de Agilidade em vez de um Teste de Presença para influenciar os outros.</p><section id=\"secret-Xi3GbKgbKvxZGUmM\" class=\"secret\"><p>O que há de notável ou singular nas danças em voga por aqui? Onde os personagens aprenderam a executá-las?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -82,11 +82,11 @@
       "_key": "!actors.items!2LTMLwpFCDE9Ih88.AkVcdbmlKOIBAkp6"
     },
     {
-      "name": "Mistaken Identity",
+      "name": "Identidade Trocada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>A very important person confuses a PC with an even more important person. The target can play into the misunderstanding with a Presence Reaction Roll. On a success, the PC can ask the VIP to perform a favor, relay a key piece of information, or make an introduction. On a failure, the PC marks a Stress as their true identity is discovered, and they are threatened with ejection from the party.</p><section id=\"secret-VRYpjv4zFDNsoP5e\" class=\"secret\"><p>Who does the VIP mistake them for? What doors does their mistake open? What dangers does it bring?</p></section>",
+        "description": "<p>Uma pessoa muito importante confunde um personagem com alguém ainda mais importante. O alvo pode alimentar o mal-entendido com um Teste de Reação de Presença. Em caso de sucesso, o personagem pode pedir ao VIP que faça um favor, repasse uma informação-chave ou faça uma apresentação. Em caso de falha, o personagem marca 1 Fadiga quando sua verdadeira identidade é descoberta, e ele é ameaçado de expulsão do grupo.</p><section id=\"secret-VRYpjv4zFDNsoP5e\" class=\"secret\"><p>Pelo que o VIP os confunde? Que portas o erro deles abre? Que perigos traz?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -106,11 +106,11 @@
       "_key": "!actors.items!2LTMLwpFCDE9Ih88.4yP8POf2j4QjnB1I"
     },
     {
-      "name": "Cloak and Dagger",
+      "name": "Capa e Adaga",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have an operative try to steal something valuable or assassinate someone important. A PC can make an Instinct Roll to try to notice them before they achieve their objective. On a success, the PC gains the opportunity to intervene. On a failure with Fear, the PC is erroneously implicated in the crime.</p><section id=\"secret-jFoSujZKwaVESokx\" class=\"secret\"><p>Who does the operative work for? Why did they send them to the masquerade?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para que um operativo tente roubar algo valioso ou assassinar alguém importante. Um personagem pode fazer um Teste de Instinto para tentar notá-lo antes que atinja seu objetivo. Em caso de sucesso, o personagem ganha a oportunidade de intervir. Em caso de falha com Medo, o personagem é erroneamente implicado no crime.</p><section id=\"secret-jFoSujZKwaVESokx\" class=\"secret\"><p>Para quem o operativo trabalha? Por que o enviaram ao baile de máscaras?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -149,7 +149,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -171,7 +171,7 @@
   "_id": "2LTMLwpFCDE9Ih88",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Masquerade Ball",
+    "name": "Baile de Máscaras",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

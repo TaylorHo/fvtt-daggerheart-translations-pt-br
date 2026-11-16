@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Alchemist's Abandoned Workshop",
+  "name": "Oficina Abandonada do Alquimista",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "exploration",
-    "description": "<p>A lightning-powered laboratory built by a scientist searching for the secret to immortality.</p>",
+    "description": "<p>Um laboratório movido a raios construído por um cientista em busca do segredo da imortalidade.</p>",
     "tier": 1,
-    "impulses": "Break down the barrier between life and death, draw down lightning from the heavens, overclock the machinery",
+    "impulses": "Romper a barreira entre vida e morte, atrair raios dos céus, sobrecarregar o maquinário",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "wk749LjUruN8wDBK": {
-        "label": "Lab Leftovers",
+        "label": "Sobras do Laboratório",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.uOP5oT9QzXPlnf3p",
           "Compendium.daggerheart.adversaries.Actor.DscWkNVoHak6P4hh",
@@ -27,11 +27,11 @@
   },
   "items": [
     {
-      "name": "Cabinet of Curiosities",
+      "name": "Gabinete de Curiosidades",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The workshop's shelves, cupboards, and tables are cluttered with macabre bric-a-brac, including body parts in jars of formaldehyde and bloody surgical implements. Once per scene, a PC can make an Instinct Roll to look for something useful in the chaos.</p><section id=\"secret-Fs21TFNgkDCks2NO\" class=\"secret\"><p>What was the alchemist studying? What smell overwhelms you as you shuffl e through their things?</p></section>",
+        "description": "<p>As prateleiras, armários e mesas da oficina estão atulhados de bugigangas macabras, incluindo partes de corpos em potes de formol e instrumentos cirúrgicos ensanguentados. Uma vez por cena, um personagem pode fazer um Teste de Instinto para procurar algo útil na bagunça.</p><section id=\"secret-Fs21TFNgkDCks2NO\" class=\"secret\"><p>O que o alquimista estudava? Que cheiro o domina enquanto você revira as coisas dele?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -60,11 +60,11 @@
       "_key": "!actors.items!zgfq7QcPm5VFbjEe.svSKe6X1U4haD59r"
     },
     {
-      "name": "Strange Machinery",
+      "name": "Maquinário Estranho",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The workshop contains numerous pieces of bizarre technology and scientific instrumentation. A PC can make a Knowledge Roll to try to figure out how it works. On a success, they can get it running. On a failure, they break something and take <strong>1d8+4</strong> direct magic damage as they're shocked by electricity and doused in caustic chemicals.</p><section id=\"secret-dF1kdMeoqmVLM020\" class=\"secret\"><p>What do these machines do? What do these instruments measure?</p></section>",
+        "description": "<p>A oficina contém inúmeras peças de tecnologia bizarra e instrumentos científicos. Um personagem pode fazer um Teste de Conhecimento para tentar descobrir como funcionam. Em caso de sucesso, consegue pô-los para funcionar. Em caso de falha, quebra algo e sofre <strong>1d8+4</strong> de dano mágico direto ao ser eletrocutado e encharcado de produtos químicos cáusticos.</p><section id=\"secret-dF1kdMeoqmVLM020\" class=\"secret\"><p>O que essas máquinas fazem? O que esses instrumentos medem?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -90,9 +90,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -121,7 +119,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "range": ""
           }
         },
@@ -140,21 +138,21 @@
       "_key": "!actors.items!zgfq7QcPm5VFbjEe.LuIwzzQ4m9CS5tqh"
     },
     {
-      "name": "It's Alive!",
+      "name": "Está Vivo!",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Consequence Countdown (6). A thunderstorm gathers overhead, threatening to jolt the lightning rod assembly installed atop the workshop. Activate the countdown and narrate how the storm's power increases each time it ticks down when a PC makes an action roll. When it triggers, lightning strikes the rod assembly and overloads the workshop machinery, which explodes after resurrecting one of the alchemist's abandoned projects. Each target within Close range of the machinery must succeed on an Agility Reaction Roll or take <strong>1d10</strong> magic damage. Summon a Failed Experiment at a location within the workshop and gain a Fear for each PC within Very Close range of it.</p><section id=\"secret-gKKXa9HfVC409zMM\" class=\"secret\"><p>What was the alchemist trying to achieve with this experiment? Where did they get the materials for it?</p></section>",
+        "description": "<p>Contagem Regressiva de Consequência (6). Uma tempestade com raios se forma no alto, ameaçando atingir o conjunto de para-raios instalado no topo da oficina. Ative a contagem regressiva e narre como o poder da tempestade aumenta cada vez que ela diminui quando um personagem faz um teste de ação. Quando disparar, um raio atinge o conjunto de para-raios e sobrecarrega o maquinário da oficina, que explode após ressuscitar um dos projetos abandonados do alquimista. Cada alvo em alcance Próximo do maquinário deve ter sucesso em um Teste de Reação de Agilidade ou sofre <strong>1d10</strong> de dano mágico. Invoque um Failed Experiment em um local dentro da oficina e ganhe 1 de Medo para cada personagem em alcance Muito Próximo dele.</p><section id=\"secret-gKKXa9HfVC409zMM\" class=\"secret\"><p>O que o alquimista tentava alcançar com este experimento? De onde tirou os materiais?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "hgQUaAWG1vgxEUUQ": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "It's Alive!",
+                "name": "Está Vivo!",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/lightning/bolt-forked-blue.webp",
@@ -171,7 +169,7 @@
             "_id": "hgQUaAWG1vgxEUUQ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Consequence Countdown (6). A thunderstorm gathers overhead, threatening to jolt the lightning rod assembly installed atop the workshop. Activate the countdown and narrate how the storm's power increases each time it ticks down when a PC makes an action roll.</p>",
+            "description": "<p>Contagem Regressiva de Consequência (6). Uma tempestade com raios se forma no alto, ameaçando atingir o conjunto de para-raios instalado no topo da oficina. Ative a contagem regressiva e narre como o poder da tempestade aumenta cada vez que ela diminui quando um personagem faz um teste de ação.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -209,9 +207,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -220,7 +216,7 @@
             "_id": "rS4lYkBM58wW9KwC",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, lightning strikes the rod assembly and overloads the workshop machinery, which explodes after resurrecting one of the alchemist's abandoned projects. Each target within Close range of the machinery must succeed on an Agility Reaction Roll or take <strong>1d10</strong> magic damage. Summon a Failed Experiment at a location within the workshop and gain a Fear for each PC within Very Close range of it.</p>",
+            "description": "<p>Quando disparar, um raio atinge o conjunto de para-raios e sobrecarrega o maquinário da oficina, que explode após ressuscitar um dos projetos abandonados do alquimista. Cada alvo em alcance Próximo do maquinário deve ter sucesso em um Teste de Reação de Agilidade ou sofre <strong>1d10</strong> de dano mágico. Invoque um Failed Experiment em um local dentro da oficina e ganhe 1 de Medo para cada personagem em alcance Muito Próximo dele.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -260,7 +256,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Lightning",
+            "name": "Relâmpago",
             "range": ""
           },
           "aSmMvQ8ZIY5yfxkZ": {
@@ -268,7 +264,7 @@
             "_id": "aSmMvQ8ZIY5yfxkZ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Summon a Failed Experiment at a location within the workshop and gain a Fear for each PC within Very Close range of it.</p>",
+            "description": "<p>Invoque um Failed Experiment em um local dentro da oficina e ganhe 1 de Medo para cada personagem em alcance Muito Próximo dele.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -289,7 +285,7 @@
                 "count": "1"
               }
             ],
-            "name": "Summon",
+            "name": "Invocar",
             "range": ""
           }
         },
@@ -311,7 +307,7 @@
   "_id": "zgfq7QcPm5VFbjEe",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Alchemist's Abandoned Workshop",
+    "name": "Oficina Abandonada do Alquimista",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

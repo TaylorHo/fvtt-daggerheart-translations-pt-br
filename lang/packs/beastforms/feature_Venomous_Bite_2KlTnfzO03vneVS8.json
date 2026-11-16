@@ -1,9 +1,9 @@
 {
-  "name": "Venomous Bite",
+  "name": "Picada Peçonhenta",
   "type": "feature",
   "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
   "system": {
-    "description": "<p>When you succeed on an attack against a target within Melee range, the target becomes temporarily Poisoned. A Poisoned creature takes <strong>1d10</strong> direct physical damage each time they act.</p>",
+    "description": "<p>Quando você tem sucesso em um ataque contra um alvo em alcance Corpo a Corpo, o alvo fica temporariamente Envenenado. Uma criatura Envenenada sofre <strong>1d10</strong> de dano físico direto cada vez que age.</p>",
     "resource": null,
     "actions": {
       "eow90DYK6cUWOk7g": {
@@ -30,7 +30,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Poison",
+        "name": "Veneno",
         "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
         "range": "melee",
         "baseAction": false,
@@ -53,7 +53,7 @@
   },
   "effects": [
     {
-      "name": "Poisoned",
+      "name": "Envenenado",
       "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "transfer": false,
       "_id": "TTyAKKoUCoYXSMs4",
@@ -76,7 +76,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>A Poisoned creature takes <strong>1d10</strong> direct physical damage each time they act.</p>",
+      "description": "<p>Uma criatura Envenenada sofre <strong>1d10</strong> de dano físico direto cada vez que age.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

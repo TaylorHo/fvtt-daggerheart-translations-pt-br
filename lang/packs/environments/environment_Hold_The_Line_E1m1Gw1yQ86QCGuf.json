@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Hold The Line",
+  "name": "Segurar a Linha",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "event",
-    "description": "<p>The party must fend off multiple waves of enemies long enough for an ally to complete an important objective.</p>",
+    "description": "<p>O grupo deve repelir várias ondas de inimigos por tempo suficiente para que um aliado conclua um objetivo importante.</p>",
     "tier": 1,
-    "impulses": "Crash waves of enemies upon the party's shores, never let them breathe, target their charge",
+    "impulses": "Lançar ondas de inimigos contra as margens do grupo, nunca deixá-los respirar, mirar no Protegido",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -17,11 +17,11 @@
   },
   "items": [
     {
-      "name": "Bodyguards",
+      "name": "Guarda-costas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The PCs must protect an NPC (their \"Charge\") long enough for the Charge to complete a task, such as finishing a magical ritual or repairing a mechanical device. At the start of the scene, activate a Task Countdown with a value equal to the number of PCs in the scene. It ticks down when the PCs defeat a wave of adversaries. When it triggers, the Charge completes their task.</p><section id=\"secret-R8KOc1205jXsMlww\" class=\"secret\"><p>Who are the PCs protecting, and what is the Charge trying to do? Who wants to stop them? What will happen if the Charge isn't able to complete their task?</p></section>",
+        "description": "<p>Os personagens devem proteger um PNJ (seu \"Protegido\") por tempo suficiente para que ele conclua uma tarefa, como terminar um ritual mágico ou consertar um dispositivo mecânico. No início da cena, ative uma Contagem Regressiva de Tarefa com valor igual ao número de personagens na cena. Ela diminui quando os personagens derrotam uma onda de adversários. Quando disparar, o Protegido conclui sua tarefa.</p><section id=\"secret-R8KOc1205jXsMlww\" class=\"secret\"><p>Quem os personagens estão protegendo e o que o Protegido está tentando fazer? Quem quer detê-lo? O que acontecerá se o Protegido não conseguir concluir sua tarefa?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -41,11 +41,11 @@
       "_key": "!actors.items!E1m1Gw1yQ86QCGuf.TtbL2KY7QoeCG82g"
     },
     {
-      "name": "\"I Must Not Fail!\"",
+      "name": "\"Eu Não Devo Falhar!\"",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the first wave of adversaries appears, place a Resolve Countdown next to the Charge with a value equal to the number of PCs in the scene. When an adversary makes an attack against the Charge, the attack automatically succeeds and ticks down the Resolve Countdown. When it triggers, the Charge either flees, dies, or becomes incapacitated.</p><section id=\"secret-JWroAY99fQXoYGpH\" class=\"secret\"><p>Why is this task so important to the Charge? What has the power to break their resolve?</p></section>",
+        "description": "<p>Quando a primeira onda de adversários aparecer, coloque uma Contagem Regressiva de Determinação ao lado do Protegido com valor igual ao número de personagens na cena. Quando um adversário faz um ataque contra o Protegido, o ataque tem sucesso automaticamente e diminui a Contagem Regressiva de Determinação. Quando disparar, o Protegido foge, morre ou fica incapacitado.</p><section id=\"secret-JWroAY99fQXoYGpH\" class=\"secret\"><p>Por que esta tarefa é tão importante para o Protegido? O que tem o poder de quebrar sua determinação?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -65,11 +65,11 @@
       "_key": "!actors.items!E1m1Gw1yQ86QCGuf.PLpqyj4fQgYvSdPb"
     },
     {
-      "name": "Swarming Multitudes",
+      "name": "Multidões Fervilhantes",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>All adversaries gain the \"Relentless (2)\" feature: They can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p><section id=\"secret-usl2dk9xB2kyjwK4\" class=\"secret\"><p>Where does these foes' newfound power come from? Is there any way to cut them off from it?</p></section>",
+        "description": "<p>Todos os adversários ganham a característica \"Implacável (2)\": Podem receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a eles.</p><section id=\"secret-usl2dk9xB2kyjwK4\" class=\"secret\"><p>De onde vem o novo poder desses inimigos? Existe alguma forma de cortá-los dele?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -89,11 +89,11 @@
       "_key": "!actors.items!E1m1Gw1yQ86QCGuf.ycAtgL8GOU2Igpvz"
     },
     {
-      "name": "Waves upon Waves",
+      "name": "Ondas sobre Ondas",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When there are no adversaries in the scene, summon a wave of adversaries at Far range from the Charge. Each wave comprises two Tier 1 Minions for each PC in the scene.</p><section id=\"secret-WrKxpSfCTwdbDVYX\" class=\"secret\"><p>Where do these adversaries come from? Who leads them from the shadows?</p></section>",
+        "description": "<p>Quando não houver adversários na cena, invoque uma onda de adversários em alcance Distante do Protegido. Cada onda é composta por dois Lacaios de Patamar 1 para cada personagem na cena.</p><section id=\"secret-WrKxpSfCTwdbDVYX\" class=\"secret\"><p>De onde vêm esses adversários? Quem os lidera das sombras?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -116,7 +116,7 @@
   "_id": "E1m1Gw1yQ86QCGuf",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Hold The Line",
+    "name": "Segurar a Linha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

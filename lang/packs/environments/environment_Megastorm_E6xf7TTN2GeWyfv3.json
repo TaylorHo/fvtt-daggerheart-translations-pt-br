@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Megastorm",
+  "name": "Megatempestade",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "event",
-    "description": "<p>An extreme weather event suddenly manifests, forcing the party to balance their own survival against the safety of others.</p>",
+    "description": "<p>Um evento climático extremo se manifesta de repente, forçando o grupo a equilibrar a própria sobrevivência com a segurança dos outros.</p>",
     "tier": 3,
-    "impulses": "Blow hurricane winds, choke with mudslides, crumble structures, flood, throw debris, light up the sky",
+    "impulses": "Soprar ventos de furacão, sufocar com deslizamentos de lama, derrubar estruturas, inundar, arremessar destroços, iluminar o céu",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "hEkx10JrH1v3FFzG": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.xIICT6tEdnA7dKDV",
           "Compendium.daggerheart.adversaries.Actor.tLHNONmalytgnngv"
@@ -25,21 +25,21 @@
   },
   "items": [
     {
-      "name": "Stormfront",
+      "name": "Frente de Tempestade",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (8). When the storm arrives, activate the countdown. It ticks down when a PC rolls with Hope. When it triggers, the storm disperses or moves on to a different area.</p><section id=\"secret-Z7vvQy3iuOU8tvR3\" class=\"secret\"><p>Where is the safest place to weather the storm? What are the people here willing to risk their lives for?</p></section>",
+        "description": "<p>Contagem Regressiva (8). Quando a tempestade chegar, ative a contagem regressiva. Ela diminui quando um personagem rola com Esperança. Quando disparar, a tempestade se dispersa ou segue para outra área.</p><section id=\"secret-Z7vvQy3iuOU8tvR3\" class=\"secret\"><p>Qual é o lugar mais seguro para enfrentar a tempestade? Pelo que as pessoas daqui estão dispostas a arriscar a vida?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "uzEK3NqCE3R3xE0P": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Stormfront",
+                "name": "Frente de Tempestade",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
@@ -89,11 +89,11 @@
       "_key": "!actors.items!E6xf7TTN2GeWyfv3.KudBK6FBt61ZuaCf"
     },
     {
-      "name": "Hazardous Conditions",
+      "name": "Condições Perigosas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Megastorm's extreme wind, fog, and cloud cover make navigating the entire area difficult. PCs can't move as part of an action roll without succeeding on an Agility Reaction Roll.</p><section id=\"secret-cxNkS9iRa73BLTIc\" class=\"secret\"><p>Who else lost in the gyre? How can you lead them out?</p></section>",
+        "description": "<p>O vento extremo, a névoa e a cobertura de nuvens da Megatempestade dificultam a navegação por toda a área. Os personagens não podem se mover como parte de um teste de ação sem ter sucesso em um Teste de Reação de Agilidade.</p><section id=\"secret-cxNkS9iRa73BLTIc\" class=\"secret\"><p>Quem mais está perdido no redemoinho? Como você pode guiá-los para fora?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -147,7 +147,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -158,10 +158,10 @@
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "effects": [
         {
-          "name": "Hazardous Conditions",
+          "name": "Condições Perigosas",
           "disabled": false,
           "img": "icons/magic/air/wind-tornado-wall-blue.webp",
-          "description": "<p>PCs can't move as part of an action roll without succeeding on an Agility Reaction Roll.</p>",
+          "description": "<p>Os personagens não podem se mover como parte de um teste de ação sem ter sucesso em um Teste de Reação de Agilidade.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -211,11 +211,11 @@
       "_key": "!actors.items!E6xf7TTN2GeWyfv3.QvkOrklI6GjzD96R"
     },
     {
-      "name": "Bomb Cyclone",
+      "name": "Ciclone-Bomba",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to summon an extreme weather event, such as a thunderstorm or tornado, at a point of your choice. Each target within Close range of that point must succeed on a reaction roll using a trait you choose to avoid being pummeled by hail, thrown into the air, blasted by lightning, or a similar effect. Targets who fail take <strong>2d10+2</strong> damage of a type you choose.</p><section id=\"secret-X3Vc104ppCM1lXyl\" class=\"secret\"><p>Is this the worst weather any of the PCs have experienced? What in the immediate area can the PCs use to protect themselves?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar um evento climático extremo, como uma tempestade com raios ou um tornado, em um ponto à sua escolha. Cada alvo em alcance Próximo desse ponto deve ter sucesso em um teste de reação usando um atributo à sua escolha para evitar ser castigado por granizo, lançado ao ar, atingido por raios ou efeito semelhante. Alvos que falharem sofrem <strong>2d10+2</strong> de dano de um tipo à sua escolha.</p><section id=\"secret-X3Vc104ppCM1lXyl\" class=\"secret\"><p>É este o pior clima que algum dos personagens já enfrentou? O que há nas imediações que os personagens podem usar para se proteger?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -241,9 +241,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -261,7 +259,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Bomb Cyclone",
+                "name": "Ciclone-Bomba",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -310,7 +308,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -329,11 +327,11 @@
       "_key": "!actors.items!E6xf7TTN2GeWyfv3.YbTId6KRLXisM3sB"
     },
     {
-      "name": "Stormheart",
+      "name": "Coração da Tempestade",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to reveal the living battery of the Megastorm. Summon a Storm Giant or Greater Water Elemental within Far range of a PC, then immediately spotlight them. Until this adversary is defeated, the \"Stormfront\" countdown doesn't tick down. When this adversary is defeated, the Megastorm ends.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Did this creature conjure the storm for their own purposes, or do they serve an even greater entity? Why did they designate this place for destruction?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para revelar a bateria viva da Megatempestade. Invoque um Storm Giant ou Greater Water Elemental em alcance Distante de um personagem e dê imediatamente o destaque a ele. Até este adversário ser derrotado, a contagem regressiva \"Frente de Tempestade\" não diminui. Quando este adversário for derrotado, a Megatempestade termina.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Esta criatura conjurou a tempestade para seus próprios fins ou serve a uma entidade ainda maior? Por que designaram este lugar para a destruição?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -343,7 +341,7 @@
             "_id": "NrpLBc8WNJvCP8CM",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Spend a Fear</strong> to reveal the living battery of the Megastorm. Summon a Storm Giant within Far range of a PC, then immediately spotlight them. Until this adversary is defeated, the \"Stormfront\" countdown doesn't tick down. When this adversary is defeated, the Megastorm ends.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Did this creature conjure the storm for their own purposes, or do they serve an even greater entity? Why did they designate this place for destruction?</p></section>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para revelar a bateria viva da Megatempestade. Invoque um Storm Giant em alcance Distante de um personagem e dê imediatamente o destaque a ele. Até este adversário ser derrotado, a contagem regressiva \"Frente de Tempestade\" não diminui. Quando este adversário for derrotado, a Megatempestade termina.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Esta criatura conjurou a tempestade para seus próprios fins ou serve a uma entidade ainda maior? Por que designaram este lugar para a destruição?</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -372,7 +370,7 @@
             "_id": "g3oU6TuFtE3izvOJ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Spend a Fear</strong> to reveal the living battery of the Megastorm. Summon a Greater Water Elemental within Far range of a PC, then immediately spotlight them. Until this adversary is defeated, the \"Stormfront\" countdown doesn't tick down. When this adversary is defeated, the Megastorm ends.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Did this creature conjure the storm for their own purposes, or do they serve an even greater entity? Why did they designate this place for destruction?</p></section>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para revelar a bateria viva da Megatempestade. Invoque um Greater Water Elemental em alcance Distante de um personagem e dê imediatamente o destaque a ele. Até este adversário ser derrotado, a contagem regressiva \"Frente de Tempestade\" não diminui. Quando este adversário for derrotado, a Megatempestade termina.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p>Esta criatura conjurou a tempestade para seus próprios fins ou serve a uma entidade ainda maior? Por que designaram este lugar para a destruição?</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -413,11 +411,11 @@
       "_key": "!actors.items!E6xf7TTN2GeWyfv3.TlX8yI5OWVmOK3cF"
     },
     {
-      "name": "Panic in the Streets",
+      "name": "Pânico nas Ruas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The Megastorm is sowing fear and chaos among the locals. Describe how the storm puts an NPC in danger. If the PC who next takes the spotlight doesn't use their action to rescue the endangered NPC, you gain a Fear.</p><section id=\"secret-rq0SEXuKwlNrk9xG\" class=\"secret\"><p>Who's taking advantage of the situation? Who's supposed to be in charge here, and what happened to them?</p></section>",
+        "description": "<p>A Megatempestade está semeando medo e caos entre os locais. Descreva como a tempestade coloca um PNJ em perigo. Se o personagem que receber o destaque em seguida não usar sua ação para resgatar o PNJ em perigo, você ganha 1 de Medo.</p><section id=\"secret-rq0SEXuKwlNrk9xG\" class=\"secret\"><p>Quem está se aproveitando da situação? Quem deveria estar no comando aqui e o que aconteceu com essa pessoa?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -440,7 +438,7 @@
   "_id": "E6xf7TTN2GeWyfv3",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Megastorm",
+    "name": "Megatempestade",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,16 +1,16 @@
 {
-  "name": "Webslinger",
+  "name": "Lança-Teia",
   "type": "feature",
   "img": "icons/creatures/webs/webthin-blue.webp",
   "system": {
-    "description": "<p>You can create a strong web material useful for both adventuring and battle. The web is resilient enough to support one creature. You can temporarily <em>Restrain</em> a target within Close range by succeeding on a Finesse Roll against them.</p>",
+    "description": "<p>Você pode criar um material de teia resistente, útil tanto para aventuras quanto para batalhas. A teia é resistente o bastante para sustentar uma criatura. Você pode <em>Imobilizar</em> temporariamente um alvo em alcance Próximo ao ter sucesso em um Teste de Acuidade contra ele.</p>",
     "resource": null,
     "actions": {
       "vRU6xutkp3VYxZ0i": {
         "type": "attack",
         "_id": "vRU6xutkp3VYxZ0i",
         "systemPath": "actions",
-        "description": "<p>You can temporarily <em>Restrain</em> a target within Close range by succeeding on a Finesse Roll against them.</p>",
+        "description": "<p>Você pode <em>Imobilizar</em> temporariamente um alvo em alcance Próximo ao ter sucesso em um Teste de Acuidade contra ele.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -54,7 +54,7 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Restrain",
+        "name": "Imobilizar",
         "img": "icons/creatures/webs/webthin-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -77,7 +77,7 @@
   },
   "effects": [
     {
-      "name": "Webslinger",
+      "name": "Lança-Teia",
       "img": "icons/creatures/webs/webthin-blue.webp",
       "transfer": false,
       "_id": "cBJueH89gNvvDKfQ",
@@ -102,9 +102,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "restrained"
-      ],
+      "statuses": ["restrained"],
       "sort": 0,
       "flags": {},
       "_stats": {

@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Volcanic Eruption",
+  "name": "Erupção Vulcânica",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "event",
-    "description": "<p>An explosion of heat and molten rock that leaves behind only charred desolation.</p>",
+    "description": "<p>Uma explosão de calor e rocha derretida que deixa para trás apenas desolação carbonizada.</p>",
     "tier": 3,
-    "impulses": "Create panic all around, cut off the exits, isolate, make them scramble for safety, split the party",
+    "impulses": "Criar pânico por toda parte, bloquear as saídas, isolar, fazê-los correr em busca de segurança, dividir o grupo",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "sOYNTMSDlEz1swf7": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.P7h54ZePFPHpYwvB",
           "Compendium.daggerheart.adversaries.Actor.dsfB3YhoL5SudvS2",
@@ -26,11 +26,11 @@
   },
   "items": [
     {
-      "name": "Unstable Ground",
+      "name": "Solo Instável",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The ground here is uneven, prone to collapse, and constantly shifting. PCs who fail an Agility Roll to move must mark a HP and are temporarily <em>Restrained</em>.</p><section id=\"secret-av6KCfZL6ou7nyah\" class=\"secret\"><p>What strange shapes and colors do the PCs see in the cooled lava? How do the people who live nearby keep their footing on the slick, shiny surface?</p></section>",
+        "description": "<p>O chão aqui é irregular, propenso a desabar e em constante movimento. personagens que falharem em um Teste de Agilidade para se mover devem marcar 1 PV e ficam temporariamente <em>Imobilizados</em>.</p><section id=\"secret-av6KCfZL6ou7nyah\" class=\"secret\"><p>Que formas e cores estranhas os personagens veem na lava resfriada? Como as pessoas que vivem por perto mantêm o equilíbrio na superfície escorregadia e brilhante?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -99,14 +99,12 @@
       "img": "icons/magic/earth/barrier-stone-brown-green.webp",
       "effects": [
         {
-          "name": "Unstable Ground",
+          "name": "Solo Instável",
           "disabled": false,
           "img": "icons/magic/earth/barrier-stone-brown-green.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -154,11 +152,11 @@
       "_key": "!actors.items!tBXKfR9yQ2zypqWt.dK9JnojOxskFuS8F"
     },
     {
-      "name": "Violent Eruption",
+      "name": "Erupção Violenta",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the ground erupt at a point of your choice, spewing lava into the air and spreading it along the ground. All targets within Very Close range of that point lose a Hope and take <strong>3d8+3</strong> physical damage. The area within Very Close range of the eruption point becomes lava until the end of the scene. A creature who moves into or through the lava takes <strong>3d8+3</strong> physical damage. Until the end of the scene, you can <strong>spend a Fear</strong> to expand the lava area by one step (such as Very Close to Close or Close to Far).</p><section id=\"secret-B3Z8LZF8AIIFYFIQ\" class=\"secret\"><p>What makes the lava seem alive? How can the PCs predict its behavior?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o chão entrar em erupção em um ponto à sua escolha, lançando lava ao ar e espalhando-a pelo chão. Todos os alvos em alcance Muito Próximo desse ponto perdem 1 de Esperança e sofrem <strong>3d8+3</strong> de dano físico. A área em alcance Muito Próximo do ponto de erupção se torna lava até o fim da cena. Uma criatura que se mova para dentro ou através da lava sofre <strong>3d8+3</strong> de dano físico. Até o fim da cena, você pode <strong>gastar 1 de Medo</strong> para expandir a área de lava em um passo (como de Muito Próximo para Próximo ou de Próximo para Distante).</p><section id=\"secret-B3Z8LZF8AIIFYFIQ\" class=\"secret\"><p>O que faz a lava parecer viva? Como os personagens podem prever seu comportamento?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -184,9 +182,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -204,7 +200,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Violent Eruption",
+                "name": "Erupção Violenta",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -233,7 +229,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "4JghfISojCrQhliF": {
@@ -257,9 +253,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -288,7 +282,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lava Damage",
+            "name": "Dano de Lava",
             "range": ""
           }
         },
@@ -307,11 +301,11 @@
       "_key": "!actors.items!tBXKfR9yQ2zypqWt.LoULuL7HFWoaCloi"
     },
     {
-      "name": "Vent Toxic Gas",
+      "name": "Liberar Gás Tóxico",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to open a fissure that belches out toxic gas at a point of your choice, creating a cloud that blankets everything within Far range. While inside the cloud, a PC must track their air supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once the countdown ends, a PC must mark a Stress whenever they take an action within the gas until they escape the cloud.</p><section id=\"secret-ps6YWSpcq7r9r3ft\" class=\"secret\"><p>What signs do you see to indicate the presence of toxic gas? What taste lingers in the mouths of the PCs who inhale the gas?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para abrir uma fissura que expele gás tóxico em um ponto à sua escolha, criando uma nuvem que cobre tudo em alcance Distante. Dentro da nuvem, um personagem deve controlar seu suprimento de ar com uma Contagem Regressiva de Suprimento de Ar. Seu valor inicial é igual a 3 + seu patamar, e diminui quando ele realiza uma ação. Se um personagem falhar em um teste de ação ou rolar com Medo, você pode usar um movimento do Mestre para diminuir a contagem regressiva dele mais uma vez. Se a rolagem for uma falha com Medo, você pode diminuí-la duas vezes. Quando a contagem regressiva terminar, o personagem deve marcar 1 Fadiga sempre que realizar uma ação dentro do gás até escapar da nuvem.</p><section id=\"secret-ps6YWSpcq7r9r3ft\" class=\"secret\"><p>Que sinais indicam a presença de gás tóxico? Que gosto permanece na boca dos personagens que inalam o gás?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -330,7 +324,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Vent Toxic Gas",
+                "name": "Liberar Gás Tóxico",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -364,7 +358,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Vent Gas",
+            "name": "Liberar Gás",
             "range": ""
           }
         },
@@ -375,10 +369,10 @@
       "img": "icons/magic/air/fog-gas-smoke-dense-orange.webp",
       "effects": [
         {
-          "name": "Air Supply",
+          "name": "Suprimento de Ar",
           "disabled": false,
           "img": "icons/magic/air/fog-gas-smoke-dense-orange.webp",
-          "description": "<p>A PC must track their air supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once the countdown ends, a PC must mark a Stress whenever they take an action within the gas until they escape the cloud.</p>",
+          "description": "<p>Um personagem deve controlar seu suprimento de ar com uma Contagem Regressiva de Suprimento de Ar. Seu valor inicial é igual a 3 + seu patamar, e diminui quando ele realiza uma ação. Se um personagem falhar em um teste de ação ou rolar com Medo, você pode usar um movimento do Mestre para diminuir a contagem regressiva dele mais uma vez. Se a rolagem for uma falha com Medo, você pode diminuí-la duas vezes. Quando a contagem regressiva terminar, o personagem deve marcar 1 Fadiga sempre que realizar uma ação dentro do gás até escapar da nuvem.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -434,7 +428,7 @@
   "_id": "tBXKfR9yQ2zypqWt",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Volcanic Eruption",
+    "name": "Erupção Vulcânica",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

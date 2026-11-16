@@ -1,9 +1,9 @@
 {
-  "name": "Companion",
+  "name": "Companhia",
   "type": "feature",
   "img": "icons/magic/life/heart-glowing-red.webp",
   "system": {
-    "description": "<p>When you Help an Ally, you can roll a <strong>d8</strong> as your advantage die.</p>",
+    "description": "<p>Quando você Ajuda um Aliado, pode rolar um <strong>d8</strong> como seu dado de vantagem.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

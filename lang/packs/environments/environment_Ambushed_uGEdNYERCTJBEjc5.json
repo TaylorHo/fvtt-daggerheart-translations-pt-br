@@ -1,5 +1,5 @@
 {
-  "name": "Ambushed",
+  "name": "Emboscados",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
@@ -8,9 +8,9 @@
     "notes": "",
     "difficulty": 0,
     "tier": 1,
-    "description": "<p>An ambush is set to catch an unsuspecting party off-guard.</p>",
+    "description": "<p>Uma emboscada é armada para pegar um grupo desprevenido.</p>",
     "type": "event",
-    "impulses": "Overwhelm, scatter, surround",
+    "impulses": "Subjugar, dispersar, cercar",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -21,7 +21,7 @@
   "_id": "uGEdNYERCTJBEjc5",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Ambushed",
+    "name": "Emboscados",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -114,10 +114,10 @@
   },
   "items": [
     {
-      "name": "Relative Strength",
+      "name": "Força Relativa",
       "type": "feature",
       "system": {
-        "description": "<p>The Difficulty of this environment equals that of the adversary with the highest Difficulty.</p><section class=\"secret\" id=\"secret-FZokhR7CFr2tXkGn\"><p><em>Who cues the ambush? What makes it clear they're in charge?</em></p></section>",
+        "description": "<p>A Dificuldade deste ambiente é igual à do adversário com a maior Dificuldade.</p><section class=\"secret\" id=\"secret-FZokhR7CFr2tXkGn\"><p><em>Quem dá o sinal da emboscada? O que deixa claro que está no comando?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -138,17 +138,17 @@
       "_key": "!actors.items!uGEdNYERCTJBEjc5.NMErq9B4NS3NSiMy"
     },
     {
-      "name": "Surprise",
+      "name": "Surpresa",
       "type": "feature",
       "system": {
-        "description": "<p>The ambushers reveal themselves to the party, you gain 2 Fear, and the spotlight immediately shifts to one of the ambushing adversaries.</p><section id=\"secret-LcyhfZXPS4MD9dMC\" class=\"secret\"><p><em>What do the ambushers want from the party? How do their tactics in the ambush refl ect that?</em></p></section>",
+        "description": "<p>Os emboscadores se revelam ao grupo, você ganha 2 de Medo e o destaque passa imediatamente para um dos adversários emboscadores.</p><section id=\"secret-LcyhfZXPS4MD9dMC\" class=\"secret\"><p><em>O que os emboscadores querem do grupo? Como suas táticas na emboscada refletem isso?</em></p></section>",
         "resource": null,
         "actions": {
           "TRSiqdwc1mYTHv4d": {
             "type": "healing",
             "_id": "TRSiqdwc1mYTHv4d",
             "systemPath": "actions",
-            "description": "<p>The ambushers reveal themselves to the party, you gain 2 Fear, and the spotlight immediately shifts to one of the ambushing adversaries.</p><section class=\"secret\" id=\"secret-HTrPBtn99ANW7ON7\"><p><em>What do the ambushers want from the party? How do their tactics in the ambush refl ect that?</em></p></section>",
+            "description": "<p>Os emboscadores se revelam ao grupo, você ganha 2 de Medo e o destaque passa imediatamente para um dos adversários emboscadores.</p><section class=\"secret\" id=\"secret-HTrPBtn99ANW7ON7\"><p><em>O que os emboscadores querem do grupo? Como suas táticas na emboscada refletem isso?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -201,7 +201,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
             "range": "",
             "baseAction": false,

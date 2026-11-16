@@ -1,9 +1,9 @@
 {
-  "name": "Hollow Bones",
+  "name": "Ossos Ocos",
   "type": "feature",
   "img": "icons/skills/wounds/anatomy-bone-joint.webp",
   "system": {
-    "description": "<p>You gain a -2 penalty to your damage thresholds.</p>",
+    "description": "<p>Você recebe -2 de penalidade em seus limiares de dano.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -18,7 +18,7 @@
   },
   "effects": [
     {
-      "name": "Hollow Bones",
+      "name": "Ossos Ocos",
       "type": "base",
       "_id": "RM8wHu5GIF6zfF7V",
       "img": "icons/skills/wounds/anatomy-bone-joint.webp",
@@ -54,7 +54,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a -2 penalty to your damage thresholds.</p>",
+      "description": "<p>Você recebe -2 de penalidade em seus limiares de dano.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

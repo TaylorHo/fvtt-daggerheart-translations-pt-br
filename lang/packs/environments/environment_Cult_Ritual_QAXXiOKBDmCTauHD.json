@@ -1,12 +1,12 @@
 {
-  "name": "Cult Ritual",
+  "name": "Ritual do Culto",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "potentialAdversaries": {
       "hNREaghvi4LqHQ06": {
-        "label": "Cult of the Fallen",
+        "label": "Culto dos Caídos",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.0NxCSugvKQ4W8OYZ",
           "Compendium.daggerheart.adversaries.Actor.tyBOpLfigAhI9bU3",
@@ -18,9 +18,9 @@
     "notes": "",
     "difficulty": 14,
     "tier": 2,
-    "description": "<p>A Fallen cult assembles around a sigil of the defeated gods and a bonfire that burns a sickly shade of green.</p>",
+    "description": "<p>Um culto de Caídos se reúne ao redor de um sigilo dos deuses derrotados e de uma fogueira que arde em um tom doentio de verde.</p>",
     "type": "event",
-    "impulses": "Profane the land, unite the Mortal Realm with the Circles Below",
+    "impulses": "Profanar a terra, unir o Reino Mortal aos Círculos Inferiores",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -31,7 +31,7 @@
   "_id": "QAXXiOKBDmCTauHD",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Cult Ritual",
+    "name": "Ritual do Culto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -124,10 +124,10 @@
   },
   "items": [
     {
-      "name": "Desecrated Ground",
+      "name": "Solo Profanado",
       "type": "feature",
       "system": {
-        "description": "<p>Cultists dedicated this place to the Fallen Gods, and their foul influence seeps into it. Reduce the PCs' Hope Die to a d10 while in this environment. The desecration can be removed with a Progress Countdown (6).</p><section class=\"secret\" id=\"secret-iPgKjrXJYw4cy0EX\"><p><em>How do the PCs fist notice that something is wrong about this place? What fears resurface while hope is kept at bay?</em></p></section>",
+        "description": "<p>Cultistas dedicaram este lugar aos Deuses Caídos, e sua influência imunda se infiltra nele. Reduza o Dado de Esperança dos personagens para d10 enquanto estiverem neste ambiente. A profanação pode ser removida com uma Contagem Regressiva de Progresso (6).</p><section class=\"secret\" id=\"secret-iPgKjrXJYw4cy0EX\"><p><em>Como os personagens percebem pela primeira vez que há algo errado neste lugar? Que medos ressurgem enquanto a esperança é mantida à distância?</em></p></section>",
         "resource": null,
         "actions": {
           "7W3sWRLzjG3dKcgq": {
@@ -158,7 +158,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Influence",
+            "name": "Influência",
             "range": "",
             "triggers": [],
             "areas": []
@@ -174,7 +174,7 @@
       "img": "icons/magic/unholy/orb-contained-pink.webp",
       "effects": [
         {
-          "name": "Desecrated Ground",
+          "name": "Solo Profanado",
           "img": "icons/magic/unholy/orb-contained-pink.webp",
           "transfer": false,
           "_id": "8yNIw8Y7rfMdOqWC",
@@ -204,7 +204,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Your Hope Die is reduced to a d10 while in the Desecrated Grounds.</p>",
+          "description": "<p>Seu Dado de Esperança é reduzido para d10 enquanto estiver no Solo Profanado.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -227,10 +227,10 @@
       "_key": "!actors.items!QAXXiOKBDmCTauHD.iiHjguQG2aBn9g8i"
     },
     {
-      "name": "Blashemous Might",
+      "name": "Poder Blasfemo",
       "type": "feature",
       "system": {
-        "description": "<p>A portion of the ritual's power is diverted into a cult member to fight off interlopers. Choose one adversary to become Imbued with terrible magic until the scene ends or they're defeated. An Imbued adversary immediately takes the spotlight and gains one of the following benefits, or all three if you <strong>spend a Fear</strong>:</p><ul><li><p>They gain advantage on all attacks.</p></li><li><p>They deal an extra <strong>1d10</strong> damage on a successful attack.</p></li><li><p>They gain the following feature: <strong>Relentless (2) - Passive</strong>. This adversary can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p></li></ul><section class=\"secret\" id=\"secret-600LhfEy1uNSxWdJ\"><p><em>How does the enemy change in appearance? What fears do their blows bring to the surface?</em></p></section>",
+        "description": "<p>Parte do poder do ritual é desviada para um membro do culto para repelir intrusos. Escolha um adversário para ficar Imbuído de magia terrível até a cena terminar ou ele ser derrotado. Um adversário Imbuído recebe imediatamente o destaque e ganha um dos seguintes benefícios, ou todos os três se você <strong>gastar 1 de Medo</strong>:</p><ul><li><p>Ganha vantagem em todos os ataques.</p></li><li><p>Causa <strong>1d10</strong> de dano extra em um ataque bem-sucedido.</p></li><li><p>Ganha a seguinte característica: <strong>Implacável (2) - Passiva</strong>. Este adversário pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ele.</p></li></ul><section class=\"secret\" id=\"secret-600LhfEy1uNSxWdJ\"><p><em>Como a aparência do inimigo muda? Que medos seus golpes trazem à tona?</em></p></section>",
         "resource": null,
         "actions": {
           "EATw4ZkcuGeDfgLZ": {
@@ -261,7 +261,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Imbue",
+            "name": "Imbuir",
             "img": "icons/magic/unholy/orb-swirling-teal.webp",
             "range": "",
             "baseAction": false,
@@ -282,7 +282,7 @@
       "img": "icons/magic/unholy/orb-swirling-teal.webp",
       "effects": [
         {
-          "name": "Blashemous Might",
+          "name": "Poder Blasfemo",
           "img": "icons/magic/unholy/orb-swirling-teal.webp",
           "transfer": false,
           "_id": "dYQBQq1xIysM0qLo",
@@ -304,7 +304,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>An Imbued adversary immediately takes the spotlight and gains one of the following benefits, or all three if you <strong>spend a Fear</strong>:</p><ul><li><p>They gain advantage on all attacks.</p></li><li><p>They deal an extra <strong>1d10</strong> damage on a successful attack.</p></li><li><p>They gain the following feature: <strong>Relentless (2) - Passive</strong>. This adversary can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p></li></ul><section class=\"secret\" id=\"secret-YOHA68Na64uXDAxu\"><p><em>How does the enemy change in appearance? What fears do their blows bring to the surface?</em></p></section>",
+          "description": "<p>Um adversário Imbuído recebe imediatamente o destaque e ganha um dos seguintes benefícios, ou todos os três se você <strong>gastar 1 de Medo</strong>:</p><ul><li><p>Ganha vantagem em todos os ataques.</p></li><li><p>Causa <strong>1d10</strong> de dano extra em um ataque bem-sucedido.</p></li><li><p>Ganha a seguinte característica: <strong>Implacável (2) - Passiva</strong>. Este adversário pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ele.</p></li></ul><section class=\"secret\" id=\"secret-YOHA68Na64uXDAxu\"><p><em>Como a aparência do inimigo muda? Que medos seus golpes trazem à tona?</em></p></section>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -318,7 +318,7 @@
           "_key": "!actors.items.effects!QAXXiOKBDmCTauHD.0Rgqw1kUPeJ11ldd.dYQBQq1xIysM0qLo"
         },
         {
-          "name": "Blashemous Might - Damage",
+          "name": "Poder Blasfemo - Dano",
           "img": "icons/magic/unholy/orb-swirling-teal.webp",
           "transfer": false,
           "_id": "Hxw5lXE77bGzuaOu",
@@ -371,17 +371,17 @@
       "_key": "!actors.items!QAXXiOKBDmCTauHD.0Rgqw1kUPeJ11ldd"
     },
     {
-      "name": "The Summoning",
+      "name": "A Invocação",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (6)</em>. When the PCs enter the scene or the cult begins the ritual to summon a demon, activate the countdown. Designate one adversary to lead the ritual. The countdown ticks down when a PC rolls with Fear. When it triggers, summon a @UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Minor Demon} within Very Close range of the ritual's leader. If the leader is defeated, the countdown ends with no effect as the ritual fails.</p><section class=\"secret\" id=\"secret-OXdRqIZ0R8wGn3Gm\"><p><em>What will the cult do with this leashed demon if they succeed? What will they try to summon next?</em></p></section>",
+        "description": "<p><em>Contagem Regressiva (6)</em>. Quando os personagens entrarem na cena ou o culto começar o ritual para invocar um demônio, ative a contagem regressiva. Designe um adversário para liderar o ritual. A contagem regressiva diminui quando um personagem rola com Medo. Quando disparar, invoque um @UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Minor Demon} em alcance Muito Próximo do líder do ritual. Se o líder for derrotado, a contagem regressiva termina sem efeito, pois o ritual fracassa.</p><section class=\"secret\" id=\"secret-OXdRqIZ0R8wGn3Gm\"><p><em>O que o culto fará com este demônio acorrentado se tiver sucesso? O que tentará invocar em seguida?</em></p></section>",
         "resource": null,
         "actions": {
           "bUIfzuWd1VfiV8sc": {
             "type": "countdown",
             "_id": "bUIfzuWd1VfiV8sc",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (6)</em>. When the PCs enter the scene or the cult begins the ritual to summon a demon, activate the countdown. Designate one adversary to lead the ritual. The countdown ticks down when a PC rolls with Fear.</p>",
+            "description": "<p><em>Contagem Regressiva (6)</em>. Quando os personagens entrarem na cena ou o culto começar o ritual para invocar um demônio, ative a contagem regressiva. Designe um adversário para liderar o ritual. A contagem regressiva diminui quando um personagem rola com Medo.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -396,7 +396,7 @@
             },
             "countdown": [
               {
-                "name": "The Summoning",
+                "name": "A Invocação",
                 "type": "encounter",
                 "img": "icons/magic/unholy/barrier-fire-pink.webp",
                 "progress": {
@@ -410,7 +410,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/unholy/barrier-fire-pink.webp",
             "range": "",
             "baseAction": false,
@@ -441,7 +441,7 @@
                 "count": "1"
               }
             ],
-            "name": "Summon Demon",
+            "name": "Invocar Demônio",
             "range": "",
             "triggers": [],
             "areas": []
@@ -465,10 +465,10 @@
       "_key": "!actors.items!QAXXiOKBDmCTauHD.oFfu3hUhp4ta4qwT"
     },
     {
-      "name": "Complete the Ritual",
+      "name": "Completar o Ritual",
       "type": "feature",
       "system": {
-        "description": "<p>If the ritual's leader is targeted by an attack or spell, an ally within Very Close range of them can <strong>mark a Stress</strong> to be targeted by that attack or spell instead.</p><section id=\"secret-4QYQNJKFywfwkGGp\" class=\"secret\"><p><em>What does it feel like to see such devotion turned to the pursuit of fear and domination?</em></p></section>",
+        "description": "<p>Se o líder do ritual for alvo de um ataque ou magia, um aliado em alcance Muito Próximo dele pode <strong>marcar 1 Fadiga</strong> para ser alvo desse ataque ou magia no lugar.</p><section id=\"secret-4QYQNJKFywfwkGGp\" class=\"secret\"><p><em>Como é ver tal devoção voltada à busca do medo e da dominação?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",

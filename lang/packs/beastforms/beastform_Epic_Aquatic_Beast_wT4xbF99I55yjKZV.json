@@ -1,5 +1,5 @@
 {
-  "name": "Epic Aquatic Beast",
+  "name": "Fera Aquática Épica",
   "type": "beastform",
   "img": "icons/creatures/fish/squid-kraken-teal.webp",
   "system": {
@@ -17,16 +17,16 @@
     "mainTrait": "agility",
     "advantageOn": {
       "DzjyAaegBTZSxhT4": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "rRDzTGkLNCbStmih": {
-        "value": "Protect"
+        "value": "Proteger"
       },
       "0k26pAQLTjfEfviV": {
-        "value": "Scare"
+        "value": "Intimidar"
       },
       "zkEFnEqpAf4lqy5W": {
-        "value": "Track"
+        "value": "Rastrear"
       }
     },
     "features": [
@@ -44,7 +44,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Giant Squid, Whale, etc.",
+    "examples": "Lula-Gigante, Baleia etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -54,7 +54,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "zYUexUr2e3k4kzhw",
       "system": {
@@ -91,9 +91,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd10 + 10",

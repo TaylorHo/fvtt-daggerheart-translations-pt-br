@@ -1,9 +1,9 @@
 {
-  "name": "Hobbling Strike",
+  "name": "Golpe Debilitante",
   "type": "feature",
   "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
   "system": {
-    "description": "<p>When you succeed on an attack against a target within Melee range, you can <strong>mark a Stress</strong> to make the target temporarily <em>Vulnerable</em>.</p>",
+    "description": "<p>Quando você tem sucesso em um ataque contra um alvo em alcance Corpo a Corpo, pode <strong>marcar 1 Fadiga</strong> para deixar o alvo temporariamente <em>Vulnerável</em>.</p>",
     "resource": null,
     "actions": {
       "p8DESOMGA6dLwEMz": {
@@ -39,7 +39,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
         "range": "",
         "baseAction": false,
@@ -62,7 +62,7 @@
   },
   "effects": [
     {
-      "name": "Hobbling Strike",
+      "name": "Golpe Debilitante",
       "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "transfer": false,
       "_id": "2kKkV9zhfvqA2vlt",
@@ -87,9 +87,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {

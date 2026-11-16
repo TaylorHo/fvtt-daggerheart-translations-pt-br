@@ -1,5 +1,5 @@
 {
-  "name": "Pack Predator",
+  "name": "Predador de Bando",
   "type": "beastform",
   "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "strength",
     "advantageOn": {
       "WwCjWpa7n6KcP3kY": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "oNzBOc2bkcb7CrQk": {
-        "value": "Sprint"
+        "value": "Correr"
       },
       "wtz5CPetdNzXTyBA": {
-        "value": "Track"
+        "value": "Rastrear"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Coyote, Hyena, Wolf, etc.",
+    "examples": "Coiote, Hiena, Lobo etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "amuFS9LlEnzZnaIN",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd8 + 2",

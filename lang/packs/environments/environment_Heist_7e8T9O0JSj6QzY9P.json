@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Heist",
+  "name": "Assalto",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "event",
-    "description": "<p>The party must gain access to a hidden or well-protected location to acquire the information or items secured within.</p>",
+    "description": "<p>O grupo deve obter acesso a um local oculto ou bem protegido para adquirir as informações ou itens guardados nele.</p>",
     "tier": 2,
-    "impulses": "Make the party prepare, split them up, throw up obstacles, trap them inside, use up their resources",
+    "impulses": "Fazer o grupo se preparar, separá-los, erguer obstáculos, prendê-los lá dentro, esgotar seus recursos",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "gzQzvwR4kNa9okSB": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.mK3A5FTx6k8iPU3F",
           "Compendium.daggerheart.adversaries.Actor.rM9qCIYeWg9I0B4l",
@@ -27,11 +27,11 @@
   },
   "items": [
     {
-      "name": "Prep Work",
+      "name": "Trabalho de Preparação",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Prior to the Heist, each PC has the opportunity to gather a key piece of information, surveil the location, or acquire a helpful tool or resource. Give each player the opportunity to describe one obstacle they expect to encounter and how they set themselves up to overcome it, then have them make an action roll. On a success, they get the information or asset they sought. On a success with Fear, it's less useful than they expected (for example, they discover the location of a hidden access point but learn that breaching it will likely be difficult and noisy).</p><section id=\"secret-odZZDOzWVo2JIOOr\" class=\"secret\"><p>How does the PC gain this advantage? Do they go it alone or ask for help? What unforeseen complications arise during the heist itself?</p></section>",
+        "description": "<p>Antes do Assalto, cada personagem tem a oportunidade de reunir uma informação-chave, vigiar o local ou adquirir uma ferramenta ou recurso útil. Dê a cada jogador a oportunidade de descrever um obstáculo que espera encontrar e como se preparou para superá-lo, e então peça que façam um teste de ação. Em caso de sucesso, obtêm a informação ou o recurso que buscavam. Em caso de sucesso com Medo, é menos útil do que esperavam (por exemplo, descobrem a localização de um ponto de acesso oculto, mas percebem que violá-lo provavelmente será difícil e barulhento).</p><section id=\"secret-odZZDOzWVo2JIOOr\" class=\"secret\"><p>Como o personagem obtém essa vantagem? Vai sozinho ou pede ajuda? Que complicações imprevistas surgem durante o próprio assalto?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -51,21 +51,21 @@
       "_key": "!actors.items!7e8T9O0JSj6QzY9P.NYEgUIaGnponoqC0"
     },
     {
-      "name": "Infiltration",
+      "name": "Infiltração",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Establish the goal of the Heist and start two dynamic countdowns: a Progress Countdown (12) to represent the party's work toward their goal and a Consequence Countdown (10) to represent the rising risk of discovery and capture. Advance both according to the Dynamic Countdown Advancement table as the PCs make action rolls to complete the Heist. If the Progress Countdown triggers first, spotlight this environment to use the \"Exfiltration\" feature. If the Consequence Countdown triggers first, gain <strong>1d4</strong> Fear, spotlight this environment, and use the \"Sound the Alarm\" feature.</p><section id=\"secret-ILrQAmBnbwUD2ALX\" class=\"secret\"><p>What is the party going after, and where is it located? What unexpected obstacles will they encounter? What happens if the party gets caught?</p></section>",
+        "description": "<p>Estabeleça o objetivo do Assalto e inicie duas contagens regressivas dinâmicas: uma Contagem Regressiva de Progresso (12) para representar o trabalho do grupo rumo ao objetivo e uma Contagem Regressiva de Consequência (10) para representar o risco crescente de descoberta e captura. Avance ambas conforme a tabela de Avanço de Contagem Regressiva Dinâmica enquanto os personagens fazem testes de ação para completar o Assalto. Se a Contagem Regressiva de Progresso disparar primeiro, dê o destaque a este ambiente para usar a característica \"Exfiltração\". Se a Contagem Regressiva de Consequência disparar primeiro, ganhe <strong>1d4</strong> de Medo, dê o destaque a este ambiente e use a característica \"Soar o Alarme\".</p><section id=\"secret-ILrQAmBnbwUD2ALX\" class=\"secret\"><p>O que o grupo está buscando e onde fica? Que obstáculos inesperados encontrarão? O que acontece se o grupo for pego?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "Jj3tIOKcExSWxCUh": {
             "type": "countdown",
-            "name": "Start Countdowns",
+            "name": "Iniciar Contagens Regressivas",
             "countdown": [
               {
-                "name": "Infiltration",
+                "name": "Infiltração",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/settlement/city-night-spire.webp",
@@ -79,7 +79,7 @@
                 "ownership": {}
               },
               {
-                "name": "Getting Discovered",
+                "name": "Ser Descoberto",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/settlement/city-night-spire.webp",
@@ -118,7 +118,7 @@
             "_id": "FF2zzZJAFkktI55f",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>If the Consequence Countdown triggers first, gain <strong>1d4</strong> Fear, spotlight this environment, and use the \"Sound the Alarm\" feature.</p>",
+            "description": "<p>Se a Contagem Regressiva de Consequência disparar primeiro, ganhe <strong>1d4</strong> de Medo, dê o destaque a este ambiente e use a característica \"Soar o Alarme\".</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -176,7 +176,7 @@
               },
               "useDefault": false
             },
-            "name": "Consequence",
+            "name": "Consequência",
             "range": ""
           }
         },
@@ -195,11 +195,11 @@
       "_key": "!actors.items!7e8T9O0JSj6QzY9P.ExmDwRunlP8FBvZI"
     },
     {
-      "name": "Saw This Coming",
+      "name": "Já Esperava Por Isso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Once per session, a PC can <strong>spend a Hope</strong> to explain how they prepared for the current situation and reveal a key piece of information (such as the location of a hidden passage or the password to a restricted area) or produce a helpful item (such as a cultist's uniform left unattended or a common consumable hidden in their boot).</p><section id=\"secret-bFk3Bh3FvomqguNZ\" class=\"secret\"><p>What did the PC prepare in advance? How did they know they'd need it? What did it cost them to set up, or whom do they owe a favor to?</p></section>",
+        "description": "<p>Uma vez por sessão, um personagem pode <strong>gastar 1 de Esperança</strong> para explicar como se preparou para a situação atual e revelar uma informação-chave (como a localização de uma passagem oculta ou a senha de uma área restrita) ou produzir um item útil (como o uniforme de um cultista deixado sem vigilância ou um consumível comum escondido na bota).</p><section id=\"secret-bFk3Bh3FvomqguNZ\" class=\"secret\"><p>O que o personagem preparou com antecedência? Como sabia que precisaria disso? O que custou prepará-lo, ou a quem ele deve um favor?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -219,11 +219,11 @@
       "_key": "!actors.items!7e8T9O0JSj6QzY9P.dDptQRFaM2lJ67AW"
     },
     {
-      "name": "Exfiltration",
+      "name": "Exfiltração",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Progress Countdown triggers, the party acquires the object of the Heist and must succeed on a group action roll to escape without capture. On a failure, each PC takes <strong>2d12</strong> direct physical damage and must mark a Stress.</p><section id=\"secret-KmJIVWWQQR4nBPRT\" class=\"secret\"><p>What makes getting out even more dangerous than getting in? What unforeseen developments stymie the party's original escape plan?</p></section>",
+        "description": "<p>Quando a Contagem Regressiva de Progresso disparar, o grupo adquire o objeto do Assalto e deve ter sucesso em um teste de ação em grupo para escapar sem ser capturado. Em caso de falha, cada personagem sofre <strong>2d12</strong> de dano físico direto e deve marcar 1 Fadiga.</p><section id=\"secret-KmJIVWWQQR4nBPRT\" class=\"secret\"><p>O que torna sair ainda mais perigoso do que entrar? Que imprevistos frustram o plano original de fuga do grupo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -249,9 +249,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -299,7 +297,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Poor Exfiltration",
+            "name": "Exfiltração Precária",
             "range": ""
           }
         },
@@ -318,11 +316,11 @@
       "_key": "!actors.items!7e8T9O0JSj6QzY9P.IILSh4X339iDm9EG"
     },
     {
-      "name": "Sound the Alarm",
+      "name": "Soar o Alarme",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Consequence Countdown triggers, the party is discovered and the location enters High Alert. Summon a number of Tier 2 adversaries equal to the number of PCs in the scene and immediately spotlight one. While this environment is on High Alert, all adversaries gain a +1 bonus to their Difficulty.</p><section id=\"secret-lP2u2z8DMh6EyRt1\" class=\"secret\"><p>What makes these adversaries uniquely suited to guard this location? What do they know about this place that gives them an edge?</p></section>",
+        "description": "<p>Quando a Contagem Regressiva de Consequência disparar, o grupo é descoberto e o local entra em Alerta Máximo. Invoque uma quantidade de adversários de Patamar 2 igual ao número de personagens na cena e dê imediatamente o destaque a um deles. Enquanto este ambiente estiver em Alerta Máximo, todos os adversários ganham +1 de bônus em sua Dificuldade.</p><section id=\"secret-lP2u2z8DMh6EyRt1\" class=\"secret\"><p>O que torna esses adversários especialmente adequados para guardar este local? O que sabem sobre este lugar que lhes dá vantagem?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -357,7 +355,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Boost Difficulty",
+            "name": "Aumentar Dificuldade",
             "range": ""
           }
         },
@@ -368,7 +366,7 @@
       "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
       "effects": [
         {
-          "name": "Alarm Sounded",
+          "name": "Alarme Soado",
           "disabled": false,
           "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
           "description": "",
@@ -432,7 +430,7 @@
   "_id": "7e8T9O0JSj6QzY9P",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Heist",
+    "name": "Assalto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

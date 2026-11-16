@@ -4,7 +4,7 @@
   "type": "feature",
   "img": "icons/tools/instruments/drum-hand-tan.webp",
   "system": {
-    "description": "<p>Uma vez por sessão, descreva como você inspira o grupo e dê a si mesmo e a cada um dos seus aliados um Dado de Inspiração. No nível 1, seu Dado de Inspiração é um d6. Um PJ pode gastar seu Dado de Inspiração para rolá-lo, somando o resultado à sua jogada de ação, jogada de reação, jogada de dano, ou para limpar uma quantidade de Fadiga igual ao resultado. No fim de cada sessão, limpe todos os Dados de Inspiração não gastos. No nível 5, seu Dado de Inspiração aumenta para um d8.</p>",
+    "description": "<p>Uma vez por sessão, descreva como você inspira o grupo e dê a si mesmo e a cada um dos seus aliados um Dado de Inspiração. No nível 1, seu Dado de Inspiração é um d6. Um personagem pode gastar seu Dado de Inspiração para rolá-lo, somando o resultado à sua jogada de ação, jogada de reação, jogada de dano, ou para limpar uma quantidade de Fadiga igual ao resultado. No fim de cada sessão, limpe todos os Dados de Inspiração não gastos. No nível 5, seu Dado de Inspiração aumenta para um d8.</p>",
     "resource": null,
     "actions": {
       "vI4Fph3y9ygsya9e": {

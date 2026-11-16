@@ -1,12 +1,12 @@
 {
-  "name": "Chaos Realm",
+  "name": "Reino do Caos",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "potentialAdversaries": {
       "2E8iPHwHt7srzJRS": {
-        "label": "Outer Realm Monstrosities",
+        "label": "Monstruosidades dos Reinos Exteriores",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof",
           "Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k",
@@ -17,9 +17,9 @@
     "notes": "",
     "difficulty": 20,
     "tier": 4,
-    "description": "<p>An otherworldly space where the laws of reality are unstable and dangerous.</p>",
+    "description": "<p>Um espaço sobrenatural onde as leis da realidade são instáveis e perigosas.</p>",
     "type": "traversal",
-    "impulses": "Annihilate certainty, consume power, defy logic",
+    "impulses": "Aniquilar certezas, consumir poder, desafiar a lógica",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -30,7 +30,7 @@
   "_id": "2Z1mKc65LxNk2PqR",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Chaos Realm",
+    "name": "Reino do Caos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -123,17 +123,17 @@
   },
   "items": [
     {
-      "name": "Impossible Architecture",
+      "name": "Arquitetura Impossível",
       "type": "feature",
       "system": {
-        "description": "<p>Up is down, down is right, right is starward. Gravity and directionality themselves are in flux, and any attempt to move through this realm is an odyssey unto itself, requiring a <em>Progress Countdown (8)</em>. On a failure, a PC must mark a Stress in addition to the roll's other consequences.</p><section class=\"secret\" id=\"secret-j76pJfYX7Cbt61Pq\"><p><em>What does it feel like to move in a space so alien to the Mortal Realm? What landmark or point do you fixate on to maintain your balance? What bizarre landmarks do you traverse on your journey?</em></p></section>",
+        "description": "<p>O que é cima é baixo, o que é baixo é direita, o que é direita é rumo às estrelas. A gravidade e a direcionalidade estão em fluxo, e qualquer tentativa de se mover por este reino é uma odisseia em si, exigindo uma <em>Contagem Regressiva de Progresso (8)</em>. Em caso de falha, um personagem deve marcar 1 Fadiga além das outras consequências da rolagem.</p><section class=\"secret\" id=\"secret-j76pJfYX7Cbt61Pq\"><p><em>Como é se mover em um espaço tão alienígena ao Reino Mortal? Em que ponto de referência você fixa o olhar para manter o equilíbrio? Que pontos de referência bizarros você atravessa em sua jornada?</em></p></section>",
         "resource": null,
         "actions": {
           "hli84bleKqYoU7YL": {
             "type": "damage",
             "_id": "hli84bleKqYoU7YL",
             "systemPath": "actions",
-            "description": "<p>On a failure, a PC must mark a Stress in addition to the roll's other consequences.</p>",
+            "description": "<p>Em caso de falha, um personagem deve marcar 1 Fadiga além das outras consequências da rolagem.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -171,7 +171,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/symbols/squares-3d-green.webp",
             "range": "",
             "baseAction": false,
@@ -185,7 +185,7 @@
             "type": "countdown",
             "_id": "uZgtjZJVCedm93aJ",
             "systemPath": "actions",
-            "description": "<p>Up is down, down is right, right is starward. Gravity and directionality themselves are in flux, and any attempt to move through this realm is an odyssey unto itself, requiring a <em>Progress Countdown (8)</em>.</p><section class=\"secret\" id=\"secret-rsf1tT4N3HBDgKna\"><p><em>What does it feel like to move in a space so alien to the Mortal Realm? What landmark or point do you fixate on to maintain your balance? What bizarre landmarks do you traverse on your journey?</em></p></section>",
+            "description": "<p>O que é cima é baixo, o que é baixo é direita, o que é direita é rumo às estrelas. A gravidade e a direcionalidade estão em fluxo, e qualquer tentativa de se mover por este reino é uma odisseia em si, exigindo uma <em>Contagem Regressiva de Progresso (8)</em>.</p><section class=\"secret\" id=\"secret-rsf1tT4N3HBDgKna\"><p><em>Como é se mover em um espaço tão alienígena ao Reino Mortal? Em que ponto de referência você fixa o olhar para manter o equilíbrio? Que pontos de referência bizarros você atravessa em sua jornada?</em></p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -200,7 +200,7 @@
             },
             "countdown": [
               {
-                "name": "Impossible Architecture",
+                "name": "Arquitetura Impossível",
                 "type": "encounter",
                 "img": "icons/magic/symbols/squares-3d-green.webp",
                 "progress": {
@@ -214,7 +214,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/symbols/squares-3d-green.webp",
             "range": "",
             "baseAction": false,
@@ -240,17 +240,17 @@
       "_key": "!actors.items!2Z1mKc65LxNk2PqR.yXCBy1MQuh5GwH5Q"
     },
     {
-      "name": "Everything You Are This Place Will Take from You",
+      "name": "Tudo o Que Você É Este Lugar Tirará de Você",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 1d4)</em>. Activate the countdown. When it triggers, all PCs must succeed on a Presence Reaction Roll or their highest trait is temporarily reduced by [[/r 1d4]] unless they mark a number of Stress equal to its value. Any lost trait points are regained if the PC critically succeeds or escapes the Chaos Realm.</p><section class=\"secret\" id=\"secret-uG9quQrfVqBYix6p\"><p><em>How does this place try to steal from you that which makes you legendary? What does it feel like to have this power taken from you?</em></p></section>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 1d4)</em>. Ative a contagem regressiva. Quando disparar, todos os personagens devem ter sucesso em um Teste de Reação de Presença ou seu maior atributo é reduzido temporariamente em [[/r 1d4]], a menos que marquem uma quantidade de Fadiga igual ao seu valor. Quaisquer pontos de atributo perdidos são recuperados se o personagem obtiver sucesso crítico ou escapar do Reino do Caos.</p><section class=\"secret\" id=\"secret-uG9quQrfVqBYix6p\"><p><em>Como este lugar tenta roubar de você aquilo que o torna lendário? Como é ter esse poder arrancado de você?</em></p></section>",
         "resource": null,
         "actions": {
           "zOQMo13vSiX3QReJ": {
             "type": "attack",
             "_id": "zOQMo13vSiX3QReJ",
             "systemPath": "actions",
-            "description": "<p>All PCs must succeed on a Presence Reaction Roll or their highest trait is temporarily reduced by [[/r 1d4]] unless they mark a number of Stress equal to its value. Any lost trait points are regained if the PC critically succeeds or escapes the Chaos Realm.</p><section class=\"secret\" id=\"secret-nXjHVXTDY3UzkRVb\"><p><em>How does this place try to steal from you that which makes you legendary? What does it feel like to have this power taken from you?</em></p></section>",
+            "description": "<p>Todos os personagens devem ter sucesso em um Teste de Reação de Presença ou seu maior atributo é reduzido temporariamente em [[/r 1d4]], a menos que marquem uma quantidade de Fadiga igual ao seu valor. Quaisquer pontos de atributo perdidos são recuperados se o personagem obtiver sucesso crítico ou escapar do Reino do Caos.</p><section class=\"secret\" id=\"secret-nXjHVXTDY3UzkRVb\"><p><em>Como este lugar tenta roubar de você aquilo que o torna lendário? Como é ter esse poder arrancado de você?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -289,7 +289,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/control/sihouette-hold-beam-green.webp",
             "range": "",
             "baseAction": false,
@@ -303,7 +303,7 @@
             "type": "countdown",
             "_id": "FxAFpgPbGcmi3nlh",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 1d4)</em>. Activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 1d4)</em>. Ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -318,7 +318,7 @@
             },
             "countdown": [
               {
-                "name": "Everything You Are This Place Will Take from You",
+                "name": "Tudo o Que Você É Este Lugar Tirará de Você",
                 "type": "encounter",
                 "img": "icons/magic/control/sihouette-hold-beam-green.webp",
                 "progress": {
@@ -331,7 +331,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/control/sihouette-hold-beam-green.webp",
             "range": "",
             "baseAction": false,
@@ -357,17 +357,17 @@
       "_key": "!actors.items!2Z1mKc65LxNk2PqR.0OYHJZqT0DlVz5be"
     },
     {
-      "name": "Unmaking",
+      "name": "Desfazimento",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to force a PC to make a Strength Reaction Roll. On a failure, they take <strong>4d10</strong> direct magic damage. On a success, they must mark a Stress.</p><section id=\"secret-HGAS3UaO0JcUPdlT\" class=\"secret\"><p><em>What glimpse of other worlds do you catch while this place tries to unmake you? What core facet of your personality does the unmaking try to erase?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para forçar um personagem a fazer um Teste de Reação de Força. Em caso de falha, ele sofre <strong>4d10</strong> de dano mágico direto. Em caso de sucesso, deve marcar 1 Fadiga.</p><section id=\"secret-HGAS3UaO0JcUPdlT\" class=\"secret\"><p><em>Que vislumbre de outros mundos você tem enquanto este lugar tenta desfazer você? Que faceta central de sua personalidade o desfazimento tenta apagar?</em></p></section>",
         "resource": null,
         "actions": {
           "6AT7qvUE6I6eVHU8": {
             "type": "attack",
             "_id": "6AT7qvUE6I6eVHU8",
             "systemPath": "actions",
-            "description": "<p><strong>Spend a Fear</strong> to force a PC to make a Strength Reaction Roll. On a failure, they take <strong>4d10</strong> direct magic damage. On a success, they must mark a Stress.</p><section class=\"secret\" id=\"secret-ycMBQOJJjDI4wEwK\"><p><em>What glimpse of other worlds do you catch while this place tries to unmake you? What core facet of your personality does the unmaking try to erase?</em></p></section>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para forçar um personagem a fazer um Teste de Reação de Força. Em caso de falha, ele sofre <strong>4d10</strong> de dano mágico direto. Em caso de sucesso, deve marcar 1 Fadiga.</p><section class=\"secret\" id=\"secret-ycMBQOJJjDI4wEwK\"><p><em>Que vislumbre de outros mundos você tem enquanto este lugar tenta desfazer você? Que faceta central de sua personalidade o desfazimento tenta apagar?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -399,9 +399,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -437,7 +435,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/unholy/energy-smoke-pink.webp",
             "range": "",
             "baseAction": false,
@@ -466,10 +464,10 @@
       "_key": "!actors.items!2Z1mKc65LxNk2PqR.RNbAdBZM6gDNaRPn"
     },
     {
-      "name": "Outer Realms Predators",
+      "name": "Predadores dos Reinos Exteriores",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to summon an @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Outer Realms Abomination}, an@UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{Outer Realms Corrupter}, and [[/r 2d6]] @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Outer Realms Thrall}, who appear at Close range of a chosen PC in defiance of logic and causality. Immediately spotlight one of these adversaries, and you can spend an additional Fear to automatically succeed on that adversary's standard attack.</p><section class=\"secret\" id=\"secret-psXRRXLoibTKFpaW\"><p><em>What halfconsumed remnants of the shattered world do these monstrosities cast aside in pursuit of living flesh? What jagged refl ections of former personhood do you catch between moments of unquestioning malice?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Outer Realms Abomination}, um @UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{Outer Realms Corrupter} e [[/r 2d6]] @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Outer Realms Thrall}, que aparecem em alcance Próximo de um personagem escolhido, desafiando a lógica e a causalidade. Dê imediatamente o destaque a um desses adversários, e você pode gastar 1 de Medo adicional para ter sucesso automaticamente no ataque padrão desse adversário.</p><section class=\"secret\" id=\"secret-psXRRXLoibTKFpaW\"><p><em>Que restos semidevorados do mundo estilhaçado essas monstruosidades descartam em busca de carne viva? Que reflexos irregulares de uma antiga personalidade você capta entre momentos de malícia irrefletida?</em></p></section>",
         "resource": null,
         "actions": {
           "KCzdCu2KhAx9KyhT": {
@@ -513,7 +511,7 @@
                 "count": "2d6"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []
@@ -537,17 +535,17 @@
       "_key": "!actors.items!2Z1mKc65LxNk2PqR.SZpUJeJETVQtZwae"
     },
     {
-      "name": "Disorientating Reality",
+      "name": "Realidade Desorientadora",
       "type": "feature",
       "system": {
-        "description": "<p>On a result with Fear, you can ask the PC to describe which of their fears the Chaos Realm evokes as a vision of reality unmakes and reconstitutes itself to the PC. The PC loses a Hope. If it is their last Hope, you gain a Fear.</p><section id=\"secret-0TIAabOXzWKwGdZ4\" class=\"secret\"><p><em>What moment do they see? If it's a memory how is it warped by this place? How hard will it be to hold on to the real memory?</em></p></section>",
+        "description": "<p>Em um resultado com Medo, você pode pedir ao personagem que descreva qual de seus medos o Reino do Caos evoca enquanto uma visão da realidade se desfaz e se reconstitui diante dele. O personagem perde 1 de Esperança. Se for sua última Esperança, você ganha 1 de Medo.</p><section id=\"secret-0TIAabOXzWKwGdZ4\" class=\"secret\"><p><em>Que momento ele vê? Se for uma memória, como ela é deformada por este lugar? Quão difícil será se agarrar à memória verdadeira?</em></p></section>",
         "resource": null,
         "actions": {
           "YIOvMuMMML7WeMWs": {
             "type": "damage",
             "_id": "YIOvMuMMML7WeMWs",
             "systemPath": "actions",
-            "description": "<p>On a result with Fear, you can ask the PC to describe which of their fears the Chaos Realm evokes as a vision of reality unmakes and reconstitutes itself to the PC. The PC loses a Hope. If it is their last Hope, you gain a Fear.</p><section class=\"secret\" id=\"secret-2PNCQTvkwRTu3IYz\"><p><em>What moment do they see? If it's a memory how is it warped by this place? How hard will it be to hold on to the real memory?</em></p></section>",
+            "description": "<p>Em um resultado com Medo, você pode pedir ao personagem que descreva qual de seus medos o Reino do Caos evoca enquanto uma visão da realidade se desfaz e se reconstitui diante dele. O personagem perde 1 de Esperança. Se for sua última Esperança, você ganha 1 de Medo.</p><section class=\"secret\" id=\"secret-2PNCQTvkwRTu3IYz\"><p><em>Que momento ele vê? Se for uma memória, como ela é deformada por este lugar? Quão difícil será se agarrar à memória verdadeira?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -585,7 +583,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder Esperança",
             "img": "icons/magic/perception/hand-eye-pink.webp",
             "range": "",
             "baseAction": false,

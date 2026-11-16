@@ -1,16 +1,16 @@
 {
-  "name": "Armored Shell",
+  "name": "Carapaça Reforçada",
   "type": "feature",
   "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
   "system": {
-    "description": "<p>Your hardened exterior gives you resistance to physical damage. Additionally, <strong>mark an Armor Slot</strong> to retract into your shell. While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>",
+    "description": "<p>Seu exterior endurecido concede resistência a dano físico. Além disso, <strong>marque 1 Espaço de Armadura</strong> para se recolher em seu casco. Enquanto estiver no casco, o dano físico é reduzido em um valor igual ao seu Valor de Armadura (após aplicar a resistência), mas você não pode realizar outras ações sem sair desta forma.</p>",
     "resource": null,
     "actions": {
       "15XSCpCAZ2JLspmN": {
         "type": "effect",
         "_id": "15XSCpCAZ2JLspmN",
         "systemPath": "actions",
-        "description": "<p><strong>Mark an Armor Slot</strong> to retract into your shell. While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>",
+        "description": "<p><strong>Marque 1 Espaço de Armadura</strong> para se recolher em seu casco. Enquanto estiver no casco, o dano físico é reduzido em um valor igual ao seu Valor de Armadura (após aplicar a resistência), mas você não pode realizar outras ações sem sair desta forma.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -39,7 +39,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Retract",
+        "name": "Recolher",
         "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
         "range": "self",
         "baseAction": false,
@@ -62,7 +62,7 @@
   },
   "effects": [
     {
-      "name": "Armored Shell",
+      "name": "Carapaça Reforçada",
       "type": "base",
       "_id": "XFmEC0kDQJNrGbtr",
       "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
@@ -91,7 +91,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Your hardened exterior gives you resistance to physical damage.</p>",
+      "description": "<p>Seu exterior endurecido concede resistência a dano físico.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -106,7 +106,7 @@
       "_key": "!items.effects!nDQZdIF2epKlhauX.XFmEC0kDQJNrGbtr"
     },
     {
-      "name": "Retracted",
+      "name": "Recolhido",
       "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
       "transfer": false,
       "_id": "OY3lEB3vuDKNLzxv",
@@ -118,7 +118,7 @@
             "phase": "initial",
             "priority": 0,
             "value": {
-              "label": "Armored Shell",
+              "label": "Carapaça Reforçada",
               "value": "@system.armorScore.max",
               "costs": []
             }
@@ -140,7 +140,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>",
+      "description": "<p>Enquanto estiver no casco, o dano físico é reduzido em um valor igual ao seu Valor de Armadura (após aplicar a resistência), mas você não pode realizar outras ações sem sair desta forma.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Convergence, The City Of Portals",
+  "name": "Convergência, a Cidade dos Portais",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "type": "social",
-    "description": "<p>A sprawling metropolis at the nexus of creation, where influential figures from across the realms gather.</p>",
+    "description": "<p>Uma metrópole imensa no nexo da criação, onde figuras influentes de todos os reinos se reúnem.</p>",
     "tier": 4,
-    "impulses": "Confront them with alien customs, dazzle them with infinite variety, tempt them with the impossible",
+    "impulses": "Confrontá-los com costumes alienígenas, deslumbrá-los com variedade infinita, tentá-los com o impossível",
     "difficulty": 20,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "5si048Lyh4c7sUrE": {
-        "label": "Power Players",
+        "label": "Figuras de Poder",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.WPEOIGfclNJxWb87",
           "Compendium.daggerheart.adversaries.Actor.FeIMCgQ5ZMRRDo4d",
@@ -30,11 +30,11 @@
   },
   "items": [
     {
-      "name": "Impossibilities Abound",
+      "name": "Impossibilidades em Abundância",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Convergence is a nexus of gods, monsters, aliens, and all manner of dimension-hoppers. Because mortal life is generally beneath these beings' concern, PCs have disadvantage on action rolls to influence them unless they have leverage against them or know what the NPC cares about.</p><section id=\"secret-IkUNHWoZWhXKxHAt\" class=\"secret\"><p>What manner of being currently holds sway in the city? What strange customs do they practice? Which PC is most confused or off ended by them, and which PC adopts these customs as their own?</p></section>",
+        "description": "<p>Convergência é um nexo de deuses, monstros, alienígenas e todo tipo de viajantes entre dimensões. Como a vida mortal geralmente está abaixo da preocupação desses seres, os personagens têm desvantagem em testes de ação para influenciá-los, a menos que tenham algo contra eles ou saibam com o que o PNJ se importa.</p><section id=\"secret-IkUNHWoZWhXKxHAt\" class=\"secret\"><p>Que tipo de ser detém o poder na cidade no momento? Que costumes estranhos pratica? Qual personagem fica mais confuso ou ofendido por eles, e qual personagem adota esses costumes como seus?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -69,7 +69,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply",
+            "name": "Aplicar",
             "range": ""
           }
         },
@@ -80,10 +80,10 @@
       "img": "icons/creatures/magical/spirit-undead-masked-blue.webp",
       "effects": [
         {
-          "name": "Beneath Concern",
+          "name": "Abaixo da Preocupação",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-undead-masked-blue.webp",
-          "description": "<p>Because mortal life is generally beneath these beings' concern, PCs have disadvantage on action rolls to influence them unless they have leverage against them or know what the NPC cares about.</p>",
+          "description": "<p>Como a vida mortal geralmente está abaixo da preocupação desses seres, os personagens têm desvantagem em testes de ação para influenciá-los, a menos que tenham algo contra eles ou saibam com o que o PNJ se importa.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -133,11 +133,11 @@
       "_key": "!actors.items!5S3sSvvuXp15MMAR.oqZmYjmq7nHwqK7d"
     },
     {
-      "name": "Into the Multiverse",
+      "name": "Rumo ao Multiverso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The city of Convergence has a portal or door to every realm of existence.</p><section id=\"secret-Tu6AYVy5cD2UXJxq\" class=\"secret\"><p>Where (or when) does the party want to go? Where is that portal located, and who controls that area?</p></section>",
+        "description": "<p>A cidade de Convergência tem um portal ou porta para cada reino da existência.</p><section id=\"secret-Tu6AYVy5cD2UXJxq\" class=\"secret\"><p>Aonde (ou quando) o grupo quer ir? Onde fica esse portal e quem controla a área?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -157,11 +157,11 @@
       "_key": "!actors.items!5S3sSvvuXp15MMAR.cVL5PXbDsM7wccZf"
     },
     {
-      "name": "Infinite Inventory",
+      "name": "Inventário Infinito",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>This city has the solution to any problem, if you can find it. A PC seeking a particular item with wondrous properties can make an Instinct or Presence Roll to find it in the city's pandimensional marketplace.</p><ul><li><p>Critical Success: The PC finds the perfect item, and the merchant who has it only wants something the PC considers inconsequential in exchange.</p></li><li><p>Success with Hope: The PC finds the perfect item and can exchange something of equal value for it.</p></li><li><p>Success with Fear: The PC finds the perfect item, but the merchant who has it will only exchange it for something the party can't give them... yet.</p></li><li><p>Any Failure: The PC must mark a Stress as they go on a wild goose chase but come up empty-handed. The PC can mark an additional Stress to change this result into a success with Fear.</p></li></ul><section id=\"secret-xYEEvbFdu4R6CC3G\" class=\"secret\"><p>Who has the item the party needs? What do they want in return?</p></section>",
+        "description": "<p>Esta cidade tem a solução para qualquer problema, se você conseguir encontrá-la. Um personagem que procura um item específico com propriedades maravilhosas pode fazer um Teste de Instinto ou Presença para encontrá-lo no mercado pandimensional da cidade.</p><ul><li><p>Sucesso Crítico: O personagem encontra o item perfeito, e o mercador que o possui só quer em troca algo que o personagem considera insignificante.</p></li><li><p>Sucesso com Esperança: O personagem encontra o item perfeito e pode trocar algo de igual valor por ele.</p></li><li><p>Sucesso com Medo: O personagem encontra o item perfeito, mas o mercador que o possui só o trocará por algo que o grupo não pode lhe dar... ainda.</p></li><li><p>Qualquer Falha: O personagem deve marcar 1 Fadiga ao correr atrás de uma pista falsa e voltar de mãos vazias. O personagem pode marcar 1 Fadiga adicional para transformar este resultado em um sucesso com Medo.</p></li></ul><section id=\"secret-xYEEvbFdu4R6CC3G\" class=\"secret\"><p>Quem tem o item de que o grupo precisa? O que querem em troca?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,21 +181,21 @@
       "_key": "!actors.items!5S3sSvvuXp15MMAR.uYTJYPixVWPMgMjs"
     },
     {
-      "name": "Don't Make Waves",
+      "name": "Não Faça Ondas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (6). Because anything is possible in Convergence, the city maintains a labyrinthine bureaucracy that issues and enforces ordinances regarding all exchanges and interactions between the realms. When the party arrives in Convergence, activate the countdown. It ticks down when a PC does something that upsets the city's delicate political equilibrium. When it triggers, the PCs become Wanted until they clear their names with the authorities. When a Wanted PC rolls with Fear, you can summon <strong>1d4</strong> Temporal Enforcers who appear within Very Close range, immediately take the spotlight, and try to apprehend the party.</p><section id=\"secret-VoeL6dGUKdcCpqPi\" class=\"secret\"><p>What has the party done (or what do they plan to do) that draws the attention and ire of the city officials? How can they fix the problem they caused?</p></section>",
+        "description": "<p>Contagem Regressiva (6). Como tudo é possível em Convergência, a cidade mantém uma burocracia labiríntica que emite e faz cumprir ordenanças sobre todas as trocas e interações entre os reinos. Quando o grupo chegar a Convergência, ative a contagem regressiva. Ela diminui quando um personagem faz algo que abala o delicado equilíbrio político da cidade. Quando disparar, os personagens se tornam Procurados até limparem seus nomes junto às autoridades. Quando um personagem Procurado rola com Medo, você pode invocar <strong>1d4</strong> Temporal Enforcers que aparecem em alcance Muito Próximo, recebem imediatamente o destaque e tentam prender o grupo.</p><section id=\"secret-VoeL6dGUKdcCpqPi\" class=\"secret\"><p>O que o grupo fez (ou planeja fazer) que atrai a atenção e a ira dos oficiais da cidade? Como podem resolver o problema que causaram?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "ZXWbr2YnA6oEUbNA": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Don't Make Waves",
+                "name": "Não Faça Ondas",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/perception/orb-eye-scrying.webp",
@@ -212,7 +212,7 @@
             "_id": "ZXWbr2YnA6oEUbNA",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Countdown (6). Because anything is possible in Convergence, the city maintains a labyrinthine bureaucracy that issues and enforces ordinances regarding all exchanges and interactions between the realms. When the party arrives in Convergence, activate the countdown. It ticks down when a PC does something that upsets the city's delicate political equilibrium.</p><section id=\"secret-VoeL6dGUKdcCpqPi\" class=\"secret\"><p>What has the party done (or what do they plan to do) that draws the attention and ire of the city officials? How can they fix the problem they caused?</p></section>",
+            "description": "<p>Contagem Regressiva (6). Como tudo é possível em Convergência, a cidade mantém uma burocracia labiríntica que emite e faz cumprir ordenanças sobre todas as trocas e interações entre os reinos. Quando o grupo chegar a Convergência, ative a contagem regressiva. Ela diminui quando um personagem faz algo que abala o delicado equilíbrio político da cidade.</p><section id=\"secret-VoeL6dGUKdcCpqPi\" class=\"secret\"><p>O que o grupo fez (ou planeja fazer) que atrai a atenção e a ira dos oficiais da cidade? Como podem resolver o problema que causaram?</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -234,7 +234,7 @@
             "_id": "eLGtrn1swEajhVXP",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, the PCs become Wanted until they clear their names with the authorities.</p>",
+            "description": "<p>Quando disparar, os personagens se tornam Procurados até limparem seus nomes junto às autoridades.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -259,7 +259,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Become Wanted",
+            "name": "Tornar-se Procurado",
             "range": "",
             "img": "icons/sundries/documents/document-symbol-skull-tan.webp"
           },
@@ -268,7 +268,7 @@
             "_id": "hwe4SW1rxEM7Y2ng",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When a Wanted PC rolls with Fear, you can summon <strong>1d4</strong> Temporal Enforcers who appear within Very Close range, immediately take the spotlight, and try to apprehend the party.</p>",
+            "description": "<p>Quando um personagem Procurado rola com Medo, você pode invocar <strong>1d4</strong> Temporal Enforcers que aparecem em alcance Muito Próximo, recebem imediatamente o destaque e tentam prender o grupo.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -301,7 +301,7 @@
       "img": "icons/magic/perception/orb-eye-scrying.webp",
       "effects": [
         {
-          "name": "Wanted",
+          "name": "Procurado",
           "disabled": false,
           "img": "icons/sundries/documents/document-symbol-skull-tan.webp",
           "description": "",
@@ -354,11 +354,11 @@
       "_key": "!actors.items!5S3sSvvuXp15MMAR.LyaalfQw9F2uRj9Z"
     },
     {
-      "name": "An Offer You Can't Refuse",
+      "name": "Uma Oferta Irrecusável",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Convergence is home to a tenuous network of rival factions. <strong>Spend a Fear</strong> to have one of them present the party with an easy solution to a difficult problem in exchange for their allegiance. If the party refuses, each PC must mark a Stress, and they can't turn to that faction for help in the future.</p><section id=\"secret-CG2w7YzpHDVqXGYR\" class=\"secret\"><p>Which faction offers the party their support? Who do they want the party to act against?</p></section>",
+        "description": "<p>Convergência abriga uma rede frágil de facções rivais. <strong>Gaste 1 de Medo</strong> para que uma delas apresente ao grupo uma solução fácil para um problema difícil em troca de sua lealdade. Se o grupo recusar, cada personagem deve marcar 1 Fadiga e eles não poderão recorrer a essa facção no futuro.</p><section id=\"secret-CG2w7YzpHDVqXGYR\" class=\"secret\"><p>Que facção oferece apoio ao grupo? Contra quem querem que o grupo aja?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -420,7 +420,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -442,7 +442,7 @@
   "_id": "5S3sSvvuXp15MMAR",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Convergence, The City Of Portals",
+    "name": "Convergência, a Cidade dos Portais",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

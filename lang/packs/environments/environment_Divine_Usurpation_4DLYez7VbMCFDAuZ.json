@@ -1,12 +1,12 @@
 {
-  "name": "Divine Usurpation",
+  "name": "Usurpação Divina",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "potentialAdversaries": {
       "IMQDBXkxdUIUSjsm": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.WPEOIGfclNJxWb87",
           "Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9",
@@ -19,9 +19,9 @@
     "notes": "",
     "difficulty": 20,
     "tier": 4,
-    "description": "<p>A massive ritual designed to breach the gates of the Hallows Above and unseat the New Gods themselves.</p>",
+    "description": "<p>Um ritual massivo destinado a romper os portões dos Sagrados Superiores e destronar os próprios Novos Deuses.</p>",
     "type": "event",
-    "impulses": "Collect power, overawe, silence dissent",
+    "impulses": "Acumular poder, intimidar, silenciar a dissidência",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -32,7 +32,7 @@
   "_id": "4DLYez7VbMCFDAuZ",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Divine Usurpation",
+    "name": "Usurpação Divina",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -125,17 +125,17 @@
   },
   "items": [
     {
-      "name": "Final Preparations",
+      "name": "Preparativos Finais",
       "type": "feature",
       "system": {
-        "description": "<p>When the environment first takes the spotlight, designate one adversary as the Usurper seeking to overthrow the gods. Activate a Long-Term <em>Countdown (8)</em> as the Usurper assembles what they need to conduct the ritual. When it triggers, spotlight this environment to use the \"Beginning of the End\" feature. While this environment remains in play, you can hold up to 15 Fear.</p><section class=\"secret\" id=\"secret-5ezbFLP3BnyqQPov\"><p><em>What does the Usurper still require: The heart of a High Seraph? The lodestone of an ancient waygate? The loyalty of two archenemies? The heartbroken tears of a pure soul?</em></p></section>",
+        "description": "<p>Quando o ambiente receber o destaque pela primeira vez, designe um adversário como o Usurpador que busca derrubar os deuses. Ative uma <em>Contagem Regressiva (8)</em> de Longo Prazo enquanto o Usurpador reúne o que precisa para conduzir o ritual. Quando disparar, dê o destaque a este ambiente para usar a característica \"Início do Fim\". Enquanto este ambiente permanecer em jogo, você pode ter até 15 de Medo.</p><section class=\"secret\" id=\"secret-5ezbFLP3BnyqQPov\"><p><em>O que o Usurpador ainda requer: O coração de um Alto Serafim? A pedra-ímã de um antigo portal? A lealdade de dois arqui-inimigos? As lágrimas partidas de uma alma pura?</em></p></section>",
         "resource": null,
         "actions": {
           "UMGyEHdQhYXyGEss": {
             "type": "effect",
             "_id": "UMGyEHdQhYXyGEss",
             "systemPath": "actions",
-            "description": "<p>Spotlight this environment to use the \"Beginning of the End\" feature.</p>",
+            "description": "<p>Dê o destaque a este ambiente para usar a característica \"Início do Fim\".</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -150,7 +150,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "img": "icons/magic/unholy/hands-circle-light-green.webp",
             "range": "",
             "baseAction": false,
@@ -164,7 +164,7 @@
             "type": "countdown",
             "_id": "uJSaDLFcrtvIPFaD",
             "systemPath": "actions",
-            "description": "<p>When the environment first takes the spotlight, designate one adversary as the Usurper seeking to overthrow the gods. Activate a Long-Term <em>Countdown (8)</em> as the Usurper assembles what they need to conduct the ritual.</p><section class=\"secret\" id=\"secret-FyeeA41DYc7DdjY7\"><p><em>What does the Usurper still require: The heart of a High Seraph? The lodestone of an ancient waygate? The loyalty of two archenemies? The heartbroken tears of a pure soul?</em></p></section>",
+            "description": "<p>Quando o ambiente receber o destaque pela primeira vez, designe um adversário como o Usurpador que busca derrubar os deuses. Ative uma <em>Contagem Regressiva (8)</em> de Longo Prazo enquanto o Usurpador reúne o que precisa para conduzir o ritual.</p><section class=\"secret\" id=\"secret-FyeeA41DYc7DdjY7\"><p><em>O que o Usurpador ainda requer: O coração de um Alto Serafim? A pedra-ímã de um antigo portal? A lealdade de dois arqui-inimigos? As lágrimas partidas de uma alma pura?</em></p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -179,7 +179,7 @@
             },
             "countdown": [
               {
-                "name": "Final Preparations",
+                "name": "Preparativos Finais",
                 "type": "encounter",
                 "img": "icons/magic/unholy/hands-circle-light-green.webp",
                 "progress": {
@@ -193,7 +193,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/unholy/hands-circle-light-green.webp",
             "range": "",
             "baseAction": false,
@@ -219,10 +219,10 @@
       "_key": "!actors.items!4DLYez7VbMCFDAuZ.IHLJjpOQyWjmCLAL"
     },
     {
-      "name": "Divine Blessing",
+      "name": "Bênção Divina",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC critically succeeds, they can spend 2 Hope to refresh an ability normally limited by uses (such as once per rest, once per session).</p><section id=\"secret-IRlwaXlRxPqtJ6eg\" class=\"secret\"><p><em>What god favors you as you fi ght against this usurpation? How does your renewed power reflect their influence?</em></p></section>",
+        "description": "<p>Quando um personagem obtém sucesso crítico, ele pode gastar 2 de Esperança para renovar uma habilidade normalmente limitada por usos (como uma vez por descanso, uma vez por sessão).</p><section id=\"secret-IRlwaXlRxPqtJ6eg\" class=\"secret\"><p><em>Que deus favorece você enquanto você luta contra esta usurpação? Como seu poder renovado reflete a influência dele?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -243,10 +243,10 @@
       "_key": "!actors.items!4DLYez7VbMCFDAuZ.fA2wVTxpDPaTlP9v"
     },
     {
-      "name": "Difilers Abound",
+      "name": "Profanadores em Abundância",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend 2 Fear</strong> to summon [[/r 1d4+2]] @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troop} that appear within Close range of the Usurper to assist their divine siege. Immediately spotlight the Shock Troops to use a \"Group Attack\" action.</p><section class=\"secret\" id=\"secret-QJHdwGNSuTgS59gn\"><p><em>Which High Fallen do these troops serve? Which god's fl esh do they wish to feast upon?</em></p></section>",
+        "description": "<p><strong>Gaste 2 de Medo</strong> para invocar [[/r 1d4+2]] @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troop} que aparecem em alcance Próximo do Usurpador para auxiliar seu cerco divino. Dê imediatamente o destaque às Tropas de Choque para usar uma ação de \"Ataque em Grupo\".</p><section class=\"secret\" id=\"secret-QJHdwGNSuTgS59gn\"><p><em>A qual Alto Caído essas tropas servem? De qual deus elas desejam devorar a carne?</em></p></section>",
         "resource": null,
         "actions": {
           "okcqGrI4rdghugUi": {
@@ -273,7 +273,7 @@
                 "count": "1d4+2"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []
@@ -297,17 +297,17 @@
       "_key": "!actors.items!4DLYez7VbMCFDAuZ.OWUM3eFiZrIn0Bjd"
     },
     {
-      "name": "Godslayer",
+      "name": "Matador de Deuses",
       "type": "feature",
       "system": {
-        "description": "<p>If the Divine Siege Countdown (see \"Beginning of the End\") has triggered, you can <strong>spend 3 Fear</strong> to describe the Usurper slaying one of the gods of the Hallows Above, feasting upon their power and growing stronger. The Usurper clears 2 HP. Increase their Difficulty, damage, attack modifier, or give them a new feature from the slain god.</p><section id=\"secret-OIyf1RZFfLopuMlg\" class=\"secret\"><p><em>Which god meets their end? What are their last words? How does the Usurper's new stolen power manifest?</em></p></section>",
+        "description": "<p>Se a Contagem Regressiva de Cerco Divino (veja \"Início do Fim\") tiver disparado, você pode <strong>gastar 3 de Medo</strong> para descrever o Usurpador matando um dos deuses dos Sagrados Superiores, banqueteando-se com seu poder e ficando mais forte. O Usurpador apaga 2 PV. Aumente sua Dificuldade, dano, modificador de ataque, ou dê a ele uma nova característica do deus morto.</p><section id=\"secret-OIyf1RZFfLopuMlg\" class=\"secret\"><p><em>Qual deus encontra seu fim? Quais são suas últimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>",
         "resource": null,
         "actions": {
           "hwQsng6Kt8pQBD3Z": {
             "type": "healing",
             "_id": "hwQsng6Kt8pQBD3Z",
             "systemPath": "actions",
-            "description": "<p>If the Divine Siege Countdown (see \"Beginning of the End\") has triggered, you can <strong>spend 3 Fear</strong> to describe the Usurper slaying one of the gods of the Hallows Above, feasting upon their power and growing stronger. The Usurper clears 2 HP. Increase their Difficulty, damage, attack modifier, or give them a new feature from the slain god.</p><section class=\"secret\" id=\"secret-SDqxukOa9Sz8zbGZ\"><p><em>Which god meets their end? What are their last words? How does the Usurper's new stolen power manifest?</em></p></section>",
+            "description": "<p>Se a Contagem Regressiva de Cerco Divino (veja \"Início do Fim\") tiver disparado, você pode <strong>gastar 3 de Medo</strong> para descrever o Usurpador matando um dos deuses dos Sagrados Superiores, banqueteando-se com seu poder e ficando mais forte. O Usurpador apaga 2 PV. Aumente sua Dificuldade, dano, modificador de ataque, ou dê a ele uma nova característica do deus morto.</p><section class=\"secret\" id=\"secret-SDqxukOa9Sz8zbGZ\"><p><em>Qual deus encontra seu fim? Quais são suas últimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -374,7 +374,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/hand-light-pink.webp",
             "range": "",
             "baseAction": false,
@@ -395,7 +395,7 @@
       "img": "icons/magic/unholy/hand-light-pink.webp",
       "effects": [
         {
-          "name": "Godslayer",
+          "name": "Matador de Deuses",
           "img": "icons/magic/unholy/hand-light-pink.webp",
           "transfer": false,
           "_id": "znFFS76Nopwb8Yi7",
@@ -431,7 +431,7 @@
           "_key": "!actors.items.effects!4DLYez7VbMCFDAuZ.CL3wPZNOtw6m5WVT.znFFS76Nopwb8Yi7"
         },
         {
-          "name": "Godslayer",
+          "name": "Matador de Deuses",
           "img": "icons/magic/unholy/hand-light-pink.webp",
           "transfer": false,
           "_id": "i3KYskkA9D4GHbXi",
@@ -469,9 +469,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -483,7 +481,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Increase their Difficulty, damage, attack modifier, or give them a new feature from the slain god.</p><section class=\"secret\" id=\"secret-BLw5aVqkkCtUQXnk\"><p><em>Which god meets their end? What are their last words? How does the Usurper's new stolen power manifest?</em></p></section>",
+          "description": "<p>Aumente sua Dificuldade, dano, modificador de ataque, ou dê a ele uma nova característica do deus morto.</p><section class=\"secret\" id=\"secret-BLw5aVqkkCtUQXnk\"><p><em>Qual deus encontra seu fim? Quais são suas últimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -506,17 +504,17 @@
       "_key": "!actors.items!4DLYez7VbMCFDAuZ.CL3wPZNOtw6m5WVT"
     },
     {
-      "name": "Beginning of the End",
+      "name": "Início do Fim",
       "type": "feature",
       "system": {
-        "description": "<p>When the \"Final Preparations\" long-term countdown triggers, the Usurper begins hammering on the gates of the Hallows themselves. Activate a Divine Siege <em>Countdown (10)</em>. Spotlight the Usurper to describe the Usurper's assault and tick down this countdown by 1. If the Usurper takes Major or greater damage, tick up the countdown by 1. When it triggers, the Usurper shatters the barrier between the Mortal Realm and the Hallows Above to slay the gods and take their place. You gain a Fear for each unmarked HP the Usurper has. You can immediately use the \"Godslayer\" feature without spending Fear to make an additional GM move.</p><section class=\"secret\" id=\"secret-eVeMBBA7aAZgn9FO\"><p><em>How does the Mortal Realm writhe as the natural order is violated? What mortals witness this blasphemy from afar?</em></p></section>",
+        "description": "<p>Quando a contagem regressiva de longo prazo \"Preparativos Finais\" disparar, o Usurpador começa a golpear os próprios portões dos Sagrados. Ative uma <em>Contagem Regressiva (10)</em> de Cerco Divino. Dê o destaque ao Usurpador para descrever o assalto dele e diminua esta contagem regressiva em 1. Se o Usurpador sofrer dano Maior ou superior, aumente a contagem regressiva em 1. Quando disparar, o Usurpador despedaça a barreira entre o Reino Mortal e os Sagrados Superiores para matar os deuses e tomar seu lugar. Você ganha 1 de Medo para cada PV não marcado do Usurpador. Você pode usar imediatamente a característica \"Matador de Deuses\" sem gastar Medo para fazer um movimento adicional do Mestre.</p><section class=\"secret\" id=\"secret-eVeMBBA7aAZgn9FO\"><p><em>Como o Reino Mortal se contorce enquanto a ordem natural é violada? Que mortais testemunham essa blasfêmia de longe?</em></p></section>",
         "resource": null,
         "actions": {
           "N83u4SKOlCfLvdYI": {
             "type": "effect",
             "_id": "N83u4SKOlCfLvdYI",
             "systemPath": "actions",
-            "description": "<p>The Usurper shatters the barrier between the Mortal Realm and the Hallows Above to slay the gods and take their place. You gain a Fear for each unmarked HP the Usurper has. You can immediately use the \"Godslayer\" feature without spending Fear to make an additional GM move.</p>",
+            "description": "<p>O Usurpador despedaça a barreira entre o Reino Mortal e os Sagrados Superiores para matar os deuses e tomar seu lugar. Você ganha 1 de Medo para cada PV não marcado do Usurpador. Você pode usar imediatamente a característica \"Matador de Deuses\" sem gastar Medo para fazer um movimento adicional do Mestre.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -531,7 +529,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
             "range": "",
             "baseAction": false,
@@ -545,7 +543,7 @@
             "type": "countdown",
             "_id": "KNWpWnJboRIaZ3Yu",
             "systemPath": "actions",
-            "description": "<p>When the \"Final Preparations\" long-term countdown triggers, the Usurper begins hammering on the gates of the Hallows themselves. Activate a Divine Siege <em>Countdown (10)</em>. Spotlight the Usurper to describe the Usurper's assault and tick down this countdown by 1. If the Usurper takes Major or greater damage, tick up the countdown by 1.</p><section class=\"secret\" id=\"secret-u7mt9OivMXWU5s3S\"><p><em>How does the Mortal Realm writhe as the natural order is violated? What mortals witness this blasphemy from afar?</em></p></section>",
+            "description": "<p>Quando a contagem regressiva de longo prazo \"Preparativos Finais\" disparar, o Usurpador começa a golpear os próprios portões dos Sagrados. Ative uma <em>Contagem Regressiva (10)</em> de Cerco Divino. Dê o destaque ao Usurpador para descrever o assalto dele e diminua esta contagem regressiva em 1. Se o Usurpador sofrer dano Maior ou superior, aumente a contagem regressiva em 1.</p><section class=\"secret\" id=\"secret-u7mt9OivMXWU5s3S\"><p><em>Como o Reino Mortal se contorce enquanto a ordem natural é violada? Que mortais testemunham essa blasfêmia de longe?</em></p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -560,7 +558,7 @@
             },
             "countdown": [
               {
-                "name": "Beginning of the End",
+                "name": "Início do Fim",
                 "type": "encounter",
                 "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
                 "progress": {
@@ -573,7 +571,7 @@
                 "hidden": null
               }
             ],
-            "name": "Countdown",
+            "name": "Contagem Regressiva",
             "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
             "range": "",
             "baseAction": false,
@@ -599,17 +597,17 @@
       "_key": "!actors.items!4DLYez7VbMCFDAuZ.AJdG1krRvixBFCZG"
     },
     {
-      "name": "Ritual Nexus",
+      "name": "Nexo do Ritual",
       "type": "feature",
       "system": {
-        "description": "<p>On any failure with Fear against the Usurper, the PC must mark <strong>1d4</strong> Stress from the backlash of magical power.</p><section id=\"secret-FROwYRDYLwvnn2lH\" class=\"secret\"><p><em>What visions of failures past torment you as your efforts fall short? How are these memories twisted by the Usurper?</em></p></section>",
+        "description": "<p>Em qualquer falha com Medo contra o Usurpador, o personagem deve marcar <strong>1d4</strong> de Fadiga pelo contragolpe do poder mágico.</p><section id=\"secret-FROwYRDYLwvnn2lH\" class=\"secret\"><p><em>Que visões de fracassos passados atormentam você enquanto seus esforços fracassam? Como essas memórias são distorcidas pelo Usurpador?</em></p></section>",
         "resource": null,
         "actions": {
           "9qXDsVnWI436IWEk": {
             "type": "damage",
             "_id": "9qXDsVnWI436IWEk",
             "systemPath": "actions",
-            "description": "<p>On any failure with Fear against the Usurper, the PC must mark <strong>1d4</strong> Stress from the backlash of magical power.</p><section class=\"secret\" id=\"secret-ysZhGlH7LtJS0qua\"><p><em>What visions of failures past torment you as your efforts fall short? How are these memories twisted by the Usurper?</em></p></section>",
+            "description": "<p>Em qualquer falha com Medo contra o Usurpador, o personagem deve marcar <strong>1d4</strong> de Fadiga pelo contragolpe do poder mágico.</p><section class=\"secret\" id=\"secret-ysZhGlH7LtJS0qua\"><p><em>Que visões de fracassos passados atormentam você enquanto seus esforços fracassam? Como essas memórias são distorcidas pelo Usurpador?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -647,7 +645,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/unholy/barrier-fire-pink.webp",
             "range": "",
             "baseAction": false,

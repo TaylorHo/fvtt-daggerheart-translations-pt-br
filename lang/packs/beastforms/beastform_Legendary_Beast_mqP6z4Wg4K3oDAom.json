@@ -1,5 +1,5 @@
 {
-  "name": "Legendary Beast",
+  "name": "Fera Lendária",
   "type": "beastform",
   "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
   "system": {
@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "cL4kH57pf2nGIxaK",
       "system": {
@@ -73,7 +73,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Pick a Tier 1 Beastform option and become a larger, more powerful version of that creature. While you're in this form, you retain all traits and features from the original form and gain the following bonuses:</p><ul><li><p>A +6 bonus to the damage rolls</p></li><li><p>A +1 bonus to the trait used by this form</p></li><li><p>A +2 bonus to evasion</p></li></ul>",
+      "description": "<p>Escolha uma opção de Forma de Fera de Patamar 1 e torne-se uma versão maior e mais poderosa dessa criatura. Enquanto estiver nesta forma, você mantém todos os atributos e características da forma original e ganha os seguintes bônus:</p><ul><li><p>+6 de bônus nas rolagens de dano</p></li><li><p>+1 de bônus no atributo usado por esta forma</p></li><li><p>+2 de bônus na evasão</p></li></ul>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

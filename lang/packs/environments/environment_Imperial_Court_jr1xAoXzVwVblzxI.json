@@ -1,12 +1,12 @@
 {
-  "name": "Imperial Court",
+  "name": "Corte Imperial",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "potentialAdversaries": {
       "JTuzman711Fqs3u1": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy",
           "Compendium.daggerheart.adversaries.Actor.ZxWaWPdzFIUPNC62",
@@ -19,9 +19,9 @@
     "notes": "",
     "difficulty": 20,
     "tier": 4,
-    "description": "<p>The majestic domain of a powerful empire, lavishly appointed with stolen treasures.</p>",
+    "description": "<p>O domínio majestoso de um império poderoso, luxuosamente decorado com tesouros roubados.</p>",
     "type": "social",
-    "impulses": "Justify and perpetuate imperial rule, seduce rivals with promises of power and comfort",
+    "impulses": "Justificar e perpetuar o domínio imperial, seduzir rivais com promessas de poder e conforto",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -32,7 +32,7 @@
   "_id": "jr1xAoXzVwVblzxI",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Imperial Court",
+    "name": "Corte Imperial",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -125,10 +125,10 @@
   },
   "items": [
     {
-      "name": "All Roads Lead Here",
+      "name": "Todos os Caminhos Levam Aqui",
       "type": "feature",
       "system": {
-        "description": "<p>While in the Imperial Court, a PC has disadvantage on Presence Rolls made to take actions that don't fit the imperial way of life or support the empire's dominance.</p><section id=\"secret-P8G0DAghe8QgaSZV\" class=\"secret\"><p><em>How does the way language is used make even discussing alternative ways of living difficult? What obvious benefits for loyalty create friction when you try to discuss alternatives?</em></p></section>",
+        "description": "<p>Enquanto estiver na Corte Imperial, um personagem tem desvantagem em Testes de Presença feitos para realizar ações que não se encaixam no modo de vida imperial ou não apoiam o domínio do império.</p><section id=\"secret-P8G0DAghe8QgaSZV\" class=\"secret\"><p><em>Como o uso da linguagem dificulta até mesmo discutir modos alternativos de viver? Que benefícios óbvios da lealdade geram atrito quando você tenta discutir alternativas?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -149,10 +149,10 @@
       "_key": "!actors.items!jr1xAoXzVwVblzxI.OXUbWRt1Dj0vk7mW"
     },
     {
-      "name": "Rival Vassals",
+      "name": "Vassalos Rivais",
       "type": "feature",
       "system": {
-        "description": "<p>The PCs can find imperial subjects, vassals, and supplicants in the court, each vying for favor, seeking proximity to power, exchanging favors for loyalty, and elevating their status above others'. Some might be desperate to undermine their rivals, while others might even be open to discussions that verge on sedition.</p><section id=\"secret-pDDW0dor0MhTdx4c\" class=\"secret\"><p><em>How do they benefit from vassalage and what has it cost them? What exploitation drives them to consider opposing the unstoppable?</em></p></section>",
+        "description": "<p>Os personagens podem encontrar súditos imperiais, vassalos e suplicantes na corte, cada um disputando favores, buscando proximidade com o poder, trocando favores por lealdade e elevando seu status acima dos outros. Alguns podem estar desesperados para minar seus rivais, enquanto outros podem até estar abertos a conversas que beiram a sedição.</p><section id=\"secret-pDDW0dor0MhTdx4c\" class=\"secret\"><p><em>Como eles se beneficiam da vassalagem e quanto ela lhes custou? Que exploração os leva a considerar opor-se ao imparável?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -173,17 +173,17 @@
       "_key": "!actors.items!jr1xAoXzVwVblzxI.LURReixasmMbiP2C"
     },
     {
-      "name": "The Gravity of Empire",
+      "name": "A Gravidade do Império",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to present a PC with a golden opportunity or offer to satisfy a major goal in exchange for obeying or supporting the empire. The target must make a Presence Reaction Roll. On a failure, they must mark all their Stress or accept the off er. If they have already marked all their Stress, they must accept the off er or exile themselves from the empire. On a success, they must mark <strong>1d4</strong> Stress as they're taxed by temptation.</p><section class=\"secret\" id=\"secret-4carYxEQygk6m4cQ\"><p><em>What do the PCs want so desperately they might consider throwing in with this ruthless power? How did imperial agents learn the PC's greatest desires?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para apresentar a um personagem uma oportunidade de ouro ou oferta para satisfazer um grande objetivo em troca de obedecer ou apoiar o império. O alvo deve fazer um Teste de Reação de Presença. Em caso de falha, deve marcar toda a sua Fadiga ou aceitar a oferta. Se já tiver marcado toda a sua Fadiga, deve aceitar a oferta ou se exilar do império. Em caso de sucesso, deve marcar <strong>1d4</strong> de Fadiga, abalado pela tentação.</p><section class=\"secret\" id=\"secret-4carYxEQygk6m4cQ\"><p><em>O que os personagens querem tão desesperadamente a ponto de considerar se aliar a este poder implacável? Como os agentes imperiais descobriram os maiores desejos do personagem?</em></p></section>",
         "resource": null,
         "actions": {
           "Pr8CpaOehr1cE1b8": {
             "type": "attack",
             "_id": "Pr8CpaOehr1cE1b8",
             "systemPath": "actions",
-            "description": "<p><strong>Spend a Fear</strong> to present a PC with a golden opportunity or off er to satisfy a major goal in exchange for obeying or supporting the empire. The target must make a Presence Reaction Roll. On a failure, they must mark all their Stress or accept the offer. If they have already marked all their Stress, they must accept the off er or exile themselves from the empire. On a success, they must mark <strong>1d4</strong> Stress as they're taxed by temptation.</p><section class=\"secret\" id=\"secret-jB2klJ9141Yiot3c\"><p><em>What do the PCs want so desperately they might consider throwing in with this ruthless power? How did imperial agents learn the PC's greatest desires?</em></p></section>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para apresentar a um personagem uma oportunidade de ouro ou oferta para satisfazer um grande objetivo em troca de obedecer ou apoiar o império. O alvo deve fazer um Teste de Reação de Presença. Em caso de falha, deve marcar toda a sua Fadiga ou aceitar a oferta. Se já tiver marcado toda a sua Fadiga, deve aceitar a oferta ou se exilar do império. Em caso de sucesso, deve marcar <strong>1d4</strong> de Fadiga, abalado pela tentação.</p><section class=\"secret\" id=\"secret-jB2klJ9141Yiot3c\"><p><em>O que os personagens querem tão desesperadamente a ponto de considerar se aliar a este poder implacável? Como os agentes imperiais descobriram os maiores desejos do personagem?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -250,7 +250,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/death/skull-energy-light-white.webp",
             "range": "",
             "baseAction": false,
@@ -279,10 +279,10 @@
       "_key": "!actors.items!jr1xAoXzVwVblzxI.tm9FL5gJF7Oheu21"
     },
     {
-      "name": "Imperial Decree",
+      "name": "Decreto Imperial",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to tick down a long-term countdown related to the empire's agenda by [[/r 1d4]]. If this triggers the countdown, a proclamation related to the agenda is announced at court as the plan is executed.</p><section class=\"secret\" id=\"secret-kuZLu5mJvqvQ1NvT\"><p><em>What display of power or transfer of wealth was needed to expedite this plan? Whose lives were disrupted or upended to make this happen?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para diminuir em [[/r 1d4]] uma contagem regressiva de longo prazo relacionada à agenda do império. Se isso disparar a contagem regressiva, uma proclamação relacionada à agenda é anunciada na corte enquanto o plano é executado.</p><section class=\"secret\" id=\"secret-kuZLu5mJvqvQ1NvT\"><p><em>Que demonstração de poder ou transferência de riqueza foi necessária para acelerar este plano? A vida de quem foi perturbada ou virada de cabeça para baixo para que isso acontecesse?</em></p></section>",
         "resource": null,
         "actions": {
           "9ipckCFMz9DVw8ab": {
@@ -328,7 +328,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d4",
+            "name": "Rolar d4",
             "img": "icons/sundries/documents/document-sealed-red-white.webp",
             "range": "",
             "baseAction": false,
@@ -357,17 +357,17 @@
       "_key": "!actors.items!jr1xAoXzVwVblzxI.HwSKX5r40ux0OfJN"
     },
     {
-      "name": "Eyes Everywhere",
+      "name": "Olhos por Toda Parte",
       "type": "feature",
       "system": {
-        "description": "<p>On a result with Fear, you can <strong>spend a Fear</strong> to have someone loyal to the empire overhear seditious talk within the court. A PC must succeed on an Instinct Reaction Roll to notice that the group has been overheard so they can try to intercept the witness before the PCs are exposed.</p><section class=\"secret\" id=\"secret-kN4J3annyev9WWUs\"><p><em>How has the empire compromised this witness? Why is their first impulse to protect the empire even if doesn't treat them well?</em></p></section>",
+        "description": "<p>Em um resultado com Medo, você pode <strong>gastar 1 de Medo</strong> para fazer alguém leal ao império ouvir conversas sediciosas na corte. Um personagem deve ter sucesso em um Teste de Reação de Instinto para perceber que o grupo foi ouvido e assim tentar interceptar a testemunha antes que os personagens sejam expostos.</p><section class=\"secret\" id=\"secret-kN4J3annyev9WWUs\"><p><em>Como o império comprometeu esta testemunha? Por que seu primeiro impulso é proteger o império mesmo que ele não a trate bem?</em></p></section>",
         "resource": null,
         "actions": {
           "czEbFu3uIlW5Spju": {
             "type": "attack",
             "_id": "czEbFu3uIlW5Spju",
             "systemPath": "actions",
-            "description": "<p>On a result with Fear, you can <strong>spend a Fear</strong> to have someone loyal to the empire overhear seditious talk within the court. A PC must succeed on an Instinct Reaction Roll to notice that the group has been overheard so they can try to intercept the witness before the PCs are exposed.</p><section class=\"secret\" id=\"secret-lCrNuPGNEGSBiTSY\"><p><em>How has the empire compromised this witness? Why is their first impulse to protect the empire even if doesn't treat them well?</em></p></section>",
+            "description": "<p>Em um resultado com Medo, você pode <strong>gastar 1 de Medo</strong> para fazer alguém leal ao império ouvir conversas sediciosas na corte. Um personagem deve ter sucesso em um Teste de Reação de Instinto para perceber que o grupo foi ouvido e assim tentar interceptar a testemunha antes que os personagens sejam expostos.</p><section class=\"secret\" id=\"secret-lCrNuPGNEGSBiTSY\"><p><em>Como o império comprometeu esta testemunha? Por que seu primeiro impulso é proteger o império mesmo que ele não a trate bem?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -415,7 +415,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/perception/orb-eye-scrying.webp",
             "range": "",
             "baseAction": false,

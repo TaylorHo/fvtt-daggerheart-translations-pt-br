@@ -1,5 +1,5 @@
 {
-  "name": "Powerful Beast",
+  "name": "Fera Poderosa",
   "type": "beastform",
   "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "strength",
     "advantageOn": {
       "LhmE20iV5HBExx0A": {
-        "value": "Navigate"
+        "value": "Orientar-se"
       },
       "EP4KQJfmXWGomsVC": {
-        "value": "Protect"
+        "value": "Proteger"
       },
       "lMMv1eTry3N6rZCx": {
-        "value": "Scare"
+        "value": "Intimidar"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Bear, Bull, Moose, etc.",
+    "examples": "Urso, Touro, Alce etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "AZGTvqzFVHa4wS1a",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd10 + 4",

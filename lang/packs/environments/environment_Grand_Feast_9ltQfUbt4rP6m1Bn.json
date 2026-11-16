@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Grand Feast",
+  "name": "Grande Banquete",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "social",
-    "description": "<p>A community-wide celebration featuring way too much drink, food, and fun.</p>",
+    "description": "<p>Uma celebração de toda a comunidade com bebida, comida e diversão demais.</p>",
     "tier": 1,
-    "impulses": "Bring everyone together, celebrate a momentous occasion, encourage revelrous abandon",
+    "impulses": "Reunir todos, celebrar uma ocasião marcante, estimular o abandono festivo",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "XVwmaoATfYXwo3B2": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.vNIbYQ4YSzNf0WPE",
           "Compendium.daggerheart.adversaries.Actor.JRhrrEg5UroURiAD",
@@ -31,11 +31,11 @@
   },
   "items": [
     {
-      "name": "Loose Lips & Fast Friends",
+      "name": "Língua Solta & Amigos Rápidos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Everyone is here to have a good time. PCs have advantage on Presence Rolls to socialize with other revelers.</p><section id=\"secret-flXbBm0IURcfsAGo\" class=\"secret\"><p>What is everyone celebrating? Where's the party? Who's footing the bill?</p></section>",
+        "description": "<p>Todos estão aqui para se divertir. Os personagens têm vantagem em Testes de Presença para socializar com outros foliões.</p><section id=\"secret-flXbBm0IURcfsAGo\" class=\"secret\"><p>O que todos estão comemorando? Onde é a festa? Quem está pagando a conta?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -70,7 +70,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Reveling",
+            "name": "Aplicar Festejando",
             "range": ""
           }
         },
@@ -81,10 +81,10 @@
       "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
       "effects": [
         {
-          "name": "Reveling",
+          "name": "Festejando",
           "disabled": false,
           "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
-          "description": "<p>PCs have advantage on Presence Rolls to socialize with other revelers.</p>",
+          "description": "<p>Os personagens têm vantagem em Testes de Presença para socializar com outros foliões.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -142,11 +142,11 @@
       "_key": "!actors.items!9ltQfUbt4rP6m1Bn.FcbTcbTe6fcl5nCe"
     },
     {
-      "name": "The Evening's Entertainment",
+      "name": "O Entretenimento da Noite",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The host of the feast kicks off the entertainment portion of the evening. Each PC can make an action roll to initiate a performance, competition, or other lighthearted diversion. A PC who succeeds becomes an Honored Guest. Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition.</p><section id=\"secret-FqgG5mkGr1jcz1sS\" class=\"secret\"><p>What does the host want to see or hear more than anything else? What can they offer the PCs in return?</p></section>",
+        "description": "<p>O anfitrião do banquete dá início à parte de entretenimento da noite. Cada personagem pode fazer um teste de ação para iniciar uma apresentação, competição ou outra diversão leve. Um personagem que tiver sucesso se torna um Convidado de Honra. Até o banquete terminar, um Convidado de Honra pode reivindicar um presente do anfitrião e então remover a condição.</p><section id=\"secret-FqgG5mkGr1jcz1sS\" class=\"secret\"><p>O que o anfitrião quer ver ou ouvir mais do que tudo? O que pode oferecer aos personagens em troca?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,7 +181,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Become Honored Guest",
+            "name": "Tornar-se Convidado de Honra",
             "range": ""
           }
         },
@@ -192,10 +192,10 @@
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
       "effects": [
         {
-          "name": "Honored Guest",
+          "name": "Convidado de Honra",
           "disabled": false,
           "img": "icons/commodities/treasure/brooch-crown-gold.webp",
-          "description": "<p>Until the feast ends, an Honored Guest can claim a gift from the host, then clear the condition.</p>",
+          "description": "<p>Até o banquete terminar, um Convidado de Honra pode reivindicar um presente do anfitrião e então remover a condição.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -245,11 +245,11 @@
       "_key": "!actors.items!9ltQfUbt4rP6m1Bn.TzDUERd3fb172VxQ"
     },
     {
-      "name": "\"There's Always That One…\"",
+      "name": "\"Sempre Tem Aquele Alguém…\"",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to Trap a PC in conversation with the most unpleasant person at the party until the PC succeeds on an action roll to extricate themself from this social black hole. While Trapped, a PC can't make action rolls except to try to clear this condition. When a Trapped PC fails an action roll, they must mark a Stress.</p><section id=\"secret-rMOEwoHLTaxL8x9n\" class=\"secret\"><p>What makes this dud so unpleasant? What's something the PC cares about that the dud constantly diminishes or dismisses? What boring or awful thing can the dud not shut up about?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para Prender um personagem em uma conversa com a pessoa mais desagradável da festa até que o personagem tenha sucesso em um teste de ação para se desvencilhar desse buraco negro social. Enquanto estiver Preso, um personagem não pode fazer testes de ação, exceto para tentar remover esta condição. Quando um personagem Preso falha em um teste de ação, ele deve marcar 1 Fadiga.</p><section id=\"secret-rMOEwoHLTaxL8x9n\" class=\"secret\"><p>O que torna este chato tão desagradável? Com o que o personagem se importa que o chato constantemente diminui ou desdenha? Sobre que assunto entediante ou terrível o chato não consegue parar de falar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -288,7 +288,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -307,11 +307,11 @@
       "_key": "!actors.items!9ltQfUbt4rP6m1Bn.mXAc4IdKO2ygiPaJ"
     },
     {
-      "name": "Last Call",
+      "name": "Última Rodada",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>After a long night, the partygoers start filtering out. When the feast concludes, all PCs who participated in the festivities clear all Stress and gain a Hope. Additionally, each Honored Guest clears all HP and gains an additional Hope, then clears the condition. Each PC who overindulged must succeed on a Strength Reaction Roll or become Hungover until their next rest. While Hungover, a PC gains a -1 penalty to action rolls.</p><section id=\"secret-tFZhnGkIAGuHB4rj\" class=\"secret\"><p>What crazy stories do the PCs share with one another as they leave the party? Who do the PCs see unexpectedly canoodling afterward?</p></section>",
+        "description": "<p>Após uma longa noite, os convidados começam a se dispersar. Quando o banquete termina, todos os personagens que participaram dos festejos apagam toda a Fadiga e ganham 1 de Esperança. Além disso, cada Convidado de Honra apaga todos os PV e ganha 1 de Esperança adicional, então remove a condição. Cada personagem que exagerou deve ter sucesso em um Teste de Reação de Força ou ficar de Ressaca até seu próximo descanso. Enquanto de Ressaca, um personagem recebe -1 de penalidade em testes de ação.</p><section id=\"secret-tFZhnGkIAGuHB4rj\" class=\"secret\"><p>Que histórias malucas os personagens compartilham ao sair da festa? Quem os personagens veem inesperadamente se agarrando depois?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -370,7 +370,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Hungover Roll",
+            "name": "Teste de Ressaca",
             "range": ""
           }
         },
@@ -381,10 +381,10 @@
       "img": "icons/environment/settlement/watchtower-moonlit-blue.webp",
       "effects": [
         {
-          "name": "Hungover",
+          "name": "De Ressaca",
           "disabled": false,
           "img": "icons/skills/wounds/injury-face-impact-orange.webp",
-          "description": "<p>You are Hungover until your next rest. While Hungover, you gain a -1 penalty to action rolls.</p>",
+          "description": "<p>Você fica de Ressaca até seu próximo descanso. Enquanto de Ressaca, você recebe -1 de penalidade em testes de ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -407,9 +407,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "action"
-                ],
+                "actionTypes": ["action"],
                 "traits": []
               }
             ]
@@ -453,7 +451,7 @@
   "_id": "9ltQfUbt4rP6m1Bn",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Grand Feast",
+    "name": "Grande Banquete",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

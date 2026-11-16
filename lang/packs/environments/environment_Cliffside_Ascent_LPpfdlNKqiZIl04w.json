@@ -1,12 +1,12 @@
 {
-  "name": "Cliffside Ascent",
+  "name": "Escalada do Penhasco",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "potentialAdversaries": {
       "hWhlWzJ8nNKAMmXx": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.uOP5oT9QzXPlnf3p",
           "Compendium.daggerheart.adversaries.Actor.9x2xY9zwc3xzbXo5",
@@ -18,9 +18,9 @@
     "notes": "",
     "difficulty": 12,
     "tier": 1,
-    "description": "<p>A steep, rocky cliffside tall enough to make traversal dangerous.</p>",
+    "description": "<p>Um penhasco íngreme e rochoso alto o bastante para tornar a travessia perigosa.</p>",
     "type": "traversal",
-    "impulses": "Cast the unready down to a rocky doom, draw people in with promise of what lies at the top",
+    "impulses": "Lançar os despreparados a uma queda rochosa fatal, atrair pessoas com a promessa do que há no topo",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -31,7 +31,7 @@
   "_id": "LPpfdlNKqiZIl04w",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Cliffside Ascent",
+    "name": "Escalada do Penhasco",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -124,17 +124,17 @@
   },
   "items": [
     {
-      "name": "The Climb",
+      "name": "A Escalada",
       "type": "feature",
       "system": {
-        "description": "<p>Climbing up the cliff side uses a Progress <em>Countdown (12)</em>. It ticks down according to the following criteria when the PCs make an action roll to climb:</p><ul><li><p><strong>Critical Success</strong>: Tick down 3</p></li><li><p><strong>Success with Hope</strong>: Tick down 2</p></li><li><p><strong>Success with Fear</strong>: Tick down 1</p></li><li><p><strong>Failure with Hope</strong>: No Advancement</p></li><li><p><strong>Failure with Fear</strong>: Tick up 1</p></li></ul><p>When the countdown triggers, the party has made it to the top of the cliff .</p><section class=\"secret\" id=\"secret-TUIXsJs6D65YsP9f\"><p><em>What strange formations are the stones arranged in? What ominous warnings did previous adventurers leave?</em></p></section>",
+        "description": "<p>Escalar o penhasco usa uma <em>Contagem Regressiva</em> de Progresso (12). Ela diminui conforme os seguintes critérios quando os personagens fazem um teste de ação para escalar:</p><ul><li><p><strong>Sucesso Crítico</strong>: Diminui 3</p></li><li><p><strong>Sucesso com Esperança</strong>: Diminui 2</p></li><li><p><strong>Sucesso com Medo</strong>: Diminui 1</p></li><li><p><strong>Falha com Esperança</strong>: Sem avanço</p></li><li><p><strong>Falha com Medo</strong>: Aumenta 1</p></li></ul><p>Quando a contagem regressiva disparar, o grupo chegou ao topo do penhasco.</p><section class=\"secret\" id=\"secret-TUIXsJs6D65YsP9f\"><p><em>Em que formações estranhas as pedras estão dispostas? Que avisos agourentos aventureiros anteriores deixaram?</em></p></section>",
         "resource": null,
         "actions": {
           "TMEBwqlfvL3mb3hQ": {
             "type": "countdown",
             "_id": "TMEBwqlfvL3mb3hQ",
             "systemPath": "actions",
-            "description": "<p>Climbing up the cliff side uses a <em>Progress Countdown (12)</em>. It ticks down according to the following criteria when the PCs make an action roll to climb:</p><ul><li><p><strong>Critical Success</strong>: Tick down 3</p></li><li><p><strong>Success with Hope</strong>: Tick down 2</p></li><li><p><strong>Success with Fear</strong>: Tick down 1</p></li><li><p><strong>Failure with Hope</strong>: No Advancement</p></li><li><p><strong>Failure with Fear</strong>: Tick up 1</p></li></ul><p>When the countdown triggers, the party has made it to the top of the cliff .</p><section class=\"secret\" id=\"secret-5teov2eI5kV1P3LD\"><p><em>What strange formations are the stones arranged in? What ominous warnings did previous adventurers leave?</em></p></section>",
+            "description": "<p>Escalar o penhasco usa uma <em>Contagem Regressiva de Progresso (12)</em>. Ela diminui conforme os seguintes critérios quando os personagens fazem um teste de ação para escalar:</p><ul><li><p><strong>Sucesso Crítico</strong>: Diminui 3</p></li><li><p><strong>Sucesso com Esperança</strong>: Diminui 2</p></li><li><p><strong>Sucesso com Medo</strong>: Diminui 1</p></li><li><p><strong>Falha com Esperança</strong>: Sem avanço</p></li><li><p><strong>Falha com Medo</strong>: Aumenta 1</p></li></ul><p>Quando a contagem regressiva disparar, o grupo chegou ao topo do penhasco.</p><section class=\"secret\" id=\"secret-5teov2eI5kV1P3LD\"><p><em>Em que formações estranhas as pedras estão dispostas? Que avisos agourentos aventureiros anteriores deixaram?</em></p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -149,7 +149,7 @@
             },
             "countdown": [
               {
-                "name": "The Climb",
+                "name": "A Escalada",
                 "type": "encounter",
                 "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
                 "progress": {
@@ -163,7 +163,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
             "range": "",
             "baseAction": false,
@@ -189,10 +189,10 @@
       "_key": "!actors.items!LPpfdlNKqiZIl04w.bKBwM72OwVnlsHG6"
     },
     {
-      "name": "Pitons Left Behind",
+      "name": "Grampos Deixados para Trás",
       "type": "feature",
       "system": {
-        "description": "<p>Previous climbers left behind large metal rods that climbers can use to aid their ascent. If a PC using the pitons fails an action roll to climb, they can <strong>mark a Stress</strong> instead of ticking the countdown up.</p><section class=\"secret\" id=\"secret-qk9dYgHaJUBCtFBR\"><p><em>What do the shape and material of these pitons tell you about the previous climbers? How far apart are they from one another?</em></p></section>",
+        "description": "<p>Escaladores anteriores deixaram grandes hastes de metal que podem ser usadas para auxiliar a subida. Se um personagem que usa os grampos falhar em um teste de ação para escalar, ele pode <strong>marcar 1 Fadiga</strong> em vez de aumentar a contagem regressiva.</p><section class=\"secret\" id=\"secret-qk9dYgHaJUBCtFBR\"><p><em>O que o formato e o material desses grampos revelam sobre os escaladores anteriores? Qual a distância entre eles?</em></p></section>",
         "resource": null,
         "actions": {
           "p1UiGEiGyl6r7PrA": {
@@ -237,7 +237,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/tools/fasteners/pin-spiked.webp",
             "range": "",
             "baseAction": false,
@@ -266,10 +266,10 @@
       "_key": "!actors.items!LPpfdlNKqiZIl04w.t8ZbtlGiYC8MKqqu"
     },
     {
-      "name": "Fall",
+      "name": "Queda",
       "type": "feature",
       "system": {
-        "description": "<p>Spend a Fear to have a PC's handhold fail, plummeting them toward the ground. If they aren't saved on the next action, they hit the ground and tick up the countdown by 2. The PC takes <strong>1d12</strong> physical damage if the countdown is between 8 and 12, <strong>2d12</strong> between 4 and 7, and <strong>3d12</strong> at 3 or lower.</p><section class=\"secret\" id=\"secret-M5AEA24dk07O00FA\"><p><em>How can you tell many others have fallen here before? What lives in these walls that might try to scare adventurers into falling for an easy meal?</em></p></section>",
+        "description": "<p>Gaste 1 de Medo para fazer o apoio de um personagem ceder, despencando-o em direção ao chão. Se ele não for salvo na próxima ação, atinge o chão e a contagem regressiva aumenta em 2. O personagem sofre <strong>1d12</strong> de dano físico se a contagem regressiva estiver entre 8 e 12, <strong>2d12</strong> entre 4 e 7, e <strong>3d12</strong> em 3 ou menos.</p><section class=\"secret\" id=\"secret-M5AEA24dk07O00FA\"><p><em>Como dá para perceber que muitos outros já caíram aqui? O que vive nestas paredes que poderia tentar assustar aventureiros para que caiam e virem uma refeição fácil?</em></p></section>",
         "resource": null,
         "actions": {
           "LVEPUPIAJJMiCtbV": {
@@ -315,7 +315,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Roll 1d12",
+            "name": "Rolar 1d12",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,
@@ -368,7 +368,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Roll 2d12",
+            "name": "Rolar 2d12",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,
@@ -421,7 +421,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Roll 3d12",
+            "name": "Rolar 3d12",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,
@@ -459,7 +459,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Moon Kingdom",
+  "name": "Reino da Lua",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "type": "exploration",
-    "description": "<p>The mysterious, luminous, and isolated ruins of a long-lost lunar kingdom that echoes with forgotten magic and ancient technology.</p>",
+    "description": "<p>As ruínas misteriosas, luminosas e isoladas de um reino lunar há muito perdido, que ecoa com magia esquecida e tecnologia antiga.</p>",
     "tier": 4,
-    "impulses": "Blur the line between dream and reality, let consciousness ebb and flow like the tide, whisper echoes of ancient opulence",
+    "impulses": "Borrar a linha entre sonho e realidade, deixar a consciência fluir e refluir como a maré, sussurrar ecos de opulência ancestral",
     "difficulty": 20,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,14 +14,14 @@
     },
     "potentialAdversaries": {
       "dGGEFeoh8LOS51RN": {
-        "label": "Local Fauna",
+        "label": "Fauna Local",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.nrcRGYmyMy2vBJXl",
           "Compendium.daggerheart.adversaries.Actor.RIrQcvhlSmXTqFxr"
         ]
       },
       "TGaPRMzMRhCwaj1v": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.WPEOIGfclNJxWb87"
         ]
@@ -31,11 +31,11 @@
   },
   "items": [
     {
-      "name": "Dreamlike Atmosphere",
+      "name": "Atmosfera Onírica",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Everything in the Moon Kingdom feels dreamlike and floaty. A leap carries you far, and the sound is muted. The air is full of an iridescent crystalline dust that shifts in response to thoughts or emotions and might record memories of the past or visions of the future. Once per scene, a PC can make an Instinct Roll to read the psychic impressions left by past events.</p><section id=\"secret-m7MBCB6cZ1kqfzV1\" class=\"secret\"><p>What ethereal scents or sensations do the PCs experience? How does the atmosphere affect the interactions between them?</p></section>",
+        "description": "<p>Tudo no Reino da Lua parece onírico e flutuante. Um salto leva você longe e o som é abafado. O ar está cheio de uma poeira cristalina iridescente que se desloca em resposta a pensamentos ou emoções e pode registrar memórias do passado ou visões do futuro. Uma vez por cena, um personagem pode fazer um Teste de Instinto para ler as impressões psíquicas deixadas por eventos passados.</p><section id=\"secret-m7MBCB6cZ1kqfzV1\" class=\"secret\"><p>Que aromas ou sensações etéreas os personagens experimentam? Como a atmosfera afeta as interações entre eles?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -65,7 +65,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Read Psychic Impressions",
+            "name": "Ler Impressões Psíquicas",
             "range": ""
           }
         },
@@ -84,11 +84,11 @@
       "_key": "!actors.items!qPo3w2ag677zAAa4.EwKS8purdqfLft20"
     },
     {
-      "name": "Silent Ruins",
+      "name": "Ruínas Silenciosas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The towering silver and blue architecture of the capital is undamaged but overgrown with bioluminescent flora that pulses in time with the lunar tides. A PC who succceeds on a Finesse Roll can harvest a moon plant without killing it. A PC who eats one or more living moon plants gains a +1 bonus to Spellcast Rolls until their next long rest.</p><section id=\"secret-pqH7oBOwsaP1KHwl\" class=\"secret\"><p>What earth flora do these moon plants look like? What do they taste like, and how do they affect the eater physically?</p></section>",
+        "description": "<p>A imponente arquitetura prateada e azul da capital está intacta, mas coberta de flora bioluminescente que pulsa no ritmo das marés lunares. Um personagem que tiver sucesso em um Teste de Acuidade pode colher uma planta lunar sem matá-la. Um personagem que comer uma ou mais plantas lunares vivas recebe +1 de bônus em Testes de Conjuração até seu próximo descanso longo.</p><section id=\"secret-pqH7oBOwsaP1KHwl\" class=\"secret\"><p>A que flora terrestre essas plantas lunares se parecem? Qual o gosto delas e como afetam fisicamente quem as come?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -123,7 +123,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Eat Moon Plants",
+            "name": "Comer Plantas Lunares",
             "range": ""
           }
         },
@@ -134,10 +134,10 @@
       "img": "icons/magic/nature/leaf-glow-triple-teal.webp",
       "effects": [
         {
-          "name": "Moon Plant",
+          "name": "Planta Lunar",
           "disabled": false,
           "img": "icons/magic/nature/leaf-glow-triple-teal.webp",
-          "description": "<p>A PC who eats one or more living moon plants gains a +1 bonus to Spellcast Rolls until their next long rest.</p>",
+          "description": "<p>Um personagem que comer uma ou mais plantas lunares vivas recebe +1 de bônus em Testes de Conjuração até seu próximo descanso longo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -160,9 +160,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "spellcast"
-                ],
+                "actionTypes": ["spellcast"],
                 "traits": []
               }
             ]
@@ -203,11 +201,11 @@
       "_key": "!actors.items!qPo3w2ag677zAAa4.LBPo3tyONcyWo2ap"
     },
     {
-      "name": "Lunar Astrologium",
+      "name": "Astrológio Lunar",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Atop the highest tower in the capital city sits a crystal dream machine that can replay history. A PC who succeeds on a Knowledge Roll can repair the machine. Once the machine is repaired, a PC who succeeds on a Presence Roll can operate it to learn the history of the Moon Kingdom's rise and fall.</p><ul><li><p>Critical Success: The PC receives clear information about key events and figures in the Moon Kingdom's history and gains <strong>[[/r 1d4]]</strong> Hope, which they can distribute among PCs they share their visions with.</p></li><li><p>Success with Hope: The PC receives clear information about key events and figures in the Moon Kingdom's history.</p></li><li><p>Any roll with Fear: The PC receives brief flashes and sensations related to the kingdom's cataclysmic end. If the roll was a failure, the PC takes <strong>4d10+5</strong> magic damage as the visions assault their psyche.</p></li></ul><section id=\"secret-pggKJalwbqUZggZ8\" class=\"secret\"><p>What does this machinery look like, and how does it work? What do the PCs learn about the Moon Kingdom's history?</p></section>",
+        "description": "<p>No alto da torre mais alta da capital há uma máquina de sonhos de cristal capaz de reprisar a história. Um personagem que tiver sucesso em um Teste de Conhecimento pode consertar a máquina. Uma vez consertada, um personagem que tiver sucesso em um Teste de Presença pode operá-la para conhecer a história da ascensão e queda do Reino da Lua.</p><ul><li><p>Sucesso Crítico: O personagem recebe informações claras sobre eventos e figuras-chave da história do Reino da Lua e ganha <strong>[[/r 1d4]]</strong> de Esperança, que pode distribuir entre os personagens com quem compartilhar suas visões.</p></li><li><p>Sucesso com Esperança: O personagem recebe informações claras sobre eventos e figuras-chave da história do Reino da Lua.</p></li><li><p>Qualquer rolagem com Medo: O personagem recebe breves lampejos e sensações relacionados ao fim cataclísmico do reino. Se a rolagem foi uma falha, o personagem sofre <strong>4d10+5</strong> de dano mágico enquanto as visões assaltam sua psique.</p></li></ul><section id=\"secret-pggKJalwbqUZggZ8\" class=\"secret\"><p>Como é esta maquinaria e como ela funciona? O que os personagens aprendem sobre a história do Reino da Lua?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -233,9 +231,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -244,7 +240,7 @@
             "_id": "lYDqOLkyBEeQUdji",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Any roll with Fear: The PC receives brief flashes and sensations related to the kingdom's cataclysmic end. If the roll was a failure, the PC takes <strong>4d10+5</strong> magic damage as the visions assault their psyche.</p>",
+            "description": "<p>Qualquer rolagem com Medo: O personagem recebe breves lampejos e sensações relacionados ao fim cataclísmico do reino. Se a rolagem foi uma falha, o personagem sofre <strong>4d10+5</strong> de dano mágico enquanto as visões assaltam sua psique.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -283,11 +279,11 @@
       "_key": "!actors.items!qPo3w2ag677zAAa4.JbybeL7zwmsLBdgt"
     },
     {
-      "name": "The Moon Queen's Tomb",
+      "name": "O Túmulo da Rainha da Lua",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>The Moon Kingdom's final ruler has been preserved in a selenite coffin deep within the citadel. On a roll with Fear to investigate her chamber, her baleful shade awakens and attacks the party. Summon the Moon Queen's Spirit (Arch-Necromancer) next to her coffin and immediately spotlight her.</p><section id=\"secret-T4ooy4DmaUjaWXzA\" class=\"secret\"><p>Who buried her here, and why? Can she be resurrected, or is destroying her spirit the only path forward?</p></section>",
+        "description": "<p>A última governante do Reino da Lua foi preservada em um caixão de selenita nas profundezas da cidadela. Em uma rolagem com Medo para investigar seus aposentos, sua sombra maligna desperta e ataca o grupo. Invoque o Moon Queen's Spirit (Arch-Necromancer) ao lado de seu caixão e dê-lhe imediatamente o destaque.</p><section id=\"secret-T4ooy4DmaUjaWXzA\" class=\"secret\"><p>Quem a enterrou aqui e por quê? Ela pode ser ressuscitada ou destruir seu espírito é o único caminho?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -338,7 +334,7 @@
   "_id": "qPo3w2ag677zAAa4",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Moon Kingdom",
+    "name": "Reino da Lua",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

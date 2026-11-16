@@ -1,5 +1,5 @@
 {
-  "name": "Winged Beast",
+  "name": "Fera Alada",
   "type": "beastform",
   "img": "icons/creatures/birds/raptor-owl-flying-moon.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "finesse",
     "advantageOn": {
       "DgZ77yPVJqNq7rxY": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "HCH9ogsxcP0r3fU2": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "WST3bOmxoIeSHYqX": {
-        "value": "Scare"
+        "value": "Intimidar"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Hawk, Owl, Raven, etc.",
+    "examples": "Gavião, Coruja, Corvo etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "Ln3atrxiqtPA0Wi6",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "finesse",
               "damageFormula": "@profd4 + 2",

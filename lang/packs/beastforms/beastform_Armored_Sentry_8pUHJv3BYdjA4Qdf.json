@@ -1,5 +1,5 @@
 {
-  "name": "Armored Sentry",
+  "name": "Carapaça Vigilante",
   "type": "beastform",
   "img": "icons/creatures/reptiles/turtle-shell-glowing-green.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "strength",
     "advantageOn": {
       "4AbCgOZvyUFH9Pug": {
-        "value": "Dig"
+        "value": "Cavar"
       },
       "8GsRyXaQnfsGNGW6": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "0ut15QizNIG254Vw": {
-        "value": "Protect"
+        "value": "Proteger"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Armadillo, Pangolin, Turtle, etc.",
+    "examples": "Tatu, Pangolim, Tartaruga etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "hd0uVl6ZZeyPJn9O",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd8 + 2",

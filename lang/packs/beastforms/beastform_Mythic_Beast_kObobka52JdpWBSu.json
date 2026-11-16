@@ -1,5 +1,5 @@
 {
-  "name": "Mythic Beast",
+  "name": "Fera Mítica",
   "type": "beastform",
   "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
   "system": {
@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "vhwbPQ2YT64qD1t1",
       "system": {
@@ -73,7 +73,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Pick a Tier 1 or Tier 2 Beastform option and become a larger, more powerful version of that creature. While you're in this form, you retain all traits and features from the original form and gain the the following bonuses:</p><ul><li><p>A +9 bonus to damage rolls</p></li><li><p>A +2 bonus to the trait used by this form</p></li><li><p>A +3 bonus to Evasion</p></li><li><p>Your damage die increases by one size (d6 becomes d8, d8 becomes d10 etc.)</p></li></ul>",
+      "description": "<p>Escolha uma opção de Forma de Fera de Patamar 1 ou 2 e torne-se uma versão maior e mais poderosa dessa criatura. Enquanto estiver nesta forma, você mantém todos os atributos e características da forma original e ganha os seguintes bônus:</p><ul><li><p>+9 de bônus nas rolagens de dano</p></li><li><p>+2 de bônus no atributo usado por esta forma</p></li><li><p>+3 de bônus na Evasão</p></li><li><p>Seu dado de dano aumenta em um tamanho (d6 vira d8, d8 vira d10 etc.)</p></li></ul>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

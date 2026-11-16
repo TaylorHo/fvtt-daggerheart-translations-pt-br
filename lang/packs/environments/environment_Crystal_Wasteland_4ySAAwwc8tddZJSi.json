@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Crystal Wasteland",
+  "name": "Deserto de Cristal",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "traversal",
-    "description": "<p>A harsh and alien landscape that shines with towers of glittering crystal.</p>",
+    "description": "<p>Uma paisagem hostil e alienígena que brilha com torres de cristal reluzente.</p>",
     "tier": 3,
-    "impulses": "Cut them to their core, fracture their psyches, show their true reflection",
+    "impulses": "Cortá-los até o âmago, fraturar suas psiques, mostrar seu verdadeiro reflexo",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "ALbfIsyRuqyBQ1AG": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.G7jiltRjgvVhZewm",
           "Compendium.daggerheart.adversaries.Actor.P7h54ZePFPHpYwvB",
@@ -29,11 +29,11 @@
   },
   "items": [
     {
-      "name": "Harmonic Resonance",
+      "name": "Ressonância Harmônica",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The crystals here reverberate with magical energy. A PC can use a downtime move to try to Attune to the environment with a successful Spellcast Roll. While Attuned, the PC has advantage on Spellcast Rolls inside the Crystal Wasteland. The condition is cleared when the PC leaves the Crystal Wasteland.</p><section id=\"secret-qLEwNaUi96HZAhIB\" class=\"secret\"><p>How does attunement to this place alter your sensory experience of it? What sound or song from your childhood does this place conjure?</p></section>",
+        "description": "<p>Os cristais aqui reverberam com energia mágica. Um personagem pode usar uma ação de intervalo para tentar Sintonizar-se com o ambiente com um Teste de Conjuração bem-sucedido. Enquanto Sintonizado, o personagem tem vantagem em Testes de Conjuração dentro do Ermo de Cristal. A condição é removida quando o personagem deixa o Ermo de Cristal.</p><section id=\"secret-qLEwNaUi96HZAhIB\" class=\"secret\"><p>Como a sintonia com este lugar altera sua experiência sensorial dele? Que som ou canção de sua infância este lugar evoca?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -68,7 +68,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Attuned",
+            "name": "Aplicar Sintonizado",
             "range": ""
           }
         },
@@ -79,10 +79,10 @@
       "img": "icons/commodities/gems/gem-fragments-blue.webp",
       "effects": [
         {
-          "name": "Attuned",
+          "name": "Sintonizado",
           "disabled": false,
           "img": "icons/commodities/gems/gem-fragments-blue.webp",
-          "description": "<p>While Attuned, the PC has advantage on Spellcast Rolls inside the Crystal Wasteland. The condition is cleared when the PC leaves the Crystal Wasteland.</p>",
+          "description": "<p>Enquanto Sintonizado, o personagem tem vantagem em Testes de Conjuração dentro do Ermo de Cristal. A condição é removida quando o personagem deixa o Ermo de Cristal.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -140,11 +140,11 @@
       "_key": "!actors.items!4ySAAwwc8tddZJSi.LgyMzjLLV8C02XUt"
     },
     {
-      "name": "Gravitational Anomalies",
+      "name": "Anomalias Gravitacionais",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Strange, localized phenomena dot the landscape, warping distance and direction. <strong>Spend a Fear</strong> to alter the gravity at a chosen point. Each target within Close range of that point must make a Knowledge Reaction Roll to calculate their new trajectories. Targets who fail take <strong>3d8+4</strong> physical damage as they are thrown up and away. Targets who succeed must mark a Stress or take half damage.</p><section id=\"secret-LgbiOKDoUn54hrGO\" class=\"secret\"><p>What does it feel like as your body and mind fight to reestablish equilibrium? Is there any way to use this to your advantage?</p></section>",
+        "description": "<p>Fenômenos estranhos e localizados pontilham a paisagem, distorcendo distância e direção. <strong>Gaste 1 de Medo</strong> para alterar a gravidade em um ponto escolhido. Cada alvo em alcance Próximo desse ponto deve fazer um Teste de Reação de Conhecimento para calcular suas novas trajetórias. Alvos que falharem sofrem <strong>3d8+4</strong> de dano físico ao serem lançados para cima e para longe. Alvos que tiverem sucesso devem marcar 1 Fadiga ou sofrer metade do dano.</p><section id=\"secret-LgbiOKDoUn54hrGO\" class=\"secret\"><p>Como é sentir seu corpo e sua mente lutando para restabelecer o equilíbrio? Há alguma forma de usar isso a seu favor?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -170,9 +170,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -190,7 +188,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Gravitational Anomalies",
+                "name": "Anomalias Gravitacionais",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -239,7 +237,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -258,11 +256,11 @@
       "_key": "!actors.items!4ySAAwwc8tddZJSi.njOwlE1SWd2fsBtP"
     },
     {
-      "name": "Arcane Reflection",
+      "name": "Reflexo Arcano",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have any number of PCs glimpse a reflection in the crystal of who they once were or might become. Each target must make an Instinct Reaction Roll. Targets who succeed see a vision of their better self and can replace one Experience. Targets who fail see a vision of their dark past—or an even darker future—and must mark a Stress. You gain a Fear for each target who failed.</p><section id=\"secret-TwOocOxYE2TLlqOO\" class=\"secret\"><p>Who do the PCs see on the other side of the crystal? How does it make them feel?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para que qualquer número de personagens vislumbre no cristal um reflexo de quem já foram ou poderiam se tornar. Cada alvo deve fazer um Teste de Reação de Instinto. Alvos que tiverem sucesso veem uma visão de sua melhor versão e podem substituir uma Experiência. Alvos que falharem veem uma visão de seu passado sombrio — ou de um futuro ainda mais sombrio — e devem marcar 1 Fadiga. Você ganha 1 de Medo para cada alvo que falhou.</p><section id=\"secret-TwOocOxYE2TLlqOO\" class=\"secret\"><p>Quem os personagens veem do outro lado do cristal? Como isso os faz sentir?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -344,7 +342,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -363,11 +361,11 @@
       "_key": "!actors.items!4ySAAwwc8tddZJSi.oQR35SLZzSVAnqTB"
     },
     {
-      "name": "Razor-Sharp Terrain",
+      "name": "Terreno Afiado como Navalha",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC fails a roll to navigate the wasteland, they must make a Finesse Reaction Roll. On a failure, they cut themselves on the sharp edges of the terrain. Shards of magic crystal become embedded in their wound and slowly grow, Crystallizing them. Activate a Crystal Countdown (1) for that PC. Until they remove the condition with a successful Knowledge Roll, a Crystallizing PC ticks up their Crystal Countdown at the start of each rest and gains a penalty to their Evasion equal to its value. The countdown ends when the condition is cleared.</p><section id=\"secret-h9sBCHQ9Kh6Vk6u2\" class=\"secret\"><p>What does the crystal look like as it grows? What does it feel like?</p></section>",
+        "description": "<p>Quando um personagem falha em uma rolagem para navegar pelo ermo, ele deve fazer um Teste de Reação de Acuidade. Em caso de falha, ele se corta nas bordas afiadas do terreno. Estilhaços de cristal mágico ficam incrustados em seu ferimento e crescem lentamente, Cristalizando-o. Ative uma Contagem Regressiva de Cristal (1) para esse personagem. Até remover a condição com um Teste de Conhecimento bem-sucedido, um personagem Cristalizando aumenta sua Contagem Regressiva de Cristal no início de cada descanso e recebe uma penalidade em sua Evasão igual ao valor dela. A contagem regressiva termina quando a condição é removida.</p><section id=\"secret-h9sBCHQ9Kh6Vk6u2\" class=\"secret\"><p>Como é o cristal enquanto cresce? Qual a sensação dele?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -426,7 +424,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Apply Crystalizing",
+            "name": "Aplicar Cristalizando",
             "range": ""
           }
         },
@@ -437,10 +435,10 @@
       "img": "icons/commodities/gems/gem-faceted-tapered-blue.webp",
       "effects": [
         {
-          "name": "Crystalizing",
+          "name": "Cristalizando",
           "disabled": false,
           "img": "icons/commodities/gems/gem-faceted-tapered-blue.webp",
-          "description": "<p>Until they remove the condition with a successful Knowledge Roll, a Crystallizing PC ticks up their Crystal Countdown at the start of each rest and gains a penalty to their Evasion equal to its value. The countdown ends when the condition is cleared.</p>",
+          "description": "<p>Até remover a condição com um Teste de Conhecimento bem-sucedido, um personagem Cristalizando aumenta sua Contagem Regressiva de Cristal no início de cada descanso e recebe uma penalidade em sua Evasão igual ao valor dela. A contagem regressiva termina quando a condição é removida.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -501,11 +499,11 @@
       "_key": "!actors.items!4ySAAwwc8tddZJSi.cQ6riYtHFwRCbezK"
     },
     {
-      "name": "Psychic Shuffle",
+      "name": "Embaralhar Psíquico",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the PCs take a long rest, you can <strong>spend a Fear</strong> to swap their psyches. Collect all the players' character sheets, then shuffle and randomly redistribute them. Each character sheet comes with that PC's Domain cards and player aids. A PC can regain their psyche with a successful Knowledge Roll, at which point they trade sheets with the player who has their original character sheet.</p><section id=\"secret-bXSAzjDUhEMAtZSv\" class=\"secret\"><p>How does it feel being in someone else's skin? If you could choose to stay like them in one way, what would it be?</p></section>",
+        "description": "<p>Quando os personagens fazem um descanso longo, você pode <strong>gastar 1 de Medo</strong> para trocar suas psiques. Recolha as fichas de personagem de todos os jogadores, então embaralhe e redistribua aleatoriamente. Cada ficha de personagem vem com as cartas de Domínio e os auxílios de jogador daquele personagem. Um personagem pode recuperar sua psique com um Teste de Conhecimento bem-sucedido, e então troca de ficha com o jogador que está com sua ficha de personagem original.</p><section id=\"secret-bXSAzjDUhEMAtZSv\" class=\"secret\"><p>Como é estar na pele de outra pessoa? Se pudesse escolher continuar como ela em um aspecto, qual seria?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -544,7 +542,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -566,7 +564,7 @@
   "_id": "4ySAAwwc8tddZJSi",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Crystal Wasteland",
+    "name": "Ermo de Cristal",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

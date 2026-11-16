@@ -1,5 +1,5 @@
 {
-  "name": "Stalking Arachnid",
+  "name": "Aracnídeo Espreitador",
   "type": "beastform",
   "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "finesse",
     "advantageOn": {
       "udIR54Etg9sx2XbM": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "6On5GDzLxq6bao36": {
-        "value": "Climb"
+        "value": "Escalar"
       },
       "IZjCaeEmcRBzGeDn": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Tarantula, Wolf Spider, etc.",
+    "examples": "Tarântula, Aranha-lobo etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "YkZX2yc2X0QDFPBG",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "finesse",
               "damageFormula": "@profd6 + 1",

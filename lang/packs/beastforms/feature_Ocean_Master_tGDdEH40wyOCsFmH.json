@@ -1,16 +1,16 @@
 {
-  "name": "Ocean Master",
+  "name": "Mestre do Oceano",
   "type": "feature",
   "img": "icons/creatures/fish/fish-bioluminous-blue.webp",
   "system": {
-    "description": "<p>You can breathe and move naturally underwater. When you succeed on an attack against a target within Melee range, you can temporarily <em>Restrain</em> them.</p>",
+    "description": "<p>Você pode respirar e se mover naturalmente debaixo d'água. Quando você tem sucesso em um ataque contra um alvo em alcance Corpo a Corpo, pode <em>Imobilizá-lo</em> temporariamente.</p>",
     "resource": null,
     "actions": {
       "ge2koBRj4snhIzDA": {
         "type": "effect",
         "_id": "ge2koBRj4snhIzDA",
         "systemPath": "actions",
-        "description": "<p>When you succeed on an attack against a target within Melee range, you can temporarily <em>Restrain</em> them.</p>",
+        "description": "<p>Quando você tem sucesso em um ataque contra um alvo em alcance Corpo a Corpo, pode <em>Imobilizá-lo</em> temporariamente.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -30,7 +30,7 @@
           "type": null,
           "amount": null
         },
-        "name": "Restrain",
+        "name": "Imobilizar",
         "img": "icons/creatures/fish/fish-bioluminous-blue.webp",
         "range": "",
         "baseAction": false,
@@ -53,7 +53,7 @@
   },
   "effects": [
     {
-      "name": "Ocean Master",
+      "name": "Mestre do Oceano",
       "img": "icons/creatures/fish/fish-bioluminous-blue.webp",
       "transfer": false,
       "_id": "6GBczj8REkDmgX2Q",
@@ -78,9 +78,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "restrained"
-      ],
+      "statuses": ["restrained"],
       "sort": 0,
       "flags": {},
       "_stats": {

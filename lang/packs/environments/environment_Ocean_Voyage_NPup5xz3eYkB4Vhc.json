@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Ocean Voyage",
+  "name": "Viagem Oceânica",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "traversal",
-    "description": "<p>The PCs gain passage to a far-off destination by offering their labor in exchange.</p>",
+    "description": "<p>Os personagens conseguem passagem para um destino distante oferecendo seu trabalho em troca.</p>",
     "tier": 2,
-    "impulses": "Reveal what lurks beneath the waves, send them in the wrong direction, sink the ship, use up their resources",
+    "impulses": "Revelar o que espreita sob as ondas, enviá-los na direção errada, afundar o navio, esgotar seus recursos",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "1jkJtSVsk6R7dwt6": {
-        "label": "Deep Sea Denizens",
+        "label": "Habitantes do Mar Profundo",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.TLzY1nDw0Bu9Ud40",
           "Compendium.daggerheart.adversaries.Actor.4nqv3ZwJGjnmic8j",
@@ -23,7 +23,7 @@
         ]
       },
       "yvbQHy61C6WGqrAC": {
-        "label": "Pirates",
+        "label": "Piratas",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.OROJbjsqagVh7ECV",
           "Compendium.daggerheart.adversaries.Actor.5YgEajn0wa4i85kC"
@@ -34,21 +34,21 @@
   },
   "items": [
     {
-      "name": "Open Water",
+      "name": "Mar Aberto",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (8). Reaching their destination requires the party to complete the Open Water Countdown. It ticks down when a PC succeeds on an action roll to aid the ship's journey.</p><section id=\"secret-Y98FsUG7DS8SkoNy\" class=\"secret\"><p>Where is the ship headed? What dangers along the route do the crew speak about in hushed tones?</p></section>",
+        "description": "<p>Contagem Regressiva (8). Chegar ao destino exige que o grupo complete a Contagem Regressiva de Mar Aberto. Ela diminui quando um personagem tem sucesso em um teste de ação para auxiliar a viagem do navio.</p><section id=\"secret-Y98FsUG7DS8SkoNy\" class=\"secret\"><p>Para onde o navio está indo? Que perigos da rota a tripulação comenta em voz baixa?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "GlWdHSDokrOWrLZ9": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Open Water",
+                "name": "Mar Aberto",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/water/wave-water-blue.webp",
@@ -98,11 +98,11 @@
       "_key": "!actors.items!NPup5xz3eYkB4Vhc.Zlo11bOuvioULbVJ"
     },
     {
-      "name": "Rations Run Low",
+      "name": "Rações Acabando",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The first time a PC rolls a failure with Fear on this journey, the crew discovers that the food and fresh water in the ship's hold have been befouled by pests and mold. Until the party reaches its destination, a PC who makes an action roll to advance the Open Water Countdown must succeed on a Strength Reaction Roll or mark a Stress first.</p><section id=\"secret-2ahDDnn1hplEjUMi\" class=\"secret\"><p>What happened to the rations? What drastic measures does the crew take to ensure they don't all die of hunger and thirst?</p></section>",
+        "description": "<p>Na primeira vez que um personagem rolar uma falha com Medo nesta jornada, a tripulação descobre que a comida e a água fresca no porão do navio foram estragadas por pragas e mofo. Até o grupo chegar ao destino, um personagem que faça um teste de ação para avançar a Contagem Regressiva de Mar Aberto deve primeiro ter sucesso em um Teste de Reação de Força ou marcar 1 Fadiga.</p><section id=\"secret-2ahDDnn1hplEjUMi\" class=\"secret\"><p>O que aconteceu com as rações? Que medidas drásticas a tripulação toma para garantir que não morram todos de fome e sede?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -175,7 +175,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Hunger Roll",
+            "name": "Teste de Fome",
             "range": ""
           }
         },
@@ -194,21 +194,21 @@
       "_key": "!actors.items!NPup5xz3eYkB4Vhc.LuFQmRD0fVO3L8e4"
     },
     {
-      "name": "\"Pirates!\"",
+      "name": "\"Piratas!\"",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have a crewmember in the crow's nest spy black sails on the horizon! Start a Consequence Countdown (4). If it triggers before the party reaches their destination, the pirates catch up to the ship and board it. Gain a Fear, then summon one Pirate Captain and three Hordes of Pirate Raiders within Close range of the party.</p><section id=\"secret-yLGOWZhusEDol9jX\" class=\"secret\"><p>Does the captain recognize the ship that's giving chase? What ungentlemanly practices are the pirates in this area famous for?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para que um tripulante no cesto da gávea avista velas negras no horizonte! Inicie uma Contagem Regressiva de Consequência (4). Se ela disparar antes de o grupo chegar ao destino, os piratas alcançam o navio e o abordam. Ganhe 1 de Medo, então invoque um Pirate Captain e três Hordas de Pirate Raiders em alcance Próximo do grupo.</p><section id=\"secret-yLGOWZhusEDol9jX\" class=\"secret\"><p>O capitão reconhece o navio que está perseguindo? Pelas práticas pouco cavalheirescas de que os piratas desta região são famosos?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "AM4eoWDdD6FGNdpr": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "\"Pirates!\"",
+                "name": "\"Piratas!\"",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/commodities/currency/coin-engraved-skull-gold.webp",
@@ -225,7 +225,7 @@
             "_id": "AM4eoWDdD6FGNdpr",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Spend a Fear</strong> to have a crewmember in the crow's nest spy black sails on the horizon! Start a Consequence Countdown (4).</p><section id=\"secret-yLGOWZhusEDol9jX\" class=\"secret\"><p>Does the captain recognize the ship that's giving chase? What ungentlemanly practices are the pirates in this area famous for?</p></section>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para que um tripulante no cesto da gávea avista velas negras no horizonte! Inicie uma Contagem Regressiva de Consequência (4).</p><section id=\"secret-yLGOWZhusEDol9jX\" class=\"secret\"><p>O capitão reconhece o navio que está perseguindo? Pelas práticas pouco cavalheirescas de que os piratas desta região são famosos?</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -247,7 +247,7 @@
             "_id": "phsCnHpUL2dW0usB",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>If it triggers before the party reaches their destination, the pirates catch up to the ship and board it. Gain a Fear, then summon one Pirate Captain and three Hordes of Pirate Raiders within Close range of the party.</p>",
+            "description": "<p>Se disparar antes de o grupo chegar ao destino, os piratas alcançam o navio e o abordam. Ganhe 1 de Medo, então invoque um Pirate Captain e três Hordas de Pirate Raiders em alcance Próximo do grupo.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -272,7 +272,7 @@
                 "count": "3"
               }
             ],
-            "name": "Consequence Trigger",
+            "name": "Gatilho da Consequência",
             "range": "",
             "img": "icons/magic/control/mouth-smile-deception-purple.webp"
           }
@@ -292,11 +292,11 @@
       "_key": "!actors.items!NPup5xz3eYkB4Vhc.tvisN7BBtyqYfbYm"
     },
     {
-      "name": "Foul Weather",
+      "name": "Mau Tempo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Open Water Countdown ticks down to an odd number, roll a <strong>d6</strong>. On a result of 4 or higher, the ship runs into a patch of foul weather, such as a fog bank that makes navigation difficult or a squall that threatens to capsize the ship. Each PC must succeed on a reaction roll using a relevant trait chosen by the GM or mark <strong>1d4</strong> Stress.</p><section id=\"secret-q3ZonXxWUaf350tb\" class=\"secret\"><p>What makes this weather different from anything the PCs have experienced before? How do they coordinate with the crew to find their way through this hazard?</p></section>",
+        "description": "<p>Quando a Contagem Regressiva de Mar Aberto diminuir para um número ímpar, role um <strong>d6</strong>. Em um resultado de 4 ou mais, o navio enfrenta uma área de mau tempo, como um banco de neblina que dificulta a navegação ou uma rajada que ameaça virar o navio. Cada personagem deve ter sucesso em um teste de reação usando um atributo relevante escolhido pelo Mestre ou marcar <strong>1d4</strong> de Fadiga.</p><section id=\"secret-q3ZonXxWUaf350tb\" class=\"secret\"><p>O que torna este clima diferente de tudo que os personagens já viveram? Como se coordenam com a tripulação para atravessar este perigo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -350,7 +350,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Weather Check",
+            "name": "Verificação de Clima",
             "range": ""
           },
           "Vl8CVLgqLA5lYIFv": {
@@ -421,7 +421,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -440,11 +440,11 @@
       "_key": "!actors.items!NPup5xz3eYkB4Vhc.A8979rx43bQwftNO"
     },
     {
-      "name": "Here There Be Monsters",
+      "name": "Aqui Há Monstros",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Open Water Countdown ticks down to an even number, roll a <strong>d6</strong>. On a result of 4 or higher, summon <strong>[[/r 1d4]]</strong> Deep Sea Denizens.</p><section id=\"secret-edpkLKKioU8ToEDv\" class=\"secret\"><p>What attracts these creatures to the ship? Is there any way to drive them off without combat?</p></section>",
+        "description": "<p>Quando a Contagem Regressiva de Mar Aberto diminuir para um número par, role um <strong>d6</strong>. Em um resultado de 4 ou mais, invoque <strong>[[/r 1d4]]</strong> Deep Sea Denizens.</p><section id=\"secret-edpkLKKioU8ToEDv\" class=\"secret\"><p>O que atrai essas criaturas ao navio? Existe alguma forma de afastá-las sem combate?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -498,7 +498,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Monster Check",
+            "name": "Verificação de Monstros",
             "range": ""
           }
         },
@@ -520,7 +520,7 @@
   "_id": "NPup5xz3eYkB4Vhc",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Ocean Voyage",
+    "name": "Viagem Oceânica",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

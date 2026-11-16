@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Deadly Dungeon",
+  "name": "Masmorra Mortal",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "exploration",
-    "description": "<p>A dimly lit subterranean network of tunnels and chambers filled with monsters, traps, and treasure.</p>",
+    "description": "<p>Uma rede subterrânea mal iluminada de túneis e câmaras repleta de monstros, armadilhas e tesouros.</p>",
     "tier": 2,
-    "impulses": "Devour the party's resources, spring the trap, tempt them with treasure, throw monsters at them, turn them around",
+    "impulses": "Devorar os recursos do grupo, armar a armadilha, tentá-los com tesouros, lançar monstros contra eles, fazê-los voltar",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "sGbzbXsgB4qjaZbz": {
-        "label": "Dungeon Denizens",
+        "label": "Habitantes da Masmorra",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.Nx7LCcitOvQvXb8X",
           "Compendium.daggerheart.adversaries.Actor.SHXedd9zZPVfUgUa",
@@ -23,7 +23,7 @@
         ]
       },
       "BhKfIeoClSGtemGN": {
-        "label": "Rival Adventurers",
+        "label": "Aventureiros Rivais",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.YnObCleGjPT7yqEc",
           "Compendium.daggerheart.adversaries.Actor.niBpVU7yeo5ccskE",
@@ -35,21 +35,21 @@
   },
   "items": [
     {
-      "name": "Twists and Turns",
+      "name": "Reviravoltas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (6). When the party enters the dungeon, activate the countdown. It ticks down when a PC succeeds on an action roll to navigate the passages. When it triggers, the PCs reach the deepest, darkest, best-defended part of the dungeon.</p><section id=\"secret-U1QJ76Mn90bhcq6y\" class=\"secret\"><p>What reward lies at the heart of the maze? Who built this labyrinth to protect it?</p></section>",
+        "description": "<p>Contagem Regressiva (6). Quando o grupo entrar na masmorra, ative a contagem regressiva. Ela diminui quando um personagem tem sucesso em um teste de ação para navegar pelas passagens. Quando disparar, os personagens chegam à parte mais profunda, escura e bem defendida da masmorra.</p><section id=\"secret-U1QJ76Mn90bhcq6y\" class=\"secret\"><p>Que recompensa jaz no coração do labirinto? Quem construiu este labirinto para protegê-la?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "DrDWYorQQD7Z6uwt": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Twists and Turns",
+                "name": "Reviravoltas",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/wilderness/cave-entrance.webp",
@@ -99,11 +99,11 @@
       "_key": "!actors.items!tQpntfbUjUjmXc3e.G6rUp9taBiyUIQvy"
     },
     {
-      "name": "Deep Pockets",
+      "name": "Bolsos Fundos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Once per rest, the PCs can find a cache of treasure inside the dungeon, either on the corpses of previous delvers or behind hidden doors. On a successful roll to navigate the dungeon, a PC can spend up to 5 Hope to roll that number of <strong>[[/r d6]]{d6s}</strong>. Each result rolled gains the party the following loot or equipment:</p><ol><li><p>Loose gemstones, jewelry, baubles, or coins equal to a handful of gold</p></li><li><p>A common item or consumable</p></li><li><p>An uncommon item or consumable</p></li><li><p>A rare item or consumable</p></li><li><p>A legendary item or consumable</p></li><li><p>A weapon or an armor from the party's tier</p></li></ol><section id=\"secret-pijQnwy6NtYYhveZ\" class=\"secret\"><p>What were the previous owners like? How do the PCs plan to get their purloined items out of the dungeon?</p></section>",
+        "description": "<p>Uma vez por descanso, os personagens podem encontrar um esconderijo de tesouro dentro da masmorra, seja nos cadáveres de exploradores anteriores ou atrás de portas ocultas. Com uma rolagem bem-sucedida para navegar pela masmorra, um personagem pode gastar até 5 de Esperança para rolar essa quantidade de <strong>[[/r d6]]{d6s}</strong>. Cada resultado rolado dá ao grupo o seguinte saque ou equipamento:</p><ol><li><p>Gemas soltas, joias, bugigangas ou moedas equivalentes a um punhado de ouro</p></li><li><p>Um item ou consumível comum</p></li><li><p>Um item ou consumível incomum</p></li><li><p>Um item ou consumível raro</p></li><li><p>Um item ou consumível lendário</p></li><li><p>Uma arma ou armadura do patamar do grupo</p></li></ol><section id=\"secret-pijQnwy6NtYYhveZ\" class=\"secret\"><p>Como eram os antigos donos? Como os personagens planejam tirar seus itens surrupiados da masmorra?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -123,11 +123,11 @@
       "_key": "!actors.items!tQpntfbUjUjmXc3e.Y8BCsSqUBRNVycHf"
     },
     {
-      "name": "Wandering Monster",
+      "name": "Monstro Errante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the party enters a new area of the dungeon, you can <strong>spend a Fear</strong> to summon <strong>1d4</strong> adversaries at or below the party's tier within Far range and roll a <strong>[[/r d6]]</strong>. On a result of 1 or 2, the PCs notice warning signs and can prepare for the encounter; the first PC to make an action roll gains advantage on it. On a result of 3 or 4, the combat occurs as usual. On a result of 5 or 6, the adversaries get the drop on the PCs and immediately take the spotlight, and you gain a Fear.</p><section id=\"secret-mX9aXZNDuTk77Dln\" class=\"secret\"><p>How did these creatures come to be here? What were they doing when the PCs encountered them?</p></section>",
+        "description": "<p>Quando o grupo entra em uma nova área da masmorra, você pode <strong>gastar 1 de Medo</strong> para invocar <strong>1d4</strong> adversários de patamar igual ou inferior ao do grupo em alcance Distante e rolar um <strong>[[/r d6]]</strong>. Em um resultado de 1 ou 2, os personagens notam sinais de alerta e podem se preparar para o encontro; o primeiro personagem a fazer um teste de ação tem vantagem nele. Em um resultado de 3 ou 4, o combate ocorre normalmente. Em um resultado de 5 ou 6, os adversários pegam os personagens de surpresa e recebem imediatamente o destaque, e você ganha 1 de Medo.</p><section id=\"secret-mX9aXZNDuTk77Dln\" class=\"secret\"><p>Como essas criaturas vieram parar aqui? O que estavam fazendo quando os personagens as encontraram?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -166,7 +166,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -185,11 +185,11 @@
       "_key": "!actors.items!tQpntfbUjUjmXc3e.1onLVsttc9m0tcfW"
     },
     {
-      "name": "Booby Traps",
+      "name": "Armadilhas Explosivas",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC fails an action roll to navigate the dungeon, activate a trap or hazard such as a spike pit, gauntlet of swinging blades, or locked room slowly filling with water. The party must succeed on a group action roll to deactivate, disarm, or escape it. On a failure, each PC involved in the group action roll takes <strong>2d6+3</strong> physical or magic damage (GM's choice).</p><section id=\"secret-ORvRK15fEmVPMhNn\" class=\"secret\"><p>What kinds of traps and hazards fill this dungeon? What does their construction tell you about whoever designed them? Have any of them been triggered prior to the party's arrival?</p></section>",
+        "description": "<p>Quando um personagem falha em um teste de ação para navegar pela masmorra, ative uma armadilha ou perigo, como um fosso de espetos, um corredor de lâminas oscilantes ou uma sala trancada que se enche lentamente de água. O grupo deve ter sucesso em um teste de ação em grupo para desativá-la, desarmá-la ou escapar dela. Em caso de falha, cada personagem envolvido no teste de ação em grupo sofre <strong>2d6+3</strong> de dano físico ou mágico (à escolha do Mestre).</p><section id=\"secret-ORvRK15fEmVPMhNn\" class=\"secret\"><p>Que tipos de armadilhas e perigos enchem esta masmorra? O que sua construção revela sobre quem as projetou? Alguma delas já foi acionada antes da chegada do grupo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,9 +215,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -268,7 +266,7 @@
   "_id": "tQpntfbUjUjmXc3e",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Deadly Dungeon",
+    "name": "Masmorra Mortal",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,16 +1,16 @@
 {
-  "name": "Rampage",
+  "name": "Ataque Violento",
   "type": "feature",
   "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
   "system": {
-    "description": "<p>When you roll a 1 on a damage die, you can roll a d10 and add the result to the damage roll. Additionally, before you make an attack roll, you can <strong>mark a Stress</strong> to gain a +1 bonus to your Proficiency for that attack.</p>",
+    "description": "<p>Quando você rola 1 em um dado de dano, pode rolar um d10 e somar o resultado à rolagem de dano. Além disso, antes de fazer um teste de ataque, você pode <strong>marcar 1 Fadiga</strong> para receber +1 de bônus na Proficiência nesse ataque.</p>",
     "resource": null,
     "actions": {
       "N7IoOHpqcvcJNsJQ": {
         "type": "effect",
         "_id": "N7IoOHpqcvcJNsJQ",
         "systemPath": "actions",
-        "description": "<p>Before you make an attack roll, you can mark a Stress to gain a +1 bonus to your Proficiency for that attack.</p>",
+        "description": "<p>Antes de fazer um teste de ataque, você pode marcar 1 Fadiga para receber +1 de bônus na Proficiência nesse ataque.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -39,7 +39,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
         "range": "self",
         "baseAction": false,
@@ -62,7 +62,7 @@
   },
   "effects": [
     {
-      "name": "Rampage",
+      "name": "Ataque Violento",
       "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
       "transfer": false,
       "_id": "A7l4JEBC1FFQajsN",
@@ -92,7 +92,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Before you make an attack roll, you can mark a Stress to gain a +1 bonus to your Proficiency for that attack.</p>",
+      "description": "<p>Antes de fazer um teste de ataque, você pode marcar 1 Fadiga para receber +1 de bônus na Proficiência nesse ataque.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

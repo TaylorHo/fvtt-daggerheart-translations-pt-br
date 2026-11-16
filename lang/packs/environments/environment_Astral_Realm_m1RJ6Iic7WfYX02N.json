@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Astral Realm",
+  "name": "Reino Astral",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "traversal",
-    "description": "<p>A psychic realm of energy and emotion, where the strong in spirit can reshape the rules of reality.</p>",
+    "description": "<p>Um reino psíquico de energia e emoção, onde os fortes de espírito podem remodelar as regras da realidade.</p>",
     "tier": 3,
-    "impulses": "Attack their psyches, summon their subconscious fears, warp their perceptions",
+    "impulses": "Atacar suas psiques, invocar seus medos subconscientes, distorcer suas percepções",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "slL9ro9IoNdBE1Yf": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.kE4dfhqmIQpNd44e",
           "Compendium.daggerheart.adversaries.Actor.P7h54ZePFPHpYwvB",
@@ -22,7 +22,7 @@
         ]
       },
       "UIANRGlgpUvlLzlC": {
-        "label": "Psychic Vampires",
+        "label": "Vampiros Psíquicos",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.i2UNbRvgyoSs07M6",
           "Compendium.daggerheart.adversaries.Actor.woVws0rcFaedtW3g"
@@ -33,11 +33,11 @@
   },
   "items": [
     {
-      "name": "Out-of-Body Experience",
+      "name": "Experiência Fora do Corpo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Because the party isn't physically in this realm, Strength, Agility, and Finesse Rolls automatically fail. Additionally, when a character would mark a HP, they must lose a Hope or mark a Stress instead. If a character can't mark a Stress, they must make a death move.</p><section id=\"secret-A45bSa6klHKxPj9D\" class=\"secret\"><p>How does the projection of your mental self-image differ from your physical appearance? Which one do you consider the \"real\" you?</p></section>",
+        "description": "<p>Como o grupo não está fisicamente neste reino, Testes de Força, Agilidade e Acuidade falham automaticamente. Além disso, quando um personagem marcaria 1 PV, ele deve perder 1 de Esperança ou marcar 1 Fadiga. Se um personagem não puder marcar Fadiga, deve fazer um movimento de morte.</p><section id=\"secret-A45bSa6klHKxPj9D\" class=\"secret\"><p>Como a projeção de sua autoimagem mental difere de sua aparência física? Qual delas você considera o \"verdadeiro\" você?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -57,11 +57,11 @@
       "_key": "!actors.items!m1RJ6Iic7WfYX02N.Fq76Ws72FOecLook"
     },
     {
-      "name": "Mental Manifestations",
+      "name": "Manifestações Mentais",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>With a successful Knowledge Roll, PCs can alter the psychic environment, such as by inverting gravity or conjuring a rapidly self-assembling staircase. A PC can use a mental manifestation once per scene to gain advantage on a roll to navigate the Astral Realm.</p><section id=\"secret-ER9W41lXmtlfbQhF\" class=\"secret\"><p>Is the construct you manifest a memory from real life or a figment of your own imagination? What key detail do you focus on to make it more stable?</p></section>",
+        "description": "<p>Com um Teste de Conhecimento bem-sucedido, os personagens podem alterar o ambiente psíquico, como inverter a gravidade ou conjurar uma escada que se monta rapidamente sozinha. Um personagem pode usar uma manifestação mental uma vez por cena para ter vantagem em uma rolagem para navegar pelo Reino Astral.</p><section id=\"secret-ER9W41lXmtlfbQhF\" class=\"secret\"><p>A construção que você manifesta é uma memória da vida real ou uma fantasia de sua própria imaginação? Em que detalhe-chave você se concentra para torná-la mais estável?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -81,21 +81,21 @@
       "_key": "!actors.items!m1RJ6Iic7WfYX02N.7NjcuEJmBXwnljrt"
     },
     {
-      "name": "Matter Is Illusion",
+      "name": "A Matéria É Ilusão",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (10). Time and distance are relative here, and simply moving through the space requires an act of will. To cross the Astral Realm, the party must complete the countdown using only Knowledge, Instinct, or Presence Rolls. On a failure with Fear, a PC takes <strong>3d8</strong> direct magic damage.</p><section id=\"secret-Mn5Z8o43Wzq27aTW\" class=\"secret\"><p>Do you think or feel your way through this place? What difference does it make here?</p></section>",
+        "description": "<p>Contagem Regressiva (10). Tempo e distância são relativos aqui, e simplesmente se mover pelo espaço exige um ato de vontade. Para atravessar o Reino Astral, o grupo deve completar a contagem regressiva usando apenas Testes de Conhecimento, Instinto ou Presença. Em caso de falha com Medo, um personagem sofre <strong>3d8</strong> de dano mágico direto.</p><section id=\"secret-Mn5Z8o43Wzq27aTW\" class=\"secret\"><p>Você pensa ou sente o caminho por este lugar? Que diferença isso faz aqui?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "YIFoatmQj0J5rmEI": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Matter Is Illusion",
+                "name": "A Matéria É Ilusão",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/perception/eye-ringed-green.webp",
@@ -150,9 +150,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -201,11 +199,11 @@
       "_key": "!actors.items!m1RJ6Iic7WfYX02N.y76PmjDZYo1JXqnF"
     },
     {
-      "name": "Astral Adversaries",
+      "name": "Adversários Astrais",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Adversaries in the Astral Realm are immune to physical damage, as they are psychic projections instead of flesh and blood.</p><section id=\"secret-O97MIbXqdcZUKa6a\" class=\"secret\"><p>How does an adversary's astral form differ from their physical form? Why are these psychic projections drawn to the PCs?</p></section>",
+        "description": "<p>Adversários no Reino Astral são imunes a dano físico, pois são projeções psíquicas em vez de carne e osso.</p><section id=\"secret-O97MIbXqdcZUKa6a\" class=\"secret\"><p>Como a forma astral de um adversário difere de sua forma física? Por que essas projeções psíquicas são atraídas pelos personagens?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -240,7 +238,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Astral",
+            "name": "Aplicar Astral",
             "range": ""
           }
         },
@@ -254,7 +252,7 @@
           "name": "Astral",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
-          "description": "<p>Adversaries in the Astral Realm are immune to physical damage, as they are psychic projections instead of flesh and blood.</p>",
+          "description": "<p>Adversários no Reino Astral são imunes a dano físico, pois são projeções psíquicas em vez de carne e osso.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -315,7 +313,7 @@
   "_id": "m1RJ6Iic7WfYX02N",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Astral Realm",
+    "name": "Reino Astral",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

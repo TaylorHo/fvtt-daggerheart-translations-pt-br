@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Corrupted Swamp",
+  "name": "Pântano Corrompido",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "traversal",
-    "description": "<p>A wretched stretch of slimy water, toxic creatures, and decay.</p>",
+    "description": "<p>Um trecho miserável de água lodosa, criaturas tóxicas e decomposição.</p>",
     "tier": 1,
-    "impulses": "Corrupt, emphasize putrescence, reveal the twisted and unnatural, sicken",
+    "impulses": "Corromper, enfatizar a podridão, revelar o distorcido e antinatural, adoecer",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -17,11 +17,11 @@
   },
   "items": [
     {
-      "name": "Swamp Sickness",
+      "name": "Doença do Pântano",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>At the end of a long rest, each PC must succeed on a Strength Reaction Roll or gain a <strong>d4</strong> Sickened Die, starting with the 1 value facing up. If a PC fails this roll and already has a Sickened Die, they increase the value by 1, to a maximum value of 4. A PC with a Sickened Die gains a penalty to their action rolls equal to its value. When a PC with a Sickened Die would clear a HP, they can decrease the value of their Sickened Die by 1 instead. When the die's value would fall to 0, remove it.</p><section id=\"secret-0rEh56Q5yIPEezl9\" class=\"secret\"><p>Is the swamp teeming with life, filled with decay, or both? What force blighted this swamp, and what signs of its origins remain?</p></section>",
+        "description": "<p>Ao fim de um descanso longo, cada personagem deve ter sucesso em um Teste de Reação de Força ou ganha um Dado de Enjoo <strong>d4</strong>, começando com o valor 1 virado para cima. Se um personagem falhar neste teste e já tiver um Dado de Enjoo, aumenta o valor em 1, até o valor máximo de 4. Um personagem com um Dado de Enjoo recebe uma penalidade em seus testes de ação igual ao valor dele. Quando um personagem com um Dado de Enjoo apagaria 1 PV, ele pode, em vez disso, diminuir o valor do Dado de Enjoo em 1. Quando o valor do dado cair a 0, remova-o.</p><section id=\"secret-0rEh56Q5yIPEezl9\" class=\"secret\"><p>O pântano fervilha de vida, está cheio de decomposição ou ambos? Que força arruinou este pântano e que sinais de sua origem permanecem?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -91,10 +91,10 @@
       "img": "icons/skills/wounds/blood-cells-disease-green.webp",
       "effects": [
         {
-          "name": "Sickened",
+          "name": "Enjoado",
           "disabled": false,
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
-          "description": "<p>A PC with a Sickened Die gains a penalty to their action rolls equal to its value. When a PC with a Sickened Die would clear a HP, they can decrease the value of their Sickened Die by 1 instead. When the die's value would fall to 0, remove it.</p>",
+          "description": "<p>Um personagem com um Dado de Enjoo recebe uma penalidade em seus testes de ação igual ao valor dele. Quando um personagem com um Dado de Enjoo apagaria 1 PV, ele pode, em vez disso, diminuir o valor do Dado de Enjoo em 1. Quando o valor do dado cair a 0, remova-o.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -120,9 +120,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "action"
-                ],
+                "actionTypes": ["action"],
                 "traits": []
               }
             ]
@@ -163,11 +161,11 @@
       "_key": "!actors.items!dOlH1waNE5Jb5ZEj.jntVV9Ceu7BuoE3D"
     },
     {
-      "name": "Soggy and Slogging It",
+      "name": "Encharcado e Se Arrastando",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC moves as part of an action, they can only move up to Very Close range. Action rolls made to move farther than Very Close range have disadvantage. Before rolling, a PC can mark a Stress to remove this disadvantage.</p><section id=\"secret-AYuhCKsgUawC3y2Z\" class=\"secret\"><p>What creatures, living or otherwise, lurk beneath the water's murky surface? Where or how do the PCs find relief from the stinking water?</p></section>",
+        "description": "<p>Quando um personagem se move como parte de uma ação, só pode se mover até alcance Muito Próximo. Testes de ação feitos para se mover além do alcance Muito Próximo têm desvantagem. Antes de rolar, um personagem pode marcar 1 Fadiga para remover esta desvantagem.</p><section id=\"secret-AYuhCKsgUawC3y2Z\" class=\"secret\"><p>Que criaturas, vivas ou não, espreitam sob a superfície turva da água? Onde ou como os personagens encontram alívio da água fétida?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -202,7 +200,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Soggy",
+            "name": "Aplicar Encharcado",
             "range": ""
           }
         },
@@ -213,10 +211,10 @@
       "img": "icons/magic/water/water-drop-swirl-blue.webp",
       "effects": [
         {
-          "name": "Soggy",
+          "name": "Encharcado",
           "disabled": false,
           "img": "icons/magic/water/water-drop-swirl-blue.webp",
-          "description": "<p>When a PC moves as part of an action, they can only move up to Very Close range. Action rolls made to move farther than Very Close range have disadvantage. Before rolling, a PC can mark a Stress to remove this disadvantage.</p>",
+          "description": "<p>Quando um personagem se move como parte de uma ação, só pode se mover até alcance Muito Próximo. Testes de ação feitos para se mover além do alcance Muito Próximo têm desvantagem. Antes de rolar, um personagem pode marcar 1 Fadiga para remover esta desvantagem.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -274,11 +272,11 @@
       "_key": "!actors.items!dOlH1waNE5Jb5ZEj.qRNnIdS36yJxR2qN"
     },
     {
-      "name": "Rotbloom",
+      "name": "Flor-da-Podridão",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to dust an area within Far range in noxious pollen. Each target in that area must succeed on a Strength or Instinct Reaction Roll or take <strong>1d6+3</strong> magic damage and become <em>Vulnerable</em> until the end of the scene.</p><section id=\"secret-j3dV4Lf89omLh4Y8\" class=\"secret\"><p>How can you tell the plants that emit this pollen are carnivorous? What nightmares or dreamscapes does the pollen's scent conjure?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para cobrir uma área em alcance Distante com pólen nocivo. Cada alvo nessa área deve ter sucesso em um Teste de Reação de Força ou Instinto, ou sofre <strong>1d6+3</strong> de dano mágico e fica <em>Vulnerável</em> até o fim da cena.</p><section id=\"secret-j3dV4Lf89omLh4Y8\" class=\"secret\"><p>Como dá para perceber que as plantas que emitem este pólen são carnívoras? Que pesadelos ou paisagens oníricas o cheiro do pólen evoca?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -346,7 +344,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -357,14 +355,12 @@
       "img": "icons/magic/nature/plant-sprout-snow-green.webp",
       "effects": [
         {
-          "name": "Rotbloom",
+          "name": "Flor-da-Podridão",
           "disabled": false,
           "img": "icons/magic/nature/plant-sprout-snow-green.webp",
-          "description": "<p>You are <em>Vulnerable</em> until the end of the scene.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até o fim da cena.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -412,11 +408,11 @@
       "_key": "!actors.items!dOlH1waNE5Jb5ZEj.JakHh4vcOL94tVgk"
     },
     {
-      "name": "Dancing Lights",
+      "name": "Luzes Dançantes",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>At the start of a rest, you can <strong>spend a Fear</strong> to have floating orbs enthrall the weary and lure a PC deeper into the swamp. A different PC can use a downtime move to make an action roll to search for them. On a success, both PCs return to camp and can choose downtime moves as normal. On a failure—or if no one searches for them—the lost PC returns hours later, covered in mud and worse, and can't choose downtime moves until their next rest.</p><section id=\"secret-okd5IeEliPFRKJ0j\" class=\"secret\"><p>What does the lost PC see in the lights that draws them into the darkness? What other glimpses of surprising beauty do the PCs encounter here?</p></section>",
+        "description": "<p>No início de um descanso, você pode <strong>gastar 1 de Medo</strong> para fazer orbes flutuantes enfeitiçarem os exaustos e atraírem um personagem mais fundo no pântano. Outro personagem pode usar uma ação de intervalo para fazer um teste de ação para procurá-lo. Em caso de sucesso, ambos os personagens voltam ao acampamento e podem escolher ações de intervalo normalmente. Em caso de falha — ou se ninguém o procurar — o personagem perdido volta horas depois, coberto de lama e pior, e não pode escolher ações de intervalo até seu próximo descanso.</p><section id=\"secret-okd5IeEliPFRKJ0j\" class=\"secret\"><p>O que o personagem perdido vê nas luzes que o atrai para a escuridão? Que outros vislumbres de beleza surpreendente os personagens encontram aqui?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -455,7 +451,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -477,7 +473,7 @@
   "_id": "dOlH1waNE5Jb5ZEj",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Corrupted Swamp",
+    "name": "Pântano Corrompido",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

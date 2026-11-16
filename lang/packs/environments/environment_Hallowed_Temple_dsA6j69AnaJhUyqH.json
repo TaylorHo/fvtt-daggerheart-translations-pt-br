@@ -1,12 +1,12 @@
 {
-  "name": "Hallowed Temple",
+  "name": "Templo Sagrado",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "potentialAdversaries": {
       "4oKNnCRPuWEFni6D": {
-        "label": "Guards",
+        "label": "Guardas",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.JRhrrEg5UroURiAD",
           "Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy",
@@ -17,9 +17,9 @@
     "notes": "",
     "difficulty": 13,
     "tier": 2,
-    "description": "<p>A bustling but well-kept temple that provides healing and hosts regular services, overseen by a priest or seraph.</p>",
+    "description": "<p>Um templo movimentado, porém bem conservado, que oferece cura e realiza cultos regulares, supervisionado por um sacerdote ou serafim.</p>",
     "type": "social",
-    "impulses": "Connect the Mortal Realm with the Hallows Above, display the power of the divine, provide aid and succor to the faithful",
+    "impulses": "Conectar o Reino Mortal aos Sagrados Superiores, exibir o poder do divino, prestar auxílio e amparo aos fiéis",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -30,7 +30,7 @@
   "_id": "dsA6j69AnaJhUyqH",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Hallowed Temple",
+    "name": "Templo Sagrado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -123,10 +123,10 @@
   },
   "items": [
     {
-      "name": "A Place of Healing",
+      "name": "Um Lugar de Cura",
       "type": "feature",
       "system": {
-        "description": "<p>A PC who takes a rest in the Hallowed Temple automatically clears all HP.</p><section class=\"secret\" id=\"secret-L4xPjXbsFBvAJkG3\"><p><em>What does the incense smell like? What kinds of songs do the acolytes sing?</em></p></section>",
+        "description": "<p>Um personagem que descansar no Templo Sagrado apaga automaticamente todos os PV.</p><section class=\"secret\" id=\"secret-L4xPjXbsFBvAJkG3\"><p><em>Qual é o cheiro do incenso? Que tipo de canções os acólitos entoam?</em></p></section>",
         "resource": null,
         "actions": {
           "uLCoTKa7Jn2HaRqR": {
@@ -186,7 +186,7 @@
               },
               "useDefault": false
             },
-            "name": "Healing",
+            "name": "Cura",
             "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
             "range": "",
             "baseAction": false,
@@ -215,10 +215,10 @@
       "_key": "!actors.items!dsA6j69AnaJhUyqH.hgHpS2k1sVxHKiG1"
     },
     {
-      "name": "Divine Guidance",
+      "name": "Orientação Divina",
       "type": "feature",
       "system": {
-        "description": "<p>A PC who prays to a deity while in the Hallowed Temple can make an Instinct Roll to receive answers. If the god they beseech isn't welcome in this temple, the roll is made with disadvantage.</p><ul><li><p><strong>Critical Success:</strong> The PC gains clear information. Additionally, they gain [[/r 1d4]] Hope, which can be distributed between the party if they share the vision and guidance they received.</p></li><li><p><strong>Success with Hope:</strong> The PC receives clear information.</p></li><li><p><strong>Success with Fear:</strong> The PC receives brief flashes of insight and an emotional impression conveying an answer.</p></li><li><p><strong>Any Failure:</strong> The PC receives only vague flashes. They can mark a Stress to receive one clear image without context.</p></li></ul><section class=\"secret\" id=\"secret-EYCrn403Zbz0NQKo\"><p><em>What does it feel like as you are touched by this vision? What feeling lingers after the images have passed?</em></p></section>",
+        "description": "<p>Um personagem que rezar a uma divindade no Templo Sagrado pode fazer um Teste de Instinto para receber respostas. Se o deus a quem ele suplica não for bem-vindo neste templo, o teste é feito com desvantagem.</p><ul><li><p><strong>Sucesso Crítico:</strong> O personagem recebe informações claras. Além disso, ganha [[/r 1d4]] de Esperança, que pode ser distribuída entre o grupo se compartilhar a visão e a orientação que recebeu.</p></li><li><p><strong>Sucesso com Esperança:</strong> O personagem recebe informações claras.</p></li><li><p><strong>Sucesso com Medo:</strong> O personagem recebe breves lampejos de percepção e uma impressão emocional que transmite uma resposta.</p></li><li><p><strong>Qualquer Falha:</strong> O personagem recebe apenas lampejos vagos. Pode marcar 1 Fadiga para receber uma imagem clara sem contexto.</p></li></ul><section class=\"secret\" id=\"secret-EYCrn403Zbz0NQKo\"><p><em>Como é ser tocado por esta visão? Que sensação permanece depois que as imagens passam?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -239,17 +239,17 @@
       "_key": "!actors.items!dsA6j69AnaJhUyqH.uqV1mTkJmXJwMYue"
     },
     {
-      "name": "Relentless Hope",
+      "name": "Esperança Implacável",
       "type": "feature",
       "system": {
-        "description": "<p>Once per scene, each PC can mark a Stress to turn a result with Fear into a result with Hope.</p><section id=\"secret-z2wMjfAVnSoTHSlR\" class=\"secret\"><p><em>What emotions or memories do you connect with when fear presses in?</em></p></section>",
+        "description": "<p>Uma vez por cena, cada personagem pode marcar 1 Fadiga para transformar um resultado com Medo em um resultado com Esperança.</p><section id=\"secret-z2wMjfAVnSoTHSlR\" class=\"secret\"><p><em>Com que emoções ou memórias você se conecta quando o medo aperta?</em></p></section>",
         "resource": null,
         "actions": {
           "VlBjJ32dXlboSANv": {
             "type": "damage",
             "_id": "VlBjJ32dXlboSANv",
             "systemPath": "actions",
-            "description": "<p>Once per scene, each PC can mark a Stress to turn a result with Fear into a result with Hope.</p><section class=\"secret\" id=\"secret-1BKTtBh9igK1y871\"><p><em>What emotions or memories do you connect with when fear presses in?</em></p></section>",
+            "description": "<p>Uma vez por cena, cada personagem pode marcar 1 Fadiga para transformar um resultado com Medo em um resultado com Esperança.</p><section class=\"secret\" id=\"secret-1BKTtBh9igK1y871\"><p><em>Com que emoções ou memórias você se conecta quando o medo aperta?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -287,7 +287,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
             "range": "",
             "baseAction": false,
@@ -316,10 +316,10 @@
       "_key": "!actors.items!dsA6j69AnaJhUyqH.vICfHK2urDQ2Jm8s"
     },
     {
-      "name": "Divine Censure",
+      "name": "Censura Divina",
       "type": "feature",
       "system": {
-        "description": "<p>When the PCs have trespassed, blasphemed, or offended the clergy, you can <strong>spend a Fear</strong> to summon a @UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{High Seraph} and [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Bladed Guard} within Close range of the senior priest to reinforce their will.</p><section class=\"secret\" id=\"secret-bJG5Vk2KPgau6rQB\"><p><em>What symbols or icons do they bear that signal they are anointed agents of the divinity? Who leads the group and what led them to this calling?</em></p></section>",
+        "description": "<p>Quando os personagens tiverem invadido, blasfemado ou ofendido o clero, você pode <strong>gastar 1 de Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{High Seraph} e [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Bladed Guard} em alcance Próximo do sacerdote sênior para reforçar sua vontade.</p><section class=\"secret\" id=\"secret-bJG5Vk2KPgau6rQB\"><p><em>Que símbolos ou ícones eles carregam que indicam serem agentes ungidos da divindade? Quem lidera o grupo e o que os levou a esta vocação?</em></p></section>",
         "resource": null,
         "actions": {
           "pJVipg7CbA9CB0Um": {
@@ -350,7 +350,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Generic",
+            "name": "Genérico",
             "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
             "range": "",
             "baseAction": false,

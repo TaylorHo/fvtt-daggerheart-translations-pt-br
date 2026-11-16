@@ -1,9 +1,9 @@
 {
-  "name": "Fleet",
+  "name": "Disparada",
   "type": "feature",
   "img": "icons/skills/movement/arrow-upward-yellow.webp",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to move up to Far range without rolling.</p>",
+    "description": "<p><strong>Gaste 1 de Esperança</strong> para se mover até alcance Distante sem rolar.</p>",
     "resource": null,
     "actions": {
       "pn5p2ocVvVPzDyAX": {
@@ -34,7 +34,7 @@
           "type": null,
           "amount": null
         },
-        "name": "Move",
+        "name": "Mover",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "range": "",
         "baseAction": false,

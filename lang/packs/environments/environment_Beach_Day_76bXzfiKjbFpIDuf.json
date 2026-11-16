@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Beach Day",
+  "name": "Dia de Praia",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "social",
-    "description": "<p>The party takes a break from their adventure for some rest and relaxation in a seaside settlement.</p>",
+    "description": "<p>O grupo faz uma pausa em sua aventura para descansar e relaxar em um povoado à beira-mar.</p>",
     "tier": 2,
-    "impulses": "Conjure images of sand and surf, give them a breather, prepare them for the conflict ahead",
+    "impulses": "Evocar imagens de areia e mar, dar-lhes um respiro, prepará-los para o conflito adiante",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -17,11 +17,11 @@
   },
   "items": [
     {
-      "name": "R&R",
+      "name": "Descanso & Relaxamento",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The party finds themselves in a location where the concerns and conflicts of the outside world melt away. When the PCs rest here, they gain an additional downtime move, the GM doesn't gain Fear, and no long-term countdowns advance.</p><section id=\"secret-UDQmua9neWETFUfG\" class=\"secret\"><p>What's so relaxing about this place? Does it remind you of somewhere you've been before?</p></section>",
+        "description": "<p>O grupo se encontra em um lugar onde as preocupações e conflitos do mundo exterior se dissolvem. Quando os personagens descansam aqui, ganham uma ação de intervalo adicional, o Mestre não ganha Medo e nenhuma contagem regressiva de longo prazo avança.</p><section id=\"secret-UDQmua9neWETFUfG\" class=\"secret\"><p>O que há de tão relaxante neste lugar? Ele lembra algum lugar onde você já esteve?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -41,11 +41,11 @@
       "_key": "!actors.items!76bXzfiKjbFpIDuf.32kkC16eXBpiRxkh"
     },
     {
-      "name": "\"Our Story So Far…\"",
+      "name": "\"Nossa História Até Agora…\"",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Once per scene when a PC recounts a memorable moment from the campaign in conversation with another PC, they both gain a Hope.</p><section id=\"secret-1lJPRvoXWX92DOk7\" class=\"secret\"><p>What sounds, smells, or sensations does the memory conjure in your mind? How did that moment permanently change you—or your opinion of your companion?</p></section>",
+        "description": "<p>Uma vez por cena, quando um personagem relata um momento memorável da campanha em conversa com outro personagem, ambos ganham 1 de Esperança.</p><section id=\"secret-1lJPRvoXWX92DOk7\" class=\"secret\"><p>Que sons, cheiros ou sensações a memória evoca em sua mente? Como aquele momento mudou você permanentemente — ou sua opinião sobre seu companheiro?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -132,11 +132,11 @@
       "_key": "!actors.items!76bXzfiKjbFpIDuf.BizLkdzVo2YYJdr3"
     },
     {
-      "name": "Local Trouble",
+      "name": "Confusão Local",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to interrupt a PC's respite with a minor complication, such as a gang of surly beach bums, an overly exuberant fan, or a really bad sunburn. The PC must gracefully resolve the situation or mark a Stress from the resulting embarrassment or frustration.</p><section id=\"secret-nKMroQywQ15Itz0a\" class=\"secret\"><p>Why does this PC draw their attention? What do the locals care about more than these newly arrived adventurers?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para interromper o descanso de um personagem com uma complicação menor, como uma gangue de vagabundos de praia mal-humorados, um fã excessivamente exuberante ou uma queimadura de sol terrível. O personagem deve resolver a situação com elegância ou marcar 1 Fadiga pelo constrangimento ou frustração resultante.</p><section id=\"secret-nKMroQywQ15Itz0a\" class=\"secret\"><p>Por que este personagem chama a atenção deles? Com o que os moradores se importam mais do que com estes aventureiros recém-chegados?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -175,7 +175,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -194,11 +194,11 @@
       "_key": "!actors.items!76bXzfiKjbFpIDuf.FRMRgSgEeAt7jT8r"
     },
     {
-      "name": "Fashion Show",
+      "name": "Desfile de Moda",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the party prepares for their first day at the beach, have each player describe how their PC changes their attire to be more appropriate for the environment. The GM gives the PC with the freshest look a <strong>d6</strong> Fresh Die that can be spent to add to any action or reaction roll.</p><section id=\"secret-21Ozr0QIVF23Y6Cl\" class=\"secret\"><p>What's the fashion in this area? Where do the PCs source their new beach-themed articles and accessories?</p></section>",
+        "description": "<p>Quando o grupo se prepara para o primeiro dia na praia, peça que cada jogador descreva como seu personagem muda de roupa para ficar mais adequado ao ambiente. O Mestre dá ao personagem com a aparência mais descansada um Dado de Disposição <strong>d6</strong> que pode ser gasto para somar a qualquer teste de ação ou de reação.</p><section id=\"secret-21Ozr0QIVF23Y6Cl\" class=\"secret\"><p>Qual é a moda por aqui? Onde os personagens arranjam seus novos artigos e acessórios de praia?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -233,7 +233,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Give Fresh Die",
+            "name": "Dar Dado de Disposição",
             "range": ""
           }
         },
@@ -244,10 +244,10 @@
       "img": "icons/equipment/chest/coat-leather-blue.webp",
       "effects": [
         {
-          "name": "Fresh",
+          "name": "Disposto",
           "disabled": false,
           "img": "icons/equipment/chest/coat-leather-blue.webp",
-          "description": "<p>The GM gives the PC with the freshest look a <strong>d6</strong> Fresh Die that can be spent to add to any action or reaction roll.</p>",
+          "description": "<p>O Mestre dá ao personagem com a aparência mais descansada um Dado de Disposição <strong>d6</strong> que pode ser gasto para somar a qualquer teste de ação ou de reação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -300,7 +300,7 @@
   "_id": "76bXzfiKjbFpIDuf",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Beach Day",
+    "name": "Dia de Praia",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

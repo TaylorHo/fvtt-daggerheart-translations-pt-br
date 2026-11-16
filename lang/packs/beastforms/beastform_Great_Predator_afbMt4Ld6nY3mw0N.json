@@ -1,5 +1,5 @@
 {
-  "name": "Great Predator",
+  "name": "Grande Predador",
   "type": "beastform",
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "strength",
     "advantageOn": {
       "WvQYbcASMk0IwESy": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "Hzr7zL547nyrZyZK": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       },
       "3wDuhdlzs3gOJ9l9": {
-        "value": "Sprint"
+        "value": "Correr"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Dire Wolf, Velociraptor, Sabertooth Tiger, etc.",
+    "examples": "Lobo Terrível, Velociraptor, Tigre-dentes-de-sabre etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "TFzvHClwIAQUFxyP",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd12 + 8",

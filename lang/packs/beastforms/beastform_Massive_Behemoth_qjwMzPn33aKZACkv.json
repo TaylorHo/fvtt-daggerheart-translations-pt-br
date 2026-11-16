@@ -1,5 +1,5 @@
 {
-  "name": "Massive Behemoth",
+  "name": "Fera Massiva",
   "type": "beastform",
   "img": "icons/creatures/mammals/beast-horned-scaled-glowing-orange.webp",
   "system": {
@@ -17,16 +17,16 @@
     "mainTrait": "strength",
     "advantageOn": {
       "4dxvlv6F3kjurgJg": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "WiskYFviMDpdKcR6": {
-        "value": "Protect"
+        "value": "Proteger"
       },
       "AoFiYKVbPxGalK8Y": {
-        "value": "Scare"
+        "value": "Intimidar"
       },
       "TMzWo667tWr355c9": {
-        "value": "Sprint"
+        "value": "Correr"
       }
     },
     "features": [
@@ -45,7 +45,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Elephant, Mammoth, Rhinoceros, etc.",
+    "examples": "Elefante, Mamute, Rinoceronte etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -55,7 +55,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "RR6ySJU5zaC7ws6A",
       "system": {
@@ -92,9 +92,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd12 + 12",

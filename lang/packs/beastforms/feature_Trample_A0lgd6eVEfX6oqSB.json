@@ -1,16 +1,16 @@
 {
-  "name": "Trample",
+  "name": "Atropelar",
   "type": "feature",
   "img": "icons/environment/people/charge.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take <strong>d8+1</strong> physical damage using your Proficiency and are temporarily <em>Vulnerable</em>.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até alcance Próximo em linha reta e fazer um ataque contra todos os alvos em alcance Corpo a Corpo da linha. Alvos nos quais você tiver sucesso sofrem <strong>d8+1</strong> de dano físico usando sua Proficiência e ficam temporariamente <em>Vulneráveis</em>.</p>",
     "resource": null,
     "actions": {
       "YCOTIv9IVEKpumbJ": {
         "type": "attack",
         "_id": "YCOTIv9IVEKpumbJ",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+1 physical damage using your Proficiency and are temporarily <em>Vulnerable</em>.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até alcance Próximo em linha reta e fazer um ataque contra todos os alvos em alcance Corpo a Corpo da linha. Alvos nos quais você tiver sucesso sofrem d8+1 de dano físico usando sua Proficiência e ficam temporariamente <em>Vulneráveis</em>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -83,12 +83,12 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Attack",
+        "name": "Ataque",
         "img": "icons/environment/people/charge.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Trample",
+            "name": "Atropelar",
             "type": "placed",
             "shape": "line",
             "size": "close",
@@ -115,7 +115,7 @@
   },
   "effects": [
     {
-      "name": "Trampled",
+      "name": "Atropelado",
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "transfer": false,
       "_id": "LkekG4IngVW9rFjI",
@@ -140,9 +140,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {

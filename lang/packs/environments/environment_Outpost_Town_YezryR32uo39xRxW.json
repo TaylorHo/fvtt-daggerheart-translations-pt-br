@@ -1,12 +1,12 @@
 {
-  "name": "Outpost Town",
+  "name": "Vila de Fronteira",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "potentialAdversaries": {
       "yZr3dTicergVkU0d": {
-        "label": "Jagged Knife Bandits",
+        "label": "Bandidos da Faca Serrilhada",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz",
           "Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL",
@@ -17,7 +17,7 @@
         ]
       },
       "KZSZadT58Pd1kaDH": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.niBpVU7yeo5ccskE",
           "Compendium.daggerheart.adversaries.Actor.Al3w2CgjfdT3p9ma"
@@ -27,9 +27,9 @@
     "notes": "",
     "difficulty": 12,
     "tier": 1,
-    "description": "<p>A small town on the outskirts of a nation or region, close to a dungeon, tombs, or other adventuring destinations.</p>",
+    "description": "<p>Uma pequena cidade nos arredores de uma nação ou região, próxima a uma masmorra, tumbas ou outros destinos de aventura.</p>",
     "type": "social",
-    "impulses": "Drive the desperate to certain doom, profi t off  of ragged hope",
+    "impulses": "Levar os desesperados à ruína certa, lucrar com esperança esfarrapada",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -40,7 +40,7 @@
   "_id": "YezryR32uo39xRxW",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Outpost Town",
+    "name": "Vila de Fronteira",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -133,10 +133,10 @@
   },
   "items": [
     {
-      "name": "Rumors Abound",
+      "name": "Rumores por Toda Parte",
       "type": "feature",
       "system": {
-        "description": "<p>Gossip is the fastest-traveling currency in the realm. A PC can inquire about major events by making a Presence Roll. What they learn depends on the outcome of their roll, based on the following criteria:</p><ul><li><p><strong>Critical Success:</strong> Learn about two major events. The PC can ask one follow-up question about one of the rumors and get a truthful (if not always complete) answer.</p></li><li><p><strong>Success with Hope:</strong> Learn about two events, at least one of which is relevant to the character's background.</p></li><li><p><strong>Success with Fear:</strong> Learn an alarming rumor related to the character's background.</p></li><li><p><strong>Any Failure:</strong> The locals respond poorly to their inquiries. The PC must mark a Stress to learn one relevant rumor.</p></li></ul><section id=\"secret-IRa0gzmTR2psynpd\" class=\"secret\"><p><em>What news do the PCs have that they could pass along to curious travelers? What do the locals think about these events?</em></p></section>",
+        "description": "<p>A fofoca é a moeda que viaja mais rápido no reino. Um personagem pode se informar sobre grandes eventos com um Teste de Presença. O que ele descobre depende do resultado da rolagem, conforme os seguintes critérios:</p><ul><li><p><strong>Sucesso Crítico:</strong> Descobre dois grandes eventos. O personagem pode fazer uma pergunta de acompanhamento sobre um dos rumores e obter uma resposta verdadeira (ainda que nem sempre completa).</p></li><li><p><strong>Sucesso com Esperança:</strong> Descobre dois eventos, ao menos um deles relevante para o passado do personagem.</p></li><li><p><strong>Sucesso com Medo:</strong> Descobre um rumor alarmante relacionado ao passado do personagem.</p></li><li><p><strong>Qualquer Falha:</strong> Os locais reagem mal às perguntas. O personagem deve marcar 1 Fadiga para descobrir um rumor relevante.</p></li></ul><section id=\"secret-IRa0gzmTR2psynpd\" class=\"secret\"><p><em>Que notícias os personagens têm que poderiam repassar a viajantes curiosos? O que os locais pensam sobre esses eventos?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -157,10 +157,10 @@
       "_key": "!actors.items!YezryR32uo39xRxW.whN2Ztn2wMqD7uW3"
     },
     {
-      "name": "Society of the Broken Compass",
+      "name": "Sociedade da Bússola Quebrada",
       "type": "feature",
       "system": {
-        "description": "<p>An adventuring society maintains a chapterhouse here, where heroes trade boasts and rumors, drink to their imagined successes, and scheme to undermine their rivals.</p><section id=\"secret-dqbYBpMMEMIe3Woh\" class=\"secret\"><p><em>What boasts do the adventurers here make and which do you think are true?</em></p></section>",
+        "description": "<p>Uma sociedade de aventureiros mantém uma sede aqui, onde heróis trocam gabolices e rumores, bebem a seus sucessos imaginados e tramam para minar seus rivais.</p><section id=\"secret-dqbYBpMMEMIe3Woh\" class=\"secret\"><p><em>Que gabolices os aventureiros daqui fazem e quais você acha que são verdadeiras?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -181,10 +181,10 @@
       "_key": "!actors.items!YezryR32uo39xRxW.nhf2TK7HSkuAgIi8"
     },
     {
-      "name": "Rival Party",
+      "name": "Grupo Rival",
       "type": "feature",
       "system": {
-        "description": "<p>Another adventuring party is here, seeking the same treasure or leads as the PCs.</p><section id=\"secret-1CvOSOAzIzFqPzXt\" class=\"secret\"><p><em>Which PC has a connection to one of the rival party members? Do they approach the PC fi rst or do they wait for the PC to move?</em></p></section>",
+        "description": "<p>Outro grupo de aventureiros está aqui, buscando o mesmo tesouro ou pistas que os personagens.</p><section id=\"secret-1CvOSOAzIzFqPzXt\" class=\"secret\"><p><em>Qual personagem tem uma ligação com um dos membros do grupo rival? Eles abordam o personagem primeiro ou esperam que o personagem se mova?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -205,10 +205,10 @@
       "_key": "!actors.items!YezryR32uo39xRxW.cPozA1iT4NLwsWqB"
     },
     {
-      "name": "It'd Be a Shame If Something Happened to Your Store",
+      "name": "Seria uma Pena se Algo Acontecesse à Sua Loja",
       "type": "feature",
       "system": {
-        "description": "<p>The PCs witness as agents of a local crime boss shake down a general goods store.</p><section id=\"secret-QbURC6tIeF3hLLT6\" class=\"secret\"><p><em>What trouble does it cause if the PCs intervene?</em></p></section>",
+        "description": "<p>Os personagens testemunham agentes de um chefe do crime local extorquindo uma loja de artigos gerais.</p><section id=\"secret-QbURC6tIeF3hLLT6\" class=\"secret\"><p><em>Que problemas causa se os personagens intervirem?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "action",
@@ -229,17 +229,17 @@
       "_key": "!actors.items!YezryR32uo39xRxW.uxu8YrvYVxP3Qc2y"
     },
     {
-      "name": "Wrong Place, Wrong Time",
+      "name": "Lugar Errado, Hora Errada",
       "type": "feature",
       "system": {
-        "description": "<p>At night, or when the party is alone in a back alley, you can <strong>spend a Fear</strong> to introduce a group of thieves who try to rob them. The thieves appear at Close range of a chosen PC and include a @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Jagged Knife Kneebreaker}, as many @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Lackeys} as there are PCs, and a @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Lieutenant}. For a larger party, add a @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Hexer} or @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Jagged Knife Sniper}.</p><section class=\"secret\" id=\"secret-5MEuvRtxMnpLEwAA\"><p><em>What details show the party that these people are desperate former adventurers?</em></p></section>",
+        "description": "<p>À noite, ou quando o grupo está sozinho em um beco, você pode <strong>gastar 1 de Medo</strong> para introduzir um grupo de ladrões que tentam roubá-los. Os ladrões aparecem em alcance Próximo de um personagem escolhido e incluem um @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Jagged Knife Kneebreaker}, tantos @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Lackeys} quanto houver personagens e um @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Lieutenant}. Para um grupo maior, adicione um @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Hexer} ou @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Jagged Knife Sniper}.</p><section class=\"secret\" id=\"secret-5MEuvRtxMnpLEwAA\"><p><em>Que detalhes mostram ao grupo que essas pessoas são ex-aventureiros desesperados?</em></p></section>",
         "resource": null,
         "actions": {
           "UBHQzK5D6Dn5QuPc": {
             "type": "effect",
             "_id": "UBHQzK5D6Dn5QuPc",
             "systemPath": "actions",
-            "description": "<p>At night, or when the party is alone in a back alley, you can <strong>spend a Fear</strong> to introduce a group of thieves who try to rob them. The thieves appear at Close range of a chosen PC and include a @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Jagged Knife Kneebreaker}, as many @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Lackeys} as there are PCs, and a @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Lieutenant}.</p><section id=\"secret-8U6iwKGNeWQ27x1A\" class=\"secret\"><p>For a larger party, add a @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Hexer} or @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Jagged Knife Sniper}.</p><p><em>What details show the party that these people are desperate former adventurers?</em></p></section>",
+            "description": "<p>À noite, ou quando o grupo está sozinho em um beco, você pode <strong>gastar 1 de Medo</strong> para introduzir um grupo de ladrões que tentam roubá-los. Os ladrões aparecem em alcance Próximo de um personagem escolhido e incluem um @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Jagged Knife Kneebreaker}, tantos @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Lackeys} quanto houver personagens e um @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Lieutenant}.</p><section id=\"secret-8U6iwKGNeWQ27x1A\" class=\"secret\"><p>Para um grupo maior, adicione um @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Hexer} ou @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Jagged Knife Sniper}.</p><p><em>Que detalhes mostram ao grupo que essas pessoas são ex-aventureiros desesperados?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -263,7 +263,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/environment/settlement/watchtower-moonlit-blue.webp",
             "range": "",
             "baseAction": false,

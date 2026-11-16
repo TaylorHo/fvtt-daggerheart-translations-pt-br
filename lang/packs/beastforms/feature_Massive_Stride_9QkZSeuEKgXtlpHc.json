@@ -1,9 +1,9 @@
 {
-  "name": "Massive Stride",
+  "name": "Disparada Massiva",
   "type": "feature",
   "img": "icons/skills/movement/arrow-upward-blue.webp",
   "system": {
-    "description": "<p>You can move up to Far range without rolling. You ignore rough terrain (at the GM's discretion) due to your size.</p>",
+    "description": "<p>Você pode se mover até alcance Distante sem rolar. Você ignora terreno acidentado (a critério do Mestre) devido ao seu tamanho.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

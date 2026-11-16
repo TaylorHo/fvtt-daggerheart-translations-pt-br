@@ -1,9 +1,9 @@
 {
-  "name": "Aquatic",
+  "name": "Aquático",
   "type": "feature",
   "img": "icons/magic/water/bubbles-air-water-light.webp",
   "system": {
-    "description": "<p>You can breathe and move naturally underwater.</p>",
+    "description": "<p>Você pode respirar e se mover naturalmente debaixo d'água.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

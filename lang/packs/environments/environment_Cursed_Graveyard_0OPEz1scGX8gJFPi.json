@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Cursed Graveyard",
+  "name": "Cemitério Amaldiçoado",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "exploration",
-    "description": "<p>A sprawling cemetery filled with crumbling headstones, twisted trees possessed by the dead, and crypts overgrown with moss and ivy.</p>",
+    "description": "<p>Um vasto cemitério repleto de lápides em ruínas, árvores retorcidas possuídas pelos mortos e criptas tomadas por musgo e hera.</p>",
     "tier": 1,
-    "impulses": "Bury them six feet deep, choke with fog, lure with promises of entombed treasure, unleash the restless dead",
+    "impulses": "Enterrá-los a sete palmos, sufocar com névoa, atrair com promessas de tesouro sepultado, libertar os mortos inquietos",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,14 +14,14 @@
     },
     "potentialAdversaries": {
       "6RB1MDFDZlGQGOXa": {
-        "label": "Corrupted Spirits",
+        "label": "Espíritos Corrompidos",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.9x2xY9zwc3xzbXo5",
           "Compendium.daggerheart.adversaries.Actor.T2kyHFC68VKtIXir"
         ]
       },
       "9nT0BYx6IU732cL0": {
-        "label": "Living Dead",
+        "label": "Mortos-Vivos",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.10YIQl0lvCJXZLfX",
           "Compendium.daggerheart.adversaries.Actor.Nf0v43rtflV56V2T",
@@ -33,11 +33,11 @@
   },
   "items": [
     {
-      "name": "Room for One More",
+      "name": "Cabe Mais Um",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>If a PC marks their last HP while in the graveyard, they become a Specter instead of making a death move. While a Specter, a PC can communicate with the living but can't interact with the physical world, and they must stay within Close range of their corpse or cross through the veil of death. This condition is cleared when the PC clears a HP.</p><section id=\"secret-qGN79en8zBOIKQe2\" class=\"secret\"><p>What new information or experience does a PC gain from becoming a specter? How can the party reunite the PC's spirit with their flesh? What happens if their ritual goes wrong?</p></section>",
+        "description": "<p>Se um personagem marcar seu último PV enquanto estiver no cemitério, ele se torna um Espectro em vez de fazer um movimento de morte. Enquanto Espectro, um personagem pode se comunicar com os vivos, mas não pode interagir com o mundo físico, e deve permanecer em alcance Próximo de seu cadáver ou atravessar o véu da morte. Esta condição é removida quando o personagem apaga 1 PV.</p><section id=\"secret-qGN79en8zBOIKQe2\" class=\"secret\"><p>Que nova informação ou experiência um personagem ganha ao se tornar um espectro? Como o grupo pode reunir o espírito do personagem com sua carne? O que acontece se o ritual der errado?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -57,11 +57,11 @@
       "_key": "!actors.items!0OPEz1scGX8gJFPi.jAe6q70mR0ujYqnD"
     },
     {
-      "name": "Hallowed Ground",
+      "name": "Solo Sagrado",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>At the center of the graveyard is a seemingly undisturbed chapel. On a successful Instinct Roll, a PC can discover this structure is sanctified against the cemetery's denizens. While inside the chapel, the PCs have advantage on action rolls to fight or drive off spirits and undead.</p><section id=\"secret-8lcytZzx1FbzPrVx\" class=\"secret\"><p>Who sanctified this place, and what happened to them? What holy relics can be found here?</p></section>",
+        "description": "<p>No centro do cemitério há uma capela aparentemente intocada. Com um Teste de Instinto bem-sucedido, um personagem pode descobrir que esta estrutura é consagrada contra os habitantes do cemitério. Dentro da capela, os personagens têm vantagem em testes de ação para combater ou afastar espíritos e mortos-vivos.</p><section id=\"secret-8lcytZzx1FbzPrVx\" class=\"secret\"><p>Quem consagrou este lugar e o que aconteceu com essa pessoa? Que relíquias sagradas podem ser encontradas aqui?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -96,7 +96,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Sanctification",
+            "name": "Aplicar Santificação",
             "range": ""
           }
         },
@@ -107,10 +107,10 @@
       "img": "icons/magic/holy/chalice-glowing-yellow-blue.webp",
       "effects": [
         {
-          "name": "Sanctified",
+          "name": "Santificado",
           "disabled": false,
           "img": "icons/magic/holy/chalice-glowing-yellow-blue.webp",
-          "description": "<p>While inside the chapel, the PCs have advantage on action rolls to fight or drive off spirits and undead.</p>",
+          "description": "<p>Dentro da capela, os personagens têm vantagem em testes de ação para combater ou afastar espíritos e mortos-vivos.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -168,11 +168,11 @@
       "_key": "!actors.items!0OPEz1scGX8gJFPi.eil7GhCVyJXoc4uH"
     },
     {
-      "name": "Misty Miasma",
+      "name": "Miasma Nebuloso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to fill an area within Far range with a low-lying ectoplasmic fog that seeps up through the soggy earth. When a PC rolls with Fear while in the miasma, they must mark a Stress.</p><section id=\"secret-C7vJsPrAkoE7hjNM\" class=\"secret\"><p>What horrors do the PCs see in the fog? What disorienting smell does the miasma emit?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para preencher uma área em alcance Distante com uma névoa ectoplásmica rasteira que brota da terra encharcada. Quando um personagem rola com Medo dentro do miasma, ele deve marcar 1 Fadiga.</p><section id=\"secret-C7vJsPrAkoE7hjNM\" class=\"secret\"><p>Que horrores os personagens veem na névoa? Que cheiro desorientador o miasma emite?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -211,7 +211,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -230,11 +230,11 @@
       "_key": "!actors.items!0OPEz1scGX8gJFPi.6Xhz8IATLKk3IYZW"
     },
     {
-      "name": "The Dead Arise",
+      "name": "Os Mortos se Erguem",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have undead hands burst forth from the ground beneath a PC. The target must succeed on an Agility or Presence Reaction Roll or mark a Stress and become temporarily <em>Restrained</em> as hands grasp them.</p><section id=\"secret-8B2ArSeN4EKOWMbW\" class=\"secret\"><p>Who were these people in life? Why were they buried here? Why won't they stay dead?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer mãos de mortos-vivos irromperem do chão sob um personagem. O alvo deve ter sucesso em um Teste de Reação de Agilidade ou Presença, ou marca 1 Fadiga e fica temporariamente <em>Imobilizado</em> enquanto as mãos o agarram.</p><section id=\"secret-8B2ArSeN4EKOWMbW\" class=\"secret\"><p>Quem eram essas pessoas em vida? Por que foram enterradas aqui? Por que não ficam mortas?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -293,7 +293,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -304,14 +304,12 @@
       "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
       "effects": [
         {
-          "name": "The Dead Arise",
+          "name": "Os Mortos se Erguem",
           "disabled": false,
           "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
           "description": "",
           "transfer": true,
-          "statuses": [
-            "restrain"
-          ],
+          "statuses": ["restrain"],
           "system": {
             "changes": [],
             "duration": {
@@ -359,11 +357,11 @@
       "_key": "!actors.items!0OPEz1scGX8gJFPi.n254TZpHt6PwppCi"
     },
     {
-      "name": "The Dead Don't Die Easy",
+      "name": "Os Mortos Não Morrem Fácil",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When an adversary would mark their last HP, roll a <strong>d6</strong>. On a result of 5 or 6, the adversary doesn't mark it.</p><section id=\"secret-3zJIG3Bv3IBMpn6E\" class=\"secret\"><p>Who commanded this land to reject death? How do the dead come back different here?</p></section>",
+        "description": "<p>Quando um adversário marcaria seu último PV, role um <strong>d6</strong>. Em um resultado de 5 ou 6, o adversário não o marca.</p><section id=\"secret-3zJIG3Bv3IBMpn6E\" class=\"secret\"><p>Quem ordenou a esta terra que rejeitasse a morte? Como os mortos voltam diferentes aqui?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -417,7 +415,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Undying Check",
+            "name": "Verificação de Imortalidade",
             "range": ""
           }
         },
@@ -439,7 +437,7 @@
   "_id": "0OPEz1scGX8gJFPi",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Cursed Graveyard",
+    "name": "Cemitério Amaldiçoado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

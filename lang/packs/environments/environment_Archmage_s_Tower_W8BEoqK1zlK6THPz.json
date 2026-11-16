@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Archmage's Tower",
+  "name": "Torre do Arquimago",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "exploration",
-    "description": "<p>An impossibly tall spire that pierces the heavens and resonates with immense power.</p>",
+    "description": "<p>Uma torre impossivelmente alta que perfura os céus e ressoa com imenso poder.</p>",
     "tier": 3,
-    "impulses": "Collect magical energy, exhaust intruders, reveal the unknown, unleash bursts of magical power",
+    "impulses": "Coletar energia mágica, exaurir intrusos, revelar o desconhecido, liberar rajadas de poder mágico",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "tnf3DtcDpHvsezF0": {
-        "label": "Alchemical Creations",
+        "label": "Criações Alquímicas",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.RV9j8V7CcuZYEhec",
           "Compendium.daggerheart.adversaries.Actor.pMZxHeu79iXFV9FR",
@@ -22,7 +22,7 @@
         ]
       },
       "0UqoeKBq8XdcM2O2": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.FNNt42hhwvuOc4XO"
         ]
@@ -32,21 +32,21 @@
   },
   "items": [
     {
-      "name": "Mystical Defenses",
+      "name": "Defesas Místicas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (12). To climb the tower, the PCs must complete the countdown. On a failure or a roll with Fear, they trigger one of the archmage's many arcane traps and hazards, taking <strong>3d10</strong> magic damage. On a failure with Fear, the damage dealt gains a bonus equal to the PC's level.</p><section id=\"secret-nspaK2xThGNULFBI\" class=\"secret\"><p>What do the designs of the archmage's defenses tell you about their specific area of expertise? What signature style or flourish do the traps and hazards all share?</p></section>",
+        "description": "<p>Contagem Regressiva (12). Para escalar a torre, os personagens devem completar a contagem regressiva. Em caso de falha ou rolagem com Medo, eles acionam uma das muitas armadilhas e perigos arcanos do arquimago, sofrendo <strong>3d10</strong> de dano mágico. Em caso de falha com Medo, o dano causado recebe um bônus igual ao nível do personagem.</p><section id=\"secret-nspaK2xThGNULFBI\" class=\"secret\"><p>O que os projetos das defesas do arquimago revelam sobre sua área específica de especialidade? Que estilo ou floreio característico todas as armadilhas e perigos compartilham?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "6PKq64PBIOd5ojv1": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Climb The Tower",
+                "name": "Escalar a Torre",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
@@ -101,9 +101,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -151,11 +149,11 @@
       "_key": "!actors.items!W8BEoqK1zlK6THPz.iuNPkv0BtBWGcx54"
     },
     {
-      "name": "Archmage's Aerie",
+      "name": "Ninho do Arquimago",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The top floor of the tower is a many-chambered laboratory, library, and workshop containing everything needed to study magic in its highest forms. A PC with a Spellcast Trait can make a Knowledge Roll to partake in the archmage's research. On a success, they gain a +1 bonus to their Spellcast Rolls until their next long rest. On a failure, their investigation goes wrong, and they take <strong>3d8+4</strong> magic damage.</p><section id=\"secret-ahV0x7MO1b57M1Gg\" class=\"secret\"><p>What part of the aerie calls to you? What do the archmage's notes reveal to you?</p></section>",
+        "description": "<p>O último andar da torre é um laboratório, biblioteca e oficina de muitos cômodos, contendo tudo o que é necessário para estudar a magia em suas formas mais elevadas. Um personagem com um Atributo de Conjuração pode fazer um Teste de Conhecimento para participar da pesquisa do arquimago. Em caso de sucesso, recebe +1 de bônus em seus Testes de Conjuração até o próximo descanso longo. Em caso de falha, sua investigação dá errado e ele sofre <strong>3d8+4</strong> de dano mágico.</p><section id=\"secret-ahV0x7MO1b57M1Gg\" class=\"secret\"><p>Que parte do ninho de águia chama você? O que as anotações do arquimago revelam a você?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,9 +179,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -245,7 +241,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spellcast Bonus",
+            "name": "Bônus de Conjuração",
             "range": ""
           }
         },
@@ -256,10 +252,10 @@
       "img": "icons/skills/trades/academics-book-study-runes.webp",
       "effects": [
         {
-          "name": "New Effect",
+          "name": "Novo Efeito",
           "disabled": false,
           "img": "icons/skills/trades/academics-book-study-runes.webp",
-          "description": "<p>You gain a +1 bonus to your Spellcast Rolls until your next long rest.</p>",
+          "description": "<p>Você recebe +1 de bônus em seus Testes de Conjuração até seu próximo descanso longo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -282,9 +278,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "spellcast"
-                ],
+                "actionTypes": ["spellcast"],
                 "traits": []
               }
             ]
@@ -316,10 +310,10 @@
           "_key": "!actors.items.effects!W8BEoqK1zlK6THPz.ioqwvW4AcpTpyybj.Dtqtv6rdUecUdkyA"
         },
         {
-          "name": "Archmage's Aerie",
+          "name": "Ninho do Arquimago",
           "disabled": false,
           "img": "icons/skills/trades/academics-book-study-runes.webp",
-          "description": "<p>You gain a +1 bonus to your Spellcast Rolls until your next long rest.</p>",
+          "description": "<p>Você recebe +1 de bônus em seus Testes de Conjuração até seu próximo descanso longo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -342,9 +336,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "spellcast"
-                ],
+                "actionTypes": ["spellcast"],
                 "traits": []
               }
             ]
@@ -385,11 +377,11 @@
       "_key": "!actors.items!W8BEoqK1zlK6THPz.ioqwvW4AcpTpyybj"
     },
     {
-      "name": "Amalgamated Adversaries",
+      "name": "Adversários Amalgamados",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p><strong>Spend a Fear</strong> to summon two adversaries within Close range of a PC. Each adversary can use the other's features as if they were their own.</p><section id=\"secret-sfsjWC0A8wf8O0d1\" class=\"secret\"><p>Which creatures has the archmage chosen to combine? What do they hope to learn in doing so?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar dois adversários em alcance Próximo de um personagem. Cada adversário pode usar as características do outro como se fossem suas.</p><section id=\"secret-sfsjWC0A8wf8O0d1\" class=\"secret\"><p>Que criaturas o arquimago escolheu combinar? O que espera aprender com isso?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -428,7 +420,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -450,7 +442,7 @@
   "_id": "W8BEoqK1zlK6THPz",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Archmage's Tower",
+    "name": "Torre do Arquimago",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

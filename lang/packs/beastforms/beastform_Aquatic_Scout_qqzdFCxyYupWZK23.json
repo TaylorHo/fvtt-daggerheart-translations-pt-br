@@ -1,5 +1,5 @@
 {
-  "name": "Aquatic Scout",
+  "name": "Explorador Aquático",
   "type": "beastform",
   "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "agility",
     "advantageOn": {
       "OG0TnlIP9lKye1e9": {
-        "value": "Navigate"
+        "value": "Orientar-se"
       },
       "q3yvEjEGqK6o4AYw": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       },
       "RWK8rni8s7nYVP7I": {
-        "value": "Swim"
+        "value": "Nadar"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Eel, Fish, Octopus, etc.",
+    "examples": "Enguia, Peixe, Polvo etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "TsXyfEOCk0ma5tp9",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd4",

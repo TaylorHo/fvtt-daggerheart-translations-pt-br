@@ -1,5 +1,5 @@
 {
-  "name": "Legendary Hybrid",
+  "name": "Híbrido Lendário",
   "type": "beastform",
   "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
   "system": {
@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "RbZKFWATkfLZm67j",
       "system": {
@@ -76,9 +76,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd10 + 8",
@@ -103,7 +101,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>To transform into this creature, <strong>mark an additional Stress</strong>. Choose any two Beastform options from Tiers 1–2. Choose a total of four advantages and two features from those options.</p>",
+      "description": "<p>Para se transformar nesta criatura, <strong>marque 1 Fadiga adicional</strong>. Escolha quaisquer duas opções de Forma de Fera dos Patamares 1 a 2. Escolha um total de quatro vantagens e duas características dessas opções.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

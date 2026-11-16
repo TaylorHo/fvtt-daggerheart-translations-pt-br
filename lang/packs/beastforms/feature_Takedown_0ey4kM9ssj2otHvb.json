@@ -1,9 +1,9 @@
 {
-  "name": "Takedown",
+  "name": "Abate",
   "type": "feature",
   "img": "icons/creatures/abilities/paw-print-orange.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to move into Melee range of a target and make an attack roll against them. On a success, you gain a +2 bonus to your Proficiency for this attack and the target must mark a Stress.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até alcance Corpo a Corpo de um alvo e fazer um teste de ataque contra ele. Em caso de sucesso, você recebe +2 de bônus na Proficiência neste ataque e o alvo deve marcar 1 Fadiga.</p>",
     "resource": null,
     "actions": {
       "9H8KTVtqnSlEGoZ1": {
@@ -45,7 +45,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "self"
       }
     },
@@ -61,10 +61,10 @@
   },
   "effects": [
     {
-      "name": "Takedown",
+      "name": "Abate",
       "disabled": false,
       "img": "icons/creatures/abilities/paw-print-orange.webp",
-      "description": "<p>You gain a +2 bonus to your Proficiency for this attack and the target must mark a Stress.</p>",
+      "description": "<p>Você recebe +2 de bônus na Proficiência neste ataque e o alvo deve marcar 1 Fadiga.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

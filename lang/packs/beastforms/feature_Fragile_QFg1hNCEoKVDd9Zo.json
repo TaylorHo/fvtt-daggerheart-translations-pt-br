@@ -1,9 +1,9 @@
 {
-  "name": "Fragile",
+  "name": "Frágil",
   "type": "feature",
   "img": "icons/magic/life/heart-pink.webp",
   "system": {
-    "description": "<p>When you take Major or greater damage, you drop out of Beastform.</p>",
+    "description": "<p>Quando você sofre dano Maior ou superior, você sai da Forma de Fera.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

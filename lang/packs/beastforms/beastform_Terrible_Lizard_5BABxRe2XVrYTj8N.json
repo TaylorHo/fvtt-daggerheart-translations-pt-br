@@ -1,5 +1,5 @@
 {
-  "name": "Terrible Lizard",
+  "name": "Lagarto Terrível",
   "type": "beastform",
   "img": "icons/creatures/abilities/dragon-breath-purple.webp",
   "system": {
@@ -17,16 +17,16 @@
     "mainTrait": "strength",
     "advantageOn": {
       "onvcDZ0vtg88AjUn": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "poo5ToKvpeI1Kvr3": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "oPA8ogGHNDvxrJps": {
-        "value": "Scare"
+        "value": "Intimizar"
       },
       "BIdGziN8wJX0iaHQ": {
-        "value": "Track"
+        "value": "Rastrear"
       }
     },
     "features": [
@@ -44,7 +44,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Brachiosaurus, Tyrannosaurus, etc.",
+    "examples": "Braquiossauro, Tiranossauro etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -54,7 +54,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "qPtjZIkRVm68TGHN",
       "system": {
@@ -91,9 +91,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd12 + 10",

@@ -1,5 +1,5 @@
 {
-  "name": "Mythic Hybrid",
+  "name": "Híbrido Mítico",
   "type": "beastform",
   "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
   "system": {
@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "HutJQ9HGtr1Eoibp",
       "system": {
@@ -76,9 +76,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "strength",
               "damageFormula": "@profd12 + 10",
@@ -103,7 +101,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>To transform into this creature, <strong>mark 2 additional Stress</strong>. Choose any three Beastform options from Tiers 1–3. Choose a total of five advantages and three features from those options.</p>",
+      "description": "<p>Para se transformar nesta criatura, <strong>marque 2 Fadigas adicionais</strong>. Escolha quaisquer três opções de Forma de Fera dos Patamares 1 a 3. Escolha um total de cinco vantagens e três características dessas opções.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

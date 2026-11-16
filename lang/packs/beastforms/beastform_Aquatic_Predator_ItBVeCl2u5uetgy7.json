@@ -1,5 +1,5 @@
 {
-  "name": "Aquatic Predator",
+  "name": "Predador Aquático",
   "type": "beastform",
   "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "agility",
     "advantageOn": {
       "1AcQrnvX9BKAWb0Y": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "BY5ht3SqyKw0dBr1": {
-        "value": "Swim"
+        "value": "Nadar"
       },
       "4OW2JewIhcKpwzVE": {
-        "value": "Track"
+        "value": "Rastrear"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Dolphin, Orca, Shark, etc.",
+    "examples": "Golfinho, Orca, Tubarão etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "7OTbmhQNtKhRAl59",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd10 + 6",

@@ -1,19 +1,19 @@
 {
-  "name": "Local Tavern",
+  "name": "Taverna Local",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "potentialAdversaries": {
       "H53IurNOv7hOTz88": {
-        "label": "Guards",
+        "label": "Guardas",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy",
           "Compendium.daggerheart.adversaries.Actor.mK3A5FTx6k8iPU3F"
         ]
       },
       "2g6jJtdA8WiA0ihA": {
-        "label": "Mercenaries",
+        "label": "Mercenários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.uRtghKE9mHlII4rs",
           "Compendium.daggerheart.adversaries.Actor.bgreCaQ6ap2DVpCr",
@@ -22,7 +22,7 @@
         ]
       },
       "TzAxfdQKMVRRx5z5": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.Al3w2CgjfdT3p9ma"
         ]
@@ -31,9 +31,9 @@
     "notes": "",
     "difficulty": 10,
     "tier": 1,
-    "description": "<p>A lively tavern that serves as the social hub for its town.</p>",
+    "description": "<p>Uma taverna animada que serve de centro social de sua cidade.</p>",
     "type": "social",
-    "impulses": "Provide opportunities for adventurers, nurture community",
+    "impulses": "Oferecer oportunidades a aventureiros, nutrir a comunidade",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -44,7 +44,7 @@
   "_id": "cM4X81DOyvxNIi52",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Local Tavern",
+    "name": "Taverna Local",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -137,10 +137,10 @@
   },
   "items": [
     {
-      "name": "What's the Talk of the Town?",
+      "name": "O Que Anda Comentando na Cidade?",
       "type": "feature",
       "system": {
-        "description": "<p>A PC can ask the bartender, staff, or patrons about local events, rumors, and potential work with a Presence Roll. On a success, they can pick two of the below details to learn—or three if they critically succeed. On a failure, they can pick one and mark a Stress as the local carries on about something irrelevant.</p><ul><li><p>A fascinating rumor with a connection to a PC's background</p></li><li><p>A promising job for the party involving a nearby threat or situation</p></li><li><p>Local folklore that relates to something they've seen</p></li><li><p>Town gossip that hints at a community problem</p></li></ul><section id=\"secret-x6IPMS6Z4MFBE65u\" class=\"secret\"><p><em>Who has what kind of information? What gossip do the locals start spreading about the PCs?</em></p></section>",
+        "description": "<p>Um personagem pode perguntar ao taverneiro, à equipe ou aos clientes sobre eventos locais, rumores e possíveis trabalhos com um Teste de Presença. Em caso de sucesso, pode escolher dois dos detalhes abaixo para descobrir — ou três se obtiver sucesso crítico. Em caso de falha, pode escolher um e marcar 1 Fadiga enquanto o local divaga sobre algo irrelevante.</p><ul><li><p>Um rumor fascinante ligado ao passado de um personagem</p></li><li><p>Um trabalho promissor para o grupo envolvendo uma ameaça ou situação próxima</p></li><li><p>Folclore local relacionado a algo que viram</p></li><li><p>Fofoca da cidade que sugere um problema na comunidade</p></li></ul><section id=\"secret-x6IPMS6Z4MFBE65u\" class=\"secret\"><p><em>Quem sabe o quê? Que fofocas os locais começam a espalhar sobre os personagens?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -161,10 +161,10 @@
       "_key": "!actors.items!cM4X81DOyvxNIi52.7to5Zu0lNycExCQi"
     },
     {
-      "name": "Sing For Your Supper",
+      "name": "Cante para Jantar",
       "type": "feature",
       "system": {
-        "description": "<p>A PC can perform one time for the guests by making a Presence Roll. On a success, they earn <strong>[[/r 1d4]]</strong> handfuls of gold (<strong>[[/r 2d4]]</strong> if they critically succeed). On a failure, they mark a Stress.</p><section id=\"secret-vrH9YdQGP2sTa3cV\" class=\"secret\"><p><em>What piece do you perform? What does that piece mean to you? When's the last time you performed it for a crowd?</em></p></section>",
+        "description": "<p>Um personagem pode se apresentar para os convidados com um Teste de Presença. Em caso de sucesso, ganha <strong>[[/r 1d4]]</strong> punhados de ouro (<strong>[[/r 2d4]]</strong> se obtiver sucesso crítico). Em caso de falha, marca 1 Fadiga.</p><section id=\"secret-vrH9YdQGP2sTa3cV\" class=\"secret\"><p><em>Que peça você apresenta? O que ela significa para você? Quando foi a última vez que a apresentou para uma plateia?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -185,10 +185,10 @@
       "_key": "!actors.items!cM4X81DOyvxNIi52.oLn3co1mN83OiFWo"
     },
     {
-      "name": "Mysterious Stranger",
+      "name": "Estranho Misterioso",
       "type": "feature",
       "system": {
-        "description": "<p>Reveal a stranger concealing their identity, lurking in a shaded booth.</p><section id=\"secret-tgxS9TgbDCpI1kZC\" class=\"secret\"><p><em>What do they want? What's their impression of the PCs? What mannerisms or accessories do they have?</em></p></section>",
+        "description": "<p>Revele um estranho ocultando sua identidade, à espreita em um reservado na penumbra.</p><section id=\"secret-tgxS9TgbDCpI1kZC\" class=\"secret\"><p><em>O que ele quer? Qual é sua impressão dos personagens? Que maneirismos ou acessórios ele tem?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "action",
@@ -209,10 +209,10 @@
       "_key": "!actors.items!cM4X81DOyvxNIi52.cAbSo5VQHxJqJPKm"
     },
     {
-      "name": "Someone Comes to Town",
+      "name": "Alguém Chega à Cidade",
       "type": "feature",
       "system": {
-        "description": "<p>Introduce a significant NPC who wants to hire the party for something or who relates to a PC's background.</p><section class=\"secret\" id=\"secret-DB6Th0yGCjAsAZp6\"><p><em>Did they know the PCs were here? What do they want in this town?</em></p></section>",
+        "description": "<p>Introduza um PNJ importante que quer contratar o grupo para algo ou que se relaciona ao passado de um personagem.</p><section class=\"secret\" id=\"secret-DB6Th0yGCjAsAZp6\"><p><em>Ele sabia que os personagens estavam aqui? O que ele quer nesta cidade?</em></p></section>",
         "resource": null,
         "actions": {},
         "featureForm": "action",
@@ -233,10 +233,10 @@
       "_key": "!actors.items!cM4X81DOyvxNIi52.QPezCAC18vIc5xRC"
     },
     {
-      "name": "Bar Fight",
+      "name": "Briga de Bar",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to have a bar fight erupt in the tavern. When a PC tries to move through the tavern while the fight persists, they must succeed on an Agility or Presence Roll or take <strong>1d6+2</strong> physical damage from a wild swing or thrown object. A PC can try to activate this feature by succeeding on an action roll that would provoke tavern patrons.</p><section class=\"secret\" id=\"secret-xLK8VSKLM6JQRySG\"><p><em>Who started the fight? What will it take to stop it?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer uma briga de bar explodir na taverna. Quando um personagem tentar se mover pela taverna enquanto a briga durar, ele deve ter sucesso em um Teste de Agilidade ou Presença ou sofre <strong>1d6+2</strong> de dano físico de um soco desgovernado ou objeto arremessado. Um personagem pode tentar ativar este efeito ao ter sucesso em um teste de ação que provocaria os frequentadores da taverna.</p><section class=\"secret\" id=\"secret-xLK8VSKLM6JQRySG\"><p><em>Quem começou a briga? O que será preciso para pará-la?</em></p></section>",
         "resource": null,
         "actions": {
           "4UjyjYaMdcnFmVrL": {
@@ -282,7 +282,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
             "range": "",
             "baseAction": false,

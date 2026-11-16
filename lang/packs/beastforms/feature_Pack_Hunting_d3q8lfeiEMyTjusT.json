@@ -1,9 +1,9 @@
 {
-  "name": "Pack Hunting",
+  "name": "Caça em Bando",
   "type": "feature",
   "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
   "system": {
-    "description": "<p>When you succeed on an attack against the same target as an ally who acts immediately before you, add a <strong>d8</strong> to your damage roll.</p>",
+    "description": "<p>Quando você tem sucesso em um ataque contra o mesmo alvo de um aliado que age imediatamente antes de você, some um <strong>d8</strong> à sua rolagem de dano.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

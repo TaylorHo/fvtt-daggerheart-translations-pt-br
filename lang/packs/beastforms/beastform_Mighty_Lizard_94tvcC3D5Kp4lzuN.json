@@ -1,5 +1,5 @@
 {
-  "name": "Mighty Lizard",
+  "name": "Lagarto Poderoso",
   "type": "beastform",
   "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "instinct",
     "advantageOn": {
       "f5tUBKOfwDQKPrYP": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "XS1zEu9IJ6ec0mZ0": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       },
       "K0hUzxErOc7t0myx": {
-        "value": "Track"
+        "value": "Rastrear"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Alligator, Crocodile, Gila Monster, etc.",
+    "examples": "Jacaré, Crocodilo, Monstro-de-Gila etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "d13EzuP8Co04Jk8K",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "instinct",
               "damageFormula": "@profd10 + 7",

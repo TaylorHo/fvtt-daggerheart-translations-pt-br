@@ -1,12 +1,12 @@
 {
-  "name": "Mountain Pass",
+  "name": "Passagem da Montanha",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "potentialAdversaries": {
       "f08TnNkCjPIzmQHh": {
-        "label": "Beasts",
+        "label": "Feras",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.71qKDLKO3CsrNkdy",
           "Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K",
@@ -14,7 +14,7 @@
         ]
       },
       "8aqHp1uxtxvnuNSU": {
-        "label": "Other",
+        "label": "Outro",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.jDmHqGvzg5wjgmxE",
           "Compendium.daggerheart.adversaries.Actor.rM9qCIYeWg9I0B4l",
@@ -25,9 +25,9 @@
     "notes": "",
     "difficulty": 15,
     "tier": 2,
-    "description": "<p>Stony peaks that pierce the clouds, with a twisting path winding its way up and over through many switchbacks.</p>",
+    "description": "<p>Picos rochosos que perfuram as nuvens, com uma trilha sinuosa que sobe e atravessa por muitas curvas fechadas.</p>",
     "type": "traversal",
-    "impulses": "Exact a chilling toll in supplies and stamina, reveal magical tampering, slow down travel",
+    "impulses": "Cobrar um pedágio glacial em suprimentos e vigor, revelar interferência mágica, atrasar a viagem",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -38,7 +38,7 @@
   "_id": "acMu9wJrMZZzLSTJ",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Mountain Pass",
+    "name": "Passagem da Montanha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -131,10 +131,10 @@
   },
   "items": [
     {
-      "name": "Engraved Sigils",
+      "name": "Sigilos Gravados",
       "type": "feature",
       "system": {
-        "description": "<p>Large markings and engravings have been made in the mountainside. A PC with a relevant background or Experience identifi es them as weather magic increasing the power of the icy winds. A PC who succeeds on a Knowledge Roll can recall information about the sigils, potential information about their creators, and the knowledge of how to dispel them. If a PC critically succeeds, they recognize that the sigils are of a style created by ridgeborne enchanters and they gain advantage on a roll to dispel the sigils.</p><section id=\"secret-5FNK8Z7pIo0nEyCA\" class=\"secret\"><p><em>Who laid this enchantment? Are they nearby? Why did they want the weather to be more daunting?</em></p></section>",
+        "description": "<p>Grandes marcas e gravuras foram feitas na encosta da montanha. Um personagem com um passado ou Experiência relevante as identifica como magia climática que aumenta o poder dos ventos gélidos. Um personagem que tiver sucesso em um Teste de Conhecimento pode recordar informações sobre os sigilos, possíveis informações sobre seus criadores e o conhecimento de como dissipá-los. Se um personagem obtiver sucesso crítico, ele reconhece que os sigilos são de um estilo criado por encantadores nascidos nas montanhas e ganha vantagem em uma rolagem para dissipá-los.</p><section id=\"secret-5FNK8Z7pIo0nEyCA\" class=\"secret\"><p><em>Quem lançou este encantamento? Estão por perto? Por que quiseram que o clima fosse mais intimidante?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -158,14 +158,14 @@
       "name": "Avalanche",
       "type": "feature",
       "system": {
-        "description": "<p>Spend a Fear to carve the mountain with an icy torrent, causing an avalanche. All PCs in its path must succeed on an Agility or Strength Reaction Roll or be bowled over and carried down the mountain. A PC using rope, pitons, or other climbing gear gains advantage on this roll. Targets who fail are knocked down the mountain to Far range, take <strong>2d20</strong> physical damage, and must mark a Stress. Targets who succeed must mark a Stress.</p><section id=\"secret-3gM8fEJj1vD9W88k\" class=\"secret\"><p><em>How do the PCs try to weather the avalanche? What approach do the characters take to fi nd one another when their companions go hurtling down the mountainside?</em></p></section>",
+        "description": "<p>Gaste 1 de Medo para rasgar a montanha com uma torrente gélida, causando uma avalanche. Todos os personagens em seu caminho devem ter sucesso em um Teste de Reação de Agilidade ou Força ou são derrubados e carregados montanha abaixo. Um personagem que use corda, grampos ou outro equipamento de escalada tem vantagem nesta rolagem. Alvos que falharem são lançados montanha abaixo até alcance Distante, sofrem <strong>2d20</strong> de dano físico e devem marcar 1 Fadiga. Alvos que tiverem sucesso devem marcar 1 Fadiga.</p><section id=\"secret-3gM8fEJj1vD9W88k\" class=\"secret\"><p><em>Como os personagens tentam resistir à avalanche? Que abordagem os personagens adotam para se reencontrar quando seus companheiros despencam encosta abaixo?</em></p></section>",
         "resource": null,
         "actions": {
           "P2fHddwfyEGUwpCH": {
             "type": "damage",
             "_id": "P2fHddwfyEGUwpCH",
             "systemPath": "actions",
-            "description": "<p>Spend a Fear to carve the mountain with an icy torrent, causing an avalanche. All PCs in its path must succeed on an Agility or Strength Reaction Roll or be bowled over and carried down the mountain. A PC using rope, pitons, or other climbing gear gains advantage on this roll. Targets who fail are knocked down the mountain to Far range, take <strong>2d20</strong> physical damage, and must mark a Stress. Targets who succeed must mark a Stress.</p><section class=\"secret\" id=\"secret-scxxru7P29oZ1dt8\"><p><em>How do the PCs try to weather the avalanche? What approach do the characters take to fi nd one another when their companions go hurtling down the mountainside?</em></p></section>",
+            "description": "<p>Gaste 1 de Medo para rasgar a montanha com uma torrente gélida, causando uma avalanche. Todos os personagens em seu caminho devem ter sucesso em um Teste de Reação de Agilidade ou Força ou são derrubados e carregados montanha abaixo. Um personagem que use corda, grampos ou outro equipamento de escalada tem vantagem nesta rolagem. Alvos que falharem são lançados montanha abaixo até alcance Distante, sofrem <strong>2d20</strong> de dano físico e devem marcar 1 Fadiga. Alvos que tiverem sucesso devem marcar 1 Fadiga.</p><section class=\"secret\" id=\"secret-scxxru7P29oZ1dt8\"><p><em>Como os personagens tentam resistir à avalanche? Que abordagem os personagens adotam para se reencontrar quando seus companheiros despencam encosta abaixo?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -204,7 +204,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/earth/projectile-boulder-dust.webp",
             "range": "",
             "baseAction": false,
@@ -233,10 +233,10 @@
       "_key": "!actors.items!acMu9wJrMZZzLSTJ.jkm03DXYYajsRk2j"
     },
     {
-      "name": "Raptor Nest",
+      "name": "Ninho de Raptores",
       "type": "feature",
       "system": {
-        "description": "<p>When the PCs enter the raptors' hunting grounds, two @UUID[Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K]{Giant Eagles} appear at Very Far range of a chosen PC, identifying the PCs as likely prey.</p><section id=\"secret-aU19zKlmhVBdS2oF\" class=\"secret\"><p><em>How long has it been since the eagles last found prey? Do they have eggs in their nest or unfl edged young?</em></p></section>",
+        "description": "<p>Quando os personagens entrarem no território de caça dos raptores, duas @UUID[Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K]{Giant Eagles} aparecem em alcance Muito Distante de um personagem escolhido, identificando os personagens como presas em potencial.</p><section id=\"secret-aU19zKlmhVBdS2oF\" class=\"secret\"><p><em>Há quanto tempo as águias não encontram uma presa? Têm ovos no ninho ou filhotes ainda sem penas?</em></p></section>",
         "resource": null,
         "actions": {
           "88MyOC3IRcct6VLk": {
@@ -263,7 +263,7 @@
                 "count": "2"
               }
             ],
-            "name": "Summon",
+            "name": "Invocar",
             "range": "",
             "triggers": [],
             "areas": []
@@ -287,17 +287,17 @@
       "_key": "!actors.items!acMu9wJrMZZzLSTJ.hkZVEduCWJFR0h2S"
     },
     {
-      "name": "Icy Winds",
+      "name": "Ventos Gélidos",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 4)</em>. When the PCs enter the mountain pass, activate the countdown. When it triggers, all characters traveling through the pass must succeed on a Strength Reaction Roll or mark a Stress. A PC wearing clothes appropriate for extreme cold gains advantage on these rolls.</p><section class=\"secret\" id=\"secret-FsJMzj3ZZuf134s2\"><p><em>What parts of the PC's bodies go numb fi rst? How do they try to keep warm as they press forward?</em></p></section>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 4)</em>. Quando os personagens entrarem na passagem da montanha, ative a contagem regressiva. Quando disparar, todos os personagens que atravessam a passagem devem ter sucesso em um Teste de Reação de Força ou marcar 1 Fadiga. Um personagem com roupas adequadas para frio extremo tem vantagem nesses testes.</p><section class=\"secret\" id=\"secret-FsJMzj3ZZuf134s2\"><p><em>Que partes do corpo dos personagens ficam dormentes primeiro? Como eles tentam se manter aquecidos enquanto seguem adiante?</em></p></section>",
         "resource": null,
         "actions": {
           "kDV2h9DhO6fEDcjl": {
             "type": "attack",
             "_id": "kDV2h9DhO6fEDcjl",
             "systemPath": "actions",
-            "description": "<p>All characters traveling through the pass must succeed on a Strength Reaction Roll or mark a Stress. A PC wearing clothes appropriate for extreme cold gains advantage on these rolls.</p><section class=\"secret\" id=\"secret-nEZRdWaqMAIUoQG0\"><p><em>What parts of the PC's bodies go numb fi rst? How do they try to keep warm as they press forward?</em></p></section>",
+            "description": "<p>Todos os personagens que atravessam a passagem devem ter sucesso em um Teste de Reação de Força ou marcar 1 Fadiga. Um personagem com roupas adequadas para frio extremo tem vantagem nesses testes.</p><section class=\"secret\" id=\"secret-nEZRdWaqMAIUoQG0\"><p><em>Que partes do corpo dos personagens ficam dormentes primeiro? Como eles tentam se manter aquecidos enquanto seguem adiante?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -355,7 +355,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/water/snowflake-ice-blue-white.webp",
             "range": "",
             "baseAction": false,
@@ -369,7 +369,7 @@
             "type": "countdown",
             "_id": "yJj6IsNNTEyKndvO",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 4)</em>. When the PCs enter the mountain pass, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 4)</em>. Quando os personagens entrarem na passagem da montanha, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -384,7 +384,7 @@
             },
             "countdown": [
               {
-                "name": "Icy Winds",
+                "name": "Ventos Gélidos",
                 "type": "encounter",
                 "img": "icons/magic/water/snowflake-ice-blue-white.webp",
                 "progress": {
@@ -398,7 +398,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/water/snowflake-ice-blue-white.webp",
             "range": "",
             "baseAction": false,

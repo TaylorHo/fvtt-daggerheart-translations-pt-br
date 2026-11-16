@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Upscale Casino",
+  "name": "Cassino de Luxo",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "social",
-    "description": "<p>A glittering gambling hall where well-heeled merchants and nobles come to fritter away their fortunes.</p>",
+    "description": "<p>Um salão de jogos reluzente onde mercadores e nobres abastados vêm desperdiçar suas fortunas.</p>",
     "tier": 3,
-    "impulses": "Dangle the jackpot just out of reach, dazzle them with spectacle, prey on their vices",
+    "impulses": "Fazer o grande prêmio pairar fora de alcance, deslumbrar com espetáculo, explorar seus vícios",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "cDV40IntAD7wIsdW": {
-        "label": "Automated Security",
+        "label": "Segurança Automatizada",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.JqYraOqNmmhHk4Yy",
           "Compendium.daggerheart.adversaries.Actor.FVgYb28fhxlVcGwA",
@@ -22,7 +22,7 @@
         ]
       },
       "iGIc0fm5te27GwnO": {
-        "label": "Gamblers",
+        "label": "Apostadores",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.ZxWaWPdzFIUPNC62",
           "Compendium.daggerheart.adversaries.Actor.Vy02IhGhkJLuezu4",
@@ -35,11 +35,11 @@
   },
   "items": [
     {
-      "name": "Glitz & Glamor",
+      "name": "Brilho & Glamour",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The overwhelming spectacle of this place can entrance even the most jaded patron. While here, all PCs have disadvantage on reaction rolls caused by a staff member or regular patron of the casino.</p><section id=\"secret-dx8PQyaq0D8ThujN\" class=\"secret\"><p>What's so wondrous about the casino's trappings? Are they truly magical in nature or merely mundane wonders taken to an impossible extreme?</p></section>",
+        "description": "<p>O espetáculo avassalador deste lugar pode fascinar até o cliente mais blasé. Enquanto estiverem aqui, todos os personagens têm desvantagem em testes de reação causados por um funcionário ou cliente habitual do cassino.</p><section id=\"secret-dx8PQyaq0D8ThujN\" class=\"secret\"><p>O que há de tão maravilhoso nos adornos do cassino? São verdadeiramente mágicos ou apenas maravilhas mundanas levadas a um extremo impossível?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -74,7 +74,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Appky",
+            "name": "Aplicar",
             "range": ""
           }
         },
@@ -85,10 +85,10 @@
       "img": "icons/commodities/gems/gem-faceted-rough-yellow.webp",
       "effects": [
         {
-          "name": "Glitz & Glamor",
+          "name": "Brilho & Glamour",
           "disabled": false,
           "img": "icons/commodities/gems/gem-faceted-rough-yellow.webp",
-          "description": "<p>While here, all PCs have disadvantage on reaction rolls caused by a staff member or regular patron of the casino.</p>",
+          "description": "<p>Enquanto estiverem aqui, todos os personagens têm desvantagem em testes de reação causados por um funcionário ou cliente habitual do cassino.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -146,11 +146,11 @@
       "_key": "!actors.items!m2xG46JFpCw5YHRX.MPNmu1p3ZwEuZ6rJ"
     },
     {
-      "name": "Fortune Favors the Bold",
+      "name": "A Fortuna Favorece os Audazes",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Once per long rest, a PC can gamble any amount of gold by stating how much they want to wager and rolling their Hope Die. On a result of 7 or higher, the PC wins an equal amount, doubling their money. On a result of 6 or lower, they lose it all.</p><section id=\"secret-8TzseKEFoLDuhLLe\" class=\"secret\"><p>What game does the PC choose to play? What house rules does this casino have? Is there anything besides gold the PCs are willing to risk?</p></section>",
+        "description": "<p>Uma vez por descanso longo, um personagem pode apostar qualquer quantia de ouro declarando quanto quer apostar e rolando seu Dado de Esperança. Em um resultado de 7 ou mais, o personagem ganha uma quantia igual, dobrando seu dinheiro. Em um resultado de 6 ou menos, perde tudo.</p><section id=\"secret-8TzseKEFoLDuhLLe\" class=\"secret\"><p>Que jogo o personagem escolhe jogar? Que regras da casa este cassino tem? Há algo além de ouro que os personagens estejam dispostos a arriscar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -170,11 +170,11 @@
       "_key": "!actors.items!m2xG46JFpCw5YHRX.2QOVvFTW4KVgMxbR"
     },
     {
-      "name": "The House Always Wins",
+      "name": "A Casa Sempre Vence",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When an adversary fails a roll, you can <strong>spend a Fear</strong> to make it a success instead.</p><section id=\"secret-6uU2pbh3GlFbgRRz\" class=\"secret\"><p>Is this place blessed with impossible fortune, or does something curse anyone who steps through its doors?</p></section>",
+        "description": "<p>Quando um adversário falha em uma rolagem, você pode <strong>gastar 1 de Medo</strong> para torná-la um sucesso.</p><section id=\"secret-6uU2pbh3GlFbgRRz\" class=\"secret\"><p>Este lugar é abençoado com uma sorte impossível ou algo amaldiçoa quem cruza suas portas?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -213,7 +213,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -232,11 +232,11 @@
       "_key": "!actors.items!m2xG46JFpCw5YHRX.rMprPGv7OHpvpHDQ"
     },
     {
-      "name": "Automated Security",
+      "name": "Segurança Automatizada",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC attempts to cheat at a game in the casino and fails, they must mark a Stress as they activate the casino's mechanical security detail. Gain a Fear and summon one Vault Guardian Gaoler and Turret for each PC, plus a Vault Guardian Sentinel. All adversaries appear within Far range of the PCs, and the Vault Guardian Sentinel immediately takes the spotlight.</p><section id=\"secret-UqWYRtzZBFLnM0RP\" class=\"secret\"><p>Who built these machines? Why are they preferable to living beings?</p></section>",
+        "description": "<p>Quando um personagem tenta trapacear em um jogo do cassino e falha, ele deve marcar 1 Fadiga ao acionar a segurança mecânica do cassino. Ganhe 1 de Medo e invoque um Vault Guardian Gaoler e uma Turret para cada personagem, mais um Vault Guardian Sentinel. Todos os adversários aparecem em alcance Distante dos personagens, e o Vault Guardian Sentinel recebe imediatamente o destaque.</p><section id=\"secret-UqWYRtzZBFLnM0RP\" class=\"secret\"><p>Quem construiu essas máquinas? Por que são preferíveis a seres vivos?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -292,11 +292,11 @@
       "_key": "!actors.items!m2xG46JFpCw5YHRX.TqjpHgCua41RhPb2"
     },
     {
-      "name": "The Devil's Playground",
+      "name": "O Parquinho do Diabo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>If the PCs defeat the casino's automated security or try to leave with stolen winnings, you can spend an amount of Fear equal to the number of PCs to summon the casino's true owner, a Demon of Avarice, within Close range of a PC. The Demon is immediately spotlighted and bars the party's exit at all costs.</p><section id=\"secret-eOA19GVK1YZHbVwn\" class=\"secret\"><p>How did the demon mask their influence until now? How does the casino itself change to reveal its true nature?</p></section>",
+        "description": "<p>Se os personagens derrotarem a segurança automatizada do cassino ou tentarem sair com ganhos roubados, você pode gastar uma quantidade de Medo igual ao número de personagens para invocar o verdadeiro dono do cassino, um Demon of Avarice, em alcance Próximo de um personagem. O Demônio recebe imediatamente o destaque e bloqueia a saída do grupo a qualquer custo.</p><section id=\"secret-eOA19GVK1YZHbVwn\" class=\"secret\"><p>Como o demônio disfarçou sua influência até agora? Como o próprio cassino muda para revelar sua verdadeira natureza?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -319,7 +319,7 @@
   "_id": "m2xG46JFpCw5YHRX",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Upscale Casino",
+    "name": "Cassino de Luxo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

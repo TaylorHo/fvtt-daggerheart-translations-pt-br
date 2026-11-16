@@ -1,5 +1,5 @@
 {
-  "name": "Striking Serpent",
+  "name": "Serpente Traiçoeira",
   "type": "beastform",
   "img": "icons/creatures/reptiles/serpent-horned-green.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "finesse",
     "advantageOn": {
       "5bQks8eptInw0g9i": {
-        "value": "Climb"
+        "value": "Escalar"
       },
       "j0mztP3MfVkA8KVL": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "yuIbmhAqfJmtzE6x": {
-        "value": "Sprint"
+        "value": "Deslizar"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Cobra, Rattlesnake, Viper, etc.",
+    "examples": "Naja, Cascavel, Víbora etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "qGhLojWa5430zRd1",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "veryClose",
               "trait": "finesse",
               "damageFormula": "@profd8 + 4",

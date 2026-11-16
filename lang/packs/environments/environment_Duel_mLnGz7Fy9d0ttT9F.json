@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Duel",
+  "name": "Duelo",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "event",
-    "description": "<p>An adversary challenges one of the PCs to single combat as the rest of the party aids them from the sidelines.</p>",
+    "description": "<p>Um adversário desafia um dos personagens para um combate singular enquanto o resto do grupo o auxilia de fora.</p>",
     "tier": 2,
-    "impulses": "Focus on one PC, goad them into overcommitting, inflict an embarrassing defeat, sideline the rest of the party",
+    "impulses": "Focar em um personagem, instigá-lo a se comprometer demais, impor uma derrota humilhante, deixar o resto do grupo de lado",
     "difficulty": 0,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -17,21 +17,21 @@
   },
   "items": [
     {
-      "name": "\"I Demand Satisfaction.\"",
+      "name": "\"Exijo Satisfação.\"",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When an adversary challenges a PC to one-on-one combat, the PC chooses whether to accept. If they reject the challenge, they must mark a Stress, and you gain a Fear. If a PC accepts an adversary's challenge, activate a Progress Countdown (6) and a Consequence Countdown (4). If the Progress Countdown triggers first, the PC wins the Duel and gains a favor or concession from their adversary. If the Consequence Countdown triggers first, the adversary wins the Duel and claims a favor or concession from the PC.</p><section id=\"secret-16hjiYcjlWwhMahV\" class=\"secret\"><p>Why was this PC chosen? What do they expect to win if they prove victorious?</p></section>",
+        "description": "<p>Quando um adversário desafia um personagem para um combate individual, o personagem escolhe se aceita. Se rejeitar o desafio, deve marcar 1 Fadiga e você ganha 1 de Medo. Se um personagem aceitar o desafio de um adversário, ative uma Contagem Regressiva de Progresso (6) e uma Contagem Regressiva de Consequência (4). Se a Contagem Regressiva de Progresso disparar primeiro, o personagem vence o Duelo e ganha um favor ou concessão de seu adversário. Se a Contagem Regressiva de Consequência disparar primeiro, o adversário vence o Duelo e reivindica um favor ou concessão do personagem.</p><section id=\"secret-16hjiYcjlWwhMahV\" class=\"secret\"><p>Por que este personagem foi escolhido? O que espera ganhar se for vitorioso?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "uPblGLoU6KvbPp6S": {
             "type": "countdown",
-            "name": "Challenge Accepted",
+            "name": "Desafio Aceito",
             "countdown": [
               {
-                "name": "Win The Duel",
+                "name": "Vencer o Duelo",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
@@ -45,7 +45,7 @@
                 "ownership": {}
               },
               {
-                "name": "Lose The Duel",
+                "name": "Perder o Duelo",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
@@ -95,11 +95,11 @@
       "_key": "!actors.items!mLnGz7Fy9d0ttT9F.JEsLZVMosxv2AVR8"
     },
     {
-      "name": "Relative Strength",
+      "name": "Força Relativa",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Difficulty of this environment equals that of the adversary who issued the challenge.</p><section id=\"secret-FvJjn9p0QgNrJxXT\" class=\"secret\"><p>Who issues the challenge? What are they fighting for?</p></section>",
+        "description": "<p>A Dificuldade deste ambiente é igual à do adversário que fez o desafio.</p><section id=\"secret-FvJjn9p0QgNrJxXT\" class=\"secret\"><p>Quem lança o desafio? Pelo que está lutando?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -119,11 +119,11 @@
       "_key": "!actors.items!mLnGz7Fy9d0ttT9F.XEMJowsrU7kCC4Ys"
     },
     {
-      "name": "Rules of Engagement",
+      "name": "Regras de Combate",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>During the Duel, the challenged PC is the only one who can make action rolls. Other PCs can only aid the challenged PC indirectly: They can Help an Ally, initiate group action rolls or Tag Team Rolls, and use any of their features that don't directly affect the challenging adversary.</p><section id=\"secret-BOtPLRBWgz5TXdoa\" class=\"secret\"><p>Where does this conflict take place? How does the environment offer the rest of the party an opportunity to aid their ally without interfering?</p></section>",
+        "description": "<p>Durante o Duelo, o personagem desafiado é o único que pode fazer testes de ação. Os outros personagens só podem auxiliar o personagem desafiado indiretamente: podem Ajudar um Aliado, iniciar testes de ação em grupo ou Jogadas em Dupla, e usar quaisquer de suas características que não afetem diretamente o adversário desafiante.</p><section id=\"secret-BOtPLRBWgz5TXdoa\" class=\"secret\"><p>Onde este conflito acontece? Como o ambiente oferece ao resto do grupo uma oportunidade de ajudar seu aliado sem interferir?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -143,11 +143,11 @@
       "_key": "!actors.items!mLnGz7Fy9d0ttT9F.AEM0xmcW99tiqKWq"
     },
     {
-      "name": "Dirty Tricks",
+      "name": "Golpes Baixos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the challenging adversary or one of their allies cheat. A PC can notice their underhanded action with a successful Instinct Reaction Roll and respond in kind.</p><section id=\"secret-LzWyF5jF08rjyP7c\" class=\"secret\"><p>What's off -limits in this conflict? How does the adversary's ally bend the rules without breaking them, or break the rules without getting caught? How can the PCs rebalance the scales?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para que o adversário desafiante ou um de seus aliados trapaceie. Um personagem pode perceber a ação desleal com um Teste de Reação de Instinto bem-sucedido e responder na mesma moeda.</p><section id=\"secret-LzWyF5jF08rjyP7c\" class=\"secret\"><p>O que é proibido neste conflito? Como o aliado do adversário dobra as regras sem quebrá-las, ou quebra as regras sem ser pego? Como os personagens podem reequilibrar a balança?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,7 +210,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -232,7 +232,7 @@
   "_id": "mLnGz7Fy9d0ttT9F",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Duel",
+    "name": "Duelo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

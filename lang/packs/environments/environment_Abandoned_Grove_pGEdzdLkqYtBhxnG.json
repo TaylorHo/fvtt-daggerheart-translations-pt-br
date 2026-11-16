@@ -1,12 +1,12 @@
 {
-  "name": "Abandoned Grove",
+  "name": "Bosque Abandonado",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "potentialAdversaries": {
       "VbbsqTQkmScgraqy": {
-        "label": "Beasts",
+        "label": "Feras",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.71qKDLKO3CsrNkdy",
           "Compendium.daggerheart.adversaries.Actor.wNzeuQLfLUMvgHlQ",
@@ -14,7 +14,7 @@
         ]
       },
       "oKq6LhpXvSWnmqyS": {
-        "label": "Grove Guardians",
+        "label": "Guardiões do Bosque",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D",
           "Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP",
@@ -25,9 +25,9 @@
     "notes": "",
     "difficulty": 11,
     "tier": 1,
-    "description": "<p>A former druidic grove lying fallow and fully reclaimed by nature.</p>",
+    "description": "<p>Um antigo bosque druídico em pousio e totalmente retomado pela natureza.</p>",
     "type": "exploration",
-    "impulses": "Draw in the curious, echo the past",
+    "impulses": "Atrair os curiosos, ecoar o passado",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -38,7 +38,7 @@
   "_id": "pGEdzdLkqYtBhxnG",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Abandoned Grove",
+    "name": "Bosque Abandonado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -131,10 +131,10 @@
   },
   "items": [
     {
-      "name": "Overgrown Battlefield",
+      "name": "Campo de Batalha Tomado pela Vegetação",
       "type": "feature",
       "system": {
-        "description": "<p>There has been a battle here. A PC can make an Instinct Roll to identify evidence of that fight. On a success with Hope, learn all three pieces of information below. On a success with Fear, learn two. On a failure, a PC can mark a Stress to learn one and gain advantage on the next action roll to investigate this environment. A PC with an appropriate background or Experience can learn an additional detail and ask a follow-up question about the scene and get a truthful (if not always complete) answer.</p><ul><li><p>Traces of a battle (broken weapons and branches, gouges in the ground) litter the ground.</p></li><li><p>A moss-covered tree trunk is actually the corpse of a treant.</p></li><li><p>Still-standing trees are twisted in strange ways, as if by powerful magic.</p></li></ul><section id=\"secret-eSdgCltFm45vLh9H\" class=\"secret\"><p><em>Why did these groups come to blows? Why is the grove unused now?</em></p></section>",
+        "description": "<p>Houve uma batalha aqui. Um personagem pode fazer um Teste de Instinto para identificar evidências dessa luta. Em caso de sucesso com Esperança, descobre as três informações abaixo. Em caso de sucesso com Medo, descobre duas. Em caso de falha, um personagem pode marcar 1 Fadiga para descobrir uma e ganhar vantagem no próximo teste de ação para investigar este ambiente. Um personagem com um passado ou Experiência apropriado pode descobrir um detalhe adicional e fazer uma pergunta de acompanhamento sobre a cena e obter uma resposta verdadeira (ainda que nem sempre completa).</p><ul><li><p>Vestígios de uma batalha (armas e galhos quebrados, sulcos no chão) cobrem o solo.</p></li><li><p>Um tronco coberto de musgo é, na verdade, o cadáver de um treant.</p></li><li><p>Árvores ainda de pé estão retorcidas de formas estranhas, como que por magia poderosa.</p></li></ul><section id=\"secret-eSdgCltFm45vLh9H\" class=\"secret\"><p><em>Por que esses grupos chegaram às vias de fato? Por que o bosque está sem uso agora?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -155,10 +155,10 @@
       "_key": "!actors.items!pGEdzdLkqYtBhxnG.MX4q2xxuWts9gBfT"
     },
     {
-      "name": "Barbed Vines",
+      "name": "Vinhas Farpadas",
       "type": "feature",
       "system": {
-        "description": "<p>Pick a point within the grove. All targets within Very Close range of that point must succeed on an Agility Reaction Roll or take <strong>1d8+3</strong> physical damage and become Restrained by barbed vines. Restrained lasts until they're freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines.</p><section id=\"secret-WVGl1YkqOicSEwlf\" class=\"secret\"><p><em>How many vines are there? Where do they grab you? Do they pull you down or lift you off the ground?</em></p></section>",
+        "description": "<p>Escolha um ponto no bosque. Todos os alvos em alcance Muito Próximo desse ponto devem ter sucesso em um Teste de Reação de Agilidade ou sofrem <strong>1d8+3</strong> de dano físico e ficam Imobilizados por vinhas farpadas. Imobilizado dura até serem libertados com um Teste de Acuidade ou Força bem-sucedido ou causando pelo menos 6 de dano às vinhas.</p><section id=\"secret-WVGl1YkqOicSEwlf\" class=\"secret\"><p><em>Quantas vinhas há? Onde elas agarram você? Elas puxam você para baixo ou erguem você do chão?</em></p></section>",
         "resource": null,
         "actions": {
           "47fcdhe1FDdm9rQU": {
@@ -188,9 +188,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -232,12 +230,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/nature/root-vine-spiral-thorns-teal.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Barbed Vines",
+                "name": "Vinhas Farpadas",
                 "type": "placed",
                 "shape": "circle",
                 "size": "veryClose",
@@ -262,7 +260,7 @@
       "img": "icons/magic/nature/root-vine-spiral-thorns-teal.webp",
       "effects": [
         {
-          "name": "Barbed Vines",
+          "name": "Vinhas Farpadas",
           "img": "icons/magic/nature/root-vine-spiral-thorns-teal.webp",
           "transfer": false,
           "_id": "LSeftEwgBbXXkLw3",
@@ -271,7 +269,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you're freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines.</p>"
+              "description": "<p>Até você ser libertado com um teste de Acuidade ou Força bem-sucedido ou causando pelo menos 6 de dano às vinhas.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -285,11 +283,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Restrained</em> lasts until you're freed with a successful Finesse or Strength roll or by dealing at least 6 damage to the vines.</p>",
+          "description": "<p><em>Imobilizado</em> dura até você ser libertado com um Teste de Acuidade ou Força bem-sucedido ou causando pelo menos 6 de dano às vinhas.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -317,10 +313,10 @@
       "_key": "!actors.items!pGEdzdLkqYtBhxnG.maK5OyfrOxcjCoPt"
     },
     {
-      "name": "You Are Not Welcome Here",
+      "name": "Você Não é Bem-Vindo Aqui",
       "type": "feature",
       "system": {
-        "description": "<p>A @UUID[Compendium.daggerheart.adversaries.Actor.8yUj2Mzvnifhxegm]{Young Dryad}, two @UUID[Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP]{Sylvan Soldiers}, and a number of @UUID[Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D]{Minor Treants} equal to the number of PCs appear to confront the party for their intrusion.</p><section id=\"secret-01hkXuVJc5Kei4QW\" class=\"secret\"><p><em>What are the grove guardians concealing? What threat to the forest could the PCs confront to appease the Dryad?</em></p></section>",
+        "description": "<p>Uma @UUID[Compendium.daggerheart.adversaries.Actor.8yUj2Mzvnifhxegm]{Young Dryad}, dois @UUID[Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP]{Sylvan Soldiers} e uma quantidade de @UUID[Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D]{Minor Treants} igual ao número de personagens aparecem para confrontar o grupo pela intrusão.</p><section id=\"secret-01hkXuVJc5Kei4QW\" class=\"secret\"><p><em>O que os guardiões do bosque estão escondendo? Que ameaça à floresta os personagens poderiam enfrentar para apaziguar a Dríade?</em></p></section>",
         "resource": null,
         "actions": {
           "TPm6rpKA4mbili82": {
@@ -377,10 +373,10 @@
       "_key": "!actors.items!pGEdzdLkqYtBhxnG.uG5A2XQuUcPsXzgP"
     },
     {
-      "name": "Defiler",
+      "name": "Profanador",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to summon a @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{Minor Chaos Elemental} drawn to the echoes of violence and discord. They appear within Far range of a chosen PC and immediately take the spotlight.</p><section id=\"secret-ChOafrgiTeYqsqoe\" class=\"secret\"><p><em>What color does the grass turn as the elemental appears? How does the chaos warp insects and small wildlife within the grove?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar um @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{Minor Chaos Elemental} atraído pelos ecos de violência e discórdia. Ele aparece em alcance Distante de um personagem escolhido e imediatamente recebe o destaque.</p><section id=\"secret-ChOafrgiTeYqsqoe\" class=\"secret\"><p><em>De que cor a grama se torna quando o elemental aparece? Como o caos deforma insetos e pequenos animais dentro do bosque?</em></p></section>",
         "resource": null,
         "actions": {
           "p6V4k4yMwJ1UPZMz": {
@@ -402,7 +398,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
             "range": "",
             "baseAction": false,

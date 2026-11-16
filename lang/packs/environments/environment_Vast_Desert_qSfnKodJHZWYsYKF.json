@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Vast Desert",
+  "name": "Deserto Vasto",
   "folder": "XMeecO3IRvu5ck6F",
   "system": {
     "type": "traversal",
-    "description": "<p>A parched expanse of sandy dunes, desolate salt flats, and windblown rock formations.</p>",
+    "description": "<p>Uma extensão árida de dunas de areia, salinas desoladas e formações rochosas açoitadas pelo vento.</p>",
     "tier": 2,
-    "impulses": "Dehydrate, show desolate beauty, threaten danger on the horizon",
+    "impulses": "Desidratar, mostrar beleza desolada, ameaçar com perigo no horizonte",
     "difficulty": 14,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "pefTawH0Dv5bd4fz": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.89yAh30vaNQOALlz",
           "Compendium.daggerheart.adversaries.Actor.A9EuHHWa6UmN7khR",
@@ -26,21 +26,21 @@
   },
   "items": [
     {
-      "name": "Endless Sands",
+      "name": "Areias Infinitas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (8). To cross the desert, the party must complete the countdown. It ticks down whenever a PC succeeds on an action roll to navigate the seemingly endless expanse.</p><section id=\"secret-mn0yB3t2n3Agrpn8\" class=\"secret\"><p>How do the PCs travel through the desert? What beyond the extreme distance and lack of water makes this area difficult to cross?</p></section>",
+        "description": "<p>Contagem Regressiva (8). Para atravessar o deserto, o grupo deve completar a contagem regressiva. Ela diminui sempre que um personagem tem sucesso em um teste de ação para navegar pela extensão aparentemente interminável.</p><section id=\"secret-mn0yB3t2n3Agrpn8\" class=\"secret\"><p>Como os personagens viajam pelo deserto? O que, além da distância extrema e da falta de água, torna esta área difícil de atravessar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "sMYXsK2hF5TmFsBP": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Endless Sands",
+                "name": "Areias Infinitas",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
@@ -90,11 +90,11 @@
       "_key": "!actors.items!qSfnKodJHZWYsYKF.1Cg2NBQwZfDHDtud"
     },
     {
-      "name": "Water Supply",
+      "name": "Suprimento de Água",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the party starts their journey, place a number of tokens on this stat block equal to 1 + the number of PCs in the scene. Remove a token at the end of each long rest or when a PC fails an action roll to navigate the desert. When a token would be removed but there are none left, each PC must mark a HP and a Stress. A PC can add a token to this stat block by using a downtime move and making a successful Knowledge Roll to hunt for water.</p><section id=\"secret-HrjAsR0xJqcSmwOJ\" class=\"secret\"><p>What sorts of water-preserving flora or terrain features have the PCs heard might be found in this desert? How do the PCs collect and carry the water they find?</p></section>",
+        "description": "<p>Quando o grupo inicia a jornada, coloque uma quantidade de fichas neste bloco de estatísticas igual a 1 + o número de personagens na cena. Remova uma ficha ao fim de cada descanso longo ou quando um personagem falha em um teste de ação para navegar pelo deserto. Quando uma ficha for removida mas não restar nenhuma, cada personagem deve marcar 1 PV e 1 Fadiga. Um personagem pode adicionar uma ficha a este bloco de estatísticas usando uma ação de intervalo e fazendo um Teste de Conhecimento bem-sucedido para procurar água.</p><section id=\"secret-HrjAsR0xJqcSmwOJ\" class=\"secret\"><p>Que tipos de flora ou características do terreno que preservam água os personagens ouviram dizer que podem ser encontrados neste deserto? Como os personagens coletam e carregam a água que encontram?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -174,7 +174,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Out Of Water",
+            "name": "Fora d'Água",
             "range": ""
           }
         },
@@ -193,11 +193,11 @@
       "_key": "!actors.items!qSfnKodJHZWYsYKF.1S8CU4cFoFynMX0N"
     },
     {
-      "name": "Shifting Sands",
+      "name": "Areias Cambiantes",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The ever-shifting dunes and the whipping wind make trailing creatures through this environment difficult. Action rolls to track creatures through the desert are made with disadvantage.</p><section id=\"secret-quoNT6CadU1q7WDQ\" class=\"secret\"><p>How do the dunes and landscape shift whenever the heroes rest? What is covered or uncovered by the wind?</p></section>",
+        "description": "<p>As dunas em constante mudança e o vento cortante dificultam seguir o rastro de criaturas neste ambiente. Testes de ação para rastrear criaturas pelo deserto são feitos com desvantagem.</p><section id=\"secret-quoNT6CadU1q7WDQ\" class=\"secret\"><p>Como as dunas e a paisagem mudam sempre que os heróis descansam? O que é coberto ou descoberto pelo vento?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -232,7 +232,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Shifting Sands",
+            "name": "Aplicar Areias Cambiantes",
             "range": ""
           }
         },
@@ -243,10 +243,10 @@
       "img": "icons/skills/trades/academics-merchant-scribe.webp",
       "effects": [
         {
-          "name": "New Effect",
+          "name": "Novo Efeito",
           "disabled": false,
           "img": "icons/skills/trades/academics-merchant-scribe.webp",
-          "description": "<p>Action rolls to track creatures through the desert are made with disadvantage.</p>",
+          "description": "<p>Testes de ação para rastrear criaturas pelo deserto são feitos com desvantagem.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -304,11 +304,11 @@
       "_key": "!actors.items!qSfnKodJHZWYsYKF.XGtU0hcWUO1rJqSV"
     },
     {
-      "name": "Thunderstorm",
+      "name": "Tempestade com Raios",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have a torrential downpour soak the land. Each PC must either seek shelter from the storm or collect rainwater. Each PC who seeks shelter marks a Stress. The PCs who collect rainwater make a group action roll.</p><ul><li><p>On a success with Hope, add <strong>1d4</strong> tokens to the Water Supply.</p></li><li><p>On a success with Fear, add 1 token to the Water Supply.</p></li><li><p>On a failure with Hope, each PC who took part in the group action roll marks a Stress.</p></li><li><p>On a failure with Fear, each PC who took part in the group action roll marks a Stress, and the PC who rolled the lowest takes <strong>2d8+4</strong> physical damage from the storm.</p></li></ul><section id=\"secret-zav64YaMGRmiq3pt\" class=\"secret\"><p>How does the storm look to the heroes as it rolls in from miles away? Is the storm natural or unnatural? How can you tell?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um temporal torrencial encharcar a terra. Cada personagem deve procurar abrigo da tempestade ou coletar água da chuva. Cada personagem que procura abrigo marca 1 Fadiga. Os personagens que coletam água da chuva fazem um teste de ação em grupo.</p><ul><li><p>Em caso de sucesso com Esperança, adicione <strong>1d4</strong> fichas ao Suprimento de Água.</p></li><li><p>Em caso de sucesso com Medo, adicione 1 ficha ao Suprimento de Água.</p></li><li><p>Em caso de falha com Esperança, cada personagem que participou do teste de ação em grupo marca 1 Fadiga.</p></li><li><p>Em caso de falha com Medo, cada personagem que participou do teste de ação em grupo marca 1 Fadiga, e o personagem que rolou o menor resultado sofre <strong>2d8+4</strong> de dano físico da tempestade.</p></li></ul><section id=\"secret-zav64YaMGRmiq3pt\" class=\"secret\"><p>Como a tempestade parece aos heróis ao se aproximar vinda de quilômetros de distância? A tempestade é natural ou sobrenatural? Como dá para saber?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -347,7 +347,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -366,11 +366,11 @@
       "_key": "!actors.items!qSfnKodJHZWYsYKF.UNqxbFMJLvgK8bSY"
     },
     {
-      "name": "Sandstorm",
+      "name": "Tempestade de Areia",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to summon a sandstorm that disorients and harries travelers. Each PC takes <strong>2d6+3</strong> physical damage. Until the sandstorm dissipates, a PC who makes an action roll must succeed on an Agility Reaction Roll to avoid the swirl of rocks and debris or take <strong>2d6+3</strong> physical damage.</p><section id=\"secret-J9Dw21CreXbQgtx4\" class=\"secret\"><p>What do the dwellers of this desert wear to weather the sandstorms? How are the dwelling places the party finds here designed to withstand the winds?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar uma tempestade de areia que desorienta e castiga os viajantes. Cada personagem sofre <strong>2d6+3</strong> de dano físico. Até a tempestade de areia se dissipar, um personagem que faça um teste de ação deve ter sucesso em um Teste de Reação de Agilidade para evitar o redemoinho de pedras e detritos, ou sofre <strong>2d6+3</strong> de dano físico.</p><section id=\"secret-J9Dw21CreXbQgtx4\" class=\"secret\"><p>O que os habitantes deste deserto vestem para enfrentar as tempestades de areia? Como as moradias que o grupo encontra aqui são projetadas para resistir aos ventos?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -396,9 +396,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -456,7 +454,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "aLTGQ2yTNROChQ0v": {
@@ -480,9 +478,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -531,7 +527,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Ongoing Sandstorm",
+            "name": "Tempestade de Areia em Curso",
             "range": ""
           }
         },
@@ -553,7 +549,7 @@
   "_id": "qSfnKodJHZWYsYKF",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Vast Desert",
+    "name": "Deserto Vasto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

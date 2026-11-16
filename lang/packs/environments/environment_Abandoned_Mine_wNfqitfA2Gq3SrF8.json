@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Abandoned Mine",
+  "name": "Mina Abandonada",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "traversal",
-    "description": "<p>A twisting warren of disused tunnels carved out of the bedrock by a doomed mining outfit.</p>",
+    "description": "<p>Uma toca tortuosa de túneis abandonados escavados na rocha por uma empresa de mineração condenada.</p>",
     "tier": 1,
-    "impulses": "Poison the party with deadly gasses, rumble and collapse, split the party, turn them around",
+    "impulses": "Envenenar o grupo com gases mortais, estremecer e desabar, dividir o grupo, fazê-los voltar",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "vGJG6PfuucD4WEsB": {
-        "label": "Darkweave Spiders",
+        "label": "Aranhas Tecelãs-Escuras",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.Z16fYvCNRlD4XZij",
           "Compendium.daggerheart.adversaries.Actor.YdGTyYI6bBXh5lgV",
@@ -22,7 +22,7 @@
         ]
       },
       "pYwK3J4SaqK0Yiw6": {
-        "label": "Miner Ghosts",
+        "label": "Fantasmas de Mineiros",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.ytj3VDog4hrC4TkO",
           "Compendium.daggerheart.adversaries.Actor.XuGDFgTjn1vFQhyA"
@@ -33,11 +33,11 @@
   },
   "items": [
     {
-      "name": "Pitch Black",
+      "name": "Escuridão Total",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>There is no light, natural or otherwise, in these underground mining tunnels. Ask the PCs what they use for light or how they otherwise find their way in the dark. PCs without a reliable source of light make action and reaction rolls with disadvantage.</p><section id=\"secret-2iWVOxm7ZUdQwhZE\" class=\"secret\"><p>What fuel does the party's light source use, and how long will it last? What unwanted attention does the light attract?</p></section>",
+        "description": "<p>Não há luz, natural ou não, nestes túneis de mineração subterrâneos. Pergunte aos personagens o que usam para iluminar ou como encontram o caminho no escuro. personagens sem uma fonte de luz confiável fazem testes de ação e de reação com desvantagem.</p><section id=\"secret-2iWVOxm7ZUdQwhZE\" class=\"secret\"><p>Que combustível a fonte de luz do grupo usa e quanto tempo vai durar? Que atenção indesejada a luz atrai?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -57,21 +57,21 @@
       "_key": "!actors.items!wNfqitfA2Gq3SrF8.rK7ZkEUsaqM8gLI5"
     },
     {
-      "name": "Labyrinth",
+      "name": "Labirinto",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The party must complete a Progress Countdown (4) to find their way through the mines. Each time a PC rolls with Hope while finding their way through, they discover one of the curiosities below.</p><ul><li><p>An unmined vein of precious metals or gemstones</p></li><li><p>Various mining tools, including a broken (but mendable) mine cart made of adamantine</p></li><li><p>Psychic echoes of the miners' tragic end</p></li><li><p>The desiccated corpses of miners who lost their way in the tunnels</p></li><li><p>Tattered remnants of darkweave spider silk</p></li></ul><section id=\"secret-xz0zpURL7LpP6Y6n\" class=\"secret\"><p>What did miners previously extract here? Who in the party knows how to navigate below ground? What are the PCs most afraid might happen to them down here?</p></section>",
+        "description": "<p>O grupo deve completar uma Contagem Regressiva de Progresso (4) para encontrar o caminho pelas minas. Cada vez que um personagem rolar com Esperança enquanto procura o caminho, descobre uma das curiosidades abaixo.</p><ul><li><p>Uma veia intocada de metais preciosos ou gemas</p></li><li><p>Várias ferramentas de mineração, incluindo um carrinho de mina quebrado (mas consertável) feito de adamantina</p></li><li><p>Ecos psíquicos do fim trágico dos mineiros</p></li><li><p>Os cadáveres ressecados de mineiros que se perderam nos túneis</p></li><li><p>Restos esfarrapados de seda de aranha tecelã-escura</p></li></ul><section id=\"secret-xz0zpURL7LpP6Y6n\" class=\"secret\"><p>O que os mineiros extraíam aqui? Quem no grupo sabe se orientar no subterrâneo? O que os personagens mais temem que lhes aconteça aqui embaixo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "O96PUar3HP8DcW2n": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Labyrinth",
+                "name": "Labirinto",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/wilderness/mine-exterior-entrance.webp",
@@ -121,11 +121,11 @@
       "_key": "!actors.items!wNfqitfA2Gq3SrF8.HfkkL2BpHbNy9wnn"
     },
     {
-      "name": "Into the Spider's Web",
+      "name": "Na Teia da Aranha",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to summon a Darkweave Queen inside her gossamer-strewn lair. She drops from the ceiling within Close range of a PC and immediately takes the spotlight.</p><section id=\"secret-i9sSpmMkF7CLcuS9\" class=\"secret\"><p>How does the Darkweave Queen use her lair to her advantage? What remnants of her past meals can the party find here?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar uma Darkweave Queen dentro de seu covil coberto de teias. Ela cai do teto em alcance Próximo de um personagem e imediatamente recebe o destaque.</p><section id=\"secret-i9sSpmMkF7CLcuS9\" class=\"secret\"><p>Como a Darkweave Queen usa seu covil a seu favor? Que restos de suas refeições passadas o grupo pode encontrar aqui?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -156,7 +156,7 @@
                 "count": "1"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -175,21 +175,21 @@
       "_key": "!actors.items!wNfqitfA2Gq3SrF8.M2Iudy8tNp2tR4rO"
     },
     {
-      "name": "Impending Collapse",
+      "name": "Colapso Iminente",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Countdown (2). The first time the PCs roll with Fear, describe how the ground subtly vibrates as rocks shift overhead and activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, each PC must succeed on an Agility Reaction Roll or take <strong>1d8+3</strong> physical damage and become temporarily <em>Restrained</em> by the rubble.</p><section id=\"secret-HE1rGi9t3pctLs3I\" class=\"secret\"><p>What other signs of instability does the mine offer the party? What new dangers does the tunnel system's new configuration expose the party to?</p></section>",
+        "description": "<p>Contagem Regressiva (2). Na primeira vez que os personagens rolarem com Medo, descreva como o chão vibra sutilmente enquanto rochas se deslocam acima e ative a contagem regressiva. Ela diminui quando um personagem rola com Medo. Quando disparar, cada personagem deve ter sucesso em um Teste de Reação de Agilidade ou sofre <strong>1d8+3</strong> de dano físico e fica temporariamente <em>Imobilizado</em> pelos escombros.</p><section id=\"secret-HE1rGi9t3pctLs3I\" class=\"secret\"><p>Que outros sinais de instabilidade a mina oferece ao grupo? A que novos perigos a nova configuração do sistema de túneis expõe o grupo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "mofXrAijYoeUrStc": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Impending Collapse",
+                "name": "Colapso Iminente",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/earth/projectile-stone-landslide.webp",
@@ -244,9 +244,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -255,7 +253,7 @@
             "_id": "FyWRM3ORf4E3ahy9",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, each PC must succeed on an Agility Reaction Roll or take <strong>1d8+3</strong> physical damage and become temporarily <em>Restrained</em> by the rubble.</p>",
+            "description": "<p>Quando disparar, cada personagem deve ter sucesso em um Teste de Reação de Agilidade ou sofre <strong>1d8+3</strong> de dano físico e fica temporariamente <em>Imobilizado</em> pelos escombros.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -300,7 +298,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": ""
           }
         },
@@ -311,14 +309,12 @@
       "img": "icons/magic/earth/projectile-stone-landslide.webp",
       "effects": [
         {
-          "name": "Rubble",
+          "name": "Escombros",
           "disabled": false,
           "img": "icons/magic/earth/projectile-stone-landslide.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -369,7 +365,7 @@
   "_id": "wNfqitfA2Gq3SrF8",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Abandoned Mine",
+    "name": "Mina Abandonada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

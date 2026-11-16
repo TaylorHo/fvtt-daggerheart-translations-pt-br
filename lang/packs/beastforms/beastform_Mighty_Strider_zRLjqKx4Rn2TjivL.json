@@ -1,5 +1,5 @@
 {
-  "name": "Mighty Strider",
+  "name": "Trotador Robusto",
   "type": "beastform",
   "img": "icons/environment/creatures/horse-tan.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "agility",
     "advantageOn": {
       "Az0LCAgV6NQMddlz": {
-        "value": "Leap"
+        "value": "Saltar"
       },
       "6Povd6wfN4USSgbL": {
-        "value": "Navigate"
+        "value": "Orientar-se"
       },
       "wnHlu70U2vvDKNIo": {
-        "value": "Sprint"
+        "value": "Correr"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Camel, Horse, Zebra, etc.",
+    "examples": "Camelo, Cavalo, Zebra etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "IWg2cWUdvucUOLAL",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd8 + 1",

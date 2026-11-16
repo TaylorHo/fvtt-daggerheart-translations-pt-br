@@ -1,9 +1,9 @@
 {
-  "name": "Carrier",
+  "name": "Besta de Carga",
   "type": "feature",
   "img": "icons/environment/people/cavalry-heavy.webp",
   "system": {
-    "description": "<p>You can carry up to two willing allies with you when you move.</p>",
+    "description": "<p>Você pode carregar até dois aliados dispostos com você quando se move.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

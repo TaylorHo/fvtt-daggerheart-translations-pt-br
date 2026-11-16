@@ -1,9 +1,9 @@
 {
-  "name": "Devastating Strikes",
+  "name": "Golpes Devastadores",
   "type": "feature",
   "img": "icons/skills/melee/blood-slash-foam-red.webp",
   "system": {
-    "description": "<p>When you deal Severe damage to a target within Melee range, you can <strong>mark a Stress</strong> to force them to mark an additional Hit Point.</p>",
+    "description": "<p>Quando você causa dano Grave a um alvo em alcance Corpo a Corpo, pode <strong>marcar 1 Fadiga</strong> para forçá-lo a marcar 1 Ponto de Vida adicional.</p>",
     "resource": null,
     "actions": {
       "EvdZLuP0wunF5cmq": {
@@ -63,7 +63,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },

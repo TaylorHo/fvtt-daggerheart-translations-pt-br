@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Time Court",
+  "name": "Corte do Tempo",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "type": "event",
-    "description": "<p>One or more PCs are forcibly plucked from the timeline and put on trial for crimes against continuity.</p>",
+    "description": "<p>Um ou mais personagens são arrancados à força da linha do tempo e levados a julgamento por crimes contra a continuidade.</p>",
     "tier": 4,
-    "impulses": "Find the truth, mete out justice, nullify their powers",
+    "impulses": "Encontrar a verdade, aplicar a justiça, anular seus poderes",
     "difficulty": 20,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "Dh1UipXuHjMyzcbU": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.yx0vK2yfNVZKWUUi",
           "Compendium.daggerheart.adversaries.Actor.68xDUa9Ls48O825Z",
@@ -26,11 +26,11 @@
   },
   "items": [
     {
-      "name": "Out of Time",
+      "name": "Fora do Tempo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The trial takes place in a pocket dimension that exists beyond the influence of the other realms. While here, PCs can't use their features and abilities. Each player must put their Domain cards in their vault.</p><section id=\"secret-ImJWy36uInJMMu1x\" class=\"secret\"><p>What besides the courtroom resides in this pocket dimension? What powers maintain the universal barrier protecting this place?</p></section>",
+        "description": "<p>O julgamento ocorre em uma dimensão de bolso que existe além da influência dos outros reinos. Enquanto estiverem aqui, os personagens não podem usar suas características e habilidades. Cada jogador deve colocar suas cartas de Domínio no cofre.</p><section id=\"secret-ImJWy36uInJMMu1x\" class=\"secret\"><p>O que além do tribunal reside nesta dimensão de bolso? Que poderes mantêm a barreira universal que protege este lugar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -65,7 +65,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply",
+            "name": "Aplicar",
             "range": ""
           }
         },
@@ -76,10 +76,10 @@
       "img": "icons/magic/time/hourglass-yellow-green.webp",
       "effects": [
         {
-          "name": "Out Of Time",
+          "name": "Fora do Tempo",
           "disabled": false,
           "img": "icons/magic/time/hourglass-yellow-green.webp",
-          "description": "<p>While here, PCs can't use their features and abilities. Each player must put their Domain cards in their vault.</p>",
+          "description": "<p>Enquanto estiverem aqui, os personagens não podem usar suas características e habilidades. Cada jogador deve colocar suas cartas de Domínio no cofre.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -129,21 +129,21 @@
       "_key": "!actors.items!QbGEzb5Gvq36qYDj.FOUXRDD4q9YAIe65"
     },
     {
-      "name": "Trial by Jury",
+      "name": "Julgamento pelo Júri",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>At the end of the proceedings, a jury votes whether to acquit or convict the party. When the court is called to order, have the prosecution present its case against the PCs and start a Countdown (9). It ticks down when a PC makes an action roll. When it triggers, the PCs and GM roll their Judgment Dice. If the party's total result meets or exceeds the GM's, the jury acquits them.</p><section id=\"secret-SR95wc6Tpalzj7Sw\" class=\"secret\"><p>Which PCs are put on trial? What are they accused of? What potential penalties would a guilty verdict bring?</p></section>",
+        "description": "<p>Ao fim do processo, um júri vota se absolve ou condena o grupo. Quando o tribunal for chamado à ordem, faça a acusação apresentar seu caso contra os personagens e inicie uma Contagem Regressiva (9). Ela diminui quando um personagem faz um teste de ação. Quando disparar, os personagens e o Mestre rolam seus Dados de Julgamento. Se o resultado total do grupo igualar ou superar o do Mestre, o júri os absolve.</p><section id=\"secret-SR95wc6Tpalzj7Sw\" class=\"secret\"><p>Quais personagens são levados a julgamento? De que são acusados? Que penalidades um veredicto de culpa traria?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "OuwNR2lTMCWW9xAm": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Trial by Jury",
+                "name": "Julgamento pelo Júri",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
@@ -160,7 +160,7 @@
             "_id": "OuwNR2lTMCWW9xAm",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>At the end of the proceedings, a jury votes whether to acquit or convict the party. When the court is called to order, have the prosecution present its case against the PCs and start a Countdown (9). It ticks down when a PC makes an action roll.</p><section id=\"secret-SR95wc6Tpalzj7Sw\" class=\"secret\"><p>Which PCs are put on trial? What are they accused of? What potential penalties would a guilty verdict bring?</p></section>",
+            "description": "<p>Ao fim do processo, um júri vota se absolve ou condena o grupo. Quando o tribunal for chamado à ordem, faça a acusação apresentar seu caso contra os personagens e inicie uma Contagem Regressiva (9). Ela diminui quando um personagem faz um teste de ação.</p><section id=\"secret-SR95wc6Tpalzj7Sw\" class=\"secret\"><p>Quais personagens são levados a julgamento? De que são acusados? Que penalidades um veredicto de culpa traria?</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -182,7 +182,7 @@
             "_id": "W0PQ3KJk0784W3gB",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, the PCs and GM roll their Judgment Dice. If the party's total result meets or exceeds the GM's, the jury acquits them.</p>",
+            "description": "<p>Quando disparar, os personagens e o Mestre rolam seus Dados de Julgamento. Se o resultado total do grupo igualar ou superar o do Mestre, o júri os absolve.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -202,7 +202,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": ""
           }
         },
@@ -221,11 +221,11 @@
       "_key": "!actors.items!QbGEzb5Gvq36qYDj.Qc1Mm8cdNfb0fcDg"
     },
     {
-      "name": "Counsel for the Defense",
+      "name": "Advogado de Defesa",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC can make an action roll to argue for their innocence (such as a Knowledge Roll to interpret the letter of the law, a Presence Roll to play on the jury's emotions, or an Instinct Roll to point out holes in the prosecution's case). On a success, the party gains a <strong>d6</strong> Judgment Die. On a critical success, they gain two. On a failure, the prosecution rebuts the PC's argument, and you gain a <strong>d6</strong> Judgment Die.</p><section id=\"secret-cESowB70gMt9UBRX\" class=\"secret\"><p>What is the weakest part of the prosecution's case? What is the strongest part of the party's defense?</p></section>",
+        "description": "<p>Um personagem pode fazer um teste de ação para argumentar pela própria inocência (como um Teste de Conhecimento para interpretar a letra da lei, um Teste de Presença para apelar às emoções do júri ou um Teste de Instinto para apontar falhas no caso da acusação). Em caso de sucesso, o grupo ganha um Dado de Julgamento <strong>d6</strong>. Em caso de sucesso crítico, ganha dois. Em caso de falha, a acusação refuta o argumento do personagem e você ganha um Dado de Julgamento <strong>d6</strong>.</p><section id=\"secret-cESowB70gMt9UBRX\" class=\"secret\"><p>Qual é o ponto mais fraco do caso da acusação? Qual é o ponto mais forte da defesa do grupo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -245,11 +245,11 @@
       "_key": "!actors.items!QbGEzb5Gvq36qYDj.5dfMCpOvnNNeUpNV"
     },
     {
-      "name": "Counsel for the Prosecution",
+      "name": "Advogado de Acusação",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The prosecution introduces a damning piece of evidence (such as an eyewitness testimony, test results, or a physical exhibit taken from the scene of the crime), and you gain a <strong>d6</strong> Judgment Die. A PC can mark a Stress to attempt a rebuttal of the evidence with a Knowledge, Instinct, or Presence Reaction Roll. On a success, the party gains the Judgment Die instead of you. On a failure, you gain an additional <strong>d6</strong> Judgment Die.</p><section id=\"secret-PKxc7LWA63hG6Dj0\" class=\"secret\"><p>Who leads the prosecution, and what is their relationship to the Time Council? What magic or technology does this court rely on to present and record evidence?</p></section>",
+        "description": "<p>A acusação apresenta uma prova contundente (como o depoimento de uma testemunha ocular, resultados de exames ou uma evidência física retirada da cena do crime), e você ganha um Dado de Julgamento <strong>d6</strong>. Um personagem pode marcar 1 Fadiga para tentar refutar a prova com um Teste de Reação de Conhecimento, Instinto ou Presença. Em caso de sucesso, o grupo ganha o Dado de Julgamento em vez de você. Em caso de falha, você ganha um Dado de Julgamento <strong>d6</strong> adicional.</p><section id=\"secret-PKxc7LWA63hG6Dj0\" class=\"secret\"><p>Quem lidera a acusação e qual sua relação com o Conselho do Tempo? Em que magia ou tecnologia este tribunal se apoia para apresentar e registrar provas?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -269,11 +269,11 @@
       "_key": "!actors.items!QbGEzb5Gvq36qYDj.X91s1yNbX9BFGthV"
     },
     {
-      "name": "\"Order in the Court!\"",
+      "name": "\"Ordem no Tribunal!\"",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the PCs attempt to escape or end the trial through force, summon a number of Temporal Enforcers equal to the number of PCs in the scene within Close range and immediately spotlight one.</p><section id=\"secret-dy2SSipjq5tsKais\" class=\"secret\"><p>Is this court's authority worthy of respect? What besides the might of the Time Council and its enforcers justifies their control over the timeline?</p></section>",
+        "description": "<p>Quando os personagens tentam escapar ou encerrar o julgamento pela força, invoque uma quantidade de Temporal Enforcers igual ao número de personagens na cena em alcance Próximo e dê imediatamente o destaque a um deles.</p><section id=\"secret-dy2SSipjq5tsKais\" class=\"secret\"><p>A autoridade deste tribunal merece respeito? O que, além do poder do Conselho do Tempo e de seus executores, justifica seu controle sobre a linha do tempo?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -324,7 +324,7 @@
   "_id": "QbGEzb5Gvq36qYDj",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Time Court",
+    "name": "Corte do Tempo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

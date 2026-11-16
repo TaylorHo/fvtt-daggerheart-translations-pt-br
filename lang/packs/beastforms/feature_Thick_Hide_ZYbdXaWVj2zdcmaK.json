@@ -1,9 +1,9 @@
 {
-  "name": "Thick Hide",
+  "name": "Couro Espesso",
   "type": "feature",
   "img": "icons/commodities/leather/fur-brown-gold.webp",
   "system": {
-    "description": "<p>You gain a +2 bonus to your damage thresholds.</p>",
+    "description": "<p>Você recebe +2 de bônus em seus limiares de dano.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -18,7 +18,7 @@
   },
   "effects": [
     {
-      "name": "Thick Hide",
+      "name": "Couro Espesso",
       "type": "base",
       "_id": "ZoUJy8EOm9mVXuAw",
       "img": "icons/commodities/leather/fur-brown-gold.webp",
@@ -54,7 +54,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +2 bonus to your damage thresholds.</p>",
+      "description": "<p>Você recebe +2 de bônus em seus limiares de dano.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

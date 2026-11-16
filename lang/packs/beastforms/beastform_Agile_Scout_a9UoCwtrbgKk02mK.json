@@ -1,5 +1,5 @@
 {
-  "name": "Agile Scout",
+  "name": "Explorador Ágil",
   "type": "beastform",
   "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "agility",
     "advantageOn": {
       "mtep5GS5Ruj6ZXk1": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "HtQHzK88eiFGP1sW": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "pq2OXeTmvgRVWTnM": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Fox, Mouse, Weasel, etc.",
+    "examples": "Raposa, Rato, Doninha etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "ehfx2SUKMiM6f5Pd",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd4",

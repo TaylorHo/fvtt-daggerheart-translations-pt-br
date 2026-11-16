@@ -1,12 +1,12 @@
 {
-  "name": "Necromancer's Ossuary",
+  "name": "Ossuário do Necromante",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "IKumu5HTLqONLYqb",
   "system": {
     "potentialAdversaries": {
       "eYaDM6WMAmdzysKZ": {
-        "label": "Arch-Necromancer's Host",
+        "label": "Hoste do Arquinecromante",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY",
           "Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp"
@@ -16,9 +16,9 @@
     "notes": "",
     "difficulty": 19,
     "tier": 4,
-    "description": "<p>A dusty crypt with a library, twisting corridors, and abundant sarcophagi, spattered with the blood of ill-fated invaders.</p>",
+    "description": "<p>Uma cripta empoeirada com uma biblioteca, corredores tortuosos e sarcófagos abundantes, respingada com o sangue de invasores mal-aventurados.</p>",
     "type": "exploration",
-    "impulses": "Confound intruders, delve into secrets best left buried, manifest unlife, unleash a tide of undead",
+    "impulses": "Confundir intrusos, mergulhar em segredos que melhor ficariam enterrados, manifestar morte-em-vida, liberar uma maré de mortos-vivos",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -29,7 +29,7 @@
   "_id": "h3KyRL7AshhLAmcH",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Necromancer's Ossuary",
+    "name": "Ossuário do Necromante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -122,10 +122,10 @@
   },
   "items": [
     {
-      "name": "No Place for the Living",
+      "name": "Nenhum Lugar para os Vivos",
       "type": "feature",
       "system": {
-        "description": "<p>A feature or action that clears HP requires spending a Hope to use. If it already costs Hope, a PC must spend an additional Hope.</p><section class=\"secret\" id=\"secret-kxbv8Ju7dkBJnduH\"><p><em>What does it feel like to try to heal in a place so antithetical to life?</em></p></section>",
+        "description": "<p>Um efeito ou ação que apaga PV exige gastar 1 de Esperança para ser usado. Se já custa Esperança, o personagem deve gastar 1 de Esperança adicional.</p><section class=\"secret\" id=\"secret-kxbv8Ju7dkBJnduH\"><p><em>Como é tentar se curar em um lugar tão antitético à vida?</em></p></section>",
         "resource": null,
         "actions": {
           "jVY198vniaTSlgsX": {
@@ -170,7 +170,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder Esperança",
             "img": "icons/magic/unholy/orb-swirling-teal.webp",
             "range": "",
             "baseAction": false,
@@ -199,10 +199,10 @@
       "_key": "!actors.items!h3KyRL7AshhLAmcH.SJo1Pw0fE4vKnisr"
     },
     {
-      "name": "Centuries of Knowledge",
+      "name": "Séculos de Conhecimento",
       "type": "feature",
       "system": {
-        "description": "<p>A PC can investigate the library and laboratory and make a Knowledge Roll to learn information related to arcana, local history, and the Necromancer's plans.</p><section id=\"secret-HAWRKErLm6NSqzHc\" class=\"secret\"><p><em>What are the names of the tomes? What project is the necromancer working on and what does it communicate about their plans?</em></p></section>",
+        "description": "<p>Um personagem pode investigar a biblioteca e o laboratório e fazer um Teste de Conhecimento para obter informações sobre arcanos, história local e os planos do Necromante.</p><section id=\"secret-HAWRKErLm6NSqzHc\" class=\"secret\"><p><em>Quais são os nomes dos tomos? Em que projeto o necromante está trabalhando e o que isso revela sobre seus planos?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -223,10 +223,10 @@
       "_key": "!actors.items!h3KyRL7AshhLAmcH.Egi337jsYlldHzEH"
     },
     {
-      "name": "Skeletal Burst",
+      "name": "Explosão de Ossos",
       "type": "feature",
       "system": {
-        "description": "<p>All targets within Close range of a point you choose in this environment must succeed on an Agility Reaction Roll or take <strong>4d8+8</strong> physical damage from skeletal shrapnel as part of the ossuary detonates around them.</p><section id=\"secret-b6zF5gClmMcrmeVT\" class=\"secret\"><p><em>What ancient skeletal architecture is destroyed? What bones stick in your armor?</em></p></section>",
+        "description": "<p>Todos os alvos em alcance Próximo de um ponto que você escolher neste ambiente devem ter sucesso em um Teste de Reação de Agilidade ou sofrem <strong>4d8+8</strong> de dano físico de estilhaços de ossos quando parte do ossuário detona ao redor deles.</p><section id=\"secret-b6zF5gClmMcrmeVT\" class=\"secret\"><p><em>Que antiga arquitetura de ossos é destruída? Que ossos ficam cravados em sua armadura?</em></p></section>",
         "resource": null,
         "actions": {
           "M1mOwi4Limw2hRwL": {
@@ -293,12 +293,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Rolar Teste de Resistência",
             "img": "icons/magic/death/bones-crossed-gray.webp",
             "range": "",
             "areas": [
               {
-                "name": "Skeletal Burst",
+                "name": "Explosão de Ossos",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -331,17 +331,17 @@
       "_key": "!actors.items!h3KyRL7AshhLAmcH.asSGMUdf4gG4PO8F"
     },
     {
-      "name": "Aura of Death",
+      "name": "Aura da Morte",
       "type": "feature",
       "system": {
-        "description": "<p>Once per scene, roll a <strong>d4</strong>. Each undead within Far range of the Necromancer can clear HP and Stress equal to the result rolled. The undead can choose how that number is divided between HP and Stress.</p><section id=\"secret-LzevSyHyOxNxLwwh\" class=\"secret\"><p><em>How does their renewed vigor manifest? Do they look more lifelike or paradoxically are they more decayed but vigorous?</em></p></section>",
+        "description": "<p>Uma vez por cena, role um <strong>d4</strong>. Cada morto-vivo em alcance Distante do Necromante pode apagar PV e Fadiga iguais ao resultado rolado. O morto-vivo pode escolher como esse número é dividido entre PV e Fadiga.</p><section id=\"secret-LzevSyHyOxNxLwwh\" class=\"secret\"><p><em>Como seu vigor renovado se manifesta? Eles parecem mais vivos ou, paradoxalmente, mais decompostos porém vigorosos?</em></p></section>",
         "resource": null,
         "actions": {
           "UWCibXbQZG22PJ3l": {
             "type": "attack",
             "_id": "UWCibXbQZG22PJ3l",
             "systemPath": "actions",
-            "description": "<p>Once per scene, roll a <strong>d4</strong>. Each undead within Far range of the Necromancer can clear HP and Stress equal to the result rolled. The undead can choose how that number is divided between HP and Stress.</p><section class=\"secret\" id=\"secret-frj3OBrXCjpKtWSg\"><p><em>How does their renewed vigor manifest? Do they look more lifelike or paradoxically are they more decayed but vigorous?</em></p></section>",
+            "description": "<p>Uma vez por cena, role um <strong>d4</strong>. Cada morto-vivo em alcance Distante do Necromante pode apagar PV e Fadiga iguais ao resultado rolado. O morto-vivo pode escolher como esse número é dividido entre PV e Fadiga.</p><section class=\"secret\" id=\"secret-frj3OBrXCjpKtWSg\"><p><em>Como seu vigor renovado se manifesta? Eles parecem mais vivos ou, paradoxalmente, mais decompostos porém vigorosos?</em></p></section>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -380,7 +380,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d4",
+            "name": "Rolar d4",
             "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
             "range": "",
             "baseAction": false,
@@ -409,10 +409,10 @@
       "_key": "!actors.items!h3KyRL7AshhLAmcH.mnpqMpYCjdlwtvBp"
     },
     {
-      "name": "They Just Keep Coming!",
+      "name": "Eles Não Param de Chegar!",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to summon [[/r 1d6]] @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Rotted Zombie}, two @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Perfected Zombie}, or a @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Zombie Legion}, who appear at Close range of a chosen PC.</p><section class=\"secret\" id=\"secret-O5DKa2eIgNp51OVK\"><p><em>Who were these people before they became the necromancer's pawns? What vestiges of those lives remain for the heroes to see?</em></p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar [[/r 1d6]] @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Rotted Zombie}, dois @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Perfected Zombie} ou um @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Zombie Legion}, que aparecem em alcance Próximo de um personagem escolhido.</p><section class=\"secret\" id=\"secret-O5DKa2eIgNp51OVK\"><p><em>Quem eram essas pessoas antes de se tornarem peões do necromante? Que vestígios dessas vidas restam para os heróis verem?</em></p></section>",
         "resource": null,
         "actions": {
           "hFeTdiHWeCYkb8Hg": {
@@ -443,7 +443,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/death/undead-zombie-grave-green.webp",
             "range": "",
             "baseAction": false,

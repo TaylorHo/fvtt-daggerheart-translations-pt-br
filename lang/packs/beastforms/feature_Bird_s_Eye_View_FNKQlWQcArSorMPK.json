@@ -1,16 +1,16 @@
 {
-  "name": "Bird's-Eye View",
+  "name": "Visão Aérea",
   "type": "feature",
   "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
   "system": {
-    "description": "<p>You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.</p>",
+    "description": "<p>Você pode voar à vontade. Uma vez por descanso enquanto estiver no ar, você pode fazer ao Mestre uma pergunta sobre a cena abaixo de você sem precisar rolar. Na primeira vez que um personagem fizer uma rolagem para agir com base nessa informação, ele tem vantagem na rolagem.</p>",
     "resource": null,
     "actions": {
       "JRCE5826Yhh09aaI": {
         "type": "effect",
         "_id": "JRCE5826Yhh09aaI",
         "systemPath": "actions",
-        "description": "<p>Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.</p>",
+        "description": "<p>Uma vez por descanso enquanto estiver no ar, você pode fazer ao Mestre uma pergunta sobre a cena abaixo de você sem precisar rolar. Na primeira vez que um personagem fizer uma rolagem para agir com base nessa informação, ele tem vantagem na rolagem.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -25,7 +25,7 @@
           "type": null,
           "amount": null
         },
-        "name": "Ask Question",
+        "name": "Fazer Pergunta",
         "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
         "range": "",
         "baseAction": false,

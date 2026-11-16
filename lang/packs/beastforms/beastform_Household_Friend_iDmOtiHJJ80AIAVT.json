@@ -1,5 +1,5 @@
 {
-  "name": "Household Friend",
+  "name": "Animal Doméstico",
   "type": "beastform",
   "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "instinct",
     "advantageOn": {
       "CXfEZDZ96ajdn5aU": {
-        "value": "Climb"
+        "value": "Escalar"
       },
       "IojJaTrMIkT4xFSN": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "IwwGzrAig49bAy8y": {
-        "value": "Protect"
+        "value": "Proteger"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Cat, Dog, Rabbit, etc.",
+    "examples": "Gato, Cão, Coelho etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "CzMAMg2q5gL15JrZ",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "instinct",
               "damageFormula": "@profd6",

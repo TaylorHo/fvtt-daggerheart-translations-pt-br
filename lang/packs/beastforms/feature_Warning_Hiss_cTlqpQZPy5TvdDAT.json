@@ -1,9 +1,9 @@
 {
-  "name": "Warning Hiss",
+  "name": "Silvo de Alerta",
   "type": "feature",
   "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to force any number of targets within Melee range to move back to Very Close range.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para forçar qualquer número de alvos em alcance Corpo a Corpo a recuar para alcance Muito Próximo.</p>",
     "resource": null,
     "actions": {
       "D9YmUP1aeiCzNxcC": {
@@ -34,7 +34,7 @@
           "type": null,
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
         "range": "",
         "baseAction": false,

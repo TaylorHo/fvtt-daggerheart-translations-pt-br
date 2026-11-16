@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Sunken Citadel",
+  "name": "Cidadela Submersa",
   "folder": "MfrIkJK12PAEfbPL",
   "system": {
     "type": "exploration",
-    "description": "<p>The sunken ruins of a long-lost civilization filled with ancient technology and dark magic.</p>",
+    "description": "<p>As ruínas submersas de uma civilização há muito perdida, repletas de tecnologia antiga e magia sombria.</p>",
     "tier": 3,
-    "impulses": "Draw them deep, drown them, reveal ancient wonders",
+    "impulses": "Atraí-los para o fundo, afogá-los, revelar maravilhas antigas",
     "difficulty": 16,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "0xlyOLCOac2BMPBx": {
-        "label": "Adversaries",
+        "label": "Adversários",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.vw7PTv0hdDRCXhus",
           "Compendium.daggerheart.adversaries.Actor.Wy9Dx05ulqeybn4h",
@@ -26,21 +26,21 @@
   },
   "items": [
     {
-      "name": "Underwater Environment",
+      "name": "Ambiente Subaquático",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>This environment is underwater (see the \"Moving and Fighting Underwater\" rules on page 168 of the core rulebook). In addition to those rules, a creature who breathes air tracks their supply with an Air Supply Countdown. Its starting value is equal to 3 + their tier, and it ticks down when they take an action. If a PC fails an action roll or rolls with Fear, you can use a GM move to tick down their countdown an additional time. If the roll is a failure with Fear, you can tick it down twice instead. Once their countdown triggers, a PC must mark a Stress whenever they take an action underwater until they resurface.</p><section id=\"secret-irxVAP0EjUCUAA0e\" class=\"secret\"><p>Have you ever known anyone who drowned? What do you think about to keep calm and stretch your air supply?</p></section>",
+        "description": "<p>Este ambiente é subaquático (veja as regras de \"Mover-se e Lutar Debaixo d'Água\" na página 168 do livro básico). Além dessas regras, uma criatura que respira ar controla seu suprimento com uma Contagem Regressiva de Suprimento de Ar. Seu valor inicial é igual a 3 + seu patamar, e diminui quando ela realiza uma ação. Se um personagem falhar em um teste de ação ou rolar com Medo, você pode usar um movimento do Mestre para diminuir a contagem regressiva dele mais uma vez. Se a rolagem for uma falha com Medo, você pode diminuí-la duas vezes. Quando a contagem regressiva dele disparar, o personagem deve marcar 1 Fadiga sempre que realizar uma ação debaixo d'água até voltar à superfície.</p><section id=\"secret-irxVAP0EjUCUAA0e\" class=\"secret\"><p>Você já conheceu alguém que se afogou? Em que você pensa para manter a calma e esticar seu suprimento de ar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "EzwbQmf6YhLowCd6": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Underwater Environment",
+                "name": "Ambiente Subaquático",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/water/wave-water-teal.webp",
@@ -90,11 +90,11 @@
       "_key": "!actors.items!5vOcK3I6ei6WnbKO.qzroOipCsq0bUcY2"
     },
     {
-      "name": "Air Pockets",
+      "name": "Bolsões de Ar",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC can reset their their Air Supply Countdown to its starting value by locating a pocket of air with a successful Knowledge or Instinct Roll.</p><section id=\"secret-AirJX0Oi7mBQoiWl\" class=\"secret\"><p>What signs or structures do you look for? What does it feel like to know this might be the last breath you take?</p></section>",
+        "description": "<p>Um personagem pode redefinir sua Contagem Regressiva de Suprimento de Ar para o valor inicial ao localizar uma bolsa de ar com um Teste de Conhecimento ou Instinto bem-sucedido.</p><section id=\"secret-AirJX0Oi7mBQoiWl\" class=\"secret\"><p>Que sinais ou estruturas você procura? Como é saber que este pode ser o último fôlego que você toma?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -114,11 +114,11 @@
       "_key": "!actors.items!5vOcK3I6ei6WnbKO.99n3FQmcE0rszkrT"
     },
     {
-      "name": "Lost Technology",
+      "name": "Tecnologia Perdida",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The ruins are carved with strange magical runes and littered with lost technology. A PC can make a Knowledge Roll to learn useful information about this lost civilization from any runes or devices they come across.</p><section id=\"secret-llwozvmLvAjTkujl\" class=\"secret\"><p>Who once called this place home? How did their technology work? Why were they ultimately destroyed and cast down into the depths?</p></section>",
+        "description": "<p>As ruínas são entalhadas com runas mágicas estranhas e repletas de tecnologia perdida. Um personagem pode fazer um Teste de Conhecimento para obter informações úteis sobre esta civilização perdida a partir de quaisquer runas ou dispositivos que encontrar.</p><section id=\"secret-llwozvmLvAjTkujl\" class=\"secret\"><p>Quem um dia chamou este lugar de lar? Como funcionava sua tecnologia? Por que foram destruídos e lançados às profundezas?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -138,11 +138,11 @@
       "_key": "!actors.items!5vOcK3I6ei6WnbKO.3RsgTnVijii6AMbF"
     },
     {
-      "name": "Deepwater Denizens",
+      "name": "Habitantes das Águas Profundas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to summon up to two Deep Dwellers and <strong>1d6</strong> Cursed Merfolk who try to bind the PCs to their will. These adversaries appear at Close range of a PC, then one immediately takes the spotlight.</p><section id=\"secret-HYuEkJa8hs81z9SM\" class=\"secret\"><p>Why do these creatures stay here among the ruins? Are they unwilling or unable to resurrect this once-prosperous civilization?</p></section>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar até dois Deep Dwellers e <strong>1d6</strong> Cursed Merfolk que tentam submeter os personagens à sua vontade. Esses adversários aparecem em alcance Próximo de um personagem, e então um deles recebe imediatamente o destaque.</p><section id=\"secret-HYuEkJa8hs81z9SM\" class=\"secret\"><p>Por que essas criaturas permanecem aqui entre as ruínas? Elas não querem ou não conseguem ressuscitar esta civilização outrora próspera?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,7 +186,7 @@
                 "count": "1d6"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -208,7 +208,7 @@
   "_id": "5vOcK3I6ei6WnbKO",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Sunken Citadel",
+    "name": "Cidadela Submersa",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -5,7 +5,7 @@
   "_id": "dHgAnbt9m1KsQFmp",
   "img": "icons/skills/melee/sword-winged-holy-orange.webp",
   "system": {
-    "description": "<p>Você é um guerreiro inspirador para todos que viajam com você. Seu grupo ganha acesso à ação de intervalo Preparação Marcial. Para usar esta ação durante um descanso, descreva como você instrui e treina com seu grupo. Você e cada aliado que escolher esta ação de intervalo ganham um Dado de Matador <strong>d6</strong>. Um PJ com um Dado de Matador pode gastá-lo para rolar o dado e somar o resultado a uma jogada de ataque ou de dano à sua escolha.</p>",
+    "description": "<p>Você é um guerreiro inspirador para todos que viajam com você. Seu grupo ganha acesso à ação de intervalo Preparação Marcial. Para usar esta ação durante um descanso, descreva como você instrui e treina com seu grupo. Você e cada aliado que escolher esta ação de intervalo ganham um Dado de Matador <strong>d6</strong>. Um personagem com um Dado de Matador pode gastá-lo para rolar o dado e somar o resultado a uma jogada de ataque ou de dano à sua escolha.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

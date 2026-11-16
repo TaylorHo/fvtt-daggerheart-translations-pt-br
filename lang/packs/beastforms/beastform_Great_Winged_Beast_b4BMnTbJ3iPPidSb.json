@@ -1,5 +1,5 @@
 {
-  "name": "Great Winged Beast",
+  "name": "Grande Fera Alada",
   "type": "beastform",
   "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "finesse",
     "advantageOn": {
       "9J8GmsoqjBiXJLKE": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "MkD8mmiirYPqs0oA": {
-        "value": "Distract"
+        "value": "Distrair"
       },
       "qzud50ZkqNJgYhRH": {
-        "value": "Locate"
+        "value": "Localizar"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Giant Eagle, Falcon, etc.",
+    "examples": "Águia-Gigante, Falcão etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "qGSm1QpICpxRZxLn",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "finesse",
               "damageFormula": "@profd8 + 6",

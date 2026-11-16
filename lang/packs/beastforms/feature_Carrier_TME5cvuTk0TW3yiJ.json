@@ -1,12 +1,12 @@
 {
   "folder": "uU8bIoZvXge0rLaU",
-  "name": "Carrier",
+  "name": "Besta de Carga",
   "type": "feature",
   "_id": "TME5cvuTk0TW3yiJ",
   "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
   "system": {
     "attribution": {},
-    "description": "<p>You can carry up to three willing allies with you when you move.</p>",
+    "description": "<p>Você pode carregar até três aliados dispostos com você quando se move.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

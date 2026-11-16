@@ -1,9 +1,9 @@
 {
-  "name": "Deadly Raptor",
+  "name": "Ave de Rapina Mortal",
   "type": "feature",
   "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
   "system": {
-    "description": "<p>You can fly at will and move up to Far range as part of your action. When you move in a straight line into Melee range of a target from at least Close range and make an attack against that target in the same action, you can reroll all damage dice that rolled a result lower than your Proficiency.</p>",
+    "description": "<p>Você pode voar à vontade e se mover até alcance Distante como parte de sua ação. Quando você se move em linha reta até alcance Corpo a Corpo de um alvo partindo de pelo menos alcance Próximo e faz um ataque contra esse alvo na mesma ação, pode rolar novamente todos os dados de dano que tiraram um resultado menor que sua Proficiência.</p>",
     "resource": null,
     "actions": {},
     "attribution": {

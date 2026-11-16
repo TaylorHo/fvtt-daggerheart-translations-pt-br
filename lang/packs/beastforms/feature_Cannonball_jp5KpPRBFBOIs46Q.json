@@ -1,16 +1,16 @@
 {
-  "name": "Cannonball",
+  "name": "Canhão Ricochete",
   "type": "feature",
   "img": "icons/skills/movement/ball-spinning-blue.webp",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to allow an ally to throw or launch you at an adversary. To do so, the ally makes an attack roll using Agility or Strength (their choice) against a target within Close range. On a success, the adversary takes <strong>d12+2</strong> physical damage using the thrower's Proficiency. You can <strong>spend a Hope</strong> to target an additional adversary within Very Close range of the first. The second target takes half the damage dealt to the first target.</p>",
+    "description": "<p><strong>Marque 1 Fadiga</strong> para permitir que um aliado arremesse ou lance você contra um adversário. Para isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo em alcance Próximo. Em caso de sucesso, o adversário sofre <strong>d12+2</strong> de dano físico usando a Proficiência de quem arremessou. Você pode <strong>gastar 1 de Esperança</strong> para atingir um adversário adicional em alcance Muito Próximo do primeiro. O segundo alvo sofre metade do dano causado ao primeiro.</p>",
     "resource": null,
     "actions": {
       "5Vxm8LyBHE1GYbsv": {
         "type": "effect",
         "_id": "5Vxm8LyBHE1GYbsv",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to allow an ally to throw or launch you at an adversary. To do so, the ally makes an attack roll using Agility or Strength (their choice) against a target within Close range. On a success, the adversary takes <strong>d12+2</strong> physical damage using the thrower's Proficiency.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para permitir que um aliado arremesse ou lance você contra um adversário. Para isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo em alcance Próximo. Em caso de sucesso, o adversário sofre <strong>d12+2</strong> de dano físico usando a Proficiência de quem arremessou.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -25,7 +25,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Cannonball",
+        "name": "Canhão Ricochete",
         "img": "icons/skills/movement/ball-spinning-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -39,7 +39,7 @@
         "type": "effect",
         "_id": "QCQzArBrajYi2D2I",
         "systemPath": "actions",
-        "description": "<p>You can <strong>spend a Hope</strong> to target an additional adversary within Very Close range of the first. The second target takes half the damage dealt to the first target.</p>",
+        "description": "<p>Você pode <strong>gastar 1 de Esperança</strong> para atingir um adversário adicional em alcance Muito Próximo do primeiro. O segundo alvo sofre metade do dano causado ao primeiro.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -63,7 +63,7 @@
           "type": null,
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
         "range": "veryClose",
         "baseAction": false,

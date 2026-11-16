@@ -1,9 +1,9 @@
 {
-  "name": "Venomous Strike",
+  "name": "Bote Peçonhento",
   "type": "feature",
   "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
   "system": {
-    "description": "<p>Make an attack against any number of targets within Very Close range. On a success, a target is temporarily Poisoned. A Poisoned creature takes <strong>1d10</strong> physical direct damage each time they act.</p>",
+    "description": "<p>Faça um ataque contra qualquer número de alvos em alcance Muito Próximo. Em caso de sucesso, o alvo fica temporariamente Envenenado. Uma criatura Envenenada sofre <strong>1d10</strong> de dano físico direto cada vez que age.</p>",
     "resource": null,
     "actions": {
       "igRoXxgaTT9tBQS7": {
@@ -54,7 +54,7 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Attack",
+        "name": "Ataque",
         "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
         "range": "veryClose",
         "baseAction": false,
@@ -77,7 +77,7 @@
   },
   "effects": [
     {
-      "name": "Poisoned",
+      "name": "Envenenado",
       "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "transfer": false,
       "_id": "1iQPj96LqUNkRaxE",
@@ -100,7 +100,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>A Poisoned creature takes <strong>1d10</strong> physical direct damage each time they act.</p>",
+      "description": "<p>Uma criatura Envenenada sofre <strong>1d10</strong> de dano físico direto cada vez que age.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

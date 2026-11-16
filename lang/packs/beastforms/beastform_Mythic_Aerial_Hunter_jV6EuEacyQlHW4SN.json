@@ -1,5 +1,5 @@
 {
-  "name": "Mythic Aerial Hunter",
+  "name": "Caçador Aéreo Mítico",
   "type": "beastform",
   "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
   "system": {
@@ -17,16 +17,16 @@
     "mainTrait": "finesse",
     "advantageOn": {
       "wqIBmWSIbwwJdB07": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "wUjIM4ohI1309Qmy": {
-        "value": "Deceive"
+        "value": "Enganar"
       },
       "7YTz0VSytRCmpn3Y": {
-        "value": "Locate"
+        "value": "Localizar"
       },
       "YyyzVE5FOevDKvAP": {
-        "value": "Navigate"
+        "value": "Orientar-se"
       }
     },
     "features": [
@@ -44,7 +44,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Dragon, Pterodactyl, Roc, Wyvern, etc.",
+    "examples": "Dragão, Pterodátilo, Roca, Wyvern etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -54,7 +54,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "hnKnaOaswWJdaYmf",
       "system": {
@@ -91,9 +91,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "finesse",
               "damageFormula": "@profd10 + 11",

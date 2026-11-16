@@ -1,5 +1,5 @@
 {
-  "name": "Pouncing Predator",
+  "name": "Predador Furtivo",
   "type": "beastform",
   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
   "system": {
@@ -17,13 +17,13 @@
     "mainTrait": "instinct",
     "advantageOn": {
       "q5bjThxdJ1JAuX2r": {
-        "value": "Attack"
+        "value": "Atacar"
       },
       "paOxE0DUkqKYVbss": {
-        "value": "Climb"
+        "value": "Escalar"
       },
       "nDnJf1tiImA6ryyy": {
-        "value": "Sneak"
+        "value": "Mover-se furtivamente"
       }
     },
     "features": [
@@ -41,7 +41,7 @@
       "advantages": 2,
       "features": 2
     },
-    "examples": "Cheetah, Lion, Panther, etc.",
+    "examples": "Guepardo, Leão, Pantera etc.",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -51,7 +51,7 @@
   "effects": [
     {
       "type": "beastform",
-      "name": "Beastform Transformation",
+      "name": "Transformação em Forma de Fera",
       "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
       "_id": "GSmW6nJ3kyIoEK2H",
       "system": {
@@ -88,9 +88,7 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": [
-                "physical"
-              ],
+              "damageTypes": ["physical"],
               "attackRange": "melee",
               "trait": "instinct",
               "damageFormula": "@profd8 + 6",

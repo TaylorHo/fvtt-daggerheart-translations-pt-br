@@ -1,5 +1,5 @@
 {
-  "name": "Ambushers",
+  "name": "Emboscadores",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "type": "environment",
   "folder": "GQ0VnOLrKBIHR6Us",
@@ -8,9 +8,9 @@
     "notes": "",
     "difficulty": 0,
     "tier": 1,
-    "description": "<p>An ambush is set by the PCs to catch unsuspecting adversaries off-guard.</p>",
+    "description": "<p>Uma emboscada é armada pelos personagens para pegar adversários desprevenidos.</p>",
     "type": "event",
-    "impulses": "Escape, group up, protect the most vulnerable",
+    "impulses": "Escapar, reagrupar, proteger os mais vulneráveis",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -21,7 +21,7 @@
   "_id": "uXZpebPR77YQ1oXI",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Ambushers",
+    "name": "Emboscadores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -114,10 +114,10 @@
   },
   "items": [
     {
-      "name": "Ambushers",
+      "name": "Emboscadores",
       "type": "feature",
       "system": {
-        "description": "<p>The Difficulty of this environment equals that of the adversary with the highest Difficulty.</p><section class=\"secret\" id=\"secret-zPYO0951x4IKM5FN\"><p><em>Which adversary is the least prepared? Which one is the most?</em></p></section>",
+        "description": "<p>A Dificuldade deste ambiente é igual à do adversário com a maior Dificuldade.</p><section class=\"secret\" id=\"secret-zPYO0951x4IKM5FN\"><p><em>Qual adversário está menos preparado? Qual está mais?</em></p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -138,10 +138,10 @@
       "_key": "!actors.items!uXZpebPR77YQ1oXI.hAGzlRjI3lpadVs7"
     },
     {
-      "name": "Where Did They Come From?",
+      "name": "De Onde Vieram?",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC starts the ambush on unsuspecting adversaries, you lose 2 Fear and the first attack roll a PC makes has advantage.</p><section class=\"secret\" id=\"secret-0BW2MHYrwlL7iHiR\"><p><em>What are the adversaries in the middle of doing when the ambush starts? How does this impact their approach to the fight?</em></p></section>",
+        "description": "<p>Quando um personagem inicia a emboscada contra adversários desprevenidos, você perde 2 de Medo e o primeiro teste de ataque que um personagem fizer tem vantagem.</p><section class=\"secret\" id=\"secret-0BW2MHYrwlL7iHiR\"><p><em>O que os adversários estão fazendo quando a emboscada começa? Como isso afeta sua abordagem à luta?</em></p></section>",
         "resource": null,
         "actions": {
           "6DKa1Pm605HpChPd": {
@@ -172,7 +172,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Lose Fear",
+            "name": "Perder Medo",
             "img": "icons/skills/wounds/injury-face-impact-orange.webp",
             "range": "",
             "baseAction": false,

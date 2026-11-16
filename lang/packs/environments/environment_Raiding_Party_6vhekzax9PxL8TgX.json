@@ -1,12 +1,12 @@
 {
   "type": "environment",
-  "name": "Raiding Party",
+  "name": "Bando de Saqueadores",
   "folder": "GQ0VnOLrKBIHR6Us",
   "system": {
     "type": "event",
-    "description": "<p>A pirate ship disgorges its crew into a port town or shoreline village to loot and plunder.</p>",
+    "description": "<p>Um navio pirata despeja sua tripulação em uma cidade portuária ou vilarejo litorâneo para saquear e pilhar.</p>",
     "tier": 1,
-    "impulses": "Light it on fire, overwhelm with speed and numbers, take everything that isn't nailed down",
+    "impulses": "Atear fogo, dominar com velocidade e números, levar tudo o que não estiver pregado",
     "difficulty": 11,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -14,7 +14,7 @@
     },
     "potentialAdversaries": {
       "Z1qk14bnBBCM7Tnq": {
-        "label": "Ship's Crew",
+        "label": "Tripulação do Navio",
         "adversaries": [
           "Compendium.daggerheart.adversaries.Actor.OROJbjsqagVh7ECV",
           "Compendium.daggerheart.adversaries.Actor.5YgEajn0wa4i85kC",
@@ -26,21 +26,21 @@
   },
   "items": [
     {
-      "name": "Rally the Locals",
+      "name": "Mobilizar os Locais",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Progress Countdown (5). When the pirates first appear, activate the countdown. It ticks down when a PC succeeds on an action roll to stem the chaos and destruction of the pirate raid. When it triggers, the locals become inspired by the party's actions and join the fight against the pirates. Each PC gains a <strong>d6</strong> Morale Die, which they can spend to add to an action, reaction, or damage roll.</p><section id=\"secret-NqlXza4xMHH2Xg50\" class=\"secret\"><p>How do the pirates threaten or endanger the town besides attacking its inhabitants? What defenses can the PCs take advantage of?</p></section>",
+        "description": "<p>Contagem Regressiva de Progresso (5). Quando os piratas aparecerem pela primeira vez, ative a contagem regressiva. Ela diminui quando um personagem tem sucesso em um teste de ação para conter o caos e a destruição do ataque pirata. Quando disparar, os locais se inspiram nas ações do grupo e se juntam à luta contra os piratas. Cada personagem ganha um Dado de Moral <strong>d6</strong>, que pode gastar para somar a um teste de ação, de reação ou de dano.</p><section id=\"secret-NqlXza4xMHH2Xg50\" class=\"secret\"><p>Como os piratas ameaçam ou colocam a cidade em perigo além de atacar seus habitantes? Que defesas os personagens podem aproveitar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "raJathH1q7FLOSZm": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Rally the Locals",
+                "name": "Mobilizar os Locais",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
@@ -104,7 +104,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": ""
           }
         },
@@ -115,10 +115,10 @@
       "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
       "effects": [
         {
-          "name": "Morale",
+          "name": "Moral",
           "disabled": false,
           "img": "icons/magic/control/buff-flight-wings-runes-blue-white.webp",
-          "description": "<p>Each PC gains a <strong>d6</strong> Morale Die, which they can spend to add to an action, reaction, or damage roll.</p>",
+          "description": "<p>Cada personagem ganha um Dado de Moral <strong>d6</strong>, que pode gastar para somar a um teste de ação, de reação ou de dano.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -168,11 +168,11 @@
       "_key": "!actors.items!6vhekzax9PxL8TgX.dnSlfFgkd1LPKYJK"
     },
     {
-      "name": "Parley",
+      "name": "Parlamento",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>On a successful Knowledge Roll, a PC knows enough pirate law to demand a parley with the Pirate Captain. Once the parley is issued, the captain pauses the combat to allow a PC to sue for peace or negotiate the terms of surrender with a Presence Roll.</p><section id=\"secret-Q4z36YQBOr7uyizx\" class=\"secret\"><p>Why do these pirates respect this captain enough to follow them? What do they care about more than ill-gotten booty?</p></section>",
+        "description": "<p>Com um Teste de Conhecimento bem-sucedido, um personagem conhece o suficiente da lei pirata para exigir um parlamento com o Pirate Captain. Uma vez exigido o parlamento, o capitão pausa o combate para permitir que um personagem peça paz ou negocie os termos da rendição com um Teste de Presença.</p><section id=\"secret-Q4z36YQBOr7uyizx\" class=\"secret\"><p>Por que esses piratas respeitam este capitão o bastante para segui-lo? Com o que se importam mais do que com butim mal adquirido?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,11 +192,11 @@
       "_key": "!actors.items!6vhekzax9PxL8TgX.g8rVoim9sVVWOUIF"
     },
     {
-      "name": "\"Fire the Cannons!\"",
+      "name": "\"Fogo nos Canhões!\"",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Spend up to 3 Fear to have the pirate ship fire its cannons into the combat. For each Fear spent, choose a point anywhere on the battlefield. Each PC within Close range of one or more of those points must make an Agility Reaction Roll. Targets who fail take <strong>1d8+3</strong> physical damage. Targets who succeed must mark a Stress or take half damage.</p><section id=\"secret-UmLdFr4sIQ0ggsEU\" class=\"secret\"><p>What collateral damage do these cannonballs cause? Whose lives do they wantonly endanger?</p></section>",
+        "description": "<p>Gaste até 3 de Medo para fazer o navio pirata disparar seus canhões contra o combate. Para cada 1 de Medo gasto, escolha um ponto em qualquer lugar do campo de batalha. Cada personagem em alcance Próximo de um ou mais desses pontos deve fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>1d8+3</strong> de dano físico. Alvos que tiverem sucesso devem marcar 1 Fadiga ou sofrer metade do dano.</p><section id=\"secret-UmLdFr4sIQ0ggsEU\" class=\"secret\"><p>Que danos colaterais essas balas de canhão causam? A vida de quem elas colocam em risco sem pensar?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -222,9 +222,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -242,7 +240,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "\"Fire the Cannons!\"",
+                "name": "\"Fogo nos Canhões!\"",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -291,7 +289,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -310,11 +308,11 @@
       "_key": "!actors.items!6vhekzax9PxL8TgX.8tAazh5aJlCqJd3O"
     },
     {
-      "name": "Take Captives",
+      "name": "Fazer Cativos",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a number of pirates equal to the number of PCs in the scene are defeated, roll a <strong>d6</strong>. On a result of 5 or 6, the pirates change tactics, capturing locals and retreating to the ship so they can ransom the captives later. Activate a Consequence Countdown (4). It ticks down when a PC makes an action roll. When it triggers, the pirates sail away with their victims.</p><section id=\"secret-Fiohy1JPx1I5NxnI\" class=\"secret\"><p>Who do the pirates deem the best captives, and why? What do they want in exchange for the captives' return?</p></section>",
+        "description": "<p>Quando uma quantidade de piratas igual ao número de personagens na cena for derrotada, role um <strong>d6</strong>. Em um resultado de 5 ou 6, os piratas mudam de tática, capturando locais e recuando para o navio para poder pedir resgate pelos cativos depois. Ative uma Contagem Regressiva de Consequência (4). Ela diminui quando um personagem faz um teste de ação. Quando disparar, os piratas partem com suas vítimas.</p><section id=\"secret-Fiohy1JPx1I5NxnI\" class=\"secret\"><p>Quem os piratas consideram os melhores cativos e por quê? O que querem em troca da devolução dos cativos?</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -368,15 +366,15 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Tactics Roll",
+            "name": "Teste de Tática",
             "range": ""
           },
           "YXmX29Zrh0w8urQF": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Take Captives",
+                "name": "Fazer Cativos",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/environment/people/charge.webp",
@@ -393,7 +391,7 @@
             "_id": "YXmX29Zrh0w8urQF",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Activate a Consequence Countdown (4). It ticks down when a PC makes an action roll. When it triggers, the pirates sail away with their victims.</p>",
+            "description": "<p>Ative uma Contagem Regressiva de Consequência (4). Ela diminui quando um personagem faz um teste de ação. Quando disparar, os piratas partem com suas vítimas.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -429,7 +427,7 @@
   "_id": "6vhekzax9PxL8TgX",
   "img": "systems/daggerheart/assets/icons/documents/actors/forest.svg",
   "prototypeToken": {
-    "name": "Raiding Party",
+    "name": "Bando de Saqueadores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

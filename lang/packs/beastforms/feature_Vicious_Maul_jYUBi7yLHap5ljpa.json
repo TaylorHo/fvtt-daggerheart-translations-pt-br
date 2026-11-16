@@ -1,9 +1,9 @@
 {
-  "name": "Vicious Maul",
+  "name": "Ataque Voraz",
   "type": "feature",
   "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
   "system": {
-    "description": "<p>When you succeed on an attack against a target, you can <strong>spend a Hope</strong> to make them temporarily Vulnerable and gain a +1 bonus to your Proficiency for this attack.</p>",
+    "description": "<p>Quando você tem sucesso em um ataque contra um alvo, pode <strong>gastar 1 de Esperança</strong> para deixá-lo temporariamente Vulnerável e receber +1 de bônus na Proficiência neste ataque.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -18,7 +18,7 @@
   },
   "effects": [
     {
-      "name": "Mauled",
+      "name": "Dilacerado",
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "transfer": false,
       "_id": "MIAh9XNwDXGDktCm",
@@ -43,9 +43,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {

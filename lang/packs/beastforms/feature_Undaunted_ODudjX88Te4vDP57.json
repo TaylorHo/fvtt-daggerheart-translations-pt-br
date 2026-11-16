@@ -1,9 +1,9 @@
 {
-  "name": "Undaunted",
+  "name": "Impávido",
   "type": "feature",
   "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
   "system": {
-    "description": "<p>You gain a +2 bonus to all your damage thresholds.</p>",
+    "description": "<p>Você recebe +2 de bônus em todos os seus limiares de dano.</p>",
     "resource": null,
     "actions": {},
     "attribution": {
@@ -18,7 +18,7 @@
   },
   "effects": [
     {
-      "name": "Undaunted",
+      "name": "Impávido",
       "type": "base",
       "_id": "wVoUVQJ2Ik7CiUuV",
       "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
@@ -54,7 +54,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +2 bonus to all your damage thresholds.</p>",
+      "description": "<p>Você recebe +2 de bônus em todos os seus limiares de dano.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
