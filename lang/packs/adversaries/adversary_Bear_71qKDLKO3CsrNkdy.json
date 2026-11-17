@@ -1,5 +1,5 @@
 {
-  "name": "Bear",
+  "name": "Urso",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Climb, defend territory, pummel, track",
+    "motivesAndTactics": "Escalar, defender território, espancar, rastrear",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "5ASmWCwf7HMplPDT": {
-        "name": "Ambusher",
+        "name": "Emboscador",
         "value": 3,
         "description": ""
       },
       "rjs6ek5OZP8inYqu": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A large bear with thick fur and powerful claws.</p>",
+    "description": "<p>Um urso grande com pelagem espessa e garras poderosas.</p>",
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -78,9 +78,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "71qKDLKO3CsrNkdy",
   "sort": 1200000,
   "prototypeToken": {
-    "name": "Bear",
+    "name": "Urso",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,12 +238,12 @@
   },
   "items": [
     {
-      "name": "Overwhelming Force",
+      "name": "Força Esmagadora",
       "type": "feature",
       "_id": "2fXzhh2qil8dw3vw",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
-        "description": "<p>Targets who mark HP from the @Lookup[@name]'s standard attack are knocked back to Very Close range.</p>",
+        "description": "<p>Alvos que marcam PV com o ataque padrão de @Lookup[@name] são empurrados de volta para o alcance Muito Próximo.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -264,12 +262,12 @@
       "_key": "!actors.items!71qKDLKO3CsrNkdy.2fXzhh2qil8dw3vw"
     },
     {
-      "name": "Bite",
+      "name": "Mordida",
       "type": "feature",
       "_id": "zgR0MEqyobKp2yXr",
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, deal <strong>3d4+10</strong> physical damage and the target is <em>Restrained</em> until they break free with a successful Strength Roll.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, cause <strong>3d4+10</strong> de dano físico e o alvo fica <em>Imobilizado</em> até se soltar com um Teste de Força bem-sucedido.</p>",
         "resource": null,
         "actions": {
           "PXL3e51eBYZ4O2lb": {
@@ -308,9 +306,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -351,7 +347,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
             "range": "melee",
             "baseAction": false,
@@ -370,7 +366,7 @@
       },
       "effects": [
         {
-          "name": "Bite",
+          "name": "Mordida",
           "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
           "transfer": false,
           "_id": "U50Ccm9emMqAxma6",
@@ -379,7 +375,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Strength Roll.</p>"
+              "description": "<p>Até você se soltar com um Teste de Força bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -393,11 +389,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained</em> until you break free with a successful Strength Roll.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até se soltar com um Teste de Força bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -425,12 +419,12 @@
       "_key": "!actors.items!71qKDLKO3CsrNkdy.zgR0MEqyobKp2yXr"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "4hJbq9WCwJn78frt",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the Bear makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o Urso faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "ZQHGR0IweeWBLokB": {
@@ -490,7 +484,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

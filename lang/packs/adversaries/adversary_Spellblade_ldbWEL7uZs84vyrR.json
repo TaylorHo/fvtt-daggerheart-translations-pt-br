@@ -1,5 +1,5 @@
 {
-  "name": "Spellblade",
+  "name": "Espadachim Arcano",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "5K7W5e63iQNI0MdQ": {
-        "name": "Magical Knowledge",
+        "name": "Conhecimento Mágico",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A mercenary combining swordplay and magic to deadly effect.</p>",
-    "motivesAndTactics": "Blast, command, endure",
+    "description": "<p>Um mercenário que combina esgrima e magia com efeito mortal.</p>",
+    "motivesAndTactics": "Explodir, comandar, resistir",
     "attack": {
-      "name": "Empowered Longsword",
+      "name": "Espada Longa Potencializada",
       "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
       "roll": {
         "bonus": 3,
@@ -74,10 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical",
-            "magical"
-          ],
+          "type": ["physical", "magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -143,7 +140,7 @@
   "_id": "ldbWEL7uZs84vyrR",
   "sort": 4500000,
   "prototypeToken": {
-    "name": "Spellblade",
+    "name": "Espadachim Arcano",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -236,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Arcane Steel",
+      "name": "Aço Arcano",
       "type": "feature",
       "_id": "BwuoAv3EWT0m1apk",
       "img": "icons/weapons/swords/sword-runed-glowing.webp",
       "system": {
-        "description": "<p>Damage dealt by the @Lookup[@name]'s standard attack is considered both physical and magic.</p>",
+        "description": "<p>O dano causado pelo ataque padrão de @Lookup[@name] é considerado tanto físico quanto mágico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -260,12 +257,12 @@
       "_key": "!actors.items!ldbWEL7uZs84vyrR.BwuoAv3EWT0m1apk"
     },
     {
-      "name": "Supressing Blast",
+      "name": "Explosão Supressora",
       "type": "feature",
       "_id": "a76dNCrcoZOH1RRT",
       "img": "icons/magic/sonic/projectile-shock-wave-blue.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> and target a group within Far range. All targets must succeed on an Agility Reaction Roll or take <strong>1d8+2</strong> magic damage. You gain a Fear for each target who marked HP from this attack.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> e escolha um grupo em alcance Distante. Todos os alvos devem ter sucesso em um teste de reação de Agilidade ou sofrer <strong>1d8+2</strong> de dano mágico. Você ganha 1 de Medo para cada alvo que marcou PV por causa desse ataque.</p>",
         "resource": null,
         "actions": {
           "K4VnxigKTiu7hhZx": {
@@ -304,9 +301,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -343,12 +338,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/sonic/projectile-shock-wave-blue.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Supressing Blast",
+                "name": "Explosão Supressora",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -379,12 +374,12 @@
       "_key": "!actors.items!ldbWEL7uZs84vyrR.a76dNCrcoZOH1RRT"
     },
     {
-      "name": "Move as a Unit",
+      "name": "Mover como Unidade",
       "type": "feature",
       "_id": "piyJhdHzztabmZ8I",
       "img": "icons/skills/movement/arrows-up-trio-red.webp",
       "system": {
-        "description": "<p><strong>Spend 2 Fear</strong> to spotlight up to five allies within Far range.</p>",
+        "description": "<p><strong>Gaste 2 de Medo</strong> para dar destaque a até cinco aliados em alcance Distante.</p>",
         "resource": null,
         "actions": {
           "N42NPEu7fcVDXEvl": {
@@ -415,12 +410,12 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/movement/arrows-up-trio-red.webp",
             "range": "",
             "areas": [
               {
-                "name": "Move as a Unit",
+                "name": "Mover como Unidade",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -451,12 +446,12 @@
       "_key": "!actors.items!ldbWEL7uZs84vyrR.piyJhdHzztabmZ8I"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "P9nD5K2ztkZGo2I8",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "f4AulN6MeMaEvqbk": {
@@ -516,7 +511,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

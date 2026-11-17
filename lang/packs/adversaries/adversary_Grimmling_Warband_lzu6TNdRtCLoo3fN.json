@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Grimmling Warband",
+  "name": "Bando de Grimmlings",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "horde",
-    "description": "<p>A cluster of small, strange creatures wearing armor fashioned from trash and stolen housewares.</p>",
+    "description": "<p>Um grupo de criaturas pequenas e estranhas usando armaduras feitas de lixo e utensílios domésticos roubados.</p>",
     "tier": 1,
-    "motivesAndTactics": "Ambush, celebrate a little too early, hit and run, infight, sabotage, sow chaos",
+    "motivesAndTactics": "Emboscar, comemorar um pouco cedo demais, atacar e fugir, brigar entre si, sabotar, semear o caos",
     "difficulty": 12,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tailor's Shears",
+      "name": "Tesoura de Alfaiate",
       "img": "icons/skills/trades/scissors-tailor-barber.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "JtapU0LLn0Dk0h0l": {
-        "name": "Traps",
+        "name": "Armadilhas",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Cowardly",
+      "name": "Covarde",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Warband marks its last Stress or an allied Leader is defeated, roll a <strong>d6</strong>. On a result of 2 or lower, the Warband flees the scene.</p>",
+        "description": "<p>Quando o Bando marca sua última Fadiga ou um Líder aliado é derrotado, role um <strong>d6</strong>. Com resultado 2 ou menos, o Bando foge da cena.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -200,7 +198,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Flee Check",
+            "name": "Teste de Fuga",
             "range": ""
           }
         },
@@ -220,10 +218,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -239,7 +237,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -308,7 +306,7 @@
   "_id": "lzu6TNdRtCLoo3fN",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Grimmling Warband",
+    "name": "Bando de Grimmlings",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Doppelhound",
+  "name": "Cão Duplo",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "skulk",
-    "description": "<p>A vicious magical canid that has glowing eyes and two barbed, whiplike tails. It confuses enemies by conjuring an illusory duplicate of itself.</p>",
+    "description": "<p>Um canídeo mágico e cruel de olhos brilhantes e duas caudas farpadas como chicotes. Confunde inimigos conjurando uma cópia ilusória de si mesmo.</p>",
     "tier": 2,
-    "motivesAndTactics": "Ambush prey, kill for sport, play with food, trick and deceive",
+    "motivesAndTactics": "Emboscar presas, matar por esporte, brincar com a comida, enganar e iludir",
     "difficulty": 14,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Barbed Tail Whip",
+      "name": "Chicotada de Cauda Farpada",
       "img": "icons/commodities/biological/antenna-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "J7r5oGQXLjATUBbK": {
-        "name": "Shadows",
+        "name": "Sombras",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Blink Beast",
+      "name": "Fera Cintilante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When combat begins, place a duplicate within Close range of the @Lookup[@name]. The @Lookup[@name] occupies both its place and its duplicate's. The duplicate can move when the @Lookup[@name] is spotlighted, and the @Lookup[@name] can target enemies with attacks as if it were in its duplicate's place. When the @Lookup[@name] or duplicate is attacked, the attacker rolls a <strong>[[/r d6]]</strong>. On an even result, they target the @Lookup[@name]. On an odd result, they target the duplicate, and the attack fails. If an attack succeeds against the @Lookup[@name], the duplicate is dispelled until you <strong>spend a Fear</strong> to conjure it again.</p>",
+        "description": "<p>Quando o combate começa, coloque uma cópia em alcance Próximo do @Lookup[@name]. O @Lookup[@name] ocupa tanto seu lugar quanto o da cópia. A cópia pode se mover quando o @Lookup[@name] recebe o destaque, e o @Lookup[@name] pode atacar inimigos como se estivesse no lugar da cópia. Quando o @Lookup[@name] ou a cópia é atacado, o atacante rola um <strong>[[/r d6]]</strong>. Em um resultado par, ele ataca o @Lookup[@name]. Em um resultado ímpar, ele ataca a cópia, e o ataque falha. Se um ataque for bem-sucedido contra o @Lookup[@name], a cópia é dissipada até você <strong>gastar 1 de Medo</strong> para conjurá-la novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!cQ3IQkxfRhmLMySF.HXfGSMFGXKcoizPW"
     },
     {
-      "name": "Double Strike",
+      "name": "Golpe Duplo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make two standard attacks. If both attacks succeed against the same target, combine the damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer dois ataques padrão. Se ambos os ataques forem bem-sucedidos contra o mesmo alvo, combine o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -229,7 +227,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -251,7 +249,7 @@
   "_id": "cQ3IQkxfRhmLMySF",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Doppelhound",
+    "name": "Cão Duplo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

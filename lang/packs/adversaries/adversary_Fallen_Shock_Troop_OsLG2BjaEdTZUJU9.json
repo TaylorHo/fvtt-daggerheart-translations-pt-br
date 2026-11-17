@@ -1,10 +1,10 @@
 {
-  "name": "Fallen Shock Troop",
+  "name": "Tropa de Choque Caída",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
-    "motivesAndTactics": "Crush, dominate, earn relief, punish",
+    "motivesAndTactics": "Esmagar, dominar, obter alívio, punir",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,7 +22,7 @@
     "experiences": {},
     "difficulty": 18,
     "tier": 4,
-    "description": "<p>A cursed soul bound to the Fallen's will.</p>",
+    "description": "<p>Uma alma amaldiçoada presa à vontade do Caído.</p>",
     "resources": {
       "hitPoints": {
         "value": 0,
@@ -49,7 +49,7 @@
         },
         "useDefault": false
       },
-      "name": "Cursed Axe",
+      "name": "Machado Amaldiçoado",
       "img": "icons/weapons/axes/axe-battle-skull-black.webp",
       "range": "veryClose",
       "damage": {
@@ -65,9 +65,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "OsLG2BjaEdTZUJU9",
   "sort": 900000,
   "prototypeToken": {
-    "name": "Fallen Shock Troop",
+    "name": "Tropa de Choque Caída",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -232,7 +230,7 @@
       "name": "Minion (12)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 12 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. A cada 12 de dano que um PJ causar ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!OsLG2BjaEdTZUJU9.yvyAJTEyCDsDXgkb"
     },
     {
-      "name": "Aura of Doom",
+      "name": "Aura de Perdição",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC marks HP from an attack by the @Lookup[@name], they lose a Hope.</p>",
+        "description": "<p>Quando um PJ marcar PV por causa de um ataque do @Lookup[@name], ele perde 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "HcGa2nD0WziA0lFP": {
@@ -301,7 +299,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-flames-white-blue.webp",
             "range": "",
             "baseAction": false,
@@ -330,10 +328,10 @@
       "_key": "!actors.items!OsLG2BjaEdTZUJU9.eW1Z3TTGlgvbgdCD"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "G0DVft7h55pBnwJA": {
@@ -380,9 +378,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -416,7 +412,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

@@ -1,5 +1,5 @@
 {
-  "name": "Jagged Knife Shadow",
+  "name": "Sombra da Faca Serrilhada",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Ambush, conceal, divide, profit",
+    "motivesAndTactics": "Emboscar, ocultar, dividir, lucrar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "ZUMG6p8iB73HY73o": {
-        "name": "Intrusion",
+        "name": "Intrusão",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A nimble scoundrel bearing a wicked knife and utilizing shadow magic to isolate targets.</p>",
+    "description": "<p>Um canalha ágil portando uma faca maligna e usando magia das sombras para isolar alvos.</p>",
     "attack": {
-      "name": "Daggers",
+      "name": "Adagas",
       "img": "icons/weapons/daggers/dagger-twin-green.webp",
       "roll": {
         "bonus": 1,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "XF4tYTq9nPJAy2ox",
   "sort": 3700000,
   "prototypeToken": {
-    "name": "Jagged Knife Shadow",
+    "name": "Sombra da Faca Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Backstab",
+      "name": "Facada nas Costas",
       "type": "feature",
       "_id": "dhycdSd4NYdPOYbP",
       "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack that has advantage, they deal 1d6+6 physical damage instead of their standard damage.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão com vantagem, causa 1d6+6 de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "6G5Dasl1pP8pfYkZ": {
@@ -270,9 +268,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -308,7 +304,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
             "range": "",
             "baseAction": false,
@@ -335,12 +331,12 @@
       "_key": "!actors.items!XF4tYTq9nPJAy2ox.dhycdSd4NYdPOYbP"
     },
     {
-      "name": "Cloaked",
+      "name": "Encapuzado",
       "type": "feature",
       "_id": "ILIogeKbYioPutRw",
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "system": {
-        "description": "<p>Become <em>Hidden</em> until after the @Lookup[@name]'s next attack. Attacks made while Hidden from this feature have advantage.</p>",
+        "description": "<p>Fique <em>Oculto</em> até depois do próximo ataque de @Lookup[@name]. Ataques feitos enquanto Oculto por esta característica têm vantagem.</p>",
         "resource": null,
         "actions": {
           "s0X44RPg5hA8lVax": {
@@ -367,7 +363,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Use",
+            "name": "Usar",
             "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
             "range": "self",
             "baseAction": false,
@@ -386,7 +382,7 @@
       },
       "effects": [
         {
-          "name": "Cloaked",
+          "name": "Encapuzado",
           "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
           "transfer": false,
           "_id": "w5VTwlHmUjl8XCQ4",
@@ -416,11 +412,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Become <em>Hidden</em> until after the Shadow's next attack. Attacks made while Hidden from this feature have advantage.</p>",
+          "description": "<p>Fique <em>Oculto</em> até depois do próximo ataque da Sombra. Ataques feitos enquanto Oculto por esta característica têm vantagem.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "hidden"
-          ],
+          "statuses": ["hidden"],
           "sort": 0,
           "flags": {},
           "_stats": {

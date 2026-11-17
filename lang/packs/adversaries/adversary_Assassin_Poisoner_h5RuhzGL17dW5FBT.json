@@ -1,5 +1,5 @@
 {
-  "name": "Assassin Poisoner",
+  "name": "Assassino Envenenador",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Anticipate, get paid, kill, taint food and water",
+    "motivesAndTactics": "Antecipar, ser pago, matar, contaminar comida e água",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "t4LUkxg9fu3go5h4": {
-        "name": "Intrusion",
+        "name": "Intrusão",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A cunning scoundrel skilled in both poisons and ambushing.</p>",
+    "description": "<p>Um canalha astuto, habilidoso tanto com venenos quanto com emboscadas.</p>",
     "attack": {
-      "name": "Poisoned Throwing Dagger",
+      "name": "Adaga de Arremesso Envenenada",
       "img": "icons/skills/melee/blade-tip-acid-poison-green.webp",
       "roll": {
         "bonus": 3,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "h5RuhzGL17dW5FBT",
   "sort": 2700000,
   "prototypeToken": {
-    "name": "Assassin Poisoner",
+    "name": "Assassino Envenenador",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Grindletooth Venom",
+      "name": "Veneno de Grindletooth",
       "type": "feature",
       "system": {
-        "description": "<p>Targets who mark HP from the @Lookup[@name]'s attacks are Vulnerable until they clear a HP.</p>",
+        "description": "<p>Alvos que marcam PV com os ataques de @Lookup[@name] ficam Vulneráveis até limparem 1 PV.</p>",
         "resource": null,
         "actions": {
           "L83tU1TgmqoH9SSn": {
@@ -265,7 +263,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Venom",
+            "name": "Aplicar Veneno",
             "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
             "range": "",
             "baseAction": false,
@@ -286,7 +284,7 @@
       "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
       "effects": [
         {
-          "name": "Grindletooth Venom",
+          "name": "Veneno de Grindletooth",
           "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
           "transfer": false,
           "_id": "2iBVUGHtGW3I9VIj",
@@ -295,7 +293,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you clear a HP.</p>"
+              "description": "<p>Até você limpar 1 PV.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -309,11 +307,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until you clear a HP.</p>",
+          "description": "<p><em>Vulnerável</em> até você limpar 1 PV.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -341,10 +337,10 @@
       "_key": "!actors.items!h5RuhzGL17dW5FBT.Fz2lnUEeBxsDpx0G"
     },
     {
-      "name": "Assassin Poisoner",
+      "name": "Assassino Envenenador",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] has advantage on attacks if they are <em>Hidden</em>.</p>",
+        "description": "<p>@Lookup[@name] tem vantagem em ataques se estiver <em>Oculto</em>.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -357,7 +353,7 @@
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "effects": [
         {
-          "name": "Out of Nowhere",
+          "name": "Surgido do Nada",
           "type": "base",
           "system": {
             "changes": [
@@ -386,7 +382,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Assassin has advantage on attacks if they are <em>Hidden.</em></p>",
+          "description": "<p>O Assassino tem vantagem em ataques se estiver <em>Oculto.</em></p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -410,10 +406,10 @@
       "_key": "!actors.items!h5RuhzGL17dW5FBT.of6g4piugKzTI4dv"
     },
     {
-      "name": "Fumigation",
+      "name": "Fumigação",
       "type": "feature",
       "system": {
-        "description": "<p>Drop a smoke bomb that fills the air within Close range with smoke, Dizzying all targets in this area. Dizzied targets have disadvantage on their next action roll, then clear the condition.</p>",
+        "description": "<p>Lance uma bomba de fumaça que preenche o ar em alcance Próximo com fumaça, deixando todos os alvos nessa área Tontos. Alvos Tontos têm desvantagem em sua próxima rolagem de ação, e então removem a condição.</p>",
         "resource": null,
         "actions": {
           "sp7RfJRQJsEUm09m": {
@@ -440,12 +436,12 @@
               "type": "any",
               "amount": null
             },
-            "name": "Drop Bomb",
+            "name": "Lançar Bomba",
             "img": "icons/magic/air/fog-gas-smoke-green.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Fumigation",
+                "name": "Fumigação",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -470,7 +466,7 @@
       "img": "icons/magic/air/fog-gas-smoke-green.webp",
       "effects": [
         {
-          "name": "Dizzy",
+          "name": "Tonto",
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
           "transfer": false,
           "_id": "yP4ot8VqS56RnxnE",
@@ -492,7 +488,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Dizzied targets have disadvantage on their next action roll, then clear the condition.</p>",
+          "description": "<p>Alvos Tontos têm desvantagem em sua próxima rolagem de ação, e então removem a condição.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,

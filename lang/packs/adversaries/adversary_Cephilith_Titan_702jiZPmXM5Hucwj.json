@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cephilith Titan",
+  "name": "Titã de Cephilith",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A transdimensional entity in the form of an impossibly large, winged humanoid with an octopus-shaped head and rows of glowing eyes.</p>",
+    "description": "<p>Uma entidade transdimensional na forma de um humanoide alado e impossivelmente grande, com cabeça em formato de polvo e fileiras de olhos brilhantes.</p>",
     "tier": 4,
-    "motivesAndTactics": "Call and consume followers, corrupt reality, invade the Mortal Realm, spew forth chaos",
+    "motivesAndTactics": "Convocar e consumir seguidores, corromper a realidade, invadir o Reino Mortal, vomitar caos",
     "difficulty": 20,
     "damageThresholds": {
       "major": 38,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Pseudoclaw",
+      "name": "Pseudogarra",
       "img": "icons/commodities/claws/claw-lizard-white-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "3T3pgehOY5p4422L": {
-        "name": "Chaos",
+        "name": "Caos",
         "value": 5,
         "description": ""
       },
       "yF1MBO593WrOm30X": {
-        "name": "Psychic",
+        "name": "Psíquico",
         "value": 5,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (X)",
+      "name": "Implacável (X)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to X times per GM turn, where X equals the number of PCs in the scene. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode receber o foco até X vezes por turno do Mestre, onde X é igual ao número de PJs na cena. Gaste Medo normalmente para dar o foco a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!702jiZPmXM5Hucwj.Ku1IguoeLopi1W50"
     },
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Titan makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.</p>",
+        "description": "<p>Quando o Titã faz um ataque bem-sucedido, todos os PJs em alcance Próximo perdem uma Esperança e você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -213,7 +211,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -252,11 +250,11 @@
       "_key": "!actors.items!702jiZPmXM5Hucwj.YqANVDSnjcVCK5vm"
     },
     {
-      "name": "Merely a Projection",
+      "name": "Apenas uma Projeção",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan appears in the Mortal Realm as a psychic projection approximating its true form. They have immunity to physical damage and resistance to magic damage.</p>",
+        "description": "<p>O Titã aparece no Reino Mortal como uma projeção psíquica que aproxima sua verdadeira forma. Ele tem imunidade a dano físico e resistência a dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -268,7 +266,7 @@
       "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "effects": [
         {
-          "name": "Merely a Projection",
+          "name": "Apenas uma Projeção",
           "type": "base",
           "system": {
             "changes": [
@@ -313,7 +311,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Titan appears in the Mortal Realm as a psychic projection approximating its true form. They have immunity to physical damage and resistance to magic damage.</p>",
+          "description": "<p>O Titã aparece no Reino Mortal como uma projeção psíquica que aproxima sua verdadeira forma. Ele tem imunidade a dano físico e resistência a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -336,11 +334,11 @@
       "_key": "!actors.items!702jiZPmXM5Hucwj.f5nHfI6lZtudtZ3j"
     },
     {
-      "name": "Psychic Scream",
+      "name": "Grito Psíquico",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Titan unleash a mind-shattering onslaught of nightmarish visions from the Outer Realms. Each PC within Far range must make an Instinct Reaction Roll (22). Targets who fail take <strong>4d12</strong> direct magic damage. Targets who succeed must mark a Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Titã desencadear um ataque avassalador de visões de pesadelo dos Reinos Exteriores que destroem a mente. Cada PJ em alcance Distante deve fazer um Teste de Reação de Instinto (22). Alvos que falharem sofrem <strong>4d12</strong> de dano mágico direto. Alvos que forem bem-sucedidos devem marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -366,9 +364,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -386,7 +382,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Psychic Scream",
+                "name": "Grito Psíquico",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -435,7 +431,7 @@
               "difficulty": 22,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -454,11 +450,11 @@
       "_key": "!actors.items!702jiZPmXM5Hucwj.MXC78VtfVHw6pQ5e"
     },
     {
-      "name": "Summon Worshippers",
+      "name": "Invocar Adoradores",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to summon <strong>1d4</strong> Cephilith Abominations, which appear within Far range, then choose one to immediately spotlight.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para invocar <strong>1d4</strong> Abominações de Cephilith, que aparecem em alcance Distante; então escolha uma para receber o foco imediatamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -498,7 +494,7 @@
                 "count": "1d4"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -517,11 +513,11 @@
       "_key": "!actors.items!702jiZPmXM5Hucwj.DKl9G56DwWpLVblv"
     },
     {
-      "name": "\"It's Here…\"",
+      "name": "\"Está Aqui…\"",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p>When the Titan has marked half its HP, they manifests in their full form, clearing all HP and losing the \"Merely a Projection\" feature. While the Titan is in this form, a creature who marks HP from the Titan's standard attack must mark an additional HP.</p>",
+        "description": "<p>Quando o Titã marca metade de seus PV, ele se manifesta em sua forma completa, limpando todos os PV e perdendo a habilidade \"Apenas uma Projeção\". Enquanto o Titã estiver nessa forma, uma criatura que marcar PV por causa do ataque padrão do Titã deve marcar 1 PV adicional.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -563,10 +559,7 @@
                   "scale": 1,
                   "ring": "#4d086d",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE",
-                    "BKG_WAVE"
-                  ]
+                  "effects": ["RING_PULSE", "BKG_WAVE"]
                 }
               }
             },
@@ -587,10 +580,10 @@
       "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
       "effects": [
         {
-          "name": "It's Here…",
+          "name": "Está Aqui…",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
-          "description": "<p>While the Titan is in this form, a creature who marks HP from the Titan's standard attack must mark an additional HP.</p>",
+          "description": "<p>Enquanto o Titã estiver nessa forma, uma criatura que marcar PV por causa do ataque padrão do Titã deve marcar 1 PV adicional.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -643,7 +636,7 @@
   "_id": "702jiZPmXM5Hucwj",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cephilith Titan",
+    "name": "Titã de Cephilith",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

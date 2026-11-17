@@ -1,5 +1,5 @@
 {
-  "name": "Brawny Zombie",
+  "name": "Zumbi Brutamontes",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Crush, destroy, hail debris, slam",
+    "motivesAndTactics": "Esmagar, destruir, chover escombros, golpear",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,18 +36,18 @@
     "notes": "",
     "experiences": {
       "BKNynHS8sUlJSt9P": {
-        "name": "Collateral Damage",
+        "name": "Dano Colateral",
         "value": 2
       },
       "Kq5ZfACqF0EIjKIq": {
-        "name": "Throw",
+        "name": "Arremessar",
         "value": 4
       }
     },
     "tier": 1,
-    "description": "<p>A large corpse, decay-bloated and angry.</p>",
+    "description": "<p>Um cadáver grande, inchado pela decomposição e furioso.</p>",
     "attack": {
-      "name": "Slam",
+      "name": "Pancada",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -77,9 +77,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -145,7 +143,7 @@
   "_id": "2UeZ0tEe7AzgSJNd",
   "sort": 400000,
   "prototypeToken": {
-    "name": "Brawny Zombie",
+    "name": "Zumbi Brutamontes",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -238,12 +236,12 @@
   },
   "items": [
     {
-      "name": "Slow",
+      "name": "Lento",
       "type": "feature",
       "_id": "yBaLF9DwPH2GSRKf",
       "img": "icons/magic/time/hourglass-brown-orange.webp",
       "system": {
-        "description": "<p>When you spotlight the @Lookup[@name] and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the @Lookup[@name] and they have a token on their stat block, clear the token and they can act.</p>",
+        "description": "<p>Quando você der destaque a @Lookup[@name] e ele não tiver um marcador em sua ficha, ele ainda não pode agir. Coloque um marcador em sua ficha e descreva o que ele está se preparando para fazer. Quando você der destaque a @Lookup[@name] e ele tiver um marcador em sua ficha, remova o marcador e ele pode agir.</p>",
         "resource": {
           "type": "simple",
           "value": 0,
@@ -271,12 +269,12 @@
       "_key": "!actors.items!2UeZ0tEe7AzgSJNd.yBaLF9DwPH2GSRKf"
     },
     {
-      "name": "Rend Asunder",
+      "name": "Despedaçar",
       "type": "feature",
       "_id": "LP7xVLMTkJsmiIvl",
       "img": "icons/skills/melee/strike-slashes-red.webp",
       "system": {
-        "description": "<p>Make a standard attack with advantage against a target the @Lookup[@name] has <em>Restrained</em>. On a success, the attack deals direct damage.</p>",
+        "description": "<p>Faça um ataque padrão com vantagem contra um alvo que @Lookup[@name] tenha <em>Imobilizado</em>. Em caso de sucesso, o ataque causa dano direto.</p>",
         "resource": null,
         "actions": {
           "qCcWw60cPZnEWbpG": {
@@ -306,9 +304,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -345,7 +341,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-slashes-red.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -372,12 +368,12 @@
       "_key": "!actors.items!2UeZ0tEe7AzgSJNd.LP7xVLMTkJsmiIvl"
     },
     {
-      "name": "Rip and Tear",
+      "name": "Rasgar e Dilacerar",
       "type": "feature",
       "_id": "69reUZ5tv3splqyO",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to temporarily Restrain the target and force them to mark 2 Stress.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para Imobilizar temporariamente o alvo e forçá-lo a marcar 2 Fadiga.</p>",
         "resource": null,
         "actions": {
           "xV1z3dk9c7jIkk7v": {
@@ -436,7 +432,7 @@
                 "onSave": false
               }
             ],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
             "range": "",
             "baseAction": false,
@@ -455,7 +451,7 @@
       },
       "effects": [
         {
-          "name": "Rip and Tear",
+          "name": "Rasgar e Dilacerar",
           "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
           "transfer": false,
           "_id": "CjMrSdL6kgD8mKRQ",
@@ -480,9 +476,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {

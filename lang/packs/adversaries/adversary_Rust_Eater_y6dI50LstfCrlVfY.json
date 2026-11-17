@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Rust Eater",
+  "name": "Comedor de Ferrugem",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A pony-sized cockroach coated in a corrosive chitin that turns metal into rust.</p>",
+    "description": "<p>Uma barata do tamanho de um pônei, coberta por uma quitina corrosiva que transforma metal em ferrugem.</p>",
     "tier": 2,
-    "motivesAndTactics": "Avoid detection, eat rust, sniff out metal",
+    "motivesAndTactics": "Evitar detecção, comer ferrugem, farejar metal",
     "difficulty": 12,
     "damageThresholds": {
       "major": 10,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "8NPN3bscgMmj9RWC": {
-        "name": "Snuffle",
+        "name": "Fungar",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Stifling Pheromones",
+      "name": "Feromônios Sufocantes",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC who makes an action roll within Very Close range of the @Lookup[@name] must succeed on an Instinct Reaction Roll or mark a Stress.</p>",
+        "description": "<p>Um PJ que faz um teste de ação dentro do alcance Muito Próximo do @Lookup[@name] deve ter sucesso em um Teste de Reação de Instinto ou marcar um Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": "veryClose"
           }
         },
@@ -234,11 +232,11 @@
       "_key": "!actors.items!y6dI50LstfCrlVfY.gxRaxj1KC5GCLHJh"
     },
     {
-      "name": "Rust Touch",
+      "name": "Toque de Ferrugem",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name]'s carapace is coated in a corrosive acid that pits and rusts metal. When a PC within Melee range of the Rust Easter succeeds on an attack against it with a metal weapon, reduce the weapon's damage die by one step (for example, <strong>d8</strong> to <strong>d6</strong> or <strong>d6</strong> to <strong>d4</strong>). If a weapon's damage die is reduced below a <strong>d4</strong>, the weapon crumbles into rust. The @Lookup[@name] then devours the rust pile and clears a HP.</p>",
+        "description": "<p>A carapaça do @Lookup[@name] é coberta por um ácido corrosivo que corrói e enferruja metal. Quando um PJ dentro do alcance Corpo a Corpo do Comedor de Ferrugem tem sucesso em um ataque contra ele com uma arma de metal, reduza o dado de dano da arma em um passo (por exemplo, <strong>d8</strong> para <strong>d6</strong> ou <strong>d6</strong> para <strong>d4</strong>). Se o dado de dano de uma arma for reduzido abaixo de um <strong>d4</strong>, a arma se desfaz em ferrugem. O @Lookup[@name] então devora o monte de ferrugem e limpa um PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -261,7 +259,7 @@
   "_id": "y6dI50LstfCrlVfY",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Rust Eater",
+    "name": "Comedor de Ferrugem",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

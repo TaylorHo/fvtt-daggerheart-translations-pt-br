@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cryptimoth",
+  "name": "Cripto-mariposa",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "skulk",
-    "description": "<p>A large red-eyed moth creature that walks upright and portends mysterious or evil events.</p>",
+    "description": "<p>Uma grande criatura-mariposa de olhos vermelhos que anda ereta e prenuncia eventos misteriosos ou malignos.</p>",
     "tier": 3,
-    "motivesAndTactics": "Echolocate, fly silently, melt into the shadows",
+    "motivesAndTactics": "Ecolocalizar, voar silenciosamente, fundir-se às sombras",
     "difficulty": 14,
     "damageThresholds": {
       "major": 16,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-curved-jagged-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "goc2CyUpNYhCkwOH": {
-        "name": "Dark Omens",
+        "name": "Maus Presságios",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Próximo perdem 1 de Esperança, e você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -184,7 +182,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -223,11 +221,11 @@
       "_key": "!actors.items!nrcRGYmyMy2vBJXl.bZcj7Ed3cbLxes8y"
     },
     {
-      "name": "Psychic Screech",
+      "name": "Grito Psíquico",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to have the @Lookup[@name] unleash a burst of psychic energy that causes each PC within Far range to suffer visions of their horrifying fate. Each target must make an Instinct Reaction Roll (16). Targets who fail take <strong>3d8</strong> direct magic damage and become <em>Vulnerable</em> until their next rest. Targets who succeed must mark a Stress or take half damage.</p>",
+        "description": "<p><strong>Gaste 2 Medo</strong> para fazer o @Lookup[@name] liberar uma explosão de energia psíquica que faz cada PJ em alcance Distante sofrer visões de seu destino horripilante. Cada alvo deve fazer um Teste de Reação de Instinto (16). Alvos que falharem sofrem <strong>3d8</strong> de dano mágico direto e ficam <em>Vulneráveis</em> até seu próximo descanso. Alvos que forem bem-sucedidos devem marcar 1 Fadiga ou sofrer metade do dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -253,9 +251,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -273,7 +269,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Psychic Screech",
+                "name": "Grito Psíquico",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -327,7 +323,7 @@
               "difficulty": 16,
               "damageMod": "half"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -338,14 +334,12 @@
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "effects": [
         {
-          "name": "Psychic Screech",
+          "name": "Grito Psíquico",
           "disabled": false,
           "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
-          "description": "<p>You are <em>Vulnerable</em> until their next rest.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até seu próximo descanso.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -393,11 +387,11 @@
       "_key": "!actors.items!nrcRGYmyMy2vBJXl.kQARtKcsiosM7sgA"
     },
     {
-      "name": "Shadow Swarm",
+      "name": "Enxame de Sombras",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] conjure a swarm of mothlike shadow creatures within Far range. The swarm fills a Close range area and blocks line of sight. Creatures that aren't @Lookup[@name]s are <em>Vulnerable</em> while inside that area and must mark a Stress to move through it. A PC can dispel the swarm with a successful Spellcast Roll (12).</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o @Lookup[@name] conjurar um enxame de criaturas de sombra semelhantes a mariposas em alcance Distante. O enxame preenche uma área em alcance Próximo e bloqueia a linha de visão. Criaturas que não sejam @Lookup[@name]s ficam <em>Vulneráveis</em> enquanto estiverem nessa área e devem marcar 1 Fadiga para se mover por ela. Um PJ pode dissipar o enxame com um Teste de Conjuração bem-sucedido (12).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -416,14 +410,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Shadow Swarm",
+                "name": "Enxame de Sombras",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
                 "hasHole": false,
-                "effects": [
-                  "Moc6wn3ERNbStLtM"
-                ]
+                "effects": ["Moc6wn3ERNbStLtM"]
               }
             ],
             "cost": [
@@ -447,7 +439,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -458,14 +450,12 @@
       "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
       "effects": [
         {
-          "name": "Shadow Swarm",
+          "name": "Enxame de Sombras",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -513,11 +503,11 @@
       "_key": "!actors.items!nrcRGYmyMy2vBJXl.WsK2lZoOA7hyVARG"
     },
     {
-      "name": "Paranoia Glare",
+      "name": "Olhar de Paranoia",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] gaze into the eyes of a PC within Close range and make them Paranoid. While Paranoid, the PC is suspicious of other PCs and can't Help an Ally or take part in Tag Team Rolls. To clear this condition, the PC must succeed on an Insight Roll (16) or participate in the Prepare downtime move with one or more members of their party during a rest.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o @Lookup[@name] encarar os olhos de um PJ em alcance Próximo e deixá-lo Paranoico. Enquanto Paranoico, o PJ desconfia dos outros PJs e não pode Ajudar um Aliado nem participar de Testes em Dupla. Para remover essa condição, o PJ deve ser bem-sucedido em um Teste de Intuição (16) ou participar da ação de intervalo Preparar com um ou mais membros de seu grupo durante um descanso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -561,7 +551,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -572,10 +562,10 @@
       "img": "icons/magic/perception/orb-eye-scrying.webp",
       "effects": [
         {
-          "name": "Paranoid",
+          "name": "Paranoico",
           "disabled": false,
           "img": "icons/magic/perception/orb-eye-scrying.webp",
-          "description": "<p>While Paranoid, you are suspicious of other PCs and can't Help an Ally or take part in Tag Team Rolls. To clear this condition, you must succeed on an Insight Roll (16) or participate in the Prepare downtime move with one or more members your party during a rest.</p>",
+          "description": "<p>Enquanto Paranoico, você desconfia dos outros PJs e não pode Ajudar um Aliado nem participar de Testes em Dupla. Para remover essa condição, você deve ser bem-sucedido em um Teste de Intuição (16) ou participar da ação de intervalo Preparar com um ou mais membros de seu grupo durante um descanso.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -628,7 +618,7 @@
   "_id": "nrcRGYmyMy2vBJXl",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cryptimoth",
+    "name": "Cripto-mariposa",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

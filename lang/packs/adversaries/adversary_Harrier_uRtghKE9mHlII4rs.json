@@ -1,5 +1,5 @@
 {
-  "name": "Harrier",
+  "name": "Hostilizador",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Flank, harry, kite, profit",
+    "motivesAndTactics": "Flanquear, assediar, manter distância, lucrar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,14 +36,14 @@
     "notes": "",
     "experiences": {
       "JlnCE0K8VvBosjMX": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 2
       }
     },
     "tier": 1,
-    "description": "<p>A nimble fighter armed with javelins.</p>",
+    "description": "<p>Um combatente ágil armado com dardos.</p>",
     "attack": {
-      "name": "Javelin",
+      "name": "Dardo",
       "range": "close",
       "roll": {
         "bonus": 1,
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -141,7 +139,7 @@
   "_id": "uRtghKE9mHlII4rs",
   "sort": 5000000,
   "prototypeToken": {
-    "name": "Harrier",
+    "name": "Hostilizador",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -234,12 +232,12 @@
   },
   "items": [
     {
-      "name": "Maintain Distance",
+      "name": "Manter Distância",
       "type": "feature",
       "_id": "t9Fa5jKLhvjD8Ar2",
       "img": "icons/skills/movement/arrow-upward-blue.webp",
       "system": {
-        "description": "<p>After making a standard attack, the @Lookup[@name] can move anywhere within Far range.</p>",
+        "description": "<p>Após realizar um ataque padrão, @Lookup[@name] pode se mover para qualquer lugar em alcance Distante.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -258,12 +256,12 @@
       "_key": "!actors.items!uRtghKE9mHlII4rs.t9Fa5jKLhvjD8Ar2"
     },
     {
-      "name": "Fall Back",
+      "name": "Recuar",
       "type": "feature",
       "_id": "v8TMp5ATyAjrmJJM",
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
-        "description": "<p>When a creature moves into Melee range to make an attack, you can <strong>mark a Stress</strong> before the attack roll to move anywhere within Close range and make an attack against that creature. On a success, deal <strong>1d10+2</strong> physical damage.</p>",
+        "description": "<p>Quando uma criatura se move para alcance Corpo a Corpo para fazer um ataque, você pode <strong>marcar 1 Fadiga</strong> antes da rolagem de ataque para se mover para qualquer lugar em alcance Próximo e fazer um ataque contra essa criatura. Em um sucesso, cause <strong>1d10+2</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "FiuiLUbNUL0YKq7w": {
@@ -302,9 +300,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -340,7 +336,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "close",
             "baseAction": false,

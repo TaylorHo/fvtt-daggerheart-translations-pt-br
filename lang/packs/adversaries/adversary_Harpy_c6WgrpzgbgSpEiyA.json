@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Harpy",
+  "name": "Harpia",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "skulk",
-    "description": "<p>A fierce and foul-smelling bird with an eight-foot wingspan and the upper body and face of a human.</p>",
+    "description": "<p>Uma ave feroz e fétida, com 2,5 metros de envergadura e o tronco e o rosto de um humano.</p>",
     "tier": 1,
-    "motivesAndTactics": "Defend nest, drop enemies from a great height, maraud from the air, screech incessantly",
+    "motivesAndTactics": "Defender o ninho, derrubar inimigos de grandes alturas, saquear pelo ar, guinchar sem parar",
     "difficulty": 12,
     "damageThresholds": {
       "major": 3,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Talons",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-talons-glowing-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "m9QkvQxfRjztXaKG": {
-        "name": "Islands",
+        "name": "Ilhas",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Toxic Aura",
+      "name": "Aura Tóxica",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] emits a foul stench that renders all non-Harpies <em>Vulnerable</em> while within Very Close range.</p>",
+        "description": "<p>O @Lookup[@name] emite um fedor nauseante que deixa todos os não Harpias <em>Vulneráveis</em> enquanto estiverem dentro do alcance Muito Perto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -161,14 +159,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Foul Stench",
+                "name": "Fedor Nauseante",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": [
-                  "b1p1GOBQ4VRDKvn6"
-                ]
+                "effects": ["b1p1GOBQ4VRDKvn6"]
               }
             ],
             "cost": [],
@@ -183,7 +179,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Activate Stench",
+            "name": "Ativar Fedor",
             "range": "self"
           }
         },
@@ -194,14 +190,12 @@
       "img": "icons/magic/air/fog-gas-smoke-green.webp",
       "effects": [
         {
-          "name": "Foul Stench",
+          "name": "Fedor Nauseante",
           "disabled": false,
           "img": "icons/magic/air/fog-gas-smoke-green.webp",
-          "description": "<p>The Harpy emits a foul stench that renders all non-Harpies <em>Vulnerable</em> while within Very Close range.</p>",
+          "description": "<p>A Harpia emite um fedor nauseante que deixa todos os não Harpias <em>Vulneráveis</em> enquanto estiverem dentro do alcance Muito Perto.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -210,9 +204,7 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [
-              1
-            ],
+            "targetDispositions": [1],
             "conditionals": []
           },
           "_id": "b1p1GOBQ4VRDKvn6",
@@ -251,11 +243,11 @@
       "_key": "!actors.items!c6WgrpzgbgSpEiyA.Lx1ZNmwu5BfS48AD"
     },
     {
-      "name": "Swooping Attack",
+      "name": "Ataque em Rasante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] move in a straight line to a point within Far range and make an attack against a target in the @Lookup[@name]'s path. On a success, the @Lookup[@name] deals <strong>3d6</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o @Lookup[@name] se mover em linha reta até um ponto dentro do alcance Longe e realizar um ataque contra um alvo no caminho do @Lookup[@name]. Em caso de sucesso, o @Lookup[@name] causa <strong>3d6</strong> de dano físico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -281,9 +273,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -301,7 +291,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Swooping Attack",
+                "name": "Ataque em Rasante",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -350,7 +340,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -372,7 +362,7 @@
   "_id": "c6WgrpzgbgSpEiyA",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Harpy",
+    "name": "Harpia",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

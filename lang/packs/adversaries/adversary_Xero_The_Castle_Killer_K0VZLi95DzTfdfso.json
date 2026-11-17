@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Xero The Castle Killer",
+  "name": "Xero, o Matador de Castelos",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A castle-sized, bipedal reptile.</p>",
+    "description": "<p>Um réptil bípede do tamanho de um castelo.</p>",
     "tier": 4,
-    "motivesAndTactics": "Leave a wake of destruction, level buildings, stomp through settlements",
+    "motivesAndTactics": "Deixar um rastro de destruição, arrasar construções, pisotear povoados",
     "difficulty": 20,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tail Swipe",
+      "name": "Golpe de Cauda",
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "e9BOtBaytZOxP9B4": {
-        "name": "Destruction",
+        "name": "Destruição",
         "value": 5,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (X)",
+      "name": "Implacável (X)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Xero can be spotlighted up to X times per GM turn, where X is the number of PCs in the scene. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>Xero pode receber o destaque até X vezes por turno do Mestre, onde X é o número de PJs na cena. Gaste Medo normalmente para dar o destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!K0VZLi95DzTfdfso.7gkyVbn0Nr4skpXL"
     },
     {
-      "name": "Collateral Damage",
+      "name": "Dano Colateral",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Xero's movement can't be hindered, impeded, or affected by anything other than natural terrain. All destructible terrain or obstacles in Xero's path are destroyed when Xero moves through them.</p>",
+        "description": "<p>O movimento de Xero não pode ser atrapalhado, impedido ou afetado por nada além de terreno natural. Todo terreno destrutível ou obstáculo no caminho de Xero é destruído quando Xero passa por eles.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!K0VZLi95DzTfdfso.N9r9oP22shMRiFkZ"
     },
     {
-      "name": "Gigaton Stomp",
+      "name": "Pisada de Gigatonelada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have Xero bring its foot down hard, creating a localized earthquake. Each PC within Melee range takes <strong>4d12</strong> physical damage and is <em>Restrained</em> until they wriggle out with a successful Finesse Roll. Each creature beyond Melee range but within Close range must succeed on an Instinct Reaction Roll or be knocked back to Far range. If a target is knocked back, they must either mark an Armor Slot or take <strong>4d12</strong> physical damage as they land.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer Xero baixar o pé com força, criando um terremoto localizado. Cada PJ em alcance Corpo a Corpo sofre <strong>4d12</strong> de dano físico e fica <em>Imobilizado</em> até se desvencilhar com um Teste de Acuidade bem-sucedido. Cada criatura além do alcance Corpo a Corpo, mas em alcance Próximo, deve ter sucesso em um Teste de Reação de Instinto ou ser arremessada para alcance Distante. Se um alvo for arremessado, ele deve marcar 1 Espaço de Armadura ou sofrer <strong>4d12</strong> de dano físico ao cair.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -216,9 +214,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -236,7 +232,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Gigaton Stomp",
+                "name": "Pisada de Gigatonelada",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -290,7 +286,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -301,14 +297,12 @@
       "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
       "effects": [
         {
-          "name": "Stomped",
+          "name": "Pisoteado",
           "disabled": false,
           "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
-          "description": "<p>You are <em>Restrained</em> until you wriggle out with a successful Finesse Roll</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até se desvencilhar com um Teste de Acuidade bem-sucedido</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -356,11 +350,11 @@
       "_key": "!actors.items!K0VZLi95DzTfdfso.fIwOU4wmQqE7ftDy"
     },
     {
-      "name": "Power Slide",
+      "name": "Deslizamento Poderoso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to move up to Close range. Each PC Xero moves through must succeed on a Strength Reaction Roll or choose to either mark 2 Armor Slots or take Severe damage.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para se mover até alcance Próximo. Cada PJ por quem Xero passar deve ter sucesso em um Teste de Reação de Força ou escolher entre marcar 2 Espaços de Armadura ou sofrer dano Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -423,7 +417,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -442,11 +436,11 @@
       "_key": "!actors.items!K0VZLi95DzTfdfso.csNQFwxN8PQH14lT"
     },
     {
-      "name": "Radioactive Breath",
+      "name": "Sopro Radioativo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have Xero charge up a nuclear beam. Place a token on this stat block. The next time Xero is spotlighted, you can spend this token and unleash a beam to Very Far range. The beam has a width of Close range. Each PC in this area must make an Agility Reaction Roll. Targets who fail take <strong>4d12+12</strong> direct magic damage. Targets who succeed take half damage. Xero can't use this feature again until it takes Severe damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer Xero carregar um feixe nuclear. Coloque uma ficha nesta ficha de estatísticas. Na próxima vez que Xero receber o destaque, você pode gastar essa ficha e liberar um feixe até alcance Muito Distante. O feixe tem largura equivalente ao alcance Próximo. Cada PJ nessa área deve fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>4d12+12</strong> de dano mágico direto. Alvos que tiverem sucesso sofrem metade do dano. Xero não pode usar esta característica novamente até sofrer dano Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -465,7 +459,7 @@
             "_id": "ExvMjIBxdm4FY7LJ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Spend a Fear</strong> to have Xero charge up a nuclear beam. Place a token on this stat block.</p>",
+            "description": "<p><strong>Gaste 1 de Medo</strong> para fazer Xero carregar um feixe nuclear. Coloque uma ficha nesta ficha de estatísticas.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -532,7 +526,7 @@
               },
               "useDefault": false
             },
-            "name": "Charge",
+            "name": "Carregar",
             "range": "self"
           },
           "ulyNsxBBqLTslNSJ": {
@@ -556,9 +550,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -576,7 +568,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Radioactive Breath",
+                "name": "Sopro Radioativo",
                 "type": "placed",
                 "shape": "line",
                 "size": "veryFar",
@@ -616,7 +608,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Unleash",
+            "name": "Liberar",
             "range": ""
           }
         },
@@ -635,11 +627,11 @@
       "_key": "!actors.items!K0VZLi95DzTfdfso.ZfCW3kRWg5bXFDes"
     },
     {
-      "name": "Regeneration",
+      "name": "Regeneração",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Up to three times per scene, <strong>spend any number of Fear</strong> to clear an equal number of HP.</p>",
+        "description": "<p>Até três vezes por cena, <strong>gaste qualquer quantidade de Medo</strong> para limpar a mesma quantidade de Pontos de Vida.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -716,7 +708,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -738,7 +730,7 @@
   "_id": "K0VZLi95DzTfdfso",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Xero The Castle Killer",
+    "name": "Xero, o Matador de Castelos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

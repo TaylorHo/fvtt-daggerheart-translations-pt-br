@@ -1,5 +1,5 @@
 {
-  "name": "Greater Earth Elemental",
+  "name": "Elemental da Terra Superior",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Avalanche, knock over, pummel",
+    "motivesAndTactics": "Avalanche, derrubar, socar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A living landslide of boulders and dust, as large as a house.</p>",
+    "description": "<p>Um deslizamento de terra vivo de pedregulhos e poeira, grande como uma casa.</p>",
     "attack": {
-      "name": "Boulder Fist",
+      "name": "Punho de Pedregulho",
       "img": "icons/magic/earth/strike-fist-stone.webp",
       "roll": {
         "bonus": 7,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "dsfB3YhoL5SudvS2",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Greater Earth Elemental",
+    "name": "Elemental da Terra Superior",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Slow",
+      "name": "Lento",
       "type": "feature",
       "system": {
-        "description": "<p>When you spotlight the @Lookup[@name] and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the @Lookup[@name] and they have a token on their stat block, clear the token and they can act.</p>",
+        "description": "<p>Quando você der destaque a @Lookup[@name] e ele não tiver um marcador em sua ficha, ele ainda não pode agir. Coloque um marcador em sua ficha e descreva o que ele está se preparando para fazer. Quando você der destaque a @Lookup[@name] e ele tiver um marcador em sua ficha, remova o marcador e ele pode agir.</p>",
         "resource": {
           "type": "simple",
           "value": 0,
@@ -262,10 +260,10 @@
       "_key": "!actors.items!dsfB3YhoL5SudvS2.Lrgpyfc067a2JHCF"
     },
     {
-      "name": "Crushing Blows",
+      "name": "Golpes Esmagadores",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder marcar um Espaço de Armadura, deve marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "0sXciTiPc30v8czv": {
@@ -310,7 +308,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage Armor",
+            "name": "Danificar Armadura",
             "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
             "range": "",
             "baseAction": false,
@@ -339,10 +337,10 @@
       "_key": "!actors.items!dsfB3YhoL5SudvS2.NnCkXIuATO0s3tSR"
     },
     {
-      "name": "Immovable Object",
+      "name": "Objeto Inamovível",
       "type": "feature",
       "system": {
-        "description": "<p>An attack that would move the @Lookup[@name] moves them two fewer ranges (for example, Far becomes Very Close). When the @Lookup[@name] takes physical damage, reduce it by 7.</p>",
+        "description": "<p>Um ataque que moveria o @Lookup[@name] o move dois alcances a menos (por exemplo, Longe se torna Muito Perto). Quando o @Lookup[@name] sofre dano físico, reduza-o em 7.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -355,7 +353,7 @@
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
       "effects": [
         {
-          "name": "Immovable Object",
+          "name": "Objeto Inamovível",
           "type": "base",
           "system": {
             "changes": [
@@ -384,7 +382,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When the Elemental takes physical damage, reduce it by 7.</p>",
+          "description": "<p>Quando o Elemental sofre dano físico, reduza-o em 7.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -408,10 +406,10 @@
       "_key": "!actors.items!dsfB3YhoL5SudvS2.PVdHySLhIJ8uDrmg"
     },
     {
-      "name": "Rockslide",
+      "name": "Deslizamento de Rochas",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to create a rockslide that buries the land in front of @Lookup[@name] within Close range with rockfall. All targets in this area must make an Agility Reaction Roll (19). Targets who fail take <strong>2d12+5</strong> physical damage and become Vulnerable until their next roll with Hope. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para criar um deslizamento de rochas que soterra o terreno à frente do @Lookup[@name], dentro do alcance Perto, com uma queda de pedras. Todos os alvos nesta área devem realizar um Teste de Reação de Agilidade (19). Alvos que falharem sofrem <strong>2d12+5</strong> de dano físico e ficam Vulneráveis até a próxima rolagem com Esperança. Alvos que forem bem-sucedidos sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "eLGIC3kVjLo8FEvy": {
@@ -450,9 +448,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -494,12 +490,12 @@
               "difficulty": 19,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/earth/barrier-stone-brown-green.webp",
             "range": "",
             "areas": [
               {
-                "name": "Rockslide",
+                "name": "Deslizamento de Rochas",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "close",
@@ -524,7 +520,7 @@
       "img": "icons/magic/earth/barrier-stone-brown-green.webp",
       "effects": [
         {
-          "name": "Rockslide",
+          "name": "Deslizamento de Rochas",
           "img": "icons/magic/earth/barrier-stone-brown-green.webp",
           "transfer": false,
           "_id": "38MUzfbH64EMLVse",
@@ -533,7 +529,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until your next roll with Hope.</p>"
+              "description": "<p>Até sua próxima rolagem com Esperança.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -547,11 +543,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until your next roll with Hope.</p>",
+          "description": "<p><em>Vulnerável</em> até sua próxima rolagem com Esperança.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -579,10 +573,10 @@
       "_key": "!actors.items!dsfB3YhoL5SudvS2.q45DiEFlXqcXZ5hv"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "FPIpslusIeVQGdnb": {
@@ -642,7 +636,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

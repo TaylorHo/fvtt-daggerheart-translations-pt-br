@@ -1,5 +1,5 @@
 {
-  "name": "Petty Noble",
+  "name": "Nobre Mesquinho",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "cATk1IILqCDA5pnb": {
-        "name": "Aristocrat",
+        "name": "Aristocrata",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A richly dressed and adorned aristocrat brimming with hubris.</p>",
-    "motivesAndTactics": "Abuse power, gather resources, mobilize minions",
+    "description": "<p>Um aristocrata ricamente vestido e adornado, transbordando de soberba.</p>",
+    "motivesAndTactics": "Abusar do poder, reunir recursos, mobilizar lacaios",
     "attack": {
-      "name": "Rapier",
+      "name": "Rapieira",
       "img": "icons/weapons/swords/sword-jeweled-red.webp",
       "roll": {
         "bonus": -3,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "wycLpvebWdUqRhpP",
   "sort": 5200000,
   "prototypeToken": {
-    "name": "Petty Noble",
+    "name": "Nobre Mesquinho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "My Land, My Rules",
+      "name": "Minha Terra, Minhas Regras",
       "type": "feature",
       "_id": "Jbq36nElH6RDacLU",
       "img": "icons/skills/social/diplomacy-writing-letter.webp",
       "system": {
-        "description": "<p>All social actions made against the @Lookup[@name] on their land have disadvantage.</p>",
+        "description": "<p>Todas as ações sociais feitas contra o @Lookup[@name] em suas terras têm desvantagem.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,12 +257,12 @@
       "_key": "!actors.items!wycLpvebWdUqRhpP.Jbq36nElH6RDacLU"
     },
     {
-      "name": "Guards, Seize Them!",
+      "name": "Guardas, Prendam-nos!",
       "type": "feature",
       "_id": "ebdAPBso5ROmdFNO",
       "img": "icons/environment/people/infantry-armored.webp",
       "system": {
-        "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon <strong>1d4</strong> @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Bladed Guards}, who appear at Far range to enforce the @Lookup[@name]'s will.</p>",
+        "description": "<p>Uma vez por cena, <strong>marque 1 Fadiga</strong> para invocar <strong>1d4</strong> @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Guardas Armados}, que aparecem em alcance Distante, para impor a vontade do @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "tioTtYfIGFIXRITN": {
@@ -300,7 +298,7 @@
                 "count": "1d4"
               }
             ],
-            "name": "Summon Guards",
+            "name": "Invocar Guardas",
             "range": "",
             "triggers": [],
             "areas": []
@@ -322,12 +320,12 @@
       "_key": "!actors.items!wycLpvebWdUqRhpP.ebdAPBso5ROmdFNO"
     },
     {
-      "name": "Exile",
+      "name": "Exílio",
       "type": "feature",
       "_id": "xN09fSsg33nURqpk",
       "img": "icons/commodities/currency/coin-embossed-skull-gold.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> and target a PC. The @Lookup[@name] proclaims that the target and their allies are exiled from the @Lookup[@name]'s territory. While exiled, the target and their allies have disadvantage during social situations within the @Lookup[@name]'s domain.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> e escolha um PJ. O @Lookup[@name] proclama que o alvo e seus aliados estão exilados do território do @Lookup[@name]. Enquanto exilados, o alvo e seus aliados têm desvantagem em situações sociais dentro do domínio do @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "dAHzRxf0iztyc1mI": {
@@ -358,7 +356,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/commodities/currency/coin-embossed-skull-gold.webp",
             "range": "",
             "baseAction": false,

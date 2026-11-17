@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Guahalan Spirit Beast",
+  "name": "Fera Espiritual Guahalana",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "minion",
-    "description": "<p>A brightly colored spirit in the shape of an animal.</p>",
+    "description": "<p>Um espírito de cores vivas em forma de animal.</p>",
     "tier": 2,
-    "motivesAndTactics": "Protect, sacrifice, surround",
+    "motivesAndTactics": "Proteger, sacrificar-se, cercar",
     "difficulty": 13,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Bite & Claw",
+      "name": "Mordida e Garra",
       "img": "icons/creatures/claws/claw-talons-glowing-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -132,11 +130,11 @@
   },
   "items": [
     {
-      "name": "Minion (5)",
+      "name": "Lacaio (5)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Spirit Beast is defeated when it takes any damage. For every 5 damage a PC deals to the Spirit Beast, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>A Fera Espiritual é derrotada quando sofre qualquer dano. Para cada 5 de dano que um PJ causar à Fera Espiritual, o PJ derrota um Lacaio adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -156,11 +154,11 @@
       "_key": "!actors.items!PV0FTOWQWLw3PDlY.e0A5dvoGSfLTKUfj"
     },
     {
-      "name": "Ethereal Form",
+      "name": "Forma Etérea",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Spirit Beast has resistance to physical damage.</p>",
+        "description": "<p>A Fera Espiritual tem resistência a dano físico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -172,7 +170,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Ethereal Form",
+          "name": "Forma Etérea",
           "type": "base",
           "system": {
             "changes": [
@@ -210,7 +208,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Spirit Beast has resistance to physical damage.</p>",
+          "description": "<p>A Fera Espiritual tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -233,11 +231,11 @@
       "_key": "!actors.items!PV0FTOWQWLw3PDlY.W8OXEY1NwUOgVw6N"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 magic damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para escolher um alvo e dar Destaque a todos os @Lookup[@name]s dentro do alcance Perto dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem uma rolagem de ataque compartilhada. Em caso de sucesso, cada um causa 5 de dano mágico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -263,9 +261,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -333,11 +329,11 @@
       "_key": "!actors.items!PV0FTOWQWLw3PDlY.oYNpJeGv8B9kysC9"
     },
     {
-      "name": "Beast Bomb",
+      "name": "Fera-Bomba",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Spirit Beast is defeated, it explodes in white flame and deals 5 magic damage to creatures within Melee range.</p>",
+        "description": "<p>Quando a Fera Espiritual é derrotada, ela explode em chamas brancas e causa 5 de dano mágico às criaturas dentro do alcance Corpo a Corpo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -363,9 +359,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -383,7 +377,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Beast Bomb",
+                "name": "Fera-Bomba",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "melee",
@@ -403,7 +397,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Explode",
+            "name": "Explodir",
             "range": ""
           }
         },
@@ -425,7 +419,7 @@
   "_id": "PV0FTOWQWLw3PDlY",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Guahalan Spirit Beast",
+    "name": "Fera Espiritual Guahalana",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

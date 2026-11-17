@@ -1,5 +1,5 @@
 {
-  "name": "Spectral Archer",
+  "name": "Arqueiro Espectral",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Move through solid objects, stay out of the fray, rehash old battles",
+    "motivesAndTactics": "Atravessar objetos sólidos, ficar fora da briga, remoer batalhas antigas",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "d0ynwl3Sk57JFfpw": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A ghostly fighter with an ethereal bow, unable to move on while their charge is vulnerable.</p>",
+    "description": "<p>Um combatente fantasmagórico com um arco etéreo, incapaz de seguir adiante enquanto seu protegido estiver vulnerável.</p>",
     "attack": {
-      "name": "Longbow",
+      "name": "Arco Longo",
       "img": "icons/weapons/bows/longbow-recurve-leather-brown.webp",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "5tCkhnBByUIN5UdG",
   "sort": 500000,
   "prototypeToken": {
-    "name": "Spectral Archer",
+    "name": "Arqueiro Espectral",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,17 +233,17 @@
   },
   "items": [
     {
-      "name": "Ghost",
+      "name": "Fantasma",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico. <strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
         "resource": null,
         "actions": {
           "kkKfo1gwetxB3tFQ": {
             "type": "effect",
             "_id": "kkKfo1gwetxB3tFQ",
             "systemPath": "actions",
-            "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/undead-ghost-scream-teal.webp",
             "range": "",
             "baseAction": false,
@@ -290,7 +288,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Ghost",
+          "name": "Fantasma",
           "type": "base",
           "system": {
             "changes": [
@@ -319,7 +317,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Archer has resistance to physical damage.</p>",
+          "description": "<p>O Arqueiro tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -343,10 +341,10 @@
       "_key": "!actors.items!5tCkhnBByUIN5UdG.qvJRjKrdr6MG05iJ"
     },
     {
-      "name": "Pick Your Target",
+      "name": "Escolha Seu Alvo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack within Far range against a PC who is within Very Close range of at least two other PCs. On a success, the target takes <strong>2d8+12</strong> physical damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um ataque em alcance Distante contra um personagem que esteja em alcance Muito Próximo de pelo menos dois outros personagens. Em caso de sucesso, o alvo sofre <strong>2d8+12</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "KahJnM94QQfy6oMK": {
@@ -376,9 +374,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -414,7 +410,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
             "range": "far",
             "baseAction": false,

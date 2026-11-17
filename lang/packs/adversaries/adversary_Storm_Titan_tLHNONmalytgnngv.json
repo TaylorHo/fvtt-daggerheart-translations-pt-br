@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Storm Titan",
+  "name": "Titã da Tempestade",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>An ancient, wise, and temperamental goliath who has hair made of mist and electricity crackling across their skin.</p>",
+    "description": "<p>Um golias ancestral, sábio e temperamental, com cabelos de névoa e eletricidade estalando por sua pele.</p>",
     "tier": 3,
-    "motivesAndTactics": "Erupt violently, wait, watch",
+    "motivesAndTactics": "Irromper violentamente, esperar, observar",
     "difficulty": 20,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Lightning Bolt",
+      "name": "Raio",
       "img": "icons/magic/lightning/bolt-strike-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "yPVvbwNUYqSIB5Qe": {
-        "name": "Power of the Storm",
+        "name": "Poder da Tempestade",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!tLHNONmalytgnngv.f5itMkOcwhmlKs27"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Titan makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o Titã fizer um ataque bem-sucedido contra um PJ, você recebe 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!tLHNONmalytgnngv.8FnteoJxCdSzjqiU"
     },
     {
-      "name": "Ball Lightning",
+      "name": "Relâmpago Esférico",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Titan conjure <strong>1d4</strong> spheres of electrical energy within Close range. When the Titan is spotlighted, they can move each sphere up to Close range. When a sphere moves within Very Close range of a PC, the PC takes <strong>4d6</strong> magic damage, and the sphere disappears. Each sphere has the same Difficulty as the Titan and disappears if a creature deals magic damage to it.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Titã conjurar <strong>1d4</strong> esferas de energia elétrica em alcance Próximo. Quando o Titã recebe destaque, ele pode mover cada esfera até alcance Próximo. Quando uma esfera se move para alcance Muito Próximo de um personagem, o personagem sofre <strong>4d6</strong> de dano mágico e a esfera desaparece. Cada esfera tem a mesma Dificuldade do Titã e desaparece se uma criatura causar dano mágico a ela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -220,7 +218,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "WoUKdIPiaC8jJZAB": {
@@ -244,9 +242,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -294,11 +290,11 @@
       "_key": "!actors.items!tLHNONmalytgnngv.1GB6i2sPEdjhf4SE"
     },
     {
-      "name": "Storm Bringer",
+      "name": "Invocador de Tempestades",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Titan conjure a raging storm. Each PC within Close range of the Titan must make a Strength Reaction Roll. Targets who fail take <strong>3d12</strong> magic damage and are <em>Vulnerable</em> until they are spotlighted. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Titã conjurar uma tempestade furiosa. Cada personagem em alcance Próximo do Titã deve fazer um teste de reação de Força. Os alvos que falharem sofrem <strong>3d12</strong> de dano mágico e ficam <em>Vulneráveis</em> até receberem destaque. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -324,9 +320,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -344,7 +338,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Storm Bringer",
+                "name": "Invocador de Tempestades",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -389,7 +383,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -400,14 +394,12 @@
       "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
       "effects": [
         {
-          "name": "Storm Bringer",
+          "name": "Invocador de Tempestades",
           "disabled": false,
           "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you are spotlighted.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até ser colocado em destaque.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -455,11 +447,11 @@
       "_key": "!actors.items!tLHNONmalytgnngv.eAHzRE18UJknHhzj"
     },
     {
-      "name": "Thunderclap",
+      "name": "Trovoada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to target up to three PCs in front of the Titan within Close range. Each target marks a Stress and becomes <em>Vulnerable</em> until they roll with Hope.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher até três personagens à frente do Titã em alcance Próximo. Cada alvo marca 1 Fadiga e fica <em>Vulnerável</em> até rolar com Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -537,7 +529,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -548,14 +540,12 @@
       "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
       "effects": [
         {
-          "name": "Clapped",
+          "name": "Atordoado",
           "disabled": false,
           "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you roll with Hope.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até rolar com Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -606,7 +596,7 @@
   "_id": "tLHNONmalytgnngv",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Storm Titan",
+    "name": "Titã da Tempestade",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

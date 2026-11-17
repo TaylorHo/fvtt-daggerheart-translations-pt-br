@@ -1,5 +1,5 @@
 {
-  "name": "Mortal Hunter",
+  "name": "Caçador Mortal",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Devour, hunt, track",
+    "motivesAndTactics": "Devorar, caçar, rastrear",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "4toM5Vvml5Z32OcG": {
-        "name": "Bloodhound",
+        "name": "Cão de Caça",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>An undead figure wearing a heavy leather coat, with searching eyes and a casually cruel demeanor.</p>",
+    "description": "<p>Uma figura morta-viva usando um pesado casaco de couro, com olhos perscrutadores e um comportamento casualmente cruel.</p>",
     "attack": {
-      "name": "Tear at Flesh",
+      "name": "Rasgar Carne",
       "img": "icons/skills/melee/strike-slashes-red.webp",
       "roll": {
         "bonus": 5,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "mVV7a7KQAORoPMgZ",
   "sort": 2900000,
   "prototypeToken": {
-    "name": "Mortal Hunter",
+    "name": "Caçador Mortal",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "9T1g3FH38cnCRG8k": {
@@ -283,12 +281,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -321,10 +319,10 @@
       "_key": "!actors.items!mVV7a7KQAORoPMgZ.cID8rYBYealYs7mO"
     },
     {
-      "name": "Deathlock",
+      "name": "Maldição Mortal",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to curse a target within Very Close range with a necrotic Deathlock until the end of the scene. Attacks made by the @Lookup[@name] against a Deathlocked target deal direct damage. The @Lookup[@name] can only maintain one Deathlock at a time.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para amaldiçoar um alvo em alcance Muito Próximo com uma Maldição Mortal necrótica até o fim da cena. Ataques feitos pelo @Lookup[@name] contra um alvo sob Maldição Mortal causam dano direto. O @Lookup[@name] só pode manter uma Maldição Mortal por vez.</p>",
         "resource": null,
         "actions": {
           "LUNsI29woLk4m2wo": {
@@ -360,7 +358,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Curse",
+            "name": "Maldição",
             "img": "icons/magic/unholy/hand-marked-pink.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -375,7 +373,7 @@
             "_id": "zLKfwa8a2YBRLKAF",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Attacks made by the @Lookup[@name] against a Deathlocked target deal direct damage.</p>",
+            "description": "<p>Ataques feitos pelo @Lookup[@name] contra um alvo sob Maldição Mortal causam dano direto.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -401,9 +399,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -439,7 +435,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Deathlocked attack",
+            "name": "Ataque sob Maldição Mortal",
             "img": "icons/magic/unholy/hand-marked-pink.webp",
             "range": "veryClose",
             "triggers": [],
@@ -456,7 +452,7 @@
       "img": "icons/magic/unholy/hand-marked-pink.webp",
       "effects": [
         {
-          "name": "Deathlock",
+          "name": "Maldição Mortal",
           "img": "icons/magic/unholy/hand-marked-pink.webp",
           "transfer": false,
           "_id": "YznseQP43jNrk07h",
@@ -479,7 +475,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Attacks made by the Hunter against a Deathlocked target deal direct damage.</p>",
+          "description": "<p>Ataques feitos pelo Caçador contra um alvo sob Maldição Mortal causam dano direto.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -509,10 +505,10 @@
       "_key": "!actors.items!mVV7a7KQAORoPMgZ.r1T70u9n3bRfUTX5"
     },
     {
-      "name": "Inevitable Death",
+      "name": "Morte Inevitável",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight <strong>1d4</strong> allies. Attacks they make while spotlighted in this way deal half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para dar o destaque a <strong>1d4</strong> aliados. Ataques que eles fizerem enquanto estiverem em destaque dessa forma causam metade do dano.</p>",
         "resource": null,
         "actions": {
           "wxOfNoEogH1EU0Jb": {
@@ -567,7 +563,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spotlight Allies",
+            "name": "Dar Destaque aos Aliados",
             "img": "icons/skills/movement/arrows-up-trio-red.webp",
             "range": "",
             "baseAction": false,
@@ -596,17 +592,17 @@
       "_key": "!actors.items!mVV7a7KQAORoPMgZ.5AQTqW1GDidHfU3a"
     },
     {
-      "name": "Rampage",
+      "name": "Fúria Desenfreada",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 1d6)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown. When it triggers, move the @Lookup[@name] in a straight line to a point within Far range and make an attack against all targets in their path. Targets the @Lookup[@name] succeeds against take <strong>2d8+2</strong> physical damage.</p>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 1d6)</em>. Quando o @Lookup[@name] recebe o destaque pela primeira vez, ative a contagem regressiva. Quando disparar, mova o @Lookup[@name] em linha reta até um ponto em alcance Distante e faça um ataque contra todos os alvos em seu caminho. Alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>2d8+2</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "VjiFxuzfAaq5N1jy": {
             "type": "attack",
             "_id": "VjiFxuzfAaq5N1jy",
             "systemPath": "actions",
-            "description": "<p>Move the @Lookup[@name] in a straight line to a point within Far range and make an attack against all targets in their path. Targets the @Lookup[@name] succeeds against take <strong>2d8+2</strong> physical damage.</p><p>@Template[type:ray|range:f]</p>",
+            "description": "<p>Mova o @Lookup[@name] em linha reta até um ponto em alcance Distante e faça um ataque contra todos os alvos em seu caminho. Alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>2d8+2</strong> de dano físico.</p><p>@Template[type:ray|range:f]</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -629,9 +625,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -668,12 +662,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Rampage",
+                "name": "Fúria Desenfreada",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -691,7 +685,7 @@
             "type": "countdown",
             "_id": "BhA3vxCuMs4UbbQU",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 1d6)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 1d6)</em>. Quando o @Lookup[@name] recebe o destaque pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -706,7 +700,7 @@
             },
             "countdown": [
               {
-                "name": "Rampage",
+                "name": "Fúria Desenfreada",
                 "type": "encounter",
                 "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
                 "progress": {
@@ -720,7 +714,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
             "range": "",
             "baseAction": false,

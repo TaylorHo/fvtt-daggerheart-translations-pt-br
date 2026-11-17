@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Viscera Sucker",
+  "name": "Sugador de Vísceras",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "skulk",
-    "description": "<p>A vampiric demon whose upper body detaches at sundown to fly through nearby villages in search of victims. It has a winged upper body with hanging entrails.</p>",
+    "description": "<p>Um demônio vampírico cujo tronco se solta ao pôr do sol para voar por vilarejos próximos em busca de vítimas. Tem um tronco alado com entranhas penduradas.</p>",
     "tier": 3,
-    "motivesAndTactics": "Clamp onto prey, suck blood, tear in half",
+    "motivesAndTactics": "Agarrar a presa, sugar sangue, rasgar ao meio",
     "difficulty": 14,
     "damageThresholds": {
       "major": 16,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Long Nails",
+      "name": "Unhas Longas",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "bAYNqmFSrrubwi0x": {
-        "name": "Flying",
+        "name": "Voo",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Join or Die",
+      "name": "Una-se ou Morra",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] dies if it hasn't reconnected its upper and lower halves by dawn.</p>",
+        "description": "<p>@Lookup[@name] morre se não tiver reunido as metades superior e inferior até o amanhecer.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!IQzeEU2nWWlBhBrX.RxBlE5YjrtWE5Bzo"
     },
     {
-      "name": "Entangling Entrails",
+      "name": "Entranhas Enredantes",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] latch onto a target within Very Close range, <em>Restrain</em>ing them until they escape with a successful Strength Roll (16).</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] se prender a um alvo em alcance Muito Próximo, <em>Imobilizando</em>-o até que ele escape com um Teste de Força (16) bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,7 +208,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryClose"
           }
         },
@@ -221,14 +219,12 @@
       "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
       "effects": [
         {
-          "name": "Entangling Entrails",
+          "name": "Entranhas Enredantes",
           "disabled": false,
           "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
-          "description": "<p>You are <em>Restrained</em> them until you escape with a successful Strength Roll (16).</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até escapar com um Teste de Força (16) bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrain"
-          ],
+          "statuses": ["restrain"],
           "system": {
             "changes": [],
             "duration": {
@@ -276,11 +272,11 @@
       "_key": "!actors.items!IQzeEU2nWWlBhBrX.JvUiFinQ8enXA8Pu"
     },
     {
-      "name": "Lifesuck",
+      "name": "Sucção Vital",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] drink blood from a <em>Restrained</em> target within Melee range. The target marks a HP, and the @Lookup[@name] clears a HP.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer @Lookup[@name] beber sangue de um alvo <em>Imobilizado</em> em alcance Corpo a Corpo. O alvo marca 1 Ponto de Vida, e @Lookup[@name] limpa 1 Ponto de Vida.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -342,7 +338,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -364,7 +360,7 @@
   "_id": "IQzeEU2nWWlBhBrX",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Viscera Sucker",
+    "name": "Sugador de Vísceras",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

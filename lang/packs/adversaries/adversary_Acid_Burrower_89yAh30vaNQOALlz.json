@@ -1,5 +1,5 @@
 {
-  "name": "Acid Burrower",
+  "name": "Escavador Ácido",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Burrow, drag away, feed, reposition",
+    "motivesAndTactics": "Escavar, arrastar, alimentar-se, reposicionar-se",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "pe7OIoJsqlpMXEvs": {
-        "name": "Tremor Sense",
+        "name": "Sentido de Tremor",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A horse-sized insect with digging claws and acidic blood.</p>",
+    "description": "<p>Um inseto do tamanho de um cavalo com garras escavadoras e sangue ácido.</p>",
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "range": "veryClose",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -140,7 +138,7 @@
   },
   "flags": {},
   "prototypeToken": {
-    "name": "Acid Burrower",
+    "name": "Escavador Ácido",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,12 +231,12 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "_id": "MFmGN6Tbf5GYxrQ9",
       "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "3lGGgkxnzgUwHGIp": {
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -296,12 +294,12 @@
       "_key": "!actors.items!89yAh30vaNQOALlz.MFmGN6Tbf5GYxrQ9"
     },
     {
-      "name": "Earth Eruption",
+      "name": "Erupção da Terra",
       "type": "feature",
       "_id": "ctXYwil2D1zfsekT",
       "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] burst out of the ground. All creatures within Very Close range must succeed on an Agility Reaction Roll or be knocked over, making them Vulnerable until they next act.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] irromper do chão. Todas as criaturas em alcance Muito Próximo devem ter sucesso em um Teste de Reação de Agilidade ou serão derrubadas, ficando Vulneráveis até agirem novamente.</p>",
         "resource": null,
         "actions": {
           "4ppSeiTdbqnMzWAs": {
@@ -361,12 +359,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Earth Eruption",
+                "name": "Erupção da Terra",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -389,7 +387,7 @@
       },
       "effects": [
         {
-          "name": "Earth Eruption",
+          "name": "Erupção da Terra",
           "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
           "transfer": false,
           "_id": "9PsnogEPsp1OOK64",
@@ -414,9 +412,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -444,12 +440,12 @@
       "_key": "!actors.items!89yAh30vaNQOALlz.ctXYwil2D1zfsekT"
     },
     {
-      "name": "Spit Acid",
+      "name": "Cuspir Ácido",
       "type": "feature",
       "_id": "UpFsnlbZkyvM2Ftv",
       "img": "icons/magic/acid/projectile-smoke-glowing.webp",
       "system": {
-        "description": "<p>Make an attack against all targets in front of the @Lookup[@name] within Close range. Targets the @Lookup[@name] succeeds against take <strong>2d6</strong> physical damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP and you gain a Fear.</p><p>@Template[type:inFront|range:c]</p>",
+        "description": "<p>Faça um ataque contra todos os alvos à frente de @Lookup[@name] em alcance Próximo. Alvos contra os quais @Lookup[@name] tiver sucesso sofrem <strong>2d6</strong> de dano físico e devem marcar um Espaço de Armadura sem receber seus benefícios (ainda podem usar a armadura para reduzir o dano). Se não puderem marcar um Espaço de Armadura, devem marcar 1 PV adicional e você ganha 1 de Medo.</p><p>@Template[type:inFront|range:c]</p>",
         "resource": null,
         "actions": {
           "yd10HwK6Wa3OEvv2": {
@@ -479,9 +475,7 @@
                   "bonus": null
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -536,7 +530,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/acid/projectile-smoke-glowing.webp",
             "range": "close",
             "baseAction": false,
@@ -563,12 +557,12 @@
       "_key": "!actors.items!89yAh30vaNQOALlz.UpFsnlbZkyvM2Ftv"
     },
     {
-      "name": "Acid Bath",
+      "name": "Banho de Ácido",
       "type": "feature",
       "_id": "aNIVT5LKhwLyjKpI",
       "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes Severe damage, all creatures within Close range are bathed in their acidic blood, taking <strong>1d10</strong> physical damage. This splash covers the ground within Very Close range with blood, and all creatures other than the @Lookup[@name] who move through it take <strong>1d6</strong> physical damage.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano Severo, todas as criaturas em alcance Próximo são banhadas em seu sangue ácido, sofrendo <strong>1d10</strong> de dano físico. Esse respingo cobre o chão em alcance Muito Próximo com sangue, e todas as criaturas, exceto @Lookup[@name], que se moverem por ele sofrem <strong>1d6</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "XbtTzOBvlTaxOKTy": {
@@ -598,9 +592,7 @@
                   "bonus": null
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -617,12 +609,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Splash",
+            "name": "Respingo",
             "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Acid Bath: Damage Area",
+                "name": "Banho de Ácido: Área de Dano",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -630,7 +622,7 @@
                 "hasHole": false
               },
               {
-                "name": "Acid Ground",
+                "name": "Chão Ácido",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -648,7 +640,7 @@
             "type": "damage",
             "_id": "xpcp1ECTWF20kxve",
             "systemPath": "actions",
-            "description": "<p>This splash covers the ground within Very Close range with blood, and all creatures other than the @Lookup[@name] who move through it take <strong>1d6</strong> physical damage.</p>",
+            "description": "<p>Esse respingo cobre o chão em alcance Muito Próximo com sangue, e todas as criaturas, exceto @Lookup[@name], que se moverem por ele sofrem <strong>1d6</strong> de dano físico.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -671,9 +663,7 @@
                   "bonus": null
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -689,7 +679,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Acid Ground",
+            "name": "Chão Ácido",
             "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
             "range": "",
             "areas": [],

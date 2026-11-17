@@ -1,5 +1,5 @@
 {
-  "name": "Young Dryad",
+  "name": "Dríade Jovem",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "lSUwWxW8jsQ2xho5": {
-        "name": "Leadership",
+        "name": "Liderança",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>An imperious tree-person leading their forest's defenses.</p>",
-    "motivesAndTactics": "Command, nurture, prune the unwelcome",
+    "description": "<p>Uma pessoa-árvore imperiosa que lidera as defesas de sua floresta.</p>",
+    "motivesAndTactics": "Comandar, nutrir, podar os indesejados",
     "attack": {
-      "name": "Scythe",
+      "name": "Foice",
       "img": "icons/weapons/sickles/scythe-wrapped-worn-red.webp",
       "roll": {
         "bonus": 0,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "8yUj2Mzvnifhxegm",
   "sort": 1600000,
   "prototypeToken": {
-    "name": "Young Dryad",
+    "name": "Dríade Jovem",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Voice of the Forest",
+      "name": "Voz da Floresta",
       "type": "feature",
       "_id": "lXhVuh31S2N4NVPG",
       "img": "icons/magic/nature/leaf-hand-green.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight <strong>1d4</strong> allies within range of a target they can attack without moving. On a success, their attacks deal half damage.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para dar o destaque a <strong>1d4</strong> aliados em alcance de um alvo que possam atacar sem se mover. Em caso de sucesso, seus ataques causam metade do dano.</p>",
         "resource": null,
         "actions": {
           "0VOUNQKNjwlLhnRW": {
@@ -295,7 +293,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spotlight Allies",
+            "name": "Dar Destaque aos Aliados",
             "img": "icons/magic/nature/leaf-hand-green.webp",
             "range": "",
             "baseAction": false,
@@ -322,12 +320,12 @@
       "_key": "!actors.items!8yUj2Mzvnifhxegm.lXhVuh31S2N4NVPG"
     },
     {
-      "name": "Thorny Cage",
+      "name": "Gaiola de Espinhos",
       "type": "feature",
       "_id": "i8NoUGUTNY2C5NhC",
       "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to form a cage around a target within Very Close range and Restrain them until they're freed with a successful Strength Roll. When a creature makes an action roll against the cage, they must mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para formar uma gaiola ao redor de um alvo em alcance Muito Próximo e Imobilizá-lo até que seja libertado com um Teste de Força bem-sucedido. Quando uma criatura faz uma jogada de ação contra a gaiola, ela deve marcar 1 de Fadiga.</p>",
         "resource": null,
         "actions": {
           "cXOjhfMgKh2yD1mc": {
@@ -363,7 +361,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -382,7 +380,7 @@
       },
       "effects": [
         {
-          "name": "Thorny Cage",
+          "name": "Gaiola de Espinhos",
           "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
           "transfer": false,
           "_id": "k8LzBWRZo6VPqvpH",
@@ -391,7 +389,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until they're freed with a successful Strength Roll.</p>"
+              "description": "<p>Até serem libertados com um Teste de Força bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -405,11 +403,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained</em> until you're freed with a successful Strength Roll. When a creature makes an action roll against the cage, they must mark a Stress.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até ser libertado com um Teste de Força bem-sucedido. Quando uma criatura faz uma jogada de ação contra a gaiola, ela deve marcar 1 de Fadiga.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -437,12 +433,12 @@
       "_key": "!actors.items!8yUj2Mzvnifhxegm.i8NoUGUTNY2C5NhC"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "4f79icB7Dd1xLEZQ",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "9MGyAjWtLbDz8Znu": {
@@ -502,7 +498,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

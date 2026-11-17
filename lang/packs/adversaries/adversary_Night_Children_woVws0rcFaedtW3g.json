@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Night Children",
+  "name": "Filhos da Noite",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "horde",
-    "description": "<p>A teeming assortment of nocturnal fiends under the thrall of an ancient evil.</p>",
+    "description": "<p>Uma profusão de demônios noturnos sob o domínio de um mal ancestral.</p>",
     "tier": 3,
-    "motivesAndTactics": "Carry victims back to master, overrun settlements, slither through shadow",
+    "motivesAndTactics": "Levar vítimas de volta ao mestre, invadir povoados, rastejar pelas sombras",
     "difficulty": 16,
     "damageThresholds": {
       "major": 17,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fangs & Claws",
+      "name": "Presas e Garras",
       "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "GNQ9Q7YWoajhx21w": {
-        "name": "Terrorize",
+        "name": "Aterrorizar",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Swell Ranks",
+      "name": "Ampliar Fileiras",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Once per scene, mark any number of Stress to have the @Lookup[@name] open a portal that spews forth reinforcements, refilling the Horde's ranks. Clear a number of HP equal to the number of Stress marked.</p>",
+        "description": "<p>Uma vez por cena, marque qualquer quantidade de Fadiga para fazer o @Lookup[@name] abrir um portal que despeja reforços, reabastecendo as fileiras da Horda. Limpe uma quantidade de PV igual à quantidade de Fadiga marcada.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -223,7 +221,7 @@
               },
               "useDefault": false
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "self"
           }
         },
@@ -242,11 +240,11 @@
       "_key": "!actors.items!woVws0rcFaedtW3g.SAbm4NER4YEtrGTG"
     },
     {
-      "name": "Overwhelm",
+      "name": "Sobrepujar",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] mark HP from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack against the attacker.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca PV de um ataque em alcance Corpo a Corpo, você pode <strong>marcar 1 Fadiga</strong> para fazer um ataque padrão contra o atacante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -272,9 +270,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -332,7 +328,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -352,10 +348,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -371,7 +367,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -440,7 +436,7 @@
   "_id": "woVws0rcFaedtW3g",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Night Children",
+    "name": "Filhos da Noite",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

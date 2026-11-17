@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Guahalan Alebrujo",
+  "name": "Alebrije Guahalano",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A huge, colorful, chimeric beast formed from many animals.</p>",
+    "description": "<p>Uma besta quimérica enorme e colorida, formada por muitos animais.</p>",
     "tier": 2,
-    "motivesAndTactics": "Destroy, give no quarter, ravage",
+    "motivesAndTactics": "Destruir, não dar trégua, devastar",
     "difficulty": 14,
     "damageThresholds": {
       "major": 13,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tooth & Claw",
+      "name": "Dente e Garra",
       "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -113,7 +111,7 @@
         "description": ""
       },
       "nWuoLQh78Q6Rqml7": {
-        "name": "Quick",
+        "name": "Rápido",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "The Beast Unleashed",
+      "name": "A Fera Libertada",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Alebrujo gains a bonus to damage rolls equal to the number of Fear you have.</p>",
+        "description": "<p>O Alebrije recebe um bônus nas rolagens de dano igual ao número de Medo que você tem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "effects": [
         {
-          "name": "The Beast Unleashed",
+          "name": "A Fera Libertada",
           "type": "base",
           "system": {
             "changes": [
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Alebrujo gains a bonus to damage rolls equal to the number of Fear you have.</p>",
+          "description": "<p>O Alebrije recebe um bônus nas rolagens de dano igual ao número de Medo que você tem.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!AagRRy7uZr9k7tDH.xtquTtK1oGOWyQw8"
     },
     {
-      "name": "Guahalan Sacrifice",
+      "name": "Sacrifício Guahalano",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Alebrujo devour a Minion within Very Close range, then clear a HP or a Stress.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Alebrije devorar um Lacaio dentro do alcance Muito Perto e, então, remover 1 PV ou 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -301,7 +299,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear HP",
+            "name": "Remover PV",
             "range": "veryClose",
             "img": "icons/magic/life/cross-beam-green.webp"
           },
@@ -377,7 +375,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear Stress",
+            "name": "Limpar Fadiga",
             "range": "veryClose",
             "img": "icons/magic/life/heart-cross-strong-purple-orange.webp"
           }
@@ -397,11 +395,11 @@
       "_key": "!actors.items!AagRRy7uZr9k7tDH.dEI9ygpdwMr8lijU"
     },
     {
-      "name": "Howl of the Guahala",
+      "name": "Uivo dos Guahala",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Alebrujo emit a howl. Each PC within Far range must succeed on a Presence Reaction Roll or become temporarily Panicked. While Panicked, a PC must mark a Stress when they take the spotlight.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Alebrije emitir um uivo. Cada PJ dentro do alcance Longe deve ser bem-sucedido em um Teste de Reação de Presença ou ficar temporariamente em Pânico. Enquanto estiver em Pânico, um PJ deve marcar 1 Fadiga ao receber o Destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -424,7 +422,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Howl of the Guahala",
+                "name": "Uivo dos Guahala",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -478,7 +476,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -489,10 +487,10 @@
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "effects": [
         {
-          "name": "New Effect",
+          "name": "Novo Efeito",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-purple.webp",
-          "description": "<p>While Panicked, you must mark a Stress when you take the spotlight.</p>",
+          "description": "<p>Enquanto estiver em Pânico, você deve marcar 1 Fadiga ao receber o Destaque.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -542,11 +540,11 @@
       "_key": "!actors.items!AagRRy7uZr9k7tDH.UYKbaPpVUFhcuZRw"
     },
     {
-      "name": "Rip & Tear",
+      "name": "Rasgar e Dilacerar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to make a standard attack with advantage. On a success, you can <strong>mark a Stress</strong> to make another standard attack against an additional target within range. You can continue marking Stress to make additional attacks until the Alebrujo fails an attack roll.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para realizar um ataque padrão com vantagem. Em caso de sucesso, você pode <strong>marcar 1 Fadiga</strong> para realizar outro ataque padrão contra um alvo adicional dentro do alcance. Você pode continuar marcando Fadiga para realizar ataques adicionais até que o Alebrije falhe em uma rolagem de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -572,9 +570,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -632,7 +628,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "pKkPT8YCoYFOkIms": {
@@ -657,9 +653,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": ""
               },
               "resources": {}
@@ -716,7 +710,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -735,11 +729,11 @@
       "_key": "!actors.items!AagRRy7uZr9k7tDH.YuGPhd2TzfgkQcUU"
     },
     {
-      "name": "Brutal Spectacle",
+      "name": "Espetáculo Brutal",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Alebrujo deals Severe damage, you can <strong>spend a Fear</strong> to force all targets within Close range to mark a Stress.</p>",
+        "description": "<p>Quando o Alebrije causa dano Grave, você pode <strong>gastar 1 Medo</strong> para forçar todos os alvos dentro do alcance Perto a marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -781,7 +775,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Brutal Spectacle",
+                "name": "Espetáculo Brutal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -810,7 +804,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -832,7 +826,7 @@
   "_id": "AagRRy7uZr9k7tDH",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Guahalan Alebrujo",
+    "name": "Alebrije Guahalano",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

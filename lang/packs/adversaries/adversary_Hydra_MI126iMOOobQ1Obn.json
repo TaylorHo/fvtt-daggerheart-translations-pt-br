@@ -1,5 +1,5 @@
 {
-  "name": "Hydra",
+  "name": "Hidra",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Devour, regenerate, terrify",
+    "motivesAndTactics": "Devorar, regenerar, aterrorizar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A quadrupedal scaled beast with multiple long-necked heads, each filled with menacing fangs.</p>",
+    "description": "<p>Uma besta escamosa quadrúpede com várias cabeças de pescoço longo, cada uma cheia de presas ameaçadoras.</p>",
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "roll": {
         "bonus": 3,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "MI126iMOOobQ1Obn",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Hydra",
+    "name": "Hidra",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Many-Headed Menace",
+      "name": "Ameaça de Muitas Cabeças",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] begins with three heads and can have up to five. When the @Lookup[@name] takes Major or greater damage, they lose a head.</p>",
+        "description": "<p>@Lookup[@name] começa com três cabeças e pode ter até cinco. Quando @Lookup[@name] sofre dano Maior ou superior, ele perde uma cabeça.</p>",
         "resource": {
           "type": "simple",
           "value": 3,
@@ -262,10 +260,10 @@
       "_key": "!actors.items!MI126iMOOobQ1Obn.Lg40vTEegQh2He7A"
     },
     {
-      "name": "Relentless (X)",
+      "name": "Implacável (X)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted X times per GM turn, where X is the @Lookup[@name]'s number of heads. Spend Fear as usual to spotlight them.</p><section class=\"secret\" id=\"secret-AOW6OiOMzL5FUfWv\"><p><br>Note: Automation is not added so manually spend fear as per text.</p></section>",
+        "description": "<p>@Lookup[@name] pode receber o destaque X vezes por turno do Mestre, onde X é o número de cabeças de @Lookup[@name]. Gaste Medo normalmente para dar destaque a ele.</p><section class=\"secret\" id=\"secret-AOW6OiOMzL5FUfWv\"><p><br>Nota: A automação não foi adicionada, então gaste o Medo manualmente conforme o texto.</p></section>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -286,10 +284,10 @@
       "_key": "!actors.items!MI126iMOOobQ1Obn.nwIjDjpLGfuXNYvA"
     },
     {
-      "name": "Regeneration",
+      "name": "Regeneração",
       "type": "feature",
       "system": {
-        "description": "<p>If the @Lookup[@name] has any marked HP, <strong>spend a Fear</strong> to clear a HP and grow two heads.</p>",
+        "description": "<p>Se @Lookup[@name] tiver algum PV marcado, <strong>gaste 1 de Medo</strong> para limpar 1 PV e fazer crescerem duas cabeças.</p>",
         "resource": null,
         "actions": {
           "SsRtZwee1mYlPLUy": {
@@ -358,7 +356,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/life/cross-beam-green.webp",
             "range": "self",
             "baseAction": false,
@@ -387,10 +385,10 @@
       "_key": "!actors.items!MI126iMOOobQ1Obn.b2KflqWoOxHMQf97"
     },
     {
-      "name": "Terrifying Chorus",
+      "name": "Coro Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>All PCs within Far range lose 2 Hope.</p>",
+        "description": "<p>Todos os PJs em alcance Distante perdem 2 de Esperança.</p>",
         "resource": null,
         "actions": {
           "nJxpFR4Ul0e2RrL4": {
@@ -435,12 +433,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-white.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Terrifying Chorus",
+                "name": "Coro Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -473,10 +471,10 @@
       "_key": "!actors.items!MI126iMOOobQ1Obn.bCeCu8M25izOAsuY"
     },
     {
-      "name": "Magical Weakness",
+      "name": "Fraqueza Mágica",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes magic damage, they become Dazed until the next roll with Fear. While Dazed, they can't use their Regeneration action but are immune to magic damage.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano mágico, ele fica Atordoado até a próxima rolagem com Medo. Enquanto estiver Atordoado, ele não pode usar sua ação de Regeneração, mas é imune a dano mágico.</p>",
         "resource": null,
         "actions": {
           "heAkvOuQG1EJmVbb": {
@@ -503,7 +501,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Become Dazed",
+            "name": "Ficar Atordoado",
             "img": "icons/magic/symbols/star-rising-purple.webp",
             "range": "",
             "baseAction": false,
@@ -524,7 +522,7 @@
       "img": "icons/magic/symbols/star-rising-purple.webp",
       "effects": [
         {
-          "name": "Dazed",
+          "name": "Atordoado",
           "img": "icons/magic/symbols/star-rising-purple.webp",
           "transfer": false,
           "_id": "iBJ3YhEkVsGKEIVk",
@@ -541,7 +539,7 @@
             ],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until the next roll with Fear.</p>"
+              "description": "<p>Até a próxima rolagem com Medo.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -555,7 +553,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While Dazed, they can't use their Regeneration action but are immune to magic damage.</p>",
+          "description": "<p>Enquanto estiver Atordoado, ele não pode usar sua ação de Regeneração, mas é imune a dano mágico.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,

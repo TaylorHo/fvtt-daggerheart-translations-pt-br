@@ -1,5 +1,5 @@
 {
-  "name": "Vampire",
+  "name": "Vampiro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Bite, charm, deceive, feed, intimidate",
+    "motivesAndTactics": "Morder, encantar, enganar, alimentar-se, intimidar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "FHzUtryLHCx6ZQZX": {
-        "name": "Nocturnal Hunter",
+        "name": "Caçador Noturno",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>An intelligent undead with blood-stained lips and a predator's smile.</p>",
+    "description": "<p>Um morto-vivo inteligente com lábios manchados de sangue e o sorriso de um predador.</p>",
     "attack": {
-      "name": "Rapier",
+      "name": "Rapieira",
       "img": "icons/weapons/swords/sword-jeweled-red.webp",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "WWyUp6Mxl1S3KYUG",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Vampire",
+    "name": "Vampiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Draining Bite",
+      "name": "Mordida Drenante",
       "type": "feature",
       "system": {
-        "description": "<p>Make an attack against a target within Melee range. On a success, deal <strong>5d4</strong> physical damage. A target who marks HP from this attack loses a Hope and must mark a Stress. The @Lookup[@name] then clears a HP.</p>",
+        "description": "<p>Faça um ataque contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, cause <strong>5d4</strong> de dano físico. Um alvo que marcar Pontos de Vida com este ataque perde 1 de Esperança e deve marcar 1 de Fadiga. Então @Lookup[@name] limpa 1 Ponto de Vida.</p>",
         "resource": null,
         "actions": {
           "GxJ7oxrrFp7VsybV": {
@@ -341,7 +339,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
             "range": "melee",
             "baseAction": false,
@@ -370,10 +368,10 @@
       "_key": "!actors.items!WWyUp6Mxl1S3KYUG.X0VgwJbK2n3mez0p"
     },
     {
-      "name": "Mistform",
+      "name": "Forma de Névoa",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes physical damage, you can <strong>spend a Fear</strong> to take half damage.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano físico, você pode <strong>gastar 1 de Medo</strong> para sofrer metade do dano.</p>",
         "resource": null,
         "actions": {
           "TDu6DplfPluwInhi": {
@@ -404,7 +402,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
             "range": "",
             "baseAction": false,

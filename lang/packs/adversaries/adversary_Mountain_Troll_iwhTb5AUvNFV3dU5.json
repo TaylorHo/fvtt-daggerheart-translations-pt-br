@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Mountain Troll",
+  "name": "Troll da Montanha",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>A hideous giant born out of a massive rock. They wear purloined armor and a belt of severed heads or skulls.</p>",
+    "description": "<p>Um gigante hediondo nascido de uma rocha imensa. Veste armadura roubada e um cinto de cabeças decepadas ou crânios.</p>",
     "tier": 1,
-    "motivesAndTactics": "Ambush, bellow, hurl large boulders, smash, stomp",
+    "motivesAndTactics": "Emboscar, rugir, arremessar grandes pedregulhos, esmagar, pisotear",
     "difficulty": 14,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Skull Flail",
+      "name": "Mangual de Crânios",
       "img": "icons/weapons/maces/flail-cube-grey.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "Argb8nwTtwZnKAOT": {
-        "name": "Mountains",
+        "name": "Montanhas",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Troll can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Troll pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,21 +160,21 @@
       "_key": "!actors.items!iwhTb5AUvNFV3dU5.RWMgJTJU5adTtpXS"
     },
     {
-      "name": "Stolen Armor",
+      "name": "Armadura Roubada",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p><em>Countdown</em>. When combat begins, activate a countdown with a value equal to the number of PCs. When the Troll takes damage, reduce the severity by one threshold, then tick down the countdown. When it triggers, the Troll evolves (see \"Enraged @Lookup[@name]\").</p>",
+        "description": "<p><em>Contagem Regressiva</em>. Quando o combate começa, ative uma contagem regressiva com valor igual ao número de PJs. Quando o Troll sofre dano, reduza a gravidade em um limiar e então diminua a contagem regressiva. Quando disparar, o Troll evolui (veja \"@Lookup[@name] Enfurecido\").</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "CxueuYXnhqT4EP7l": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Stolen Armor",
+                "name": "Armadura Roubada",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -218,7 +216,7 @@
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "effects": [
         {
-          "name": "Stolen Armor",
+          "name": "Armadura Roubada",
           "type": "base",
           "system": {
             "changes": [
@@ -256,7 +254,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When the Troll takes damage, reduce the severity by one threshold.</p>",
+          "description": "<p>Quando o Troll sofre dano, reduza a gravidade em um limiar.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -279,11 +277,11 @@
       "_key": "!actors.items!iwhTb5AUvNFV3dU5.3xBKHT3vHPmXoIDH"
     },
     {
-      "name": "Flail Swipe",
+      "name": "Golpe de Mangual",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets in front of the Troll within Very Close range. Targets the Troll succeeds against take <strong>2d8+2</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra todos os alvos à frente do Troll em alcance Muito Próximo. Alvos contra os quais o Troll tiver sucesso sofrem <strong>2d8+2</strong> de dano físico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -309,9 +307,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -329,7 +325,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Flail Swipe",
+                "name": "Golpe de Mangual",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "veryClose",
@@ -378,7 +374,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -397,11 +393,11 @@
       "_key": "!actors.items!iwhTb5AUvNFV3dU5.W0YS8rMhgEQQMFRF"
     },
     {
-      "name": "Enraged Mountain Troll",
+      "name": "Troll da Montanha Enfurecido",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<section id=\"secret-j83rCPpPnQWOqDN8\" class=\"secret\"><p>The Troll loses their \"Stolen Armor\" and \"Flail Swipe\" features, then gains a +1 bonus to their Difficulty. Additionally, they gain the \"Double Swipe\" feature and replace \"Skull Flail\" with the following standard attack: Claw Swipe: Very Close | <strong>1d10+3</strong> phy.</p></section>",
+        "description": "<section id=\"secret-j83rCPpPnQWOqDN8\" class=\"secret\"><p>O Troll perde as características \"Armadura Roubada\" e \"Golpe de Mangual\" e então recebe um bônus de +1 em sua Dificuldade. Além disso, ele ganha a característica \"Golpe Duplo\" e substitui \"Mangual de Crânios\" pelo seguinte ataque padrão: Golpe de Garra: Muito Próximo | <strong>1d10+3</strong> fís.</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -445,10 +441,7 @@
                   "scale": 1,
                   "ring": "#a30000",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE",
-                    "BKG_WAVE"
-                  ]
+                  "effects": ["RING_PULSE", "BKG_WAVE"]
                 }
               }
             },
@@ -469,10 +462,10 @@
       "img": "icons/creatures/magical/construct-face-stone-pink.webp",
       "effects": [
         {
-          "name": "Enraged",
+          "name": "Enfurecido",
           "disabled": false,
           "img": "icons/creatures/magical/construct-face-stone-pink.webp",
-          "description": "<p>The Troll loses their \"Stolen Armor\" and \"Flail Swipe\" features, then gains a +1 bonus to their Difficulty. Additionally, they gain the \"Double Swipe\" feature and replace \"Skull Flail\" with the following standard attack: Claw Swipe: Very Close | <strong>1d10+3</strong> phy.</p>",
+          "description": "<p>O Troll perde as características \"Armadura Roubada\" e \"Golpe de Mangual\" e então recebe um bônus de +1 em sua Dificuldade. Além disso, ele ganha a característica \"Golpe Duplo\" e substitui \"Mangual de Crânios\" pelo seguinte ataque padrão: Golpe de Garra: Muito Próximo | <strong>1d10+3</strong> fís.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -481,10 +474,8 @@
                 "type": "standardAttack",
                 "phase": "initial",
                 "value": {
-                  "name": "Claw Swipe",
-                  "damageTypes": [
-                    "physical"
-                  ],
+                  "name": "Golpe de Garra",
+                  "damageTypes": ["physical"],
                   "attackRange": "veryClose",
                   "trait": null,
                   "damageFormula": "1d10+3",
@@ -545,12 +536,12 @@
       "_key": "!actors.items!iwhTb5AUvNFV3dU5.c89I2BlpU2nQyWji"
     },
     {
-      "name": "Double Swipe",
+      "name": "Golpe Duplo",
       "type": "feature",
       "system": {
         "featureForm": "action",
         "attribution": {},
-        "description": "<p><strong>Spend a Fear</strong> to move up to Close range and make two standard attacks against a target within Melee range. If both attacks succeed, combine the damage, and the target loses a Hope.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para se mover até alcance Próximo e fazer dois ataques padrão contra um alvo em alcance Corpo a Corpo. Se ambos os ataques tiverem sucesso, combine o dano, e o alvo perde 1 Esperança.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -588,7 +579,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -610,7 +601,7 @@
   "_id": "iwhTb5AUvNFV3dU5",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Mountain Troll",
+    "name": "Troll da Montanha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

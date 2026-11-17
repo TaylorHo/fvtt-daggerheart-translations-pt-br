@@ -1,5 +1,5 @@
 {
-  "name": "Vault Guardian Gaoler",
+  "name": "Carcereiro Guardião do Cofre",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Carry away, entrap, protect, pummel",
+    "motivesAndTactics": "Carregar, aprisionar, proteger, espancar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A boxy, dust-covered construct with thick metallic swinging doors on their torso.</p>",
+    "description": "<p>Um constructo quadrado e coberto de poeira, com grossas portas metálicas giratórias no torso.</p>",
     "attack": {
-      "name": "Body Bash",
+      "name": "Pancada Corporal",
       "img": "icons/commodities/tech/metal-barrel.webp",
       "roll": {
         "bonus": 2,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "JqYraOqNmmhHk4Yy",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Vault Guardian Gaoler",
+    "name": "Carcereiro Guardião do Cofre",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Blocking Shield",
+      "name": "Escudo de Bloqueio",
       "type": "feature",
       "system": {
-        "description": "<p>Creatures within Melee range of the @Lookup[@name] have disadvantage on attack rolls against them. Creatures trapped inside the @Lookup[@name] are immune to this feature.</p>",
+        "description": "<p>Criaturas em alcance Corpo a Corpo de @Lookup[@name] têm desvantagem em jogadas de ataque contra ele. Criaturas aprisionadas dentro de @Lookup[@name] são imunes a esta característica.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!JqYraOqNmmhHk4Yy.YiF0i85DeRoP4lEs"
     },
     {
-      "name": "Lock Up",
+      "name": "Trancafiar",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Very Close range. On a success, the target is <em>Restrained</em> within the @Lookup[@name] until freed with a successful Strength Roll (18). While <em>Restrained</em>, the target can only attack the @Lookup[@name].</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer um ataque contra um alvo em alcance Muito Próximo. Em caso de sucesso, o alvo fica <em>Imobilizado</em> dentro de @Lookup[@name] até ser libertado com um Teste de Força (18) bem-sucedido. Enquanto estiver <em>Imobilizado</em>, o alvo só pode atacar @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "NawX2Kuk4GXI5loW": {
@@ -316,7 +314,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/environment/traps/cage-grey-steel.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -337,7 +335,7 @@
       "img": "icons/environment/traps/cage-grey-steel.webp",
       "effects": [
         {
-          "name": "Lock Up",
+          "name": "Trancafiar",
           "img": "icons/environment/traps/cage-grey-steel.webp",
           "transfer": false,
           "_id": "6TZlstmWJPbeoL7i",
@@ -346,7 +344,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until freed with a successful Strength Roll (18).</p>"
+              "description": "<p>Até ser libertado com um Teste de Força (18) bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -360,11 +358,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are<strong> </strong><em>Restrained</em> within the Gaoler until freed with a successful Strength Roll (18). While <em>Restrained</em>, you can only attack the Gaoler.</p>",
+          "description": "<p>Você está<strong> </strong><em>Imobilizado</em> dentro do Carcereiro até ser libertado com um Teste de Força (18) bem-sucedido. Enquanto estiver <em>Imobilizado</em>, você só pode atacar o Carcereiro.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {

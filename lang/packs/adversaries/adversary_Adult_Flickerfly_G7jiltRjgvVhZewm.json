@@ -1,5 +1,5 @@
 {
-  "name": "Adult Flickerfly",
+  "name": "Borboleta-Cintilante Adulta",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 6
       }
     },
-    "motivesAndTactics": "Collect shiny things, hunt, nest, swoop",
+    "motivesAndTactics": "Coletar coisas brilhantes, caçar, fazer ninho, mergulhar em rasante",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A winged insect the size of a large house with iridescent scales and wings that move too fast to track.</p>",
+    "description": "<p>Um inseto alado do tamanho de uma casa grande, com escamas iridescentes e asas que se movem rápido demais para acompanhar.</p>",
     "attack": {
-      "name": "Wing Slash",
+      "name": "Corte de Asa",
       "img": "icons/commodities/biological/wing-insect-blue.webp",
       "roll": {
         "bonus": 3,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "G7jiltRjgvVhZewm",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Adult Flickerfly",
+    "name": "Borboleta-Cintilante Adulta",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Relentless (4)",
+      "name": "Implacável (4)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até quatro vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "poUhJdSkhjiVL2Vp": {
@@ -263,7 +261,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -292,10 +290,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.fFOhhMl4SDUnYNNO"
     },
     {
-      "name": "Never Misses",
+      "name": "Nunca Erra",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes an attack, the target's Evasion is halved against the attack.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque, a Evasão do alvo é reduzida pela metade contra o ataque.</p>",
         "resource": null,
         "actions": {
           "VRGPnDhDpReXUZZF": {
@@ -322,7 +320,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Halve Evasion",
+            "name": "Reduzir Evasão pela Metade",
             "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
             "range": "",
             "baseAction": false,
@@ -343,7 +341,7 @@
       "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
       "effects": [
         {
-          "name": "Never Misses",
+          "name": "Nunca Erra",
           "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
           "transfer": false,
           "_id": "ia0NUIOxE3RHb45P",
@@ -373,7 +371,7 @@
             "expired": false
           },
           "disabled": false,
-          "description": "<p>When the Flickerfly makes an attack, the target's Evasion is halved against the attack.</p>",
+          "description": "<p>Quando a Borboleta-Cintilante faz um ataque, a Evasão do alvo é reduzida pela metade contra o ataque.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -396,10 +394,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.PrwC6RpsP12fPUwy"
     },
     {
-      "name": "Whirlwind",
+      "name": "Redemoinho",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to whirl, making an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take <strong>3d8</strong> direct physical damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para girar, fazendo um ataque contra todos os alvos em alcance Muito Próximo. Alvos contra os quais @Lookup[@name] tiver sucesso sofrem <strong>3d8</strong> de dano físico direto.</p>",
         "resource": null,
         "actions": {
           "RV1wKufKrMPN6MOo": {
@@ -438,9 +436,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -477,12 +473,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-slashes-orange.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Whirlwind",
+                "name": "Redemoinho",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -515,10 +511,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.BuL6ndgaiJtjaM2T"
     },
     {
-      "name": "Mind Dance",
+      "name": "Dança Mental",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to create a magically dazzling display that grapples the minds of nearby foes. All targets within Close range must make an Instinct Reaction Roll. For each target who failed, you gain a Fear and the @Lookup[@name] learns one of the target's fears.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para criar uma exibição magicamente deslumbrante que prende as mentes de inimigos próximos. Todos os alvos em alcance Próximo devem fazer um Teste de Reação de Instinto. Para cada alvo que falhar, você ganha 1 de Medo e @Lookup[@name] descobre um dos medos do alvo.</p>",
         "resource": null,
         "actions": {
           "GNwsDlCabx3fiG4g": {
@@ -573,12 +569,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Mind Dance",
+                "name": "Dança Mental",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -611,10 +607,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.bOTsfXr9yNIGkIzK"
     },
     {
-      "name": "Hallucinatory Breath",
+      "name": "Sopro Alucinógeno",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 1d6)</em>. When the @Lookup[@name] takes damage for the first time, activate the countdown. When it triggers, the @Lookup[@name] breathes hallucinatory gas on all targets in front of them up to Far range. Targets must make an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the @Lookup[@name] have disadvantage on this roll. Targets who fail lose 2 Hope and take <strong>3d8+3</strong> direct magic damage.</p>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 1d6)</em>. Quando @Lookup[@name] sofre dano pela primeira vez, ative a contagem regressiva. Quando ela disparar, @Lookup[@name] sopra gás alucinógeno em todos os alvos à sua frente até o alcance Distante. Os alvos devem fazer um Teste de Reação de Instinto ou serão atormentados por alucinações assustadoras. Alvos cujos medos são conhecidos por @Lookup[@name] têm desvantagem nessa rolagem. Alvos que falharem perdem 2 de Esperança e sofrem <strong>3d8+3</strong> de dano mágico direto.</p>",
         "resource": null,
         "actions": {
           "YOyKyKGTUEWkMmJe": {
@@ -644,9 +640,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -702,12 +696,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/air/fog-gas-smoke-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Hallucinatory Breath",
+                "name": "Sopro Alucinógeno",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "far",
@@ -725,7 +719,7 @@
             "type": "countdown",
             "_id": "lBhmLc33pcXzJHT3",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 1d6)</em>. When the @Lookup[@name] takes damage for the first time, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 1d6)</em>. Quando @Lookup[@name] sofre dano pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -740,7 +734,7 @@
             },
             "countdown": [
               {
-                "name": "Hallucinatory Breath",
+                "name": "Sopro Alucinógeno",
                 "type": "encounter",
                 "img": "icons/magic/air/fog-gas-smoke-purple.webp",
                 "progress": {
@@ -754,7 +748,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/air/fog-gas-smoke-purple.webp",
             "range": "",
             "baseAction": false,
@@ -780,10 +774,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.49cIxZRFiAM6jDva"
     },
     {
-      "name": "Uncanny Reflexes",
+      "name": "Reflexos Sobrenaturais",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, you can mark a Stress to take half damage.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano de um ataque em alcance Próximo, você pode marcar 1 Fadiga para sofrer metade do dano.</p>",
         "resource": null,
         "actions": {
           "FocbilGTpvUjlb7m": {
@@ -814,7 +808,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "",
             "baseAction": false,
@@ -843,10 +837,10 @@
       "_key": "!actors.items!G7jiltRjgvVhZewm.KLdLRKoJHBJlHwYe"
     },
     {
-      "name": "Deadly Flight",
+      "name": "Voo Mortal",
       "type": "feature",
       "system": {
-        "description": "<p>While flying the @Lookup[@name] can move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p>Enquanto voa, @Lookup[@name] pode se mover até o alcance Distante em vez de Próximo antes de realizar uma ação.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},

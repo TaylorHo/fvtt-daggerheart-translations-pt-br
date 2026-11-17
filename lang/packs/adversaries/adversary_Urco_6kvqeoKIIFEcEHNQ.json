@@ -4,9 +4,9 @@
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A black-furred hound from beyond the veil of death that portends death and feeds on fear.</p>",
+    "description": "<p>Um cão de pelagem negra vindo do além do véu da morte, que prenuncia a morte e se alimenta de medo.</p>",
     "tier": 2,
-    "motivesAndTactics": "Feed, frighten, hunt",
+    "motivesAndTactics": "Alimentar-se, assustar, caçar",
     "difficulty": 15,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Black Fang",
+      "name": "Presa Negra",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "NwN1hyFaXZ0Jnzdo": {
-        "name": "Omens",
+        "name": "Presságios",
         "value": 3,
         "description": ""
       },
       "oJo2OxXkJu8CxM1x": {
-        "name": "Stealth",
+        "name": "Furtividade",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Fearmonger",
+      "name": "Semeador de Medo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC within Very Close range fails with Hope, you gain a Fear.</p>",
+        "description": "<p>Quando um personagem em alcance Muito Próximo falha com Esperança, você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "range": "self"
           }
         },
@@ -234,11 +232,11 @@
       "_key": "!actors.items!6kvqeoKIIFEcEHNQ.2bWAUEaKjtBcIaeK"
     },
     {
-      "name": "Terror-Fueled",
+      "name": "Alimentado pelo Terror",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] gains a bonus to attack and damage rolls equal to the number of Fear you have.</p>",
+        "description": "<p>@Lookup[@name] ganha um bônus nas rolagens de ataque e dano igual à quantidade de Medo que você tem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -250,7 +248,7 @@
       "img": "icons/magic/death/skull-humanoid-white-blue.webp",
       "effects": [
         {
-          "name": "Terror-Fueled",
+          "name": "Alimentado pelo Terror",
           "type": "base",
           "system": {
             "changes": [
@@ -288,7 +286,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Urco gains a bonus to attack and damage rolls equal to the number of Fear you have.</p>",
+          "description": "<p>O Urco ganha um bônus nas rolagens de ataque e dano igual à quantidade de Medo que você tem.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -311,11 +309,11 @@
       "_key": "!actors.items!6kvqeoKIIFEcEHNQ.HiRhDJRDiEhyN6zR"
     },
     {
-      "name": "Fear Eater",
+      "name": "Devorador de Medo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend any number of Fear</strong> to clear the same number of Stress. If the @Lookup[@name] has no marked Stress, you can <strong>spend any number of Fear</strong> to clear the same number of HP.</p>",
+        "description": "<p><strong>Gaste qualquer quantidade de Medo</strong> para limpar a mesma quantidade de Fadiga. Se @Lookup[@name] não tiver Fadiga marcada, você pode <strong>gastar qualquer quantidade de Medo</strong> para limpar a mesma quantidade de PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -392,7 +390,7 @@
               },
               "useDefault": false
             },
-            "name": "Heal Stress",
+            "name": "Curar Fadiga",
             "range": "self",
             "img": "icons/magic/life/heart-cross-strong-purple-orange.webp"
           },
@@ -468,7 +466,7 @@
               },
               "useDefault": false
             },
-            "name": "Heal HP",
+            "name": "Curar PV",
             "range": "self",
             "img": "icons/magic/life/cross-beam-green.webp"
           }
@@ -488,11 +486,11 @@
       "_key": "!actors.items!6kvqeoKIIFEcEHNQ.rl4x4HKG3Rv6JdrD"
     },
     {
-      "name": "Baleful Gaze",
+      "name": "Olhar Funesto",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] takes damage from an attack, you can <strong>spend a Fear</strong> to cause the attacker's damage thresholds to gain a -1 penalty until the end of the scene. This effect can stack.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano de um ataque, você pode <strong>gastar 1 de Medo</strong> para fazer os limiares de dano do atacante receberem uma penalidade de -1 até o fim da cena. Esse efeito é cumulativo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -536,7 +534,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -547,10 +545,10 @@
       "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
       "effects": [
         {
-          "name": "Baleful Gaze",
+          "name": "Olhar Funesto",
           "disabled": false,
           "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
-          "description": "<p>Your damage thresholds have a -1 penalty until the end of the scene. This effect can stack.</p>",
+          "description": "<p>Seus limiares de dano têm uma penalidade de -1 até o fim da cena. Esse efeito é cumulativo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {

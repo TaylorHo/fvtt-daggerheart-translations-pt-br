@@ -1,5 +1,5 @@
 {
-  "name": "Zombie Legion",
+  "name": "Legião de Zumbis",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -35,8 +35,8 @@
     "notes": "",
     "experiences": {},
     "tier": 4,
-    "description": "<p>A large pack of undead, still powerful despite their rotting flesh.</p>",
-    "motivesAndTactics": "Consume brain, shred fl esh, surround",
+    "description": "<p>Um grande bando de mortos-vivos, ainda poderosos apesar da carne apodrecida.</p>",
+    "motivesAndTactics": "Consumir cérebros, rasgar carne, cercar",
     "attack": {
       "damage": {
         "main": {
@@ -51,9 +51,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 2,
@@ -73,7 +71,7 @@
         },
         "resources": {}
       },
-      "name": "Undead Hands",
+      "name": "Mãos de Morto-Vivo",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -140,7 +138,7 @@
   "_id": "YhJrP7rTBiRdX5Fp",
   "sort": 1300000,
   "prototypeToken": {
-    "name": "Zombie Legion",
+    "name": "Legião de Zumbis",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,10 +231,10 @@
   },
   "items": [
     {
-      "name": "Unyielding",
+      "name": "Inflexível",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] has resistance to physical damage.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -249,7 +247,7 @@
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "effects": [
         {
-          "name": "Unyielding",
+          "name": "Inflexível",
           "type": "base",
           "system": {
             "changes": [
@@ -278,7 +276,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Legion has resistance to physical damage.</p>",
+          "description": "<p>A Legião tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -302,10 +300,10 @@
       "_key": "!actors.items!YhJrP7rTBiRdX5Fp.o1qQhASA882Fn9HN"
     },
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "resource": null,
         "actions": {
           "IACoLeO6VmnK0qkW": {
@@ -336,7 +334,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -365,10 +363,10 @@
       "_key": "!actors.items!YhJrP7rTBiRdX5Fp.fCYLZKeTn0YSpVDI"
     },
     {
-      "name": "Overwhelm",
+      "name": "Sobrepujar",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes Minor damage from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack with advantage against the attacker.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano Menor de um ataque em alcance Corpo a Corpo, você pode <strong>marcar 1 de Fadiga</strong> para fazer um ataque padrão com vantagem contra o atacante.</p>",
         "resource": null,
         "actions": {
           "TJ9DhHRuqK5X5Zx5": {
@@ -399,7 +397,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/strike-slashes-orange.webp",
             "range": "",
             "baseAction": false,
@@ -429,10 +427,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -448,7 +446,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

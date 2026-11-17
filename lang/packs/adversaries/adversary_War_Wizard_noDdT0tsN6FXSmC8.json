@@ -1,5 +1,5 @@
 {
-  "name": "War Wizard",
+  "name": "Mago de Guerra",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 6
       }
     },
-    "motivesAndTactics": "Develop new spells, seek power, shatter formations",
+    "motivesAndTactics": "Desenvolver novas magias, buscar poder, estilhaçar formações",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "OuRfGgT7o5CNerfK": {
-        "name": "Magical Knowledge",
+        "name": "Conhecimento Mágico",
         "description": "",
         "value": 2
       },
       "Vqu9ggHbSdSXM0XA": {
-        "name": "Strategize",
+        "name": "Planejar",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A battle-hardened mage trained in destructive magic.</p>",
+    "description": "<p>Um mago calejado em batalha, treinado em magia destrutiva.</p>",
     "attack": {
-      "name": "Staff",
+      "name": "Cajado",
       "range": "far",
       "img": "icons/weapons/staves/staff-hooked-banded.webp",
       "roll": {
@@ -80,9 +80,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "noDdT0tsN6FXSmC8",
   "sort": 3100000,
   "prototypeToken": {
-    "name": "War Wizard",
+    "name": "Mago de Guerra",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Battle Teleport",
+      "name": "Teletransporte de Batalha",
       "type": "feature",
       "system": {
-        "description": "<p>Before or after making a standard attack, you can <strong>mark a Stress</strong> to teleport to a location within Far range.</p>",
+        "description": "<p>Antes ou depois de fazer um ataque padrão, você pode <strong>marcar 1 de Fadiga</strong> para se teletransportar para um local em alcance Distante.</p>",
         "resource": null,
         "actions": {
           "39zC1I5DYozI47lP": {
@@ -274,7 +272,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/movement/pinwheel-turning-blue.webp",
             "range": "",
             "baseAction": false,
@@ -303,10 +301,10 @@
       "_key": "!actors.items!noDdT0tsN6FXSmC8.PUUz48dsObawcSgp"
     },
     {
-      "name": "Refresh Warding Sphere",
+      "name": "Renovar Esfera de Proteção",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to refresh the @Lookup[@name]'s \"Warding Sphere\" reaction.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para renovar a reação \"Esfera de Proteção\" de @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "FCuksmAGRC4061zm": {
@@ -337,7 +335,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
             "range": "",
             "baseAction": false,
@@ -366,10 +364,10 @@
       "_key": "!actors.items!noDdT0tsN6FXSmC8.dI2MGjC7NFAru1Gd"
     },
     {
-      "name": "Eruption",
+      "name": "Erupção",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> and choose a point within Far range. A Very Close area around that point erupts into impassable terrain. All targets within that area must make an Agility Reaction Roll (14). Targets who fail take <strong>2d10</strong> physical damage and are thrown out of the area. Targets who succeed take half damage and aren't moved.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> e escolha um ponto em alcance Distante. Uma área Muito Próxima ao redor desse ponto irrompe em terreno intransponível. Todos os alvos nessa área devem fazer um Teste de Reação de Agilidade (14). Alvos que falharem sofrem <strong>2d10</strong> de dano físico e são lançados para fora da área. Alvos que tiverem sucesso sofrem metade do dano e não são movidos.</p>",
         "resource": null,
         "actions": {
           "vnMq4NuQO6GYxWhM": {
@@ -408,9 +406,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -446,12 +442,12 @@
               "difficulty": 14,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Eruption",
+                "name": "Erupção",
                 "type": "placed",
                 "shape": "circle",
                 "size": "veryClose",
@@ -484,10 +480,10 @@
       "_key": "!actors.items!noDdT0tsN6FXSmC8.PnQ0m0FLnpht7oE4"
     },
     {
-      "name": "Arcane Artillery",
+      "name": "Artilharia Arcana",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to unleash a precise hail of magical blasts. All targets in the scene must make an Agility Reaction Roll. Targets who fail take <strong>2d12</strong> magic damage. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para desencadear uma chuva precisa de explosões mágicas. Todos os alvos na cena devem fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>2d12</strong> de dano mágico. Alvos que tiverem sucesso sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "DFHR8LtvjZjHP6BL": {
@@ -526,9 +522,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -564,7 +558,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/light/projectiles-trio-pink.webp",
             "range": "",
             "baseAction": false,
@@ -593,10 +587,10 @@
       "_key": "!actors.items!noDdT0tsN6FXSmC8.s2luvEVxJLZmOrdh"
     },
     {
-      "name": "Warding Sphere",
+      "name": "Esfera de Proteção",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, deal <strong>2d6</strong> magic damage to the attacker. This reaction can't be used again until the @Lookup[@name] refreshes it with their \"Refresh Warding Sphere\" action.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano de um ataque em alcance Próximo, cause <strong>2d6</strong> de dano mágico ao atacante. Esta reação não pode ser usada novamente até @Lookup[@name] renová-la com sua ação \"Renovar Esfera de Proteção\".</p>",
         "resource": null,
         "actions": {
           "2fHrpaZW9toi6nin": {
@@ -626,9 +620,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -644,7 +636,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
             "range": "close",
             "baseAction": false,

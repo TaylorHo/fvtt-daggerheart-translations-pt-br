@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Dragon Mother Mitera",
+  "name": "Mãe Dragão Mitera",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A gargantuan seven-headed dragon with dazzling diamond scales that shine with every color of the rainbow.</p>",
+    "description": "<p>Um dragão gigantesco de sete cabeças com deslumbrantes escamas de diamante que brilham em todas as cores do arco-íris.</p>",
     "tier": 4,
-    "motivesAndTactics": "Birth destruction, control the battlefield, fly, repel invaders, use all available options",
+    "motivesAndTactics": "Gerar destruição, controlar o campo de batalha, voar, repelir invasores, usar todas as opções disponíveis",
     "difficulty": 16,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite & Slash",
+      "name": "Mordida e Talho",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "INs46FrCqLaIoSpR": {
-        "name": "Ancient",
+        "name": "Ancestral",
         "value": 5,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Mitera can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight her.</p>",
+        "description": "<p>Mitera pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,21 +160,21 @@
       "_key": "!actors.items!FGnHhvctM9bka3Zj.l9rctm6HcPOyKGsG"
     },
     {
-      "name": "Diamond Hide",
+      "name": "Pele de Diamante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (7). When Mitera first appears, activate the countdown. Mitera gains a bonus to her Difficulty equal to the countdown die's current value. It ticks down from Mitera's \"Seven-Headed\" feature. When the countdown triggers, Mitera becomes <em>Vulnerable</em> and gains a +2 bonus to attack rolls.</p>",
+        "description": "<p>Contagem Regressiva (7). Quando Mitera aparece pela primeira vez, ative a contagem regressiva. Mitera recebe um bônus em sua Dificuldade igual ao valor atual do dado da contagem regressiva. Ela diminui pela característica \"Sete Cabeças\" de Mitera. Quando a contagem regressiva disparar, Mitera fica <em>Vulnerável</em> e recebe +2 de bônus em jogadas de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "70Ppl0IZimDLZnxI": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Diamond Hide",
+                "name": "Pele de Diamante",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/commodities/biological/shell-ribbed-grey.webp",
@@ -240,7 +238,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Apply Effect",
+            "name": "Aplicar Efeito",
             "range": "self"
           },
           "eh0mvBS3xBn5c4VG": {
@@ -248,7 +246,7 @@
             "_id": "eh0mvBS3xBn5c4VG",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the countdown triggers, Mitera becomes <em>Vulnerable</em> and gains a +2 bonus to attack rolls.</p>",
+            "description": "<p>Quando a contagem regressiva disparar, Mitera fica <em>Vulnerável</em> e recebe +2 de bônus em jogadas de ataque.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -273,7 +271,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": "self"
           }
         },
@@ -284,10 +282,10 @@
       "img": "icons/commodities/biological/shell-ribbed-grey.webp",
       "effects": [
         {
-          "name": "Diamond Hide",
+          "name": "Pele de Diamante",
           "disabled": false,
           "img": "icons/commodities/biological/shell-ribbed-grey.webp",
-          "description": "<p>Mitera gains a bonus to her Difficulty equal to the countdown die's current value.</p>",
+          "description": "<p>Mitera recebe um bônus em sua Dificuldade igual ao valor atual do dado da contagem regressiva.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -339,14 +337,12 @@
           "_key": "!actors.items.effects!FGnHhvctM9bka3Zj.CBxzYJ6yIchg3igO.UwPGruGfG3MviTld"
         },
         {
-          "name": "Weakened Hide",
+          "name": "Pele Enfraquecida",
           "disabled": false,
           "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
-          "description": "<p>When the countdown triggers, Mitera becomes <em>Vulnerable</em> and gains a +2 bonus to attack rolls.</p>",
+          "description": "<p>Quando a contagem regressiva disparar, Mitera fica <em>Vulnerável</em> e recebe +2 de bônus em jogadas de ataque.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [
               {
@@ -367,9 +363,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -410,11 +404,11 @@
       "_key": "!actors.items!FGnHhvctM9bka3Zj.CBxzYJ6yIchg3igO"
     },
     {
-      "name": "Elemental Breath",
+      "name": "Sopro Elemental",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have Mitera unleash elemental energy from one head of your choice:</p><ol><li><p><strong>Fire.</strong> Deal <strong>4d12</strong> magic damage to <strong>1d4+1</strong> targets within Close range. Targets who take damage must mark an Armor Slot or 2 additional HP.</p></li><li><p><strong>Lightning.</strong> Deal <strong>4d12</strong> magic damage to <strong>1d6</strong> targets within Far range, so long as each target beyond the first is within Close range of the previous target.</p></li><li><p><strong>Acid.</strong> Each PC in front of Mitera within Close range must make an Agility Reaction Roll. Targets who fail must mark 2 Armor Slots and 2 HP. Targets who succeed must mark an Armor Slot and a HP.</p></li><li><p><strong>Poison.</strong> A miasma of toxic swamp gas Sickens all targets within Close range of Mitera. While Sickened, a target has disadvantage on action rolls until they mark <strong>1d4</strong> Stress to clear the condition.</p></li><li><p><strong>Ice.</strong> Each target in front of Mitera within Close range takes <strong>4d8+8</strong> magic damage and is <em>Restrained</em> by ice until they break free with a successful Strength Roll. Additionally, this area freezes over and a PC must succeed on an Agility Reaction Roll to move through it.</p></li><li><p><strong>Darkness.</strong> A cloud of magical shadow fills an area within Close range. Creatures inside the cloud except for Mitera are <em>Vulnerable</em> and have disadvantage on action rolls that rely on sight. The cloud dissipates when this Elemental Breath option is removed by Mitera's \"Seven-Headed\" feature.</p></li><li><p><strong>Light.</strong> A beam of pure light energy deals 28 direct magic damage to each creature in a line within Very Far range.</p></li></ol>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer Mitera liberar energia elemental de uma cabeça à sua escolha:</p><ol><li><p><strong>Fogo.</strong> Cause <strong>4d12</strong> de dano mágico a <strong>1d4+1</strong> alvos em alcance Próximo. Alvos que sofrerem dano devem marcar um Ponto de Armadura ou 2 PV adicionais.</p></li><li><p><strong>Raio.</strong> Cause <strong>4d12</strong> de dano mágico a <strong>1d6</strong> alvos em alcance Distante, desde que cada alvo além do primeiro esteja em alcance Próximo do alvo anterior.</p></li><li><p><strong>Ácido.</strong> Cada PJ à frente de Mitera em alcance Próximo deve fazer um Teste de Reação de Agilidade. Alvos que falharem devem marcar 2 Pontos de Armadura e 2 PV. Alvos que tiverem sucesso devem marcar um Ponto de Armadura e 1 PV.</p></li><li><p><strong>Veneno.</strong> Um miasma de gás tóxico de pântano Adoece todos os alvos em alcance Próximo de Mitera. Enquanto Adoecido, um alvo tem desvantagem em testes de ação até marcar <strong>1d4</strong> de Fadiga para remover a condição.</p></li><li><p><strong>Gelo.</strong> Cada alvo à frente de Mitera em alcance Próximo sofre <strong>4d8+8</strong> de dano mágico e fica <em>Imobilizado</em> pelo gelo até se libertar com um Teste de Força bem-sucedido. Além disso, esta área congela e um PJ deve ter sucesso em um Teste de Reação de Agilidade para se mover por ela.</p></li><li><p><strong>Escuridão.</strong> Uma nuvem de sombra mágica preenche uma área em alcance Próximo. Criaturas dentro da nuvem, exceto Mitera, ficam <em>Vulneráveis</em> e têm desvantagem em testes de ação que dependam da visão. A nuvem se dissipa quando esta opção de Sopro Elemental é removida pela característica \"Sete Cabeças\" de Mitera.</p></li><li><p><strong>Luz.</strong> Um feixe de energia luminosa pura causa 28 de dano mágico direto a cada criatura em uma linha em alcance Muito Distante.</p></li></ol>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -460,7 +454,7 @@
                 "y0gUQyGD8oJE5z6B"
               ]
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "kwp7I9dNj43EU8Qx": {
@@ -484,9 +478,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -495,7 +487,7 @@
             "_id": "kwp7I9dNj43EU8Qx",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Deal <strong>4d12</strong> magic damage to <strong>[[/r 1d4+1]]</strong> targets within Close range. Targets who take damage must mark an Armor Slot or 2 additional HP.</p>",
+            "description": "<p>Cause <strong>4d12</strong> de dano mágico a <strong>[[/r 1d4+1]]</strong> alvos em alcance Próximo. Alvos que sofrerem dano devem marcar um Ponto de Armadura ou 2 PV adicionais.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -504,7 +496,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Fire",
+                "name": "Fogo",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -524,7 +516,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Fire",
+            "name": "Fogo",
             "range": "",
             "img": "icons/magic/fire/blast-jet-stream-embers-orange.webp"
           },
@@ -549,9 +541,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -560,7 +550,7 @@
             "_id": "2vMuQV24hmve5EnE",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Deal <strong>4d12</strong> magic damage to <strong>[[/r 1d6]]</strong> targets within Far range, so long as each target beyond the first is within Close range of the previous target.</p>",
+            "description": "<p>Cause <strong>4d12</strong> de dano mágico a <strong>[[/r 1d6]]</strong> alvos em alcance Distante, desde que cada alvo além do primeiro esteja em alcance Próximo do alvo anterior.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -569,7 +559,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Lightning",
+                "name": "Raio",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -589,7 +579,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lightning",
+            "name": "Raio",
             "range": "",
             "img": "icons/magic/lightning/orb-ball-blue.webp"
           },
@@ -639,7 +629,7 @@
             "_id": "ZX6UflWMmO1X12Gg",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Each PC in front of Mitera within Close range must make an Agility Reaction Roll. Targets who fail must mark 2 Armor Slots and 2 HP. Targets who succeed must mark an Armor Slot and a HP.</p>",
+            "description": "<p>Cada PJ à frente de Mitera em alcance Próximo deve fazer um Teste de Reação de Agilidade. Alvos que falharem devem marcar 2 Pontos de Armadura e 2 PV. Alvos que tiverem sucesso devem marcar um Ponto de Armadura e 1 PV.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -648,7 +638,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Acid",
+                "name": "Ácido",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -688,7 +678,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Acid",
+            "name": "Ácido",
             "range": "",
             "img": "icons/magic/acid/projectile-smoke-glowing.webp"
           },
@@ -697,7 +687,7 @@
             "_id": "D4zXLc4cj1XnyX55",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>A miasma of toxic swamp gas Sickens all targets within Close range of Mitera. While Sickened, a target has disadvantage on action rolls until they mark <strong>1d4</strong> Stress to clear the condition.</p>",
+            "description": "<p>Um miasma de gás tóxico de pântano Adoece todos os alvos em alcance Próximo de Mitera. Enquanto Adoecido, um alvo tem desvantagem em testes de ação até marcar <strong>1d4</strong> de Fadiga para remover a condição.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -706,7 +696,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Poison",
+                "name": "Veneno",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -731,7 +721,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Poison",
+            "name": "Veneno",
             "range": "",
             "img": "icons/magic/unholy/projectile-smoke-tendril-green.webp"
           },
@@ -756,9 +746,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -767,7 +755,7 @@
             "_id": "o8yK8P0sIPGX37C4",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Each target in front of Mitera within Close range takes <strong>4d8+8</strong> magic damage and is <em>Restrained</em> by ice until they break free with a successful Strength Roll. Additionally, this area freezes over and a PC must succeed on an Agility Reaction Roll to move through it.</p>",
+            "description": "<p>Cada alvo à frente de Mitera em alcance Próximo sofre <strong>4d8+8</strong> de dano mágico e fica <em>Imobilizado</em> pelo gelo até se libertar com um Teste de Força bem-sucedido. Além disso, esta área congela e um PJ deve ter sucesso em um Teste de Reação de Agilidade para se mover por ela.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -776,7 +764,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Ice",
+                "name": "Gelo",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "close",
@@ -801,7 +789,7 @@
                 "onSave": false
               }
             ],
-            "name": "Ice",
+            "name": "Gelo",
             "range": "",
             "img": "icons/magic/water/projectile-water-wave-teal.webp"
           },
@@ -810,7 +798,7 @@
             "_id": "yDGIB2KauwxaMrTl",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>A cloud of magical shadow fills an area within Close range. Creatures inside the cloud except for Mitera are <em>Vulnerable</em> and have disadvantage on action rolls that rely on sight. </p><section id=\"secret-oaEwSVwUvkCi5c6s\" class=\"secret\"><p>The cloud dissipates when this Elemental Breath option is removed by Mitera's \"Seven-Headed\" feature.</p></section>",
+            "description": "<p>Uma nuvem de sombra mágica preenche uma área em alcance Próximo. Criaturas dentro da nuvem, exceto Mitera, ficam <em>Vulneráveis</em> e têm desvantagem em testes de ação que dependam da visão. </p><section id=\"secret-oaEwSVwUvkCi5c6s\" class=\"secret\"><p>A nuvem se dissipa quando esta opção de Sopro Elemental é removida pela característica \"Sete Cabeças\" de Mitera.</p></section>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -819,7 +807,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Darkness",
+                "name": "Escuridão",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -839,7 +827,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Darkness",
+            "name": "Escuridão",
             "range": "",
             "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp"
           },
@@ -864,9 +852,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -875,7 +861,7 @@
             "_id": "y0gUQyGD8oJE5z6B",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>A beam of pure light energy deals 28 direct magic damage to each creature in a line within Very Far range.</p>",
+            "description": "<p>Um feixe de energia luminosa pura causa 28 de dano mágico direto a cada criatura em uma linha em alcance Muito Distante.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -884,7 +870,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Light",
+                "name": "Luz",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -904,7 +890,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Light",
+            "name": "Luz",
             "range": "",
             "img": "icons/magic/light/beam-rays-yellow-blue-large.webp"
           }
@@ -916,10 +902,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
       "effects": [
         {
-          "name": "Sickened",
+          "name": "Adoecido",
           "disabled": false,
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
-          "description": "<p>While Sickened, a target has disadvantage on action rolls until they mark <strong>1d4</strong> Stress to clear the condition.</p>",
+          "description": "<p>Enquanto Adoecido, um alvo tem desvantagem em testes de ação até marcar <strong>1d4</strong> de Fadiga para remover a condição.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -968,14 +954,12 @@
           "_key": "!actors.items.effects!FGnHhvctM9bka3Zj.xeNAQKBgqiaKJgNR.Yq318fYTybiEMWBN"
         },
         {
-          "name": "Iced",
+          "name": "Congelado",
           "disabled": false,
           "img": "icons/magic/water/snowflake-ice-blue.webp",
-          "description": "<p>You are <em>Restrained</em> by ice until you break free with a successful Strength Roll.</p>",
+          "description": "<p>Você fica <em>Imobilizado</em> pelo gelo até se libertar com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -1023,11 +1007,11 @@
       "_key": "!actors.items!FGnHhvctM9bka3Zj.xeNAQKBgqiaKJgNR"
     },
     {
-      "name": "Tail Swipe",
+      "name": "Golpe de Cauda",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to attack all targets within Close range. Targets this attack succeeds against take <strong>2d20+10</strong> physical damage and are knocked back to Far range. Targets who mark HP from this attack become <em>Vulnerable</em> until they clear a HP. Targets this attack failed against must mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para atacar todos os alvos em alcance Próximo. Alvos contra os quais este ataque tiver sucesso sofrem <strong>2d20+10</strong> de dano físico e são empurrados até alcance Distante. Alvos que marcarem PV deste ataque ficam <em>Vulneráveis</em> até apagarem 1 PV. Alvos contra os quais este ataque falhar devem marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -1053,9 +1037,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -1073,7 +1055,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Tail Swipe",
+                "name": "Golpe de Cauda",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -1127,7 +1109,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -1138,14 +1120,12 @@
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "effects": [
         {
-          "name": "Swiped",
+          "name": "Atingido",
           "disabled": false,
           "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you clear a HP.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até limpar 1 PV.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -1193,11 +1173,11 @@
       "_key": "!actors.items!FGnHhvctM9bka3Zj.OCDeXZ8K5EbT8ywA"
     },
     {
-      "name": "Fearsome",
+      "name": "Temível",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When Mitera makes a successful attack roll against a PC or a PC fails a roll within Far range, you gain a Fear.</p>",
+        "description": "<p>Quando Mitera faz uma jogada de ataque bem-sucedida contra um PJ ou um PJ falha em uma rolagem em alcance Distante, você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -1265,7 +1245,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "range": "self"
           }
         },
@@ -1284,11 +1264,11 @@
       "_key": "!actors.items!FGnHhvctM9bka3Zj.S5VDtif4FxRerSoD"
     },
     {
-      "name": "Seven-Headed",
+      "name": "Sete Cabeças",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When Mitera takes damage, roll a <strong>d8</strong>. Permanently remove the \"Elemental Breath\" option that corresponds to the result. On a result of 8, or if the corresponding option has already been removed, tick down the Diamond Hide countdown (see \"Diamond Hide\").</p>",
+        "description": "<p>Quando Mitera sofre dano, role um <strong>d8</strong>. Remova permanentemente a opção de \"Sopro Elemental\" correspondente ao resultado. Em um resultado 8, ou se a opção correspondente já tiver sido removida, diminua a contagem regressiva de Pele de Diamante (veja \"Pele de Diamante\").</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -1311,7 +1291,7 @@
   "_id": "FGnHhvctM9bka3Zj",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Dragon Mother Mitera",
+    "name": "Mãe Dragão Mitera",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

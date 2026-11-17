@@ -1,5 +1,5 @@
 {
-  "name": "Spy",
+  "name": "Espião",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "EhtLh4vyQvoZaL83": {
-        "name": "Espionage",
+        "name": "Espionagem",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A skilled espionage agent with a knack for being in the right place to overhear secrets.</p>",
-    "motivesAndTactics": "Cut and run, disguise appearance, eavesdrop",
+    "description": "<p>Um agente de espionagem habilidoso, com talento para estar no lugar certo para ouvir segredos.</p>",
+    "motivesAndTactics": "Fugir às pressas, disfarçar a aparência, bisbilhotar",
     "attack": {
-      "name": "Dagger",
+      "name": "Adaga",
       "roll": {
         "bonus": -2,
         "type": "attack",
@@ -73,9 +73,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "8zlynOhnVA59KpKT",
   "sort": 1100000,
   "prototypeToken": {
-    "name": "Spy",
+    "name": "Espião",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Gathering Secrets",
+      "name": "Colhendo Segredos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to describe how the @Lookup[@name] knows a secret about a PC in the scene.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para descrever como @Lookup[@name] sabe um segredo sobre um personagem na cena.</p>",
         "resource": null,
         "actions": {
           "iq5KzP5hgA4377fO": {
@@ -269,7 +267,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/perception/orb-eye-scrying.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!8zlynOhnVA59KpKT.csCWQuSqic5ckHeO"
     },
     {
-      "name": "Fly on the Wall",
+      "name": "Mosca na Parede",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC or group is discussing something sensitive, you can <strong>mark a Stress</strong> to reveal that the @Lookup[@name] is present in the scene, observing them. If the @Lookup[@name] escapes the scene to report their findings, you gain <strong>1d4</strong> Fear.</p>",
+        "description": "<p>Quando um personagem ou grupo está discutindo algo delicado, você pode <strong>marcar 1 Fadiga</strong> para revelar que @Lookup[@name] está presente na cena, observando-os. Se @Lookup[@name] escapar da cena para relatar suas descobertas, você ganha <strong>1d4</strong> de Medo.</p>",
         "resource": null,
         "actions": {
           "Ml8nt7SPNFc2iQno": {
@@ -332,7 +330,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
             "range": "",
             "baseAction": false,
@@ -346,7 +344,7 @@
             "type": "healing",
             "_id": "qCA2hTMIYGW0FhGy",
             "systemPath": "actions",
-            "description": "<p>If the @Lookup[@name] escapes the scene to report their findings, you gain <strong>1d4</strong> Fear.</p>",
+            "description": "<p>Se @Lookup[@name] escapar da cena para relatar suas descobertas, você ganha <strong>1d4</strong> de Medo.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -399,7 +397,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
             "range": "",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Frost Titan",
+  "name": "Titã de Gelo",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "bruiser",
-    "description": "<p>A blue-skinned goliath who has rimed hair and wears trophies of past battles.</p>",
+    "description": "<p>Um golias de pele azul, com cabelos cobertos de geada, que usa troféus de batalhas passadas.</p>",
     "tier": 3,
-    "motivesAndTactics": "Claim trophies, raid and pillage, test mettle",
+    "motivesAndTactics": "Reivindicar troféus, saquear e pilhar, testar a coragem",
     "difficulty": 17,
     "damageThresholds": {
       "major": 22,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Dual Axes",
+      "name": "Machados Duplos",
       "img": "icons/weapons/axes/axe-double-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "aZ8KLiWkEQoIxG0C": {
-        "name": "Cold",
+        "name": "Frio",
         "value": 3,
         "description": ""
       },
       "YvVbeS62FLSreYv0": {
-        "name": "War",
+        "name": "Guerra",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode ser colocado em destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!qdmY1ZJcnAaVvJQD.jcUKQh9HyQ3Sysn4"
     },
     {
-      "name": "War Horn",
+      "name": "Trompa de Guerra",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force each PC within Far range to succeed on a Presence Reaction Roll or mark a Stress and become <em>Vulnerable</em> until after the next attack against them.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para forçar cada PJ dentro do alcance Distante a ser bem-sucedido em um Teste de Reação de Presença ou marcar 1 Fadiga e ficar <em>Vulnerável</em> até depois do próximo ataque contra ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -213,7 +211,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "War Horn",
+                "name": "Trompa de Guerra",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -267,7 +265,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -278,14 +276,12 @@
       "img": "icons/commodities/bones/horn-drinking-white.webp",
       "effects": [
         {
-          "name": "War Horn",
+          "name": "Trompa de Guerra",
           "disabled": false,
           "img": "icons/commodities/bones/horn-drinking-white.webp",
-          "description": "<p>You are <em>Vulnerable</em> until after the next attack against them.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até depois do próximo ataque contra você.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -333,11 +329,11 @@
       "_key": "!actors.items!qdmY1ZJcnAaVvJQD.UhGyp4zqdXYhXeQj"
     },
     {
-      "name": "Bull Rush",
+      "name": "Investida Brutal",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to move up to Close range and make an attack roll against a target within Melee range. On a success, deal <strong>4d10+2</strong> physical damage and knock the target back to Close range.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo e fazer um teste de ataque contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, cause <strong>4d10+2</strong> de dano físico e empurre o alvo de volta ao alcance Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -363,9 +359,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -423,7 +417,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -442,11 +436,11 @@
       "_key": "!actors.items!qdmY1ZJcnAaVvJQD.lxMzWFQOIpidX094"
     },
     {
-      "name": "Cleaving Strike",
+      "name": "Golpe Fendente",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC marks HP from the Titan's standard attack, you can <strong>mark a Stress</strong> to force another PC within Very Close range who the attack would have succeeded against to mark the same number of HP.</p>",
+        "description": "<p>Quando um PJ marcar PV pelo ataque padrão do Titã, você pode <strong>marcar 1 Fadiga</strong> para forçar outro PJ dentro do alcance Muito Próximo contra quem o ataque teria sido bem-sucedido a marcar o mesmo número de PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -485,7 +479,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryClose"
           }
         },
@@ -504,11 +498,11 @@
       "_key": "!actors.items!qdmY1ZJcnAaVvJQD.bpPjEZDSWM7hE6mt"
     },
     {
-      "name": "Trophy Hunter",
+      "name": "Caçador de Troféus",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Titan defeats a PC, the Titan takes the PC's most valuable possession as a trophy.</p>",
+        "description": "<p>Quando o Titã derrotar um PJ, ele toma a posse mais valiosa do PJ como troféu.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -531,7 +525,7 @@
   "_id": "qdmY1ZJcnAaVvJQD",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Frost Titan",
+    "name": "Titã de Gelo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

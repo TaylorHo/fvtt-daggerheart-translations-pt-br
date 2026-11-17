@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Mechanorb",
+  "name": "Mecanorbe",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A floating clockwork sphere that has telescoping limbs and comes from a realm of machines and metal.</p>",
+    "description": "<p>Uma esfera mecânica flutuante, com membros telescópicos, vinda de um reino de máquinas e metal.</p>",
     "tier": 1,
-    "motivesAndTactics": "Coordinate, (dis)assemble, move orthogonally, speak in binary",
+    "motivesAndTactics": "Coordenar, (des)montar, mover-se ortogonalmente, falar em binário",
     "difficulty": 12,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Needle",
+      "name": "Agulha",
       "img": "icons/commodities/metal/barstock-heated-steel.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "nPX096Vgu5znHT3D": {
-        "name": "Machines",
+        "name": "Máquinas",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Hive Mind",
+      "name": "Mente Coletiva",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] gains a +1 bonus to their Difficulty for each other @Lookup[@name] within Close range.</p>",
+        "description": "<p>O @Lookup[@name] recebe um bônus de +1 em sua Dificuldade para cada outro @Lookup[@name] em alcance Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!MmK6Sn51uikou7wI.nGj2O5gEwfZWJyYi"
     },
     {
-      "name": "Adaptive Tactics",
+      "name": "Táticas Adaptativas",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Pool. When the @Lookup[@name] fails an attack roll, add a token to the @Lookup[@name] Pool. All @Lookup[@name]s in the scene gain a bonus to attack rolls equal to the number of tokens in the @Lookup[@name] Pool. Clear all tokens when any @Lookup[@name] takes Severe damage or is defeated.</p>",
+        "description": "<p>Reserva. Quando o @Lookup[@name] falha em um teste de ataque, adicione uma ficha à Reserva do @Lookup[@name]. Todos os @Lookup[@name] na cena recebem um bônus nos testes de ataque igual ao número de fichas na Reserva do @Lookup[@name]. Remova todas as fichas quando qualquer @Lookup[@name] sofrer dano Grave ou for derrotado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -189,7 +187,7 @@
   "_id": "MmK6Sn51uikou7wI",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Mechanorb",
+    "name": "Mecanorbe",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

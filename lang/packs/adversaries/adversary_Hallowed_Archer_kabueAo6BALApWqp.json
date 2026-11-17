@@ -1,5 +1,5 @@
 {
-  "name": "Hallowed Archer",
+  "name": "Arqueiro Consagrado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Focus fire, obey, reposition, volley",
+    "motivesAndTactics": "Concentrar fogo, obedecer, reposicionar-se, rajada",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,7 +36,7 @@
     "notes": "",
     "experiences": {},
     "tier": 4,
-    "description": "<p>Spirit soldiers with sanctified bows.</p>",
+    "description": "<p>Soldados espirituais com arcos santificados.</p>",
     "attack": {
       "range": "far",
       "roll": {
@@ -54,7 +54,7 @@
         },
         "useDefault": false
       },
-      "name": "Sanctified Longbow",
+      "name": "Arco Longo Santificado",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
       "damage": {
         "main": {
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "kabueAo6BALApWqp",
   "sort": 1500000,
   "prototypeToken": {
-    "name": "Hallowed Archer",
+    "name": "Arqueiro Consagrado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Punish the Guilty",
+      "name": "Punir os Culpados",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] deals double damage to targets marked Guilty by a High Seraph.</p>",
+        "description": "<p>O @Lookup[@name] causa o dobro de dano a alvos marcados como Culpados por um Alto Serafim.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -245,7 +243,7 @@
       "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
       "effects": [
         {
-          "name": "Punish the Guilty",
+          "name": "Punir os Culpados",
           "type": "base",
           "system": {
             "changes": [
@@ -274,7 +272,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Hallowed Archer deals double damage to targets marked Guilty by a High Seraph.</p>",
+          "description": "<p>O Arqueiro Consagrado causa o dobro de dano a alvos marcados como Culpados por um Alto Serafim.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -298,10 +296,10 @@
       "_key": "!actors.items!kabueAo6BALApWqp.FGJTAeL38zTVd4fA"
     },
     {
-      "name": "Divine Volley",
+      "name": "Rajada Divina",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against up to three targets.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para realizar um ataque padrão contra até três alvos.</p>",
         "resource": null,
         "actions": {
           "pQLfy0I6sZhgAoIm": {
@@ -340,9 +338,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -379,7 +375,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
             "range": "far",
             "baseAction": false,

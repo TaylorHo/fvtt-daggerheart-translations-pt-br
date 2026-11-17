@@ -1,5 +1,5 @@
 {
-  "name": "Royal Advisor",
+  "name": "Conselheiro Real",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,21 +35,21 @@
     "notes": "",
     "experiences": {
       "ivvhwc5gzTaSW3hY": {
-        "name": "Administration",
+        "name": "Administração",
         "description": "",
         "value": 3
       },
       "fqQ0uTRen2S6WNR7": {
-        "name": "Courtier",
+        "name": "Cortesão",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A high-ranking courtier with the ear of the local nobility.</p>",
-    "motivesAndTactics": "Curry favor, manufacture evidence, scheme",
+    "description": "<p>Um cortesão de alto escalão com o ouvido da nobreza local.</p>",
+    "motivesAndTactics": "Bajular, fabricar provas, tramar",
     "attack": {
-      "name": "Wand",
+      "name": "Varinha",
       "img": "icons/weapons/wands/wand-gem-violet.webp",
       "roll": {
         "bonus": -3,
@@ -80,9 +80,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "EtLJiTsilPPZvLUX",
   "sort": 1600000,
   "prototypeToken": {
-    "name": "Royal Advisor",
+    "name": "Conselheiro Real",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Devastating Retort",
+      "name": "Réplica Devastadora",
       "type": "feature",
       "system": {
-        "description": "<p>A PC who rolls less than 17 on an action roll targeting the @Lookup[@name] must mark a Stress.</p>",
+        "description": "<p>Um PJ que tira menos de 17 em um teste de ação tendo o @Lookup[@name] como alvo deve marcar um Fadiga.</p>",
         "resource": null,
         "actions": {
           "gtM7UPq6xHgJHPPp": {
@@ -288,7 +286,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Stress Damage",
+            "name": "Dano de Fadiga",
             "img": "icons/magic/control/mouth-smile-deception-purple.webp",
             "range": "",
             "baseAction": false,
@@ -317,10 +315,10 @@
       "_key": "!actors.items!EtLJiTsilPPZvLUX.XFpF0FfTdqCjbHHF"
     },
     {
-      "name": "Bend Ears",
+      "name": "Encher os Ouvidos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to influence an NPC within Melee range with whispered words. That target's opinion on one matter shifts toward the @Lookup[@name]'s preference unless it is in direct opposition to the target's motives.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para influenciar um PdM dentro do alcance Corpo a Corpo com palavras sussurradas. A opinião desse alvo sobre um assunto se inclina para a preferência do @Lookup[@name], a menos que seja diretamente oposta aos motivos do alvo.</p>",
         "resource": null,
         "actions": {
           "JNFTnARlTAKermLx": {
@@ -351,7 +349,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/social/diplomacy-handshake.webp",
             "range": "melee",
             "baseAction": false,
@@ -380,10 +378,10 @@
       "_key": "!actors.items!EtLJiTsilPPZvLUX.lG6vMc0zUbijpvCM"
     },
     {
-      "name": "Scapegoat",
+      "name": "Bode Expiatório",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to convince a crowd or notable individual that one person or group is responsible for some problem facing the target. The target becomes hostile to the scapegoat until convinced of their innocence with a successful Presence Roll (17).</p><p>[[/dr trait=presence difficulty=17]]</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para convencer uma multidão ou um indivíduo notável de que uma pessoa ou grupo é responsável por algum problema que o alvo enfrenta. O alvo se torna hostil ao bode expiatório até ser convencido de sua inocência com um Teste de Presença (17) bem-sucedido.</p><p>[[/dr trait=presence difficulty=17]]</p>",
         "resource": null,
         "actions": {
           "6oaHwUVWTmF362vI": {
@@ -414,7 +412,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/orb-hands-pink.webp",
             "range": "",
             "baseAction": false,

@@ -1,5 +1,5 @@
 {
-  "name": "Dire Wolf",
+  "name": "Lobo Terrível",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Defend territory, harry, protect pack, surround, trail",
+    "motivesAndTactics": "Defender território, assediar, proteger a matilha, cercar, perseguir",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "JB2mFGRwgG2NIob8": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A large wolf with menacing teeth, seldom encountered alone.</p>",
+    "description": "<p>Um lobo grande de dentes ameaçadores, raramente encontrado sozinho.</p>",
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "wNzeuQLfLUMvgHlQ",
   "sort": 5100000,
   "prototypeToken": {
-    "name": "Dire Wolf",
+    "name": "Lobo Terrível",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Pack tactics",
+      "name": "Táticas de Matilha",
       "type": "feature",
       "_id": "wQXEnMqrl2jo91oy",
       "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
       "system": {
-        "description": "<p>If the @Lookup[@name] makes a successful standard attack and another @Lookup[@name] is within Melee range of the target, deal <strong>1d6+5</strong> physical damage instead of their standard damage and you gain a Fear.</p>",
+        "description": "<p>Se o @Lookup[@name] faz um ataque padrão bem-sucedido e outro @Lookup[@name] está em alcance Corpo a Corpo do alvo, cause <strong>1d6+5</strong> de dano físico em vez do dano padrão e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "FFQvt3sMfuwXxIrf": {
@@ -306,7 +304,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
             "range": "",
             "baseAction": false,
@@ -333,12 +331,12 @@
       "_key": "!actors.items!wNzeuQLfLUMvgHlQ.wQXEnMqrl2jo91oy"
     },
     {
-      "name": "Hobbling Strike",
+      "name": "Golpe Incapacitante",
       "type": "feature",
       "_id": "85XrqDvLP30YOO43",
       "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, deal <strong>3d4+10</strong> direct physical damage and make them <em>Vulnerable</em> until they clear at least 1 HP.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, cause <strong>3d4+10</strong> de dano físico direto e deixe-o <em>Vulnerável</em> até apagar pelo menos 1 PV.</p>",
         "resource": null,
         "actions": {
           "Tvizq1jEfG8FyfNc": {
@@ -418,7 +416,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
             "range": "melee",
             "baseAction": false,
@@ -437,7 +435,7 @@
       },
       "effects": [
         {
-          "name": "Hobbling Strike",
+          "name": "Golpe Incapacitante",
           "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
           "transfer": false,
           "_id": "YNKHEFQ4ucGr4Rmc",
@@ -446,7 +444,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until they clear at least 1 HP.</p>"
+              "description": "<p>Até apagar pelo menos 1 PV.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -462,9 +460,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {

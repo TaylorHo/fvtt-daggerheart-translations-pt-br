@@ -1,5 +1,5 @@
 {
-  "name": "Swarm of Rats",
+  "name": "Enxame de Ratos",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Consume, obscure, swarm",
+    "motivesAndTactics": "Consumir, obscurecer, infestar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,7 +36,7 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A skittering mass of ordinary rodents moving as one like a ravenous wave.</p>",
+    "description": "<p>Uma massa agitada de roedores comuns que se move como uma só, tal qual uma onda faminta.</p>",
     "attack": {
       "damage": {
         "main": {
@@ -51,9 +51,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -73,7 +71,7 @@
         },
         "resources": {}
       },
-      "name": "Claws",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-straight-brown.webp",
       "roll": {
         "bonus": -3,
@@ -140,7 +138,7 @@
   "_id": "qNgs3AbLyJrY19nt",
   "sort": 4700000,
   "prototypeToken": {
-    "name": "Swarm of Rats",
+    "name": "Enxame de Ratos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,12 +231,12 @@
   },
   "items": [
     {
-      "name": "In Your Face",
+      "name": "Na Sua Cara",
       "type": "feature",
       "_id": "0O6ckwZE34RBnjpB",
       "img": "icons/creatures/mammals/rodent-rat-green.webp",
       "system": {
-        "description": "<p>All targets within Melee range have disadvantage on attacks against targets other than the @Lookup[@name].</p>",
+        "description": "<p>Todos os alvos em alcance Corpo a Corpo têm desvantagem em ataques contra alvos que não sejam @Lookup[@name].</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -258,10 +256,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -277,7 +275,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Lamia",
+  "name": "Lâmia",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "skulk",
-    "description": "<p>A snake-tailed humanoid monster who stalks the night to absorb the life energy of sleeping people.</p>",
+    "description": "<p>Um monstro humanoide com cauda de serpente que caça à noite para absorver a energia vital de pessoas adormecidas.</p>",
     "tier": 3,
-    "motivesAndTactics": "Attack the unaware, avoid sunlight, leech life force, put to sleep, slither through tall grass",
+    "motivesAndTactics": "Atacar os desprevenidos, evitar a luz do sol, sugar a força vital, fazer dormir, deslizar pela grama alta",
     "difficulty": 17,
     "damageThresholds": {
       "major": 18,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Curved Dagger",
+      "name": "Adaga Curva",
       "img": "icons/weapons/daggers/dagger-twin-curved-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "nYFyyeD78QCPNtmc": {
-        "name": "Snaky",
+        "name": "Serpentina",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Constriction",
+      "name": "Constrição",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] wrap their tail around a PC within Melee range and squeeze. The target must succeed on a Finesse Reaction Roll or become Constricted until the @Lookup[@name] moves or takes Major or greater damage. While Constricted, the target is <em>Restrained</em> and must mark a Stress when the @Lookup[@name] takes the spotlight.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] enrolar a cauda em um PJ em alcance Corpo a Corpo e apertar. O alvo deve ter sucesso em um Teste de Reação de Acuidade ou ficar Constrito até @Lookup[@name] se mover ou sofrer dano Maior ou superior. Enquanto estiver Constrito, o alvo fica <em>Restrito</em> e deve marcar 1 Fadiga quando @Lookup[@name] receber o destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,7 +208,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -221,14 +219,12 @@
       "img": "icons/magic/symbols/circle-ouroboros.webp",
       "effects": [
         {
-          "name": "Constricted",
+          "name": "Constrito",
           "disabled": false,
           "img": "icons/magic/symbols/circle-ouroboros.webp",
-          "description": "<p>You are Constricted until the Lamia moves or takes Major or greater damage.</p><p>While Constricted, the target is <em>Restrained</em> and must mark a Stress when the Lamia takes the spotlight.</p>",
+          "description": "<p>Você fica Constrito até a Lâmia se mover ou sofrer dano Maior ou superior.</p><p>Enquanto estiver Constrito, o alvo fica <em>Restrito</em> e deve marcar 1 Fadiga quando a Lâmia receber o destaque.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -276,11 +272,11 @@
       "_key": "!actors.items!pMZxHeu79iXFV9FR.bkNqFMvqT2qnOH9E"
     },
     {
-      "name": "Life Leech",
+      "name": "Sanguessuga de Vida",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force a <em>Vulnerable</em> or <em>Restrained</em> target within Melee range to mark <strong>1d4-1</strong> HP. The @Lookup[@name] then clears an equal number of HP.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para forçar um alvo <em>Vulnerável</em> ou <em>Restrito</em> em alcance Corpo a Corpo a marcar <strong>1d4-1</strong> PV. Então @Lookup[@name] limpa um número igual de PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -342,7 +338,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -361,11 +357,11 @@
       "_key": "!actors.items!pMZxHeu79iXFV9FR.NC3gWjQQFXqjCYrg"
     },
     {
-      "name": "Sleep Toxin",
+      "name": "Toxina do Sono",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack against a PC, you can <strong>spend a Fear</strong> to make them <em>Vulnerable</em> until they succeed on a Instinct Roll (19).</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido contra um PJ, você pode <strong>gastar 1 de Medo</strong> para torná-lo <em>Vulnerável</em> até que ele tenha sucesso em um Teste de Instinto (19).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -409,7 +405,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -420,14 +416,12 @@
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
       "effects": [
         {
-          "name": "Drowzy",
+          "name": "Sonolento",
           "disabled": false,
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
-          "description": "<p>You are <em>Vulnerable</em> until they succeed on a Instinct Roll (19).</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até ter sucesso em um Teste de Instinto (19).</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -478,7 +472,7 @@
   "_id": "pMZxHeu79iXFV9FR",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Lamia",
+    "name": "Lâmia",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

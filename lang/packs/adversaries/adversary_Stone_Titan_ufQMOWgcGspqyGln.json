@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Stone Titan",
+  "name": "Titã de Pedra",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A gray-skinned goliath who lives underground and specializes in crafting powerful items inlaid with magical runes.</p>",
+    "description": "<p>Um golias de pele cinzenta que vive no subsolo e se especializa em fabricar itens poderosos cravejados de runas mágicas.</p>",
     "tier": 2,
-    "motivesAndTactics": "Blend into the rocks, craft and contemplate, pursue prophecy and solitude",
+    "motivesAndTactics": "Misturar-se às rochas, fabricar e contemplar, perseguir a profecia e a solidão",
     "difficulty": 17,
     "damageThresholds": {
       "major": 17,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Stone Hammer",
+      "name": "Martelo de Pedra",
       "img": "icons/weapons/hammers/hammer-double-stone-worn.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "G3BTf5ubXiMnm83f": {
-        "name": "Crafting",
+        "name": "Fabricação",
         "value": 3,
         "description": ""
       },
       "qm2LRWdET80XEK7Q": {
-        "name": "Runes",
+        "name": "Runas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!ufQMOWgcGspqyGln.lei1y42EyJOVlb3Z"
     },
     {
-      "name": "Skillful Strike",
+      "name": "Golpe Habilidoso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Before the Titan makes an attack, you can <strong>mark a Stress</strong> and roll a <strong>d6</strong>. On a result of 3 or higher, the target's Evasion is halved against this attack.</p>",
+        "description": "<p>Antes de o Titã fazer um ataque, você pode <strong>marcar 1 Fadiga</strong> e rolar um <strong>d6</strong>. Com resultado 3 ou mais, a Evasão do alvo é reduzida pela metade contra esse ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -239,7 +237,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -250,10 +248,10 @@
       "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
       "effects": [
         {
-          "name": "Outskilled",
+          "name": "Superado em Habilidade",
           "disabled": false,
           "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
-          "description": "<p>Your Evasion is halved against this attack.</p>",
+          "description": "<p>Sua Evasão é reduzida pela metade contra esse ataque.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -311,11 +309,11 @@
       "_key": "!actors.items!ufQMOWgcGspqyGln.6Rcg7M3ntTPSqzjG"
     },
     {
-      "name": "Sunlight Sickness",
+      "name": "Enjoo da Luz do Sol",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Titan first appears above ground, roll a <strong>[[/r d4]]</strong>. Mark a number of Stress equal to the result. The Titan gains a bonus to their attack and damage rolls equal to the number of Stress marked.</p>",
+        "description": "<p>Quando o Titã aparece pela primeira vez acima do solo, role um <strong>[[/r d4]]</strong>. Marque uma quantidade de Fadiga igual ao resultado. O Titã ganha um bônus em suas rolagens de ataque e dano igual à quantidade de Fadiga marcada.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -359,7 +357,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "self"
           }
         },
@@ -370,10 +368,10 @@
       "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
       "effects": [
         {
-          "name": "Sunlight Sickness",
+          "name": "Enjoo da Luz do Sol",
           "disabled": false,
           "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
-          "description": "<p>The Titan gains a bonus to their attack and damage rolls equal to the number of Stress marked.</p>",
+          "description": "<p>O Titã ganha um bônus em suas rolagens de ataque e dano igual à quantidade de Fadiga marcada.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -406,9 +404,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -449,11 +445,11 @@
       "_key": "!actors.items!ufQMOWgcGspqyGln.Xoddbd1VoPNcLgE5"
     },
     {
-      "name": "Hammer Smash",
+      "name": "Esmagar com Martelo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>When a PC marks HP from the Titan's standard attack, you can <strong>spend a Fear</strong> to force the target to mark an Armor Slot without gaining its benefits (they can still use armor to reduce the damage).</p>",
+        "description": "<p>Quando um personagem marca PV por causa do ataque padrão do Titã, você pode <strong>gastar 1 de Medo</strong> para forçar o alvo a marcar um Espaço de Armadura sem obter seus benefícios (ele ainda pode usar a armadura para reduzir o dano).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -515,7 +511,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -537,7 +533,7 @@
   "_id": "ufQMOWgcGspqyGln",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Stone Titan",
+    "name": "Titã de Pedra",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

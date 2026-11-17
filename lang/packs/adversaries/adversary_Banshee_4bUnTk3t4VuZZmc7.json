@@ -4,9 +4,9 @@
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "skulk",
-    "description": "<p>A corrupted fey spirit that haunts the night in the form of a willowy specter wearing a luminous gossamer gown.</p>",
+    "description": "<p>Um espírito feérico corrompido que assombra a noite na forma de um espectro esguio vestindo um vestido de gaze luminoso.</p>",
     "tier": 2,
-    "motivesAndTactics": "Ambush from inside solid objects, frighten to death, mourn life and beauty lost, scream balefully",
+    "motivesAndTactics": "Emboscar de dentro de objetos sólidos, assustar até a morte, lamentar a vida e a beleza perdidas, gritar com pesar",
     "difficulty": 14,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fingernails",
+      "name": "Unhas",
       "img": "icons/commodities/biological/hand-gnarled-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "dNJ8JCNSbmFcI3QV": {
-        "name": "Vain",
+        "name": "Vaidosa",
         "value": 3,
         "description": ""
       },
       "Skmj1oX5JynfXyDq": {
-        "name": "Wrathful",
+        "name": "Furiosa",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Specter",
+      "name": "Espectro",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico. <strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -157,7 +155,7 @@
             "_id": "jE4mvZJSlHTfFzll",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -186,7 +184,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -235,7 +233,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Resistance to physical damage.</p>",
+          "description": "<p>Resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -258,11 +256,11 @@
       "_key": "!actors.items!4bUnTk3t4VuZZmc7.4fRTRNsvtEP7ifYR"
     },
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Próximo perdem 1 de Esperança, e você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -304,7 +302,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -343,11 +341,11 @@
       "_key": "!actors.items!4bUnTk3t4VuZZmc7.dZ1bV7M6RckcT8Tr"
     },
     {
-      "name": "Scare Tactic",
+      "name": "Tática de Susto",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Up to three times per scene, <strong>spend a Fear</strong> to have the @Lookup[@name] teleport up to Very Far range and scare a PC within Melee range. The PC marks <strong>1d4</strong> Stress. If this causes them to mark HP, they also lose a Hope.</p>",
+        "description": "<p>Até três vezes por cena, <strong>gaste 1 de Medo</strong> para fazer @Lookup[@name] se teletransportar até o alcance Muito Distante e assustar um PJ em alcance Corpo a Corpo. O PJ marca <strong>1d4</strong> de Fadiga. Se isso o fizer marcar PV, ele também perde 1 de Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -419,11 +417,11 @@
       "_key": "!actors.items!4bUnTk3t4VuZZmc7.eQiILqNE3mL82W3Z"
     },
     {
-      "name": "Wail of Despair",
+      "name": "Lamento do Desespero",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] unleash a mournful scream of pain and anguish. Each PC within Close range must make a Presence Reaction Roll. Targets who succeed take <strong>1d12+1</strong> magic damage. Targets who fail take double damage and are knocked back to Close range.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] soltar um grito fúnebre de dor e angústia. Cada PJ em alcance Próximo deve fazer um Teste de Reação de Presença. Alvos que tiverem sucesso sofrem <strong>1d12+1</strong> de dano mágico. Alvos que falharem sofrem o dobro do dano e são empurrados de volta para o alcance Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -449,9 +447,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -469,7 +465,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Wail of Despair",
+                "name": "Lamento do Desespero",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -518,7 +514,7 @@
               "difficulty": null,
               "damageMod": "doubleOnFail"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },

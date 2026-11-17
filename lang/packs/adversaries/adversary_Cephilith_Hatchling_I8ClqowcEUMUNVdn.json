@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cephilith Hatchling",
+  "name": "Larva de Cephilith",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "minion",
-    "description": "<p>A squidlike parasite that latches onto their prey's skull, bathing the victim's brain in extradimensional neurotoxins.</p>",
+    "description": "<p>Um parasita semelhante a uma lula que se prende ao crânio da presa, banhando o cérebro da vítima em neurotoxinas extradimensionais.</p>",
     "tier": 4,
-    "motivesAndTactics": "Climb, feed, hatch, numb, scuttle",
+    "motivesAndTactics": "Escalar, alimentar-se, eclodir, entorpecer, esgueirar-se",
     "difficulty": 18,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Barbed Suckers",
+      "name": "Ventosas Farpadas",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "4nHrkhwwC5d3jOzY": {
-        "name": "Psychic",
+        "name": "Psíquico",
         "value": 2,
         "description": ""
       }
@@ -142,7 +140,7 @@
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Hatchling is defeated when they take any damage. For every 12 damage a PC deals to the Hatchling, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>A Larva é derrotada ao sofrer qualquer dano. A cada 12 de dano que um PJ causar à Larva, o PJ derrota um Minion adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!I8ClqowcEUMUNVdn.is4t4iHrOBy2tSuD"
     },
     {
-      "name": "Comatize",
+      "name": "Comatizar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Hatchling latch onto the head of a PC within Melee range. The PC must mark a Stress as the Hatchling injects the PC's brain with psycho-chemicals, and they must mark an additional Stress each time any PC fails a roll with Fear. The PC can remove the Hatchling by spending a number of Hope equal to the number of Stress they have marked. If a PC marks their last Stress while the Hatchling is latched on, the PC must make a death move.</p><section id=\"secret-HARNmm4yQbzlxbdw\" class=\"secret\"><p>If the PC dies, you can <strong>spend a Fear</strong> to resurrect them as a Cephilith Novitiate.</p></section>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer a Larva se prender à cabeça de um PJ em alcance Corpo a Corpo. O PJ deve marcar 1 Fadiga enquanto a Larva injeta psicoquímicos em seu cérebro, e deve marcar 1 Fadiga adicional cada vez que qualquer PJ falhar em um teste com Medo. O PJ pode remover a Larva gastando uma quantidade de Esperança igual ao número de Fadiga que tiver marcada. Se um PJ marcar sua última Fadiga enquanto a Larva estiver presa, o PJ deve fazer um movimento mortal.</p><section id=\"secret-HARNmm4yQbzlxbdw\" class=\"secret\"><p>Se o PJ morrer, você pode <strong>gastar um Medo</strong> para ressuscitá-lo como um Noviço de Cephilith.</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -233,7 +231,7 @@
                 "onSave": false
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -244,10 +242,10 @@
       "img": "icons/creatures/invertebrates/leech-attack-green.webp",
       "effects": [
         {
-          "name": "Embedded Hatchling",
+          "name": "Larva Incrustada",
           "disabled": false,
           "img": "icons/creatures/invertebrates/leech-attack-green.webp",
-          "description": "<p>You must mark an additional Stress each time any PC fails a roll with Fear.</p><p>You can remove the Hatchling by spending a number of Hope equal to the number of Stress you have marked. If you mark your last Stress while the Hatchling is latched on, you must make a death move.</p>",
+          "description": "<p>Você deve marcar 1 Fadiga adicional cada vez que qualquer PJ falhar em um teste com Medo.</p><p>Você pode remover a Larva gastando uma quantidade de Esperança igual ao número de Fadiga que tiver marcada. Se você marcar sua última Fadiga enquanto a Larva estiver presa, deve fazer um movimento mortal.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -297,11 +295,11 @@
       "_key": "!actors.items!I8ClqowcEUMUNVdn.el7eTepwDBzJVJ2z"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 9 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os @Lookup[@name]s em alcance Próximo dele. Esses Minions se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 9 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -327,9 +325,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -387,7 +383,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -409,7 +405,7 @@
   "_id": "I8ClqowcEUMUNVdn",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cephilith Hatchling",
+    "name": "Larva de Cephilith",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

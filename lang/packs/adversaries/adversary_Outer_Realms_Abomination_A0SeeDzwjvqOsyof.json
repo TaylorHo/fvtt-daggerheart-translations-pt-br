@@ -1,5 +1,5 @@
 {
-  "name": "Outer Realms Abomination",
+  "name": "Abominação dos Reinos Exteriores",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -35,10 +35,10 @@
     "notes": "",
     "experiences": {},
     "tier": 4,
-    "description": "<p>A chaotic mockery of life, constantly in flux.</p>",
-    "motivesAndTactics": "Demolish, devour, undermine",
+    "description": "<p>Uma imitação caótica da vida, em constante mutação.</p>",
+    "motivesAndTactics": "Demolir, devorar, minar",
     "attack": {
-      "name": "Massive Pseudopod",
+      "name": "Pseudópode Colossal",
       "range": "veryClose",
       "roll": {
         "bonus": "2d4",
@@ -68,9 +68,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "A0SeeDzwjvqOsyof",
   "sort": 700000,
   "prototypeToken": {
-    "name": "Outer Realms Abomination",
+    "name": "Abominação dos Reinos Exteriores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Chaotic Form",
+      "name": "Forma Caótica",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] attacks, roll <strong>2d4</strong> and use the result as their attack modifier.</p>",
+        "description": "<p>Quando o @Lookup[@name] ataca, role <strong>2d4</strong> e use o resultado como seu modificador de ataque.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!A0SeeDzwjvqOsyof.yGeHxe8Loe21QSgH"
     },
     {
-      "name": "Disorienting Presence",
+      "name": "Presença Desorientadora",
       "type": "feature",
       "system": {
-        "description": "<p>When a target takes damage from the @Lookup[@name], they must make an Instinct Reaction Roll. On a failure, they gain disadvantage on their next action roll and you gain a Fear.</p>",
+        "description": "<p>Quando um alvo sofre dano do @Lookup[@name], ele deve fazer um Teste de Reação de Instinto. Em caso de falha, ele recebe desvantagem em sua próxima rolagem de ação e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "4diIu0AzPjitQ94k": {
@@ -307,7 +305,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/perception/eye-slit-pink.webp",
             "range": "",
             "baseAction": false,
@@ -328,7 +326,7 @@
       "img": "icons/magic/perception/eye-slit-pink.webp",
       "effects": [
         {
-          "name": "Disorienting Presence",
+          "name": "Presença Desorientadora",
           "img": "icons/magic/perception/eye-slit-pink.webp",
           "transfer": false,
           "_id": "rpkjVdlJYI5dB99B",
@@ -358,7 +356,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Disadvantage on your next action roll.</p>",
+          "description": "<p>Desvantagem na sua próxima rolagem de ação.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -381,10 +379,10 @@
       "_key": "!actors.items!A0SeeDzwjvqOsyof.CoWjh12FkhDGYIie"
     },
     {
-      "name": "Reality Quake",
+      "name": "Tremor da Realidade",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to rattle the edges of reality within Far range of the @Lookup[@name]. All targets within that area must succeed on a Knowledge Reaction Roll or become Unstuck from reality until the end of the scene. When an Unstuck target spends Hope or marks Armor Slots, HP, or Stress, they must double the amount spent or marked.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para abalar as bordas da realidade em alcance Distante do @Lookup[@name]. Todos os alvos nessa área devem ter sucesso em um Teste de Reação de Conhecimento ou ficam Desprendidos da realidade até o fim da cena. Quando um alvo Desprendido gasta Esperança ou marca Espaços de Armadura, PV ou Fadiga, ele deve dobrar a quantidade gasta ou marcada.</p>",
         "resource": null,
         "actions": {
           "7apNSLz8m7sxyLhU": {
@@ -435,12 +433,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
             "range": "",
             "areas": [
               {
-                "name": "Reality Quake",
+                "name": "Tremor da Realidade",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -465,7 +463,7 @@
       "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
       "effects": [
         {
-          "name": "Unstuck From Reality",
+          "name": "Desprendido da Realidade",
           "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
           "transfer": false,
           "_id": "edEZER9ImWicMwRb",
@@ -488,7 +486,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Unstuck from reality until the end of the scene. When you spend Hope or mark Armor Slots, HP, or Stress, you must double the amount spent or marked.</p>",
+          "description": "<p>Desprendido da realidade até o fim da cena. Quando você gasta Esperança ou marca Espaços de Armadura, PV ou Fadiga, deve dobrar a quantidade gasta ou marcada.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -518,10 +516,10 @@
       "_key": "!actors.items!A0SeeDzwjvqOsyof.K3MQO1I42nmfM2F2"
     },
     {
-      "name": "Unreal Form",
+      "name": "Forma Irreal",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage, reduce it by <strong>1d20</strong>. If the @Lookup[@name] marks 1 or fewer Hit Points from a successful attack against them, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano, reduza-o em <strong>1d20</strong>. Se o @Lookup[@name] marca 1 ou menos Pontos de Vida de um ataque bem-sucedido contra ele, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "ohpbyDEgSTVJ7qaF": {
@@ -567,7 +565,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d20",
+            "name": "Role d20",
             "img": "icons/magic/unholy/orb-contained-pink.webp",
             "range": "",
             "baseAction": false,

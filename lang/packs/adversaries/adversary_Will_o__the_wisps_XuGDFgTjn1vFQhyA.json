@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Will-o'-the-wisps",
+  "name": "Fogos-fátuos",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "horde",
-    "description": "<p>Lazily floating orbs of color-shifting werelight.</p>",
+    "description": "<p>Orbes de luz furta-cor que flutuam preguiçosamente.</p>",
     "tier": 1,
-    "motivesAndTactics": "Dazzle and distract, disorient, lead astray",
+    "motivesAndTactics": "Deslumbrar e distrair, desorientar, desviar do caminho",
     "difficulty": 9,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Flash",
+      "name": "Clarão",
       "img": "icons/magic/light/explosion-star-glow-orange.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "DUso8T4bsZepzmJV": {
-        "name": "Darkness",
+        "name": "Escuridão",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Kaleidoscopic",
+      "name": "Caleidoscópico",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] pulse and dance in hypnotic, color-changing patterns that entrance any creature who looks upon them. All targets within Very Close range of the @Lookup[@name] are <em>Vulnerable</em>.</p>",
+        "description": "<p>@Lookup[@name] pulsam e dançam em padrões hipnóticos que mudam de cor, enfeitiçando qualquer criatura que os contemple. Todos os alvos em alcance Muito Próximo de @Lookup[@name] ficam <em>Vulneráveis</em>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -165,14 +163,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Kaleidoscopic",
+                "name": "Caleidoscópico",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": [
-                  "m85gM6jedURrqbFJ"
-                ]
+                "effects": ["m85gM6jedURrqbFJ"]
               }
             ],
             "cost": [],
@@ -187,7 +183,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Activate",
+            "name": "Ativar",
             "range": ""
           }
         },
@@ -198,14 +194,12 @@
       "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
       "effects": [
         {
-          "name": "Entranced",
+          "name": "Enfeitiçado",
           "disabled": true,
           "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -214,9 +208,7 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [
-              1
-            ],
+            "targetDispositions": [1],
             "conditionals": []
           },
           "_id": "m85gM6jedURrqbFJ",
@@ -255,11 +247,11 @@
       "_key": "!actors.items!XuGDFgTjn1vFQhyA.lKtZDU4j2FDWtF38"
     },
     {
-      "name": "Fascinating",
+      "name": "Fascinante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] trace looping light trails through the air, leaving afterimages that beg to be deciphered. Each PC within Far range must succeed on an Instinct Reaction Roll (13) or mark a Stress and move up to Close range toward the @Lookup[@name].</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] traçarem rastros de luz em espiral pelo ar, deixando imagens residuais que imploram para ser decifradas. Cada PJ em alcance Distante deve ter sucesso em um Teste de Reação de Instinto (13) ou marcar 1 de Fadiga e se mover até alcance Próximo em direção a @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -301,7 +293,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Fascinating",
+                "name": "Fascinante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -350,7 +342,7 @@
               "difficulty": 13,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -370,10 +362,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -389,7 +381,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -458,7 +450,7 @@
   "_id": "XuGDFgTjn1vFQhyA",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Will-o'-the-wisps",
+    "name": "Fogos-fátuos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

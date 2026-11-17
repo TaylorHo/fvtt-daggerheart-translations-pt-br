@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Manticore",
+  "name": "Mantícora",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A legendary beast that has a human's face, lion's body, scorpion's tail, and dragon's wings.</p>",
+    "description": "<p>Uma besta lendária com rosto humano, corpo de leão, cauda de escorpião e asas de dragão.</p>",
     "tier": 3,
-    "motivesAndTactics": "Bite, claw, pounce, riddle, swipe, swoop, trick",
+    "motivesAndTactics": "Morder, arranhar, saltar sobre a presa, propor enigmas, golpear, mergulhar em rasante, enganar",
     "difficulty": 17,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Teeth & Claws",
+      "name": "Dentes e Garras",
       "img": "icons/creatures/claws/claw-straight-brown.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "jBTdcSCpRQQuBuIQ": {
-        "name": "Overgrowth",
+        "name": "Crescimento Excessivo",
         "value": 3,
         "description": ""
       },
       "wT9Gp7EQ92Ola5E8": {
-        "name": "Riddles",
+        "name": "Enigmas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!OoxQXYk6UDb5MNhx.qsUUBZt6od9imXhv"
     },
     {
-      "name": "Riddle Me This",
+      "name": "Decifra-me",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] is obsessed with puzzles and can be distracted by brain teasers, word games, or other semi-intellectual diversions.</p>",
+        "description": "<p>@Lookup[@name] é obcecado por quebra-cabeças e pode ser distraído por charadas, jogos de palavras ou outros passatempos semi-intelectuais.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,11 +189,11 @@
       "_key": "!actors.items!OoxQXYk6UDb5MNhx.ENHHj25Jmzwl8oKn"
     },
     {
-      "name": "Winged",
+      "name": "Alado",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While airborne, the @Lookup[@name] gains a +2 bonus to their Difficulty and attack rolls.</p>",
+        "description": "<p>Enquanto estiver no ar, @Lookup[@name] ganha +2 de bônus em sua Dificuldade e em rolagens de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -207,7 +205,7 @@
       "img": "icons/creatures/birds/raptor-hawk-flying.webp",
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "system": {
             "changes": [
@@ -236,9 +234,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -260,7 +256,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While airborne, the Manticore gains a +2 bonus to their Difficulty and attack rolls.</p>",
+          "description": "<p>Enquanto estiver no ar, a Mantícora ganha +2 de bônus em sua Dificuldade e em rolagens de ataque.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -283,11 +279,11 @@
       "_key": "!actors.items!OoxQXYk6UDb5MNhx.zqDrfCZDk8qNPBSn"
     },
     {
-      "name": "Pouncing Attack",
+      "name": "Ataque de Salto",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] pounce into Melee range of a target within Far range and make an attack against them. On a success, deal <strong>3d20+6</strong> physical damage, and the target becomes Shaky until they <strong>spend a Hope</strong>. While Shaky, the target makes attack rolls with disadvantage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] saltar para alcance Corpo a Corpo de um alvo em alcance Distante e fazer um ataque contra ele. Em um sucesso, cause <strong>3d20+6</strong> de dano físico, e o alvo fica Trêmulo até <strong>gastar 1 de Esperança</strong>. Enquanto estiver Trêmulo, o alvo faz rolagens de ataque com desvantagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -313,9 +309,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -378,7 +372,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -389,10 +383,10 @@
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [
         {
-          "name": "Shaky",
+          "name": "Trêmulo",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-white.webp",
-          "description": "<p>You are Shaky until you spend a Hope. While Shaky, you make attack rolls with disadvantage.</p>",
+          "description": "<p>Você fica Trêmulo até gastar 1 de Esperança. Enquanto estiver Trêmulo, você faz rolagens de ataque com desvantagem.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -450,11 +444,11 @@
       "_key": "!actors.items!OoxQXYk6UDb5MNhx.DtEHBkdcv6z3q7x9"
     },
     {
-      "name": "Paralyzing Tail Spike",
+      "name": "Espinho Paralisante da Cauda",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack roll against a target within Close range. On a success, the target takes <strong>3d8</strong> physical damage and becomes <em>Restrained</em> until they overcome the toxin with a successful Strength Roll.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer uma rolagem de ataque contra um alvo em alcance Próximo. Em um sucesso, o alvo sofre <strong>3d8</strong> de dano físico e fica <em>Restrito</em> até superar a toxina com um Teste de Força bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -480,9 +474,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -545,7 +537,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -556,14 +548,12 @@
       "img": "icons/commodities/biological/stinger-insect-grey.webp",
       "effects": [
         {
-          "name": "Paralyzed",
+          "name": "Paralisado",
           "disabled": false,
           "img": "icons/commodities/biological/stinger-insect-grey.webp",
-          "description": "<p>You are <em>Restrained</em> until you overcome the toxin with a successful Strength Roll.</p>",
+          "description": "<p>Você fica <em>Restrito</em> até superar a toxina com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -611,11 +601,11 @@
       "_key": "!actors.items!OoxQXYk6UDb5MNhx.JkAUCfodIaav6mp2"
     },
     {
-      "name": "Locking Jaws",
+      "name": "Mandíbulas Travadas",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack against a target within Melee range, you can <strong>mark a Stress</strong> to lock their jaws onto the target, making the target <em>Restrained</em> and <em>Vulnerable</em> until they escape with a successful Strength Roll (19).</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão contra um alvo em alcance Corpo a Corpo, você pode <strong>marcar 1 Fadiga</strong> para travar suas mandíbulas no alvo, tornando-o <em>Restrito</em> e <em>Vulnerável</em> até que escape com um Teste de Força bem-sucedido (19).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -659,7 +649,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -670,15 +660,12 @@
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [
         {
-          "name": "Trapped",
+          "name": "Preso",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
-          "description": "<p>You are <em>Restrained</em> and <em>Vulnerable</em> until you escape with a successful Strength Roll (19).</p>",
+          "description": "<p>Você fica <em>Restrito</em> e <em>Vulnerável</em> até escapar com um Teste de Força bem-sucedido (19).</p>",
           "transfer": true,
-          "statuses": [
-            "restrained",
-            "vulnerable"
-          ],
+          "statuses": ["restrained", "vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -729,7 +716,7 @@
   "_id": "OoxQXYk6UDb5MNhx",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Manticore",
+    "name": "Mantícora",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

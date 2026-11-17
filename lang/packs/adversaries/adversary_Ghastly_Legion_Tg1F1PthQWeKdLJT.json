@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Ghastly Legion",
+  "name": "Legião Espectral",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "horde",
-    "description": "<p>A teeming army of ghosts roused from dreamless slumber to fulfill their ancient oath.</p>",
+    "description": "<p>Um exército fervilhante de fantasmas despertados de um sono sem sonhos para cumprir seu antigo juramento.</p>",
     "tier": 4,
-    "motivesAndTactics": "Overwhelm, serve, swarm",
+    "motivesAndTactics": "Subjugar, servir, enxamear",
     "difficulty": 17,
     "damageThresholds": {
       "major": 25,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spectral Armaments",
+      "name": "Armamentos Espectrais",
       "img": "icons/weapons/swords/sword-flanged-lightning.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "Q2ZqTOuWPGloNhsH": {
-        "name": "Tactics",
+        "name": "Táticas",
         "value": 2,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Necroplasmic",
+      "name": "Necroplásmico",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Legion is immune to physical damage and takes double magic damage.</p>",
+        "description": "<p>A Legião é imune a dano físico e sofre dano mágico dobrado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -158,7 +156,7 @@
       "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
       "effects": [
         {
-          "name": "Necroplasmic",
+          "name": "Necroplásmico",
           "type": "base",
           "system": {
             "changes": [
@@ -203,7 +201,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Legion is immune to physical damage and takes double magic damage.</p>",
+          "description": "<p>A Legião é imune a dano físico e sofre dano mágico dobrado.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -226,11 +224,11 @@
       "_key": "!actors.items!Tg1F1PthQWeKdLJT.3zPOZ0JIFZ4kplbz"
     },
     {
-      "name": "Final Act",
+      "name": "Ato Final",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Legion is defeated, it makes a standard attack against all targets within Close range before being dispelled.</p>",
+        "description": "<p>Quando a Legião for derrotada, ela faz um ataque padrão contra todos os alvos dentro do alcance Próximo antes de se dissipar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -256,9 +254,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -276,7 +272,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Final Act",
+                "name": "Ato Final",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -336,10 +332,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -355,7 +351,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -424,7 +420,7 @@
   "_id": "Tg1F1PthQWeKdLJT",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Ghastly Legion",
+    "name": "Legião Espectral",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

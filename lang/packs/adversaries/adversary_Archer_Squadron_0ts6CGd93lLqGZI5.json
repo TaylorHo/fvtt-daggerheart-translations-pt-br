@@ -1,5 +1,5 @@
 {
-  "name": "Archer Squadron",
+  "name": "Esquadrão de Arqueiros",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Stick together, survive, volley fire",
+    "motivesAndTactics": "Manter-se unidos, sobreviver, disparar em saraivada",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,7 +36,7 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A group of trained archers bearing massive bows.</p>",
+    "description": "<p>Um grupo de arqueiros treinados portando arcos enormes.</p>",
     "attack": {
       "damage": {
         "main": {
@@ -51,9 +51,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -73,7 +71,7 @@
         },
         "resources": {}
       },
-      "name": "Longbow",
+      "name": "Arco Longo",
       "img": "icons/weapons/bows/longbow-recurve-leather-brown.webp",
       "range": "far",
       "roll": {
@@ -140,7 +138,7 @@
   "_id": "0ts6CGd93lLqGZI5",
   "sort": 200000,
   "prototypeToken": {
-    "name": "Archer Squadron",
+    "name": "Esquadrão de Arqueiros",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,10 +231,10 @@
   },
   "items": [
     {
-      "name": "Focused Volley",
+      "name": "Saraivada Focada",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to target a point within Far range. Make an attack with advantage against all targets within Close range of that point. Targets the @Lookup[@name] succeeds against take <strong>1d10+4</strong> physical damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para mirar em um ponto em alcance Distante. Faça um ataque com vantagem contra todos os alvos em alcance Próximo desse ponto. Alvos contra os quais @Lookup[@name] tiver sucesso sofrem <strong>1d10+4</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "uG7Hl2DqaT69aNs1": {
@@ -312,12 +310,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/ranged/arrows-flying-triple-brown.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Focused Volley",
+                "name": "Saraivada Focada",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -350,10 +348,10 @@
       "_key": "!actors.items!0ts6CGd93lLqGZI5.Wuf5y9tJ88BwzLv2"
     },
     {
-      "name": "Supressing Fire",
+      "name": "Fogo de Supressão",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to target a point within Far range. Until the next roll with Fear, a creature who moves within Close range of that point must make an Agility Reaction Roll. On a failure, they take <strong>2d6+3</strong> physical damage. On a success, they take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para mirar em um ponto em alcance Distante. Até a próxima rolagem com Medo, uma criatura que se mover para alcance Próximo desse ponto deve fazer um Teste de Reação de Agilidade. Em caso de falha, ela sofre <strong>2d6+3</strong> de dano físico. Em caso de sucesso, sofre metade do dano.</p>",
         "resource": null,
         "actions": {
           "mH6mmJIMM1fwzePt": {
@@ -420,12 +418,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Agility Roll",
+            "name": "Teste de Agilidade",
             "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
             "range": "",
             "areas": [
               {
-                "name": "Supressing Fire",
+                "name": "Fogo de Supressão",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -459,10 +457,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -478,7 +476,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "showIcon": 2,
           "system": {

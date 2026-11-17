@@ -1,5 +1,5 @@
 {
-  "name": "Minor Chaos Elemental",
+  "name": "Elemental do Caos Menor",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Confound, destabilize, transmogrify",
+    "motivesAndTactics": "Confundir, desestabilizar, transmogrificar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A coruscating mass of uncontrollable magic.</p>",
+    "description": "<p>Uma massa cintilante de magia incontrolável.</p>",
     "attack": {
-      "name": "Warp Blast",
+      "name": "Explosão Distorcida",
       "img": "icons/magic/light/beam-rays-magenta.webp",
       "roll": {
         "bonus": 3,
@@ -68,9 +68,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "sRn4bqerfARvhgSV",
   "sort": 4800000,
   "prototypeToken": {
-    "name": "Minor Chaos Elemental",
+    "name": "Elemental do Caos Menor",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Arcane Form",
+      "name": "Forma Arcana",
       "type": "feature",
       "_id": "4Rw5KC5klRseiLvn",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] is resistant to magic damage.</p>",
+        "description": "<p>O @Lookup[@name] é resistente a dano mágico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -245,7 +243,7 @@
       },
       "effects": [
         {
-          "name": "Arcane Form",
+          "name": "Forma Arcana",
           "type": "base",
           "_id": "vwc93gtzFoFZj4XT",
           "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue.webp",
@@ -274,7 +272,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Elemental is resistant to magic damage.</p>",
+          "description": "<p>O Elemental tem resistência a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -298,12 +296,12 @@
       "_key": "!actors.items!sRn4bqerfARvhgSV.4Rw5KC5klRseiLvn"
     },
     {
-      "name": "Sickening Flux",
+      "name": "Fluxo Nauseante",
       "type": "feature",
       "_id": "oAxhAawgcK7DAdpa",
       "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
       "system": {
-        "description": "<p><strong>Mark a HP</strong> to force all targets within Close range to mark a Stress and become <em>Vulnerable</em> until their next rest or they clear a HP.</p>",
+        "description": "<p><strong>Marque 1 PV</strong> para forçar todos os alvos em alcance Próximo a marcar 1 Fadiga e ficar <em>Vulneráveis</em> até o próximo descanso ou até limparem 1 PV.</p>",
         "resource": null,
         "actions": {
           "g4CVwjDeJgTJ2oCw": {
@@ -362,12 +360,12 @@
                 "onSave": false
               }
             ],
-            "name": "Mark HP",
+            "name": "Marcar PV",
             "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Sickening Flux",
+                "name": "Fluxo Nauseante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -390,7 +388,7 @@
       },
       "effects": [
         {
-          "name": "Sickening Flux",
+          "name": "Fluxo Nauseante",
           "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
           "transfer": false,
           "_id": "KIyV2eXDmmymXY5y",
@@ -413,11 +411,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until your next rest or you clear a HP.</p>",
+          "description": "<p><em>Vulnerável</em> até o seu próximo descanso ou até você limpar 1 PV.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -445,12 +441,12 @@
       "_key": "!actors.items!sRn4bqerfARvhgSV.oAxhAawgcK7DAdpa"
     },
     {
-      "name": "Remake Reality",
+      "name": "Refazer a Realidade",
       "type": "feature",
       "_id": "updQuIK8sybf4YmW",
       "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to transform the area within Very Close range into a different biome. All targets within this area take <strong>2d6+3</strong> direct magic damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para transformar a área em alcance Muito Próximo em um bioma diferente. Todos os alvos nessa área sofrem <strong>2d6+3</strong> de dano mágico direto.</p>",
         "resource": null,
         "actions": {
           "QzuQIAtSrgz9Zd5V": {
@@ -489,9 +485,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -508,12 +502,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Remake Reality",
+                "name": "Refazer a Realidade",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -544,12 +538,12 @@
       "_key": "!actors.items!sRn4bqerfARvhgSV.updQuIK8sybf4YmW"
     },
     {
-      "name": "Magical Reflection",
+      "name": "Reflexo Mágico",
       "type": "feature",
       "_id": "dnVB2DxbpYtwt0S0",
       "img": "icons/magic/light/beam-impact-deflect-teal.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, deal an amount of damage to the attacker equal to half the damage they dealt.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano de um ataque em alcance Próximo, cause ao atacante uma quantidade de dano igual à metade do dano que ele causou.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",
@@ -568,12 +562,12 @@
       "_key": "!actors.items!sRn4bqerfARvhgSV.dnVB2DxbpYtwt0S0"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "JqRfb0IZ3aJrVazI",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "zpQIB9z9kK2BlfqZ": {
@@ -633,7 +627,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

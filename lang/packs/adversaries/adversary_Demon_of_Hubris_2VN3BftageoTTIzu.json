@@ -1,5 +1,5 @@
 {
-  "name": "Demon of Hubris",
+  "name": "Demônio da Soberba",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Condescend, declare premature victory, prove superiority",
+    "motivesAndTactics": "Condescender, declarar vitória prematura, provar superioridade",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "MlEBcyaaPU8zLdzC": {
-        "name": "Manipulation",
+        "name": "Manipulação",
         "description": "",
         "value": 2
       }
     },
     "tier": 3,
-    "description": "<p>A perfectly beautiful and infinitely cruel demon with a gleaming spear and elegant robes.</p>",
+    "description": "<p>Um demônio perfeitamente belo e infinitamente cruel, com uma lança reluzente e vestes elegantes.</p>",
     "attack": {
-      "name": "Perfect Spear",
+      "name": "Lança Perfeita",
       "img": "icons/weapons/polearms/spear-flared-gold.webp",
       "range": "veryClose",
       "roll": {
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "2VN3BftageoTTIzu",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Demon of Hubris",
+    "name": "Demônio da Soberba",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range must lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante devem perder 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "v3XbljQeHEyfuSXz": {
@@ -292,12 +290,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -330,10 +328,10 @@
       "_key": "!actors.items!2VN3BftageoTTIzu.kgPZs8Vx1FpQi2g1"
     },
     {
-      "name": "Double or Nothing",
+      "name": "Dobro ou Nada",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC within Far range fails a roll, they can choose to reroll their Fear Die and take the new result. If they still fail, they mark 2 Stress and the Demon clears a Stress.</p>",
+        "description": "<p>Quando um PJ em alcance Distante falha em uma rolagem, ele pode escolher rolar novamente seu Dado de Medo e aceitar o novo resultado. Se ainda assim falhar, marca 2 Fadiga e o Demônio apaga 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "nNfWqBgysVPtFh4w": {
@@ -378,7 +376,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/commodities/currency/coin-inset-skull-copper.webp",
             "range": "far",
             "baseAction": false,
@@ -407,10 +405,10 @@
       "_key": "!actors.items!2VN3BftageoTTIzu.r5EvkhhvvfNv8wZe"
     },
     {
-      "name": "Unparalleled Skill",
+      "name": "Habilidade Incomparável",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to deal the @Lookup[@name]'s standard attack damage to a target within Close range.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para causar o dano de ataque padrão do @Lookup[@name] a um alvo em alcance Próximo.</p>",
         "resource": null,
         "actions": {
           "MYOD2VAfdVC6hMCs": {
@@ -449,9 +447,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -468,7 +464,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/spear-tips-quintuple-orange.webp",
             "range": "close",
             "baseAction": false,
@@ -497,10 +493,10 @@
       "_key": "!actors.items!2VN3BftageoTTIzu.Y3W44ifKIcoYpONN"
     },
     {
-      "name": "The Root of Villainy",
+      "name": "A Raiz da Vilania",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to spotlight two other Demons within Far range.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para dar o destaque a outros dois Demônios em alcance Distante.</p>",
         "resource": null,
         "actions": {
           "ozGST8UY2MJnrd3w": {
@@ -531,7 +527,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight Demons",
+            "name": "Destaque aos Demônios",
             "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
             "range": "far",
             "baseAction": false,
@@ -560,10 +556,10 @@
       "_key": "!actors.items!2VN3BftageoTTIzu.6BKWOTuxQWJd5RP5"
     },
     {
-      "name": "You Pale in Comparison",
+      "name": "Você Empalidece em Comparação",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC fails a roll within Close range of the @Lookup[@name], they must mark a Stress.</p>",
+        "description": "<p>Quando um PJ falha em uma rolagem em alcance Próximo do @Lookup[@name], ele deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "kuCPWb9cu3pZdAhh": {
@@ -608,12 +604,12 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/control/fear-fright-shadow-monster-red.webp",
             "range": "close",
             "areas": [
               {
-                "name": "You Pale in Comparison",
+                "name": "Você Empalidece em Comparação",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",

@@ -1,5 +1,5 @@
 {
-  "name": "Shambling Zombie",
+  "name": "Zumbi Cambaleante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 1
       }
     },
-    "motivesAndTactics": "Devour, hungry, mob enemy, shred flesh",
+    "motivesAndTactics": "Devorar, ter fome, cercar inimigos em turba, rasgar carne",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>An animated corpse that moves shakily, driven only by hunger.</p>",
+    "description": "<p>Um cadáver animado que se move de forma trêmula, movido apenas pela fome.</p>",
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "roll": {
         "bonus": 0,
@@ -68,9 +68,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "2nXz4ilAY4xuhKLm",
   "sort": 600000,
   "prototypeToken": {
-    "name": "Shambling Zombie",
+    "name": "Zumbi Cambaleante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Too Many to Handle",
+      "name": "Demais para Aguentar",
       "type": "feature",
       "_id": "IpUWqXjwP2Lp5Zhs",
       "img": "icons/magic/death/undead-zombie-grave-green.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] is within Melee range of a creature and at least one other @Lookup[@name] is within Close range, all attacks against that creature have advantage.</p>",
+        "description": "<p>Quando o @Lookup[@name] está dentro do alcance Corpo a Corpo de uma criatura e pelo menos outro @Lookup[@name] está dentro do alcance Próximo, todos os ataques contra essa criatura têm vantagem.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,12 +251,12 @@
       "_key": "!actors.items!2nXz4ilAY4xuhKLm.IpUWqXjwP2Lp5Zhs"
     },
     {
-      "name": "Horrifying",
+      "name": "Horripilante",
       "type": "feature",
       "_id": "iiOjamlZIuhpDC8W",
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "system": {
-        "description": "<p>Targets who mark HP from the @Lookup[@name]'s attacks must also mark a Stress.</p>",
+        "description": "<p>Os alvos que marcarem PV pelos ataques do @Lookup[@name] também devem marcar um Fadiga.</p>",
         "resource": null,
         "actions": {
           "JUw16Jag9uTfBmKZ": {
@@ -303,7 +301,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "melee",
             "baseAction": false,

@@ -1,5 +1,5 @@
 {
-  "name": "Giant Scorpion",
+  "name": "Escorpião Gigante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Ambush, feed, grapple, poison",
+    "motivesAndTactics": "Emboscar, alimentar-se, agarrar, envenenar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "SZtO9UTincKiOlC4": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A human-sized arachnid with tearing claws and a stinging tail.</p>",
+    "description": "<p>Um aracnídeo do tamanho de um humano, com garras dilacerantes e uma cauda com ferrão.</p>",
     "attack": {
-      "name": "Pincers",
+      "name": "Pinças",
       "img": "icons/creatures/claws/pincer-crab-brown.webp",
       "roll": {
         "bonus": 1,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "fmfntuJ8mHRCAktP",
   "sort": 4200000,
   "prototypeToken": {
-    "name": "Giant Scorpion",
+    "name": "Escorpião Gigante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Double Strike",
+      "name": "Golpe Duplo",
       "type": "feature",
       "_id": "4ct6XEXiTBFQKvXW",
       "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against two targets within Melee range.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para realizar um ataque padrão contra dois alvos dentro do alcance Corpo a Corpo.</p>",
         "resource": null,
         "actions": {
           "PJbZ4ibLPle9BBRv": {
@@ -279,9 +277,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -318,7 +314,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
             "range": "melee",
             "baseAction": false,
@@ -345,12 +341,12 @@
       "_key": "!actors.items!fmfntuJ8mHRCAktP.4ct6XEXiTBFQKvXW"
     },
     {
-      "name": "Venomous Stinger",
+      "name": "Ferrão Venenoso",
       "type": "feature",
       "_id": "lANiDkxxth2sGacT",
       "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
       "system": {
-        "description": "<p>Make an attack against a target within Very Close range. On a success, <strong>spend a Fear</strong> to deal <strong>1d4+4</strong> physical damage and Poison them until their next rest or they succeed on a Knowledge Roll (16). While Poisoned, the target must roll a <strong>d6</strong> before they make an action roll. On a result of 4 or lower, they must mark a Stress.</p>",
+        "description": "<p>Realize um ataque contra um alvo dentro do alcance Muito Perto. Em caso de sucesso, <strong>gaste 1 Medo</strong> para causar <strong>1d4+4</strong> de dano físico e Envenenar o alvo até o próximo descanso ou até que ele seja bem-sucedido em um Teste de Conhecimento (16). Enquanto Envenenado, o alvo deve rolar um <strong>d6</strong> antes de realizar uma rolagem de ação. Com resultado 4 ou menos, ele deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "ZkcplnqoMP7dH9F4": {
@@ -389,9 +385,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -433,7 +427,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -452,7 +446,7 @@
       },
       "effects": [
         {
-          "name": "Poisoned",
+          "name": "Envenenado",
           "img": "icons/creatures/abilities/stinger-poison-scorpion-brown.webp",
           "transfer": false,
           "_id": "oILkLJlGNZl7KI1R",
@@ -475,7 +469,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Poisoned</em> until your next rest or until you succeed on a Knowledge Roll (16). While Poisoned, you must roll a <strong>d6</strong> before you make an action roll. On a result of 4 or lower, you must mark a Stress.</p><p>[[/dr trait=knowledge difficulty=16]]</p>",
+          "description": "<p>Você está <em>Envenenado</em> até o próximo descanso ou até ser bem-sucedido em um Teste de Conhecimento (16). Enquanto Envenenado, você deve rolar um <strong>d6</strong> antes de realizar uma rolagem de ação. Com resultado 4 ou menos, você deve marcar 1 Fadiga.</p><p>[[/dr trait=knowledge difficulty=16]]</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -505,19 +499,19 @@
       "_key": "!actors.items!fmfntuJ8mHRCAktP.lANiDkxxth2sGacT"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "TmDpAY5t3PjhEv9K",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "1Fn4rvhueQoMXqFc": {
             "type": "healing",
             "_id": "1Fn4rvhueQoMXqFc",
             "systemPath": "actions",
-            "description": "<p>When the Scorpion makes a successful attack against a PC, you gain a Fear.</p>",
+            "description": "<p>Quando o Escorpião realiza um ataque bem-sucedido contra um PJ, você ganha 1 Medo.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -570,7 +564,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

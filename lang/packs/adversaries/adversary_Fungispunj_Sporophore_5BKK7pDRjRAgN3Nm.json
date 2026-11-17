@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fungispunj Sporophore",
+  "name": "Esporóforo Fungispunj",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "leader",
-    "description": "<p>A giant mushroom creature that can command the dead.</p>",
+    "description": "<p>Uma criatura-cogumelo gigante capaz de comandar os mortos.</p>",
     "tier": 2,
-    "motivesAndTactics": "Awaken the fallen, defend the colony, spread spores",
+    "motivesAndTactics": "Despertar os caídos, defender a colônia, espalhar esporos",
     "difficulty": 16,
     "damageThresholds": {
       "major": 12,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spongy Fist",
+      "name": "Punho Esponjoso",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "S9BTMIE1LW1adet1": {
-        "name": "Commander",
+        "name": "Comandante",
         "value": 5,
         "description": ""
       },
       "LMJY9p2PkvSMmQyb": {
-        "name": "Guardian",
+        "name": "Guardião",
         "value": 4,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Neurotoxic Spore Cloud",
+      "name": "Nuvem de Esporos Neurotóxicos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Sporophore spray a cloud of spores on all targets within Close range. Each PC must succeed on a Agility Reaction Roll or become Poisoned until they <strong>spend a Hope</strong> to clear the condition. While Poisoned, a target must roll a <strong>d6</strong> before they make an action roll. On a result of 4 or lower, they must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Esporóforo borrifar uma nuvem de esporos em todos os alvos dentro do alcance Próximo. Cada PJ deve ser bem-sucedido em um Teste de Reação de Agilidade ou ficar Envenenado até <strong>gastar 1 Esperança</strong> para remover a condição. Enquanto Envenenado, um alvo deve rolar um <strong>d6</strong> antes de fazer um teste de ação. Com um resultado de 4 ou menos, ele deve marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -170,7 +168,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Neurotoxic Spore Cloud",
+                "name": "Nuvem de Esporos Neurotóxicos",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -224,7 +222,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -235,10 +233,10 @@
       "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
       "effects": [
         {
-          "name": "Poisoned",
+          "name": "Envenenado",
           "disabled": false,
           "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
-          "description": "<p>You are Poisoned until you <strong>spend a Hope</strong> to clear the condition.</p><p>While Poisoned, you must roll a d6 before you make an action roll. On a result of 4 or lower, you must mark a Stress.</p>",
+          "description": "<p>Você está Envenenado até <strong>gastar 1 Esperança</strong> para remover a condição.</p><p>Enquanto Envenenado, você deve rolar um d6 antes de fazer um teste de ação. Com um resultado de 4 ou menos, você deve marcar 1 Fadiga.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -288,11 +286,11 @@
       "_key": "!actors.items!5BKK7pDRjRAgN3Nm.raqERxpdxTa2On8F"
     },
     {
-      "name": "Reanimator",
+      "name": "Reanimador",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Sporophore spray a corpse within Very Close range with a cloud of psychic spores. The corpse clears all HP and Stress, then reanimates under the psychic control of the Sporophore. When the Sporophore is spotlighted, you can also spotlight all corpses it controls.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Esporóforo borrifar um cadáver dentro do alcance Muito Próximo com uma nuvem de esporos psíquicos. O cadáver recupera todos os PV e o Fadiga, então se reanima sob o controle psíquico do Esporóforo. Quando o Esporóforo for colocado em destaque, você também pode colocar em destaque todos os cadáveres que ele controla.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -392,7 +390,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryClose"
           }
         },
@@ -403,10 +401,10 @@
       "img": "icons/magic/life/cross-beam-green.webp",
       "effects": [
         {
-          "name": "Reanimated Corpse",
+          "name": "Cadáver Reanimado",
           "disabled": false,
           "img": "icons/magic/death/skeleton-worn-skull-tan.webp",
-          "description": "<p>When the Sporophore is spotlighted, you can also spotlight all corpses it controls.</p>",
+          "description": "<p>Quando o Esporóforo for colocado em destaque, você também pode colocar em destaque todos os cadáveres que ele controla.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -456,11 +454,11 @@
       "_key": "!actors.items!5BKK7pDRjRAgN3Nm.Ff7a0Meknufbkby8"
     },
     {
-      "name": "Colony",
+      "name": "Colônia",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Mark any number of Stress to have the Sporophore summon an equal number of @UUID[Compendium.daggerheart.adversaries.Actor.55oYzFQRmrXCqNxn]{Fungispunj Sporelings} within Close range.</p>",
+        "description": "<p>Marque qualquer quantidade de Fadiga para fazer o Esporóforo invocar uma quantidade igual de @UUID[Compendium.daggerheart.adversaries.Actor.55oYzFQRmrXCqNxn]{Esporos Fungispunj} dentro do alcance Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -499,7 +497,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -518,11 +516,11 @@
       "_key": "!actors.items!5BKK7pDRjRAgN3Nm.CqMQsFGQ1GR6Auii"
     },
     {
-      "name": "Mind Meld",
+      "name": "Fusão Mental",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>All Fungispunj can telepathically communicate with one another. When the Sporophore would be forced to mark Stress from an attack, it can cause Fungispunj allies in the scene to mark that Stress in its place, distributed among allies as it chooses.</p>",
+        "description": "<p>Todos os Fungispunj podem se comunicar telepaticamente entre si. Quando o Esporóforo for forçado a marcar Fadiga por causa de um ataque, ele pode fazer aliados Fungispunj na cena marcarem esse Fadiga em seu lugar, distribuído entre os aliados como ele escolher.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -545,7 +543,7 @@
   "_id": "5BKK7pDRjRAgN3Nm",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fungispunj Sporophore",
+    "name": "Esporóforo Fungispunj",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

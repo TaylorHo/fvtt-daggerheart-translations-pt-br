@@ -1,5 +1,5 @@
 {
-  "name": "Demon of Wrath",
+  "name": "Demônio da Ira",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Fuel anger, impress rivals, wreak havoc",
+    "motivesAndTactics": "Alimentar a raiva, impressionar rivais, causar estrago",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "TXj5zJDR4aXjsZ9s": {
-        "name": "Intimidation",
+        "name": "Intimidação",
         "description": "",
         "value": 2
       }
     },
     "tier": 3,
-    "description": "<p>A hulking demon with boulder-sized fists, driven by endless rage.</p>",
+    "description": "<p>Um demônio imenso com punhos do tamanho de rochas, movido por uma fúria sem fim.</p>",
     "attack": {
-      "name": "Fists",
+      "name": "Punhos",
       "range": "veryClose",
       "roll": {
         "bonus": 3,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "5lphJAgzoqZI3VoG",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Demon of Wrath",
+    "name": "Demônio da Ira",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Anger Unrelenting",
+      "name": "Raiva Implacável",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name]'s attacks deal direct damage.</p>",
+        "description": "<p>Os ataques de @Lookup[@name] causam dano direto.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!5lphJAgzoqZI3VoG.QDrOLKVWVjUnDPK3"
     },
     {
-      "name": "Battle Lust",
+      "name": "Sede de Batalha",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to boil the blood of all PCs within Far range. They use a d20 as their Fear Die until the end of the scene.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para ferver o sangue de todos os PJs em alcance Distante. Eles usam um d20 como Dado de Medo até o fim da cena.</p>",
         "resource": null,
         "actions": {
           "jKvzbQT0vp66DDOH": {
@@ -302,11 +300,11 @@
               "type": "hostile",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far",
             "areas": [
               {
-                "name": "Battle Lust",
+                "name": "Sede de Batalha",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -327,7 +325,7 @@
       "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
       "effects": [
         {
-          "name": "Battle Lust",
+          "name": "Sede de Batalha",
           "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
           "transfer": false,
           "_id": "gFeHLGgeRoDdd3VG",
@@ -358,7 +356,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You use a d20 as your Fear Die until the end of the scene.</p>",
+          "description": "<p>Você usa um d20 como Dado de Medo até o fim da cena.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -388,10 +386,10 @@
       "_key": "!actors.items!5lphJAgzoqZI3VoG.a33PW8UkziliowlR"
     },
     {
-      "name": "Retalliation",
+      "name": "Retaliação",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, you can <strong>mark a Stress</strong> to make a standard attack against the attacker.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano de um ataque em alcance Próximo, você pode <strong>marcar 1 Fadiga</strong> para fazer um ataque padrão contra o atacante.</p>",
         "resource": null,
         "actions": {
           "hxrdtBm4dYN7KGZm": {
@@ -430,9 +428,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -469,12 +465,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/blood-slash-foam-red.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Retalliation",
+                "name": "Retaliação",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -507,17 +503,17 @@
       "_key": "!actors.items!5lphJAgzoqZI3VoG.DjGydqLXT4rDa7Av"
     },
     {
-      "name": "Blood and Souls",
+      "name": "Sangue e Almas",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 6)</em>. Activate the first time an attack is made within sight of the @Lookup[@name]. It ticks down when a PC takes a violent action. When it triggers, summon [[/r 1d4]]@UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Minor Demons}, who appear at Close range.</p>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 6)</em>. Ative na primeira vez que um ataque for feito à vista do @Lookup[@name]. Ela diminui quando um PJ realiza uma ação violenta. Quando disparar, invoque [[/r 1d4]]@UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Demônios Menores}, que aparecem em alcance Próximo.</p>",
         "resource": null,
         "actions": {
           "szg3qA09aJUt9WKS": {
             "type": "countdown",
             "_id": "szg3qA09aJUt9WKS",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 6)</em>. Activate the first time an attack is made within sight of the @Lookup[@name]. It ticks down when a PC takes a violent action.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 6)</em>. Ative na primeira vez que um ataque for feito à vista do @Lookup[@name]. Ela diminui quando um PJ realiza uma ação violenta.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -532,7 +528,7 @@
             },
             "countdown": [
               {
-                "name": "Blood and Souls",
+                "name": "Sangue e Almas",
                 "type": "encounter",
                 "img": "icons/creatures/unholy/demon-fire-horned-clawed.webp",
                 "progress": {
@@ -546,7 +542,7 @@
                 "hidden": null
               }
             ],
-            "name": "Countdown",
+            "name": "Contagem Regressiva",
             "img": "icons/creatures/unholy/demon-fire-horned-clawed.webp",
             "range": "",
             "baseAction": false,
@@ -577,7 +573,7 @@
                 "count": "1d4"
               }
             ],
-            "name": "Summon",
+            "name": "Invocar",
             "range": "",
             "triggers": [],
             "areas": []

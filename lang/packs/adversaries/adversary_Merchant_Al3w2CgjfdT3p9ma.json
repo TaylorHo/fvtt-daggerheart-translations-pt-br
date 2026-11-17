@@ -1,5 +1,5 @@
 {
-  "name": "Merchant",
+  "name": "Mercador",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Buy low and sell high, create demand, inflate prices, seek profit",
+    "motivesAndTactics": "Comprar barato e vender caro, criar demanda, inflar preços, buscar lucro",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "5cbm0DMiWxo6300c": {
-        "name": "Shrewd Negotiator",
+        "name": "Negociador Astuto",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A finely dressed trader with a keen eye for financial gain.</p>",
+    "description": "<p>Um comerciante elegantemente vestido, com olho afiado para o lucro.</p>",
     "attack": {
-      "name": "Club",
+      "name": "Clava",
       "roll": {
         "bonus": -4,
         "type": "attack",
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "Al3w2CgjfdT3p9ma",
   "sort": 1900000,
   "prototypeToken": {
-    "name": "Merchant",
+    "name": "Mercador",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Preferential Treatment",
+      "name": "Tratamento Preferencial",
       "type": "feature",
       "_id": "3Fwj28UxUcdMifoi",
       "img": "icons/skills/social/diplomacy-handshake.webp",
       "system": {
-        "description": "<p>A PC who succeeds on a Presence Roll against the @Lookup[@name] gains a discount on purchases. A PC who fails on a Presence Roll against the @Lookup[@name] must pay more and has disadvantage on future Presence Rolls against the @Lookup[@name].</p>",
+        "description": "<p>Um PJ que tem sucesso em um Teste de Presença contra o @Lookup[@name] recebe um desconto nas compras. Um PJ que falha em um Teste de Presença contra o @Lookup[@name] deve pagar mais e tem desvantagem em futuros Testes de Presença contra o @Lookup[@name].</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,12 +257,12 @@
       "_key": "!actors.items!Al3w2CgjfdT3p9ma.3Fwj28UxUcdMifoi"
     },
     {
-      "name": "The Runaround",
+      "name": "Enrolação",
       "type": "feature",
       "_id": "Ksdgov6mYg7Og2ys",
       "img": "icons/skills/social/trading-justice-scale-yellow.webp",
       "system": {
-        "description": "<p>When a PC rolls a 14 or lower on a Presence Roll made against the @Lookup[@name], they must mark a Stress.</p>",
+        "description": "<p>Quando um PJ rola 14 ou menos em um Teste de Presença feito contra o @Lookup[@name], ele deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "sTHDvAggf1nUX4Ai": {
@@ -309,7 +307,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Stress Damage",
+            "name": "Dano de Fadiga",
             "img": "icons/skills/social/trading-justice-scale-yellow.webp",
             "range": "",
             "baseAction": false,

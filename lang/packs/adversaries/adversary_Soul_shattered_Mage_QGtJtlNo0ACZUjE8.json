@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Soul-shattered Mage",
+  "name": "Mago de Alma Estilhaçada",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>A spellcaster with a psyche broken by knowledge best left hidden.</p>",
+    "description": "<p>Um conjurador cuja psique foi quebrada por um conhecimento que era melhor ter ficado oculto.</p>",
     "tier": 1,
-    "motivesAndTactics": "Babble in an unknown language, laugh unsettlingly, wield power beyond control",
+    "motivesAndTactics": "Balbuciar em uma língua desconhecida, rir de forma perturbadora, empunhar poder fora de controle",
     "difficulty": 12,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Wormwood Staff",
+      "name": "Cajado de Absinto",
       "img": "icons/weapons/staves/staff-forest-hooked.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "TjEiWqba1sc8alr5": {
-        "name": "Forbidden Knowledge",
+        "name": "Conhecimento Proibido",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Mage can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Mago pode receber destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!QGtJtlNo0ACZUjE8.JLBK3NQFk20ZaPZ7"
     },
     {
-      "name": "Broken Magic",
+      "name": "Magia Quebrada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to roll a <strong>[[/r d6]]</strong>. The Mage uses the corresponding move:</p><ul><li><p>1–2: Dimension Rift. Choose a target within Far range. The target teleports to a point you choose within Close range of their original position and takes <strong>2d6</strong> direct magic damage as their body and mind reassemble.</p></li><li><p>3–4: Time Dilation. Choose a group of PCs within Far range. Each target is Slowed until they roll with Hope. While Slowed, a target is <em>Vulnerable</em> and must mark a Stress when they move.</p></li><li><p>5–6: Discordant Visions. Make an attack against up to three targets within Close range. Targets the Mage succeeds against take <strong>2d8</strong> direct magic damage.</p></li></ul>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para rolar um <strong>[[/r d6]]</strong>. O Mago usa o movimento correspondente:</p><ul><li><p>1–2: Fenda Dimensional. Escolha um alvo em alcance Distante. O alvo se teletransporta para um ponto à sua escolha em alcance Próximo de sua posição original e sofre <strong>2d6</strong> de dano mágico direto enquanto seu corpo e mente se reconstituem.</p></li><li><p>3–4: Dilatação do Tempo. Escolha um grupo de personagens em alcance Distante. Cada alvo fica Lento até rolar com Esperança. Enquanto estiver Lento, o alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga quando se mover.</p></li><li><p>5–6: Visões Discordantes. Faça um ataque contra até três alvos em alcance Próximo. Os alvos contra os quais o Mago tiver sucesso sofrem <strong>2d8</strong> de dano mágico direto.</p></li></ul>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -176,7 +174,7 @@
             "_id": "gPSIHi1qLoEhOodY",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Mark a Stress</strong> to roll a <strong>[[/r d6]]</strong>. The Mage uses the corresponding move:</p><ul><li><p>1–2: Dimension Rift</p></li><li><p>3–4: Time Dilation</p></li><li><p>5–6: Discordant Visions</p></li></ul>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para rolar um <strong>[[/r d6]]</strong>. O Mago usa o movimento correspondente:</p><ul><li><p>1–2: Fenda Dimensional</p></li><li><p>3–4: Dilatação do Tempo</p></li><li><p>5–6: Visões Discordantes</p></li></ul>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -205,7 +203,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "JW4Q8WDDDRyUuSSv": {
@@ -229,9 +227,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -240,7 +236,7 @@
             "_id": "JW4Q8WDDDRyUuSSv",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Choose a target within Far range. The target teleports to a point you choose within Close range of their original position and takes <strong>2d6</strong> direct magic damage as their body and mind reassemble.</p>",
+            "description": "<p>Escolha um alvo em alcance Distante. O alvo se teletransporta para um ponto à sua escolha em alcance Próximo de sua posição original e sofre <strong>2d6</strong> de dano mágico direto enquanto seu corpo e mente se reconstituem.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -260,7 +256,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Dimension Rift",
+            "name": "Fenda Dimensional",
             "range": "far",
             "img": "icons/magic/movement/portal-vortex-orange.webp"
           },
@@ -269,7 +265,7 @@
             "_id": "4BsOL1UvlgCXCB5P",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Choose a group of PCs within Far range. Each target is Slowed until they roll with Hope. While Slowed, a target is <em>Vulnerable</em> and must mark a Stress when they move.</p>",
+            "description": "<p>Escolha um grupo de personagens em alcance Distante. Cada alvo fica Lento até rolar com Esperança. Enquanto estiver Lento, o alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga quando se mover.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -294,7 +290,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Time Dilation",
+            "name": "Dilatação do Tempo",
             "range": "far",
             "img": "icons/magic/time/hourglass-tilted-gray.webp"
           },
@@ -319,9 +315,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -330,7 +324,7 @@
             "_id": "dlfc8B2NMA8AX5NG",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Make an attack against up to three targets within Close range. Targets the Mage succeeds against take <strong>2d8</strong> direct magic damage.</p>",
+            "description": "<p>Faça um ataque contra até três alvos em alcance Próximo. Os alvos contra os quais o Mago tiver sucesso sofrem <strong>2d8</strong> de dano mágico direto.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -370,7 +364,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Discordant Visions",
+            "name": "Visões Discordantes",
             "range": "close",
             "img": "icons/magic/perception/hand-eye-fire-blue.webp"
           }
@@ -382,14 +376,12 @@
       "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
       "effects": [
         {
-          "name": "Slowed",
+          "name": "Lento",
           "disabled": false,
           "img": "icons/magic/time/hourglass-tilted-gray.webp",
-          "description": "<p>You are Slowed until you roll with Hope. While Slowed, you are <em>Vulnerable</em> and must mark a Stress when you move.</p>",
+          "description": "<p>Você fica Lento até rolar com Esperança. Enquanto estiver Lento, você fica <em>Vulnerável</em> e deve marcar 1 Fadiga quando se mover.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -437,11 +429,11 @@
       "_key": "!actors.items!QGtJtlNo0ACZUjE8.86ZXTdwwNOtDhkxp"
     },
     {
-      "name": "Feel My Pain",
+      "name": "Sinta Minha Dor",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Mage marks HP, roll a number of <strong>d6s</strong> equal to the number of Stress the Mage has marked. The Mage deals direct magic damage equal to the total result to all PCs within Very Close range.</p>",
+        "description": "<p>Quando o Mago marca PV, role uma quantidade de <strong>d6s</strong> igual à quantidade de Fadiga que o Mago tem marcada. O Mago causa dano mágico direto igual ao resultado total a todos os personagens em alcance Muito Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -467,9 +459,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -487,7 +477,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Feel My Pain",
+                "name": "Sinta Minha Dor",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -529,7 +519,7 @@
   "_id": "QGtJtlNo0ACZUjE8",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Soul-shattered Mage",
+    "name": "Mago de Alma Estilhaçada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

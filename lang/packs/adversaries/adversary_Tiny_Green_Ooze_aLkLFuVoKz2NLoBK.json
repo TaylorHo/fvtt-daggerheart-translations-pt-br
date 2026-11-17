@@ -1,5 +1,5 @@
 {
-  "name": "Tiny Green Ooze",
+  "name": "Pequena Gosma Verde",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -21,10 +21,10 @@
     "experiences": {},
     "difficulty": 14,
     "tier": 1,
-    "description": "<p>A small moving mound of translucent green slime.</p>",
-    "motivesAndTactics": "Camouflage, creep up",
+    "description": "<p>Um pequeno monte móvel de lodo verde translúcido.</p>",
+    "motivesAndTactics": "Camuflar-se, rastejar até a presa",
     "attack": {
-      "name": "Ooze Appendage",
+      "name": "Apêndice de Gosma",
       "roll": {
         "bonus": -1,
         "type": "attack",
@@ -53,9 +53,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "aLkLFuVoKz2NLoBK",
   "sort": 3900000,
   "prototypeToken": {
-    "name": "Tiny Green Ooze",
+    "name": "Pequena Gosma Verde",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Acidic Form",
+      "name": "Forma Ácida",
       "type": "feature",
       "_id": "WpOh5kHHx7lcTvEY",
       "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder marcar um Espaço de Armadura, deve marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "HfK0u0c7NRppuF1Q": {
@@ -279,7 +277,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage Armor",
+            "name": "Danificar Armadura",
             "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
             "range": "",
             "baseAction": false,

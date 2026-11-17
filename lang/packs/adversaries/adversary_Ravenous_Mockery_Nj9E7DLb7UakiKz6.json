@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Ravenous Mockery",
+  "name": "Zombaria Voraz",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A shapeshifting predator that assumes the appearance of inanimate objects to lure unwary prey into its threat range.</p>",
+    "description": "<p>Um predador metamorfo que assume a aparência de objetos inanimados para atrair presas desavisadas ao seu alcance de ameaça.</p>",
     "tier": 2,
-    "motivesAndTactics": "Ambush, lie in wait, swallow without chewing, take on an unassuming shape",
+    "motivesAndTactics": "Emboscar, esperar à espreita, engolir sem mastigar, assumir uma forma inofensiva",
     "difficulty": 14,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Gnashing Teeth",
+      "name": "Dentes Rangentes",
       "img": "icons/creatures/abilities/mouth-teeth-misshapen-pink.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "J0mSRuVhv69JgrUd": {
-        "name": "Mimicry",
+        "name": "Mimetismo",
         "value": 5,
         "description": ""
       },
       "yWNC2BtdlQWVwQ2Z": {
-        "name": "Hungry",
+        "name": "Faminto",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Tongue Attack",
+      "name": "Ataque de Língua",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a creature within Close range. On a success, the target is pulled into Melee range with the Mockery and <em>Restrained</em> until they escape with a successful Strength Roll, and you can <strong>spend a Fear</strong> to activate the Mockery's Devour feature against the target.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para atacar uma criatura dentro do alcance Próximo. Em caso de sucesso, o alvo é puxado para o alcance Corpo a Corpo da Zombaria e fica <em>Restringido</em> até escapar com um Teste de Força bem-sucedido, e você pode <strong>gastar um Medo</strong> para ativar a característica Devorar da Zombaria contra o alvo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -226,14 +224,12 @@
       "img": "icons/commodities/biological/tongue-violet.webp",
       "effects": [
         {
-          "name": "Grabbed",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/commodities/biological/tongue-violet.webp",
-          "description": "<p>You are <em>Restrained</em> until you escape with a successful Strength Roll</p>",
+          "description": "<p>Você fica <em>Restringido</em> até escapar com um Teste de Força bem-sucedido</p>",
           "transfer": true,
-          "statuses": [
-            "restrain"
-          ],
+          "statuses": ["restrain"],
           "system": {
             "changes": [],
             "duration": {
@@ -281,11 +277,11 @@
       "_key": "!actors.items!Nj9E7DLb7UakiKz6.rn2adeYuqdaHFD0v"
     },
     {
-      "name": "Devour",
+      "name": "Devorar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Attack a target within Melee range. On a success, the Mockery Swallows the target. While Swallowed, the target is <em>Restrained</em> and marks a HP when the Mockery is spotlighted. The Mockery disgorges all Swallowed creatures when it takes Major or Severe damage.</p>",
+        "description": "<p>Ataque um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, a Zombaria Engole o alvo. Enquanto Engolido, o alvo fica <em>Restringido</em> e marca um PV quando a Zombaria está em destaque. A Zombaria regurgita todas as criaturas Engolidas quando sofre dano Maior ou Severo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -344,7 +340,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Swallow",
+            "name": "Engolir",
             "range": "melee"
           },
           "mEVR59fZyV4bUICm": {
@@ -395,7 +391,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Swallowed Damage",
+            "name": "Dano de Engolimento",
             "range": ""
           }
         },
@@ -406,14 +402,12 @@
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "effects": [
         {
-          "name": "Swallowed",
+          "name": "Engolido",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
-          "description": "<p>You are Restrained and must mark a HP whenever the Mockery is spotlighted.</p>",
+          "description": "<p>Você está Restringido e deve marcar um PV sempre que a Zombaria estiver em destaque.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -461,11 +455,11 @@
       "_key": "!actors.items!Nj9E7DLb7UakiKz6.G1qVvL0l6KKd7sTs"
     },
     {
-      "name": "Never Just One",
+      "name": "Nunca Apenas Um",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to reveal that another object on the battlefield has been a @Lookup[@name] the whole time, then immediately spotlight it.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para revelar que outro objeto no campo de batalha era um @Lookup[@name] o tempo todo e, em seguida, colocá-lo imediatamente em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -505,7 +499,7 @@
                 "count": "1"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -527,7 +521,7 @@
   "_id": "Nj9E7DLb7UakiKz6",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Ravenous Mockery",
+    "name": "Zombaria Voraz",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

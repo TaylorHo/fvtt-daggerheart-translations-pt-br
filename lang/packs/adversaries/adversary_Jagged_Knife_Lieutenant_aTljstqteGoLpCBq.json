@@ -1,5 +1,5 @@
 {
-  "name": "Jagged Knife Lieutenant",
+  "name": "Tenente da Faca Serrilhada",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Bully, command, profit, reinforce",
+    "motivesAndTactics": "Intimidar, comandar, lucrar, reforçar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,14 +36,14 @@
     "notes": "",
     "experiences": {
       "oeECEmL7jdYrpiBY": {
-        "name": "Local Knowledge",
+        "name": "Conhecimento Local",
         "value": 2
       }
     },
     "tier": 1,
-    "description": "<p>A seasoned bandit in quality leathers with a strong voice and cunning eyes.</p>",
+    "description": "<p>Um bandido experiente em couros de qualidade, com voz forte e olhos astutos.</p>",
     "attack": {
-      "name": "Javelin",
+      "name": "Dardo",
       "img": "icons/weapons/polearms/spear-hooked-rounded.webp",
       "roll": {
         "bonus": 2,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -141,7 +139,7 @@
   "_id": "aTljstqteGoLpCBq",
   "sort": 4000000,
   "prototypeToken": {
-    "name": "Jagged Knife Lieutenant",
+    "name": "Tenente da Faca Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -234,12 +232,12 @@
   },
   "items": [
     {
-      "name": "Tactician",
+      "name": "Estrategista",
       "type": "feature",
       "_id": "LIAbel7pMzAHpgF3",
       "img": "icons/skills/movement/arrows-up-trio-red.webp",
       "system": {
-        "description": "<p>When you spotlight the @Lookup[@name], <strong>mark a Stress</strong> to also spotlight two allies within Close range.</p>",
+        "description": "<p>Quando você der destaque a @Lookup[@name], <strong>marque 1 Fadiga</strong> para também dar destaque a dois aliados em alcance Próximo.</p>",
         "resource": null,
         "actions": {
           "IfMFU67g4sfhSYtm": {
@@ -270,12 +268,12 @@
               "type": "friendly",
               "amount": 2
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/movement/arrows-up-trio-red.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Tactician",
+                "name": "Estrategista",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -306,12 +304,12 @@
       "_key": "!actors.items!aTljstqteGoLpCBq.LIAbel7pMzAHpgF3"
     },
     {
-      "name": "More Where That Came From",
+      "name": "Tem Mais de Onde Esses Vieram",
       "type": "feature",
       "_id": "Mo91w4ccffcmBPt5",
       "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
       "system": {
-        "description": "<p>Summon three @Compendium[daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR], who appear at Far range.</p>",
+        "description": "<p>Invoque três @Compendium[daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR], que aparecem em alcance Distante.</p>",
         "resource": null,
         "actions": {
           "MCTBsw9lusUdubj0": {
@@ -338,7 +336,7 @@
                 "count": "3"
               }
             ],
-            "name": "Summon",
+            "name": "Invocar",
             "range": "",
             "triggers": [],
             "areas": []
@@ -360,12 +358,12 @@
       "_key": "!actors.items!aTljstqteGoLpCBq.Mo91w4ccffcmBPt5"
     },
     {
-      "name": "Coup de Grace",
+      "name": "Golpe de Misericórdia",
       "type": "feature",
       "_id": "qe94UdLZb0p3Gvxj",
       "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack against a Vulnerable target within Close range. On a success, deal <strong>2d6+12</strong> physical damage and the target must mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um ataque contra um alvo Vulnerável em alcance Próximo. Em um sucesso, cause <strong>2d6+12</strong> de dano físico e o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "fzVyO0DUwIVEUCtg": {
@@ -404,9 +402,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -461,7 +457,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
             "range": "",
             "baseAction": false,
@@ -488,12 +484,12 @@
       "_key": "!actors.items!aTljstqteGoLpCBq.qe94UdLZb0p3Gvxj"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "uelnRgGStjJ27VtO",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "GSjfSgBzyhbVcpbt": {
@@ -553,7 +549,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

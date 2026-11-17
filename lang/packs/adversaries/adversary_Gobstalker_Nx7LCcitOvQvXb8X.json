@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Gobstalker",
+  "name": "Espreitador Dentuço",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A fleshy, floating ball of teeth that has numerous eyes and a bundle of questing mouth tentacles that shoot magic beams.</p>",
+    "description": "<p>Uma esfera carnuda e flutuante de dentes, com inúmeros olhos e um feixe de tentáculos bucais inquisitivos que disparam raios mágicos.</p>",
     "tier": 2,
-    "motivesAndTactics": "Ambush rivals, seek riches, shoot beams",
+    "motivesAndTactics": "Emboscar rivais, buscar riquezas, disparar raios",
     "difficulty": 15,
     "damageThresholds": {
       "major": 10,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Mouth Tentacles",
+      "name": "Tentáculos Bucais",
       "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "0SbryESWnyQWpyCY": {
-        "name": "Magic",
+        "name": "Magia",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!Nx7LCcitOvQvXb8X.x8vX7KBX4mAztG9v"
     },
     {
-      "name": "Anti-Mystica-Halitosis",
+      "name": "Antimística-Halitose",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name]'s rancid breath creates an invisible, magic-negating miasma. An attack, an ability, or a spell that deals magic damage or creates a magic effect fails automatically if used within Close range of the @Lookup[@name].</p>",
+        "description": "<p>O hálito pútrido do @Lookup[@name] cria um miasma invisível que anula a magia. Um ataque, uma habilidade ou uma magia que cause dano mágico ou crie um efeito mágico falha automaticamente se usado dentro do alcance Perto do @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!Nx7LCcitOvQvXb8X.ySPOyBNB8UeYrRLy"
     },
     {
-      "name": "Tentacle Rays",
+      "name": "Raios Tentaculares",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Far range. On a success, roll a <strong>d8</strong> for a random beam attack or <strong>spend a Fear</strong> to choose instead:</p><ol><li><p><strong>Beguile.</strong> The @Lookup[@name] Beguiles the target. While Beguiled, the target sees the @Lookup[@name] as a friend and can't attack it. Additionally, when a PC rolls with Fear, a Beguiled PC must mark a Stress or attack a target chosen by the @Lookup[@name]. A Beguiled PC must succeed on an Instinct Roll (16) to clear the condition.</p></li><li><p><strong>Corrode.</strong> The target takes <strong>2d8</strong> magic damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't, double the damage.</p></li><li><p><strong>Doom.</strong> The target must mark all HP, but they can <strong>spend any number of Hope</strong> to reduce the number of HP marked this way by an equal amount.</p></li><li><p><strong>Hypnosis.</strong> The target falls into a Deep Trance and can't act except to try to wake up. This condition lasts until the target takes damage or wakes up with a successful Presence Roll (16).</p></li><li><p><strong>Paralyze.</strong> The target freezes in place, becoming <em>Vulnerable</em> and <em>Restrained</em> until they mark 2 Stress.</p></li><li><p><strong>Sear.</strong> The target takes <strong>2d8</strong> direct magic damage.</p></li><li><p><strong>Scare.</strong> The target is Scared. While Scared, the target can't take actions other than fleeing the battle or trying to shake off their terror. Additionally, the target must mark a Stress whenever you <strong>spend a Fear</strong>. The target can clear the condition with a successful Presence Roll (16).</p></li><li><p><strong>Slow.</strong> The target becomes <em>Vulnerable</em> and must mark a Stress to move until they <strong>spend 2 Hope</strong>.</p></li></ol>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um alvo dentro do alcance Longe. Em caso de sucesso, role um <strong>d8</strong> para um ataque de raio aleatório ou <strong>gaste 1 Medo</strong> para escolher em vez disso:</p><ol><li><p><strong>Encantar.</strong> O @Lookup[@name] Encanta o alvo. Enquanto Encantado, o alvo vê o @Lookup[@name] como um amigo e não pode atacá-lo. Além disso, quando um PJ rola com Medo, um PJ Encantado deve marcar 1 Fadiga ou atacar um alvo escolhido pelo @Lookup[@name]. Um PJ Encantado deve ser bem-sucedido em um Teste de Instinto (16) para remover a condição.</p></li><li><p><strong>Corroer.</strong> O alvo sofre <strong>2d8</strong> de dano mágico e deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder, o dano é dobrado.</p></li><li><p><strong>Perdição.</strong> O alvo deve marcar todos os PV, mas pode <strong>gastar qualquer quantidade de Esperança</strong> para reduzir o número de PV marcados desta forma na mesma quantidade.</p></li><li><p><strong>Hipnose.</strong> O alvo cai em um Transe Profundo e não pode agir, exceto para tentar acordar. Esta condição dura até o alvo sofrer dano ou acordar com um Teste de Presença (16) bem-sucedido.</p></li><li><p><strong>Paralisar.</strong> O alvo congela no lugar, ficando <em>Vulnerável</em> e <em>Restrito</em> até marcar 2 Fadiga.</p></li><li><p><strong>Queimar.</strong> O alvo sofre <strong>2d8</strong> de dano mágico direto.</p></li><li><p><strong>Assustar.</strong> O alvo fica Assustado. Enquanto Assustado, o alvo não pode realizar ações além de fugir da batalha ou tentar se livrar do terror. Além disso, o alvo deve marcar 1 Fadiga sempre que você <strong>gastar 1 Medo</strong>. O alvo pode remover a condição com um Teste de Presença (16) bem-sucedido.</p></li><li><p><strong>Lentidão.</strong> O alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga para se mover até <strong>gastar 2 Esperança</strong>.</p></li></ol>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -237,7 +235,7 @@
                 "fypEGxOvd0kj8VxM"
               ]
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "xbIrVGcxJ5oV8GtB": {
@@ -249,7 +247,7 @@
             "_id": "xbIrVGcxJ5oV8GtB",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The @Lookup[@name] Beguiles the target. While Beguiled, the target sees the @Lookup[@name] as a friend and can't attack it. Additionally, when a PC rolls with Fear, a Beguiled PC must mark a Stress or attack a target chosen by the @Lookup[@name]. A Beguiled PC must succeed on an Instinct Roll (16) to clear the condition.</p>",
+            "description": "<p>O @Lookup[@name] Encanta o alvo. Enquanto Encantado, o alvo vê o @Lookup[@name] como um amigo e não pode atacá-lo. Além disso, quando um PJ rola com Medo, um PJ Encantado deve marcar 1 Fadiga ou atacar um alvo escolhido pelo @Lookup[@name]. Um PJ Encantado deve ser bem-sucedido em um Teste de Instinto (16) para remover a condição.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -294,7 +292,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Beguile",
+            "name": "Encantar",
             "range": "far",
             "img": "icons/magic/control/hypnosis-mesmerism-eye.webp"
           },
@@ -319,9 +317,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -349,7 +345,7 @@
             "_id": "ZyxIPJy3JgSO5YIO",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target takes <strong>2d8</strong> magic damage and must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't, double the damage.</p>",
+            "description": "<p>O alvo sofre <strong>2d8</strong> de dano mágico e deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder, o dano é dobrado.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -389,7 +385,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Corrode",
+            "name": "Corroer",
             "range": "far",
             "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp"
           },
@@ -402,7 +398,7 @@
             "_id": "wbuNKs16501PjbL3",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target must mark all HP, but they can <strong>spend any number of Hope</strong> to reduce the number of HP marked this way by an equal amount.</p>",
+            "description": "<p>O alvo deve marcar todos os PV, mas pode <strong>gastar qualquer quantidade de Esperança</strong> para reduzir o número de PV marcados desta forma na mesma quantidade.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -442,7 +438,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Doom",
+            "name": "Perdição",
             "range": "far",
             "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp"
           },
@@ -455,7 +451,7 @@
             "_id": "YDZos8t1JHP3cNrI",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target falls into a Deep Trance and can't act except to try to wake up. This condition lasts until the target takes damage or wakes up with a successful Presence Roll (16).</p>",
+            "description": "<p>O alvo cai em um Transe Profundo e não pode agir, exceto para tentar acordar. Esta condição dura até o alvo sofrer dano ou acordar com um Teste de Presença (16) bem-sucedido.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -500,7 +496,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Hypnosis",
+            "name": "Hipnose",
             "range": "far",
             "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp"
           },
@@ -513,7 +509,7 @@
             "_id": "Dp2L5no3WC9tyBMD",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target freezes in place, becoming <em>Vulnerable</em> and <em>Restrained</em> until they mark 2 Stress.</p>",
+            "description": "<p>O alvo congela no lugar, ficando <em>Vulnerável</em> e <em>Restrito</em> até marcar 2 Fadiga.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -558,7 +554,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Paralyze",
+            "name": "Paralisar",
             "range": "far",
             "img": "icons/magic/control/silhouette-hold-change-green.webp"
           },
@@ -583,9 +579,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -594,7 +588,7 @@
             "_id": "hoHrbWAxlH3eViNQ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target takes <strong>2d8</strong> direct magic damage.</p>",
+            "description": "<p>O alvo sofre <strong>2d8</strong> de dano mágico direto.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -634,7 +628,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Sear",
+            "name": "Queimar",
             "range": "far",
             "img": "icons/magic/fire/beam-strike-whip-red.webp"
           },
@@ -647,7 +641,7 @@
             "_id": "NCA81X9nYbkhqLUV",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target is Scared. While Scared, the target can't take actions other than fleeing the battle or trying to shake off their terror. Additionally, the target must mark a Stress whenever you <strong>spend a Fear</strong>. The target can clear the condition with a successful Presence Roll (16).</p>",
+            "description": "<p>O alvo fica Assustado. Enquanto Assustado, o alvo não pode realizar ações além de fugir da batalha ou tentar se livrar do terror. Além disso, o alvo deve marcar 1 Fadiga sempre que você <strong>gastar 1 Medo</strong>. O alvo pode remover a condição com um Teste de Presença (16) bem-sucedido.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -692,7 +686,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Scare",
+            "name": "Assustar",
             "range": "far",
             "img": "icons/magic/death/skull-energy-light-white.webp"
           },
@@ -705,7 +699,7 @@
             "_id": "fypEGxOvd0kj8VxM",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The target becomes <em>Vulnerable</em> and must mark a Stress to move until they <strong>spend 2 Hope</strong>.</p>",
+            "description": "<p>O alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga para se mover até <strong>gastar 2 Esperança</strong>.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -750,7 +744,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Slow",
+            "name": "Lento",
             "range": "far",
             "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp"
           }
@@ -762,10 +756,10 @@
       "img": "icons/magic/unholy/beam-impact-green.webp",
       "effects": [
         {
-          "name": "Beguiled",
+          "name": "Encantado",
           "disabled": false,
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
-          "description": "<p>While Beguiled, the target sees the @Lookup[@name] as a friend and can't attack it. Additionally, when a PC rolls with Fear, a Beguiled PC must mark a Stress or attack a target chosen by the @Lookup[@name]. A Beguiled PC must succeed on an Instinct Roll (16) to clear the condition.</p>",
+          "description": "<p>Enquanto Encantado, o alvo vê o @Lookup[@name] como um amigo e não pode atacá-lo. Além disso, quando um PJ rola com Medo, um PJ Encantado deve marcar 1 Fadiga ou atacar um alvo escolhido pelo @Lookup[@name]. Um PJ Encantado deve ser bem-sucedido em um Teste de Instinto (16) para remover a condição.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -806,10 +800,10 @@
           "_key": "!actors.items.effects!Nx7LCcitOvQvXb8X.nKENFMC5m8D9eJDr.3Kz1CuNxwOTo1rZE"
         },
         {
-          "name": "Deep Trance",
+          "name": "Transe Profundo",
           "disabled": false,
           "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
-          "description": "<p>The target falls into a Deep Trance and can't act except to try to wake up. This condition lasts until the target takes damage or wakes up with a successful Presence Roll (16).</p>",
+          "description": "<p>O alvo cai em um Transe Profundo e não pode agir, exceto para tentar acordar. Esta condição dura até o alvo sofrer dano ou acordar com um Teste de Presença (16) bem-sucedido.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -850,15 +844,12 @@
           "_key": "!actors.items.effects!Nx7LCcitOvQvXb8X.nKENFMC5m8D9eJDr.MkcUQhU0Gw5YRC0q"
         },
         {
-          "name": "Paralyzed",
+          "name": "Paralisado",
           "disabled": false,
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
-          "description": "<p>The target freezes in place, becoming <em>Vulnerable</em> and <em>Restrained</em> until they mark 2 Stress.</p>",
+          "description": "<p>O alvo congela no lugar, ficando <em>Vulnerável</em> e <em>Restrito</em> até marcar 2 Fadiga.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained",
-            "vulnerable"
-          ],
+          "statuses": ["restrained", "vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -897,10 +888,10 @@
           "_key": "!actors.items.effects!Nx7LCcitOvQvXb8X.nKENFMC5m8D9eJDr.d5Dc2646UO6CnCY9"
         },
         {
-          "name": "Scared",
+          "name": "Assustado",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-white.webp",
-          "description": "<p>While Scared, the target can't take actions other than fleeing the battle or trying to shake off their terror. Additionally, the target must mark a Stress whenever you <strong>spend a Fear</strong>. The target can clear the condition with a successful Presence Roll (16).</p>",
+          "description": "<p>Enquanto Assustado, o alvo não pode realizar ações além de fugir da batalha ou tentar se livrar do terror. Além disso, o alvo deve marcar 1 Fadiga sempre que você <strong>gastar 1 Medo</strong>. O alvo pode remover a condição com um Teste de Presença (16) bem-sucedido.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -941,14 +932,12 @@
           "_key": "!actors.items.effects!Nx7LCcitOvQvXb8X.nKENFMC5m8D9eJDr.QAiWdt8vIL0DDYVl"
         },
         {
-          "name": "Slowed",
+          "name": "Lento",
           "disabled": false,
           "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
-          "description": "<p>The target becomes <em>Vulnerable</em> and must mark a Stress to move until they <strong>spend 2 Hope</strong>.</p>",
+          "description": "<p>O alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga para se mover até <strong>gastar 2 Esperança</strong>.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -996,11 +985,11 @@
       "_key": "!actors.items!Nx7LCcitOvQvXb8X.nKENFMC5m8D9eJDr"
     },
     {
-      "name": "Leech Lick",
+      "name": "Lambida de Sanguessuga",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>On a successful standard attack, you can <strong>spend a Fear</strong> to clear a number of Stress equal to the number of HP the target marked.</p>",
+        "description": "<p>Em um ataque padrão bem-sucedido, você pode <strong>gastar 1 Medo</strong> para remover uma quantidade de Fadiga igual ao número de PV que o alvo marcou.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -1039,7 +1028,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -1061,7 +1050,7 @@
   "_id": "Nx7LCcitOvQvXb8X",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Gobstalker",
+    "name": "Espreitador Dentuço",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

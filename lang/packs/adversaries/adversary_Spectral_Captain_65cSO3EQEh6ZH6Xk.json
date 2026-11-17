@@ -1,5 +1,5 @@
 {
-  "name": "Spectral Captain",
+  "name": "Capitão Espectral",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "iDVbPwS24jkuGF8B": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A ghostly commander leading their troops beyond death.</p>",
-    "motivesAndTactics": "Move through solid objects, rally troops, rehash old battles",
+    "description": "<p>Um comandante fantasmagórico que lidera suas tropas além da morte.</p>",
+    "motivesAndTactics": "Atravessar objetos sólidos, reunir tropas, remoer batalhas antigas",
     "attack": {
-      "name": "Longbow",
+      "name": "Arco Longo",
       "img": "icons/weapons/bows/longbow-recurve-skull-brown.webp",
       "damage": {
         "main": {
@@ -59,9 +59,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "65cSO3EQEh6ZH6Xk",
   "sort": 600000,
   "prototypeToken": {
-    "name": "Spectral Captain",
+    "name": "Capitão Espectral",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,17 +233,17 @@
   },
   "items": [
     {
-      "name": "Ghost",
+      "name": "Fantasma",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico. <strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
         "resource": null,
         "actions": {
           "k7RuXErgCsEBmhmk": {
             "type": "effect",
             "_id": "k7RuXErgCsEBmhmk",
             "systemPath": "actions",
-            "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -269,7 +267,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/undead-ghost-scream-teal.webp",
             "range": "",
             "baseAction": false,
@@ -290,7 +288,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Ghost",
+          "name": "Fantasma",
           "type": "base",
           "system": {
             "changes": [
@@ -319,7 +317,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Captain has resistance to physical damage.</p>",
+          "description": "<p>O Capitão tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -343,10 +341,10 @@
       "_key": "!actors.items!65cSO3EQEh6ZH6Xk.JU93RyfAB5XhZ6FN"
     },
     {
-      "name": "Unending Battle",
+      "name": "Batalha Sem Fim",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend 2 Fear</strong> to return up to [[/r 1d4+1]] defeated Spectral allies to the battle at the points where they first appeared (with no marked HP or Stress).</p>",
+        "description": "<p><strong>Gaste 2 de Medo</strong> para devolver à batalha até [[/r 1d4+1]] aliados Espectrais derrotados nos pontos onde apareceram pela primeira vez (sem PV ou Fadiga marcados).</p>",
         "resource": null,
         "actions": {
           "eHmbN4aPLUuEoDQt": {
@@ -377,7 +375,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
             "range": "",
             "baseAction": false,
@@ -406,10 +404,10 @@
       "_key": "!actors.items!65cSO3EQEh6ZH6Xk.7YVe4DfEWMNLXNvu"
     },
     {
-      "name": "Hold Fast",
+      "name": "Aguentar Firme",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name]'s Spectral allies are forced to make a reaction roll, you can <strong>mark a Stress</strong> to give those allies a +2 bonus to the roll.</p>",
+        "description": "<p>Quando os aliados Espectrais de @Lookup[@name] são forçados a fazer um teste de reação, você pode <strong>marcar 1 Fadiga</strong> para dar a esses aliados um bônus de +2 na rolagem.</p>",
         "resource": null,
         "actions": {
           "aRg1bcPGUn69GPyB": {
@@ -440,7 +438,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/defensive/shield-barrier-flaming-diamond-teal.webp",
             "range": "",
             "baseAction": false,
@@ -469,10 +467,10 @@
       "_key": "!actors.items!65cSO3EQEh6ZH6Xk.X0vtV30ACVVZ6NfF"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "tZKpqKdehnPxRsOc": {
@@ -532,7 +530,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Darkweave Crawler",
+  "name": "Rastejador de Teia Sombria",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "minion",
-    "description": "<p>A spider the size of a human head, woven out of shadow-silk.</p>",
+    "description": "<p>Uma aranha do tamanho de uma cabeça humana, tecida de seda de sombra.</p>",
     "tier": 1,
-    "motivesAndTactics": "Hide in shadow, strike the unwary, wait for an opening",
+    "motivesAndTactics": "Esconder-se nas sombras, atacar os incautos, esperar uma brecha",
     "difficulty": 10,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "9FkrU6lHsr32igLa": {
-        "name": "Darkness",
+        "name": "Escuridão",
         "value": 3,
         "description": ""
       }
@@ -142,7 +140,7 @@
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Crawler is defeated when it takes any damage. For every 3 damage a PC deals to the Crawler, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O Rastejador é derrotado ao sofrer qualquer dano. A cada 3 de dano que um PJ causar ao Rastejador, o PJ derrota um Minion adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!Z16fYvCNRlD4XZij.Ll43t7pvzXc4MX8g"
     },
     {
-      "name": "Skin-Crawling",
+      "name": "Arrepio na Pele",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to force all PCs within Melee range of the Crawler to mark a Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para forçar todos os PJs em alcance Corpo a Corpo do Rastejador a marcarem 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -208,7 +206,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Skin-Crawling",
+                "name": "Arrepio na Pele",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "melee",
@@ -237,7 +235,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -256,11 +254,11 @@
       "_key": "!actors.items!Z16fYvCNRlD4XZij.M4AppGMZivFZ4Dya"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os @Lookup[@name]s em alcance Próximo dele. Esses Minions se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 2 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -286,9 +284,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -346,7 +342,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -365,11 +361,11 @@
       "_key": "!actors.items!Z16fYvCNRlD4XZij.TNGpMcO2qZduHGlU"
     },
     {
-      "name": "Darkweave Venom",
+      "name": "Veneno da Teia Sombria",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Crawler makes a successful attack, you can <strong>mark a Stress</strong> to Exhaust the target until they succeed on a Strength Roll (9). While Exhausted, the target must mark a Stress each time they make an action roll.</p>",
+        "description": "<p>Quando o Rastejador faz um ataque bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para Exaurir o alvo até que ele seja bem-sucedido em um Teste de Força (9). Enquanto Exausto, o alvo deve marcar 1 Fadiga cada vez que fizer um teste de ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -413,7 +409,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -424,10 +420,10 @@
       "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "effects": [
         {
-          "name": "Exhausted",
+          "name": "Exausto",
           "disabled": false,
           "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
-          "description": "<p>You are Exhausted until you succeed on a Strength Roll (9). While Exhausted, you must mark a Stress each time you make an action roll.</p>",
+          "description": "<p>Você está Exausto até ser bem-sucedido em um Teste de Força (9). Enquanto Exausto, você deve marcar 1 Fadiga cada vez que fizer um teste de ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -480,7 +476,7 @@
   "_id": "Z16fYvCNRlD4XZij",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Darkweave Crawler",
+    "name": "Rastejador de Teia Sombria",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

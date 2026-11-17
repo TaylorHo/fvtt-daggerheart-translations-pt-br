@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Vampire Bat Swarm",
+  "name": "Enxame de Morcegos Vampiros",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "horde",
-    "description": "<p>A cloud of blood-sucking bats.</p>",
+    "description": "<p>Uma nuvem de morcegos sugadores de sangue.</p>",
     "tier": 3,
-    "motivesAndTactics": "Blot out the moon, murmur, spread disease",
+    "motivesAndTactics": "Esconder a lua, murmurar, espalhar doenças",
     "difficulty": 15,
     "damageThresholds": {
       "major": 16,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fangs",
+      "name": "Presas",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "MvTSNfRMiUrbZ40m": {
-        "name": "Blood",
+        "name": "Sangue",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Blinding Multitude",
+      "name": "Multidão Ofuscante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Swarm is so thick it blocks the vision of anyone it interacts with. Creatures within Melee range have disadvantage on attacks made against adversaries other than the Swarm.</p>",
+        "description": "<p>O Enxame é tão denso que bloqueia a visão de qualquer um com quem interage. Criaturas em alcance Corpo a Corpo têm desvantagem em ataques feitos contra adversários que não sejam o Enxame.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -165,14 +163,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Blinding Multitude",
+                "name": "Multidão Ofuscante",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "melee",
                 "hasHole": false,
-                "effects": [
-                  "M7HN8sIay2wTVBZW"
-                ]
+                "effects": ["M7HN8sIay2wTVBZW"]
               }
             ],
             "cost": [],
@@ -187,7 +183,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Activate",
+            "name": "Ativar",
             "range": ""
           }
         },
@@ -198,10 +194,10 @@
       "img": "icons/creatures/mammals/bats-movement-flying-black.webp",
       "effects": [
         {
-          "name": "Blinding Multitude",
+          "name": "Multidão Ofuscante",
           "disabled": false,
           "img": "icons/creatures/mammals/bats-movement-flying-black.webp",
-          "description": "<p>Creatures within Melee range have disadvantage on attacks made against adversaries other than the Swarm.</p>",
+          "description": "<p>Criaturas em alcance Corpo a Corpo têm desvantagem em ataques feitos contra adversários que não sejam o Enxame.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -259,11 +255,11 @@
       "_key": "!actors.items!2OjMAjcG3xbbsrIV.6nqgFiYulnF4LVKd"
     },
     {
-      "name": "Bloodsuckers",
+      "name": "Sanguessugas",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Swarm deals damage to a target, you can <strong>mark a Stress</strong> to have the Swarm feed. The target marks an additional HP, and the Swarm clears a HP.</p>",
+        "description": "<p>Quando o Enxame causa dano a um alvo, você pode <strong>marcar 1 Fadiga</strong> para fazer o Enxame se alimentar. O alvo marca 1 PV adicional e o Enxame limpa 1 PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -325,7 +321,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -345,10 +341,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -364,7 +360,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -433,7 +429,7 @@
   "_id": "2OjMAjcG3xbbsrIV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Vampire Bat Swarm",
+    "name": "Enxame de Morcegos Vampiros",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

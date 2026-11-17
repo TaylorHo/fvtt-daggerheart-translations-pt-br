@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Roc",
+  "name": "Roca",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A giant falcon that nests in the mountains and unleashes storms.</p>",
+    "description": "<p>Um falcão gigante que faz ninho nas montanhas e desencadeia tempestades.</p>",
     "tier": 3,
-    "motivesAndTactics": "Breathe lightning and speak thunder, protect eggs, rake with talons, spy from afar",
+    "motivesAndTactics": "Respirar relâmpagos e falar trovões, proteger ovos, rasgar com garras, espionar de longe",
     "difficulty": 18,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Beak & Talons",
+      "name": "Bico e Garras",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "SIG0bkhUID51rF0Q": {
-        "name": "Craggy Peaks",
+        "name": "Picos Escarpados",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até três vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.Mt5D5PIH7hNVid4I"
     },
     {
-      "name": "Bird of Prey",
+      "name": "Ave de Rapina",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Once per GM turn, the @Lookup[@name] can move up to Very Far range before or after it takes an action.</p>",
+        "description": "<p>Uma vez por turno do Mestre, o @Lookup[@name] pode se mover até o alcance Muito Distante antes ou depois de realizar uma ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.SvtXB2X6a8abxxpB"
     },
     {
-      "name": "Here Comes the Boom",
+      "name": "Lá Vem o Estrondo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] unleash a storm of lightning and thunder. Make an attack roll against <strong>1d4+1</strong> targets within Far range. Targets the @Lookup[@name] succeeds against take <strong>3d12</strong> magic damage. Then each target within Far range of the @Lookup[@name] must make an Agility Reaction Roll (20). Targets who fail take <strong>3d8</strong> physical damage and are pushed back to Close range. Targets who succeed must mark a Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o @Lookup[@name] desencadear uma tempestade de raios e trovões. Faça um teste de ataque contra <strong>1d4+1</strong> alvos dentro do alcance Distante. Os alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>3d12</strong> de dano mágico. Em seguida, cada alvo dentro do alcance Distante do @Lookup[@name] deve fazer um Teste de Reação de Agilidade (20). Os alvos que falharem sofrem <strong>3d8</strong> de dano físico e são empurrados de volta para o alcance Próximo. Os alvos que tiverem sucesso devem marcar um Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -216,9 +214,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -236,7 +232,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Here Comes the Boom",
+                "name": "Lá Vem o Estrondo",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -285,7 +281,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "glnoG8JVxdGxNoyJ": {
@@ -309,9 +305,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -320,7 +314,7 @@
             "_id": "glnoG8JVxdGxNoyJ",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Then each target within Far range of the @Lookup[@name] must make an Agility Reaction Roll (20). Targets who fail take <strong>3d8</strong> physical damage and are pushed back to Close range. Targets who succeed must mark a Stress.</p>",
+            "description": "<p>Em seguida, cada alvo dentro do alcance Distante do @Lookup[@name] deve fazer um Teste de Reação de Agilidade (20). Os alvos que falharem sofrem <strong>3d8</strong> de dano físico e são empurrados de volta para o alcance Próximo. Os alvos que tiverem sucesso devem marcar um Fadiga.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -360,7 +354,7 @@
               "difficulty": 20,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -379,11 +373,11 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.JHpHvFvrJGI2Kwe1"
     },
     {
-      "name": "Crushing Grasp",
+      "name": "Garra Esmagadora",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to have the @Lookup[@name] crush the target with its talons, forcing them to mark <strong>1d4</strong> Stress and <em>Restrain</em>ing them until they succeed on a Strength Roll (20).</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>marcar um Fadiga</strong> para fazer o @Lookup[@name] esmagar o alvo com suas garras, forçando-o a marcar <strong>1d4</strong> de Fadiga e <em>Restringindo</em>-o até que tenha sucesso em um Teste de Força (20).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -450,7 +444,7 @@
                 "onSave": false
               }
             ],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -461,14 +455,12 @@
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "effects": [
         {
-          "name": "Grabbed",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/skills/melee/strike-slashes-orange.webp",
-          "description": "<p>You are <em>Restrained</em> until you succeed on a Strength Roll (20).</p>",
+          "description": "<p>Você fica <em>Restringido</em> até ter sucesso em um Teste de Força (20).</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -516,11 +508,11 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.uYDndZAjve1MmeIh"
     },
     {
-      "name": "Nest Warden",
+      "name": "Guardião do Ninho",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p>When the @Lookup[@name]'s eggs are threatened, it gains the following features:</p><p>Wrathful - Passive: The @Lookup[@name] gains a +2 bonus to its Difficulty and a bonus to damage rolls equal to the number of Stress it has marked.</p><p>Electrifying Aura - Passive: The @Lookup[@name] has resistance to magic damage. PCs who fail a roll within Very Close range must <strong>spend a Hope</strong> or mark <strong>1d4</strong> Stress.</p>",
+        "description": "<p>Quando os ovos do @Lookup[@name] são ameaçados, ele ganha as seguintes características:</p><p>Furioso - Passiva: O @Lookup[@name] recebe um bônus de +2 na sua Dificuldade e um bônus nos testes de dano igual ao número de Fadiga que tem marcado.</p><p>Aura Eletrizante - Passiva: O @Lookup[@name] tem resistência a dano mágico. PJs que falharem em um teste dentro do alcance Muito Próximo devem <strong>gastar uma Esperança</strong> ou marcar <strong>1d4</strong> de Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -563,10 +555,7 @@
                   "scale": 1,
                   "ring": "#c11010",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE",
-                    "BKG_WAVE"
-                  ]
+                  "effects": ["RING_PULSE", "BKG_WAVE"]
                 }
               }
             },
@@ -590,12 +579,12 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.nrUpskylAzI4yuyF"
     },
     {
-      "name": "Wrathfull",
+      "name": "Furioso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
         "attribution": {},
-        "description": "<p>The Roc gains a +2 bonus to its Difficulty and a bonus to damage rolls equal to the number of Stress it has marked.</p>",
+        "description": "<p>A Roca recebe um bônus de +2 na sua Dificuldade e um bônus nos testes de dano igual ao número de Fadiga que tem marcado.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {},
@@ -651,7 +640,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Roc gains a +2 bonus to its Difficulty and a bonus to damage rolls equal to the number of Stress it has marked.</p>",
+          "description": "<p>A Roca recebe um bônus de +2 na sua Dificuldade e um bônus nos testes de dano igual ao número de Fadiga que tem marcado.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -674,12 +663,12 @@
       "_key": "!actors.items!c0ivcxYHIW2t1cXV.QPzhKkqa0ZD50Zem"
     },
     {
-      "name": "Electrifying Aura",
+      "name": "Aura Eletrizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
         "attribution": {},
-        "description": "<p>The Roc has resistance to magic damage. PCs who fail a roll within Very Close range must spend a Hope or mark <strong>1d4</strong> Stress.</p>",
+        "description": "<p>A Roca tem resistência a dano mágico. PJs que falharem em um teste dentro do alcance Muito Próximo devem gastar uma Esperança ou marcar <strong>1d4</strong> de Fadiga.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -711,7 +700,7 @@
             "_id": "NxwYBzXc90fO0RH7",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>PCs who fail a roll within Very Close range must spend a Hope or mark <strong>1d4</strong> Stress.</p>",
+            "description": "<p>PJs que falharem em um teste dentro do alcance Muito Próximo devem gastar uma Esperança ou marcar <strong>1d4</strong> de Fadiga.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -742,7 +731,7 @@
       "img": "icons/magic/lightning/orb-ball-blue.webp",
       "effects": [
         {
-          "name": "Electrifying Aura",
+          "name": "Aura Eletrizante",
           "type": "base",
           "system": {
             "changes": [
@@ -780,7 +769,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Roc has resistance to magic damage.</p>",
+          "description": "<p>A Roca tem resistência a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -806,7 +795,7 @@
   "_id": "c0ivcxYHIW2t1cXV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Roc",
+    "name": "Roca",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

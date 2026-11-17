@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Hallowed Choir",
+  "name": "Coro Consagrado",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "horde",
-    "description": "<p>A heavenly host of winged humanoids whose song calls forth tears of religious awe.</p>",
+    "description": "<p>Uma hoste celestial de humanoides alados cujo canto faz brotar lágrimas de admiração religiosa.</p>",
     "tier": 4,
-    "motivesAndTactics": "Drown out disbelief, raise voices",
+    "motivesAndTactics": "Abafar a descrença, elevar as vozes",
     "difficulty": 17,
     "damageThresholds": {
       "major": 24,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Choral Blast",
+      "name": "Explosão Coral",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "CVm00cg54kyn1m1K": {
-        "name": "Music",
+        "name": "Música",
         "value": 2,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Celestial Coda",
+      "name": "Coda Celestial",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (Loop 3). The Choir's divine song builds on itself with each refrain. When the Choir first appears, activate the countdown. It ticks down when a PC gains a Hope. When it triggers, place a token on this stat block. The Choir gains a bonus to its damage rolls equal to the number of tokens on this stat block.</p>",
+        "description": "<p>Contagem Regressiva (Ciclo 3). O canto divino do Coro se intensifica a cada refrão. Quando o Coro aparece pela primeira vez, ative a contagem regressiva. Ela diminui quando um PJ ganha 1 Esperança. Quando é ativada, coloque um token neste bloco de estatísticas. O Coro recebe um bônus nas rolagens de dano igual ao número de tokens neste bloco de estatísticas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -162,10 +160,10 @@
         "actions": {
           "TqM6TJH5SOvsh2yf": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Celestial Coda",
+                "name": "Coda Celestial",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -204,7 +202,7 @@
             "_id": "bZlfk7RkpgKFKAnx",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, place a token on this stat block. The Choir gains a bonus to its damage rolls equal to the number of tokens on this stat block.</p>",
+            "description": "<p>Quando é ativada, coloque um token neste bloco de estatísticas. O Coro recebe um bônus nas rolagens de dano igual ao número de tokens neste bloco de estatísticas.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -224,7 +222,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": ""
           }
         },
@@ -235,7 +233,7 @@
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
       "effects": [
         {
-          "name": "Celestial Coda",
+          "name": "Coda Celestial",
           "type": "base",
           "system": {
             "changes": [
@@ -273,7 +271,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Choir gains a bonus to its damage rolls equal to the number of tokens on this stat block.</p>",
+          "description": "<p>O Coro recebe um bônus nas rolagens de dano igual ao número de tokens neste bloco de estatísticas.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -296,11 +294,11 @@
       "_key": "!actors.items!68xDUa9Ls48O825Z.5oqRLicTNnITxlwx"
     },
     {
-      "name": "Aural Assault",
+      "name": "Assalto Auditivo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The Choir unleashes its built-up divine energy in a single burst, clearing all tokens from this stat block. Deal <strong>1d12</strong> direct magic damage to each enemy within Close range for each token cleared.</p>",
+        "description": "<p>O Coro libera de uma só vez sua energia divina acumulada, removendo todos os tokens deste bloco de estatísticas. Cause <strong>1d12</strong> de dano mágico direto a cada inimigo dentro do alcance Perto para cada token removido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -321,10 +319,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -340,7 +338,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -409,7 +407,7 @@
   "_id": "68xDUa9Ls48O825Z",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Hallowed Choir",
+    "name": "Coro Consagrado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

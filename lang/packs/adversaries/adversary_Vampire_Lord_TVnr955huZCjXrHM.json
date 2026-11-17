@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Vampire Lord",
+  "name": "Lorde Vampiro",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A cruel vampire lord from a long-lost age, cursed with immortality.</p>",
+    "description": "<p>Um cruel lorde vampiro de uma era há muito perdida, amaldiçoado com a imortalidade.</p>",
     "tier": 3,
-    "motivesAndTactics": "Corrupt, destroy, overwhelm with evil power",
+    "motivesAndTactics": "Corromper, destruir, subjugar com poder maligno",
     "difficulty": 18,
     "damageThresholds": {
       "major": 24,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-talons-glowing-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "3pW4Z0iRTq1UX4mq": {
-        "name": "Evil",
+        "name": "Maligno",
         "value": 3,
         "description": ""
       },
       "K0ZIOnA7pdbajtJR": {
-        "name": "Noble",
+        "name": "Nobre",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,21 +165,21 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.IAsKdoOm2r6q1qie"
     },
     {
-      "name": "Midnight Heart",
+      "name": "Coração da Meia-Noite",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Long-Term Countdown (6). The @Lookup[@name] keeps their heart hidden in a safe place. If it's destroyed, the @Lookup[@name] dies. Otherwise, when the @Lookup[@name] is defeated, activate the countdown. It ticks down each time the PCs finish a long rest. When it triggers, the @Lookup[@name] revives within Close range of the heart with all HP and Stress cleared.</p>",
+        "description": "<p>Contagem Regressiva de Longo Prazo (6). @Lookup[@name] mantém seu coração escondido em um lugar seguro. Se ele for destruído, @Lookup[@name] morre. Caso contrário, quando @Lookup[@name] é derrotado, ative a contagem regressiva. Ela avança cada vez que os personagens terminam um descanso longo. Quando disparar, @Lookup[@name] revive em alcance Próximo do coração com todos os PV e Fadiga limpos.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "BUtoPUXMBzrKq1cJ": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Midnight Heart",
+                "name": "Coração da Meia-Noite",
                 "type": "narrative",
                 "hidden": true,
                 "img": "icons/commodities/biological/organ-heart-black.webp",
@@ -231,11 +229,11 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.tbA1nP2Q8TPBWpQx"
     },
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] makes a successful attack roll, all PCs within Close range lose a Hope, and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz uma rolagem de ataque bem-sucedida, todos os personagens em alcance Próximo perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -277,7 +275,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -316,11 +314,11 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.5tLyDZrBxAVoz5Oi"
     },
     {
-      "name": "Unleash Hellfire",
+      "name": "Liberar Fogo Infernal",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] momentarily conjure <strong>[[/r 1d4]]</strong> bursts of hellfire within Far range. Each burst deals <strong>3d6</strong> magic damage to each target within Very Close range. If a target takes damage from multiple bursts, combine the damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] conjurar momentaneamente <strong>[[/r 1d4]]</strong> explosões de fogo infernal em alcance Distante. Cada explosão causa <strong>3d6</strong> de dano mágico a cada alvo em alcance Muito Próximo. Se um alvo sofrer dano de várias explosões, combine o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -346,9 +344,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -366,7 +362,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Unleash Hellfire",
+                "name": "Liberar Fogo Infernal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -395,7 +391,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -414,11 +410,11 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.TUfESlsSadioy0Li"
     },
     {
-      "name": "Resurgence",
+      "name": "Ressurgimento",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC within Very Close range rolls with Hope, you can <strong>spend a Fear</strong> to clear a HP or a Stress.</p>",
+        "description": "<p>Quando um personagem em alcance Muito Próximo rola com Esperança, você pode <strong>gastar 1 de Medo</strong> para limpar 1 PV ou 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -495,7 +491,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear HP",
+            "name": "Remover PV",
             "range": "self",
             "img": "icons/magic/life/cross-beam-green.webp"
           },
@@ -571,7 +567,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear Stress",
+            "name": "Limpar Fadiga",
             "range": "self",
             "img": "icons/magic/life/heart-cross-strong-purple-orange.webp"
           }
@@ -591,11 +587,11 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.PS6orMs3tvLUESN4"
     },
     {
-      "name": "Melt into Shadow",
+      "name": "Dissolver-se na Sombra",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC would deal damage to the @Lookup[@name], you can <strong>spend a Fear</strong> to roll a <strong>d6</strong>. On a result of 5 or higher, negate the damage, then teleport the @Lookup[@name] to a point within Far range.</p>",
+        "description": "<p>Quando um personagem causaria dano a @Lookup[@name], você pode <strong>gastar 1 de Medo</strong> para rolar um <strong>d6</strong>. Com resultado 5 ou mais, anule o dano e então teletransporte @Lookup[@name] para um ponto em alcance Distante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -658,7 +654,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -677,11 +673,11 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.SScolSUknYbi799B"
     },
     {
-      "name": "Hellwing",
+      "name": "Asa Infernal",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p>When the @Lookup[@name] marks half their HP, they transform into the Hellwing: a towering, demonic bat creature.</p><section id=\"secret-mldoJSfzFIom3dyK\" class=\"secret\"><p>They gain the \"On Crimson Wings\" and \"Blood Bath\" features and replace their standard attack with the following standard attack: Claws: Close | <strong>3d12+6</strong> phy</p></section>",
+        "description": "<p>Quando @Lookup[@name] marca metade de seus PV, ele se transforma na Asa Infernal: uma imponente criatura demoníaca semelhante a um morcego.</p><section id=\"secret-mldoJSfzFIom3dyK\" class=\"secret\"><p>Ele ganha as características \"Em Asas Carmesins\" e \"Banho de Sangue\" e substitui seu ataque padrão pelo seguinte ataque padrão: Garras: Próximo | <strong>3d12+6</strong> fís</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -724,9 +720,7 @@
                   "scale": 1,
                   "ring": "#630303",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE"
-                  ]
+                  "effects": ["RING_PULSE"]
                 }
               }
             },
@@ -736,7 +730,7 @@
                 "onSave": false
               }
             ],
-            "name": "Evolve",
+            "name": "Evoluir",
             "range": ""
           }
         },
@@ -747,10 +741,10 @@
       "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
       "effects": [
         {
-          "name": "Hellwing",
+          "name": "Asa Infernal",
           "disabled": false,
           "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
-          "description": "<p>Gains the \"On Crimson Wings\" and \"Blood Bath\" features and replace their standard attack with the following standard attack: Claws: Close | <strong>3d12+6</strong> phy</p>",
+          "description": "<p>Ganha as características \"Em Asas Carmesins\" e \"Banho de Sangue\" e substitui seu ataque padrão pelo seguinte ataque padrão: Garras: Próximo | <strong>3d12+6</strong> fís</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -759,10 +753,8 @@
                 "type": "standardAttack",
                 "phase": "initial",
                 "value": {
-                  "name": "Claws",
-                  "damageTypes": [
-                    "physical"
-                  ],
+                  "name": "Garras",
+                  "damageTypes": ["physical"],
                   "attackRange": "close",
                   "trait": null,
                   "damageFormula": "3d12 + 6",
@@ -816,12 +808,12 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.UoKJYOQmLttCqn1v"
     },
     {
-      "name": "On Crimson Wings",
+      "name": "Em Asas Carmesins",
       "type": "feature",
       "system": {
         "featureForm": "passive",
         "attribution": {},
-        "description": "<p>While flying, the Hellwing gains a +1 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto estiver voando, a Asa Infernal ganha um bônus de +1 em sua Dificuldade.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {},
@@ -832,7 +824,7 @@
       "img": "icons/creatures/abilities/wing-batlike-red-pink.webp",
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "system": {
             "changes": [
@@ -870,7 +862,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, the Hellwing gains a +1 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto estiver voando, a Asa Infernal ganha um bônus de +1 em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -893,12 +885,12 @@
       "_key": "!actors.items!TVnr955huZCjXrHM.tg8gvbNWQu9jvbIV"
     },
     {
-      "name": "Blood Bath",
+      "name": "Banho de Sangue",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
         "attribution": {},
-        "description": "<p>When the Hellwing takes Major or greater damage, the ground within Very Close range is covered with blood, dealing <strong>3d10</strong> magic damage to all other creatures in the area. When the Hellwing takes the spotlight on subsequent GM turns, all other creatures in that area take <strong>3d6</strong> magic damage.</p>",
+        "description": "<p>Quando a Asa Infernal sofre dano Maior ou superior, o chão em alcance Muito Próximo é coberto de sangue, causando <strong>3d10</strong> de dano mágico a todas as outras criaturas na área. Quando a Asa Infernal recebe destaque nos turnos seguintes do Mestre, todas as outras criaturas nessa área sofrem <strong>3d6</strong> de dano mágico.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -923,9 +915,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -943,7 +933,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Blood Bath",
+                "name": "Banho de Sangue",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -963,7 +953,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Initial Damage",
+            "name": "Dano Inicial",
             "range": ""
           },
           "1LnUFjdkPBxd0l5e": {
@@ -987,9 +977,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -998,7 +986,7 @@
             "_id": "1LnUFjdkPBxd0l5e",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the Hellwing takes the spotlight on subsequent GM turns, all other creatures in that area take <strong>3d6</strong> magic damage.</p>",
+            "description": "<p>Quando a Asa Infernal recebe destaque nos turnos seguintes do Mestre, todas as outras criaturas nessa área sofrem <strong>3d6</strong> de dano mágico.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -1018,7 +1006,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Continual Damage",
+            "name": "Dano Contínuo",
             "range": ""
           }
         },
@@ -1040,7 +1028,7 @@
   "_id": "TVnr955huZCjXrHM",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Vampire Lord",
+    "name": "Lorde Vampiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

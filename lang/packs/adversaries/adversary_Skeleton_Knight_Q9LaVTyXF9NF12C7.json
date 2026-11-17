@@ -1,5 +1,5 @@
 {
-  "name": "Skeleton Knight",
+  "name": "Esqueleto Cavaleiro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Cut down the living, steal skin, wreak havoc",
+    "motivesAndTactics": "Abater os vivos, roubar pele, causar estragos",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A large armored skeleton with a huge blade.</p>",
+    "description": "<p>Um grande esqueleto encouraçado com uma enorme lâmina.</p>",
     "attack": {
-      "name": "Rusty Greatsword",
+      "name": "Montante Enferrujada",
       "img": "icons/weapons/swords/greatsword-crossguard-flanged-red.webp",
       "roll": {
         "bonus": 2,
@@ -68,9 +68,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "Q9LaVTyXF9NF12C7",
   "sort": 3300000,
   "prototypeToken": {
-    "name": "Skeleton Knight",
+    "name": "Esqueleto Cavaleiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "_id": "OZKEz4eK9h7zCbuf",
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Close range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido, todos os PJs dentro do alcance Próximo perdem uma Esperança e você ganha um Medo.</p>",
         "resource": null,
         "actions": {
           "9EiPNrGzwLtuf9g0": {
@@ -279,7 +277,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage Hope",
+            "name": "Dano de Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "close",
             "baseAction": false,
@@ -306,12 +304,12 @@
       "_key": "!actors.items!Q9LaVTyXF9NF12C7.OZKEz4eK9h7zCbuf"
     },
     {
-      "name": "Cut to the Bone",
+      "name": "Cortar até o Osso",
       "type": "feature",
       "_id": "WdVLwy9RNkVlZnCL",
       "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take <strong>1d8+2</strong> physical damage and must mark a Stress.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer um ataque contra todos os alvos dentro do alcance Muito Próximo. Os alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>1d8+2</strong> de dano físico e devem marcar um Fadiga.</p>",
         "resource": null,
         "actions": {
           "vMv4monku9LOSxUZ": {
@@ -350,9 +348,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -408,12 +404,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Cut to the Bone",
+                "name": "Cortar até o Osso",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -444,12 +440,12 @@
       "_key": "!actors.items!Q9LaVTyXF9NF12C7.WdVLwy9RNkVlZnCL"
     },
     {
-      "name": "Dig Two Graves",
+      "name": "Cave Duas Covas",
       "type": "feature",
       "_id": "STesKV2KB61PlwCh",
       "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] is defeated, they make an attack against a target within Very Close range (prioritizing the creature who killed them). On a success, the target takes <strong>1d4+8</strong> physical damage and loses <strong>1d4</strong> Hope.</p>",
+        "description": "<p>Quando @Lookup[@name] é derrotado, ele faz um ataque contra um alvo em alcance Muito Próximo (priorizando a criatura que o matou). Em caso de sucesso, o alvo sofre <strong>1d4+8</strong> de dano físico e perde <strong>1d4</strong> de Esperança.</p>",
         "resource": null,
         "actions": {
           "NtGhAVVOJF6ZGBRv": {
@@ -479,9 +475,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -517,7 +511,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
             "range": "veryClose",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Jack-o'-lantern",
+  "name": "Lanterna de Abóbora",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "minion",
-    "description": "<p>A floating pumpkin or other gourd that has a face carved into it. The soul trapped within it emits an eerie glow.</p>",
+    "description": "<p>Uma abóbora flutuante ou outra cabaça com um rosto entalhado. A alma presa dentro dela emite um brilho sinistro.</p>",
     "tier": 2,
-    "motivesAndTactics": "Bite, float, laugh, tell spooky stories",
+    "motivesAndTactics": "Morder, flutuar, gargalhar, contar histórias de terror",
     "difficulty": 14,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Chomp",
+      "name": "Mordiscar",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -132,11 +130,11 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] is defeated when it takes any damage. For every 4 damage a PC deals to the Jack-o'- Lantern, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>@Lookup[@name] é derrotado ao sofrer qualquer dano. Para cada 4 de dano que um PJ causar à Lanterna de Abóbora, o PJ derrota um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -156,11 +154,11 @@
       "_key": "!actors.items!qhMbIUVeD7BWuRKJ.btKRKx9UWRN2crN1"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 6 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para alcance Corpo a Corpo do alvo e fazem uma rolagem de ataque compartilhada. Em um sucesso, cada um causa 6 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,9 +184,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -246,7 +242,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -265,11 +261,11 @@
       "_key": "!actors.items!qhMbIUVeD7BWuRKJ.Gs8ZHt8BGz7NHOwq"
     },
     {
-      "name": "Spine-Chilling Cackle",
+      "name": "Risada Arrepiante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC within Very Close range rolls with Fear, you can <strong>mark a Stress</strong> to gain an additional Fear.</p>",
+        "description": "<p>Quando um PJ em alcance Muito Próximo rola com Medo, você pode <strong>marcar 1 Fadiga</strong> para ganhar 1 de Medo adicional.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -346,7 +342,7 @@
               },
               "useDefault": false
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "self"
           }
         },
@@ -368,7 +364,7 @@
   "_id": "qhMbIUVeD7BWuRKJ",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Jack-o'-lantern",
+    "name": "Lanterna de Abóbora",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

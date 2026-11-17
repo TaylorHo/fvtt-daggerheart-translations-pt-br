@@ -1,5 +1,5 @@
 {
-  "name": "Oracle of Doom",
+  "name": "Oráculo da Perdição",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -19,7 +19,7 @@
         "max": 10
       }
     },
-    "motivesAndTactics": "Change environment, condemn, dishearten, toss aside",
+    "motivesAndTactics": "Mudar o ambiente, condenar, desanimar, arremessar para longe",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "xbRa5L8BW3nCmroz": {
-        "name": "Boundless Knowledge",
+        "name": "Conhecimento Ilimitado",
         "description": "",
         "value": 4
       }
     },
     "tier": 4,
-    "description": "<p>A towering immortal and incarnation of fate, cursed to only see bad outcomes.</p>",
+    "description": "<p>Um imortal imponente e encarnação do destino, amaldiçoado a ver apenas desfechos ruins.</p>",
     "attack": {
-      "name": "Psychic Attack",
+      "name": "Ataque Psíquico",
       "roll": {
         "bonus": 8,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "befIqd5IYKg6eUz2",
   "sort": 1400000,
   "prototypeToken": {
-    "name": "Oracle of Doom",
+    "name": "Oráculo da Perdição",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "VjdSO1lAdTIAlofM": {
@@ -283,12 +281,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -321,10 +319,10 @@
       "_key": "!actors.items!befIqd5IYKg6eUz2.mKSk2GBYLoATQlVT"
     },
     {
-      "name": "Walls Closing In",
+      "name": "Paredes se Fechando",
       "type": "feature",
       "system": {
-        "description": "<p>When a creature rolls a failure while within Very Far range of the @Lookup[@name], they must mark a Stress.</p>",
+        "description": "<p>Quando uma criatura rola uma falha em alcance Muito Distante do @Lookup[@name], ela deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "u9iEsvV5ktvOxNp5": {
@@ -369,7 +367,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/skull-energy-light-white.webp",
             "range": "veryFar",
             "baseAction": false,
@@ -398,10 +396,10 @@
       "_key": "!actors.items!befIqd5IYKg6eUz2.8xbzF3kIC6vPF9ya"
     },
     {
-      "name": "Pronounce Fate",
+      "name": "Proclamar o Destino",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to present a target within Far range with a vision of their personal nightmare. The target must make a Knowledge Reaction Roll. On a failure, they lose all Hope and take <strong>2d20+4</strong> direct magic damage. On a success, they take half damage and lose a Hope.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para apresentar a um alvo em alcance Distante uma visão de seu pesadelo pessoal. O alvo deve fazer um Teste de Reação de Conhecimento. Em caso de falha, ele perde toda a Esperança e sofre <strong>2d20+4</strong> de dano mágico direto. Em caso de sucesso, sofre metade do dano e perde 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "IiSgpy6Axfqo9f9V": {
@@ -440,9 +438,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -478,7 +474,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
             "range": "far",
             "baseAction": false,
@@ -507,10 +503,10 @@
       "_key": "!actors.items!befIqd5IYKg6eUz2.QoFecwKWBFzrk4Wp"
     },
     {
-      "name": "Summon Tormentors",
+      "name": "Invocar Atormentadores",
       "type": "feature",
       "system": {
-        "description": "<p>Once per day, <strong>spend 2 Fear</strong> to summon <strong>2d4</strong> Tier 2 or below Minions relevant to one of the PC's personal nightmares. They appear at Close range relative to that PC.</p>",
+        "description": "<p>Uma vez por dia, <strong>gaste 2 de Medo</strong> para invocar <strong>2d4</strong> Lacaios de Patamar 2 ou inferior ligados a um dos pesadelos pessoais dos PJs. Eles aparecem em alcance Próximo desse PJ.</p>",
         "resource": null,
         "actions": {
           "71UnFo3CBBPtbao3": {
@@ -565,7 +561,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll 2d4",
+            "name": "Role 2d4",
             "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
             "range": "",
             "baseAction": false,
@@ -594,10 +590,10 @@
       "_key": "!actors.items!befIqd5IYKg6eUz2.A4yI2RENCuLk6mg9"
     },
     {
-      "name": "Ominous Knowledge",
+      "name": "Conhecimento Sinistro",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] sees a mortal creature, they instantly know one of their personal nightmares.</p>",
+        "description": "<p>Quando o @Lookup[@name] vê uma criatura mortal, ele conhece instantaneamente um de seus pesadelos pessoais.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",
@@ -618,10 +614,10 @@
       "_key": "!actors.items!befIqd5IYKg6eUz2.IPoWZmSQ2kgWek5T"
     },
     {
-      "name": "Vengeful Fate",
+      "name": "Destino Vingativo",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks HP from an attack within Very Close range, you can <strong>mark a Stress</strong> to knock the attacker back to Far range and deal <strong>2d10+4</strong> physical damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca PV de um ataque em alcance Muito Próximo, você pode <strong>marcar 1 Fadiga</strong> para arremessar o atacante para alcance Distante e causar <strong>2d10+4</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "vJ7kARKL5H87T1BY": {
@@ -660,9 +656,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -678,7 +672,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/control/sihouette-hold-beam-green.webp",
             "range": "veryClose",
             "baseAction": false,

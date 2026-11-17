@@ -1,5 +1,5 @@
 {
-  "name": "Master Assassin",
+  "name": "Mestre Assassino",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Ambush, get out alive, kill, prepare for all scenarios",
+    "motivesAndTactics": "Emboscar, sair vivo, matar, preparar-se para todos os cenários",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "DaD7YHe8aNVUddmp": {
-        "name": "Command",
+        "name": "Comando",
         "description": "",
         "value": 3
       },
       "sausRbmLbfV7TIb5": {
-        "name": "Intrusion",
+        "name": "Intrusão",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A seasoned killer with a threatening voice and a deadly blade.</p>",
+    "description": "<p>Um assassino experiente com uma voz ameaçadora e uma lâmina mortal.</p>",
     "attack": {
-      "name": "Serrated Dagger",
+      "name": "Adaga Serrilhada",
       "img": "icons/weapons/daggers/dagger-jagged-handguard-black.webp",
       "roll": {
         "bonus": 5,
@@ -80,9 +80,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "dNta0cUzr96xcFhf",
   "sort": 2500000,
   "prototypeToken": {
-    "name": "Master Assassin",
+    "name": "Mestre Assassino",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Won't See it Coming",
+      "name": "Você Não Vai Ver Chegando",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] deals direct damage while they're <em>Hidden</em>.</p>",
+        "description": "<p>@Lookup[@name] causa dano direto enquanto estiver <em>Oculto</em>.</p>",
         "resource": null,
         "actions": {
           "xFBE0jLf96fbCY7K": {
@@ -277,9 +275,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -316,7 +312,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Hidden attack",
+            "name": "Ataque Oculto",
             "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
             "range": "close",
             "triggers": [],
@@ -341,10 +337,10 @@
       "_key": "!actors.items!dNta0cUzr96xcFhf.Pb3qWLBJmpOmoKq0"
     },
     {
-      "name": "Strike as One",
+      "name": "Atacar em Conjunto",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight a number of other Assassins equal to the @Lookup[@name]'s unmarked Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para dar o destaque a uma quantidade de outros Assassinos igual à Fadiga não marcada do @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "vKRDbD07bqR317Zv": {
@@ -375,7 +371,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/movement/arrows-up-trio-red.webp",
             "range": "",
             "baseAction": false,
@@ -404,10 +400,10 @@
       "_key": "!actors.items!dNta0cUzr96xcFhf.za6Qr0CjI9Kb4I0U"
     },
     {
-      "name": "The Subtle Blade",
+      "name": "A Lâmina Sutil",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] successfully makes a standard attack against a <em>Vulnerable</em> target, you can <strong>spend a Fear</strong> to deal Severe damage instead of their standard damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz com sucesso um ataque padrão contra um alvo <em>Vulnerável</em>, você pode <strong>gastar 1 de Medo</strong> para causar dano Grave em vez do dano padrão.</p>",
         "resource": null,
         "actions": {
           "tYkZ9BwjlOg61BhE": {
@@ -438,7 +434,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/melee/strike-dagger-blood-red.webp",
             "range": "",
             "baseAction": false,
@@ -467,10 +463,10 @@
       "_key": "!actors.items!dNta0cUzr96xcFhf.s0WcpK43WN2ptqNc"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "7EP5X5kodzMCBQZO": {
@@ -530,7 +526,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

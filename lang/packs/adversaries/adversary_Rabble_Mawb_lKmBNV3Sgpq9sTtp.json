@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Rabble Mawb",
+  "name": "Turba Peluda",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "horde",
-    "description": "<p>These cat-sized balls of hair, limbs, and teeth travel in a \"mawb\" of a dozen.</p>",
+    "description": "<p>Essas bolas de pelo, membros e dentes do tamanho de um gato viajam em uma \"turba\" de uma dúzia.</p>",
     "tier": 1,
-    "motivesAndTactics": "Chitter and chew, clump together, roll around",
+    "motivesAndTactics": "Chiar e mastigar, aglomerar-se, rolar por aí",
     "difficulty": 8,
     "damageThresholds": {
       "major": 4,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Chomp",
+      "name": "Mordiscar",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "uZ9eHZKsxe1wa5rQ": {
-        "name": "Underground",
+        "name": "Subterrâneo",
         "value": 2,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Come Back Worse",
+      "name": "Voltar Pior",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] is defeated, you can <strong>spend a Fear</strong> to bring it back to life, clearing all HP and Stress. The @Lookup[@name] gains a bonus to all rolls equal to the number of times this feature has been used by this @Lookup[@name].</p>",
+        "description": "<p>Quando o @Lookup[@name] é derrotado, você pode <strong>gastar um Medo</strong> para trazê-lo de volta à vida, limpando todos os PV e Fadiga. O @Lookup[@name] recebe um bônus em todos os testes igual ao número de vezes que esta característica foi usada por este @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -246,7 +244,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -257,10 +255,10 @@
       "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
       "effects": [
         {
-          "name": "Came Back Worse",
+          "name": "Voltou Pior",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
-          "description": "<p>The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb.</p>",
+          "description": "<p>A Turba Peluda recebe um bônus em todos os testes igual ao número de vezes que esta característica foi usada por esta Turba Peluda.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -293,10 +291,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "reaction",
-                  "action"
-                ],
+                "actionTypes": ["reaction", "action"],
                 "traits": []
               }
             ]
@@ -328,10 +323,10 @@
           "_key": "!actors.items.effects!lKmBNV3Sgpq9sTtp.jC4ngCoNcUSTuJv9.jsSpZ9WaB1NdAhO4"
         },
         {
-          "name": "Came Back Worse",
+          "name": "Voltou Pior",
           "disabled": false,
           "img": "icons/creatures/magical/spirit-poison-smoke-green.webp",
-          "description": "<p>The Rabble Mawb gains a bonus to all rolls equal to the number of times this feature has been used by this Rabble Mawb.</p>",
+          "description": "<p>A Turba Peluda recebe um bônus em todos os testes igual ao número de vezes que esta característica foi usada por esta Turba Peluda.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -364,10 +359,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "action",
-                  "reaction"
-                ],
+                "actionTypes": ["action", "reaction"],
                 "traits": []
               }
             ]
@@ -409,10 +401,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -428,7 +420,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -497,7 +489,7 @@
   "_id": "lKmBNV3Sgpq9sTtp",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Rabble Mawb",
+    "name": "Turba Peluda",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

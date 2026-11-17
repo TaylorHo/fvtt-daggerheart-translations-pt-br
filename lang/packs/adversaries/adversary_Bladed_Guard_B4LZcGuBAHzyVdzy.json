@@ -1,5 +1,5 @@
 {
-  "name": "Bladed Guard",
+  "name": "Guarda de Lâmina",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Arrest, close gates, make it through the day, pin down",
+    "motivesAndTactics": "Prender, fechar os portões, sobreviver ao dia, encurralar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,13 +36,13 @@
     "notes": "",
     "experiences": {
       "ptgh1mGd4XGIjaAO": {
-        "name": "Local Knowledge",
+        "name": "Conhecimento Local",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>An armored guard bearing a sword and shield painted in the settlement's colors.</p>",
+    "description": "<p>Um guarda blindado portando uma espada e um escudo pintados nas cores do povoado.</p>",
     "attack": {
       "roll": {
         "bonus": 1,
@@ -59,7 +59,7 @@
         },
         "useDefault": false
       },
-      "name": "Longsword",
+      "name": "Espada Longa",
       "img": "icons/weapons/swords/sword-guard.webp",
       "damage": {
         "main": {
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "B4LZcGuBAHzyVdzy",
   "sort": 2000000,
   "prototypeToken": {
-    "name": "Bladed Guard",
+    "name": "Guarda de Lâmina",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Shield Wall",
+      "name": "Muralha de Escudos",
       "type": "feature",
       "_id": "qEn4baWgkjKtmILp",
       "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
       "system": {
-        "description": "<p>A creature who tries to move within Very Close range of the @Lookup[@name] must succeed on an Agility Roll. If additional @Lookup[@name]s are standing in a line alongside the first, and each is within Melee range of another guard in the line, the Difficulty increases by the total number of guards in that line.</p>",
+        "description": "<p>Uma criatura que tentar se mover para alcance Muito Próximo de @Lookup[@name] deve ter sucesso em um Teste de Agilidade. Se outros @Lookup[@name]s estiverem em fila ao lado do primeiro, e cada um estiver em alcance Corpo a Corpo de outro guarda na fila, a Dificuldade aumenta pelo número total de guardas nessa fila.</p>",
         "resource": null,
         "actions": {
           "3lbeEeJdjzPn0MoG": {
@@ -286,7 +284,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Block",
+            "name": "Bloquear",
             "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -313,12 +311,12 @@
       "_key": "!actors.items!B4LZcGuBAHzyVdzy.qEn4baWgkjKtmILp"
     },
     {
-      "name": "Detain",
+      "name": "Deter",
       "type": "feature",
       "_id": "9gizFt9ovKL05DXu",
       "img": "icons/commodities/metal/chain-silver.webp",
       "system": {
-        "description": "<p>Make an attack against a target within Very Close range. On a success, <strong>mark a Stress</strong> to Restrain the target until they break free with a successful attack, Finesse Roll, or Strength Roll.</p>",
+        "description": "<p>Faça um ataque contra um alvo em alcance Muito Próximo. Em caso de sucesso, <strong>marque 1 Fadiga</strong> para Imobilizar o alvo até ele se soltar com um ataque bem-sucedido, Teste de Acuidade ou Teste de Força.</p>",
         "resource": null,
         "actions": {
           "TK5R00afB1RIA6gp": {
@@ -378,7 +376,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/commodities/metal/chain-silver.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -397,7 +395,7 @@
       },
       "effects": [
         {
-          "name": "Detain",
+          "name": "Deter",
           "img": "icons/commodities/metal/chain-silver.webp",
           "transfer": false,
           "_id": "LmzztuktRkwOCy1a",
@@ -406,7 +404,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful attack, Finesse Roll, or Strength Roll.</p>"
+              "description": "<p>Até você se soltar com um ataque bem-sucedido, Teste de Acuidade ou Teste de Força.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -420,11 +418,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained</em> until you break free with a successful attack, Finesse Roll, or Strength Roll.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até se soltar com um ataque bem-sucedido, Teste de Acuidade ou Teste de Força.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {

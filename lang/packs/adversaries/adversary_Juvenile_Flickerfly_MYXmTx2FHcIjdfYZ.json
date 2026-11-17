@@ -1,5 +1,5 @@
 {
-  "name": "Juvenile Flickerfly",
+  "name": "Libélula Cintilante Juvenil",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Collect shiny things, hunt, swoop",
+    "motivesAndTactics": "Coletar coisas brilhantes, caçar, mergulhar em rasante",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A horse-sized insect with iridescent scales and crystalline wings moving faster than the eye can see.</p>",
+    "description": "<p>Um inseto do tamanho de um cavalo com escamas furta-cor e asas cristalinas que se movem mais rápido do que o olho consegue ver.</p>",
     "attack": {
-      "name": "Wing Slash",
+      "name": "Corte de Asa",
       "img": "icons/commodities/biological/wing-insect-blue.webp",
       "roll": {
         "bonus": 3,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "MYXmTx2FHcIjdfYZ",
   "sort": 1700000,
   "prototypeToken": {
-    "name": "Juvenile Flickerfly",
+    "name": "Libélula Cintilante Juvenil",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "FgoP6tlMUxnv5k4Z": {
@@ -263,7 +261,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -292,10 +290,10 @@
       "_key": "!actors.items!MYXmTx2FHcIjdfYZ.6SnqNCeSEY7Q2tSI"
     },
     {
-      "name": "Peerless Accuracy",
+      "name": "Precisão Inigualável",
       "type": "feature",
       "system": {
-        "description": "<p>Before the @Lookup[@name] makes an attack, roll a d6. On a result of 4 or higher, the target's Evasion is halved against this attack.</p>",
+        "description": "<p>Antes de @Lookup[@name] fazer um ataque, role um d6. Com um resultado de 4 ou mais, a Evasão do alvo é reduzida pela metade contra esse ataque.</p>",
         "resource": null,
         "actions": {
           "RrKQktP8MI4YQR5k": {
@@ -346,7 +344,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d6",
+            "name": "Rolar d6",
             "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
             "range": "",
             "baseAction": false,
@@ -367,7 +365,7 @@
       "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
       "effects": [
         {
-          "name": "Peerless Accuracy",
+          "name": "Precisão Inigualável",
           "img": "icons/skills/targeting/crosshair-mark-rough-pink.webp",
           "transfer": false,
           "_id": "pZUEkMkCus4U7h8W",
@@ -397,7 +395,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Your evasion is halved against this attack.</p>",
+          "description": "<p>Sua evasão é reduzida pela metade contra esse ataque.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -420,10 +418,10 @@
       "_key": "!actors.items!MYXmTx2FHcIjdfYZ.PHHEvM6IDFFZ8LSl"
     },
     {
-      "name": "Mind Dance",
+      "name": "Dança Mental",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to create a magically dazzling display that grapples the minds of nearby foes. All targets within Close range must make an Instinct Reaction Roll. For each target who failed, you gain a Fear and the @Lookup[@name] learns one of the target's fears.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para criar uma exibição magicamente deslumbrante que prende as mentes de inimigos próximos. Todos os alvos em alcance Próximo devem fazer um Teste de Reação de Instinto. Para cada alvo que falhar, você ganha 1 de Medo e @Lookup[@name] descobre um dos medos do alvo.</p>",
         "resource": null,
         "actions": {
           "0wL3ieMrXEb2gcxe": {
@@ -469,12 +467,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Mind Dance",
+                "name": "Dança Mental",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -507,10 +505,10 @@
       "_key": "!actors.items!MYXmTx2FHcIjdfYZ.Bt7MqMkPpPpzWksK"
     },
     {
-      "name": "Hallucinatory Breath",
+      "name": "Sopro Alucinógeno",
       "type": "feature",
       "system": {
-        "description": "<p>Countdown (Loop 1d6). When the @Lookup[@name] takes damage for the first time, activate the countdown. When it triggers, the @Lookup[@name] breathes hallucinatory gas on all targets in front of them up to Far range. Targets must succeed on an Instinct Reaction Roll or be tormented by fearful hallucinations. Targets whose fears are known to the @Lookup[@name] have disadvantage on this roll. Targets who fail must mark a Stress and lose a Hope.</p>",
+        "description": "<p>Contagem Regressiva (Ciclo 1d6). Quando @Lookup[@name] sofre dano pela primeira vez, ative a contagem regressiva. Quando disparar, @Lookup[@name] sopra um gás alucinógeno em todos os alvos à sua frente até alcance Distante. Os alvos devem ter sucesso em um Teste de Reação de Instinto ou serão atormentados por alucinações assustadoras. Alvos cujos medos são conhecidos por @Lookup[@name] têm desvantagem nessa rolagem. Alvos que falharem devem marcar 1 Fadiga e perder 1 de Esperança.</p>",
         "resource": null,
         "actions": {
           "USEkCakSzYcZbBwY": {
@@ -593,12 +591,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/air/fog-gas-smoke-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Hallucinatory Breath",
+                "name": "Sopro Alucinógeno",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "far",
@@ -616,7 +614,7 @@
             "type": "countdown",
             "_id": "n8ZuLjwTf2FJ7V6n",
             "systemPath": "actions",
-            "description": "<p>Countdown (Loop 1d6). When the @Lookup[@name] takes damage for the first time, activate the countdown.</p>",
+            "description": "<p>Contagem Regressiva (Ciclo 1d6). Quando @Lookup[@name] sofre dano pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -631,7 +629,7 @@
             },
             "countdown": [
               {
-                "name": "Hallucinatory Breath",
+                "name": "Sopro Alucinógeno",
                 "type": "encounter",
                 "img": "icons/magic/air/fog-gas-smoke-purple.webp",
                 "progress": {
@@ -645,7 +643,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/air/fog-gas-smoke-purple.webp",
             "range": "",
             "baseAction": false,

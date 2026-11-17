@@ -1,5 +1,5 @@
 {
-  "name": "Giant Beastmaster",
+  "name": "Domador de Feras Gigante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "YbbqdLfMo5V5yA0J": {
-        "name": "Animal Handling",
+        "name": "Adestramento",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A leather-clad warrior bearing a whip and massive bow.</p>",
-    "motivesAndTactics": "Command, make a living, maneuver, pin down, protect companion animals",
+    "description": "<p>Um guerreiro vestido de couro que porta um chicote e um arco enorme.</p>",
+    "motivesAndTactics": "Comandar, ganhar a vida, manobrar, imobilizar, proteger animais companheiros",
     "attack": {
-      "name": "Longbow",
+      "name": "Arco Longo",
       "img": "icons/weapons/bows/longbow-recurve-leather-brown.webp",
       "roll": {
         "bonus": 2,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "8VZIgU12cB3cvlyH",
   "sort": 800000,
   "prototypeToken": {
-    "name": "Giant Beastmaster",
+    "name": "Domador de Feras Gigante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Two as One",
+      "name": "Dois em Um",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] is spotlighted, you can also spotlight a Tier 1 animal adversary currently under their control.</p>",
+        "description": "<p>Quando o @Lookup[@name] for colocado em destaque, você também pode colocar em destaque um adversário animal de Patamar 1 atualmente sob seu controle.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!8VZIgU12cB3cvlyH.oUuUwtHMJidzLN6q"
     },
     {
-      "name": "Pinning Strike",
+      "name": "Golpe Imobilizador",
       "type": "feature",
       "system": {
-        "description": "<p>Make a standard attack against a target. On a success, you can <strong>mark a Stress</strong> to pin them to a nearby surface. The pinned target is <em>Restrained</em> until they break free with a successful Finesse or Strength Roll.</p>",
+        "description": "<p>Faça um ataque padrão contra um alvo. Em caso de sucesso, você pode <strong>marcar 1 Fadiga</strong> para prendê-lo a uma superfície próxima. O alvo preso fica <em>Imobilizado</em> até se libertar com um Teste de Acuidade ou de Força bem-sucedido.</p>",
         "resource": null,
         "actions": {
           "ErwQgU4dwBcmZIBX": {
@@ -301,9 +299,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -345,7 +341,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
             "range": "far",
             "baseAction": false,
@@ -366,7 +362,7 @@
       "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
       "effects": [
         {
-          "name": "Pinning Strike",
+          "name": "Golpe Imobilizador",
           "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
           "transfer": false,
           "_id": "vb1sZCOLwDNLsr3j",
@@ -375,7 +371,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Finesse or Strength Roll.</p>"
+              "description": "<p>Até você se libertar com um Teste de Acuidade ou de Força bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -389,11 +385,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained</em> until you break free with a successful Finesse or Strength Roll.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até se libertar com um Teste de Acuidade ou de Força bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -421,10 +415,10 @@
       "_key": "!actors.items!8VZIgU12cB3cvlyH.6ZrDjgnWufJohkp1"
     },
     {
-      "name": "Deadly Companion",
+      "name": "Companheiro Mortal",
       "type": "feature",
       "system": {
-        "description": "<p>Twice per scene, summon a Bear, Dire Wolf, or similar Tier 1 animal adversary under the @Lookup[@name]'s control. The adversary appears at Close range and is immediately spotlighted.</p>",
+        "description": "<p>Duas vezes por cena, invoque um Urso, Lobo Terrível ou adversário animal de Patamar 1 semelhante sob o controle do @Lookup[@name]. O adversário aparece no alcance Próximo e é imediatamente colocado em destaque.</p>",
         "resource": null,
         "actions": {
           "eSRUMqpQDPRG9leg": {
@@ -446,7 +440,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Summon",
+            "name": "Invocar",
             "img": "icons/creatures/mammals/ox-bull-horned-glowing-orange.webp",
             "range": "close",
             "baseAction": false,

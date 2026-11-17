@@ -1,5 +1,5 @@
 {
-  "name": "Deeproot Defender",
+  "name": "Defensor Raiz-Profunda",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Ambush, grab, protect, pummel",
+    "motivesAndTactics": "Emboscar, agarrar, proteger, espancar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,14 +36,14 @@
     "notes": "",
     "experiences": {
       "8ThlnO2VRVTMnfzP": {
-        "name": "Huge",
+        "name": "Enorme",
         "value": 3
       }
     },
     "tier": 1,
-    "description": "<p>A burly vegetable-person with grasping vines.</p>",
+    "description": "<p>Uma criatura vegetal robusta com vinhas agarradoras.</p>",
     "attack": {
-      "name": "Vines",
+      "name": "Vinhas",
       "range": "close",
       "roll": {
         "bonus": 2,
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -141,7 +139,7 @@
   "_id": "9x2xY9zwc3xzbXo5",
   "sort": 1800000,
   "prototypeToken": {
-    "name": "Deeproot Defender",
+    "name": "Defensor Raiz-Profunda",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -234,12 +232,12 @@
   },
   "items": [
     {
-      "name": "Ground Slam",
+      "name": "Pancada no Chão",
       "type": "feature",
       "_id": "0DSCzAFXy0hV4afJ",
       "img": "icons/magic/earth/barrier-stone-brown-green.webp",
       "system": {
-        "description": "<p>Slam the ground, knocking all targets within Very Close range back to Far range. Each target knocked back this way must mark a Stress.</p>",
+        "description": "<p>Golpeie o chão, empurrando todos os alvos em alcance Muito Próximo até alcance Distante. Cada alvo empurrado dessa forma deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "55hCZsJQhJNcZ0lX": {
@@ -284,12 +282,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Stress Damage",
+            "name": "Dano de Fadiga",
             "img": "icons/magic/earth/barrier-stone-brown-green.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Ground Slam",
+                "name": "Pancada no Chão",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -320,12 +318,12 @@
       "_key": "!actors.items!9x2xY9zwc3xzbXo5.0DSCzAFXy0hV4afJ"
     },
     {
-      "name": "Grab and Drag",
+      "name": "Agarrar e Arrastar",
       "type": "feature",
       "_id": "rreGFW5TbhUoZf2T",
       "img": "icons/magic/nature/root-vine-entangled-hand.webp",
       "system": {
-        "description": "<p>Make an attack against a target within Close range. On a success, <strong>spend a Fear</strong> to pull them into Melee range, deal <strong>1d6+2</strong> physical damage, and <em>Restrain</em> them until the @Lookup[@name] takes Severe damage.</p>",
+        "description": "<p>Faça um ataque contra um alvo em alcance Próximo. Em caso de sucesso, <strong>gaste 1 de Medo</strong> para puxá-lo até alcance Corpo a Corpo, causar <strong>1d6+2</strong> de dano físico e <em>Imobilizá-lo</em> até o @Lookup[@name] sofrer dano Grave.</p>",
         "resource": null,
         "actions": {
           "nQ3vXrrKBizZoaDt": {
@@ -406,7 +404,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/nature/root-vine-entangled-hand.webp",
             "range": "close",
             "baseAction": false,
@@ -425,7 +423,7 @@
       },
       "effects": [
         {
-          "name": "Grab and Drag",
+          "name": "Agarrar e Arrastar",
           "img": "icons/magic/nature/root-vine-entangled-hand.webp",
           "transfer": false,
           "_id": "F3E7fiz01AbF2kr5",
@@ -434,7 +432,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until the Deeproot Defender takes Severe damage.</p>"
+              "description": "<p>Até o Deeproot Defender sofrer dano Grave.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -448,11 +446,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained </em>until the Defender takes Severe damage.</p>",
+          "description": "<p>Você fica <em>Imobilizado </em>até o Defender sofrer dano Grave.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {

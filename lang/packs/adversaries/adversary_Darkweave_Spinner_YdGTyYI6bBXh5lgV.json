@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Darkweave Spinner",
+  "name": "Fiandeira da Teia Sombria",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A boar-sized arachnid woven from primordial shadow-silk.</p>",
+    "description": "<p>Um aracnídeo do tamanho de um javali, tecido de seda de sombra primordial.</p>",
     "tier": 1,
-    "motivesAndTactics": "Bite, stick to the darkness",
+    "motivesAndTactics": "Morder, aderir à escuridão",
     "difficulty": 12,
     "damageThresholds": {
       "major": 6,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fangs",
+      "name": "Presas",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "tTRl92oMyMRbubFx": {
-        "name": "Holes",
+        "name": "Buracos",
         "value": 2,
         "description": ""
       },
       "U1aOZCi0rn0JgC3L": {
-        "name": "Webs",
+        "name": "Teias",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Wrap in Shadow-Silk",
+      "name": "Envolver em Seda de Sombra",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, the target is <em>Vulnerable</em> and <em>Restrained</em> until they succeed on a Strength Roll (10).</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, o alvo fica <em>Vulnerável</em> e <em>Restrito</em> até ser bem-sucedido em um Teste de Força (10).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -226,15 +224,12 @@
       "img": "icons/commodities/materials/material-webbing.webp",
       "effects": [
         {
-          "name": "Wrapped In Silk",
+          "name": "Envolvido em Seda",
           "disabled": false,
           "img": "icons/commodities/materials/material-webbing.webp",
-          "description": "<p>You are <em>Vulnerable</em> and <em>Restrained</em> until you succeed on a Strength Roll (10).</p>",
+          "description": "<p>Você está <em>Vulnerável</em> e <em>Restrito</em> até ser bem-sucedido em um Teste de Força (10).</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable",
-            "restrain"
-          ],
+          "statuses": ["vulnerable", "restrain"],
           "system": {
             "changes": [],
             "duration": {
@@ -282,11 +277,11 @@
       "_key": "!actors.items!YdGTyYI6bBXh5lgV.15egsMZB5SaStcBh"
     },
     {
-      "name": "Shadow Fang",
+      "name": "Presa Sombria",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Spinner makes a successful attack against a target within Melee range, you can <strong>spend a Fear</strong> to make the target Shaky until they succeed on an Instinct Roll (10). While Shaky, the target has disadvantage on attack rolls.</p>",
+        "description": "<p>Quando a Fiandeira faz um ataque bem-sucedido contra um alvo em alcance Corpo a Corpo, você pode <strong>gastar um Medo</strong> para deixar o alvo Trêmulo até que seja bem-sucedido em um Teste de Instinto (10). Enquanto Trêmulo, o alvo tem desvantagem em testes de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -330,7 +325,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -341,10 +336,10 @@
       "img": "icons/magic/death/skull-energy-light-white.webp",
       "effects": [
         {
-          "name": "Shaky",
+          "name": "Trêmulo",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-white.webp",
-          "description": "<p>You are Shaky until you succeed on an Instinct Roll (10). While Shaky, you have disadvantage on attack rolls.</p>",
+          "description": "<p>Você está Trêmulo até ser bem-sucedido em um Teste de Instinto (10). Enquanto Trêmulo, você tem desvantagem em testes de ataque.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -405,7 +400,7 @@
   "_id": "YdGTyYI6bBXh5lgV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Darkweave Spinner",
+    "name": "Fiandeira da Teia Sombria",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Crimson Lepus",
+  "name": "Lepus Carmesim",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A red-eyed rabbit that thinks only of murder.</p>",
+    "description": "<p>Um coelho de olhos vermelhos que só pensa em assassinato.</p>",
     "tier": 3,
-    "motivesAndTactics": "Be cute, go for the throat, hop around",
+    "motivesAndTactics": "Ser fofo, ir à jugular, saltitar",
     "difficulty": 18,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Leaping Bite",
+      "name": "Mordida Saltitante",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "Mv3MJSBlHLyGRmeX": {
-        "name": "Vicious",
+        "name": "Cruel",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Lepus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O Lepus pode receber o foco até três vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!vpzDW0774xXJhNHy.gYRtsPelHA8TvT0K"
     },
     {
-      "name": "\"Awww...\"",
+      "name": "\"Aaaah...\"",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Lepus first appears, it is Too Cute. To attack a Too Cute creature, a PC must succeed on an Instinct Reaction Roll (20). Clear the Too Cute condition if a PC deals damage to the Lepus or if the Lepus attacks a PC.</p>",
+        "description": "<p>Quando o Lepus aparece pela primeira vez, ele está Fofo Demais. Para atacar uma criatura Fofa Demais, um PJ deve ser bem-sucedido em um Teste de Reação de Instinto (20). Remova a condição Fofo Demais se um PJ causar dano ao Lepus ou se o Lepus atacar um PJ.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -220,7 +218,7 @@
               "difficulty": 20,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -231,7 +229,7 @@
       "img": "icons/magic/life/heart-glowing-red.webp",
       "effects": [
         {
-          "name": "Too Cute",
+          "name": "Fofo Demais",
           "type": "base",
           "system": {
             "changes": [],
@@ -261,7 +259,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>A PC must succeed on an Instinct Reaction Roll (20). Clear the Too Cute condition if a PC deals damage to the Lepus or if the Lepus attacks a PC.</p>",
+          "description": "<p>Um PJ deve ser bem-sucedido em um Teste de Reação de Instinto (20). Remova a condição Fofo Demais se um PJ causar dano ao Lepus ou se o Lepus atacar um PJ.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -284,11 +282,11 @@
       "_key": "!actors.items!vpzDW0774xXJhNHy.gS3GnrlC4yBT6hz0"
     },
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Lepus makes a successful attack, all PCs within Close range lose a Hope, and you gain a Fear.</p>",
+        "description": "<p>Quando o Lepus faz um ataque bem-sucedido, todos os PJs em alcance Próximo perdem uma Esperança e você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -330,7 +328,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -369,11 +367,11 @@
       "_key": "!actors.items!vpzDW0774xXJhNHy.KNHB4gxzIj0S4pS6"
     },
     {
-      "name": "Leaping Jugular Strike",
+      "name": "Golpe Saltitante na Jugular",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Lepus leap into Melee range of a target within Far range and make an attack against them. On a success, deal <strong>3d20</strong> direct physical damage. If the target marks HP from this attack, they become <em>Vulnerable</em> until they clear a HP.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Lepus saltar para o alcance Corpo a Corpo de um alvo em alcance Distante e fazer um ataque contra ele. Em caso de sucesso, cause <strong>3d20</strong> de dano físico direto. Se o alvo marcar PV por esse ataque, ele fica <em>Vulnerável</em> até limpar 1 PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -399,9 +397,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -464,7 +460,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -475,14 +471,12 @@
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [
         {
-          "name": "Leaping Jugular Strike",
+          "name": "Golpe Saltitante na Jugular",
           "disabled": false,
           "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you clear a HP.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até limpar 1 PV.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -530,11 +524,11 @@
       "_key": "!actors.items!vpzDW0774xXJhNHy.vF19a5N2S1OP9Tsr"
     },
     {
-      "name": "Evasive",
+      "name": "Evasivo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Lepus would take damage, roll a <strong>d6</strong>. On a 4 or higher, halve the damage. If the damage was already halved, the Lepus takes no damage.</p>",
+        "description": "<p>Quando o Lepus sofreria dano, role um <strong>d6</strong>. Com 4 ou mais, reduza o dano pela metade. Se o dano já tiver sido reduzido pela metade, o Lepus não sofre dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -588,7 +582,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Evade",
+            "name": "Evadir",
             "range": ""
           }
         },
@@ -607,11 +601,11 @@
       "_key": "!actors.items!vpzDW0774xXJhNHy.DyFTHR3agasbQMcN"
     },
     {
-      "name": "\"Run Away!\"",
+      "name": "\"Fujam!\"",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC with no Hope takes the spotlight within Very Far range of the Lepus, the PC must succeed on a Presence Reaction Roll or use their action to flee the battlefield until they <strong>spend a Hope</strong> to return.</p>",
+        "description": "<p>Quando um PJ sem Esperança recebe o foco em alcance Muito Distante do Lepus, o PJ deve ser bem-sucedido em um Teste de Reação de Presença ou usar sua ação para fugir do campo de batalha até <strong>gastar uma Esperança</strong> para retornar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -665,7 +659,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll To Flee",
+            "name": "Rolar para Fugir",
             "range": "veryFar"
           }
         },
@@ -687,7 +681,7 @@
   "_id": "vpzDW0774xXJhNHy",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Crimson Lepus",
+    "name": "Lepus Carmesim",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

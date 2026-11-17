@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Chicken-foot Hut",
+  "name": "Cabana de Pés de Galinha",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A tall wooden shack that moves around on giant chicken legs.</p>",
+    "description": "<p>Um casebre alto de madeira que se move sobre gigantescas pernas de galinha.</p>",
     "tier": 2,
-    "motivesAndTactics": "Claw, protect master, run and jump, trample",
+    "motivesAndTactics": "Arranhar, proteger o mestre, correr e saltar, pisotear",
     "difficulty": 16,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Clawed Feet",
+      "name": "Pés com Garras",
       "img": "icons/creatures/claws/claw-hooked-curved.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -108,7 +108,7 @@
     },
     "experiences": {
       "LGZNshIAT4Gnm5lC": {
-        "name": "Forests",
+        "name": "Florestas",
         "value": 2,
         "description": ""
       }
@@ -138,11 +138,11 @@
   },
   "items": [
     {
-      "name": "Fast",
+      "name": "Rápida",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Hut can move up to Far range when spotlighted.</p>",
+        "description": "<p>A Cabana pode se mover até o alcance Distante quando recebe o foco.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +162,11 @@
       "_key": "!actors.items!pOtg2aQs8iI3GzMV.2GmCyknwoYSebFLO"
     },
     {
-      "name": "Double Strike",
+      "name": "Golpe Duplo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make two standard attacks. If both attacks succeed against the same target, combine the damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer dois ataques padrão. Se ambos os ataques forem bem-sucedidos contra o mesmo alvo, combine o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -205,7 +205,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -224,11 +224,11 @@
       "_key": "!actors.items!pOtg2aQs8iI3GzMV.N9tz3fFJ5DFerV0u"
     },
     {
-      "name": "Pin",
+      "name": "Prender",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Hut makes a successful standard attack, you can <strong>mark a Stress</strong> to temporarily <em>Restrain</em> the target. The Hut drags the <em>Restrained</em> target when it moves.</p>",
+        "description": "<p>Quando a Cabana faz um ataque padrão bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para <em>Restringir</em> o alvo temporariamente. A Cabana arrasta o alvo <em>Restrito</em> quando se move.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -272,7 +272,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -283,10 +283,10 @@
       "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
       "effects": [
         {
-          "name": "Pinned",
+          "name": "Preso",
           "disabled": false,
           "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
-          "description": "<p>You are <em>Restrained</em>. The Hut drags you along when it moves.</p>",
+          "description": "<p>Você está <em>Restrito</em>. A Cabana arrasta você quando se move.</p>",
           "transfer": false,
           "statuses": [
             "restrained"
@@ -341,7 +341,7 @@
   "_id": "pOtg2aQs8iI3GzMV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Chicken-foot Hut",
+    "name": "Cabana de Pés de Galinha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

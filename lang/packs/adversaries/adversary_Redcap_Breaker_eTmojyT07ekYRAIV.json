@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Redcap Breaker",
+  "name": "Quebrador Barrete-Vermelho",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "bruiser",
-    "description": "<p>A large, brutish fey creature who has a conical red cap sealed on their head with candle wax.</p>",
+    "description": "<p>Uma criatura feérica grande e brutal, com um barrete vermelho cônico selado na cabeça com cera de vela.</p>",
     "tier": 1,
-    "motivesAndTactics": "Beat chest and bellow, ragdoll puny enemies, rush forward recklessly",
+    "motivesAndTactics": "Bater no peito e berrar, arremessar inimigos fracos como bonecos, avançar de forma imprudente",
     "difficulty": 13,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Wooden Mallet",
+      "name": "Marreta de Madeira",
       "img": "icons/weapons/hammers/hammer-mallet-wood-banded.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "5MOOCyOKl006nGGe": {
-        "name": "Bones",
+        "name": "Ossos",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Backbreaker",
+      "name": "Quebra-Costas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, deal <strong>3d4+10</strong> physical damage. A target who marks HP from this attack is <em>Restrained</em> until they clear a HP.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer um ataque contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, cause <strong>3d4+10</strong> de dano físico. Um alvo que marcar PV por este ataque fica <em>Restringido</em> até limpar um PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -233,7 +229,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -244,14 +240,12 @@
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "effects": [
         {
-          "name": "Broken Back",
+          "name": "Costas Quebradas",
           "disabled": false,
           "img": "icons/skills/wounds/injury-pain-body-orange.webp",
-          "description": "<p>You are <em>Restrained</em> until you clear a HP.</p>",
+          "description": "<p>Você fica <em>Restringido</em> até limpar um PV.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -299,11 +293,11 @@
       "_key": "!actors.items!eTmojyT07ekYRAIV.7Hb61RwIDV2By15p"
     },
     {
-      "name": "Kneecapper",
+      "name": "Estraçalha-Joelhos",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Breaker makes a successful standard attack, you can <strong>spend a Fear</strong> to make the target temporarily <em>Vulnerable</em>.</p>",
+        "description": "<p>Quando o Quebrador faz um ataque padrão bem-sucedido, você pode <strong>gastar um Medo</strong> para deixar o alvo temporariamente <em>Vulnerável</em>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -347,7 +341,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -358,14 +352,12 @@
       "img": "icons/skills/wounds/bone-broken-marrow-yellow.webp",
       "effects": [
         {
-          "name": "Kneecapped",
+          "name": "Joelhos Estraçalhados",
           "disabled": false,
           "img": "icons/skills/wounds/bone-broken-marrow-yellow.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -416,7 +408,7 @@
   "_id": "eTmojyT07ekYRAIV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Redcap Breaker",
+    "name": "Quebrador Barrete-Vermelho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

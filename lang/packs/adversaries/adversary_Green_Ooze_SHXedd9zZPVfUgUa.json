@@ -1,5 +1,5 @@
 {
-  "name": "Green Ooze",
+  "name": "Gosma Verde",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Camouflage, consume and multiply, creep up, envelop",
+    "motivesAndTactics": "Camuflar-se, consumir e multiplicar, aproximar-se furtivamente, envolver",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "Ti0QFAMro3FpetoT": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A moving mound of translucent green slime.</p>",
+    "description": "<p>Um monte móvel de lodo verde translúcido.</p>",
     "attack": {
-      "name": "Ooze Appendage",
+      "name": "Apêndice de Gosma",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "SHXedd9zZPVfUgUa",
   "sort": 3500000,
   "prototypeToken": {
-    "name": "Green Ooze",
+    "name": "Gosma Verde",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Slow",
+      "name": "Lento",
       "type": "feature",
       "_id": "DquXi9yCNsPAFEmK",
       "img": "icons/magic/time/hourglass-brown-orange.webp",
       "system": {
-        "description": "<p>When you spotlight the @Lookup[@name] and they don't have a token on their stat block, they can't act yet. Place a token on their stat block and describe what they're preparing to do. When you spotlight the @Lookup[@name] and they have a token on their stat block, clear the token and they can act.</p>",
+        "description": "<p>Quando você der destaque a @Lookup[@name] e ele não tiver um marcador em sua ficha, ele ainda não pode agir. Coloque um marcador em sua ficha e descreva o que ele está se preparando para fazer. Quando você der destaque a @Lookup[@name] e ele tiver um marcador em sua ficha, remova o marcador e ele pode agir.</p>",
         "resource": {
           "type": "simple",
           "value": 0,
@@ -268,12 +266,12 @@
       "_key": "!actors.items!SHXedd9zZPVfUgUa.DquXi9yCNsPAFEmK"
     },
     {
-      "name": "Acidic Form",
+      "name": "Forma Ácida",
       "type": "feature",
       "_id": "gJWoUSTGwVsJwPmK",
       "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder marcar um Espaço de Armadura, deve marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "nU4xpjruOvskcmiA": {
@@ -318,7 +316,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage Armor",
+            "name": "Danificar Armadura",
             "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
             "range": "",
             "baseAction": false,
@@ -345,12 +343,12 @@
       "_key": "!actors.items!SHXedd9zZPVfUgUa.gJWoUSTGwVsJwPmK"
     },
     {
-      "name": "Envelop",
+      "name": "Envolver",
       "type": "feature",
       "_id": "Sm9Sk4mSvcq6PkmR",
       "img": "icons/creatures/slimes/slime-face-melting-green.webp",
       "system": {
-        "description": "<p>Make a standard attack against a target within Melee range. On a success, the @Lookup[@name] envelops them and the target must mark 2 Stress. The target must mark an additional Stress when they make an action roll. If the @Lookup[@name] takes Severe damage, the target is freed.</p>",
+        "description": "<p>Realize um ataque padrão contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, o @Lookup[@name] o envolve e o alvo deve marcar 2 Fadiga. O alvo deve marcar 1 Fadiga adicional quando realizar uma rolagem de ação. Se o @Lookup[@name] sofrer dano Grave, o alvo é libertado.</p>",
         "resource": null,
         "actions": {
           "fSxq0AL6YwZs7OAH": {
@@ -380,9 +378,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -442,7 +438,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/slimes/slime-face-melting-green.webp",
             "range": "",
             "baseAction": false,
@@ -461,7 +457,7 @@
       },
       "effects": [
         {
-          "name": "Envelop",
+          "name": "Envolver",
           "img": "icons/creatures/slimes/slime-face-melting-green.webp",
           "transfer": false,
           "_id": "yk5kR5OVLCgDWfgY",
@@ -470,7 +466,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>If the Green Ooze takes Severe damage, the target is freed.</p>"
+              "description": "<p>Se a Gosma Verde sofrer dano Grave, o alvo é libertado.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -484,7 +480,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You must mark an additional Stress when you make an action roll. If the Ooze takes Severe damage, you are freed.</p>",
+          "description": "<p>Você deve marcar 1 Fadiga adicional quando realizar uma rolagem de ação. Se a Gosma sofrer dano Grave, você é libertado.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -514,12 +510,12 @@
       "_key": "!actors.items!SHXedd9zZPVfUgUa.Sm9Sk4mSvcq6PkmR"
     },
     {
-      "name": "Split",
+      "name": "Dividir",
       "type": "feature",
       "_id": "qNhrEK2YF8e3ljU6",
       "img": "icons/creatures/slimes/slime-movement-pseudopods-green.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] has 3 or more HP marked, you can <strong>spend a Fear</strong> to split them into two @UUID[Compendium.daggerheart.adversaries.Actor.aLkLFuVoKz2NLoBK]{Tiny Green Oozes} (with no marked HP or Stress). Immediately spotlight both of them.</p>",
+        "description": "<p>Quando o @Lookup[@name] tem 3 ou mais PV marcados, você pode <strong>gastar 1 Medo</strong> para dividi-lo em duas @UUID[Compendium.daggerheart.adversaries.Actor.aLkLFuVoKz2NLoBK]{Gosmas Verdes Minúsculas} (sem PV ou Fadiga marcados). Dê Destaque imediatamente a ambas.</p>",
         "resource": null,
         "actions": {
           "J8U7dw3cDSsEirr5": {
@@ -555,7 +551,7 @@
                 "count": "2"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self",
             "triggers": [],
             "areas": []

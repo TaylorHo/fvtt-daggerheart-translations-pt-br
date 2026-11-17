@@ -1,5 +1,5 @@
 {
-  "name": "Demon of Avarice",
+  "name": "Demônio da Avareza",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Consume, fuel greed, sow dissent",
+    "motivesAndTactics": "Consumir, alimentar a ganância, semear a discórdia",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "nXs1RXkwCvr3O9J0": {
-        "name": "Manipulation",
+        "name": "Manipulação",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A regal cloaked monstrosity with circular horns adorned with treasure.</p>",
+    "description": "<p>Uma monstruosidade régia encapuzada com chifres circulares adornados de tesouros.</p>",
     "attack": {
-      "name": "Hungry Maw",
+      "name": "Bocarra Faminta",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "roll": {
         "bonus": 2,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "pnyjIGxxvurcWmTv",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Demon of Avarice",
+    "name": "Demônio da Avareza",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Money Talks",
+      "name": "Dinheiro Fala",
       "type": "feature",
       "system": {
-        "description": "<p>Attacks against the @Lookup[@name] are made with disadvantage unless the attacker spends a handful of gold. This @Lookup[@name] starts with a number of handfuls equal to the number of PCs. When a target marks HP from the @Lookup[@name]'s standard attack, they can spend a handful of gold instead of marking HP (1 handful per HP). Add a handful of gold to the @Lookup[@name] for each handful of gold spent by PCs on this feature.</p>",
+        "description": "<p>Ataques contra o @Lookup[@name] são feitos com desvantagem, a menos que o atacante gaste um punhado de ouro. Este @Lookup[@name] começa com uma quantidade de punhados igual ao número de PJs. Quando um alvo marca PV do ataque padrão do @Lookup[@name], pode gastar um punhado de ouro em vez de marcar PV (1 punhado por PV). Adicione um punhado de ouro ao @Lookup[@name] para cada punhado de ouro gasto pelos PJs nesta característica.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!pnyjIGxxvurcWmTv.qoQinutpe4Itohp0"
     },
     {
-      "name": "Number Must Go Up",
+      "name": "O Número Deve Subir",
       "type": "feature",
       "system": {
-        "description": "<p>Add a bonus to the @Lookup[@name]'s attack rolls equal to the number of handfuls of gold they have.</p>",
+        "description": "<p>Adicione um bônus às jogadas de ataque do @Lookup[@name] igual ao número de punhados de ouro que ele possui.</p>",
         "resource": {
           "type": "simple",
           "value": 0,
@@ -284,7 +282,7 @@
       "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
       "effects": [
         {
-          "name": "Numbers Must Go Up",
+          "name": "Os Números Devem Subir",
           "type": "base",
           "system": {
             "changes": [
@@ -305,9 +303,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -321,7 +317,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Add a bonus to the Demon's attack rolls equal to the number of handfuls of gold they have.</p>",
+          "description": "<p>Adicione um bônus às jogadas de ataque do Demônio igual ao número de punhados de ouro que ele possui.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -345,10 +341,10 @@
       "_key": "!actors.items!pnyjIGxxvurcWmTv.ILocyy5hvyQXXjhs"
     },
     {
-      "name": "Money Is Time",
+      "name": "Dinheiro É Tempo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend 3 handfuls of gold (or a Fear)</strong> to spotlight [[/r 1d4+1]] allies.</p>",
+        "description": "<p><strong>Gaste 3 punhados de ouro (ou 1 de Medo)</strong> para dar o destaque a [[/r 1d4+1]] aliados.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "action",

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cursed Merfolk",
+  "name": "Povo-do-Mar Amaldiçoado",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "standard",
-    "description": "<p>A half-fish, half-human creature psychically bound to serve the Deep Dwellers.</p>",
+    "description": "<p>Uma criatura meio peixe, meio humana, psiquicamente obrigada a servir aos Habitantes das Profundezas.</p>",
     "tier": 3,
-    "motivesAndTactics": "Separate enemies, strike from the shadows, use aquatic environment to advantage",
+    "motivesAndTactics": "Separar inimigos, atacar das sombras, usar o ambiente aquático a seu favor",
     "difficulty": 16,
     "damageThresholds": {
       "major": 18,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Chained Trident",
+      "name": "Tridente Acorrentado",
       "img": "icons/weapons/polearms/trident-silver-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "sUEIg2jbfa0HSYjo": {
-        "name": "Aquatic",
+        "name": "Aquático",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Fish-Tailed",
+      "name": "Cauda de Peixe",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Merfolk is <em>Vulnerable</em> out of the water.</p>",
+        "description": "<p>O Povo-do-Mar é <em>Vulnerável</em> fora da água.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -154,7 +152,7 @@
       "img": "icons/creatures/fish/fish-bluefin-yellow-blue.webp",
       "effects": [
         {
-          "name": "Fish-Tailed",
+          "name": "Cauda de Peixe",
           "type": "base",
           "system": {
             "changes": [],
@@ -184,12 +182,10 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Merfolk is <em>Vulnerable</em> out of the water.</p>",
+          "description": "<p>O Povo-do-Mar é <em>Vulnerável</em> fora da água.</p>",
           "tint": "#ffffff",
           "transfer": true,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "showIcon": 1,
           "folder": null,
           "sort": 0,
@@ -209,11 +205,11 @@
       "_key": "!actors.items!vw7PTv0hdDRCXhus.qa0hFDclsItQPYVs"
     },
     {
-      "name": "Gang Up",
+      "name": "Atacar em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Merfolk gains a +2 bonus to attack rolls against targets within Melee range of one or more allies.</p>",
+        "description": "<p>O Povo-do-Mar ganha um bônus de +2 em testes de ataque contra alvos em alcance Corpo a Corpo de um ou mais aliados.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -225,7 +221,7 @@
       "img": "icons/skills/melee/swords-triple-orange.webp",
       "effects": [
         {
-          "name": "Gang Up",
+          "name": "Atacar em Grupo",
           "type": "base",
           "system": {
             "changes": [
@@ -247,9 +243,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -271,7 +265,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Merfolk gains a +2 bonus to attack rolls against targets within Melee range of one or more allies.</p>",
+          "description": "<p>O Povo-do-Mar ganha um bônus de +2 em testes de ataque contra alvos em alcance Corpo a Corpo de um ou mais aliados.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -294,11 +288,11 @@
       "_key": "!actors.items!vw7PTv0hdDRCXhus.ZUgXhnNY23yrVGo8"
     },
     {
-      "name": "\"Get Over Here!\"",
+      "name": "\"Venha Para Cá!\"",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Merfolk makes a successful standard attack against a target beyond Melee range, you can <strong>mark a Stress</strong> to pull them into Melee range. If you do, you can <strong>spend a Fear</strong> to make a standard attack with advantage against the target.</p>",
+        "description": "<p>Quando o Povo-do-Mar faz um ataque padrão bem-sucedido contra um alvo além do alcance Corpo a Corpo, você pode <strong>marcar 1 Fadiga</strong> para puxá-lo para o alcance Corpo a Corpo. Se fizer isso, você pode <strong>gastar um Medo</strong> para fazer um ataque padrão com vantagem contra o alvo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -337,7 +331,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "FOBTbOiof2KTjY2d": {
@@ -361,9 +355,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -421,7 +413,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "range": "",
             "img": "icons/skills/melee/strike-polearm-light-orange.webp"
           }
@@ -444,7 +436,7 @@
   "_id": "vw7PTv0hdDRCXhus",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cursed Merfolk",
+    "name": "Povo-do-Mar Amaldiçoado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

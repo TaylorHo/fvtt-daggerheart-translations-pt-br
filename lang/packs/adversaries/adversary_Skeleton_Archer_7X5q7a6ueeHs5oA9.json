@@ -1,5 +1,5 @@
 {
-  "name": "Skeleton Archer",
+  "name": "Esqueleto Arqueiro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Perforate distracted targets, play dead, steal skin",
+    "motivesAndTactics": "Perfurar alvos distraídos, fingir-se de morto, roubar pele",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A fragile skeleton with a shortbow and arrows.</p>",
+    "description": "<p>Um esqueleto frágil com um arco curto e flechas.</p>",
     "attack": {
-      "name": "Shortbow",
+      "name": "Arco Curto",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -68,9 +68,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "7X5q7a6ueeHs5oA9",
   "sort": 1300000,
   "prototypeToken": {
-    "name": "Skeleton Archer",
+    "name": "Esqueleto Arqueiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Opportunist",
+      "name": "Oportunista",
       "type": "feature",
       "_id": "6mL2FQ9pQdfoDNzG",
       "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
       "system": {
-        "description": "<p>When two or more adversaries are within Very Close range of a creature, all damage the @Lookup[@name] deals to that creature is doubled.</p>",
+        "description": "<p>Quando dois ou mais adversários estão dentro do alcance Muito Próximo de uma criatura, todo o dano que o @Lookup[@name] causa a essa criatura é dobrado.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -245,7 +243,7 @@
       },
       "effects": [
         {
-          "name": "Opportunist",
+          "name": "Oportunista",
           "type": "base",
           "system": {
             "changes": [
@@ -274,7 +272,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When two or more adversaries are within Very Close range of a creature, all damage the Skeleton Archer deals to that creature is doubled.</p>",
+          "description": "<p>Quando dois ou mais adversários estão dentro do alcance Muito Próximo de uma criatura, todo o dano que o Esqueleto Arqueiro causa a essa criatura é dobrado.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -298,12 +296,12 @@
       "_key": "!actors.items!7X5q7a6ueeHs5oA9.6mL2FQ9pQdfoDNzG"
     },
     {
-      "name": "Deadly Shot",
+      "name": "Tiro Mortal",
       "type": "feature",
       "_id": "4w20xpEo6L1fgro3",
       "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
       "system": {
-        "description": "<p>Make an attack against a Vulnerable target within Far range. On a success, <strong>mark a Stress</strong> to deal <strong>3d4+8</strong> physical damage.</p>",
+        "description": "<p>Faça um ataque contra um alvo Vulnerável dentro do alcance Distante. Em caso de sucesso, <strong>marque um Fadiga</strong> para causar <strong>3d4+8</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "nKmxl3D7g4p7Zcub": {
@@ -342,9 +340,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -381,7 +377,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
             "range": "far",
             "baseAction": false,

@@ -1,5 +1,5 @@
 {
-  "name": "Dryad",
+  "name": "Dríade",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Command, cultivate, drive out, preserve the forest",
+    "motivesAndTactics": "Comandar, cultivar, expulsar, preservar a floresta",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "H8rksUtFoQJZWnef": {
-        "name": "Forest Knowledge",
+        "name": "Conhecimento da Floresta",
         "description": "",
         "value": 4
       }
     },
     "tier": 3,
-    "description": "<p>A nature spirit in the form of a humanoid tree.</p>",
+    "description": "<p>Um espírito da natureza na forma de uma árvore humanoide.</p>",
     "attack": {
-      "name": "Deadfall Shortbow",
+      "name": "Arco Curto de Armadilha",
       "img": "icons/weapons/bows/longbow-recurve-skull-brown.webp",
       "roll": {
         "bonus": 4,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "wR7cFKrHvRzbzhBT",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Dryad",
+    "name": "Dríade",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Bramble Patch",
+      "name": "Matagal de Espinhos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to target a point within Far range. Create a patch of thorns that covers an area within Close range of that point. All targets within that area take <strong>2d6+2</strong> physical damage when they act. A target must succeed on a Finesse Roll or deal more than 20 damage to the @Lookup[@name] with an attack to leave the area.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher um ponto em alcance Distante. Crie um matagal de espinhos que cobre uma área em alcance Próximo desse ponto. Todos os alvos nessa área sofrem <strong>2d6+2</strong> de dano físico quando agem. Um alvo deve ter sucesso em um Teste de Acuidade ou causar mais de 20 de dano ao @Lookup[@name] com um ataque para sair da área.</p>",
         "resource": null,
         "actions": {
           "iCJdIs57hfh5Cb0u": {
@@ -293,12 +291,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/nature/root-vines-grow-brown.webp",
             "range": "",
             "areas": [
               {
-                "name": "Bramble Patch",
+                "name": "Matagal de Espinhos",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -316,7 +314,7 @@
             "type": "damage",
             "_id": "cpZ5c9d3opSA4BN9",
             "systemPath": "actions",
-            "description": "<p>All targets within the area take <strong>2d6+2</strong> physical damage when they act.</p>",
+            "description": "<p>Todos os alvos na área sofrem <strong>2d6+2</strong> de dano físico quando agem.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -339,9 +337,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -357,7 +353,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/nature/root-vines-grow-brown.webp",
             "range": "",
             "baseAction": false,
@@ -386,10 +382,10 @@
       "_key": "!actors.items!wR7cFKrHvRzbzhBT.i9HbArl09dX2BvzY"
     },
     {
-      "name": "Grow Saplings",
+      "name": "Fazer Brotar Mudas",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to grow three @UUID[Compendium.daggerheart.adversaries.Actor.o63nS0k3wHu6EgKP]{Treant Sapling Minions}, who appear at Close range and immediately take the spotlight.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer brotar três @UUID[Compendium.daggerheart.adversaries.Actor.o63nS0k3wHu6EgKP]{Lacaios Mudas de Ent}, que aparecem em alcance Próximo e recebem imediatamente o destaque.</p>",
         "resource": null,
         "actions": {
           "R84DdS0OIx2cUt1w": {
@@ -416,7 +412,7 @@
                 "count": "3"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []
@@ -440,10 +436,10 @@
       "_key": "!actors.items!wR7cFKrHvRzbzhBT.yKWQLL3qsEZlQjyb"
     },
     {
-      "name": "We Are All One",
+      "name": "Somos Todos Um",
       "type": "feature",
       "system": {
-        "description": "<p>When an ally dies within Close range, you can spend a Fear to clear 2 HP and 2 Stress as the fallen ally's life force is returned to the forest.</p>",
+        "description": "<p>Quando um aliado morre em alcance Próximo, você pode gastar 1 de Medo para apagar 2 PV e 2 Fadiga enquanto a força vital do aliado caído retorna à floresta.</p>",
         "resource": null,
         "actions": {
           "SrhuW3mfOuqg1ys6": {
@@ -530,12 +526,12 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/orb-hands-pink.webp",
             "range": "self",
             "areas": [
               {
-                "name": "We Are All One",
+                "name": "Somos Todos Um",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",

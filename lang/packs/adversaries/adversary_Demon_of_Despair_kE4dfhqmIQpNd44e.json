@@ -1,5 +1,5 @@
 {
-  "name": "Demon of Despair",
+  "name": "Demônio do Desespero",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Make fear contagious, stick to the shadows, undermine resolve",
+    "motivesAndTactics": "Tornar o medo contagioso, ficar nas sombras, minar a determinação",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "qRJvn5sBs24dY4FX": {
-        "name": "Manipulation",
+        "name": "Manipulação",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A cloaked demon-creature with long limbs, seeping shadows.</p>",
+    "description": "<p>Uma criatura demoníaca encapuzada de membros longos, com sombras escorrendo.</p>",
     "attack": {
-      "name": "Miasma Bolt",
+      "name": "Raio de Miasma",
       "img": "icons/magic/acid/projectile-smoke-glowing.webp",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "kE4dfhqmIQpNd44e",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Demon of Despair",
+    "name": "Demônio do Desespero",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Depths of Despair",
+      "name": "Profundezas do Desespero",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] deals double damage to PCs with 0 Hope.</p>",
+        "description": "<p>O @Lookup[@name] causa o dobro de dano a PJs com 0 de Esperança.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -251,7 +249,7 @@
       "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
       "effects": [
         {
-          "name": "Depths Of Despair",
+          "name": "Profundezas do Desespero",
           "type": "base",
           "system": {
             "changes": [
@@ -280,7 +278,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Demon of Despair deals double damage to PCs with 0 Hope.</p>",
+          "description": "<p>O Demônio do Desespero causa o dobro de dano a PJs com 0 de Esperança.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -304,10 +302,10 @@
       "_key": "!actors.items!kE4dfhqmIQpNd44e.2ESeh4tPhr6DI5ty"
     },
     {
-      "name": "Your Struggle is Pointless",
+      "name": "Sua Luta É Inútil",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to weigh down the spirits of all PCs within Far range. All targets affected replace their Hope Die with a <strong>d8</strong> until they roll a success with Hope or their next rest.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para abater o ânimo de todos os PJs em alcance Distante. Todos os alvos afetados substituem seu Dado de Esperança por um <strong>d8</strong> até rolarem um sucesso com Esperança ou até o próximo descanso.</p>",
         "resource": null,
         "actions": {
           "n0RYO05pROFU6ov3": {
@@ -343,12 +341,12 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/death/skull-flames-white-blue.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Your Struggle is Pointless",
+                "name": "Sua Luta É Inútil",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -373,7 +371,7 @@
       "img": "icons/magic/death/skull-flames-white-blue.webp",
       "effects": [
         {
-          "name": "Your Struggle is Pointless",
+          "name": "Sua Luta É Inútil",
           "img": "icons/magic/death/skull-flames-white-blue.webp",
           "transfer": false,
           "_id": "6WSx03mFbpbPWnOI",
@@ -404,7 +402,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>All targets affected replace their Hope Die with a <strong>d8</strong> until they roll a success with Hope or their next rest.</p>",
+          "description": "<p>Todos os alvos afetados substituem seu Dado de Esperança por um <strong>d8</strong> até rolarem um sucesso com Esperança ou até o próximo descanso.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -434,10 +432,10 @@
       "_key": "!actors.items!kE4dfhqmIQpNd44e.FC8PIf4BVkhmoJX8"
     },
     {
-      "name": "Your Friends Will Fail You",
+      "name": "Seus Amigos Vão Falhar com Você",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC fails with Fear, you can <strong>mark a Stress</strong> to cause all other PCs within Close range to lose a Hope.</p>",
+        "description": "<p>Quando um PJ falha com Medo, você pode <strong>marcar 1 Fadiga</strong> para fazer todos os outros PJs em alcance Próximo perderem 1 de Esperança.</p>",
         "resource": null,
         "actions": {
           "urrp8SCFgqbmSTvm": {
@@ -491,12 +489,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
             "range": "",
             "areas": [
               {
-                "name": "Your Friends Will Fail You",
+                "name": "Seus Amigos Vão Falhar com Você",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -529,10 +527,10 @@
       "_key": "!actors.items!kE4dfhqmIQpNd44e.dlMdfUjy2GaqgeOJ"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "N0Xx6GnijLXIMGBw": {
@@ -592,7 +590,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

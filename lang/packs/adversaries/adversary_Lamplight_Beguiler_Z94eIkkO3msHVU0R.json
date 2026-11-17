@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Lamplight Beguiler",
+  "name": "Enganador da Luz do Lampião",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "skulk",
-    "description": "<p>A huge aquatic creature that lures unwary prey into eating range with its dangling, shapeshifting head stalk.</p>",
+    "description": "<p>Uma enorme criatura aquática que atrai presas incautas ao alcance de sua mordida com seu pedúnculo pendente e metamorfo.</p>",
     "tier": 3,
-    "motivesAndTactics": "Entice with secret knowledge, snap the trap shut, speak through a shapeshifted head stalk",
+    "motivesAndTactics": "Atrair com conhecimento secreto, fechar a armadilha, falar por meio de um pedúnculo metamorfo",
     "difficulty": 16,
     "damageThresholds": {
       "major": 16,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Jaws",
+      "name": "Mandíbulas",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "uHLdMDYg0n9rdgac": {
-        "name": "Charm",
+        "name": "Encantar",
         "value": 3,
         "description": ""
       },
       "BqWT2kDtjp8mYPBC": {
-        "name": "Secrets",
+        "name": "Segredos",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Doppel-Dangler",
+      "name": "Pescador Dopple",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The membranous cluster at the end of the Beguiler's head stalk can shapeshift into any humanoid form. <strong>Mark a Stress</strong> to choose a PC within Close range. Their player must tell you who their PC would find most trustworthy. The Beguiler's head stalk transforms into that person and gains the ability to speak in their voice.</p>",
+        "description": "<p>O aglomerado membranoso na ponta do pedúnculo do Enganador pode assumir qualquer forma humanoide. <strong>Marque 1 Fadiga</strong> para escolher um PJ em alcance Próximo. O jogador dele deve dizer quem o PJ consideraria mais confiável. O pedúnculo do Enganador se transforma nessa pessoa e ganha a capacidade de falar com a voz dela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,7 +189,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -202,10 +200,10 @@
       "img": "icons/environment/people/commoner.webp",
       "effects": [
         {
-          "name": "Doppel-Dangler",
+          "name": "Pescador Dopple",
           "disabled": false,
           "img": "icons/magic/life/heart-pink.webp",
-          "description": "<p>Their player must tell you who their PC would find most trustworthy. The Beguiler's head stalk transforms into that person and gains the ability to speak in their voice.</p>",
+          "description": "<p>O jogador dele deve dizer quem o PJ consideraria mais confiável. O pedúnculo do Enganador se transforma nessa pessoa e ganha a capacidade de falar com a voz dela.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -255,11 +253,11 @@
       "_key": "!actors.items!Z94eIkkO3msHVU0R.rD4dK5rbkMggavMU"
     },
     {
-      "name": "Entice",
+      "name": "Atrair",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Beguiler make an alluring overture to a PC within Close range. The PC must succeed on a Presence Reaction Roll (18) or move into Melee range with the Beguiler. If the Beguiler's head stalk is transformed into a person the PC would find trustworthy, they have disadvantage on the reaction roll.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Enganador lançar uma proposta sedutora a um PJ em alcance Próximo. O PJ deve ter sucesso em um Teste de Reação de Presença (18) ou se mover para alcance Corpo a Corpo do Enganador. Se o pedúnculo do Enganador estiver transformado em uma pessoa que o PJ consideraria confiável, ele tem desvantagem no teste de reação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -322,7 +320,7 @@
               "difficulty": 18,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -341,11 +339,11 @@
       "_key": "!actors.items!Z94eIkkO3msHVU0R.nbzoUABWDwUdGkFE"
     },
     {
-      "name": "Gulp",
+      "name": "Engolir",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC moves within Melee range, you can <strong>spend a Fear</strong> to make an attack roll against them. On a successful attack, the target takes <strong>3d6</strong> physical damage and is Swallowed. While Swallowed, the target is <em>Restrained</em> and takes <strong>3d6</strong> physical damage when the Beguiler takes the spotlight. The Beguiler disgorges all Swallowed creatures when it takes Major or Severe damage.</p>",
+        "description": "<p>Quando um PJ se move para alcance Corpo a Corpo, você pode <strong>gastar 1 de Medo</strong> para fazer uma rolagem de ataque contra ele. Em um ataque bem-sucedido, o alvo sofre <strong>3d6</strong> de dano físico e é Engolido. Enquanto estiver Engolido, o alvo fica <em>Restrito</em> e sofre <strong>3d6</strong> de dano físico quando o Enganador recebe o destaque. O Enganador regurgita todas as criaturas Engolidas quando sofre dano Maior ou Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -371,9 +369,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -436,7 +432,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -447,10 +443,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "effects": [
         {
-          "name": "Swallowed",
+          "name": "Engolido",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
-          "description": "<p>While Swallowed, the target is Restrained and takes <strong>3d6</strong> physical damage when the Beguiler takes the spotlight. The Beguiler disgorges all Swallowed creatures when it takes Major or Severe damage.</p>",
+          "description": "<p>Enquanto estiver Engolido, o alvo fica Restrito e sofre <strong>3d6</strong> de dano físico quando o Enganador recebe o destaque. O Enganador regurgita todas as criaturas Engolidas quando sofre dano Maior ou Grave.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -503,7 +499,7 @@
   "_id": "Z94eIkkO3msHVU0R",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Lamplight Beguiler",
+    "name": "Enganador da Luz do Lampião",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

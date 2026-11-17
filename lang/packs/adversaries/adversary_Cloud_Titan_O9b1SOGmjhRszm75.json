@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cloud Titan",
+  "name": "Titã das Nuvens",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "social",
-    "description": "<p>A devastatingly attractive, blue-skinned goliath dressed in the finest silks and dripping with jewelry. They luxuriate in the finer things and dwell in a sky palace filled with treasure.</p>",
+    "description": "<p>Um golias de pele azul, devastadoramente atraente, vestido com as mais finas sedas e coberto de joias. Ele se deleita com as coisas refinadas e vive em um palácio no céu repleto de tesouros.</p>",
     "tier": 4,
-    "motivesAndTactics": "Acquire rare and valuable things, celebrate beauty, never pass up an interesting wager",
+    "motivesAndTactics": "Adquirir coisas raras e valiosas, celebrar a beleza, nunca recusar uma aposta interessante",
     "difficulty": 18,
     "damageThresholds": {
       "major": 26,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bejeweled Blade",
+      "name": "Lâmina Cravejada de Joias",
       "img": "icons/weapons/swords/greatsword-guard-jewel-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -108,12 +108,12 @@
     },
     "experiences": {
       "tymE5sY2cv2UdByD": {
-        "name": "Luxury",
+        "name": "Luxo",
         "value": 3,
         "description": ""
       },
       "irpt9CO07ENs9sNJ": {
-        "name": "Nobility",
+        "name": "Nobreza",
         "value": 3,
         "description": ""
       }
@@ -143,11 +143,11 @@
   },
   "items": [
     {
-      "name": "Lightning Strike",
+      "name": "Golpe de Relâmpago",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Far range. On a success, deal <strong>4d10+14</strong> magic damage and roll a <strong>[[/r d6]]</strong>. On a result of 4 or higher, the lightning bounces, and the Titan makes this attack against a different target within Very Close range of the previous target. Each time the lightning bounces, decrease the damage it deals by <strong>[[/r 1d10]]</strong>.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um alvo em alcance Distante. Em caso de sucesso, cause <strong>4d10+14</strong> de dano mágico e role um <strong>[[/r d6]]</strong>. Com resultado 4 ou mais, o relâmpago ricocheteia, e o Titã faz esse ataque contra um alvo diferente em alcance Muito Próximo do alvo anterior. Cada vez que o relâmpago ricocheteia, reduza o dano que ele causa em <strong>[[/r 1d10]]</strong>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -233,7 +233,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -252,11 +252,11 @@
       "_key": "!actors.items!O9b1SOGmjhRszm75.Sp222OsLrxhKnqh6"
     },
     {
-      "name": "Mist Weaver",
+      "name": "Tecelão de Névoa",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> and choose a point within Far range. The Titan conjures a thick fog over the area within Close range of that point. The Titan is Hidden to enemies within and on the other side of the fog and has advantage on attacks against creatures inside it. The fog lasts until the Titan marks HP.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> e escolha um ponto em alcance Distante. O Titã conjura uma névoa espessa sobre a área em alcance Próximo desse ponto. O Titã fica Oculto para inimigos dentro da névoa e do outro lado dela, e tem vantagem em ataques contra criaturas dentro dela. A névoa dura até que o Titã marque PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -275,7 +275,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Mist Weaver",
+                "name": "Tecelão de Névoa",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -304,7 +304,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -323,11 +323,11 @@
       "_key": "!actors.items!O9b1SOGmjhRszm75.T5YGSmbgKztOSs2Z"
     },
     {
-      "name": "Nebulous Transformation",
+      "name": "Transformação Nebulosa",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Titan transform into a misty cloud that fills a Very Close area. While in this form, the Titan takes double magic damage and has immunity to physical damage. This form lasts until the Titan chooses to drop out of it or takes Severe damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Titã se transformar em uma nuvem de névoa que preenche uma área Muito Próxima. Nessa forma, o Titã sofre o dobro de dano mágico e tem imunidade a dano físico. Essa forma dura até que o Titã decida abandoná-la ou sofra dano Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -346,7 +346,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Nebulous Transformation",
+                "name": "Transformação Nebulosa",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -380,7 +380,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -391,10 +391,10 @@
       "img": "icons/magic/air/fog-gas-smoke-swirling-blue.webp",
       "effects": [
         {
-          "name": "Nebulous",
+          "name": "Nebuloso",
           "disabled": false,
           "img": "icons/magic/air/fog-gas-smoke-swirling-blue.webp",
-          "description": "<p>While in this form, the Titan takes double magic damage and has immunity to physical damage. This form lasts until the Titan chooses to drop out of it or takes Severe damage.</p>",
+          "description": "<p>Nessa forma, o Titã sofre o dobro de dano mágico e tem imunidade a dano físico. Essa forma dura até que o Titã decida abandoná-la ou sofra dano Grave.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -459,11 +459,11 @@
       "_key": "!actors.items!O9b1SOGmjhRszm75.6X2CCDC4aZtXOovu"
     },
     {
-      "name": "Unleash the Menagerie",
+      "name": "Libertar o Zoológico",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Once per scene, mark any number of Stress to summon an equal number of @UUID[Compendium.daggerheart.adversaries.Actor.CJtnIPvyAmv6PFsu]{Griffins}, which appear at Close range.</p>",
+        "description": "<p>Uma vez por cena, marque qualquer quantidade de Fadiga para invocar uma quantidade igual de @UUID[Compendium.daggerheart.adversaries.Actor.CJtnIPvyAmv6PFsu]{Grifos}, que aparecem em alcance Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -502,7 +502,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -521,11 +521,11 @@
       "_key": "!actors.items!O9b1SOGmjhRszm75.i2PdaF37Qm1Xa6mL"
     },
     {
-      "name": "Wind Worker",
+      "name": "Manipulador de Vento",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Titan blast wind at a target within Close range. The target takes <strong>4d6+8</strong> physical damage and is pushed back to Far range from their current position.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Titã lançar uma rajada de vento contra um alvo em alcance Próximo. O alvo sofre <strong>4d6+8</strong> de dano físico e é empurrado para o alcance Distante de sua posição atual.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -591,7 +591,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -610,11 +610,11 @@
       "_key": "!actors.items!O9b1SOGmjhRszm75.HhuXSt7z9vfEQi8k"
     },
     {
-      "name": "Double or Nothing",
+      "name": "Dobro ou Nada",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When you would gain a Fear from an attack against the Titan, you can roll a <strong>d6</strong>. On an odd result, you don't gain the Fear. On an even result, you gain 2 Fear instead of 1.</p>",
+        "description": "<p>Quando você ganharia um Medo por um ataque contra o Titã, pode rolar um <strong>d6</strong>. Em resultado ímpar, você não ganha o Medo. Em resultado par, você ganha 2 Medo em vez de 1.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -690,7 +690,7 @@
   "_id": "O9b1SOGmjhRszm75",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cloud Titan",
+    "name": "Titã das Nuvens",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

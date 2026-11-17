@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Bugboar",
+  "name": "Javali-Inseto",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "bruiser",
-    "description": "<p>A large bipedal creature that has a tusked snout and coarse fur.</p>",
+    "description": "<p>Uma criatura bípede grande com focinho com presas e pelagem áspera.</p>",
     "tier": 1,
-    "motivesAndTactics": "Ambush, bully, seek carnage and shiny things",
+    "motivesAndTactics": "Emboscar, intimidar, buscar carnificina e coisas brilhantes",
     "difficulty": 13,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spiked Mace",
+      "name": "Maça com Espinhos",
       "img": "icons/weapons/maces/mace-spiked-simple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "aKI4ENWPuRpDh9sN": {
-        "name": "Traps",
+        "name": "Armadilhas",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Surprise!",
+      "name": "Surpresa!",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>If the @Lookup[@name] makes its first attack in a scene before it's marked HP or Stress, it has advantage on the attack and deals an extra <strong>1d8</strong> damage.</p>",
+        "description": "<p>Se @Lookup[@name] fizer seu primeiro ataque em uma cena antes de marcar PV ou Fadiga, ele tem vantagem no ataque e causa <strong>1d8</strong> de dano extra.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -219,7 +215,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "range": ""
           }
         },
@@ -242,7 +238,7 @@
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to deal an extra <strong>1d6</strong> damage.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para causar <strong>1d6</strong> de dano extra.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -268,9 +264,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -308,7 +302,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -327,11 +321,11 @@
       "_key": "!actors.items!IwliIAsSth5pKGU4.kk2cwy2BB3qVqEYK"
     },
     {
-      "name": "Warheart",
+      "name": "Coração de Guerra",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a condition would be imposed on the @Lookup[@name], you can <strong>spend a Fear</strong> to negate it.</p>",
+        "description": "<p>Quando uma condição fosse imposta a @Lookup[@name], você pode <strong>gastar 1 de Medo</strong> para negá-la.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -370,7 +364,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -392,7 +386,7 @@
   "_id": "IwliIAsSth5pKGU4",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Bugboar",
+    "name": "Javali-Inseto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

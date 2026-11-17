@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Falcon",
+  "name": "Falcão",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "skulk",
-    "description": "<p>A bird of prey that has long, pointed wings and a notched beak.</p>",
+    "description": "<p>Uma ave de rapina com asas longas e pontiagudas e um bico entalhado.</p>",
     "tier": 1,
-    "motivesAndTactics": "Circle, clutch, dive, spy",
+    "motivesAndTactics": "Circular, agarrar, mergulhar, espionar",
     "difficulty": 12,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Talons",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "tLk7gkYVaLuPLynF": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 4,
         "description": ""
       },
       "nv9NvsHVNtxr9XMd": {
-        "name": "Fly",
+        "name": "Voar",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Nimble Flyer",
+      "name": "Voador Ágil",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While flying, the @Lookup[@name] gains a +3 bonus to its Difficulty.</p>",
+        "description": "<p>Enquanto estiver voando, o @Lookup[@name] recebe um bônus de +3 em sua Dificuldade.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "system": {
             "changes": [
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, gain a +3 bonus to Difficulty.</p>",
+          "description": "<p>Enquanto estiver voando, receba um bônus de +3 na Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!53xmu2ZYzjIOy4Td.5kMARKUrTyvSUiTB"
     },
     {
-      "name": "Dive Bomb",
+      "name": "Mergulho Bombardeiro",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against a target from above. The @Lookup[@name] gains a +2 bonus to the attack and damage rolls.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra um alvo vindo de cima. O @Lookup[@name] recebe um bônus de +2 nos testes de ataque e de dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -250,9 +248,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -310,7 +306,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -332,7 +328,7 @@
   "_id": "53xmu2ZYzjIOy4Td",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Falcon",
+    "name": "Falcão",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

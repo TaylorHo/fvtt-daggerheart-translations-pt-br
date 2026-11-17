@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Harbinger Of Death",
+  "name": "Arauto da Morte",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "skulk",
-    "description": "<p>A desiccated corpse riding atop a skeletal horse. Their eyes are sewn shut and their body is wrapped in a burial shroud of dust and ash.</p>",
+    "description": "<p>Um cadáver dessecado montado em um cavalo esquelético. Seus olhos estão costurados e seu corpo está envolto em uma mortalha de pó e cinzas.</p>",
     "tier": 4,
-    "motivesAndTactics": "Bring judgment, cut them down, move swiftly, seek relentlessly, take souls",
+    "motivesAndTactics": "Trazer julgamento, abatê-los, mover-se com rapidez, perseguir sem trégua, tomar almas",
     "difficulty": 18,
     "damageThresholds": {
       "major": 28,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Great Scythe",
+      "name": "Grande Foice",
       "img": "icons/weapons/sickles/scythe-bone-green-fire.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "VCmn6cyRzOrO0V3V": {
-        "name": "Judgment",
+        "name": "Julgamento",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Harbinger can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Arauto pode receber Destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar Destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!unuX3PZSkhlNUdVF.DPsV47Ah9MHukhVe"
     },
     {
-      "name": "Mount",
+      "name": "Montaria",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+        "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade. Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -176,7 +174,7 @@
             "_id": "Qa6H0mZULkyHuQ63",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+            "description": "<p>Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -205,7 +203,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Resummon Mount",
+            "name": "Reinvocar Montaria",
             "range": ""
           }
         },
@@ -216,7 +214,7 @@
       "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
       "effects": [
         {
-          "name": "Mounted",
+          "name": "Montado",
           "type": "base",
           "system": {
             "changes": [
@@ -254,7 +252,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -277,11 +275,11 @@
       "_key": "!actors.items!unuX3PZSkhlNUdVF.vI14KIZ1C0GnyQpR"
     },
     {
-      "name": "Fear the Reaper",
+      "name": "Tema o Ceifador",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a creature is defeated within Far range of the Harbinger, you gain a Fear.</p>",
+        "description": "<p>Quando uma criatura é derrotada dentro do alcance Longe do Arauto, você ganha 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -368,11 +366,11 @@
       "_key": "!actors.items!unuX3PZSkhlNUdVF.C7cdkWta8kLGaqXn"
     },
     {
-      "name": "Decapitate",
+      "name": "Decapitar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to have the Harbinger make an attack roll against a PC within Melee range. On a success, roll a <strong>[[/r d6]]</strong>. On a result of 6, the target marks all HP and must make a death move.</p>",
+        "description": "<p><strong>Gaste 2 Medo</strong> para fazer o Arauto realizar uma rolagem de ataque contra um PJ dentro do alcance Corpo a Corpo. Em caso de sucesso, role um <strong>[[/r d6]]</strong>. Com resultado 6, o alvo marca todos os PV e deve fazer um movimento de morte.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -435,7 +433,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -454,11 +452,11 @@
       "_key": "!actors.items!unuX3PZSkhlNUdVF.Dq0jQoARqtYf1drc"
     },
     {
-      "name": "Wake the Fallen",
+      "name": "Despertar os Caídos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> and mark any number of Stress to have the Harbinger resurrect a defeated ally within Far range. The resurrected ally clears a number of HP equal to the number of Stress marked. Immediately spotlight the ally.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> e marque qualquer quantidade de Fadiga para fazer o Arauto ressuscitar um aliado derrotado dentro do alcance Longe. O aliado ressuscitado remove uma quantidade de PV igual ao número de Fadiga marcada. Dê Destaque imediato ao aliado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -543,7 +541,7 @@
               },
               "useDefault": false
             },
-            "name": "Resurrect Ally",
+            "name": "Ressuscitar Aliado",
             "range": "far"
           }
         },
@@ -562,11 +560,11 @@
       "_key": "!actors.items!unuX3PZSkhlNUdVF.FHxhsBvJfrWsKGx5"
     },
     {
-      "name": "Ashes to Ashes, Dust to Dust",
+      "name": "Cinzas às Cinzas, Pó ao Pó",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Harbinger would mark HP, you can <strong>mark a Stress</strong> to have an ally within Far range mark the HP instead.</p>",
+        "description": "<p>Quando o Arauto marcaria PV, você pode <strong>marcar 1 Fadiga</strong> para fazer um aliado dentro do alcance Longe marcar os PV no lugar dele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -605,7 +603,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -627,7 +625,7 @@
   "_id": "unuX3PZSkhlNUdVF",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Harbinger Of Death",
+    "name": "Arauto da Morte",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

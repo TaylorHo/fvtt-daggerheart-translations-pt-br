@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Viper",
+  "name": "Víbora",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "minion",
-    "description": "<p>A small serpent that envenomates its prey with hinged fangs.</p>",
+    "description": "<p>Uma pequena serpente que envenena suas presas com presas articuladas.</p>",
     "tier": 1,
-    "motivesAndTactics": "Lie in wait, slither, strike",
+    "motivesAndTactics": "Espreitar, rastejar, atacar",
     "difficulty": 11,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/reptiles/snake-fangs-bite-green-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "IxTKhqb9V4iADTqd": {
-        "name": "Grounded",
+        "name": "Pé no Chão",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] is defeated when it takes any damage. For every 4 damage a PC deals to the @Lookup[@name], the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>@Lookup[@name] é derrotado ao sofrer qualquer dano. A cada 4 de dano que um PJ causar a @Lookup[@name], o PJ derrota um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!u5DJUhMewgOwfc3U.lVU07NeUhz12ol57"
     },
     {
-      "name": "Venomous",
+      "name": "Venenosa",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, the target becomes temporarily Envenomated. While Envenomated, the target must mark a Stress whenever they make an action roll.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido, o alvo fica temporariamente Envenenado. Enquanto estiver Envenenado, o alvo deve marcar 1 de Fadiga sempre que fizer uma jogada de ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -201,7 +199,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Envenom",
+            "name": "Envenenar",
             "range": ""
           }
         },
@@ -212,10 +210,10 @@
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
       "effects": [
         {
-          "name": "Envenomated",
+          "name": "Envenenado",
           "disabled": false,
           "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
-          "description": "<p>While Envenomated, you must mark a Stress whenever you make an action roll.</p>",
+          "description": "<p>Enquanto estiver Envenenado, você deve marcar 1 de Fadiga sempre que fizer uma jogada de ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -265,11 +263,11 @@
       "_key": "!actors.items!u5DJUhMewgOwfc3U.7aMURYBDlLuLigme"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 1 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar o destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para alcance Corpo a Corpo do alvo e fazem uma jogada de ataque compartilhada. Em caso de sucesso, cada um causa 1 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -295,9 +293,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -355,7 +351,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -377,7 +373,7 @@
   "_id": "u5DJUhMewgOwfc3U",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Viper",
+    "name": "Víbora",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

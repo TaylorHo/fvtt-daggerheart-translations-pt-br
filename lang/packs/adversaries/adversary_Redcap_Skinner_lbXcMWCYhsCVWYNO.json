@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Redcap Skinner",
+  "name": "Esfolador Barrete-Vermelho",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "minion",
-    "description": "<p>A cat-sized fey creature wielding a straight razor and wearing a conical red cap sealed on their head with candle wax.</p>",
+    "description": "<p>Uma criatura feérica do tamanho de um gato, empunhando uma navalha e usando um barrete vermelho cônico selado na cabeça com cera de vela.</p>",
     "tier": 1,
-    "motivesAndTactics": "Flense, giggle, scrape, slice",
+    "motivesAndTactics": "Esfolar, rir, raspar, fatiar",
     "difficulty": 9,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Razor",
+      "name": "Navalha",
       "img": "icons/weapons/daggers/dagger-bone-worn-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "M04qm6n0rxxC3qLH": {
-        "name": "Leatherwork",
+        "name": "Trabalho em Couro",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Skinner is defeated when they take any damage. For every 4 damage a PC deals to the Skinner, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O Esfolador é derrotado quando sofre qualquer dano. A cada 4 de dano que um PJ causa ao Esfolador, o PJ derrota um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!lbXcMWCYhsCVWYNO.Mgkt4CpQBU2OyWmz"
     },
     {
-      "name": "Shallow Cuts",
+      "name": "Cortes Superficiais",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC fails a roll, they take 1 physical damage for each Skinner within Melee range of them. Combine this damage.</p>",
+        "description": "<p>Quando um PJ falha em um teste, ele sofre 1 de dano físico para cada Esfolador dentro do alcance Corpo a Corpo dele. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "melee",
                 "itemId": null
               },
@@ -242,11 +238,11 @@
       "_key": "!actors.items!lbXcMWCYhsCVWYNO.jaLGm9PxB6KvVTlI"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 2 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os @Lookup[@name]s em alcance Próximo dele. Esses Minions se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 2 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -272,9 +268,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -332,7 +326,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -354,7 +348,7 @@
   "_id": "lbXcMWCYhsCVWYNO",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Redcap Skinner",
+    "name": "Esfolador Barrete-Vermelho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Pain Priest",
+  "name": "Sacerdote da Dor",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "social",
-    "description": "<p>A member of an other-dimensional religious order devoted to exploring the boundaries of mortal suff ering and ecstasy.</p>",
+    "description": "<p>Um membro de uma ordem religiosa de outra dimensão, dedicada a explorar os limites do sofrimento e do êxtase mortais.</p>",
     "tier": 3,
-    "motivesAndTactics": "Feed on emotions, locate the innocent or curious, tempt them with their deepest desires",
+    "motivesAndTactics": "Alimentar-se de emoções, localizar os inocentes ou curiosos, tentá-los com seus desejos mais profundos",
     "difficulty": 16,
     "damageThresholds": {
       "major": 16,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Torture Implements",
+      "name": "Instrumentos de Tortura",
       "img": "icons/weapons/sickles/sickle-blue-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "FIokXAqrXMP4L2XN": {
-        "name": "Experimentation",
+        "name": "Experimentação",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Walk Between Worlds",
+      "name": "Caminhar Entre Mundos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to place the Priest anywhere within Very Far range and immediately spotlight them again.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para colocar o Sacerdote em qualquer lugar em alcance Muito Distante e dar o destaque a ele novamente de imediato.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,7 +179,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryFar"
           }
         },
@@ -200,11 +198,11 @@
       "_key": "!actors.items!RKdp5SOjwx1CHtaZ.3OcaZ6mn5hJSqb4g"
     },
     {
-      "name": "Pleasure and Pain",
+      "name": "Prazer e Dor",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC within Close range of the Priest gains a Hope or marks HP, roll a <strong>d8</strong>. On a result of 8, the Priest opens a portal to their original dimension and flees there with the closest party member. You gain <strong>1d6</strong> Fear. The portal remains open until the Priest is defeated or spotlighted again.</p>",
+        "description": "<p>Quando um PJ em alcance Próximo do Sacerdote ganha 1 Esperança ou marca PV, role um <strong>d8</strong>. Com resultado 8, o Sacerdote abre um portal para sua dimensão de origem e foge para lá com o membro do grupo mais próximo. Você ganha <strong>1d6</strong> de Medo. O portal permanece aberto até o Sacerdote ser derrotado ou receber o destaque novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -258,7 +256,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Portal Flight",
+            "name": "Fuga pelo Portal",
             "range": ""
           },
           "x8HNi7N3q3JtKkTu": {
@@ -324,7 +322,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "range": "self"
           }
         },
@@ -346,7 +344,7 @@
   "_id": "RKdp5SOjwx1CHtaZ",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Pain Priest",
+    "name": "Sacerdote da Dor",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,5 +1,5 @@
 {
-  "name": "Giant Brawler",
+  "name": "Brutamontes Gigante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Make a living, overwhelm, slam, topple",
+    "motivesAndTactics": "Ganhar a vida, subjugar, esmagar, derrubar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "NMxJpVBxCUuIVcvq": {
-        "name": "Intrusion",
+        "name": "Intrusão",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>An especially muscular giant wielding a warhammer larger than a human.</p>",
+    "description": "<p>Um gigante especialmente musculoso empunhando um martelo de guerra maior que um humano.</p>",
     "attack": {
-      "name": "Warhammer",
+      "name": "Martelo de Guerra",
       "img": "icons/weapons/hammers/hammer-double-simple-worn.webp",
       "roll": {
         "bonus": 2,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "YnObCleGjPT7yqEc",
   "sort": 2300000,
   "prototypeToken": {
-    "name": "Giant Brawler",
+    "name": "Brutamontes Gigante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Battering Ram",
+      "name": "Aríete",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] charge at an inanimate object within Close range they could feasibly smash (such as a wall, cart, or market stand) and destroy it. All targets within Very Close range of the object must succeed on an Agility Reaction Roll or take <strong>2d4+3</strong> physical damage from the shrapnel.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o @Lookup[@name] investir contra um objeto inanimado dentro do alcance Próximo que ele possa plausivelmente destruir (como uma parede, carroça ou barraca de mercado) e destruí-lo. Todos os alvos dentro do alcance Muito Próximo do objeto devem ser bem-sucedidos em um Teste de Reação de Agilidade ou sofrer <strong>2d4+3</strong> de dano físico dos estilhaços.</p>",
         "resource": null,
         "actions": {
           "zns57MqnZ6M1d4r0": {
@@ -277,9 +275,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -315,12 +311,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Battering Ram",
+                "name": "Aríete",
                 "type": "placed",
                 "shape": "circle",
                 "size": "veryClose",
@@ -353,10 +349,10 @@
       "_key": "!actors.items!YnObCleGjPT7yqEc.ro8AtBdgklyyuydK"
     },
     {
-      "name": "Bloody Reprisal",
+      "name": "Represália Sangrenta",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks 2 or more HP from an attack within Very Close range, you can make a standard attack against the attacker. On a success, the @Lookup[@name] deals <strong>2d6+15</strong> physical damage instead of their standard damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] marcar 2 ou mais PV por causa de um ataque dentro do alcance Muito Próximo, você pode fazer um ataque padrão contra o atacante. Em caso de sucesso, o @Lookup[@name] causa <strong>2d6+15</strong> de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "D53yjFXoP5uFXe9M": {
@@ -386,9 +382,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -424,7 +418,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-flail-spiked-pink.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -453,10 +447,10 @@
       "_key": "!actors.items!YnObCleGjPT7yqEc.kKBbEAffbHxmHo15"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "U2AfyadkJluHXA4r": {
@@ -516,7 +510,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

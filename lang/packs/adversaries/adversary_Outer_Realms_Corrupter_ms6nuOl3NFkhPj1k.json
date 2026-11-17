@@ -1,5 +1,5 @@
 {
-  "name": "Outer Realms Corrupter",
+  "name": "Corruptor dos Reinos Exteriores",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -35,10 +35,10 @@
     "notes": "",
     "experiences": {},
     "tier": 4,
-    "description": "<p>A shifting, formless mass seemingly made of chromatic light.</p>",
-    "motivesAndTactics": "Confuse, distract, overwhelm",
+    "description": "<p>Uma massa informe e cambiante, aparentemente feita de luz cromática.</p>",
+    "motivesAndTactics": "Confundir, distrair, subjugar",
     "attack": {
-      "name": "Corroding Pseudopod",
+      "name": "Pseudópode Corrosivo",
       "range": "veryClose",
       "roll": {
         "bonus": 7,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "ms6nuOl3NFkhPj1k",
   "sort": 1600000,
   "prototypeToken": {
-    "name": "Outer Realms Corrupter",
+    "name": "Corruptor dos Reinos Exteriores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Will-Shattering Touch",
+      "name": "Toque Quebra-Vontade",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC takes damage from the @Lookup[@name], they lose a Hope.</p>",
+        "description": "<p>Quando um PJ sofre dano do @Lookup[@name], ele perde 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "q2PUiGoUQqsMghtW": {
@@ -277,7 +275,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/unholy/hand-claw-fog-green.webp",
             "range": "",
             "baseAction": false,
@@ -306,10 +304,10 @@
       "_key": "!actors.items!ms6nuOl3NFkhPj1k.Z4R768thOzKWzqOo"
     },
     {
-      "name": "Disgorge Realiy Flotsam",
+      "name": "Regurgitar Destroços da Realidade",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spew partially digested portions of consumed realities at all targets within Close range. Targets must succeed on a Knowledge Reaction Roll or mark 2 Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para cuspir porções parcialmente digeridas de realidades consumidas contra todos os alvos em alcance Próximo. Os alvos devem ter sucesso em um Teste de Reação de Conhecimento ou marcar 2 Fadiga.</p>",
         "resource": null,
         "actions": {
           "6vX6VHpXX7OiGSWH": {
@@ -374,12 +372,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Disgorge Realiy Flotsam",
+                "name": "Regurgitar Destroços da Realidade",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",

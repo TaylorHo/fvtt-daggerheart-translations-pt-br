@@ -1,5 +1,5 @@
 {
-  "name": "Courtesan",
+  "name": "Cortesã",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,7 +35,7 @@
     "notes": "",
     "experiences": {
       "AOiKcHqVyMaJ3myX": {
-        "name": "Manipulation",
+        "name": "Manipulação",
         "description": "",
         "value": 3
       },
@@ -46,10 +46,10 @@
       }
     },
     "tier": 2,
-    "description": "<p>An accomplished manipulator and master of the social arts.</p>",
-    "motivesAndTactics": "Entice, maneuver, secure patrons",
+    "description": "<p>Uma manipuladora talentosa e mestra das artes sociais.</p>",
+    "motivesAndTactics": "Seduzir, manobrar, conquistar patronos",
     "attack": {
-      "name": "Dagger",
+      "name": "Adaga",
       "roll": {
         "bonus": -3,
         "type": "attack",
@@ -147,7 +147,7 @@
   "_id": "ZxWaWPdzFIUPNC62",
   "sort": 2400000,
   "prototypeToken": {
-    "name": "Courtesan",
+    "name": "Cortesã",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +240,10 @@
   },
   "items": [
     {
-      "name": "Searing Glance",
+      "name": "Olhar Abrasador",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC within Close range makes a Presence Roll, you can <strong>mark a Stress</strong> to cast a gaze toward the aftermath. On the target's failure, they must mark 2 Stress and are <em>Vulnerable</em> until the scene ends or they succeed on a social action against the @Lookup[@name]. On the target's success, they must mark a Stress.</p>",
+        "description": "<p>Quando um PJ em alcance Próximo faz um Teste de Presença, você pode <strong>marcar 1 Fadiga</strong> para lançar um olhar sobre as consequências. Se o alvo falhar, ele deve marcar 2 Fadiga e fica <em>Vulnerável</em> até o fim da cena ou até ser bem-sucedido em uma ação social contra o @Lookup[@name]. Se o alvo for bem-sucedido, ele deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "dRtDCrAPLc1GYqBs": {
@@ -302,7 +302,7 @@
                 "onSave": false
               }
             ],
-            "name": "Spend Stress",
+            "name": "Gastar Fadiga",
             "img": "icons/magic/perception/eye-slit-orange.webp",
             "range": "close",
             "baseAction": false,
@@ -323,7 +323,7 @@
       "img": "icons/magic/perception/eye-slit-orange.webp",
       "effects": [
         {
-          "name": "Searing Glance",
+          "name": "Olhar Abrasador",
           "img": "icons/magic/perception/eye-slit-orange.webp",
           "transfer": false,
           "_id": "blcRqns0PHqiuPac",
@@ -332,7 +332,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until the scene ends or they succeed on a social action against the Courtesan.</p>"
+              "description": "<p>Até o fim da cena ou até ser bem-sucedido em uma ação social contra a Cortesã.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -346,7 +346,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until the scene ends or they succeed on a social action against the Courtesan.</p>",
+          "description": "<p><em>Vulnerável</em> até o fim da cena ou até ser bem-sucedido em uma ação social contra a Cortesã.</p>",
           "tint": "#ffffff",
           "statuses": [
             "vulnerable"

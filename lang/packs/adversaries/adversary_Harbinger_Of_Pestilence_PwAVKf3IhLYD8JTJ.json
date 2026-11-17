@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Harbinger Of Pestilence",
+  "name": "Arauto da Pestilência",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "leader",
-    "description": "<p>A bloated and rotting agglomeration of wriggling insects and slugs formed into a single humanoid mass riding a worm-eaten horse.</p>",
+    "description": "<p>Uma aglomeração inchada e podre de insetos e lesmas que se contorcem, formando uma única massa humanoide montada em um cavalo carcomido por vermes.</p>",
     "tier": 4,
-    "motivesAndTactics": "Corrupt the pure, infect the weak, summon plague and disease",
+    "motivesAndTactics": "Corromper os puros, infectar os fracos, invocar praga e doença",
     "difficulty": 18,
     "damageThresholds": {
       "major": 37,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Touch of Corruption",
+      "name": "Toque da Corrupção",
       "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "qVZiQNLqy5vfBICe": {
-        "name": "Rot",
+        "name": "Podridão",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Halo of Contagion",
+      "name": "Halo de Contágio",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Harbinger is Contagious. When a PC within Very Close range of a Contagious creature takes an action, the PC rolls a <strong>[[/r d6]]</strong>. On a result of 1, the PC becomes Contagious. While Contagious, a PC has disadvantage on action rolls until they <strong>spend 3 Hope</strong> to clear the condition. Contagious adversaries are unaffected by the condition.</p>",
+        "description": "<p>O Arauto é Contagioso. Quando um PJ dentro do alcance Muito Perto de uma criatura Contagiosa realiza uma ação, o PJ rola um <strong>[[/r d6]]</strong>. Com resultado 1, o PJ se torna Contagioso. Enquanto Contagioso, um PJ tem desvantagem nas rolagens de ação até <strong>gastar 3 Esperança</strong> para remover a condição. Adversários Contagiosos não são afetados pela condição.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -161,7 +159,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Halo of Contagion",
+                "name": "Halo de Contágio",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -181,7 +179,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Activate",
+            "name": "Ativar",
             "range": ""
           },
           "MaE2uIQSufLqgPIM": {
@@ -189,7 +187,7 @@
             "_id": "MaE2uIQSufLqgPIM",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>On a result of 1, the PC becomes Contagious. While Contagious, a PC has disadvantage on action rolls until they <strong>spend 3 Hope</strong> to clear the condition. Contagious adversaries are unaffected by the condition.</p>",
+            "description": "<p>Com resultado 1, o PJ se torna Contagioso. Enquanto Contagioso, um PJ tem desvantagem nas rolagens de ação até <strong>gastar 3 Esperança</strong> para remover a condição. Adversários Contagiosos não são afetados pela condição.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -214,7 +212,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Apply Contagion",
+            "name": "Aplicar Contágio",
             "range": ""
           }
         },
@@ -225,10 +223,10 @@
       "img": "icons/magic/unholy/orb-colllecting-energy-green.webp",
       "effects": [
         {
-          "name": "Contagious",
+          "name": "Contagioso",
           "disabled": false,
           "img": "icons/skills/wounds/blood-cells-disease-green.webp",
-          "description": "<p>While Contagious, a PC has disadvantage on action rolls until they <strong>spend 3 Hope</strong> to clear the condition. Contagious adversaries are unaffected by the condition.</p>",
+          "description": "<p>Enquanto Contagioso, um PJ tem desvantagem nas rolagens de ação até <strong>gastar 3 Esperança</strong> para remover a condição. Adversários Contagiosos não são afetados pela condição.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -286,11 +284,11 @@
       "_key": "!actors.items!PwAVKf3IhLYD8JTJ.JIjSpCGXzAyayyGP"
     },
     {
-      "name": "Locust Swarm",
+      "name": "Enxame de Gafanhotos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to have the Harbinger conjure a swarm of locusts at a point within Very Far range. Each PC within Close range of that point must either mark an Armor Slot or take <strong>4d10</strong> direct physical damage and roll a <strong>[[/r d6]]</strong>. On a result of 1–2, the PC becomes Contagious.</p>",
+        "description": "<p><strong>Gaste 2 Medo</strong> para fazer o Arauto conjurar um enxame de gafanhotos em um ponto dentro do alcance Muito Longe. Cada PJ dentro do alcance Perto desse ponto deve marcar um Espaço de Armadura ou sofrer <strong>4d10</strong> de dano físico direto e rolar um <strong>[[/r d6]]</strong>. Com resultado 1–2, o PJ se torna Contagioso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -316,9 +314,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -336,7 +332,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Locust Swarm",
+                "name": "Enxame de Gafanhotos",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -365,7 +361,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryFar"
           }
         },
@@ -384,11 +380,11 @@
       "_key": "!actors.items!PwAVKf3IhLYD8JTJ.i5rQALLMNFdptbVX"
     },
     {
-      "name": "Frog Spawn",
+      "name": "Desova de Sapos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Harbinger conjure a clutch of diseased frogs inside the mouths of up to three PCs within Close range. Each PC must succeed on a Presence Reaction Roll or take <strong>4d12</strong> magic damage and roll a <strong>[[/r d6]]</strong>. On a result of 1–3, the PC becomes Contagious.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Arauto conjurar uma ninhada de sapos doentes dentro da boca de até três PJs dentro do alcance Perto. Cada PJ deve ser bem-sucedido em um Teste de Reação de Presença ou sofrer <strong>4d12</strong> de dano mágico e rolar um <strong>[[/r d6]]</strong>. Com resultado 1–3, o PJ se torna Contagioso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -414,9 +410,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -474,7 +468,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -493,11 +487,11 @@
       "_key": "!actors.items!PwAVKf3IhLYD8JTJ.2BcaxW4N8lAM3rqF"
     },
     {
-      "name": "Plague Bringer",
+      "name": "Portador da Praga",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Mark any number of Stress up to the number of PCs in the scene. For each Stress you mark, the Harbinger summons <strong>1d4</strong> @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Contagious Zombie Legions} within Far range and immediately spotlights one of them.</p>",
+        "description": "<p>Marque qualquer quantidade de Fadiga, até o número de PJs na cena. Para cada Fadiga que você marcar, o Arauto invoca <strong>1d4</strong> @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Legiões de Zumbis Contagiosos} dentro do alcance Longe e dá Destaque imediato a um deles.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -536,7 +530,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -555,11 +549,11 @@
       "_key": "!actors.items!PwAVKf3IhLYD8JTJ.aQQZlLwA8OOXCJPW"
     },
     {
-      "name": "Mount",
+      "name": "Montaria",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+        "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade. Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -569,7 +563,7 @@
             "_id": "Qa6H0mZULkyHuQ63",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+            "description": "<p>Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -598,7 +592,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Resummon Mount",
+            "name": "Reinvocar Montaria",
             "range": ""
           }
         },
@@ -608,7 +602,7 @@
       "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
       "effects": [
         {
-          "name": "Mounted",
+          "name": "Montado",
           "type": "base",
           "system": {
             "changes": [
@@ -646,7 +640,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -673,7 +667,7 @@
   "_id": "PwAVKf3IhLYD8JTJ",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Harbinger Of Pestilence",
+    "name": "Arauto da Pestilência",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

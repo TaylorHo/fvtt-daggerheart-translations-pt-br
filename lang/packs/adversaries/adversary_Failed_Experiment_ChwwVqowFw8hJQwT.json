@@ -1,5 +1,5 @@
 {
-  "name": "Failed Experiment",
+  "name": "Experimento Fracassado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "e3LDEyTI4bAQgRKI": {
-        "name": "Copycat",
+        "name": "Imitador",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A magical necromantic experiment gone wrong, leaving them warped and ungainly.</p>",
-    "motivesAndTactics": "Devour, hunt, track",
+    "description": "<p>Um experimento necromântico mágico que deu errado, deixando-os deformados e desengonçados.</p>",
+    "motivesAndTactics": "Devorar, caçar, rastrear",
     "attack": {
-      "name": "Bite and Claw",
+      "name": "Mordida e Garra",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -73,9 +73,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "ChwwVqowFw8hJQwT",
   "sort": 1500000,
   "prototypeToken": {
-    "name": "Failed Experiment",
+    "name": "Experimento Fracassado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Warped Fortitude",
+      "name": "Fortitude Deformada",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is resistant to physical damage.</p>",
+        "description": "<p>O @Lookup[@name] é resistente a dano físico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -251,7 +249,7 @@
       "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
       "effects": [
         {
-          "name": "Warped Fortitude",
+          "name": "Fortitude Deformada",
           "type": "base",
           "system": {
             "changes": [
@@ -280,7 +278,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Experiment is resistant to physical damage.</p>",
+          "description": "<p>O Experimento é resistente a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -304,10 +302,10 @@
       "_key": "!actors.items!ChwwVqowFw8hJQwT.nCIGFPFOKzyznL0O"
     },
     {
-      "name": "Overwhelm",
+      "name": "Sobrepujar",
       "type": "feature",
       "system": {
-        "description": "<p>When a target the @Lookup[@name] attacks has other adversaries within Very Close range, the @Lookup[@name] deals double damage.</p>",
+        "description": "<p>Quando um alvo atacado pelo @Lookup[@name] tiver outros adversários dentro do alcance Muito Próximo, o @Lookup[@name] causa dano dobrado.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -320,7 +318,7 @@
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "effects": [
         {
-          "name": "Overwhelm",
+          "name": "Sobrepujar",
           "type": "base",
           "system": {
             "changes": [
@@ -349,7 +347,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When a target the Failed Experiment attacks has other adversaries within Very Close range, the Failed Experiment deals double damage.</p>",
+          "description": "<p>Quando um alvo atacado pelo Experimento Fracassado tiver outros adversários dentro do alcance Muito Próximo, o Experimento Fracassado causa dano dobrado.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -373,10 +371,10 @@
       "_key": "!actors.items!ChwwVqowFw8hJQwT.1fE6xo8yIOmZkGNE"
     },
     {
-      "name": "Lurching Lunge",
+      "name": "Investida Cambaleante",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight the @Lookup[@name] as an additional GM move instead of spending Fear.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para colocar o @Lookup[@name] em destaque como uma ação adicional do Mestre, em vez de gastar Medo.</p>",
         "resource": null,
         "actions": {
           "i3FANnO1t9AzJdTp": {
@@ -407,7 +405,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/strike-slashes-red.webp",
             "range": "",
             "baseAction": false,

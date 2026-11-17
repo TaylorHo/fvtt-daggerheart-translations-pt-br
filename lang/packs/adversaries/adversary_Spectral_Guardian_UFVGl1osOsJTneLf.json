@@ -1,5 +1,5 @@
 {
-  "name": "Spectral Guardian",
+  "name": "Guardião Espectral",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Move through solid objects, protect treasure, rehash old battles",
+    "motivesAndTactics": "Atravessar objetos sólidos, proteger o tesouro, remoer batalhas antigas",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "FQ7N6K9KcOSREEDX": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A ghostly fighter with spears and swords, anchored by duty.</p>",
+    "description": "<p>Um combatente fantasmagórico com lanças e espadas, preso por dever.</p>",
     "attack": {
-      "name": "Spear",
+      "name": "Lança",
       "img": "icons/weapons/polearms/spear-ice-crystal-blue.webp",
       "roll": {
         "bonus": 1,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "UFVGl1osOsJTneLf",
   "sort": 2000000,
   "prototypeToken": {
-    "name": "Spectral Guardian",
+    "name": "Guardião Espectral",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,17 +233,17 @@
   },
   "items": [
     {
-      "name": "Ghost",
+      "name": "Fantasma",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico. <strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
         "resource": null,
         "actions": {
           "X1JlwWqyYHjahbpA": {
             "type": "effect",
             "_id": "X1JlwWqyYHjahbpA",
             "systemPath": "actions",
-            "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -269,7 +267,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/undead-ghost-scream-teal.webp",
             "range": "",
             "baseAction": false,
@@ -290,7 +288,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Ghost",
+          "name": "Fantasma",
           "type": "base",
           "system": {
             "changes": [
@@ -319,7 +317,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Guardian has resistance to physical damage.</p>",
+          "description": "<p>O Guardião tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -343,10 +341,10 @@
       "_key": "!actors.items!UFVGl1osOsJTneLf.x3g1lM5S1W7DAKIc"
     },
     {
-      "name": "Ghost Blade",
+      "name": "Lâmina Fantasma",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack against a target within Very Close range. On a success, deal <strong>2d10+6</strong> physical damage and the target must mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um ataque contra um alvo em alcance Muito Próximo. Em caso de sucesso, cause <strong>2d10+6</strong> de dano físico e o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "AdfULyYsj9YPcCj6": {
@@ -385,9 +383,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -442,7 +438,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/weapons/swords/sword-flanged-lightning.webp",
             "range": "veryClose",
             "baseAction": false,

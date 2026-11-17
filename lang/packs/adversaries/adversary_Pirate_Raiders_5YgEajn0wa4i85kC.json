@@ -1,5 +1,5 @@
 {
-  "name": "Pirate Raiders",
+  "name": "Piratas Saqueadores",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Gang up, plunder, raid",
+    "motivesAndTactics": "Atacar em bando, saquear, invadir",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,13 +36,13 @@
     "notes": "",
     "experiences": {
       "a2aFr2x2FEZp7dFx": {
-        "name": "Sailor",
+        "name": "Marinheiro",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>Seafaring scoundrels moving in a ravaging pack.</p>",
+    "description": "<p>Canalhas do mar movendo-se em um bando devastador.</p>",
     "attack": {
       "damage": {
         "main": {
@@ -57,9 +57,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -79,7 +77,7 @@
         },
         "resources": {}
       },
-      "name": "Cutlass",
+      "name": "Cutelo",
       "img": "icons/weapons/swords/scimitar-worn-blue.webp",
       "roll": {
         "bonus": 1,
@@ -146,7 +144,7 @@
   "_id": "5YgEajn0wa4i85kC",
   "sort": 1000000,
   "prototypeToken": {
-    "name": "Pirate Raiders",
+    "name": "Piratas Saqueadores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -239,12 +237,12 @@
   },
   "items": [
     {
-      "name": "Swashbuckler",
+      "name": "Espadachim",
       "type": "feature",
       "_id": "N401rF937fLXMuMA",
       "img": "icons/magic/control/mouth-smile-deception-purple.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] mark 2 or fewer HP from an attack within Melee range, the attacker must mark a Stress.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca 2 ou menos PV de um ataque em alcance Corpo a Corpo, o atacante deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "ejadA9jjMnVNVczS": {
@@ -289,7 +287,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage Stress",
+            "name": "Dano de Fadiga",
             "img": "icons/magic/control/mouth-smile-deception-purple.webp",
             "range": "melee",
             "baseAction": false,
@@ -317,10 +315,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -336,7 +334,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

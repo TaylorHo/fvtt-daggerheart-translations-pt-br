@@ -1,10 +1,10 @@
 {
-  "name": "Tangle Bramble Swarm",
+  "name": "Enxame de Espinheiros Emaranhados",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
-    "motivesAndTactics": "Digest, entangle, immobilize",
+    "motivesAndTactics": "Digerir, emaranhar, imobilizar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -21,14 +21,14 @@
     "notes": "",
     "experiences": {
       "WWznKZbYf1O4dcNS": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 2,
         "description": ""
       }
     },
     "difficulty": 12,
     "tier": 1,
-    "description": "<p>A cluster of animate, blood-drinking tumbleweeds, each the size of a large gourd.</p>",
+    "description": "<p>Um aglomerado de ervas rolantes animadas que bebem sangue, cada uma do tamanho de uma grande cabaça.</p>",
     "damageThresholds": {
       "major": 6,
       "severe": 11
@@ -44,7 +44,7 @@
       }
     },
     "attack": {
-      "name": "Thorns",
+      "name": "Espinhos",
       "img": "icons/magic/nature/root-vine-entwined-thorns.webp",
       "_id": "LEgXds9kkshd2Ytq",
       "systemPath": "attack",
@@ -83,9 +83,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -144,7 +142,7 @@
   },
   "flags": {},
   "prototypeToken": {
-    "name": "Tangle Bramble Swarm",
+    "name": "Enxame de Espinheiros Emaranhados",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -237,12 +235,12 @@
   },
   "items": [
     {
-      "name": "Crush",
+      "name": "Esmagar",
       "type": "feature",
       "_id": "2HlelvCZA00izcQa",
       "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to deal <strong>2d6+8</strong> direct physical damage to a target with 3 or more bramble tokens.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para causar <strong>2d6+8</strong> de dano físico direto a um alvo com 3 ou mais fichas de espinheiro.</p>",
         "resource": null,
         "actions": {
           "CiA4K6py0eW6eihU": {
@@ -281,9 +279,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -299,7 +295,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
             "range": "",
             "baseAction": false,
@@ -326,12 +322,12 @@
       "_key": "!actors.items!PKSXFuaIHUCoH63A.2HlelvCZA00izcQa"
     },
     {
-      "name": "Encumber",
+      "name": "Sobrecarregar",
       "type": "feature",
       "_id": "JRSGc3ozDnKCAvCj",
       "img": "icons/magic/nature/root-vine-entangled-hands.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] succeeds on an attack, give the target a bramble token. If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of @Lookup[@name] Minions spawn within Melee range equal to the number of tokens removed.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque, dê ao alvo uma ficha de espinheiro. Se um alvo tiver qualquer ficha de espinheiro, ele fica Contido. Se um alvo tiver 3 ou mais fichas de espinheiro, ele também fica Vulnerável. Todas as fichas de espinheiro podem ser removidas com sucesso em uma rolagem de Finesse (12 + a quantidade de fichas de espinheiro) ou causando dano Maior ou superior ao Enxame. Se fichas de espinheiro forem removidas de um alvo com uma rolagem de Finesse, uma quantidade de Lacaios @Lookup[@name] surge em alcance Corpo a Corpo igual à quantidade de fichas removidas.</p>",
         "resource": null,
         "actions": {
           "Cdw2XxA5NhAQhQse": {
@@ -358,7 +354,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Give Token",
+            "name": "Dar Ficha",
             "img": "icons/magic/nature/root-vine-entangled-hands.webp",
             "range": "",
             "baseAction": false,
@@ -377,7 +373,7 @@
       },
       "effects": [
         {
-          "name": "Encumber",
+          "name": "Sobrecarregar",
           "img": "icons/magic/nature/root-vine-entangled-hands.webp",
           "transfer": false,
           "_id": "PdkhaTw2j15KJwBf",
@@ -403,11 +399,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>If a target has any bramble tokens, they are Restrained. If a target has 3 or more bramble tokens, they are also Vulnerable. All bramble tokens can be removed by succeeding on a Finesse Roll (12 + the number of bramble tokens) or dealing Major or greater damage to the Swarm. If bramble tokens are removed from a target using a Finesse Roll, a number of Tangle Bramble Minions spawn within Melee range equal to the number of tokens removed.</p>",
+          "description": "<p>Se um alvo tiver qualquer ficha de espinheiro, ele fica Contido. Se um alvo tiver 3 ou mais fichas de espinheiro, ele também fica Vulnerável. Todas as fichas de espinheiro podem ser removidas com sucesso em uma rolagem de Finesse (12 + a quantidade de fichas de espinheiro) ou causando dano Maior ou superior ao Enxame. Se fichas de espinheiro forem removidas de um alvo com uma rolagem de Finesse, uma quantidade de Lacaios Espinheiro Emaranhado surge em alcance Corpo a Corpo igual à quantidade de fichas removidas.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -436,10 +430,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -455,7 +449,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

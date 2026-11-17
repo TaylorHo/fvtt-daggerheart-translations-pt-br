@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Unicorn",
+  "name": "Unicórnio",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "standard",
-    "description": "<p>A celestial avatar of goodness in the form of a preternaturally beautiful horse with a long, spiraled horn emerging from its head.</p>",
+    "description": "<p>Um avatar celestial da bondade na forma de um cavalo de beleza sobrenatural com um longo chifre espiralado saindo da cabeça.</p>",
     "tier": 3,
-    "motivesAndTactics": "Keep evil at bay, protect the sacred, sense emotions and intent",
+    "motivesAndTactics": "Manter o mal afastado, proteger o sagrado, sentir emoções e intenções",
     "difficulty": 17,
     "damageThresholds": {
       "major": 19,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Hoof & Horn",
+      "name": "Casco e Chifre",
       "img": "icons/commodities/bones/horn-simple-white.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "ojO6UBjiWVKA1Y5E": {
-        "name": "Magic",
+        "name": "Magia",
         "value": 3,
         "description": ""
       },
       "E7dUB1UuLBDJ4Ynj": {
-        "name": "Nature",
+        "name": "Natureza",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Celestial Lance",
+      "name": "Lança Celestial",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name]'s standard attack deals double damage to a creature that has dealt damage to it.</p>",
+        "description": "<p>O ataque padrão de @Lookup[@name] causa o dobro de dano a uma criatura que tenha lhe causado dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
       "effects": [
         {
-          "name": "Celestial Lance",
+          "name": "Lança Celestial",
           "type": "base",
           "system": {
             "changes": [
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Unicorn's standard attack deals double damage to a creature that has dealt damage to it.</p>",
+          "description": "<p>O ataque padrão do Unicórnio causa o dobro de dano a uma criatura que tenha lhe causado dano.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!GwEwP2FnWOT6ONZw.MuXns55VF2VDcx3W"
     },
     {
-      "name": "Healing Touch",
+      "name": "Toque Curativo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The @Lookup[@name] touches its horn to an ally within Melee range and channels healing energy into them. Mark any number of Stress to clear an equal number of the ally's HP.</p>",
+        "description": "<p>@Lookup[@name] toca seu chifre em um aliado em alcance Corpo a Corpo e canaliza energia curativa para ele. Marque qualquer quantidade de Fadiga para limpar uma quantidade igual de PV do aliado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -301,7 +299,7 @@
               },
               "useDefault": false
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -320,11 +318,11 @@
       "_key": "!actors.items!GwEwP2FnWOT6ONZw.gMTKOvA2dNM5OAqG"
     },
     {
-      "name": "Protective Aura",
+      "name": "Aura Protetora",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] conjure a sparkling magical aura. While the aura is in effect, attack rolls made against the @Lookup[@name] or an ally within Very Close range are made with disadvantage. This effect lasts until the @Lookup[@name] takes damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] conjurar uma aura mágica cintilante. Enquanto a aura estiver em vigor, rolagens de ataque feitas contra @Lookup[@name] ou um aliado em alcance Muito Próximo são feitas com desvantagem. Esse efeito dura até @Lookup[@name] sofrer dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -343,14 +341,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Protective Aura",
+                "name": "Aura Protetora",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": [
-                  "YheawLsPcTD4FvSC"
-                ]
+                "effects": ["YheawLsPcTD4FvSC"]
               }
             ],
             "cost": [],
@@ -365,7 +361,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -376,10 +372,10 @@
       "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
       "effects": [
         {
-          "name": "Protective Aura",
+          "name": "Aura Protetora",
           "disabled": false,
           "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-orange.webp",
-          "description": "<p>While the aura is in effect, attack rolls made against the Unicorn or an ally within Very Close range are made with disadvantage. This effect lasts until the Unicorn takes damage.</p>",
+          "description": "<p>Enquanto a aura estiver em vigor, rolagens de ataque feitas contra o Unicórnio ou um aliado em alcance Muito Próximo são feitas com desvantagem. Esse efeito dura até o Unicórnio sofrer dano.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -390,10 +386,7 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [
-              1,
-              0
-            ],
+            "targetDispositions": [1, 0],
             "conditionals": []
           },
           "_id": "YheawLsPcTD4FvSC",
@@ -432,11 +425,11 @@
       "_key": "!actors.items!GwEwP2FnWOT6ONZw.Tzwuda3jxU2ueezY"
     },
     {
-      "name": "Teleport",
+      "name": "Teletransporte",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] teleport up to Very Far range. The @Lookup[@name] can bring up to three allies within Very Close range with it.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] se teletransportar até alcance Muito Distante. @Lookup[@name] pode levar consigo até três aliados em alcance Muito Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -455,7 +448,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Teleport",
+                "name": "Teletransporte",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -484,7 +477,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryFar"
           }
         },
@@ -506,7 +499,7 @@
   "_id": "GwEwP2FnWOT6ONZw",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Unicorn",
+    "name": "Unicórnio",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

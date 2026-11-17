@@ -1,5 +1,5 @@
 {
-  "name": "Battle Box",
+  "name": "Caixa de Batalha",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "5HUFAFDhoEmbqbgN": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A cube-shaped construct with a different rune on each of their six sides.</p>",
-    "motivesAndTactics": "Change tactics, trample foes, wait in disguise",
+    "description": "<p>Um constructo em forma de cubo com uma runa diferente em cada um de seus seis lados.</p>",
+    "motivesAndTactics": "Mudar de tática, pisotear inimigos, esperar disfarçado",
     "attack": {
-      "name": "Slam",
+      "name": "Pancada",
       "img": "icons/commodities/tech/metal-barrel.webp",
       "roll": {
         "bonus": 2,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "dgH3fW9FTYLaIDvS",
   "sort": 2600000,
   "prototypeToken": {
-    "name": "Battle Box",
+    "name": "Caixa de Batalha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "2JfPSV3pw6pv0BXd": {
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!dgH3fW9FTYLaIDvS.RSovCwuGrZ1mk5py"
     },
     {
-      "name": "Randomized Tactics",
+      "name": "Táticas Aleatórias",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> and roll a <strong>d6</strong>. The Box uses the corresponding move:</p><ol><li><p><strong>Mana Beam.</strong> The Box fires a searing beam. Make an attack against a target within Far range. On a success, deal <strong>2d10+2</strong> magic damage.</p></li><li><p><strong>Fire Jets.</strong> The Box shoots into the air, spinning and releasing jets of flame. Make an attack against all targets within Close range. Targets the Box succeeds against take <strong>2d8</strong> physical damage.</p></li><li><p><strong>Trample.</strong> The Box rockets around erratically. Make an attack against all PCs within Close range. Targets the Box succeeds against take <strong>1d6+5</strong> physical damage and are <em>Vulnerable</em> until their next roll with Hope.</p></li><li><p><strong>Shocking Gas.</strong> The Box sprays out a silver gas sparking with lightning. All targets within Close range must succeed on a Finesse Reaction Roll or mark 3 Stress.</p></li><li><p><strong>Stunning Clap.</strong> The Box leaps and their sides clap, creating a small sonic boom. All targets within Very Close range must succeed on a Strength Reaction Roll or become <em>Vulnerable</em> until the cube is defeated.</p></li><li><p><strong>Psionic Whine.</strong> The Box releases a cluster of mechanical bees whose buzz rattles mortal minds. All targets within Close range must succeed on a Presence Reaction Roll or take <strong>2d4+9</strong> direct magic damage.</p></li></ol>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> e role um <strong>d6</strong>. A Caixa usa o movimento correspondente:</p><ol><li><p><strong>Raio de Mana.</strong> A Caixa dispara um raio abrasador. Faça um ataque contra um alvo em alcance Distante. Em caso de sucesso, cause <strong>2d10+2</strong> de dano mágico.</p></li><li><p><strong>Jatos de Fogo.</strong> A Caixa dispara para o ar, girando e liberando jatos de chamas. Faça um ataque contra todos os alvos em alcance Próximo. Alvos contra os quais a Caixa tiver sucesso sofrem <strong>2d8</strong> de dano físico.</p></li><li><p><strong>Pisoteio.</strong> A Caixa se lança de forma errática ao redor. Faça um ataque contra todos os PJs em alcance Próximo. Alvos contra os quais a Caixa tiver sucesso sofrem <strong>1d6+5</strong> de dano físico e ficam <em>Vulneráveis</em> até sua próxima rolagem com Esperança.</p></li><li><p><strong>Gás Chocante.</strong> A Caixa borrifa um gás prateado faiscando com relâmpagos. Todos os alvos em alcance Próximo devem ter sucesso em um Teste de Reação de Acuidade ou marcar 3 Fadiga.</p></li><li><p><strong>Palmas Atordoantes.</strong> A Caixa salta e suas laterais batem uma contra a outra, criando um pequeno estrondo sônico. Todos os alvos em alcance Muito Próximo devem ter sucesso em um Teste de Reação de Força ou ficam <em>Vulneráveis</em> até o cubo ser derrotado.</p></li><li><p><strong>Zumbido Psiônico.</strong> A Caixa libera um enxame de abelhas mecânicas cujo zumbido abala mentes mortais. Todos os alvos em alcance Próximo devem ter sucesso em um Teste de Reação de Presença ou sofrem <strong>2d4+9</strong> de dano mágico direto.</p></li></ol>",
         "resource": null,
         "actions": {
           "Yr2e0A9SRWHhFv9u": {
@@ -344,7 +342,7 @@
                 "Y2rycSVaupmnNAxc"
               ]
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "emk5sdywXogqo1fM": {
@@ -368,9 +366,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -379,7 +375,7 @@
             "_id": "emk5sdywXogqo1fM",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box fires a searing beam. Make an attack against a target within Far range. On a success, deal <strong>2d10+2</strong> magic damage.</p>",
+            "description": "<p>A Caixa dispara um raio abrasador. Faça um ataque contra um alvo em alcance Distante. Em caso de sucesso, cause <strong>2d10+2</strong> de dano mágico.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -419,7 +415,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mana Beam",
+            "name": "Raio de Mana",
             "range": "far",
             "img": "icons/magic/light/beam-rays-blue.webp"
           },
@@ -444,9 +440,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -455,7 +449,7 @@
             "_id": "dgVOG9MX1jCQXZJi",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box shoots into the air, spinning and releasing jets of flame. Make an attack against all targets within Close range. Targets the Box succeeds against take <strong>2d8</strong> physical damage.</p>",
+            "description": "<p>A Caixa dispara para o ar, girando e liberando jatos de chamas. Faça um ataque contra todos os alvos em alcance Próximo. Alvos contra os quais a Caixa tiver sucesso sofrem <strong>2d8</strong> de dano físico.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -464,7 +458,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Fire Jets",
+                "name": "Jatos de Fogo",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -504,7 +498,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Fire Jets",
+            "name": "Jatos de Fogo",
             "range": "",
             "img": "icons/magic/fire/barrier-wall-explosion-orange.webp"
           },
@@ -529,9 +523,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -540,7 +532,7 @@
             "_id": "0TsDWkKRYZpJYhYp",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box rockets around erratically. Make an attack against all PCs within Close range. Targets the Box succeeds against take <strong>1d6+5</strong> physical damage and are <em>Vulnerable</em> until their next roll with Hope.</p>",
+            "description": "<p>A Caixa se lança de forma errática ao redor. Faça um ataque contra todos os PJs em alcance Próximo. Alvos contra os quais a Caixa tiver sucesso sofrem <strong>1d6+5</strong> de dano físico e ficam <em>Vulneráveis</em> até sua próxima rolagem com Esperança.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -549,7 +541,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Trample",
+                "name": "Pisoteio",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -594,7 +586,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Trample",
+            "name": "Pisoteio",
             "range": "",
             "img": "icons/skills/movement/arrow-upward-yellow.webp"
           },
@@ -626,7 +618,7 @@
             "_id": "iwxBO9oQBAuBhTKK",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box sprays out a silver gas sparking with lightning. All targets within Close range must succeed on a Finesse Reaction Roll or mark 3 Stress.</p>",
+            "description": "<p>A Caixa borrifa um gás prateado faiscando com relâmpagos. Todos os alvos em alcance Próximo devem ter sucesso em um Teste de Reação de Acuidade ou marcar 3 Fadiga.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -635,7 +627,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Shocking Gas",
+                "name": "Gás Chocante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -675,7 +667,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Shocking Gas",
+            "name": "Gás Chocante",
             "range": "",
             "img": "icons/magic/lightning/bolt-strike-embers-teal.webp"
           },
@@ -688,7 +680,7 @@
             "_id": "ey2man48zSlQ9pM5",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box leaps and their sides clap, creating a small sonic boom. All targets within Very Close range must succeed on a Strength Reaction Roll or become <em>Vulnerable</em> until the cube is defeated.</p>",
+            "description": "<p>A Caixa salta e suas laterais batem uma contra a outra, criando um pequeno estrondo sônico. Todos os alvos em alcance Muito Próximo devem ter sucesso em um Teste de Reação de Força ou ficam <em>Vulneráveis</em> até o cubo ser derrotado.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -697,7 +689,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Stunning Clap",
+                "name": "Palmas Atordoantes",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -742,7 +734,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Stunning Clap",
+            "name": "Palmas Atordoantes",
             "range": "",
             "img": "icons/magic/sonic/explosion-shock-wave-teal.webp"
           },
@@ -767,9 +759,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -778,7 +768,7 @@
             "_id": "Y2rycSVaupmnNAxc",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The Box releases a cluster of mechanical bees whose buzz rattles mortal minds. All targets within Close range must succeed on a Presence Reaction Roll or take <strong>2d4+9</strong> direct magic damage.</p>",
+            "description": "<p>A Caixa libera um enxame de abelhas mecânicas cujo zumbido abala mentes mortais. Todos os alvos em alcance Próximo devem ter sucesso em um Teste de Reação de Presença ou sofrem <strong>2d4+9</strong> de dano mágico direto.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -787,7 +777,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Randomized Tactics",
+                "name": "Táticas Aleatórias",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -827,7 +817,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Psionic Whine",
+            "name": "Zumbido Psiônico",
             "range": "",
             "img": "icons/creatures/invertebrates/wasp-swarm-attack.webp"
           }
@@ -842,14 +832,12 @@
       "img": "icons/commodities/tech/transmission.webp",
       "effects": [
         {
-          "name": "Trampled",
+          "name": "Pisoteado",
           "disabled": true,
           "img": "icons/skills/movement/arrow-down-pink.webp",
-          "description": "<p>You are <em>Vulnerable</em> until your next roll with Hope.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até sua próxima rolagem com Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -888,14 +876,12 @@
           "_key": "!actors.items.effects!dgH3fW9FTYLaIDvS.ZqfLMjVkbUwDw4p6.5bJYVKu4fuzGa7KY"
         },
         {
-          "name": "Stunning Clap",
+          "name": "Palmas Atordoantes",
           "disabled": false,
           "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
-          "description": "<p>You are <em>Vulnerable</em> until the cube is defeated.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até o cubo ser derrotado.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -943,10 +929,10 @@
       "_key": "!actors.items!dgH3fW9FTYLaIDvS.ZqfLMjVkbUwDw4p6"
     },
     {
-      "name": "Overcharge",
+      "name": "Sobrecarga",
       "type": "feature",
       "system": {
-        "description": "<p>Before rolling damage for the @Lookup[@name]'s attack, you can <strong>mark a Stress</strong> to add a <strong>d6</strong> to the damage roll. Additionally, you gain a Fear.</p>",
+        "description": "<p>Antes de rolar o dano do ataque de @Lookup[@name], você pode <strong>marcar 1 Fadiga</strong> para adicionar um <strong>d6</strong> à rolagem de dano. Além disso, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "U6ND54T8GFzkOEOM": {
@@ -970,9 +956,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -1010,7 +994,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -1032,10 +1016,10 @@
       "_key": "!actors.items!dgH3fW9FTYLaIDvS.ITzpRJr2jWK0Ksmp"
     },
     {
-      "name": "Death Quake",
+      "name": "Terremoto Mortal",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks their last HP, the magic powering them ruptures in an explosion of force. All targets within Close range must succeed on an Instinct Reaction Roll or take <strong>2d8+1</strong> magic damage</p>",
+        "description": "<p>Quando @Lookup[@name] marca seu último PV, a magia que o alimenta se rompe em uma explosão de força. Todos os alvos em alcance Próximo devem ter sucesso em um Teste de Reação de Instinto ou sofrem <strong>2d8+1</strong> de dano mágico.</p>",
         "resource": null,
         "actions": {
           "oCpv4zi9jtEpo0K1": {
@@ -1065,9 +1049,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -1104,12 +1086,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Death Quake",
+                "name": "Terremoto Mortal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",

@@ -1,5 +1,5 @@
 {
-  "name": "Skeleton Warrior",
+  "name": "Esqueleto Guerreiro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Feign death, gang up, steal skin",
+    "motivesAndTactics": "Fingir-se de morto, atacar em bando, roubar pele",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A dirt-covered skeleton armed with a rusted blade.</p>",
+    "description": "<p>Um esqueleto coberto de terra, armado com uma lâmina enferrujada.</p>",
     "attack": {
-      "name": "Sword",
+      "name": "Espada",
       "roll": {
         "bonus": 0,
         "type": "attack",
@@ -67,9 +67,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "10YIQl0lvCJXZLfX",
   "sort": 100000,
   "prototypeToken": {
-    "name": "Skeleton Warrior",
+    "name": "Esqueleto Guerreiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Only Bones",
+      "name": "Só Ossos",
       "type": "feature",
       "_id": "ouvJweENF1kLYcOT",
       "img": "icons/magic/death/bones-crossed-orange.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] is resistant to physical damage.</p>",
+        "description": "<p>O @Lookup[@name] é resistente a dano físico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -245,7 +243,7 @@
       },
       "effects": [
         {
-          "name": "Only Bones",
+          "name": "Só Ossos",
           "type": "base",
           "_id": "zTepuF1Z5OObQdSi",
           "img": "icons/magic/death/bones-crossed-orange.webp",
@@ -274,7 +272,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Warrior is resistant to physical damage.</p>",
+          "description": "<p>O Guerreiro é resistente a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -298,19 +296,19 @@
       "_key": "!actors.items!10YIQl0lvCJXZLfX.ouvJweENF1kLYcOT"
     },
     {
-      "name": "Won't Stay Dead",
+      "name": "Não Fica Morto",
       "type": "feature",
       "_id": "hYl31ThCmZdc0MFa",
       "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] is defeated, you can spotlight them and roll a <strong>d6</strong>. On a result of 6, if there are other adversaries on the battlefield, the @Lookup[@name] re-forms with no marked HP.</p>",
+        "description": "<p>Quando @Lookup[@name] é derrotado, você pode dar destaque a ele e rolar um <strong>d6</strong>. Com resultado 6, se houver outros adversários no campo de batalha, @Lookup[@name] se recompõe sem PV marcados.</p>",
         "resource": null,
         "actions": {
           "QnuFrptj8oARaA3i": {
             "type": "attack",
             "_id": "QnuFrptj8oARaA3i",
             "systemPath": "actions",
-            "description": "<p>When the Warrior is defeated, you can spotlight them and roll a <strong>d6</strong>. On a result of 6, if there are other adversaries on the battlefi eld, the Warrior re-forms with no marked HP.</p>",
+            "description": "<p>Quando o Guerreiro é derrotado, você pode dar destaque a ele e rolar um <strong>d6</strong>. Com resultado 6, se houver outros adversários no campo de batalha, o Guerreiro se recompõe sem PV marcados.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -349,7 +347,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Use",
+            "name": "Usar",
             "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
             "range": "",
             "baseAction": false,

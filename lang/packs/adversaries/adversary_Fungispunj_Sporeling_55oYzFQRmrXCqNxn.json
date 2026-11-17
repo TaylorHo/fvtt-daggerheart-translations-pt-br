@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fungispunj Sporeling",
+  "name": "Esporo Fungispunj",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "minion",
-    "description": "<p>A halfling-sized mushroom creature that defends itself from attackers with tiny puff s of neurotoxic spores.</p>",
+    "description": "<p>Uma criatura-cogumelo do tamanho de um halfling que se defende de atacantes com pequenas baforadas de esporos neurotóxicos.</p>",
     "tier": 2,
-    "motivesAndTactics": "Avoid violence, spray attackers",
+    "motivesAndTactics": "Evitar violência, borrifar atacantes",
     "difficulty": 13,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Neuro Spore",
+      "name": "Neuroesporo",
       "img": "icons/creatures/slimes/slime-movement-pseudopod-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "9pT6tvgfq6o8Msej": {
-        "name": "Darkness",
+        "name": "Escuridão",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Minion (6)",
+      "name": "Lacaio (6)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Sporeling is defeated when it takes any damage. For every 6 damage a PC deals to the Sporeling, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O Esporo é derrotado quando sofre qualquer dano. A cada 6 de dano que um PJ causar ao Esporo, o PJ derrota um Lacaio adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!55oYzFQRmrXCqNxn.JnbkY6k2RLOAgCQZ"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 4 magic damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para escolher um alvo e colocar em destaque todos os @Lookup[@name] dentro do alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 4 de dano mágico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -252,7 +248,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -271,11 +267,11 @@
       "_key": "!actors.items!55oYzFQRmrXCqNxn.WYVSRLqN5A9eZykm"
     },
     {
-      "name": "Form Up",
+      "name": "Formar Fileira",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to combine three Sporelings within a Close area and replace them with a Fungispunj Sporophore.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para combinar três Esporos dentro de uma área Próxima e substituí-los por um Esporóforo Fungispunj.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -315,7 +311,7 @@
                 "count": "1"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -337,7 +333,7 @@
   "_id": "55oYzFQRmrXCqNxn",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fungispunj Sporeling",
+    "name": "Esporo Fungispunj",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

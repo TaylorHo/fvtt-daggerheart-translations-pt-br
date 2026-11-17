@@ -1,5 +1,5 @@
 {
-  "name": "High Seraph",
+  "name": "Alto Serafim",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "2PulxNtd34IsD5XC": {
-        "name": "Divine Knowledge",
+        "name": "Conhecimento Divino",
         "description": "",
         "value": 3
       }
     },
     "tier": 4,
-    "description": "<p>A divine champion, head of a hallowed host of warriors who enforce their god's will.</p>",
-    "motivesAndTactics": "Enforce dogma, fl y, pronounce judgment, smite",
+    "description": "<p>Um campeão divino, líder de uma santa hoste de guerreiros que impõem a vontade de seu deus.</p>",
+    "motivesAndTactics": "Impor dogma, voar, proferir julgamento, golpear",
     "attack": {
-      "name": "Holy Sword",
+      "name": "Espada Sagrada",
       "roll": {
         "bonus": 8,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "r1mbfSSwKWdcFdAU",
   "sort": 1800000,
   "prototypeToken": {
-    "name": "High Seraph",
+    "name": "Alto Serafim",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "7oqXSF66R2GlB17O": {
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!r1mbfSSwKWdcFdAU.jUu058IZwt4u2goM"
     },
     {
-      "name": "Divine Flight",
+      "name": "Voo Divino",
       "type": "feature",
       "system": {
-        "description": "<p>While the @Lookup[@name] is flying, <strong>spend a Fear</strong> to move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p>Enquanto o @Lookup[@name] está voando, <strong>gaste 1 Medo</strong> para se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
         "resource": null,
         "actions": {
           "ZgspQLiGhuKURA1T": {
@@ -332,7 +330,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "",
             "baseAction": false,
@@ -361,10 +359,10 @@
       "_key": "!actors.items!r1mbfSSwKWdcFdAU.2AB3ouMpy2wWnGQm"
     },
     {
-      "name": "Judgement",
+      "name": "Julgamento",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make a target Guilty in the eyes of the Seraph's god until the @Lookup[@name] is defeated. While Guilty, the target doesn't gain Hope on a result with Hope. When the @Lookup[@name] succeeds on a standard attack against a Guilty target, they deal Severe damage instead of their standard damage. The @Lookup[@name] can only mark one target at a time.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para tornar um alvo Culpado aos olhos do deus do Serafim até que @Lookup[@name] seja derrotado. Enquanto estiver Culpado, o alvo não ganha Esperança em um resultado com Esperança. Quando @Lookup[@name] tem sucesso em um ataque padrão contra um alvo Culpado, causa dano Grave em vez de seu dano padrão. @Lookup[@name] só pode marcar um alvo por vez.</p>",
         "resource": null,
         "actions": {
           "ErGJWtFIXFPgKtek": {
@@ -391,7 +389,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Make Guilty",
+            "name": "Tornar Culpado",
             "img": "icons/magic/light/beams-rays-orange-purple-small.webp",
             "range": "",
             "baseAction": false,
@@ -412,7 +410,7 @@
       "img": "icons/magic/light/beams-rays-orange-purple-small.webp",
       "effects": [
         {
-          "name": "Guilty",
+          "name": "Culpado",
           "img": "icons/magic/light/beams-rays-orange-purple-small.webp",
           "transfer": false,
           "_id": "O8G0oOf9f3qzNOAT",
@@ -421,7 +419,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until the High Seraph is defeated. The High Seraph can only mark one target at a time.</p>"
+              "description": "<p>Até que o Alto Serafim seja derrotado. O Alto Serafim só pode marcar um alvo por vez.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -435,7 +433,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While Guilty, you don't gain Hope on a result with Hope.</p>",
+          "description": "<p>Enquanto estiver Culpado, você não ganha Esperança em um resultado com Esperança.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -465,10 +463,10 @@
       "_key": "!actors.items!r1mbfSSwKWdcFdAU.FilEB21L5q9XxKE1"
     },
     {
-      "name": "God Rays",
+      "name": "Raios Divinos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to reflect a sliver of divinity as a searing beam of light that hits up to twenty targets within Very Far range. Targets must make a Presence Reaction Roll, with disadvantage if they are marked Guilty. Targets who fail take <strong>4d6+12</strong> magic damage. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para refletir uma lasca de divindade como um feixe de luz escaldante que atinge até vinte alvos em alcance Muito Distante. Os alvos devem fazer um Teste de Reação de Presença, com desvantagem se estiverem marcados como Culpados. Alvos que falharem sofrem <strong>4d6+12</strong> de dano mágico. Alvos que tiverem sucesso sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "HwC75gazlN0k30AL": {
@@ -507,9 +505,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -545,7 +541,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/light/beam-strike-orange-gold.webp",
             "range": "veryFar",
             "baseAction": false,
@@ -574,10 +570,10 @@
       "_key": "!actors.items!r1mbfSSwKWdcFdAU.Vrb8dIJcOJ3ClwO5"
     },
     {
-      "name": "We Are One",
+      "name": "Somos Um",
       "type": "feature",
       "system": {
-        "description": "<p>Once per scene, <strong>spend a Fear</strong> to spotlight all other adversaries within Far range. Attacks they make while spotlighted in this way deal half damage.</p>",
+        "description": "<p>Uma vez por cena, <strong>gaste 1 de Medo</strong> para dar destaque a todos os outros adversários em alcance Distante. Ataques que eles fizerem enquanto estiverem em destaque dessa forma causam metade do dano.</p>",
         "resource": null,
         "actions": {
           "j6DmU9dtob5QStxY": {
@@ -608,7 +604,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
             "range": "",
             "baseAction": false,

@@ -1,5 +1,5 @@
 {
-  "name": "Head Vampire",
+  "name": "Vampiro-Chefe",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 6
       }
     },
-    "motivesAndTactics": "Create thralls, charm, command, fly, intimidate",
+    "motivesAndTactics": "Criar servos, enfeitiçar, comandar, voar, intimidar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "qNsNf5Yms7m3ZVeF": {
-        "name": "Aristocrat",
+        "name": "Aristocrata",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A captivating undead dressed in aristocratic finery.</p>",
+    "description": "<p>Um morto-vivo cativante vestido com trajes aristocráticos.</p>",
     "attack": {
-      "name": "Rapier",
+      "name": "Rapieira",
       "img": "icons/weapons/swords/sword-jeweled-red.webp",
       "roll": {
         "bonus": 5,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "i2UNbRvgyoSs07M6",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Head Vampire",
+    "name": "Vampiro-Chefe",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "Rf2ZL3EjCzudonRb": {
@@ -283,12 +281,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -321,10 +319,10 @@
       "_key": "!actors.items!i2UNbRvgyoSs07M6.c30Cc5mofs2arb9j"
     },
     {
-      "name": "Look into My Eyes",
+      "name": "Olhe nos Meus Olhos",
       "type": "feature",
       "system": {
-        "description": "<p>A creature who moves into Melee range of the @Lookup[@name] must make an Instinct Reaction Roll. On a failure, you gain <strong>[[/r 1d4]]</strong> Fear.</p>",
+        "description": "<p>Uma criatura que se move para alcance Corpo a Corpo de @Lookup[@name] deve fazer um Teste de Reação de Instinto. Em uma falha, você ganha <strong>[[/r 1d4]]</strong> de Medo.</p>",
         "resource": null,
         "actions": {
           "lOgkZTR1hybc6bnJ": {
@@ -370,7 +368,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
             "range": "melee",
             "baseAction": false,
@@ -399,10 +397,10 @@
       "_key": "!actors.items!i2UNbRvgyoSs07M6.1RfqKn7gYbWbSl0A"
     },
     {
-      "name": "Feed on Followers",
+      "name": "Alimentar-se dos Seguidores",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] is within Melee range of an ally, they can cause the ally to mark a HP. The @Lookup[@name] then clears a HP.</p>",
+        "description": "<p>Quando @Lookup[@name] está em alcance Corpo a Corpo de um aliado, ele pode fazer o aliado marcar 1 PV. Então @Lookup[@name] limpa 1 PV.</p>",
         "resource": null,
         "actions": {
           "tM6TBTtmCXTnIzen": {
@@ -462,7 +460,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear HP",
+            "name": "Remover PV",
             "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
             "range": "self",
             "baseAction": false,
@@ -491,10 +489,10 @@
       "_key": "!actors.items!i2UNbRvgyoSs07M6.Oj6qkLG1N6uqQHcx"
     },
     {
-      "name": "The Hunt Is On",
+      "name": "A Caçada Começou",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend 2 Fear</strong> to summon [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG]{Vampires}, who appear at Far range and immediately take the spotlight.</p>",
+        "description": "<p><strong>Gaste 2 de Medo</strong> para invocar [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG]{Vampiros}, que aparecem em alcance Distante e imediatamente assumem o destaque.</p>",
         "resource": null,
         "actions": {
           "jGFOnU6PNdWU6iF4": {
@@ -521,7 +519,7 @@
                 "count": "1d4"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []
@@ -545,10 +543,10 @@
       "_key": "!actors.items!i2UNbRvgyoSs07M6.IWtpuQCuV82lOSry"
     },
     {
-      "name": "Lifesuck",
+      "name": "Sucção Vital",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] is spotlighted, roll a <strong>d8</strong>. On a result of 6 or higher, all targets within Very Close range must mark a HP.</p>",
+        "description": "<p>Quando @Lookup[@name] recebe o destaque, role um <strong>d8</strong>. Com um resultado de 6 ou mais, todos os alvos em alcance Muito Próximo devem marcar 1 PV.</p>",
         "resource": null,
         "actions": {
           "DA8qT2omBcG4oryX": {
@@ -615,12 +613,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d8",
+            "name": "Rolar d8",
             "img": "icons/magic/unholy/strike-beam-blood-small-red-purple.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Lifesuck",
+                "name": "Sucção Vital",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",

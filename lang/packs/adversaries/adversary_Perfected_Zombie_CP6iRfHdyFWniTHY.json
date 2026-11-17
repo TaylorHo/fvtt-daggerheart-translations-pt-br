@@ -1,5 +1,5 @@
 {
-  "name": "Perfected Zombie",
+  "name": "Zumbi Aperfeiçoado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Consume, hound, maim, terrify",
+    "motivesAndTactics": "Consumir, perseguir, mutilar, aterrorizar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 4,
-    "description": "<p>A towering, muscular zombie with magically infused strength and skill.</p>",
+    "description": "<p>Um zumbi imponente e musculoso, com força e habilidade magicamente infundidas.</p>",
     "attack": {
-      "name": "Greataxe",
+      "name": "Machado Grande",
       "img": "icons/weapons/axes/axe-battle-eyes-red.webp",
       "range": "veryClose",
       "roll": {
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "CP6iRfHdyFWniTHY",
   "sort": 800000,
   "prototypeToken": {
-    "name": "Perfected Zombie",
+    "name": "Zumbi Aperfeiçoado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "dquYnt5qiHZfnyD9": {
@@ -277,12 +275,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -315,10 +313,10 @@
       "_key": "!actors.items!CP6iRfHdyFWniTHY.xyz5d7QISdB5X5ey"
     },
     {
-      "name": "Fearsome Presence",
+      "name": "Presença Temível",
       "type": "feature",
       "system": {
-        "description": "<p>PCs can't spend Hope to use features against the @Lookup[@name].</p>",
+        "description": "<p>PJs não podem gastar Esperança para usar características contra o @Lookup[@name].</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -339,10 +337,10 @@
       "_key": "!actors.items!CP6iRfHdyFWniTHY.0viJMAsPBNLq2azj"
     },
     {
-      "name": "Perfect Strike",
+      "name": "Golpe Perfeito",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress </strong>to make a standard attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against are <em>Vulnerable</em> until their next rest.</p>",
+        "description": "<p><strong>Marque 1 Fadiga </strong>para fazer um ataque padrão contra todos os alvos em alcance Muito Próximo. Alvos contra os quais o @Lookup[@name] tiver sucesso ficam <em>Vulneráveis</em> até o próximo descanso.</p>",
         "resource": null,
         "actions": {
           "un9btM1mN53JHIgV": {
@@ -381,9 +379,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -425,12 +421,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/strike-axe-energy-pink.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Perfect Strike",
+                "name": "Golpe Perfeito",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -455,7 +451,7 @@
       "img": "icons/skills/melee/strike-axe-energy-pink.webp",
       "effects": [
         {
-          "name": "Perfect Strike",
+          "name": "Golpe Perfeito",
           "img": "icons/skills/melee/strike-axe-energy-pink.webp",
           "transfer": false,
           "_id": "Q5eeh0B6qaXFS1Ck",
@@ -478,11 +474,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until your next rest.</p>",
+          "description": "<p><em>Vulnerável</em> até o seu próximo descanso.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -510,10 +504,10 @@
       "_key": "!actors.items!CP6iRfHdyFWniTHY.CKy2r6FguyTSO9Fm"
     },
     {
-      "name": "Skilled Opportunist",
+      "name": "Oportunista Habilidoso",
       "type": "feature",
       "system": {
-        "description": "<p>When another adversary deals damage to a target within Very Close range of the @Lookup[@name], you can <strong>spend a Fear</strong> to add the @Lookup[@name]'s standard attack damage to the damage roll.</p>",
+        "description": "<p>Quando outro adversário causa dano a um alvo em alcance Muito Próximo do @Lookup[@name], você pode <strong>gastar 1 de Medo</strong> para adicionar o dano de ataque padrão do @Lookup[@name] à rolagem de dano.</p>",
         "resource": null,
         "actions": {
           "To2z7XQItxcMxKBp": {
@@ -535,7 +529,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
             "range": "",
             "baseAction": false,

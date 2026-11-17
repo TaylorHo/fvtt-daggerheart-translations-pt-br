@@ -1,5 +1,5 @@
 {
-  "name": "Merchant Baron",
+  "name": "Barão Mercador",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Abuse power, gather resources, mobilize minions",
+    "motivesAndTactics": "Abusar do poder, reunir recursos, mobilizar lacaios",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "lL8dfULiYdmPhNI0": {
-        "name": "Nobility",
+        "name": "Nobreza",
         "description": "",
         "value": 2
       },
       "gamLW8KZ5thFYf4v": {
-        "name": "Trade",
+        "name": "Comércio",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>An accomplished merchant with a large operation under their command.</p>",
+    "description": "<p>Um mercador consumado, com uma grande operação sob seu comando.</p>",
     "attack": {
-      "name": "Rapier",
+      "name": "Rapieira",
       "img": "icons/weapons/swords/sword-jeweled-red.webp",
       "roll": {
         "bonus": -2,
@@ -79,9 +79,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "Vy02IhGhkJLuezu4",
   "sort": 2100000,
   "prototypeToken": {
-    "name": "Merchant Baron",
+    "name": "Barão Mercador",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Everyone Has a Price",
+      "name": "Todo Mundo Tem um Preço",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to offer a target a dangerous bargain for something they want or need. If used on a PC, they must make a Presence Reaction Roll (17). On a failure, they must mark 2 Stress or take the deal.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para oferecer a um alvo uma barganha perigosa por algo que ele deseja ou precisa. Se usado em um PJ, ele deve fazer um Teste de Reação de Presença (17). Em caso de falha, deve marcar 2 Fadiga ou aceitar o acordo.</p>",
         "resource": null,
         "actions": {
           "T7N9rDCaB5VOm6AY": {
@@ -308,7 +306,7 @@
               "difficulty": 17,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/commodities/currency/coins-plain-stack-gold-yellow.webp",
             "range": "",
             "baseAction": false,
@@ -337,10 +335,10 @@
       "_key": "!actors.items!Vy02IhGhkJLuezu4.7dxToUpxOyISXXde"
     },
     {
-      "name": "The Best Muscle Money Can Buy",
+      "name": "Os Melhores Músculos que o Dinheiro Pode Comprar",
       "type": "feature",
       "system": {
-        "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon 1d4+1 Tier 1 adversaries, who appear at Far range, to enforce the @Lookup[@name]'s will.</p>",
+        "description": "<p>Uma vez por cena, <strong>marque 1 Fadiga</strong> para invocar 1d4+1 adversários de Patamar 1, que aparecem em alcance Distante, para impor a vontade do @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "9NA6vgfsv0y2tX9v": {
@@ -371,7 +369,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/environment/people/charge.webp",
             "range": "",
             "baseAction": false,

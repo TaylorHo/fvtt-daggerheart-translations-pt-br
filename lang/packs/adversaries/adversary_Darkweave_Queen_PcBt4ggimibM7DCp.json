@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Darkweave Queen",
+  "name": "Rainha da Teia Sombria",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>A wagon-sized spider woven from shadow-silk by a long-forgotten god. Each of her many eyes bears the face of a different victim.</p>",
+    "description": "<p>Uma aranha do tamanho de uma carroça, tecida de seda de sombra por um deus há muito esquecido. Cada um de seus muitos olhos carrega o rosto de uma vítima diferente.</p>",
     "tier": 1,
-    "motivesAndTactics": "Ambush prey, climb the walls and ceiling, misdirect, paralyze, stash bodies away for later, steal faces",
+    "motivesAndTactics": "Emboscar presas, escalar paredes e tetos, despistar, paralisar, esconder corpos para depois, roubar rostos",
     "difficulty": 14,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spider Bite",
+      "name": "Mordida de Aranha",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "G6RiEgnPyXUaJRl3": {
-        "name": "Giant-Sized",
+        "name": "Tamanho Gigante",
         "value": 3,
         "description": ""
       },
       "ALD6o54IF2gOAhjl": {
-        "name": "Hunter",
+        "name": "Caçadora",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Queen can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight her.</p>",
+        "description": "<p>A Rainha pode receber o foco até três vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!PcBt4ggimibM7DCp.hjIWDp15JpjHjlDl"
     },
     {
-      "name": "Den Mother",
+      "name": "Mãe da Ninhada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Once per scene, <strong>spend 2 Fear</strong> to summon up to two Darkweave adversaries (other than @Lookup[@name]s), who appear within Close range and immediately take the spotlight.</p>",
+        "description": "<p>Uma vez por cena, <strong>gaste 2 Medo</strong> para invocar até dois adversários da Teia Sombria (que não sejam @Lookup[@name]s), que aparecem em alcance Próximo e recebem o foco imediatamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,7 +208,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -229,11 +227,11 @@
       "_key": "!actors.items!PcBt4ggimibM7DCp.X7Fa0Ur0otImyKGP"
     },
     {
-      "name": "Quicker Than She Looks",
+      "name": "Mais Rápida do que Parece",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to move up to Far range and make a standard attack with advantage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para se mover até o alcance Distante e fazer um ataque padrão com vantagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -259,9 +257,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -319,7 +315,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -338,11 +334,11 @@
       "_key": "!actors.items!PcBt4ggimibM7DCp.UMGKSgbSSypytyKF"
     },
     {
-      "name": "Darkfang Envenomation",
+      "name": "Envenenamento da Presa Sombria",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Queen succeeds on a standard attack, you can <strong>spend a Fear</strong> to make the target <em>Vulnerable</em> and <em>Restrained</em> until they succeed on a Strength Roll (12) or take a rest.</p>",
+        "description": "<p>Quando a Rainha é bem-sucedida em um ataque padrão, você pode <strong>gastar um Medo</strong> para deixar o alvo <em>Vulnerável</em> e <em>Restrito</em> até que seja bem-sucedido em um Teste de Força (12) ou faça um descanso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -386,7 +382,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -397,15 +393,12 @@
       "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "effects": [
         {
-          "name": "Poisoned",
+          "name": "Envenenado",
           "disabled": false,
           "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
-          "description": "<p>You are <em>Vulnerable</em> and <em>Restrained</em> until you succeed on a Strength Roll (12) or take a rest.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> e <em>Restrito</em> até ser bem-sucedido em um Teste de Força (12) ou fazer um descanso.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable",
-            "restrained"
-          ],
+          "statuses": ["vulnerable", "restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -453,11 +446,11 @@
       "_key": "!actors.items!PcBt4ggimibM7DCp.71yNHGcvRHBXWKVe"
     },
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC fails an attack roll against the Queen, you gain a Fear.</p>",
+        "description": "<p>Quando um PJ falha em um teste de ataque contra a Rainha, você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -480,7 +473,7 @@
   "_id": "PcBt4ggimibM7DCp",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Darkweave Queen",
+    "name": "Rainha da Teia Sombria",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

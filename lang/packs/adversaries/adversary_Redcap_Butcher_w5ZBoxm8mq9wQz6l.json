@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Redcap Butcher",
+  "name": "Açougueiro Barrete-Vermelho",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A halfling-sized fey creature who hacks their victims apart with a variety of cutting implements. They wear a conical red hat sealed on their head with candle wax.</p>",
+    "description": "<p>Uma criatura feérica do tamanho de um halfling que retalha suas vítimas com uma variedade de instrumentos cortantes. Usa um chapéu vermelho cônico selado na cabeça com cera de vela.</p>",
     "tier": 1,
-    "motivesAndTactics": "Grin disconcertingly, hack and slash, scramble",
+    "motivesAndTactics": "Sorrir de forma perturbadora, picar e retalhar, escalar",
     "difficulty": 12,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Meat Cleaver",
+      "name": "Cutelo de Açougueiro",
       "img": "icons/weapons/axes/cleaver-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "wHSEZS1xGFU6X8BQ": {
-        "name": "Scurry",
+        "name": "Correria",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Chop Happy",
+      "name": "Feliz com o Corte",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against up to three targets. For each target who marks HP, you gain a Fear.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer um ataque padrão contra até três alvos. Para cada alvo que marcar PV, você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -228,7 +224,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -247,11 +243,11 @@
       "_key": "!actors.items!w5ZBoxm8mq9wQz6l.wsHCq553WEQTApjJ"
     },
     {
-      "name": "Knife Thrower",
+      "name": "Lançador de Facas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against a target within Far range. If the Butcher is Hidden, they make the attack with advantage.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer um ataque padrão contra um alvo dentro do alcance Distante. Se o Açougueiro estiver Escondido, ele faz o ataque com vantagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -277,9 +273,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -337,7 +331,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -359,7 +353,7 @@
   "_id": "w5ZBoxm8mq9wQz6l",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Redcap Butcher",
+    "name": "Açougueiro Barrete-Vermelho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

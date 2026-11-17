@@ -1,5 +1,5 @@
 {
-  "name": "Electric Eels",
+  "name": "Enguias Elétricas",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,8 +35,8 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A swarm of eels that encircle and electrocute.</p>",
-    "motivesAndTactics": "Avoid larger predators, shock prey, tear apart",
+    "description": "<p>Um cardume de enguias que cercam e eletrocutam.</p>",
+    "motivesAndTactics": "Evitar predadores maiores, chocar presas, despedaçar",
     "attack": {
       "damage": {
         "main": {
@@ -51,9 +51,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 2,
@@ -73,7 +71,7 @@
         },
         "resources": {}
       },
-      "name": "Shocking Bite",
+      "name": "Mordida Chocante",
       "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "roll": {
         "bonus": 0,
@@ -140,7 +138,7 @@
   "_id": "TLzY1nDw0Bu9Ud40",
   "sort": 1900000,
   "prototypeToken": {
-    "name": "Electric Eels",
+    "name": "Enguias Elétricas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,10 +231,10 @@
   },
   "items": [
     {
-      "name": "Paralyzing Shock",
+      "name": "Choque Paralisante",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against all targets within Very Close range. You gain a Fear for each target that marks HP.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra todos os alvos em alcance Muito Próximo. Você ganha 1 de Medo para cada alvo que marcar PV.</p>",
         "resource": null,
         "actions": {
           "L4Rpg7fnFuxpD3im": {
@@ -275,9 +273,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -314,7 +310,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -344,10 +340,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -363,7 +359,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Whisper Wraith",
+  "name": "Espectro Sussurrante",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "skulk",
-    "description": "<p>The echoes of broken promises and dreams unfulfilled, manifesting as a floating, translucent shroud of tattered black velvet in a vaguely humanoid shape.</p>",
+    "description": "<p>Os ecos de promessas quebradas e sonhos não realizados, manifestados como uma mortalha translúcida e flutuante de veludo negro esfarrapado, em forma vagamente humanoide.</p>",
     "tier": 3,
-    "motivesAndTactics": "Bind limbs, drop from a great height, lift off the ground, swirl through the air, wrap around heads",
+    "motivesAndTactics": "Prender membros, soltar de grande altura, erguer do chão, rodopiar pelo ar, envolver cabeças",
     "difficulty": 16,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Shadow Touch",
+      "name": "Toque Sombrio",
       "img": "icons/magic/death/hand-withered-gray.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "GuX7CYJhxujbxHHX": {
-        "name": "Dreams",
+        "name": "Sonhos",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Greater Specter",
+      "name": "Espectro Superior",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Wraith has resistance to physical damage and can move through solid objects.</p>",
+        "description": "<p>O Espectro tem resistência a dano físico e pode atravessar objetos sólidos.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -154,7 +152,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Greater Specter",
+          "name": "Espectro Superior",
           "type": "base",
           "system": {
             "changes": [
@@ -192,7 +190,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Wraith has resistance to physical damage and can move through solid objects.</p>",
+          "description": "<p>O Espectro tem resistência a dano físico e pode atravessar objetos sólidos.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -215,11 +213,11 @@
       "_key": "!actors.items!iT3pDkKEtPTqM8kw.3YzhBn75pkj2eaEq"
     },
     {
-      "name": "Spooky",
+      "name": "Assombroso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Wraith makes a successful attack, all PCs within Close range must mark a Stress, and you gain a Fear.</p>",
+        "description": "<p>Quando o Espectro faz um ataque bem-sucedido, todos os PJs em alcance Próximo devem marcar 1 de Fadiga, e você ganha 1 de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -261,7 +259,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Spooky",
+                "name": "Assombroso",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -300,11 +298,11 @@
       "_key": "!actors.items!iT3pDkKEtPTqM8kw.KUEN8QB4OPx654Uv"
     },
     {
-      "name": "Nightmare Shroud",
+      "name": "Mortalha de Pesadelo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Wraith wrap itself around a PC within Melee range, Shrouding the target until they succeed on a Strength Roll to dislodge the Wraith or the Wraith takes Major or greater damage. While Shrouded, the target has disadvantage on attack rolls and marks a Stress when they roll with Fear. Additionally, damage that would be dealt to the Wraith is split evenly between the Wraith and the Shrouded target.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Espectro se envolver em um PJ em alcance Corpo a Corpo, Encobrindo o alvo até que ele tenha sucesso em um Teste de Força para se desvencilhar do Espectro ou o Espectro sofra dano Maior ou superior. Enquanto estiver Encoberto, o alvo tem desvantagem em jogadas de ataque e marca 1 de Fadiga quando rola com Medo. Além disso, o dano que seria causado ao Espectro é dividido igualmente entre o Espectro e o alvo Encoberto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -348,7 +346,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -359,10 +357,10 @@
       "img": "icons/magic/death/skull-flames-white-blue.webp",
       "effects": [
         {
-          "name": "Shrouded",
+          "name": "Encoberto",
           "disabled": false,
           "img": "icons/magic/death/skull-flames-white-blue.webp",
-          "description": "<p>You are Shrouded until you succeed on a Strength Roll to dislodge the Wraith or the Wraith takes Major or greater damage.</p><p>While Shrouded, you have disadvantage on attack rolls and mark a Stress when you roll with Fear. Additionally, damage that would be dealt to the Wraith is split evenly between the Wraith and you.</p>",
+          "description": "<p>Você está Encoberto até ter sucesso em um Teste de Força para se desvencilhar do Espectro ou o Espectro sofrer dano Maior ou superior.</p><p>Enquanto estiver Encoberto, você tem desvantagem em jogadas de ataque e marca 1 de Fadiga quando rola com Medo. Além disso, o dano que seria causado ao Espectro é dividido igualmente entre o Espectro e você.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -423,7 +421,7 @@
   "_id": "iT3pDkKEtPTqM8kw",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Whisper Wraith",
+    "name": "Espectro Sussurrante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

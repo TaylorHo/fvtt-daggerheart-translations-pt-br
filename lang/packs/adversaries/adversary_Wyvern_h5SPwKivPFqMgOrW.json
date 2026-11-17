@@ -4,9 +4,9 @@
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "standard",
-    "description": "<p>A two-legged dragon that flies from its mountaintop aerie to devour livestock.</p>",
+    "description": "<p>Um dragão bípede que voa de seu ninho no topo da montanha para devorar rebanhos.</p>",
     "tier": 3,
-    "motivesAndTactics": "Cast a long shadow, snatch and grab, wheel through the air",
+    "motivesAndTactics": "Projetar uma sombra longa, agarrar e arrebatar, planar pelo ar",
     "difficulty": 16,
     "damageThresholds": {
       "major": 18,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Teeth & Claws",
+      "name": "Dentes e Garras",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "AKzdcogY81vT5518": {
-        "name": "Death from Above",
+        "name": "Morte vinda do Alto",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Double Strike",
+      "name": "Golpe Duplo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] make two standard attacks. If both attacks succeed against the same target, combine the damage.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer @Lookup[@name] realizar dois ataques padrão. Se ambos os ataques tiverem sucesso contra o mesmo alvo, combine o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,7 +179,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -200,11 +198,11 @@
       "_key": "!actors.items!h5SPwKivPFqMgOrW.6FmuJDEwZ1Yq6Krt"
     },
     {
-      "name": "Terrifying Shriek",
+      "name": "Grito Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] let out a spine-chilling screech. All PCs within Far range are Terrified until they succeed on a Presence Roll (18) to clear the condition or the @Lookup[@name] is defeated. While Terrified, a PC doesn't gain a Hope when they roll with Hope.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] soltar um guincho de gelar a espinha. Todos os PJs em alcance Distante ficam Aterrorizados até terem sucesso em um Teste de Presença (18) para remover a condição ou @Lookup[@name] ser derrotado. Enquanto estiver Aterrorizado, um PJ não ganha Esperança quando rola com Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -223,7 +221,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Terrifying Shriek",
+                "name": "Grito Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -257,7 +255,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -268,10 +266,10 @@
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "effects": [
         {
-          "name": "Terrified",
+          "name": "Aterrorizado",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-purple.webp",
-          "description": "<p>You are Terrified until you succeed on a Presence Roll (18) to clear the condition or the Wyvern is defeated. While Terrified, you do not gain a Hope when you roll with Hope.</p>",
+          "description": "<p>Você está Aterrorizado até ter sucesso em um Teste de Presença (18) para remover a condição ou a Wyvern ser derrotada. Enquanto estiver Aterrorizado, você não ganha Esperança quando rola com Esperança.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -321,11 +319,11 @@
       "_key": "!actors.items!h5SPwKivPFqMgOrW.3yZ5cnA8C3zknz1A"
     },
     {
-      "name": "Clutch",
+      "name": "Agarrar",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you can <strong>spend a Fear</strong> to have the @Lookup[@name] <em>Restrain</em> the target in its claws until the PC succeeds on a Strength Roll (18) or the @Lookup[@name] takes Major or greater damage. While <em>Restrained</em> in this way, the PC has disadvantage on attack rolls.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você pode <strong>gastar 1 de Medo</strong> para fazer @Lookup[@name] <em>Imobilizar</em> o alvo em suas garras até que o PJ tenha sucesso em um Teste de Força (18) ou @Lookup[@name] sofra dano Maior ou superior. Enquanto estiver <em>Imobilizado</em> dessa forma, o PJ tem desvantagem em jogadas de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -369,7 +367,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -380,10 +378,10 @@
       "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "effects": [
         {
-          "name": "Clutched",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
-          "description": "<p>You are <em>Restrained</em> in the Wyvern's claws until you succeed on a Strength Roll (18) or the Wyvern takes Major or greater damage.</p><p>While Restrained in this way, you have disadvantage on attack rolls.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> nas garras da Wyvern até ter sucesso em um Teste de Força (18) ou a Wyvern sofrer dano Maior ou superior.</p><p>Enquanto estiver Imobilizado dessa forma, você tem desvantagem em jogadas de ataque.</p>",
           "transfer": false,
           "statuses": [],
           "system": {

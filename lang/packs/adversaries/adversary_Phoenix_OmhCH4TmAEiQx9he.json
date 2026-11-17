@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Phoenix",
+  "name": "Fênix",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "ranged",
-    "description": "<p>A huge eagle that's made of magical flame, impossible to kill, and hunted for its healing plumage.</p>",
+    "description": "<p>Uma águia enorme feita de chama mágica, impossível de matar e caçada por sua plumagem curativa.</p>",
     "tier": 3,
-    "motivesAndTactics": "Flee pursuers, live brilliantly, soar through the heavens, wield light and flame",
+    "motivesAndTactics": "Fugir de perseguidores, viver com brilho, voar pelos céus, empunhar luz e chama",
     "difficulty": 18,
     "damageThresholds": {
       "major": 19,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fire Bolt",
+      "name": "Raio de Fogo",
       "img": "icons/magic/fire/projectile-embers-orange.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "yY97ar4HsUY35kw8": {
-        "name": "Bright",
+        "name": "Brilhante",
         "value": 4,
         "description": ""
       },
       "jtHEOGEL25pBvEVg": {
-        "name": "Legendary",
+        "name": "Lendária",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Purifying Aura",
+      "name": "Aura Purificadora",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Any PC who takes an action within the @Lookup[@name]'s Melee range can <strong>spend a Hope</strong> to purify themself in its healing warmth, clearing a HP or a Stress and all conditions.</p>",
+        "description": "<p>Qualquer PJ que realiza uma ação em alcance Corpo a Corpo do @Lookup[@name] pode <strong>gastar 1 Esperança</strong> para se purificar em seu calor curativo, limpando 1 PV ou 1 Fadiga e todas as condições.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!OmhCH4TmAEiQx9he.YOEWBnOR44OHkdQe"
     },
     {
-      "name": "Fireseed",
+      "name": "Semente de Fogo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>The @Lookup[@name] bleeds magic fire. When the @Lookup[@name] marks a HP, summon one Minor Fire Elemental within Very Close range.</p>",
+        "description": "<p>O @Lookup[@name] sangra fogo mágico. Quando o @Lookup[@name] marca 1 PV, invoque um Elemental de Fogo Menor em alcance Muito Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -221,11 +219,11 @@
       "_key": "!actors.items!OmhCH4TmAEiQx9he.FlcR2XWYcCedfLnM"
     },
     {
-      "name": "Resurrection",
+      "name": "Ressurreição",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p>When the @Lookup[@name] is defeated, it becomes a cloud of ash that blows away to reveal a Smoldering Egg. The Egg is immune to all damage and has a heat aura that deals <strong>3d4</strong> direct magic damage to anyone who touches it. The Egg hatches into a new @Lookup[@name], with all HP and Stress cleared, in 7 days.</p>",
+        "description": "<p>Quando o @Lookup[@name] é derrotado, ele se torna uma nuvem de cinzas que se dispersa ao vento e revela um Ovo Fumegante. O Ovo é imune a todo dano e tem uma aura de calor que causa <strong>3d4</strong> de dano mágico direto a quem o tocar. O Ovo choca em um novo @Lookup[@name], com todos os PV e Fadiga limpos, em 7 dias.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -265,9 +263,7 @@
                   "scale": 1,
                   "ring": "#cd580a",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE"
-                  ]
+                  "effects": ["RING_PULSE"]
                 }
               }
             },
@@ -288,10 +284,10 @@
       "img": "icons/magic/fire/orb-lightning-sun.webp",
       "effects": [
         {
-          "name": "Ressurecting",
+          "name": "Ressuscitando",
           "disabled": false,
           "img": "icons/magic/fire/orb-lightning-sun.webp",
-          "description": "<p>The Egg is immune to all damage and has a heat aura that deals <strong>3d4</strong> direct magic damage to anyone who touches it. The Egg hatches into a new Phoenix, with all HP and Stress cleared, in 7 days.</p>",
+          "description": "<p>O Ovo é imune a todo dano e tem uma aura de calor que causa <strong>3d4</strong> de dano mágico direto a quem o tocar. O Ovo choca em uma nova Fênix, com todos os PV e Fadiga limpos, em 7 dias.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -359,7 +355,7 @@
   "_id": "OmhCH4TmAEiQx9he",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Phoenix",
+    "name": "Fênix",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

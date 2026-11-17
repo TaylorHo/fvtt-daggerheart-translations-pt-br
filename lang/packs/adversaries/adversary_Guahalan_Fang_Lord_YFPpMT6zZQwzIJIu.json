@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Guahalan Fang Lord",
+  "name": "Senhor das Presas Guahalano",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "leader",
-    "description": "<p>A shapeshifting warlord who leads a group of warriors into battle.</p>",
+    "description": "<p>Um senhor da guerra metamorfo que lidera um grupo de guerreiros em batalha.</p>",
     "tier": 2,
-    "motivesAndTactics": "Bolster allies, lead the pack, rally the troops",
+    "motivesAndTactics": "Fortalecer aliados, liderar a matilha, reunir as tropas",
     "difficulty": 16,
     "damageThresholds": {
       "major": 12,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spear",
+      "name": "Lança",
       "img": "icons/weapons/polearms/spear-simple-barbed.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "iJQqTwvV2KAMMlyg": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "value": 2,
         "description": ""
       },
       "GxakGXKJeMCC6PLp": {
-        "name": "Hunter",
+        "name": "Caçadora",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Pack Alpha",
+      "name": "Alfa da Matilha",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Pool. When the Fang Lord makes a successful attack, add a token to the Guahalan Pool. When a Guahalan ally within Close range makes an attack, you can spend a token from the Guahalan Pool to give them advantage on the roll.</p>",
+        "description": "<p>Reserva. Quando o Senhor das Presas realiza um ataque bem-sucedido, adicione um token à Reserva Guahalana. Quando um aliado Guahalano dentro do alcance Perto realiza um ataque, você pode gastar um token da Reserva Guahalana para dar a ele vantagem na rolagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!YFPpMT6zZQwzIJIu.YAEDgiRcxB9Y5Xpv"
     },
     {
-      "name": "Unleash the Beast",
+      "name": "Libertar a Fera",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Fang Lord adopt a bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Senhor das Presas assumir uma forma bestial. Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -226,10 +224,10 @@
       "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
       "effects": [
         {
-          "name": "Unleash the Beast",
+          "name": "Libertar a Fera",
           "disabled": false,
           "img": "icons/creatures/abilities/wolf-heads-swirl-purple.webp",
-          "description": "<p>While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+          "description": "<p>Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -259,9 +257,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -302,11 +298,11 @@
       "_key": "!actors.items!YFPpMT6zZQwzIJIu.rCBSR2N71oJ48cck"
     },
     {
-      "name": "Call of the Guahala",
+      "name": "Chamado dos Guahala",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to spotlight all Guahalan Shifters within Close range. Each one makes a standard attack against a target within range. If any attacks succeed against the same target, combine their damage.</p>",
+        "description": "<p><strong>Gaste 2 Medo</strong> para dar Destaque a todos os Metamorfos Guahalanos dentro do alcance Perto. Cada um realiza um ataque padrão contra um alvo dentro do alcance. Se algum ataque for bem-sucedido contra o mesmo alvo, combine o dano deles.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -345,7 +341,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -364,11 +360,11 @@
       "_key": "!actors.items!YFPpMT6zZQwzIJIu.yQ5EicZ0Iug3HgOO"
     },
     {
-      "name": "Feral Form (Phase Change)",
+      "name": "Forma Selvagem (Mudança de Fase)",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Fang Lord marks their last HP, replace them with the Guahalan Alebrujo and immediately spotlight them.</p>",
+        "description": "<p>Quando o Senhor das Presas marca seu último PV, substitua-o pelo Alebrije Guahalano e dê Destaque a ele imediatamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -420,7 +416,7 @@
   "_id": "YFPpMT6zZQwzIJIu",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Guahalan Fang Lord",
+    "name": "Senhor das Presas Guahalano",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

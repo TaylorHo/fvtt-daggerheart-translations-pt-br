@@ -1,11 +1,11 @@
 {
   "folder": "7XHlANCPz18yvl5L",
-  "name": "Fallen Warlord: Realm-Breaker",
+  "name": "Senhor da Guerra Caído: Destruidor de Reinos",
   "type": "adversary",
   "_id": "hxZ0sgoFJubh5aj6",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "system": {
-    "description": "<p><em>A Fallen God, wreathed in rage and resentment, bearing millennia of experience in breaking heroes' spirits.</em></p>",
+    "description": "<p><em>Um Deus Caído, envolto em fúria e ressentimento, com milênios de experiência em quebrar o espírito de heróis.</em></p>",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -37,7 +37,7 @@
       }
     },
     "attack": {
-      "name": "Barbed Whip",
+      "name": "Chicote Farpado",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "bAM5u66XszRmjaT8",
       "systemPath": "attack",
@@ -76,9 +76,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -122,22 +120,22 @@
     },
     "experiences": {
       "xmyO4KEYcwlFc0Xk": {
-        "name": "Conquest",
+        "name": "Conquista",
         "value": 3,
         "description": ""
       },
       "DKyCdPkOjtgaCsjU": {
-        "name": "History",
+        "name": "História",
         "value": 2,
         "description": ""
       },
       "v1rgbqkBK4goqrl3": {
-        "name": "Intimidation",
+        "name": "Intimidação",
         "value": 3,
         "description": ""
       }
     },
-    "motivesAndTactics": "Corrupt, dominate, punish, break the weak",
+    "motivesAndTactics": "Corromper, dominar, punir, esmagar os fracos",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -150,7 +148,7 @@
     "typeData": null
   },
   "prototypeToken": {
-    "name": "Fallen Warlord: Realm Breaker",
+    "name": "Senhor da Guerra Caído: Destruidor de Reinos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -243,10 +241,10 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "9IHzeKjP35M5jj3b": {
@@ -277,7 +275,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -306,10 +304,10 @@
       "_key": "!actors.items!hxZ0sgoFJubh5aj6.feb6vTfDsi1yQLpn"
     },
     {
-      "name": "Firespite Plate Armor",
+      "name": "Armadura de Placas Firespite",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage, reduce it by <strong>2d10</strong>.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofrer dano, reduza-o em <strong>2d10</strong>.</p>",
         "resource": null,
         "actions": {
           "djEIhnCsuCUdwC0m": {
@@ -355,7 +353,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll 2d10",
+            "name": "Role 2d10",
             "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
             "range": "",
             "baseAction": false,
@@ -384,10 +382,10 @@
       "_key": "!actors.items!hxZ0sgoFJubh5aj6.onaJxgnUtf0ZDyD4"
     },
     {
-      "name": "Tormenting Lash",
+      "name": "Açoite Atormentador",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against all targets within Very Close range. When a target uses armor to reduce damage from this attack, they must mark 2 Armor Slots.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra todos os alvos dentro do alcance Muito Próximo. Quando um alvo usar armadura para reduzir o dano desse ataque, ele deve marcar 2 Espaços de Armadura.</p>",
         "resource": null,
         "actions": {
           "zMVhUekP8pcyQGFR": {
@@ -426,9 +424,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -465,12 +461,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/blood-slash-foam-red.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Tormenting Lash",
+                "name": "Açoite Atormentador",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -503,17 +499,17 @@
       "_key": "!actors.items!hxZ0sgoFJubh5aj6.PVLjJaQLH3LK3svk"
     },
     {
-      "name": "All-Consuming Rage",
+      "name": "Fúria Devoradora",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Decreasing 8)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown. When it triggers, create a torrent of incarnate rage that rends flesh from bone. All targets within Far range must make a Presence Reaction Roll. Targets who fail take <strong>2d6+10</strong> direct magic damage. Targets who succeed take half damage. For each HP marked from this damage, summon a @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troop} within Very Close range of the target who marked that HP. If the countdown ever decreases its maximum value to 0, the @Lookup[@name] marks their remaining HP and all targets within Far range must mark all remaining HP and make a death move.</p>",
+        "description": "<p><em>Contagem Regressiva (Decrescente 8)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva. Quando ela disparar, crie uma torrente de fúria encarnada que arranca a carne dos ossos. Todos os alvos dentro do alcance Distante devem fazer um Teste de Reação de Presença. Alvos que falharem sofrem <strong>2d6+10</strong> de dano mágico direto. Alvos que forem bem-sucedidos sofrem metade do dano. Para cada PV marcado por esse dano, invoque uma @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Tropa de Choque Caída} dentro do alcance Muito Próximo do alvo que marcou aquele PV. Se a contagem regressiva alguma vez reduzir seu valor máximo a 0, o @Lookup[@name] marca seus PV restantes e todos os alvos dentro do alcance Distante devem marcar todos os PV restantes e fazer um movimento de morte.</p>",
         "resource": null,
         "actions": {
           "rgy5wXyXJWh6uWxC": {
             "type": "attack",
             "_id": "rgy5wXyXJWh6uWxC",
             "systemPath": "actions",
-            "description": "<p>When it triggers, create a torrent of incarnate rage that rends flesh from bone. All targets within Far range must make a Presence Reaction Roll. Targets who fail take <strong>2d6+10</strong> direct magic damage. Targets who succeed take half damage. For each HP marked from this damage, summon a @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troop} within Very Close range of the target who marked that HP. If the countdown ever decreases its maximum value to 0, the @Lookup[@name] marks their remaining HP and all targets within Far range must mark all remaining HP and make a death move.</p>",
+            "description": "<p>Quando ela disparar, crie uma torrente de fúria encarnada que arranca a carne dos ossos. Todos os alvos dentro do alcance Distante devem fazer um Teste de Reação de Presença. Alvos que falharem sofrem <strong>2d6+10</strong> de dano mágico direto. Alvos que forem bem-sucedidos sofrem metade do dano. Para cada PV marcado por esse dano, invoque uma @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Tropa de Choque Caída} dentro do alcance Muito Próximo do alvo que marcou aquele PV. Se a contagem regressiva alguma vez reduzir seu valor máximo a 0, o @Lookup[@name] marca seus PV restantes e todos os alvos dentro do alcance Distante devem marcar todos os PV restantes e fazer um movimento de morte.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -536,9 +532,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -575,12 +569,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
             "range": "far",
             "areas": [
               {
-                "name": "All-Consuming Rage",
+                "name": "Fúria Devoradora",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -598,7 +592,7 @@
             "type": "countdown",
             "_id": "8e3BHmOFLvRwPbTW",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Decreasing 8)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Decrescente 8)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -613,7 +607,7 @@
             },
             "countdown": [
               {
-                "name": "All-Consuming Rage",
+                "name": "Fúria Devoradora",
                 "type": "encounter",
                 "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
                 "progress": {
@@ -627,7 +621,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
             "range": "",
             "baseAction": false,
@@ -653,10 +647,10 @@
       "_key": "!actors.items!hxZ0sgoFJubh5aj6.48tIwFQr64IQ5LaY"
     },
     {
-      "name": "Doombringer",
+      "name": "Arauto da Perdição",
       "type": "feature",
       "system": {
-        "description": "<p>When a target marks HP from an attack by the @Lookup[@name], all PCs within Far range of the target must lose a Hope.</p>",
+        "description": "<p>Quando um alvo marcar PV por causa de um ataque do @Lookup[@name], todos os PJs dentro do alcance Distante do alvo devem perder 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "WEBPJCbXfBeyHFJ4": {
@@ -701,12 +695,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "",
             "areas": [
               {
-                "name": "Doombringer",
+                "name": "Arauto da Perdição",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -739,10 +733,10 @@
       "_key": "!actors.items!hxZ0sgoFJubh5aj6.v74W0MUqVi9vPUEw"
     },
     {
-      "name": "I Have Never Known Defeat",
+      "name": "Nunca Conheci a Derrota",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks their last HP, replace them with the @UUID[Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5]{Fallen Warlord: Undefeated Champion} and immediately spotlight them.</p>",
+        "description": "<p>Quando o @Lookup[@name] marcar seu último PV, substitua-o pelo @UUID[Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5]{Senhor da Guerra Caído: Campeão Invicto} e coloque-o imediatamente em destaque.</p>",
         "resource": null,
         "actions": {
           "gP426WmWbtrZEWCD": {

@@ -1,5 +1,5 @@
 {
-  "name": "Gorgon",
+  "name": "Górgona",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Corner, hit-and-run, petrify, seek vengeance",
+    "motivesAndTactics": "Encurralar, atacar e recuar, petrificar, buscar vingança",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "eKUUFzoQT0trztAH": {
-        "name": "Stealth",
+        "name": "Furtividade",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A snake-headed, scaled humanoid with a gilded bow, enraged that their peace has been disturbed.</p>",
+    "description": "<p>Uma humanoide escamosa com cabeça de serpente e um arco dourado, enfurecida por ter sua paz perturbada.</p>",
     "attack": {
-      "name": "Sunsear Shortbow",
+      "name": "Arco Curto Solardente",
       "roll": {
         "bonus": 4,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "8mJYMpbLTb8qIOrr",
   "sort": 1000000,
   "prototypeToken": {
-    "name": "Gorgon",
+    "name": "Górgona",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "resource": null,
         "actions": {
           "GSYD7y0ywAqyKUfm": {
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!8mJYMpbLTb8qIOrr.OqE6hBijxAkn5gIm"
     },
     {
-      "name": "Sunsear Arrows",
+      "name": "Flechas Solardentes",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, the target Glows until the end of the scene and can't become <em>Hidden</em>. Attack rolls made against a Glowing target have advantage.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque padrão bem-sucedido, o alvo Brilha até o fim da cena e não pode ficar <em>Escondido</em>. Rolagens de ataque feitas contra um alvo Brilhante têm vantagem.</p>",
         "resource": null,
         "actions": {
           "fnTd5BjBAK46vRRk": {
@@ -328,7 +326,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Glow",
+            "name": "Brilhar",
             "img": "icons/magic/light/explosion-star-glow-orange.webp",
             "range": "",
             "baseAction": false,
@@ -349,7 +347,7 @@
       "img": "icons/magic/light/explosion-star-glow-orange.webp",
       "effects": [
         {
-          "name": "Glowing",
+          "name": "Brilhante",
           "img": "icons/magic/light/explosion-star-glow-orange.webp",
           "transfer": false,
           "_id": "bYBrgiSwHwYfQyjn",
@@ -380,7 +378,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You Glow until the end of the scene and can't become <em>Hidden</em>. Attack rolls made against you have advantage.</p>",
+          "description": "<p>Você Brilha até o fim da cena e não pode ficar <em>Escondido</em>. Rolagens de ataque feitas contra você têm vantagem.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -410,10 +408,10 @@
       "_key": "!actors.items!8mJYMpbLTb8qIOrr.NepVGKOo1lHYjA1F"
     },
     {
-      "name": "Crown of Serpents",
+      "name": "Coroa de Serpentes",
       "type": "feature",
       "system": {
-        "description": "<p>Make an attack roll against a target within Melee range using the @Lookup[@name]'s protective snakes. On a success, mark a Stress to deal <strong>2d10+4</strong> physical damage and the target must mark a Stress.</p>",
+        "description": "<p>Realize uma rolagem de ataque contra um alvo dentro do alcance Corpo a Corpo usando as serpentes protetoras do @Lookup[@name]. Em caso de sucesso, marque 1 Fadiga para causar <strong>2d10+4</strong> de dano físico, e o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "ryfj8eiYYNGJPtBg": {
@@ -452,9 +450,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -510,7 +506,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
             "range": "melee",
             "baseAction": false,
@@ -539,10 +535,10 @@
       "_key": "!actors.items!8mJYMpbLTb8qIOrr.9SO2ov36lFH2YV0S"
     },
     {
-      "name": "Petrifying Gaze",
+      "name": "Olhar Petrificante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Close range, you can <strong>spend a Fear</strong> to force the attacker to make an Instinct Reaction Roll. On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the @Lookup[@name] is attacked. When it triggers, the target must make a death move. If the @Lookup[@name] is defeated, all petrification countdowns end.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano de um ataque dentro do alcance Perto, você pode <strong>gastar 1 Medo</strong> para forçar o atacante a realizar um Teste de Reação de Instinto. Em caso de falha, ele começa a se transformar em pedra, marcando 1 PV e iniciando uma Contagem Regressiva de Petrificação (4). Esta contagem regressiva diminui quando o @Lookup[@name] é atacado. Quando é ativada, o alvo deve fazer um movimento de morte. Se o @Lookup[@name] for derrotado, todas as contagens regressivas de petrificação terminam.</p>",
         "resource": null,
         "actions": {
           "ySkX0wOpEFqtgeD9": {
@@ -597,7 +593,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/earth/strike-body-stone-crumble.webp",
             "range": "",
             "baseAction": false,
@@ -611,7 +607,7 @@
             "type": "countdown",
             "_id": "ywZTs3D8ClT7tAsa",
             "systemPath": "actions",
-            "description": "<p>On a failure, they begin to turn to stone, marking a HP and starting a Petrification Countdown (4). This countdown ticks down when the @Lookup[@name] is attacked. When it triggers, the target must make a death move. If the @Lookup[@name] is defeated, all petrification countdowns end.</p>",
+            "description": "<p>Em caso de falha, ele começa a se transformar em pedra, marcando 1 PV e iniciando uma Contagem Regressiva de Petrificação (4). Esta contagem regressiva diminui quando o @Lookup[@name] é atacado. Quando é ativada, o alvo deve fazer um movimento de morte. Se o @Lookup[@name] for derrotado, todas as contagens regressivas de petrificação terminam.</p>",
             "chatDisplay": false,
             "originItem": {
               "type": "itemCollection"
@@ -626,7 +622,7 @@
             },
             "countdown": [
               {
-                "name": "Petrifying Gaze",
+                "name": "Olhar Petrificante",
                 "type": "encounter",
                 "img": "icons/magic/earth/strike-body-stone-crumble.webp",
                 "progress": {
@@ -640,7 +636,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/earth/strike-body-stone-crumble.webp",
             "range": "",
             "baseAction": false,
@@ -666,10 +662,10 @@
       "_key": "!actors.items!8mJYMpbLTb8qIOrr.047o6OtNlUwLG1H1"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "V6tkBYSjOt1LZCkp": {
@@ -729,7 +725,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

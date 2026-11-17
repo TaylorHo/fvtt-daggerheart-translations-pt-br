@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Plesiosaurus",
+  "name": "Plesiossauro",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "standard",
-    "description": "<p>A canoe-length marine lizard that has a long neck and four flippers.</p>",
+    "description": "<p>Um lagarto marinho do tamanho de uma canoa, com pescoço longo e quatro nadadeiras.</p>",
     "tier": 3,
-    "motivesAndTactics": "Dive deeper, eat fish, swim peacefully",
+    "motivesAndTactics": "Mergulhe mais fundo, coma peixe, nade em paz",
     "difficulty": 16,
     "damageThresholds": {
       "major": 18,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "GDvTQUifSVO3DaEd": {
-        "name": "Lochs",
+        "name": "Lagos",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Only a Rumor",
+      "name": "Apenas um Boato",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While deep underwater, the @Lookup[@name] can't be located or targeted.</p>",
+        "description": "<p>Enquanto estiver em águas profundas, o @Lookup[@name] não pode ser localizado nem alvejado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!KUevwJakVF7byrgT.u1kUGcAPZGXfCTmT"
     },
     {
-      "name": "Wall of Water",
+      "name": "Muralha de Água",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] breach and crash, sending a wall of water from one side of its body. Each PC within Far range on that side of the @Lookup[@name] must succeed on an Agility Reaction Roll (18) or take <strong>3d10</strong> physical damage and be pushed back to Far range.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer o @Lookup[@name] emergir e se chocar, lançando uma muralha de água de um lado de seu corpo. Cada PJ dentro do alcance Distante desse lado do @Lookup[@name] deve ter sucesso em um Teste de Reação de Agilidade (18) ou sofrer <strong>3d10</strong> de dano físico e ser empurrado de volta para o alcance Distante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -212,7 +208,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Wall of Water",
+                "name": "Muralha de Água",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -252,7 +248,7 @@
               "difficulty": 18,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -274,7 +270,7 @@
   "_id": "KUevwJakVF7byrgT",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Plesiosaurus",
+    "name": "Plesiossauro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

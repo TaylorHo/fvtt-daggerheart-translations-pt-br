@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Giant Octopus",
+  "name": "Polvo Gigante",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A monstrous, aquatic mollusk that has eight sucker-bearing arms and a hard, beaklike jaw.</p>",
+    "description": "<p>Um molusco aquático monstruoso, com oito braços cobertos de ventosas e uma mandíbula dura em forma de bico.</p>",
     "tier": 2,
-    "motivesAndTactics": "Crush and bite, grapple, harry sailing vessels, hunt prey",
+    "motivesAndTactics": "Esmagar e morder, agarrar, assediar embarcações, caçar presas",
     "difficulty": 14,
     "damageThresholds": {
       "major": 13,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Arm Whip",
+      "name": "Açoite de Tentáculo",
       "img": "icons/commodities/biological/tentacle-purple-white.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "kyyWODZu7Hi2EkeU": {
-        "name": "Intelligent",
+        "name": "Inteligente",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Octopus can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O Polvo pode receber Destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar Destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!TqL5DLSbGFI8RsLd.L3m1nCmX1G4FU64P"
     },
     {
-      "name": "Armed and Dangerous",
+      "name": "Armado e Perigoso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Octopus first appears, place a <strong>d8</strong> on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die's value to the damage dealt. After you add its value to a roll, decrease the die's value by 1.</p>",
+        "description": "<p>Quando o Polvo aparece pela primeira vez, coloque um <strong>d8</strong> neste bloco de estatísticas com o valor 8 voltado para cima. Quando o Polvo realizar um ataque padrão bem-sucedido contra um PJ, você pode somar o valor do dado ao dano causado. Depois de somar o valor a uma rolagem, diminua o valor do dado em 1.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -187,7 +185,7 @@
       "img": "icons/commodities/biological/tentacle-purple-white.webp",
       "effects": [
         {
-          "name": "Armed And Dangerous",
+          "name": "Armado e Perigoso",
           "type": "base",
           "system": {
             "changes": [
@@ -230,7 +228,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When the Octopus first appears, place a <strong>d8</strong> on this stat block with the 8 value facing up. When the Octopus makes a successful standard attack against a PC, you can add the die's value to the damage dealt. After you add its value to a roll, decrease the die's value by 1.</p>",
+          "description": "<p>Quando o Polvo aparece pela primeira vez, coloque um <strong>d8</strong> neste bloco de estatísticas com o valor 8 voltado para cima. Quando o Polvo realizar um ataque padrão bem-sucedido contra um PJ, você pode somar o valor do dado ao dano causado. Depois de somar o valor a uma rolagem, diminua o valor do dado em 1.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -253,11 +251,11 @@
       "_key": "!actors.items!TqL5DLSbGFI8RsLd.1TPFCJEgXEpXti7l"
     },
     {
-      "name": "Grapple",
+      "name": "Agarrar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>When the Octopus succeeds on a standard attack, you can <strong>spend a Fear</strong> to have the Octopus Grapple the target. While Grappled, the target is <em>Restrained</em> and <em>Vulnerable</em> until they break free with a successful Strength or Finesse Roll.</p>",
+        "description": "<p>Quando o Polvo é bem-sucedido em um ataque padrão, você pode <strong>gastar 1 Medo</strong> para fazer o Polvo Agarrar o alvo. Enquanto Agarrado, o alvo fica <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força ou Acuidade bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -301,7 +299,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -312,15 +310,12 @@
       "img": "icons/commodities/biological/tentacle-pink.webp",
       "effects": [
         {
-          "name": "Grappled",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/commodities/biological/tentacle-pink.webp",
-          "description": "<p>While Grappled, you are <em>Restrained</em> and <em>Vulnerable</em> until you break free with a successful Strength or Finesse Roll.</p>",
+          "description": "<p>Enquanto estiver Agarrado, você está <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força ou Acuidade bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrain",
-            "vulnerable"
-          ],
+          "statuses": ["restrain", "vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -368,11 +363,11 @@
       "_key": "!actors.items!TqL5DLSbGFI8RsLd.7Eiy4PoehsyoMQU2"
     },
     {
-      "name": "Crush",
+      "name": "Esmagar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to deal <strong>3d8</strong> direct physical damage to a target Grappled by the Octopus.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para causar <strong>3d8</strong> de dano físico direto a um alvo Agarrado pelo Polvo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -398,9 +393,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -438,7 +431,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -460,7 +453,7 @@
   "_id": "TqL5DLSbGFI8RsLd",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Giant Octopus",
+    "name": "Polvo Gigante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

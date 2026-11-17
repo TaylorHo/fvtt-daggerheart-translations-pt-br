@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Berserker Initiate",
+  "name": "Berserker Iniciado",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A raging warrior who imbibes ritualistic concoctions to enhance their form with aspects of a predatory beast.</p>",
+    "description": "<p>Um guerreiro enfurecido que ingere misturas ritualísticas para realçar sua forma com aspectos de uma fera predadora.</p>",
     "tier": 2,
-    "motivesAndTactics": "Coordinate with packmates, dance around the fire, howl at the moon",
+    "motivesAndTactics": "Coordenar-se com companheiros de matilha, dançar ao redor da fogueira, uivar para a lua",
     "difficulty": 13,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tooth & Claw",
+      "name": "Dente e Garra",
       "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "wIUzCZrOiX2orYua": {
-        "name": "Hunt",
+        "name": "Caçada",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Pack Fury",
+      "name": "Fúria da Matilha",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Initiate gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack's target.</p>",
+        "description": "<p>O Iniciado ganha um bônus de +1 em seus testes de ataque para cada aliado em alcance Muito Próximo do alvo de seu ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!CaFmEX2ccQfgIRja.OQOMsj3lpNIeJryN"
     },
     {
-      "name": "Berserker Rage",
+      "name": "Fúria Berserker",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>The first time in a scene the Initiate marks their last Stress, they gain a +4 bonus to damage rolls.</p>",
+        "description": "<p>Na primeira vez em uma cena que o Iniciado marcar sua última Fadiga, ele ganha um bônus de +4 nas rolagens de dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -212,10 +210,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-human.webp",
       "effects": [
         {
-          "name": "Raging",
+          "name": "Enfurecido",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-human.webp",
-          "description": "<p>Gain a +4 bonus to damage rolls.</p>",
+          "description": "<p>Receba um bônus de +4 nas rolagens de dano.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -276,7 +274,7 @@
   "_id": "CaFmEX2ccQfgIRja",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Berserker Initiate",
+    "name": "Berserker Iniciado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

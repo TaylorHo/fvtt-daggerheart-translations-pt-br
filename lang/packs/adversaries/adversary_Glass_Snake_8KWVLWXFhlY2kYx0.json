@@ -1,5 +1,5 @@
 {
-  "name": "Glass Snake",
+  "name": "Serpente de Vidro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Climb, feed, keep distance, scare",
+    "motivesAndTactics": "Escalar, alimentar-se, manter distância, assustar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A clear serpent with a massive head that leaves behind a glass shard trail wherever they go.</p>",
+    "description": "<p>Uma serpente translúcida com uma cabeça enorme, que deixa um rastro de cacos de vidro por onde passa.</p>",
     "attack": {
-      "name": "Glass Fangs",
+      "name": "Presas de Vidro",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "roll": {
         "bonus": 2,
@@ -69,9 +69,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "8KWVLWXFhlY2kYx0",
   "sort": 1400000,
   "prototypeToken": {
-    "name": "Glass Snake",
+    "name": "Serpente de Vidro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Armor-Shredding Shards",
+      "name": "Cacos Estilhaçadores de Armadura",
       "type": "feature",
       "_id": "Efa6t9Ow8b1DRyZV",
       "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
       "system": {
-        "description": "<p>After a successful attack against the @Lookup[@name] within Melee range, the attacker must mark an Armor Slot. If they can't mark an Armor Slot, they must mark an HP.</p>",
+        "description": "<p>Após um ataque bem-sucedido contra o @Lookup[@name] dentro do alcance Corpo a Corpo, o atacante deve marcar um Espaço de Armadura. Se não puder marcar um Espaço de Armadura, deve marcar 1 PV.</p>",
         "resource": null,
         "actions": {
           "H1nUSOudbtha1lnC": {
@@ -279,7 +277,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage Armor",
+            "name": "Danificar Armadura",
             "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
             "range": "melee",
             "baseAction": false,
@@ -306,12 +304,12 @@
       "_key": "!actors.items!8KWVLWXFhlY2kYx0.Efa6t9Ow8b1DRyZV"
     },
     {
-      "name": "Spinning Serpent",
+      "name": "Serpente Giratória",
       "type": "feature",
       "_id": "Ro9XCeXsTOT9SXyo",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take <strong>1d6+1</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para realizar um ataque contra todos os alvos dentro do alcance Muito Perto. Os alvos contra os quais o @Lookup[@name] for bem-sucedido sofrem <strong>1d6+1</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "2UzeQYL5HeyF3zwh": {
@@ -387,12 +385,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/blood-slash-foam-red.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Spinning Serpent",
+                "name": "Serpente Giratória",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -423,19 +421,19 @@
       "_key": "!actors.items!8KWVLWXFhlY2kYx0.Ro9XCeXsTOT9SXyo"
     },
     {
-      "name": "Spitter",
+      "name": "Cuspidora",
       "type": "feature",
       "_id": "LR5XHauNtWcl18CY",
       "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to introduce a <strong>d6</strong> Spitter Die. When the @Lookup[@name] is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the @Lookup[@name] within Far range must succeed on an Agility Reaction Roll or take <strong>1d4</strong> physical damage. The @Lookup[@name] can take the spotlight a second time this GM turn.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para introduzir um Dado de Cuspe <strong>d6</strong>. Quando o @Lookup[@name] estiver em Destaque, role este dado. Com resultado 5 ou mais, todos os alvos à frente do @Lookup[@name] dentro do alcance Longe devem ser bem-sucedidos em um Teste de Reação de Agilidade ou sofrer <strong>1d4</strong> de dano físico. O @Lookup[@name] pode receber Destaque uma segunda vez neste turno do Mestre.</p>",
         "resource": null,
         "actions": {
           "yx5fjMLLwSnvSbqs": {
             "type": "effect",
             "_id": "yx5fjMLLwSnvSbqs",
             "systemPath": "actions",
-            "description": "<p><strong>Spend a Fear</strong> to introduce a <strong>d6</strong> Spitter Die.</p>",
+            "description": "<p><strong>Gaste 1 Medo</strong> para introduzir um Dado de Cuspe <strong>d6</strong>.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -464,7 +462,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
             "range": "",
             "baseAction": false,
@@ -478,7 +476,7 @@
             "type": "attack",
             "_id": "Ds6KlQKZCOhh5OMT",
             "systemPath": "actions",
-            "description": "<p>All targets in front of the @Lookup[@name] within Far range must succeed on an Agility Reaction Roll or take <strong>1d4</strong> physical damage.</p>",
+            "description": "<p>Todos os alvos à frente do @Lookup[@name] dentro do alcance Longe devem ser bem-sucedidos em um Teste de Reação de Agilidade ou sofrer <strong>1d4</strong> de dano físico.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -501,9 +499,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -540,12 +536,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spit Attack",
+            "name": "Ataque de Cuspe",
             "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Spitter",
+                "name": "Cuspidora",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "far",
@@ -563,7 +559,7 @@
             "type": "attack",
             "_id": "xccwknU2xHUwQSdn",
             "systemPath": "actions",
-            "description": "<p>When the @Lookup[@name] is in the spotlight, roll the spitter die. On a result of 5 or higher, do a spit Attack.</p>",
+            "description": "<p>Quando o @Lookup[@name] estiver em Destaque, role o dado de cuspe. Com resultado 5 ou mais, realize um ataque de cuspe.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -602,7 +598,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d6",
+            "name": "Rolar d6",
             "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
             "range": "",
             "baseAction": false,
@@ -621,7 +617,7 @@
       },
       "effects": [
         {
-          "name": "Spitter Die",
+          "name": "Dado de Cuspe",
           "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
           "transfer": false,
           "_id": "Mchd23xNQ4nSWw9X",
@@ -643,7 +639,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have a <strong>d6</strong> Spitter Die. When the Snake is in the spotlight, roll this die. On a result of 5 or higher, all targets in front of the Snake within Far range must succeed on an Agility Reaction Roll or take <strong>1d4</strong> physical damage. The Snake can take the spotlight a second time this GM turn.</p>",
+          "description": "<p>Você tem um Dado de Cuspe <strong>d6</strong>. Quando a Serpente estiver em Destaque, role este dado. Com resultado 5 ou mais, todos os alvos à frente da Serpente dentro do alcance Longe devem ser bem-sucedidos em um Teste de Reação de Agilidade ou sofrer <strong>1d4</strong> de dano físico. A Serpente pode receber Destaque uma segunda vez neste turno do Mestre.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Young Fire Dragon",
+  "name": "Dragão de Fogo Jovem",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A crimson dragon with four powerful limbs and smoldering wings.</p>",
+    "description": "<p>Um dragão carmesim com quatro membros poderosos e asas em brasa.</p>",
     "tier": 3,
-    "motivesAndTactics": "Burn, defend lair, erupt, fly, shred, take",
+    "motivesAndTactics": "Queimar, defender covil, entrar em erupção, voar, dilacerar, tomar",
     "difficulty": 18,
     "damageThresholds": {
       "major": 21,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite & Claws",
+      "name": "Mordida e Garras",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "TJjNBoZL2UfGNtBV": {
-        "name": "Burning Rage",
+        "name": "Fúria Ardente",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Dragon can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O Dragão pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!qe2bhZCyVou4lTO5.CCjwbRFO8lPwUz56"
     },
     {
-      "name": "Intimidating",
+      "name": "Intimidador",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When you <strong>spend a Fear</strong> to spotlight the Dragon, all PCs within Close range must mark a Stress or lose a Hope.</p>",
+        "description": "<p>Quando você <strong>gasta 1 de Medo</strong> para dar o destaque ao Dragão, todos os PJs em alcance Próximo devem marcar 1 de Fadiga ou perder 1 de Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!qe2bhZCyVou4lTO5.AyOAvxE5ruRgzuTn"
     },
     {
-      "name": "Flame Breath",
+      "name": "Sopro de Chamas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Dragon unleash a blast of flame against all targets in front of it within Close range. Each target must make an Agility Reaction Roll. Targets who fail take <strong>4d8+3</strong> magic damage. Targets who succeed must mark a Stress or take half damage. A target who marks HP from this attack also becomes <em>Vulnerable</em> until they clear a HP.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Dragão liberar uma rajada de chamas contra todos os alvos à sua frente em alcance Próximo. Cada alvo deve fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>4d8+3</strong> de dano mágico. Alvos que tiverem sucesso devem marcar 1 de Fadiga ou sofrer metade do dano. Um alvo que marcar Pontos de Vida com este ataque também fica <em>Vulnerável</em> até limpar 1 Ponto de Vida.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,11 +208,11 @@
       "_key": "!actors.items!qe2bhZCyVou4lTO5.XkdQ0bpcZvVAobY7"
     },
     {
-      "name": "Eruption",
+      "name": "Erupção",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Dragon crack the earth open with its tail, unleashing an explosion of lava. Choose a point within Far range. Each PC on the line between the Dragon and the chosen point must succeed on an Agility Reaction Roll or get burned, becoming <em>Vulnerable</em> until their next rest. You gain a Fear for each PC who fails.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Dragão abrir a terra com a cauda, liberando uma explosão de lava. Escolha um ponto em alcance Distante. Cada PJ na linha entre o Dragão e o ponto escolhido deve ter sucesso em um Teste de Reação de Agilidade ou se queimar, ficando <em>Vulnerável</em> até seu próximo descanso. Você ganha 1 de Medo para cada PJ que falhar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -234,11 +232,11 @@
       "_key": "!actors.items!qe2bhZCyVou4lTO5.AETDJMLedUcefdNe"
     },
     {
-      "name": "Blazing Scales",
+      "name": "Escamas Flamejantes",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a creature within Very Close range attacks the Dragon, the attacker must mark a Stress.</p>",
+        "description": "<p>Quando uma criatura em alcance Muito Próximo ataca o Dragão, o atacante deve marcar 1 de Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -258,11 +256,11 @@
       "_key": "!actors.items!qe2bhZCyVou4lTO5.9mHaYwq5ZmXqnA1Z"
     },
     {
-      "name": "Slash and Burn",
+      "name": "Talhar e Queimar",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Dragon makes a successful standard attack, you gain a Fear and can mark a Stress to have the attack deal an extra 10 magic damage.</p>",
+        "description": "<p>Quando o Dragão faz um ataque padrão bem-sucedido, você ganha 1 de Medo e pode marcar 1 de Fadiga para fazer o ataque causar 10 de dano mágico extra.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -285,7 +283,7 @@
   "_id": "qe2bhZCyVou4lTO5",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Young Fire Dragon",
+    "name": "Dragão de Fogo Jovem",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

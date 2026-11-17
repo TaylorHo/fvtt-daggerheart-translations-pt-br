@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Entombed Cat Beast",
+  "name": "Felino Sepultado",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A large undead humanoid skeleton with a panther's skull for a head.</p>",
+    "description": "<p>Um grande esqueleto humanoide morto-vivo com um crânio de pantera no lugar da cabeça.</p>",
     "tier": 2,
-    "motivesAndTactics": "Rush attack, shred, terrify",
+    "motivesAndTactics": "Atacar de surpresa, retalhar, aterrorizar",
     "difficulty": 15,
     "damageThresholds": {
       "major": 12,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Razor Claws",
+      "name": "Garras Afiadas",
       "img": "icons/creatures/claws/claw-talons-glowing-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "qusajYLLa0pHpYow": {
-        "name": "Feral",
+        "name": "Selvagem",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!0QPn79SMU6C0b1qi.0SihRH0I9HM3KRSN"
     },
     {
-      "name": "Screeching Caterwaul",
+      "name": "Miado Estridente",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force each PC within Far range of the Cat Beast to make a Presence Reaction Roll. Targets who fail become Rattled until they roll with Hope. When the Cat Beast makes a successful attack against a Rattled PC, roll damage twice and take the better result, then clear the Rattled condition from the target.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para forçar cada PJ em alcance Distante do Felino a fazer um Teste de Reação de Presença. Alvos que falharem ficam Abalados até rolarem com Esperança. Quando o Felino faz um ataque bem-sucedido contra um PJ Abalado, role o dano duas vezes e fique com o melhor resultado, então remova a condição Abalado do alvo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -189,7 +187,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Screeching Caterwaul",
+                "name": "Miado Estridente",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -243,7 +241,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -254,10 +252,10 @@
       "img": "icons/magic/death/skeleton-snake-skull-pink.webp",
       "effects": [
         {
-          "name": "Rattled",
+          "name": "Abalado",
           "disabled": false,
           "img": "icons/magic/death/skeleton-snake-skull-pink.webp",
-          "description": "<p>You are Rattled until you roll with Hope. When the Cat Beast makes a successful attack against you, it rolls damage twice and take the better result, then clears the Rattled condition from you.</p>",
+          "description": "<p>Você fica Abalado até rolar com Esperança. Quando o Felino faz um ataque bem-sucedido contra você, ele rola o dano duas vezes e fica com o melhor resultado, então remove de você a condição Abalado.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -307,11 +305,11 @@
       "_key": "!actors.items!0QPn79SMU6C0b1qi.mmcZCBhR6W4vxXk2"
     },
     {
-      "name": "I Alone",
+      "name": "Somente Eu",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Cat Beast first appears, you can choose to have them absorb the essence of their allies. Immediately defeat any number of allies on the battlefield, and gain a Fear for each ally defeated this way.</p>",
+        "description": "<p>Quando o Felino aparece pela primeira vez, você pode fazê-lo absorver a essência de seus aliados. Derrote imediatamente qualquer quantidade de aliados no campo de batalha e ganhe 1 de Medo para cada aliado derrotado dessa forma.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -331,11 +329,11 @@
       "_key": "!actors.items!0QPn79SMU6C0b1qi.CcTkSc2j0bxdGH3U"
     },
     {
-      "name": "Vicious Reprisal",
+      "name": "Represália Cruel",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Cat Beast takes damage from an attack made by a PC within Very Close range, you can <strong>mark a Stress</strong> to make a standard attack against that PC.</p>",
+        "description": "<p>Quando o Felino sofre dano de um ataque feito por um PJ em alcance Muito Próximo, você pode <strong>marcar 1 Fadiga</strong> para fazer um ataque padrão contra esse PJ.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -361,9 +359,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -412,7 +408,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryClose"
           }
         },
@@ -431,12 +427,12 @@
       "_key": "!actors.items!0QPn79SMU6C0b1qi.4zTQIHtxwYscyhOV"
     },
     {
-      "name": "Bloody Strike",
+      "name": "Golpe Sangrento",
       "type": "feature",
       "system": {
         "featureForm": "passive",
         "attribution": {},
-        "description": "<p>A PC who marks 3 or more HP from an attack made by the Cat Beast must mark an additional HP.</p>",
+        "description": "<p>Um PJ que marcar 3 ou mais PV de um ataque feito pelo Felino deve marcar 1 PV adicional.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -510,7 +506,7 @@
   "_id": "0QPn79SMU6C0b1qi",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Entombed Cat Beast",
+    "name": "Felino Sepultado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

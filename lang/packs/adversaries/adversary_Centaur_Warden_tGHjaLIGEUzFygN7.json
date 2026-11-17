@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Centaur Warden",
+  "name": "Guardião Centauro",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "ranged",
-    "description": "<p>A half-human, half-horse guardian who patrols the borders of idyllic lands uncorrupted by the touch of civilization.</p>",
+    "description": "<p>Um guardião meio humano, meio cavalo que patrulha as fronteiras de terras idílicas não corrompidas pelo toque da civilização.</p>",
     "tier": 2,
-    "motivesAndTactics": "Live in harmony with nature, protect the wilderness, use mobility and distance to drive off intruders",
+    "motivesAndTactics": "Viver em harmonia com a natureza, proteger a natureza selvagem, usar mobilidade e distância para expulsar intrusos",
     "difficulty": 14,
     "damageThresholds": {
       "major": 10,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Recurved Bow",
+      "name": "Arco Recurvo",
       "img": "icons/weapons/bows/bow-recurve-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "fhK9A5ii9A9q5ShV": {
-        "name": "Nature",
+        "name": "Natureza",
         "value": 2,
         "description": ""
       },
       "CbkZsek86WFM0adz": {
-        "name": "Philosophy",
+        "name": "Filosofia",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Flanking Maneuver",
+      "name": "Manobra de Flanco",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Warden makes a standard attack against a target within Melee range of one or more of the Warden's allies, the Warden gains a +2 bonus to the attack roll.</p>",
+        "description": "<p>Quando o Guardião faz um ataque padrão contra um alvo em alcance Corpo a Corpo de um ou mais aliados do Guardião, ele ganha um bônus de +2 no teste de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
       "effects": [
         {
-          "name": "Flanking Maneuver",
+          "name": "Manobra de Flanco",
           "type": "base",
           "system": {
             "changes": [
@@ -181,9 +179,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -205,7 +201,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When the Warden makes a standard attack against a target within Melee range of one or more of the Warden's allies, the Warden gains a +2 bonus to the attack roll.</p>",
+          "description": "<p>Quando o Guardião faz um ataque padrão contra um alvo em alcance Corpo a Corpo de um ou mais aliados do Guardião, ele ganha um bônus de +2 no teste de ataque.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -228,11 +224,11 @@
       "_key": "!actors.items!tGHjaLIGEUzFygN7.XHGUxa8QoKr3roGW"
     },
     {
-      "name": "Eye of the Sage",
+      "name": "Olho do Sábio",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack. The Warden has advantage on the attack roll and critically succeeds on a roll of 19–20.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão. O Guardião tem vantagem no teste de ataque e tem sucesso crítico em um resultado de 19–20.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -258,9 +254,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -318,7 +312,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -337,11 +331,11 @@
       "_key": "!actors.items!tGHjaLIGEUzFygN7.UtxsNofV59V2WXSN"
     },
     {
-      "name": "Trample",
+      "name": "Pisoteio",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Warden gallop up to Far range in a straight line. Each target in their path must make an Agility Reaction Roll. Targets who succeed take <strong>1d6+2</strong> physical damage. Targets who fail take double damage and must mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o Guardião galopar até o alcance Distante em linha reta. Cada alvo em seu caminho deve fazer um Teste de Reação de Agilidade. Alvos que tiverem sucesso sofrem <strong>1d6+2</strong> de dano físico. Alvos que falharem sofrem o dobro do dano e devem marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -367,9 +361,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -387,7 +379,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Trample",
+                "name": "Pisoteio",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -436,7 +428,7 @@
               "difficulty": null,
               "damageMod": "doubleOnFail"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -455,11 +447,11 @@
       "_key": "!actors.items!tGHjaLIGEUzFygN7.bb0EOEX68WRKfr20"
     },
     {
-      "name": "Quick Volley",
+      "name": "Saraivada Rápida",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Warden makes a standard attack, you can mark any number of Stress to target an equal number of additional creatures within range.</p>",
+        "description": "<p>Quando o Guardião faz um ataque padrão, você pode marcar qualquer quantidade de Fadiga para mirar em uma quantidade igual de criaturas adicionais dentro do alcance.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -498,7 +490,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Stress",
+            "name": "Gastar Fadiga",
             "range": ""
           }
         },
@@ -520,7 +512,7 @@
   "_id": "tGHjaLIGEUzFygN7",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Centaur Warden",
+    "name": "Guardião Centauro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

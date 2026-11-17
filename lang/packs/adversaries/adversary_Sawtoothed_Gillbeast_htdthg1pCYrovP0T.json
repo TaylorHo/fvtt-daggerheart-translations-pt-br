@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Sawtoothed Gillbeast",
+  "name": "Besta-Branquial Serrilhada",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A stocky fish creature that has rows of razor-sharp teeth.</p>",
+    "description": "<p>Uma criatura-peixe atarracada com fileiras de dentes afiados como navalhas.</p>",
     "tier": 1,
-    "motivesAndTactics": "Clamber ashore, hit and run, peek above the waterline",
+    "motivesAndTactics": "Escalar até a margem, atacar e fugir, espiar acima da linha d'água",
     "difficulty": 12,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Waterlogged Weaponry",
+      "name": "Armamento Encharcado",
       "img": "icons/weapons/clubs/club-simple-barbed-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "afuKw0dOrPvKUZyz": {
-        "name": "Aquatic",
+        "name": "Aquático",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Ka-Chomp",
+      "name": "Nhac-Nhac",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Melee range. On a success, the target takes <strong>1d12</strong> physical damage and must mark an Armor Slot without gaining its benefit (they can still use armor to reduce the damage).</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para atacar um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, o alvo sofre <strong>1d12</strong> de dano físico e deve marcar um Espaço de Armadura sem ganhar seu benefício (ainda pode usar a armadura para reduzir o dano).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -247,7 +243,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -266,11 +262,11 @@
       "_key": "!actors.items!htdthg1pCYrovP0T.yqbWInJewYL1UCg8"
     },
     {
-      "name": "Feeding Frenzy",
+      "name": "Frenesi Alimentar",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a creature marks HP, you can <strong>spend a Fear</strong> to spotlight all @Lookup[@name]s within Very Close range of them. Those Gillbeasts move into Melee range of the creature and each make a standard attack against them. If any attacks succeed, combine their damage.</p>",
+        "description": "<p>Quando uma criatura marca PV, você pode <strong>gastar um Medo</strong> para colocar em destaque todos os @Lookup[@name]s dentro do alcance Muito Próximo dela. Essas Bestas-Branquiais se movem para o alcance Corpo a Corpo da criatura e cada uma faz um ataque padrão contra ela. Se algum ataque tiver sucesso, combine o dano deles.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -289,7 +285,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Feeding Frenzy",
+                "name": "Frenesi Alimentar",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -318,7 +314,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -337,11 +333,11 @@
       "_key": "!actors.items!htdthg1pCYrovP0T.ZBpUJaH6CBqiaJUV"
     },
     {
-      "name": "Scaly",
+      "name": "Escamoso",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Gillbeast would mark any number of HP, roll a <strong>d6</strong>. On a result of 6, you can <strong>mark a Stress</strong> instead.</p>",
+        "description": "<p>Quando a Besta-Branquial marcaria qualquer quantidade de PV, role um <strong>d6</strong>. Com resultado 6, você pode <strong>marcar um Fadiga</strong> no lugar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -395,7 +391,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll D6",
+            "name": "Role D6",
             "range": ""
           }
         },
@@ -417,7 +413,7 @@
   "_id": "htdthg1pCYrovP0T",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Sawtoothed Gillbeast",
+    "name": "Besta-Branquial Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

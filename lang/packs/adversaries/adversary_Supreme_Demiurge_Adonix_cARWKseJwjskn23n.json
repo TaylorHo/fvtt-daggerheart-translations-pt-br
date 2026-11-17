@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Supreme Demiurge Adonix",
+  "name": "Demiurgo Supremo Adonix",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>The four-faced angel from the Hallows Above who manifests in the Mortal Realm as a floating tetrahedron with numerous eyes and multiple sets of metallic feathered wings.</p>",
+    "description": "<p>O anjo de quatro faces dos Salões Superiores que se manifesta no Reino Mortal como um tetraedro flutuante com numerosos olhos e vários pares de asas emplumadas metálicas.</p>",
     "tier": 4,
-    "motivesAndTactics": "Establish dominion, exile from reality, float above it all, speak into being",
+    "motivesAndTactics": "Estabelecer domínio, exilar da realidade, flutuar acima de tudo, falar e criar",
     "difficulty": 20,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Wing Strike",
+      "name": "Golpe de Asa",
       "img": "icons/commodities/biological/wing-bird-white.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "jbe8bRuyUJAiArfS": {
-        "name": "Omnipotence",
+        "name": "Onipotência",
         "value": 10,
         "description": ""
       },
       "UacQqnT53CuMQDo3": {
-        "name": "Be Not Afraid",
+        "name": "Não Temais",
         "value": 5,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (4)",
+      "name": "Implacável (4)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Adonix can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>Adonix pode receber destaque até quatro vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!cARWKseJwjskn23n.LqmWQ1M1OAp8CRRs"
     },
     {
-      "name": "Elemental Archon",
+      "name": "Arconte Elemental",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to roll a <strong>d4</strong>. Adonix activates the corresponding effect:</p><ol><li><p><strong>Fire Beam.</strong> Adonix manifests a beam of elemental fire with a Very Close width from themself to the edge of the battlefield. Each target in the beam's path must make an Agility Reaction Roll. Targets who fail take Severe damage. Targets who succeed take Minor damage.</p></li><li><p><strong>Thunderclap.</strong> All creatures within Far range must mark a Stress and become <em>Vulnerable</em> until they succeed on an attack roll or the Demiurge is defeated.</p></li><li><p><strong>Lightning Bolt.</strong> Make an attack against a target within Very Far range, dealing <strong>4d8</strong> magic damage on a success. If all results are even, make the same attack against a different target, repeating the cycle until you roll an odd result or run out of targets.</p></li><li><p><strong>Ice Storm.</strong> Each PC within Close range must succeed on a Strength Reaction Roll or mark <strong>1d4</strong> Stress and become <em>Restrained</em> until they <strong>spend a Hope</strong> to escape.</p></li></ol>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para rolar um <strong>d4</strong>. Adonix ativa o efeito correspondente:</p><ol><li><p><strong>Raio de Fogo.</strong> Adonix manifesta um raio de fogo elemental com largura Muito Próxima, de si mesmo até a borda do campo de batalha. Cada alvo no caminho do raio deve fazer um teste de reação de Agilidade. Os alvos que falharem sofrem dano Severo. Os alvos que tiverem sucesso sofrem dano Menor.</p></li><li><p><strong>Trovoada.</strong> Todas as criaturas em alcance Distante devem marcar 1 Fadiga e ficar <em>Vulneráveis</em> até terem sucesso em uma rolagem de ataque ou o Demiurgo ser derrotado.</p></li><li><p><strong>Raio.</strong> Faça um ataque contra um alvo em alcance Muito Distante, causando <strong>4d8</strong> de dano mágico em caso de sucesso. Se todos os resultados forem pares, faça o mesmo ataque contra outro alvo, repetindo o ciclo até rolar um resultado ímpar ou acabarem os alvos.</p></li><li><p><strong>Tempestade de Gelo.</strong> Cada personagem em alcance Próximo deve ter sucesso em um teste de reação de Força ou marcar <strong>1d4</strong> de Fadiga e ficar <em>Contido</em> até <strong>gastar 1 de Esperança</strong> para escapar.</p></li></ol>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -214,7 +212,7 @@
                 "Sr4U9JQeLe1E652H"
               ]
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "ProfY1AYwmSMGXVb": {
@@ -245,7 +243,7 @@
             "_id": "ProfY1AYwmSMGXVb",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Adonix manifests a beam of elemental fire with a Very Close width from themself to the edge of the battlefield. Each target in the beam's path must make an Agility Reaction Roll. Targets who fail take Severe damage. Targets who succeed take Minor damage.</p>",
+            "description": "<p>Adonix manifesta um raio de fogo elemental com largura Muito Próxima, de si mesmo até a borda do campo de batalha. Cada alvo no caminho do raio deve fazer um teste de reação de Agilidade. Os alvos que falharem sofrem dano Severo. Os alvos que tiverem sucesso sofrem dano Menor.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -254,7 +252,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Elemental Archon",
+                "name": "Arconte Elemental",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -294,7 +292,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Fire Beam",
+            "name": "Raio de Fogo",
             "range": "",
             "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp"
           },
@@ -303,7 +301,7 @@
             "_id": "GSbT8eCnIsID2JGK",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>All creatures within Far range must mark a Stress and become <em>Vulnerable</em> until they succeed on an attack roll or the Demiurge is defeated.</p>",
+            "description": "<p>Todas as criaturas em alcance Distante devem marcar 1 Fadiga e ficar <em>Vulneráveis</em> até terem sucesso em uma rolagem de ataque ou o Demiurgo ser derrotado.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -312,7 +310,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Elemental Archon",
+                "name": "Arconte Elemental",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -337,7 +335,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Thunderclap",
+            "name": "Trovoada",
             "range": "",
             "img": "icons/magic/sonic/explosion-shock-wave-teal.webp"
           },
@@ -362,9 +360,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -373,7 +369,7 @@
             "_id": "fKsYjDiecMyUQktG",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Make an attack against a target within Very Far range, dealing <strong>4d8</strong> magic damage on a success. If all results are even, make the same attack against a different target, repeating the cycle until you roll an odd result or run out of targets.</p>",
+            "description": "<p>Faça um ataque contra um alvo em alcance Muito Distante, causando <strong>4d8</strong> de dano mágico em caso de sucesso. Se todos os resultados forem pares, faça o mesmo ataque contra outro alvo, repetindo o ciclo até rolar um resultado ímpar ou acabarem os alvos.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -413,7 +409,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Lightning Bolt",
+            "name": "Raio",
             "range": "veryFar",
             "img": "icons/magic/lightning/bolt-strike-blue-white.webp"
           },
@@ -438,9 +434,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -449,7 +443,7 @@
             "_id": "ySBV3ba8vqjFFp7R",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Make an attack against a target within Very Far range, dealing <strong>4d8</strong> magic damage on a success. If all results are even, make the same attack against a different target, repeating the cycle until you roll an odd result or run out of targets.</p>",
+            "description": "<p>Faça um ataque contra um alvo em alcance Muito Distante, causando <strong>4d8</strong> de dano mágico em caso de sucesso. Se todos os resultados forem pares, faça o mesmo ataque contra outro alvo, repetindo o ciclo até rolar um resultado ímpar ou acabarem os alvos.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -489,7 +483,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Lightning Bolt",
+            "name": "Raio",
             "range": "veryFar",
             "img": "icons/magic/lightning/bolt-strike-blue-white.webp"
           },
@@ -521,7 +515,7 @@
             "_id": "Sr4U9JQeLe1E652H",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Each PC within Close range must succeed on a Strength Reaction Roll or mark <strong>1d4</strong> Stress and become <em>Restrained</em> until they <strong>spend a Hope</strong> to escape.</p>",
+            "description": "<p>Cada personagem em alcance Próximo deve ter sucesso em um teste de reação de Força ou marcar <strong>1d4</strong> de Fadiga e ficar <em>Contido</em> até <strong>gastar 1 de Esperança</strong> para escapar.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -530,7 +524,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Elemental Archon",
+                "name": "Arconte Elemental",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -575,7 +569,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Ice Storm",
+            "name": "Tempestade de Gelo",
             "range": "",
             "img": "icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp"
           }
@@ -587,14 +581,12 @@
       "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "effects": [
         {
-          "name": "Thunderclapped",
+          "name": "Atordoado pela Trovoada",
           "disabled": false,
           "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you succeed on an attack roll or the Demiurge is defeated.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até ter sucesso em uma rolagem de ataque ou o Demiurgo ser derrotado.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -633,14 +625,12 @@
           "_key": "!actors.items.effects!cARWKseJwjskn23n.vFcVQJIwxf5zPjeo.LH8q1LvVSBuP0guY"
         },
         {
-          "name": "Iced",
+          "name": "Congelado",
           "disabled": false,
           "img": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
-          "description": "<p>You are <em>Restrained</em> until you <strong>spend a Hope</strong> to escape.</p>",
+          "description": "<p>Você está <em>Contido</em> até <strong>gastar 1 de Esperança</strong> para escapar.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -688,11 +678,11 @@
       "_key": "!actors.items!cARWKseJwjskn23n.vFcVQJIwxf5zPjeo"
     },
     {
-      "name": "Alpha to Omega",
+      "name": "Do Alfa ao Ômega",
       "type": "feature",
       "system": {
         "featureForm": "evolution",
-        "description": "<p>When Adonix is defeated, they resurrect in Omega form with all HP and Stress cleared. Each PC within Very Far range must succeed on a Presence Reaction Roll or lose a Hope. You gain a Fear for each Hope lost in this way.</p><section id=\"secret-kaHS0tXk5Kj9qy75\" class=\"secret\"><p>Adonix gains the Forsaken and Amrageddon features.</p></section>",
+        "description": "<p>Quando Adonix é derrotado, ele ressuscita na forma Ômega com todos os PV e Fadiga limpos. Cada personagem em alcance Muito Distante deve ter sucesso em um teste de reação de Presença ou perder 1 de Esperança. Você ganha 1 de Medo para cada Esperança perdida dessa forma.</p><section id=\"secret-kaHS0tXk5Kj9qy75\" class=\"secret\"><p>Adonix ganha as características Abandonado e Armagedom.</p></section>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -735,9 +725,7 @@
                   "scale": 1,
                   "ring": "#c7a600",
                   "background": null,
-                  "effects": [
-                    "RING_PULSE"
-                  ]
+                  "effects": ["RING_PULSE"]
                 }
               }
             },
@@ -813,7 +801,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -832,21 +820,21 @@
       "_key": "!actors.items!cARWKseJwjskn23n.RQvkIhWDLNf1nruQ"
     },
     {
-      "name": "Forsaken",
+      "name": "Abandonado",
       "type": "feature",
       "system": {
         "featureForm": "action",
         "attribution": {},
-        "description": "<p><strong>Spend a Fear</strong> to choose a PC and activate a Forsaken Countdown (1d8) for them. It ticks down when Adonix is spotlighted. When it triggers, the PC must mark all their HP. The countdown ends if Adonix takes Severe damage. You can have only one Forsaken Countdown active at a time.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um personagem e ativar para ele uma Contagem Regressiva de Abandono (1d8). Ela avança quando Adonix recebe destaque. Quando disparar, o personagem deve marcar todos os seus PV. A contagem termina se Adonix sofrer dano Severo. Você só pode ter uma Contagem Regressiva de Abandono ativa por vez.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
           "T5bCqspBR1tmCUVi": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Forsaken",
+                "name": "Abandonado",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/light/orb-shadow-blue.webp",
@@ -905,12 +893,12 @@
       "_key": "!actors.items!cARWKseJwjskn23n.AJicsX6t4G8r6pX9"
     },
     {
-      "name": "Armageddon",
+      "name": "Armagedom",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
         "attribution": {},
-        "description": "<p>When Adonix is defeated again, they unleash a reality storm that shakes the realms to their foundations. Roll a <strong>d6</strong>. On a result of 5–6, each PC must make a death move.</p>",
+        "description": "<p>Quando Adonix é derrotado novamente, ele libera uma tempestade da realidade que abala os reinos até suas fundações. Role um <strong>d6</strong>. Com resultado 5–6, cada personagem deve fazer um movimento de morte.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -963,7 +951,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Armageddon",
+            "name": "Armagedom",
             "range": ""
           }
         },
@@ -985,7 +973,7 @@
   "_id": "cARWKseJwjskn23n",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Supreme Demiurge Adonix",
+    "name": "Demiurgo Supremo Adonix",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

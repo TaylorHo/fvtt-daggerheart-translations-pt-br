@@ -4,9 +4,9 @@
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>A wolf-headed humanoid cursed by the gods to prowl the swamps in search of blood.</p>",
+    "description": "<p>Um humanoide com cabeça de lobo amaldiçoado pelos deuses a vagar pelos pântanos em busca de sangue.</p>",
     "tier": 1,
-    "motivesAndTactics": "Blaspheme, go for the throat, stalk, terrorize",
+    "motivesAndTactics": "Blasfemar, ir à jugular, espreitar, aterrorizar",
     "difficulty": 14,
     "damageThresholds": {
       "major": 7,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Snapping Jaws",
+      "name": "Mandíbulas Estalantes",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "LRBd1d1s5WGMajLS": {
-        "name": "Swamps",
+        "name": "Pântanos",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!6Js480Q5SOGRGySm.yrjtfPqIJlUDQstX"
     },
     {
-      "name": "Child of Night",
+      "name": "Filho da Noite",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While in moonlight, the @Lookup[@name] gains a +2 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto estiver sob o luar, o @Lookup[@name] recebe um bônus de +2 na sua Dificuldade.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -178,7 +176,7 @@
       "img": "icons/magic/nature/moon-crescent.webp",
       "effects": [
         {
-          "name": "Child Of Night",
+          "name": "Filho da Noite",
           "type": "base",
           "system": {
             "changes": [
@@ -216,7 +214,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While in moonlight, gain a +2 bonus to Difficulty.</p>",
+          "description": "<p>Enquanto estiver sob o luar, receba um bônus de +2 na Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -239,11 +237,11 @@
       "_key": "!actors.items!6Js480Q5SOGRGySm.Qw2l1ncgoz0uhj6g"
     },
     {
-      "name": "Bloodthirsty",
+      "name": "Sanguinário",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC marks HP from the @Lookup[@name]'s standard attack, add a token to this stat block. The @Lookup[@name] gains a bonus to attack rolls equal to the number of tokens on this stat block. Clear all tokens when the @Lookup[@name] takes Severe damage.</p>",
+        "description": "<p>Quando um PJ marca PV pelo ataque padrão do @Lookup[@name], adicione uma ficha a este bloco de estatísticas. O @Lookup[@name] recebe um bônus nos testes de ataque igual ao número de fichas neste bloco de estatísticas. Limpe todas as fichas quando o @Lookup[@name] sofrer dano Severo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -264,7 +262,7 @@
       "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
       "effects": [
         {
-          "name": "Bloodthirsty",
+          "name": "Sanguinário",
           "type": "base",
           "system": {
             "changes": [
@@ -286,9 +284,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -310,7 +306,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Rugaru gains a bonus to attack rolls equal to the number of tokens on this stat block. Clear all tokens when the Rugaru takes Severe damage.</p>",
+          "description": "<p>O Rugaru recebe um bônus nos testes de ataque igual ao número de fichas neste bloco de estatísticas. Limpe todas as fichas quando o Rugaru sofrer dano Severo.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -333,11 +329,11 @@
       "_key": "!actors.items!6Js480Q5SOGRGySm.NzKWVP0JBnhF6N1O"
     },
     {
-      "name": "Howl at the Moon",
+      "name": "Uivar para a Lua",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force each PC within Far range to make a Presence Reaction Roll (15). Targets who fail lose a Hope. Gain a Fear for each Hope lost. If a PC has no Hope, they must mark a Stress and become <em>Vulnerable</em> until they roll with Hope.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para forçar cada PJ dentro do alcance Distante a fazer um Teste de Reação de Presença (15). Os alvos que falharem perdem uma Esperança. Ganhe um Medo para cada Esperança perdida. Se um PJ não tiver Esperança, ele deve marcar um Fadiga e ficar <em>Vulnerável</em> até rolar com Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -379,7 +375,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Howl at the Moon",
+                "name": "Uivar para a Lua",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -433,7 +429,7 @@
               "difficulty": 15,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -444,14 +440,12 @@
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "effects": [
         {
-          "name": "Frightened",
+          "name": "Apavorado",
           "disabled": false,
           "img": "icons/magic/death/skull-energy-light-purple.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you roll with Hope.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até rolar com Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -499,11 +493,11 @@
       "_key": "!actors.items!6Js480Q5SOGRGySm.459aNwv1u6Z96MA8"
     },
     {
-      "name": "Flesh Ripper",
+      "name": "Dilacerador de Carne",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, deal <strong>1d12+2</strong> direct physical damage.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer um ataque contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, cause <strong>1d12+2</strong> de dano físico direto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -529,9 +523,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -589,7 +581,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },

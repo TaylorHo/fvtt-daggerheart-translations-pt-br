@@ -4,9 +4,9 @@
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "bruiser",
-    "description": "<p>A horse-mounted specter holding their own severed head in one hand and wielding a whip fashioned from a human spine in the other.</p>",
+    "description": "<p>Um espectro montado a cavalo que segura a própria cabeça decepada em uma das mãos e empunha, na outra, um chicote feito de uma coluna vertebral humana.</p>",
     "tier": 3,
-    "motivesAndTactics": "Doom with a glance, gallop across water, kick with heavy hooves",
+    "motivesAndTactics": "Condenar com um olhar, galopar sobre a água, chutar com cascos pesados",
     "difficulty": 17,
     "damageThresholds": {
       "major": 22,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spine Whip",
+      "name": "Chicote de Coluna",
       "img": "icons/weapons/misc/whip-red-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "JbAuXyqzpXhXbrs6": {
-        "name": "Nocturnal",
+        "name": "Noturno",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Specter",
+      "name": "Espectro",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to physical damage. <strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+        "description": "<p>@Lookup[@name] tem resistência a dano físico. <strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -152,7 +150,7 @@
             "_id": "DVi9tIKBYSYjnLRv",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p><strong>Mark a Stress</strong> to move up to Close range through solid objects.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até o alcance Próximo atravessando objetos sólidos.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -181,7 +179,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -192,7 +190,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Specter",
+          "name": "Espectro",
           "type": "base",
           "system": {
             "changes": [
@@ -230,7 +228,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Dullahan has resistance to physical damage.</p>",
+          "description": "<p>O Dullahan tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -253,11 +251,11 @@
       "_key": "!actors.items!ldbXoTbf1lnZzXjt.BubX3LEWu7RkFj1x"
     },
     {
-      "name": "Spectral Mount",
+      "name": "Montaria Espectral",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While atop their steed, the @Lookup[@name] can move up to Far range instead of Close range before taking an action. If the @Lookup[@name] is unhorsed, their mount disappears until you mark a Stress to summon it again. The @Lookup[@name] is <em>Vulnerable</em> while not on their horse.</p>",
+        "description": "<p>Enquanto estiver sobre sua montaria, o @Lookup[@name] pode se mover até alcance Distante em vez de Próximo antes de realizar uma ação. Se o @Lookup[@name] for derrubado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente. O @Lookup[@name] fica <em>Vulnerável</em> enquanto não estiver em seu cavalo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -269,7 +267,7 @@
       "img": "icons/magic/death/skeleton-dinosaur-skull-tan.webp",
       "effects": [
         {
-          "name": "Dismounted",
+          "name": "Desmontado",
           "type": "base",
           "system": {
             "changes": [],
@@ -299,12 +297,10 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Dullahan is <em>Vulnerable</em> while not on their horse.</p>",
+          "description": "<p>O Dullahan fica <em>Vulnerável</em> enquanto não estiver em seu cavalo.</p>",
           "tint": "#ffffff",
           "transfer": true,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "showIcon": 1,
           "folder": null,
           "sort": 0,
@@ -324,11 +320,11 @@
       "_key": "!actors.items!ldbXoTbf1lnZzXjt.tS4QCspN9hnBeFqb"
     },
     {
-      "name": "Bone Whip Strike",
+      "name": "Golpe de Chicote de Osso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a target within Melee range. On a success, the target takes <strong>4d4+10</strong> direct physical damage and is <em>Vulnerable</em> until they clear a HP.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, o alvo sofre <strong>4d4+10</strong> de dano físico direto e fica <em>Vulnerável</em> até apagar 1 PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -354,9 +350,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -419,7 +413,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -430,14 +424,12 @@
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "effects": [
         {
-          "name": "Whipped",
+          "name": "Chicoteado",
           "disabled": false,
           "img": "icons/skills/melee/strike-slashes-orange.webp",
-          "description": "<p>You are <em>Vulnerable</em> until they clear a HP.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até apagar 1 PV.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -485,11 +477,11 @@
       "_key": "!actors.items!ldbXoTbf1lnZzXjt.iQ4jwH7KU0BDLFqL"
     },
     {
-      "name": "Death Glare",
+      "name": "Olhar Mortal",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a PC within Far range. The target must make an Presence Reaction Roll (19). On a success, they mark a Stress. On a failure, they mark a HP and activate a Doom Countdown (4). It ticks down when the @Lookup[@name] is spotlighted. When it triggers, the target makes a death move. If the @Lookup[@name] is defeated or the PCs take a rest, all Doom Countdowns end.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um PJ em alcance Distante. O alvo deve fazer um Teste de Reação de Presença (19). Em caso de sucesso, marca 1 Fadiga. Em caso de falha, marca 1 PV e ativa uma Contagem Regressiva de Perdição (4). Ela diminui quando o @Lookup[@name] recebe o destaque. Quando disparar, o alvo faz um movimento de morte. Se o @Lookup[@name] for derrotado ou os PJs fizerem um descanso, todas as Contagens Regressivas de Perdição terminam.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -552,15 +544,15 @@
               "difficulty": 19,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           },
           "eqcmHs9mLhzxYPyG": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Doom",
+                "name": "Perdição",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/death/skull-humanoid-white-red.webp",
@@ -577,7 +569,7 @@
             "_id": "eqcmHs9mLhzxYPyG",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>Activate a Doom Countdown (4). It ticks down when the @Lookup[@name] is spotlighted. When it triggers, the target makes a death move. If the @Lookup[@name] is defeated or the PCs take a rest, all Doom Countdowns end.</p>",
+            "description": "<p>Ative uma Contagem Regressiva de Perdição (4). Ela diminui quando o @Lookup[@name] recebe o destaque. Quando disparar, o alvo faz um movimento de morte. Se o @Lookup[@name] for derrotado ou os PJs fizerem um descanso, todas as Contagens Regressivas de Perdição terminam.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"

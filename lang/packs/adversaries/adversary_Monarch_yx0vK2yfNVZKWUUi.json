@@ -1,5 +1,5 @@
 {
-  "name": "Monarch",
+  "name": "Monarca",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -35,21 +35,21 @@
     "notes": "",
     "experiences": {
       "fyxxzdL62j1SpRM4": {
-        "name": "History",
+        "name": "História",
         "description": "",
         "value": 3
       },
       "mHWrXp3UJ2ypLyt0": {
-        "name": "Nobility",
+        "name": "Nobreza",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>The sovereign ruler of a nation, wreathed in the privilege of tradition and wielding unmatched power in their domain.</p>",
-    "motivesAndTactics": "Control vassals, destroy rivals, forge a legacy",
+    "description": "<p>O soberano de uma nação, envolto nos privilégios da tradição e empunhando poder incomparável em seu domínio.</p>",
+    "motivesAndTactics": "Controlar vassalos, destruir rivais, forjar um legado",
     "attack": {
-      "name": "Warhammer",
+      "name": "Martelo de Guerra",
       "img": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
       "roll": {
         "bonus": 0,
@@ -79,9 +79,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "yx0vK2yfNVZKWUUi",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Monarch",
+    "name": "Monarca",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Execute Them",
+      "name": "Executem-nos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> per PC in the party to have the group condemned for crimes real or imagined. A PC who succeeds on a Presence Roll can demand trial by combat or another special form of trial.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> por PJ no grupo para fazer com que o grupo seja condenado por crimes reais ou imaginários. Um PJ que tem sucesso em um Teste de Presença pode exigir julgamento por combate ou outra forma especial de julgamento.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "action",
@@ -264,10 +262,10 @@
       "_key": "!actors.items!yx0vK2yfNVZKWUUi.iYHCYTJzZbw5f0pF"
     },
     {
-      "name": "Crownsguard",
+      "name": "Guarda da Coroa",
       "type": "feature",
       "system": {
-        "description": "<p>Once per scene, <strong>mark a Stress</strong> to summon six Tier 3 Minions, who appear at Close range to enforce the @Lookup[@name]'s will.</p>",
+        "description": "<p>Uma vez por cena, <strong>marque 1 Fadiga</strong> para invocar seis Lacaios de Patamar 3, que aparecem em alcance Próximo, para impor a vontade do @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "OJyqqCi0npye34y2": {
@@ -298,7 +296,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/environment/people/charge.webp",
             "range": "",
             "baseAction": false,
@@ -330,14 +328,14 @@
       "name": "Casus Belli",
       "type": "feature",
       "system": {
-        "description": "<p><em>Long-Term Countdown (8)</em>. <strong>Spend a Fear</strong> to activate after the @Lookup[@name]'s desire for war is first revealed. When it triggers, the @Lookup[@name] has a reason to rally the nation to war and the support to act on that reason. You gain [[/r 1d4]]<strong> </strong>Fear.</p>",
+        "description": "<p><em>Contagem Regressiva de Longo Prazo (8)</em>. <strong>Gaste 1 de Medo</strong> para ativar depois que o desejo de guerra do @Lookup[@name] for revelado pela primeira vez. Quando disparar, o @Lookup[@name] tem um motivo para convocar a nação à guerra e o apoio para agir com base nele. Você ganha [[/r 1d4]]<strong> </strong>de Medo.</p>",
         "resource": null,
         "actions": {
           "CNEOOdPI4xVJ2JeP": {
             "type": "countdown",
             "_id": "CNEOOdPI4xVJ2JeP",
             "systemPath": "actions",
-            "description": "<p><em>Long-Term Countdown (8)</em>. <strong>Spend a Fear</strong> to activate after the @Lookup[@name]'s desire for war is first revealed.</p>",
+            "description": "<p><em>Contagem Regressiva de Longo Prazo (8)</em>. <strong>Gaste 1 de Medo</strong> para ativar depois que o desejo de guerra do @Lookup[@name] for revelado pela primeira vez.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -375,7 +373,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/sundries/scrolls/scroll-bound-sealed-red-tan.webp",
             "range": "",
             "baseAction": false,
@@ -386,7 +384,7 @@
             "type": "healing",
             "_id": "QnZoH9LjJvKl5YcF",
             "systemPath": "actions",
-            "description": "<p>The @Lookup[@name] has a reason to rally the nation to war and the support to act on that reason. You gain 1d4 Fear.</p>",
+            "description": "<p>O @Lookup[@name] tem um motivo para convocar a nação à guerra e o apoio para agir com base nele. Você ganha 1d4 de Medo.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -442,7 +440,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/sundries/scrolls/scroll-bound-sealed-red-tan.webp",
             "range": "",
             "baseAction": false,

@@ -1,5 +1,5 @@
 {
-  "name": "Stonewraith",
+  "name": "Espectro de Pedra",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Defend territory, isolate prey, stalk",
+    "motivesAndTactics": "Defender território, isolar a presa, espreitar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "lRo2QTdqPE3kwCHW": {
-        "name": "Stonesense",
+        "name": "Sentido de Pedra",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A prowling hunter, like a slinking mountain lion, with a slate-gray stone body.</p>",
+    "description": "<p>Um caçador à espreita, como um puma sorrateiro, com um corpo de pedra cinza-ardósia.</p>",
     "attack": {
-      "name": "Bite and Claws",
+      "name": "Mordida e Garras",
       "img": "icons/creatures/claws/claw-curved-jagged-gray.webp",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "3aAS2Qm3R6cgaYfE",
   "sort": 300000,
   "prototypeToken": {
-    "name": "Stonewraith",
+    "name": "Espectro de Pedra",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Stonestrider",
+      "name": "Andarilho da Pedra",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can move through stone and earth as easily as air. While within stone or earth, they are Hidden and immune to all damage.</p>",
+        "description": "<p>@Lookup[@name] pode se mover através de pedra e terra tão facilmente quanto pelo ar. Enquanto estiver dentro de pedra ou terra, ele fica Escondido e imune a todo dano.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!3aAS2Qm3R6cgaYfE.SL5JOOefJEeWJCSz"
     },
     {
-      "name": "Rocky Ambush",
+      "name": "Emboscada Rochosa",
       "type": "feature",
       "system": {
-        "description": "<p>While <em>Hidden</em>, <strong>mark a Stress</strong> to leap into Melee range with a target within Very Close range. The target must succeed on an Agility or Instinct Reaction Roll (15) or take <strong>2d8</strong> physical damage and become temporarily Restrained.</p>",
+        "description": "<p>Enquanto estiver <em>Escondido</em>, <strong>marque 1 Fadiga</strong> para saltar para alcance Corpo a Corpo de um alvo em alcance Muito Próximo. O alvo deve ter sucesso em um teste de reação de Agilidade ou Instinto (15) ou sofrer <strong>2d8</strong> de dano físico e ficar temporariamente Contido.</p>",
         "resource": null,
         "actions": {
           "E8C2Nd4mwcGTXoXb": {
@@ -342,7 +340,7 @@
               "difficulty": 15,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
             "range": "melee",
             "baseAction": false,
@@ -363,7 +361,7 @@
       "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
       "effects": [
         {
-          "name": "Rocky Ambush",
+          "name": "Emboscada Rochosa",
           "img": "icons/creatures/abilities/mouth-teeth-rows-white.webp",
           "transfer": false,
           "_id": "6UgMuuJ8ZygbCsDh",
@@ -388,9 +386,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -418,10 +414,10 @@
       "_key": "!actors.items!3aAS2Qm3R6cgaYfE.tQgxiSS48TJ3X1Dl"
     },
     {
-      "name": "Avalanche Roar",
+      "name": "Rugido da Avalanche",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to roar while within a cave and cause a cave-in. All targets within Close range must succeed on an Agility Reaction Roll (14) or take <strong>2d10</strong> physical damage. The rubble can be cleared with a Progress Countdown (8).</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para rugir dentro de uma caverna e causar um desabamento. Todos os alvos em alcance Próximo devem ter sucesso em um teste de reação de Agilidade (14) ou sofrer <strong>2d10</strong> de dano físico. Os escombros podem ser removidos com uma Contagem Regressiva de Progresso (8).</p>",
         "resource": null,
         "actions": {
           "4UGEEuK9XY8leCBV": {
@@ -460,9 +456,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -499,12 +493,12 @@
               "difficulty": 14,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Avalanche Roar",
+                "name": "Rugido da Avalanche",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -522,7 +516,7 @@
             "type": "countdown",
             "_id": "UurIzyyMRAJc2DUX",
             "systemPath": "actions",
-            "description": "<p>The rubble can be cleared with a <em>Progress Countdown (8)</em>.</p>",
+            "description": "<p>Os escombros podem ser removidos com uma <em>Contagem Regressiva de Progresso (8)</em>.</p>",
             "chatDisplay": false,
             "originItem": {
               "type": "itemCollection"
@@ -537,7 +531,7 @@
             },
             "countdown": [
               {
-                "name": "Avalanche Roar",
+                "name": "Rugido da Avalanche",
                 "type": "encounter",
                 "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
                 "progress": {
@@ -551,7 +545,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
             "range": "",
             "baseAction": false,
@@ -577,10 +571,10 @@
       "_key": "!actors.items!3aAS2Qm3R6cgaYfE.9Z0i0uURfBMVIapJ"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "IIZPctjF4MJkWs4b": {
@@ -640,7 +634,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

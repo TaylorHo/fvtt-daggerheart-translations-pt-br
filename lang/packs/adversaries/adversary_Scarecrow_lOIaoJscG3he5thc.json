@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Scarecrow",
+  "name": "Espantalho",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A bundle of straw bound into a humanoid shape, clothed in rags, and animated by a trapped soul.</p>",
+    "description": "<p>Um feixe de palha amarrado em forma humanoide, vestido em trapos e animado por uma alma aprisionada.</p>",
     "tier": 2,
-    "motivesAndTactics": "Pull yourself together, scratch and claw",
+    "motivesAndTactics": "Recompor-se, arranhar e rasgar",
     "difficulty": 15,
     "damageThresholds": {
       "major": 7,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Sickle",
+      "name": "Foice",
       "img": "icons/weapons/sickles/sickle-hooked-silver.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "SdYYKkydpFxM7TSK": {
-        "name": "Birds",
+        "name": "Pássaros",
         "value": 2,
         "description": ""
       },
       "0aD9n4XwU20QniiL": {
-        "name": "Fields",
+        "name": "Campos",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Made of Straw",
+      "name": "Feito de Palha",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to physical damage but takes double damage from fire.</p>",
+        "description": "<p>O @Lookup[@name] tem resistência a dano físico, mas sofre dano dobrado de fogo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/skills/trades/farming-sickle-harvest-wheat.webp",
       "effects": [
         {
-          "name": "Made Of Straw",
+          "name": "Feito de Palha",
           "type": "base",
           "system": {
             "changes": [
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Scarecrow has resistance to physical damage but takes double damage from fire.</p>",
+          "description": "<p>O Espantalho tem resistência a dano físico, mas sofre dano dobrado de fogo.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!lOIaoJscG3he5thc.dcHBUQhvxfWNnG7p"
     },
     {
-      "name": "Terror Vision",
+      "name": "Visão de Terror",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] lock eyes with a PC within Very Close range, dealing <strong>2d8</strong> magic damage and making them <em>Vulnerable</em> until they roll with Hope.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o @Lookup[@name] cravar os olhos em um PJ dentro do alcance Muito Próximo, causando <strong>2d8</strong> de dano mágico e deixando-o <em>Vulnerável</em> até rolar com Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -250,9 +248,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -295,7 +291,7 @@
                 "onSave": false
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryClose"
           }
         },
@@ -306,14 +302,12 @@
       "img": "icons/magic/death/skull-humanoid-white-red.webp",
       "effects": [
         {
-          "name": "Terrified",
+          "name": "Aterrorizado",
           "disabled": false,
           "img": "icons/magic/death/skull-humanoid-white-red.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you roll with Hope.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até rolar com Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -364,7 +358,7 @@
   "_id": "lOIaoJscG3he5thc",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Scarecrow",
+    "name": "Espantalho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Waxwork Creation",
+  "name": "Criação de Cera",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>A ten-foot-tall, semisolid (and semisentient) candle wax construct.</p>",
+    "description": "<p>Um constructo de cera de vela com três metros de altura, semissólido (e semiconsciente).</p>",
     "tier": 1,
-    "motivesAndTactics": "Lumber menacingly, moan with the pain of unlife, smother",
+    "motivesAndTactics": "Cambalear de forma ameaçadora, gemer com a dor da morte-em-vida, sufocar",
     "difficulty": 13,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fists",
+      "name": "Punhos",
       "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "vrHOQ7iqCIj8FbyE": {
-        "name": "Giant-Sized",
+        "name": "Tamanho Gigante",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Creation can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>A Criação pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!QPTR2clyJ30idX3c.S9vdn0BC45USdjoY"
     },
     {
-      "name": "No Vital Organs",
+      "name": "Sem Órgãos Vitais",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Creation doesn't take extra damage from attacks that critically succeed against it.</p>",
+        "description": "<p>A Criação não sofre dano extra de ataques que tenham sucesso crítico contra ela.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,11 +184,11 @@
       "_key": "!actors.items!QPTR2clyJ30idX3c.cJWcBnIIzvlJJXXR"
     },
     {
-      "name": "Wax Ball",
+      "name": "Bola de Cera",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Creation throw a ball of wax at a target within Far range. Make an attack against the target. On a success, the target takes <strong>1d12+2</strong> physical damage and becomes <em>Restrained</em> until they succeed on a Strength Roll (15).</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer a Criação arremessar uma bola de cera em um alvo em alcance Distante. Faça um ataque contra o alvo. Em caso de sucesso, o alvo sofre <strong>1d12+2</strong> de dano físico e fica <em>Imobilizado</em> até ter sucesso em um Teste de Força (15).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -216,9 +214,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -281,7 +277,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -292,14 +288,12 @@
       "img": "icons/commodities/materials/slime-white.webp",
       "effects": [
         {
-          "name": "Waxed",
+          "name": "Encerado",
           "disabled": false,
           "img": "icons/commodities/materials/slime-white.webp",
-          "description": "<p>You are <em>Restrained</em> until you succeed on a Strength Roll (15).</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até ter sucesso em um Teste de Força (15).</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -347,11 +341,11 @@
       "_key": "!actors.items!QPTR2clyJ30idX3c.UvSOP0XRfwNbb3AJ"
     },
     {
-      "name": "Splutch!",
+      "name": "Splash!",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC within Melee range of the Creation makes a weapon attack against it, roll a <strong>d6</strong>. On a 5 or higher, the attacker's weapon gets stuck in the Creation and can be removed only with a successful Strength Roll (15).</p>",
+        "description": "<p>Quando um PJ em alcance Corpo a Corpo da Criação faz um ataque com arma contra ela, role <strong>1d6</strong>. Com 5 ou mais, a arma do atacante fica presa na Criação e só pode ser removida com um Teste de Força (15) bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -410,7 +404,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Stuck Check",
+            "name": "Teste de Arma Presa",
             "range": ""
           }
         },
@@ -421,10 +415,10 @@
       "img": "icons/commodities/materials/liquid-purple.webp",
       "effects": [
         {
-          "name": "My Weapon!",
+          "name": "Minha Arma!",
           "disabled": false,
           "img": "icons/skills/melee/unarmed-punch-fist.webp",
-          "description": "<p>Your weapon is stuck in the Creation and can be removed only with a successful Strength Roll (15).</p>",
+          "description": "<p>Sua arma está presa na Criação e só pode ser removida com um Teste de Força (15) bem-sucedido.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -474,11 +468,11 @@
       "_key": "!actors.items!QPTR2clyJ30idX3c.gHOZZ13hhgkfoZxT"
     },
     {
-      "name": "Smothering Grapple",
+      "name": "Agarrão Sufocante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Creation makes a successful standard attack against a target within Melee range, you can <strong>spend a Fear</strong> to Trap the target inside the Creation's wax body. While Trapped, the target is <em>Restrained</em> and must mark a Stress and move with the Creation each time it's spotlighted. A Trapped creature is freed when the Creation takes Major or greater damage.</p>",
+        "description": "<p>Quando a Criação faz um ataque padrão bem-sucedido contra um alvo em alcance Corpo a Corpo, você pode <strong>gastar 1 de Medo</strong> para Aprisionar o alvo dentro do corpo de cera da Criação. Enquanto estiver Aprisionado, o alvo fica <em>Imobilizado</em> e deve marcar 1 de Fadiga e se mover com a Criação toda vez que ela receber o destaque. Uma criatura Aprisionada é libertada quando a Criação sofre dano Maior ou superior.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -522,7 +516,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -533,14 +527,12 @@
       "img": "icons/creatures/slimes/slime-movement-splashing-yellow.webp",
       "effects": [
         {
-          "name": "Trapped",
+          "name": "Preso",
           "disabled": false,
           "img": "icons/creatures/slimes/slime-movement-splashing-yellow.webp",
-          "description": "<p>While Trapped, the target is <em>Restrained</em> and must mark a Stress and move with the Creation each time it's spotlighted. A Trapped creature is freed when the Creation takes Major or greater damage.</p>",
+          "description": "<p>Enquanto estiver Aprisionado, o alvo fica <em>Imobilizado</em> e deve marcar 1 de Fadiga e se mover com a Criação toda vez que ela receber o destaque. Uma criatura Aprisionada é libertada quando a Criação sofre dano Maior ou superior.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -591,7 +583,7 @@
   "_id": "QPTR2clyJ30idX3c",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Waxwork Creation",
+    "name": "Criação de Cera",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Basilisk",
+  "name": "Basilisco",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A six-legged monitor lizard that has the head of a vulture, a spiked backbone, and a petrifying gaze.</p>",
+    "description": "<p>Um lagarto-monitor de seis patas com cabeça de abutre, coluna espinhosa e um olhar petrificante.</p>",
     "tier": 2,
-    "motivesAndTactics": "Move slow and steady, savor petrified prey, turn everyone to stone, watch and wait",
+    "motivesAndTactics": "Mover-se devagar e com firmeza, saborear presas petrificadas, transformar todos em pedra, observar e esperar",
     "difficulty": 14,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Jaws & Claws",
+      "name": "Mandíbulas e Garras",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -132,11 +130,11 @@
   },
   "items": [
     {
-      "name": "Petrify",
+      "name": "Petrificar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to force a PC within Far range to make an Instinct Reaction Roll. On a success, the target marks a Stress. On a failure, the target becomes Stiff . If the target is already Stiff , they become Petrified. While Stiff , the PC must mark a Stress each time they act until they take a rest or the @Lookup[@name] is defeated. While Petrified, the PC can't act. The Petrified condition can be cleared only by applying @Lookup[@name] saliva to the target.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para forçar um PJ em alcance Distante a fazer um Teste de Reação de Instinto. Em caso de sucesso, o alvo marca 1 Fadiga. Em caso de falha, o alvo fica Rígido. Se o alvo já estiver Rígido, ele fica Petrificado. Enquanto estiver Rígido, o PJ deve marcar 1 Fadiga cada vez que agir, até fazer um descanso ou @Lookup[@name] ser derrotado. Enquanto estiver Petrificado, o PJ não pode agir. A condição Petrificado só pode ser removida aplicando saliva de @Lookup[@name] no alvo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -223,7 +221,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           },
           "WXxNVW4vIPdICvzC": {
@@ -231,7 +229,7 @@
             "_id": "WXxNVW4vIPdICvzC",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>On a failure, the target becomes Stiff. If the target is already Stiff, they become Petrified.</p>",
+            "description": "<p>Em caso de falha, o alvo fica Rígido. Se o alvo já estiver Rígido, ele fica Petrificado.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -256,7 +254,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Make Petrified",
+            "name": "Tornar Petrificado",
             "range": ""
           }
         },
@@ -267,10 +265,10 @@
       "img": "icons/magic/earth/strike-body-stone-crumble.webp",
       "effects": [
         {
-          "name": "Stiff",
+          "name": "Rígido",
           "disabled": false,
           "img": "icons/magic/earth/strike-body-stone-crumble.webp",
-          "description": "<p>While Stiff, the PC must mark a Stress each time they act until they take a rest or the Basilisk is defeated.</p>",
+          "description": "<p>Enquanto estiver Rígido, o PJ deve marcar 1 Fadiga cada vez que agir, até fazer um descanso ou o Basilisco ser derrotado.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -311,10 +309,10 @@
           "_key": "!actors.items.effects!SkSS7dNTebMaancS.Ik7qhV4eOE9ZxWUT.02gVh8EwMcKr3SDU"
         },
         {
-          "name": "Petrified",
+          "name": "Petrificado",
           "disabled": false,
           "img": "icons/magic/earth/strike-fist-stone-gray.webp",
-          "description": "<p>While Petrified, the PC can't act. The Petrified condition can be cleared only by applying Basilisk saliva to the target.</p>",
+          "description": "<p>Enquanto estiver Petrificado, o PJ não pode agir. A condição Petrificado só pode ser removida aplicando saliva de Basilisco no alvo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -364,11 +362,11 @@
       "_key": "!actors.items!SkSS7dNTebMaancS.Ik7qhV4eOE9ZxWUT"
     },
     {
-      "name": "CRONCH!",
+      "name": "NHAC!",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] chomp down on a Petrified PC within Melee range. The target must make a death move.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer @Lookup[@name] morder um PJ Petrificado em alcance Corpo a Corpo. O alvo deve fazer um movimento mortal.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -407,7 +405,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -429,7 +427,7 @@
   "_id": "SkSS7dNTebMaancS",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Basilisk",
+    "name": "Basilisco",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

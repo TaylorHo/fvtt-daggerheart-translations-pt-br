@@ -1,5 +1,5 @@
 {
-  "name": "Demon of Jealousy",
+  "name": "Demônio do Ciúme",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 6
       }
     },
-    "motivesAndTactics": "Join in on others' success, take what belongs to others, hold grudges",
+    "motivesAndTactics": "Participar do sucesso alheio, tomar o que pertence a outros, guardar rancor",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "sZFPDyoZwnRwPfT4": {
-        "name": "Manipulation",
+        "name": "Manipulação",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A fickle creature of spindly limbs and insatiable desires.</p>",
+    "description": "<p>Uma criatura inconstante de membros esguios e desejos insaciáveis.</p>",
     "attack": {
-      "name": "Psychic Assault",
+      "name": "Ataque Psíquico",
       "roll": {
         "bonus": 4,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "SxSOkM4bcVOFyjbo",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Demon of Jealousy",
+    "name": "Demônio do Ciúme",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Unprotected Mind",
+      "name": "Mente Desprotegida",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name]'s standard attack deals direct damage.</p>",
+        "description": "<p>O ataque padrão do @Lookup[@name] causa dano direto.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!SxSOkM4bcVOFyjbo.m8qmsssYQ3uFHkil"
     },
     {
-      "name": "My Turn",
+      "name": "Minha Vez",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks HP from an attack, <strong>spend a number of Fear equal to the HP marked by the @Lookup[@name]</strong> to cause the attacker to mark the same number of HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca PV de um ataque, <strong>gaste uma quantidade de Medo igual aos PV marcados pelo @Lookup[@name]</strong> para fazer o atacante marcar a mesma quantidade de PV.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",
@@ -283,10 +281,10 @@
       "_key": "!actors.items!SxSOkM4bcVOFyjbo.KVyhgMJSSHTwRISA"
     },
     {
-      "name": "Rivalry",
+      "name": "Rivalidade",
       "type": "feature",
       "system": {
-        "description": "<p>When a creature within Close range takes damage from a different adversary, you can <strong>mark a Stress</strong> to add a <strong>d4</strong> to the damage roll.</p>",
+        "description": "<p>Quando uma criatura em alcance Próximo sofre dano de um adversário diferente, você pode <strong>marcar 1 Fadiga</strong> para adicionar um <strong>d4</strong> à rolagem de dano.</p>",
         "resource": null,
         "actions": {
           "UU3H5aPQejOSoFZw": {
@@ -317,12 +315,12 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
             "range": "",
             "areas": [
               {
-                "name": "Rivalry",
+                "name": "Rivalidade",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -355,10 +353,10 @@
       "_key": "!actors.items!SxSOkM4bcVOFyjbo.pSAupMWw1eYqm84z"
     },
     {
-      "name": "What's Yours Is Mine",
+      "name": "O Que É Seu É Meu",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC takes Severe damage within Very Close range of the @Lookup[@name], you can <strong>spend a Fear</strong> to cause the target to make a Finesse Reaction Roll. On a failure, the @Lookup[@name] seizes one item or consumable of their choice from the target's inventory.</p>",
+        "description": "<p>Quando um PJ sofre dano Grave em alcance Muito Próximo do @Lookup[@name], você pode <strong>gastar 1 de Medo</strong> para fazer o alvo realizar um Teste de Reação de Acuidade. Em caso de falha, o @Lookup[@name] toma um item ou consumível à sua escolha do inventário do alvo.</p>",
         "resource": null,
         "actions": {
           "3cGZ2CofM9HUlELH": {
@@ -404,12 +402,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/perception/hand-eye-black.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "What's Yours Is Mine",
+                "name": "O Que É Seu É Meu",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",

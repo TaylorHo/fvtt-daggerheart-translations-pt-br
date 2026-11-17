@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Flock Of Feather Fiends",
+  "name": "Bando de Demônios Emplumados",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "horde",
-    "description": "<p>A flock of undead crow corpses, eyes aglow with necroplasmic light.</p>",
+    "description": "<p>Um bando de cadáveres de corvos mortos-vivos, com os olhos brilhando de luz necroplásmica.</p>",
     "tier": 2,
-    "motivesAndTactics": "Caw incessantly, claw faces, flutter through the air, peck eyes",
+    "motivesAndTactics": "Grasnar incessantemente, arranhar rostos, esvoaçar pelo ar, bicar olhos",
     "difficulty": 14,
     "damageThresholds": {
       "major": 10,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Peck and Claw",
+      "name": "Bicada e Garra",
       "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "ZVvcSe8CtK8BaKEo": {
-        "name": "Fly",
+        "name": "Voar",
         "value": 2,
         "description": ""
       },
       "TPbfa5qdAbwixgTS": {
-        "name": "Swarm",
+        "name": "Enxame",
         "value": 2,
         "description": ""
       }
@@ -147,11 +145,11 @@
   },
   "items": [
     {
-      "name": "Maddening Cacophony",
+      "name": "Cacofonia Enlouquecedora",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force each PC within Very Close range to make an Instinct Reaction Roll. Targets who fail must <strong>spend a Hope</strong> or become <em>Vulnerable</em> until they deal damage to the Flock or the Flock is defeated.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para forçar cada PJ dentro do alcance Muito Próximo a fazer um Teste de Reação de Instinto. Alvos que falharem devem <strong>gastar 1 Esperança</strong> ou ficar <em>Vulneráveis</em> até causarem dano ao Bando ou o Bando ser derrotado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -174,7 +172,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Maddening Cacophony",
+                "name": "Cacofonia Enlouquecedora",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -228,7 +226,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -239,14 +237,12 @@
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "effects": [
         {
-          "name": "Maddening Cacophony",
+          "name": "Cacofonia Enlouquecedora",
           "disabled": false,
           "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you deal damage to the Flock or the Flock is defeated.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até causar dano ao Bando ou o Bando ser derrotado.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -295,10 +291,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -314,7 +310,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -383,7 +379,7 @@
   "_id": "vWHynB75iGfOhTjn",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Flock Of Feather Fiends",
+    "name": "Bando de Demônios Emplumados",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

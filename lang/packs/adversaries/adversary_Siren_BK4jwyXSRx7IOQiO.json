@@ -1,5 +1,5 @@
 {
-  "name": "Siren",
+  "name": "Sereia",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "Tt1Q4CuzohevsgKo": {
-        "name": "Song Repertoire",
+        "name": "Repertório de Canções",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>A half-fish person with shimmering scales and an irresistible voice.</p>",
-    "motivesAndTactics": "Consume, lure prey, subdue with song",
+    "description": "<p>Uma pessoa meio peixe com escamas cintilantes e uma voz irresistível.</p>",
+    "motivesAndTactics": "Consumir, atrair presas, subjugar com canto",
     "attack": {
-      "name": "Distended Jaw Bite",
+      "name": "Mordida de Mandíbula Distendida",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -73,9 +73,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "BK4jwyXSRx7IOQiO",
   "sort": 1400000,
   "prototypeToken": {
-    "name": "Siren",
+    "name": "Sereia",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Captive Audience",
+      "name": "Plateia Cativa",
       "type": "feature",
       "system": {
-        "description": "<p>If the @Lookup[@name] makes a standard attack against a target Entranced by their song, the attack deals <strong>2d10+1</strong> damage instead of their standard damage.</p>",
+        "description": "<p>Se o @Lookup[@name] faz um ataque padrão contra um alvo Enfeitiçado por sua canção, o ataque causa <strong>2d10+1</strong> de dano em vez do dano padrão.</p>",
         "resource": null,
         "actions": {
           "FxWbdt0hRNv2k9Pm": {
@@ -268,9 +266,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -306,7 +302,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
             "range": "melee",
             "baseAction": false,
@@ -335,10 +331,10 @@
       "_key": "!actors.items!BK4jwyXSRx7IOQiO.Zc3PFPTgKRX03Fx6"
     },
     {
-      "name": "Enchanting Song",
+      "name": "Canção Encantadora",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to sing a song that affects all targets within Close range. Targets must succeed on an Instinct Reaction Roll or become Entranced until they mark 2 Stress. Other @Lookup[@name]s within Close range of the target can <strong>mark a Stress</strong> to each add a +1 bonus to the Difficulty of the reaction roll. While Entranced, a target can't act and is <em>Vulnerable</em>.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para cantar uma canção que afeta todos os alvos dentro do alcance Próximo. Os alvos devem ter sucesso em um Teste de Reação de Instinto ou ficar Enfeitiçados até marcarem 2 Fadiga. Outros @Lookup[@name]s dentro do alcance Próximo do alvo podem <strong>marcar um Fadiga</strong> para cada um adicionar um bônus de +1 à Dificuldade do teste de reação. Enquanto Enfeitiçado, um alvo não pode agir e fica <em>Vulnerável</em>.</p>",
         "resource": null,
         "actions": {
           "FY8K8Nsg0TKAWok8": {
@@ -398,12 +394,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Enchanting Song",
+                "name": "Canção Encantadora",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -428,7 +424,7 @@
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "effects": [
         {
-          "name": "Entranced",
+          "name": "Enfeitiçado",
           "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
           "transfer": false,
           "_id": "xrm5786ckKbMYHjn",
@@ -437,7 +433,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you mark 2 Stress.</p>"
+              "description": "<p>Até você marcar 2 Fadiga.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -451,11 +447,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While Entranced, you can't act and are <em>Vulnerable</em>.</p>",
+          "description": "<p>Enquanto Enfeitiçado, você não pode agir e fica <em>Vulnerável</em>.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {

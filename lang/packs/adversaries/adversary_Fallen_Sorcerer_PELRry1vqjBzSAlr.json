@@ -1,5 +1,5 @@
 {
-  "name": "Fallen Sorcerer",
+  "name": "Feiticeiro Caído",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Acquire, dishearten, dominate, torment",
+    "motivesAndTactics": "Adquirir, desanimar, dominar, atormentar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "mLFLSWUgJIUIzrUi": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "description": "",
         "value": 2
       }
     },
     "tier": 4,
-    "description": "<p>A powerful mage bound by the bargains they made in life.</p>",
+    "description": "<p>Um mago poderoso preso pelos pactos que fez em vida.</p>",
     "attack": {
-      "name": "Corrupted Staff",
+      "name": "Cajado Corrompido",
       "roll": {
         "bonus": 4,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "PELRry1vqjBzSAlr",
   "sort": 1000000,
   "prototypeToken": {
-    "name": "Fallen Sorcerer",
+    "name": "Feiticeiro Caído",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Conflagration",
+      "name": "Conflagração",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to unleash an all-consuming firestorm and make an attack against all targets within Close range. Targets the @Lookup[@name] succeeds against take <strong>2d10+6</strong> direct magic damage.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para desencadear uma tempestade de fogo devoradora e fazer um ataque contra todos os alvos dentro do alcance Próximo. Alvos contra os quais o @Lookup[@name] for bem-sucedido sofrem <strong>2d10+6</strong> de dano mágico direto.</p>",
         "resource": null,
         "actions": {
           "v7zZo52Dnj1e1i2G": {
@@ -277,9 +275,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -316,12 +312,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/fire/projectile-beams-salvo-red.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Conflagration",
+                "name": "Conflagração",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -354,10 +350,10 @@
       "_key": "!actors.items!PELRry1vqjBzSAlr.s15sNyb3JYMzBLIU"
     },
     {
-      "name": "Nightmare Tableau",
+      "name": "Quadro de Pesadelo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to trap a target within Far range in a powerful illusion of their worst fears. While trapped, the target is <em>Restrained</em> and <em>Vulnerable</em> until they break free, ending both conditions, with a successful Instinct Roll.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para prender um alvo dentro do alcance Distante em uma poderosa ilusão de seus piores medos. Enquanto preso, o alvo fica <em>Imobilizado</em> e <em>Vulnerável</em> até se libertar, encerrando ambas as condições, com um Teste de Instinto bem-sucedido.</p>",
         "resource": null,
         "actions": {
           "mXWOpXcYALYqicTw": {
@@ -384,7 +380,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Generic",
+            "name": "Genérico",
             "img": "icons/magic/death/skull-energy-light-white.webp",
             "range": "far",
             "baseAction": false,
@@ -405,7 +401,7 @@
       "img": "icons/magic/death/skull-energy-light-white.webp",
       "effects": [
         {
-          "name": "Nightmare Tableau",
+          "name": "Quadro de Pesadelo",
           "img": "icons/magic/death/skull-energy-light-white.webp",
           "transfer": false,
           "_id": "Q99saHj6NOY2PSXf",
@@ -414,7 +410,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Instinct Roll.</p>"
+              "description": "<p>Até você se libertar com um Teste de Instinto bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -428,12 +424,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Restrained</em> and <em>Vulnerable</em> until you break free, ending both conditions, with a successful Instinct Roll.</p>",
+          "description": "<p><em>Imobilizado</em> e <em>Vulnerável</em> até você se libertar, encerrando ambas as condições, com um Teste de Instinto bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable",
-            "restrained"
-          ],
+          "statuses": ["vulnerable", "restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -461,10 +454,10 @@
       "_key": "!actors.items!PELRry1vqjBzSAlr.ecp9o8t1dQFXGsse"
     },
     {
-      "name": "Slippery",
+      "name": "Escorregadio",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack, they can teleport up to Far range.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofrer dano de um ataque, ele pode se teletransportar até o alcance Distante.</p>",
         "resource": null,
         "actions": {},
         "featureForm": "reaction",
@@ -485,17 +478,17 @@
       "_key": "!actors.items!PELRry1vqjBzSAlr.C74czwNeWF5vS1DZ"
     },
     {
-      "name": "Shackles of Guilt",
+      "name": "Grilhões da Culpa",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 2d6)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown. When it triggers, all targets within Far range become Vulnerable and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope.</p>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 2d6)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva. Quando ela disparar, todos os alvos dentro do alcance Distante ficam Vulneráveis e devem marcar 1 Fadiga ao reviverem seus maiores arrependimentos. Um alvo pode se libertar de seu arrependimento com um Teste de Presença ou de Força bem-sucedido. Quando um PJ falhar em se libertar, ele perde 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "7b0FkpAnWz9a5EWx": {
             "type": "damage",
             "_id": "7b0FkpAnWz9a5EWx",
             "systemPath": "actions",
-            "description": "<p>When it triggers, all targets within Far range become Vulnerable and must mark a Stress as they relive their greatest regrets. A target can break free from their regret with a successful Presence or Strength Roll. When a PC fails to break free, they lose a Hope.</p>",
+            "description": "<p>Quando ela disparar, todos os alvos dentro do alcance Distante ficam Vulneráveis e devem marcar 1 Fadiga ao reviverem seus maiores arrependimentos. Um alvo pode se libertar de seu arrependimento com um Teste de Presença ou de Força bem-sucedido. Quando um PJ falhar em se libertar, ele perde 1 Esperança.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -538,12 +531,12 @@
                 "onSave": false
               }
             ],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
             "range": "",
             "areas": [
               {
-                "name": "Shackles of Guilt",
+                "name": "Grilhões da Culpa",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -561,7 +554,7 @@
             "type": "countdown",
             "_id": "11PtfoxbgOXxNlkG",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 2d6)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 2d6)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -576,7 +569,7 @@
             },
             "countdown": [
               {
-                "name": "Shackles of Guilt",
+                "name": "Grilhões da Culpa",
                 "type": "encounter",
                 "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
                 "progress": {
@@ -590,7 +583,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
             "range": "",
             "baseAction": false,
@@ -608,7 +601,7 @@
       "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
       "effects": [
         {
-          "name": "Shackles of Guilt",
+          "name": "Grilhões da Culpa",
           "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
           "transfer": false,
           "_id": "pWDg0MADoohKu40O",
@@ -617,7 +610,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>A target can break free from their regret with a successful Presence or Strength Roll.</p>"
+              "description": "<p>Um alvo pode se libertar de seu arrependimento com um Teste de Presença ou de Força bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -631,11 +624,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until you break free from your regret with a successful Presence or Strength Roll. If you fail to break free, you lose a Hope.</p>",
+          "description": "<p><em>Vulnerável</em> até você se libertar de seu arrependimento com um Teste de Presença ou de Força bem-sucedido. Se você falhar em se libertar, perde 1 Esperança.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {

@@ -4,9 +4,9 @@
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "social",
-    "description": "<p>A large, interdimensional jellyfishlike creature that floats in and out of the timestream.</p>",
+    "description": "<p>Uma grande criatura interdimensional semelhante a uma água-viva, que flutua para dentro e para fora do fluxo do tempo.</p>",
     "tier": 1,
-    "motivesAndTactics": "Exchange information about possible timelines, feed on heightened emotions, watch from the shadows",
+    "motivesAndTactics": "Trocar informações sobre linhas do tempo possíveis, alimentar-se de emoções intensas, observar das sombras",
     "difficulty": 14,
     "damageThresholds": {
       "major": 6,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tentacle Lash",
+      "name": "Chicote de Tentáculos",
       "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "vXsawnonXynlicqS": {
-        "name": "Secrets",
+        "name": "Segredos",
         "value": 3,
         "description": ""
       },
       "T1QgkA46744aIIwF": {
-        "name": "Floating Oddity",
+        "name": "Esquisitice Flutuante",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Telepathic",
+      "name": "Telepático",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can mentally communicate with creatures within Very Far range.</p>",
+        "description": "<p>@Lookup[@name] pode se comunicar mentalmente com criaturas em alcance Muito Distante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!RIrQcvhlSmXTqFxr.YBQ9BpaOeef4iBms"
     },
     {
-      "name": "Psychic Strongbox",
+      "name": "Cofre Psíquico",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] is immune to abilities and features that would affect or alter its thoughts or emotions.</p>",
+        "description": "<p>@Lookup[@name] é imune a habilidades e características que afetariam ou alterariam seus pensamentos ou emoções.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,11 +189,11 @@
       "_key": "!actors.items!RIrQcvhlSmXTqFxr.q10WSdhUvw2GY2cy"
     },
     {
-      "name": "Glitch Wave",
+      "name": "Onda de Falha",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> and choose up to three targets within Close range. Each target must succeed on a Instinct Reaction Roll or become desynced from reality and have disadvantage on Instinct Rolls until they use a downtime move to ground their psyches in the now.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> e escolha até três alvos em alcance Próximo. Cada alvo deve ter sucesso em um Teste de Reação de Instinto ou ficar dessincronizado da realidade e ter desvantagem em Testes de Instinto até usar uma ação de intervalo para ancorar sua psique no agora.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -263,7 +261,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -274,10 +272,10 @@
       "img": "icons/magic/lightning/projectile-tendrils-red.webp",
       "effects": [
         {
-          "name": "Desynced",
+          "name": "Dessincronizado",
           "disabled": false,
           "img": "icons/magic/lightning/projectile-tendrils-red.webp",
-          "description": "<p>You have disadvantage on Instinct Rolls until you use a downtime move to ground your psyches in the now.</p>",
+          "description": "<p>Você tem desvantagem em Testes de Instinto até usar uma ação de intervalo para ancorar sua psique no agora.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -335,11 +333,11 @@
       "_key": "!actors.items!RIrQcvhlSmXTqFxr.9nSzgCYB4d3gbvIj"
     },
     {
-      "name": "Temporal Corrosion",
+      "name": "Corrosão Temporal",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack, you can <strong>mark a Stress</strong> to have the @Lookup[@name] excrete an entropic acid through its skin, giving the target a -2 penalty to their damage thresholds until they use a downtime move to repair their armor.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão, você pode <strong>marcar 1 de Fadiga</strong> para fazer @Lookup[@name] excretar um ácido entrópico pela pele, dando ao alvo uma penalidade de -2 em seus limiares de dano até que ele use uma ação de intervalo para reparar sua armadura.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -383,7 +381,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -394,10 +392,10 @@
       "img": "icons/magic/acid/dissolve-arm-flesh.webp",
       "effects": [
         {
-          "name": "New Effect",
+          "name": "Novo Efeito",
           "disabled": false,
           "img": "icons/magic/acid/dissolve-arm-flesh.webp",
-          "description": "<p>You have a -2 penalty to your damage thresholds until you use a downtime move to repair your armor.</p>",
+          "description": "<p>Você tem uma penalidade de -2 em seus limiares de dano até usar uma ação de intervalo para reparar sua armadura.</p>",
           "transfer": false,
           "statuses": [],
           "system": {

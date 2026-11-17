@@ -1,5 +1,5 @@
 {
-  "name": "Sylvan Soldier",
+  "name": "Soldado Silvestre",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 2
       }
     },
-    "motivesAndTactics": "Ambush, hide, overwhelm, protect, trail",
+    "motivesAndTactics": "Emboscar, esconder-se, sobrepujar, proteger, rastrear",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "3HwCDcCvzVnicJKe": {
-        "name": "Tracker",
+        "name": "Rastreador",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A faerie warrior adorned in armor made of leaves and bark.</p>",
+    "description": "<p>Um guerreiro feérico adornado com uma armadura feita de folhas e casca de árvore.</p>",
     "attack": {
-      "name": "Scythe",
+      "name": "Foice",
       "img": "icons/weapons/sickles/scythe-bone-jagged.webp",
       "roll": {
         "bonus": 0,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "VtFBt9XBE0WrGGxP",
   "sort": 3600000,
   "prototypeToken": {
-    "name": "Sylvan Soldier",
+    "name": "Soldado Silvestre",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Pack tactics",
+      "name": "Táticas de Matilha",
       "type": "feature",
       "_id": "uo5DbPuQQ018Pyfd",
       "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
       "system": {
-        "description": "<p>If the @Lookup[@name] makes a standard attack and another @Lookup[@name] is within Melee range of the target, deal <strong>1d8+5</strong> physical damage instead of their standard damage.</p>",
+        "description": "<p>Se @Lookup[@name] faz um ataque padrão e outro @Lookup[@name] está em alcance Corpo a Corpo do alvo, cause <strong>1d8+5</strong> de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "dmlz83o2JOAoGiuK": {
@@ -270,9 +268,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -308,7 +304,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
             "range": "melee",
             "baseAction": false,
@@ -335,12 +331,12 @@
       "_key": "!actors.items!VtFBt9XBE0WrGGxP.uo5DbPuQQ018Pyfd"
     },
     {
-      "name": "Forest Control",
+      "name": "Controle da Floresta",
       "type": "feature",
       "_id": "phtxvgptyvT3WoeK",
       "img": "icons/environment/wilderness/tree-spruce.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to pull down a tree within Close range. A creature hit by the tree must succeed on an Agility Reaction Roll (15) or take <strong>1d10</strong> physical damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para derrubar uma árvore em alcance Próximo. Uma criatura atingida pela árvore deve ter sucesso em um teste de reação de Agilidade (15) ou sofrer <strong>1d10</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "UyL02IaAO3m8LgWI": {
@@ -379,9 +375,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -417,7 +411,7 @@
               "difficulty": 15,
               "damageMod": "none"
             },
-            "name": "Pull Tree",
+            "name": "Derrubar Árvore",
             "img": "icons/environment/wilderness/tree-spruce.webp",
             "range": "close",
             "baseAction": false,
@@ -444,12 +438,12 @@
       "_key": "!actors.items!VtFBt9XBE0WrGGxP.phtxvgptyvT3WoeK"
     },
     {
-      "name": "Blend In",
+      "name": "Misturar-se",
       "type": "feature",
       "_id": "1dmKoSnV82sLc8xZ",
       "img": "icons/magic/nature/root-vine-leaves-green.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, you can <strong>mark a Stress</strong> to become Hidden until the @Lookup[@name]'s next attack or a PC succeeds on an Instinct Roll (14) to find them.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para ficar Escondido até o próximo ataque de @Lookup[@name] ou até que um personagem tenha sucesso em uma rolagem de Instinto (14) para encontrá-lo.</p>",
         "resource": null,
         "actions": {
           "l32BjO9J0jFvD0Zy": {
@@ -485,7 +479,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/nature/root-vine-leaves-green.webp",
             "range": "",
             "baseAction": false,
@@ -504,7 +498,7 @@
       },
       "effects": [
         {
-          "name": "Blend In",
+          "name": "Misturar-se",
           "img": "icons/magic/nature/root-vine-leaves-green.webp",
           "transfer": false,
           "_id": "xyXPmPIOtqXYF1TJ",
@@ -526,11 +520,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Become Hidden until the Soldier's next attack or a PC succeeds on an Instinct Roll (14) to fi nd them.</p>",
+          "description": "<p>Fique Escondido até o próximo ataque do Soldado ou até que um personagem tenha sucesso em uma rolagem de Instinto (14) para encontrá-lo.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "hidden"
-          ],
+          "statuses": ["hidden"],
           "sort": 0,
           "flags": {},
           "_stats": {

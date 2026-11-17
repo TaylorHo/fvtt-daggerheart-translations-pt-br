@@ -4,9 +4,9 @@
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "solo",
-    "description": "<p>The raging soul of a villainous masked wrestler.</p>",
+    "description": "<p>A alma furiosa de um vilão lutador mascarado.</p>",
     "tier": 1,
-    "motivesAndTactics": "Call out, embarrass, energize the audience, pin opponents to the ground",
+    "motivesAndTactics": "Provocar, envergonhar, empolgar a plateia, imobilizar oponentes no chão",
     "difficulty": 13,
     "damageThresholds": {
       "major": 7,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Open-Handed Strike",
+      "name": "Golpe de Mão Aberta",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "cGmDmo3SRWaxRM4T": {
-        "name": "Grappler",
+        "name": "Lutador de Agarramento",
         "value": 3,
         "description": ""
       },
       "vFd1P0dqWBO4mNvK": {
-        "name": "Showboat",
+        "name": "Exibicionista",
         "value": 3,
         "description": ""
       }
@@ -147,7 +145,7 @@
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can't be <em>Restrained</em>.</p>",
+        "description": "<p>@Lookup[@name] não pode ser <em>Restrito</em>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Masque Muerte can't be <em>Restrained</em>.</p>",
+          "description": "<p>O Masque Muerte não pode ser <em>Restrito</em>.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!DtpTGuzeLlcZ43ID.EpstVVvQLVDgLxt1"
     },
     {
-      "name": "Heel Turn",
+      "name": "Virada de Vilão",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a PC within Close range. On a success, the target must mark a Stress and is temporarily <em>Vulnerable</em> as the @Lookup[@name] assaults them with a string of insulting taunts.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um PJ em alcance Próximo. Em um sucesso, o alvo deve marcar 1 Fadiga e fica temporariamente <em>Vulnerável</em> enquanto @Lookup[@name] o ataca com uma sequência de provocações insultuosas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -311,7 +309,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -322,14 +320,12 @@
       "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "effects": [
         {
-          "name": "Taunted",
+          "name": "Provocado",
           "disabled": false,
           "img": "icons/skills/wounds/injury-face-impact-orange.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -377,11 +373,11 @@
       "_key": "!actors.items!DtpTGuzeLlcZ43ID.6o1xTsu1ujGrfABq"
     },
     {
-      "name": "Spectral Suplex",
+      "name": "Suplex Espectral",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] suplex a <em>Restrained</em> PC, dealing <strong>1d10+6</strong> magic damage to them.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] aplicar um suplex em um PJ <em>Restrito</em>, causando <strong>1d10+6</strong> de dano mágico a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -407,9 +403,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -447,7 +441,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -466,11 +460,11 @@
       "_key": "!actors.items!DtpTGuzeLlcZ43ID.lPJq72e93dc2ODK3"
     },
     {
-      "name": "Unmasking Death",
+      "name": "Morte Desmascarada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] momentarily remove their mask, revealing their horrifying face underneath. Each PC within Close range must succeed on a Presence Reaction Roll or mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] remover momentaneamente a máscara, revelando o rosto horripilante por baixo. Cada PJ em alcance Próximo deve ter sucesso em um Teste de Reação de Presença ou marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -512,7 +506,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Unmasking Death",
+                "name": "Morte Desmascarada",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -561,7 +555,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -580,11 +574,11 @@
       "_key": "!actors.items!DtpTGuzeLlcZ43ID.NPoRVKRQzuLUw0mM"
     },
     {
-      "name": "Tag Team",
+      "name": "Luta em Dupla",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] deals damage to a PC, you can <strong>spend a Fear</strong> to have a spectral wrestler appear and Pin the target until they escape with a successful Strength Roll. While Pinned, the target is <em>Restrained</em> and takes an extra <strong>1d12</strong> magic damage from the @Lookup[@name]'s attacks.</p>",
+        "description": "<p>Quando @Lookup[@name] causa dano a um PJ, você pode <strong>gastar 1 de Medo</strong> para fazer um lutador espectral aparecer e Imobilizar o alvo até que ele escape com um Teste de Força bem-sucedido. Enquanto estiver Imobilizado, o alvo fica <em>Restrito</em> e sofre <strong>1d12</strong> de dano mágico adicional dos ataques de @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -628,7 +622,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -639,14 +633,12 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Pinned",
+          "name": "Preso",
           "disabled": false,
           "img": "icons/skills/movement/arrow-down-pink.webp",
-          "description": "<p>You are Pinned until you escape with a successful Strength Roll. While Pinned, you are <em>Restrained</em> and take an extra <strong>1d12</strong> magic damage from the Masque Muerte's attacks.</p>",
+          "description": "<p>Você fica Imobilizado até escapar com um Teste de Força bem-sucedido. Enquanto estiver Imobilizado, você fica <em>Restrito</em> e sofre <strong>1d12</strong> de dano mágico adicional dos ataques do Masque Muerte.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {

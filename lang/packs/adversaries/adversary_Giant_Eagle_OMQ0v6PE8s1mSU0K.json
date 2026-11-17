@@ -1,5 +1,5 @@
 {
-  "name": "Giant Eagle",
+  "name": "Águia Gigante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Hunt prey, stay mobile, strike decisively",
+    "motivesAndTactics": "Caçar presas, manter-se móvel, atacar decisivamente",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A giant bird of prey with blood-stained talons.</p>",
+    "description": "<p>Uma ave de rapina gigante com garras manchadas de sangue.</p>",
     "attack": {
-      "name": "Claws and Beak",
+      "name": "Garras e Bico",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -82,9 +82,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -134,7 +132,7 @@
   },
   "flags": {},
   "prototypeToken": {
-    "name": "Giant Eagle",
+    "name": "Águia Gigante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -227,10 +225,10 @@
   },
   "items": [
     {
-      "name": "Flight",
+      "name": "Voo",
       "type": "feature",
       "system": {
-        "description": "<p>While flying, the @Lookup[@name] gains a +3 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto estiver voando, o @Lookup[@name] recebe +3 de bônus em sua Dificuldade.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -243,7 +241,7 @@
       "img": "icons/creatures/birds/raptor-hawk-flying.webp",
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "system": {
             "changes": [
@@ -272,7 +270,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, the Eagle gains a +3 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto estiver voando, a Águia recebe um bônus de +3 em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -296,10 +294,10 @@
       "_key": "!actors.items!OMQ0v6PE8s1mSU0K.wdNrstuoh4MFShYG"
     },
     {
-      "name": "Deadly Dive",
+      "name": "Mergulho Mortal",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Far range. On a success, deal <strong>2d10+2</strong> physical damage and knock the target over, making them <em>Vulnerable</em> until they next act.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um alvo dentro do alcance Distante. Em caso de sucesso, cause <strong>2d10+2</strong> de dano físico e derrube o alvo, deixando-o <em>Vulnerável</em> até que aja novamente.</p>",
         "resource": null,
         "actions": {
           "KwsxjI3jBzmxgkPu": {
@@ -338,9 +336,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -381,7 +377,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-slashes-orange.webp",
             "range": "far",
             "baseAction": false,
@@ -402,7 +398,7 @@
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "effects": [
         {
-          "name": "Deadly Dive",
+          "name": "Mergulho Mortal",
           "img": "icons/skills/melee/strike-slashes-orange.webp",
           "transfer": false,
           "_id": "m6qqQZxukDPVcGdQ",
@@ -425,11 +421,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until the next time you act.</p>",
+          "description": "<p><em>Vulnerável</em> até a próxima vez que você agir.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -457,10 +451,10 @@
       "_key": "!actors.items!OMQ0v6PE8s1mSU0K.MabIQE1Kjn60j08J"
     },
     {
-      "name": "Take Off",
+      "name": "Decolar",
       "type": "feature",
       "system": {
-        "description": "<p>Make an attack against a target within Very Close range. On a success, deal <strong>2d4+3</strong> physical damage and the target must succeed on an Agility Reaction Roll or become temporarily Restrained within the @Lookup[@name]'s massive talons. If the target is Restrained, the @Lookup[@name] immediately lifts into the air to Very Far range above the battlefi eld while holding them.</p>",
+        "description": "<p>Faça um ataque contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, cause <strong>2d4+3</strong> de dano físico e o alvo deve ser bem-sucedido em um Teste de Reação de Agilidade ou ficar temporariamente Imobilizado nas garras enormes do @Lookup[@name]. Se o alvo estiver Imobilizado, o @Lookup[@name] imediatamente se ergue no ar até o alcance Muito Distante acima do campo de batalha enquanto o segura.</p>",
         "resource": null,
         "actions": {
           "NtgA9EQPF2Rdb9KK": {
@@ -490,9 +484,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -533,7 +525,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "",
             "baseAction": false,
@@ -554,7 +546,7 @@
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "effects": [
         {
-          "name": "Take Off",
+          "name": "Decolar",
           "img": "icons/skills/movement/arrow-upward-yellow.webp",
           "transfer": false,
           "_id": "Sd34xywRqiF5w9sX",
@@ -578,9 +570,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -601,10 +591,10 @@
       "_key": "!actors.items!OMQ0v6PE8s1mSU0K.NEOQ0E9AGSSIDm4v"
     },
     {
-      "name": "Deadly Drop",
+      "name": "Queda Mortal",
       "type": "feature",
       "system": {
-        "description": "<p>While flying, the @Lookup[@name] can drop a Restrained target they are holding. When dropped, the target is no longer Restrained but starts falling. If their fall isn't prevented during the PCs' next action, the target takes <strong>2d20</strong> physical damage when they land.</p>",
+        "description": "<p>Enquanto estiver voando, o @Lookup[@name] pode soltar um alvo Imobilizado que esteja segurando. Quando solto, o alvo deixa de estar Imobilizado, mas começa a cair. Se a queda não for impedida durante a próxima ação dos PJs, o alvo sofre <strong>2d20</strong> de dano físico ao aterrissar.</p>",
         "resource": null,
         "actions": {
           "1tO018UgL0VG51ti": {
@@ -634,9 +624,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -652,7 +640,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,

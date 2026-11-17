@@ -1,5 +1,5 @@
 {
-  "name": "Weaponmaster",
+  "name": "Mestre de Armas",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,8 +35,8 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A master-at-arms wielding a sword twice their size.</p>",
-    "motivesAndTactics": "Act first, aim for the weakest, intimidate",
+    "description": "<p>Um mestre de armas empunhando uma espada com o dobro de seu tamanho.</p>",
+    "motivesAndTactics": "Agir primeiro, mirar nos mais fracos, intimidar",
     "attack": {
       "roll": {
         "bonus": 2,
@@ -53,7 +53,7 @@
         },
         "useDefault": false
       },
-      "name": "Claymore",
+      "name": "Montante",
       "img": "icons/weapons/swords/greatsword-guard-gold-worn.webp",
       "range": "veryClose",
       "damage": {
@@ -69,9 +69,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "ZNbQ2jg35LG4t9eH",
   "sort": 3800000,
   "prototypeToken": {
-    "name": "Weaponmaster",
+    "name": "Mestre de Armas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Goading Strike",
+      "name": "Golpe Provocador",
       "type": "feature",
       "_id": "tyGgOqQzDSIypoMz",
       "img": "icons/skills/melee/strike-sword-dagger-runes-gold.webp",
       "system": {
-        "description": "<p>Make a standard attack against a target. On a success, <strong>mark a Stress</strong> to Taunt the target until their next successful attack. The next time the Taunted target attacks, they have disadvantage against targets other than the @Lookup[@name].</p>",
+        "description": "<p>Faça um ataque padrão contra um alvo. Em caso de sucesso, <strong>marque 1 de Fadiga</strong> para Provocar o alvo até seu próximo ataque bem-sucedido. Na próxima vez que o alvo Provocado atacar, ele tem desvantagem contra alvos que não sejam @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "mlPgZJNL2TjykjUb": {
@@ -273,9 +271,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -317,7 +313,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-sword-dagger-runes-gold.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -336,7 +332,7 @@
       },
       "effects": [
         {
-          "name": "Taunted",
+          "name": "Provocado",
           "img": "icons/skills/melee/strike-sword-dagger-runes-gold.webp",
           "transfer": false,
           "_id": "j2jYmYbtWXvq32yX",
@@ -345,7 +341,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until your next successful attack</p>"
+              "description": "<p>Até seu próximo ataque bem-sucedido</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -359,7 +355,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The next time the Taunted target attacks, they have disadvantage against targets other than the Weaponmaster.</p>",
+          "description": "<p>Na próxima vez que o alvo Provocado atacar, ele tem desvantagem contra alvos que não sejam o Mestre de Armas.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -389,12 +385,12 @@
       "_key": "!actors.items!ZNbQ2jg35LG4t9eH.tyGgOqQzDSIypoMz"
     },
     {
-      "name": "Adrenaline Burst",
+      "name": "Surto de Adrenalina",
       "type": "feature",
       "_id": "UsC0vtOBbf9Kut4v",
       "img": "icons/magic/life/cross-beam-green.webp",
       "system": {
-        "description": "<p>Once per scene, spend a Fear to clear 2 HP and 2 Stress.</p>",
+        "description": "<p>Uma vez por cena, gaste 1 de Medo para limpar 2 Pontos de Vida e 2 de Fadiga.</p>",
         "resource": {
           "type": "simple",
           "value": 1,
@@ -498,7 +494,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/life/cross-beam-green.webp",
             "range": "self",
             "baseAction": false,
@@ -525,12 +521,12 @@
       "_key": "!actors.items!ZNbQ2jg35LG4t9eH.UsC0vtOBbf9Kut4v"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "oYNVPQOy5oQli5Il",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "jeKcXbdw8gPF4OQA": {
@@ -590,7 +586,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Shapeshifting Fiend Revealed",
+  "name": "Demônio Metamorfo Revelado",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>A towering humanoid who has an insectile head and multiple sets of glowing red eyes.</p>",
+    "description": "<p>Um humanoide imponente com cabeça de inseto e vários pares de olhos vermelhos brilhantes.</p>",
     "tier": 3,
-    "motivesAndTactics": "Claim souls, confuse and misdirect, escape to the Circles Below, teleport",
+    "motivesAndTactics": "Reivindicar almas, confundir e despistar, escapar para os Círculos Inferiores, teletransportar-se",
     "difficulty": 17,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Mantis Claws",
+      "name": "Garras de Louva-a-Deus",
       "img": "icons/commodities/claws/claws-mantis.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "wZYNKV8cDxwUo88O": {
-        "name": "Hellbound",
+        "name": "Condenado ao Inferno",
         "value": 3,
         "description": ""
       },
       "cvYII1wVPrepeZqQ": {
-        "name": "Immortal",
+        "name": "Imortal",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Fiend can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Demônio pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!fa50qKab3hPt9gkV.EK5pZuDxvOPjmRpF"
     },
     {
-      "name": "Fiendish Resistance",
+      "name": "Resistência Demoníaca",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+        "description": "<p>O Demônio tem resistência a dano mágico e não pode ser enganado por ilusões mágicas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -183,7 +181,7 @@
       "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
       "effects": [
         {
-          "name": "Fiendish Resistance",
+          "name": "Resistência Demoníaca",
           "type": "base",
           "system": {
             "changes": [
@@ -221,7 +219,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+          "description": "<p>O Demônio tem resistência a dano mágico e não pode ser enganado por ilusões mágicas.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -244,11 +242,11 @@
       "_key": "!actors.items!fa50qKab3hPt9gkV.ojWa0aodEpnkb9rk"
     },
     {
-      "name": "Demonic Rage",
+      "name": "Fúria Demoníaca",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to make a standard attack with a bonus to the attack roll equal the amount of Stress the Fiend has marked. On a success, the attack deals direct damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer um ataque padrão com um bônus no teste de ataque igual à quantidade de Fadiga que o Demônio tem marcada. Em caso de sucesso, o ataque causa dano direto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -274,9 +272,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -334,7 +330,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -353,21 +349,21 @@
       "_key": "!actors.items!fa50qKab3hPt9gkV.jQib1ToeFylSCIOj"
     },
     {
-      "name": "Hall of Mirrors",
+      "name": "Salão dos Espelhos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Mark 2 Stress to have the Fiend summon four illusory duplicates and activate a Duplicate Countdown (4). When the Fiend is targeted by an attack, they gain a bonus to their Difficulty equal to the countdown die's current value. The countdown ticks down when a PC fails an attack against the Fiend. When it triggers, the duplicates vanish.</p>",
+        "description": "<p>Marque 2 Fadiga para fazer o Demônio invocar quatro duplicatas ilusórias e ativar uma Contagem Regressiva de Duplicatas (4). Quando o Demônio é alvo de um ataque, ele recebe um bônus na sua Dificuldade igual ao valor atual do dado da contagem regressiva. A contagem regressiva diminui quando um PJ falha em um ataque contra o Demônio. Quando ela disparar, as duplicatas desaparecem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "0We0RCwivLWIQ3OA": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Duplicate",
+                "name": "Duplicata",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
@@ -415,7 +411,7 @@
             "_id": "WrFrqYo1ggWNCsa2",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the Fiend is targeted by an attack, they gain a bonus to their Difficulty equal to the countdown die's current value. The countdown ticks down when a PC fails an attack against the Fiend. When it triggers, the duplicates vanish.</p>",
+            "description": "<p>Quando o Demônio é alvo de um ataque, ele recebe um bônus na sua Dificuldade igual ao valor atual do dado da contagem regressiva. A contagem regressiva diminui quando um PJ falha em um ataque contra o Demônio. Quando ela disparar, as duplicatas desaparecem.</p>",
             "chatDisplay": false,
             "originItem": {
               "type": "itemCollection"
@@ -440,7 +436,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Duplicate Effect",
+            "name": "Efeito de Duplicata",
             "range": "self"
           }
         },
@@ -451,10 +447,10 @@
       "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
       "effects": [
         {
-          "name": "Duplicate",
+          "name": "Duplicata",
           "disabled": false,
           "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
-          "description": "<p>When the Fiend is targeted by an attack, they gain a bonus to their Difficulty equal to the countdown die's current value. The countdown ticks down when a PC fails an attack against the Fiend. When it triggers, the duplicates vanish.</p>",
+          "description": "<p>Quando o Demônio é alvo de um ataque, ele recebe um bônus na sua Dificuldade igual ao valor atual do dado da contagem regressiva. A contagem regressiva diminui quando um PJ falha em um ataque contra o Demônio. Quando ela disparar, as duplicatas desaparecem.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -515,11 +511,11 @@
       "_key": "!actors.items!fa50qKab3hPt9gkV.vavYse3YdfnpjxaD"
     },
     {
-      "name": "Flash Claw",
+      "name": "Garra Relâmpago",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Fiend unleash an arc of magical energy. Make an attack roll against all targets within Close range. Targets the attack succeeds against take <strong>3d20</strong> magic damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Demônio liberar um arco de energia mágica. Faça um teste de ataque contra todos os alvos dentro do alcance Próximo. Os alvos contra os quais o ataque tiver sucesso sofrem <strong>3d20</strong> de dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -545,9 +541,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -565,7 +559,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Flash Claw",
+                "name": "Garra Relâmpago",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -614,7 +608,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -633,11 +627,11 @@
       "_key": "!actors.items!fa50qKab3hPt9gkV.HgYCE5gF4IbxD2ue"
     },
     {
-      "name": "Mind Games",
+      "name": "Jogos Mentais",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When an attack targeting the Fiend from beyond Very Close range succeeds with Fear, you can <strong>mark a Stress</strong> to have the Fiend instantly switch places with a PC within Very Close range. The PC takes the damage instead.</p>",
+        "description": "<p>Quando um ataque contra o Demônio feito de além do alcance Muito Próximo tem sucesso com Medo, você pode <strong>marcar um Fadiga</strong> para fazer o Demônio trocar instantaneamente de lugar com um PJ dentro do alcance Muito Próximo. O PJ sofre o dano no lugar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -676,7 +670,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -698,7 +692,7 @@
   "_id": "fa50qKab3hPt9gkV",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Shapeshifting Fiend Revealed",
+    "name": "Demônio Metamorfo Revelado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

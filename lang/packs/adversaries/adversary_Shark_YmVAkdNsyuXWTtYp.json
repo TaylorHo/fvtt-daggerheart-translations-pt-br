@@ -1,5 +1,5 @@
 {
-  "name": "Shark",
+  "name": "Tubarão",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "lHr0FWThbG3SwYX1": {
-        "name": "Sense of Smell",
+        "name": "Olfato",
         "value": 3,
         "description": ""
       }
     },
     "tier": 2,
-    "description": "<p>A large aquatic predator, always on the move.</p>",
-    "motivesAndTactics": "Find the blood, isolate prey, target the weak",
+    "description": "<p>Um grande predador aquático, sempre em movimento.</p>",
+    "motivesAndTactics": "Encontrar o sangue, isolar a presa, mirar nos fracos",
     "attack": {
-      "name": "Toothy Maw",
+      "name": "Bocarra Dentada",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "roll": {
         "bonus": 2,
@@ -75,9 +75,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "YmVAkdNsyuXWTtYp",
   "sort": 2200000,
   "prototypeToken": {
-    "name": "Shark",
+    "name": "Tubarão",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Terrifying",
+      "name": "Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, all PCs within Far range lose a Hope and you gain a Fear.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido, todos os PJs em alcance Distante perdem 1 de Esperança e você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "NoEb6qR3ktIu9kRJ": {
@@ -283,12 +281,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "",
             "areas": [
               {
-                "name": "Terrifying",
+                "name": "Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -321,10 +319,10 @@
       "_key": "!actors.items!YmVAkdNsyuXWTtYp.w46d3D2gXUIJh2GH"
     },
     {
-      "name": "Rending Bite",
+      "name": "Mordida Dilacerante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack, the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage). If they can't mark an Armor Slot, they must mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque bem-sucedido, o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano). Se não puder marcar um Espaço de Armadura, deve marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "a0gC7uWycUB2NgKS": {
@@ -354,9 +352,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -411,7 +407,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -440,10 +436,10 @@
       "_key": "!actors.items!YmVAkdNsyuXWTtYp.zT4AOW20LPlDoncy"
     },
     {
-      "name": "Blood in the Water",
+      "name": "Sangue na Água",
       "type": "feature",
       "system": {
-        "description": "<p>When a creature within Close range of the @Lookup[@name] marks HP from another creature's attack, you can <strong>mark a Stress</strong> to immediately spotlight the @Lookup[@name], moving them into Melee range of the target and making a standard attack.</p>",
+        "description": "<p>Quando uma criatura dentro do alcance Próximo do @Lookup[@name] marca PV pelo ataque de outra criatura, você pode <strong>marcar um Fadiga</strong> para colocar imediatamente o @Lookup[@name] em destaque, movendo-o para o alcance Corpo a Corpo do alvo e fazendo um ataque padrão.</p>",
         "resource": null,
         "actions": {
           "K8MhGxVJxLaNRqm1": {
@@ -467,9 +463,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -527,7 +521,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },

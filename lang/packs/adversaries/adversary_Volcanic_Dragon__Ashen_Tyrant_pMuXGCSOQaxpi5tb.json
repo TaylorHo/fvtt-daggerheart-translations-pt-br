@@ -1,11 +1,11 @@
 {
   "folder": "7XHlANCPz18yvl5L",
-  "name": "Volcanic Dragon: Ashen Tyrant",
+  "name": "Dragão Vulcânico: Tirano de Cinzas",
   "type": "adversary",
   "_id": "pMuXGCSOQaxpi5tb",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "system": {
-    "description": "<p><em>No enemy has ever had the insolence to wound the dragon so. As the lava settles, it's ground to ash like the dragon's past foes.</em></p>",
+    "description": "<p><em>Nenhum inimigo jamais teve a insolência de ferir o dragão assim. Quando a lava se assenta, ele é reduzido a cinzas como os antigos inimigos do dragão.</em></p>",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -37,7 +37,7 @@
       }
     },
     "attack": {
-      "name": "Claws and Teeth",
+      "name": "Garras e Dentes",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "bAM5u66XszRmjaT8",
       "systemPath": "attack",
@@ -76,9 +76,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -122,12 +120,12 @@
     },
     "experiences": {
       "wOdWWjFaanbmRXYg": {
-        "name": "Hunt from Above",
+        "name": "Caçar do Alto",
         "value": 5,
         "description": ""
       }
     },
-    "motivesAndTactics": "Choke, fly, intimidate, kill or be killed",
+    "motivesAndTactics": "Sufocar, voar, intimidar, matar ou morrer",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -140,7 +138,7 @@
     "typeData": null
   },
   "prototypeToken": {
-    "name": "Volcanic Dragon: Ashen Tyrant",
+    "name": "Dragão Vulcânico: Tirano de Cinzas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,10 +231,10 @@
   },
   "items": [
     {
-      "name": "Relentless (4)",
+      "name": "Implacável (4)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to four times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até quatro vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ele.</p>",
         "resource": null,
         "actions": {
           "cvhKUhLycuEeloKH": {
@@ -267,7 +265,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -296,17 +294,17 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.saz3Vr0xgfAl10tU"
     },
     {
-      "name": "Cornered",
+      "name": "Acuado",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> instead of spending a Fear to spotlight the @Lookup[@name].</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> em vez de gastar 1 de Medo para dar o destaque a @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "nIBoqkOFWx0vpbnj": {
             "type": "effect",
             "_id": "nIBoqkOFWx0vpbnj",
             "systemPath": "actions",
-            "description": "<p><strong>Mark a Stress</strong> instead of spending a Fear to spotlight the Ashen Tyrant.</p>",
+            "description": "<p><strong>Marque 1 de Fadiga</strong> em vez de gastar 1 de Medo para dar o destaque ao Tirano de Cinzas.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -330,7 +328,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/symbols/mask-metal-silver-white.webp",
             "range": "",
             "baseAction": false,
@@ -359,10 +357,10 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.8d4bCyFvNq3NymUK"
     },
     {
-      "name": "Injured Wings",
+      "name": "Asas Feridas",
       "type": "feature",
       "system": {
-        "description": "<p>While flying, the @Lookup[@name] gains a +1 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto voa, @Lookup[@name] recebe um bônus de +1 em sua Dificuldade.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -375,7 +373,7 @@
       "img": "icons/commodities/biological/wing-green.webp",
       "effects": [
         {
-          "name": "Injured Wings",
+          "name": "Asas Feridas",
           "type": "base",
           "system": {
             "changes": [
@@ -404,7 +402,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, the Ashen Tyrant gains a +1 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto voa, o Tirano de Cinzas recebe um bônus de +1 em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -428,10 +426,10 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.jOojMjb779Kea1ZV"
     },
     {
-      "name": "Ashes to Ashes",
+      "name": "Cinzas às Cinzas",
       "type": "feature",
       "system": {
-        "description": "<p>When a PC rolls a failure while within Close range of the @Lookup[@name], they lose a Hope and you gain a Fear. If the PC can't lose a Hope, they must mark a HP.</p>",
+        "description": "<p>Quando um PJ obtém uma falha enquanto está em alcance Próximo de @Lookup[@name], ele perde 1 de Esperança e você ganha 1 de Medo. Se o PJ não puder perder Esperança, deve marcar 1 Ponto de Vida.</p>",
         "resource": null,
         "actions": {
           "q6gbeIrGMII6IeiM": {
@@ -476,12 +474,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/fire/flame-burning-skull-orange.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Ashes to Ashes",
+                "name": "Cinzas às Cinzas",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -514,10 +512,10 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.LeOYwp1GhN59NIHa"
     },
     {
-      "name": "Desperate Rampage",
+      "name": "Fúria Desesperada",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Close range. Targets the @Lookup[@name] succeeds against take <strong>2d20+2</strong> physical damage, are knocked back to Close range of where they were, and must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer um ataque contra todos os alvos em alcance Próximo. Alvos contra os quais @Lookup[@name] tiver sucesso sofrem <strong>2d20+2</strong> de dano físico, são arremessados para alcance Próximo de onde estavam e devem marcar 1 de Fadiga.</p>",
         "resource": null,
         "actions": {
           "3glUQAcsLBcCumnS": {
@@ -547,9 +545,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -605,12 +601,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/abilities/tail-swipe-green.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Desperate Rampage",
+                "name": "Fúria Desesperada",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -643,10 +639,10 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.AXhSVGL33i0j6DAw"
     },
     {
-      "name": "Ashen Cloud",
+      "name": "Nuvem de Cinzas",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to smash the ground and kick up ash within Far range. While within the ash cloud, a target has disadvantage on action rolls. The ash cloud clears the next time an adversary is spotlighted.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para golpear o chão e levantar cinzas em alcance Distante. Enquanto estiver dentro da nuvem de cinzas, um alvo tem desvantagem em jogadas de ação. A nuvem de cinzas se dissipa na próxima vez que um adversário receber o destaque.</p>",
         "resource": null,
         "actions": {
           "UrD4A68IBJgyfvvt": {
@@ -677,12 +673,12 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/air/fog-gas-smoke-brown.webp",
             "range": "",
             "areas": [
               {
-                "name": "Ashen Cloud",
+                "name": "Nuvem de Cinzas",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -715,17 +711,17 @@
       "_key": "!actors.items!pMuXGCSOQaxpi5tb.ggCol5LQ2ZpeQjly"
     },
     {
-      "name": "Apocalyptic Thrasing",
+      "name": "Debater Apocalíptico",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (1d12)</em>. <strong>Spend a Fear</strong> to activate. It ticks down when a PC rolls with Fear. When it triggers, the @Lookup[@name] thrashes about, causing environmental damage (such as an earthquake, avalanche, or collapsing walls). All targets within Far range must make a Strength Reaction Roll. Targets who fail take 2d10+10 physical damage and are Restrained by the rubble until they break free with a successful Strength Roll. Targets who succeed take half damage. If the @Lookup[@name] is defeated while this countdown is active, trigger the countdown immediately as the destruction caused by their death throes.</p>",
+        "description": "<p><em>Contagem Regressiva (1d12)</em>. <strong>Gaste 1 de Medo</strong> para ativar. Ela avança quando um PJ rola com Medo. Quando disparar, @Lookup[@name] se debate, causando dano ambiental (como terremoto, avalanche ou desabamento de paredes). Todos os alvos em alcance Distante devem fazer um Teste de Reação de Força. Alvos que falharem sofrem 2d10+10 de dano físico e ficam Imobilizados pelos escombros até se libertarem com um Teste de Força bem-sucedido. Alvos que tiverem sucesso sofrem metade do dano. Se @Lookup[@name] for derrotado enquanto esta contagem regressiva estiver ativa, dispare-a imediatamente, como a destruição causada por seus espasmos de morte.</p>",
         "resource": null,
         "actions": {
           "OznXxmwiPwzuFPQZ": {
             "type": "attack",
             "_id": "OznXxmwiPwzuFPQZ",
             "systemPath": "actions",
-            "description": "<p>When the countdown triggers, the @Lookup[@name] thrashes about, causing environmental damage (such as an earthquake, avalanche, or collapsing walls). All targets within Far range must make a Strength Reaction Roll. Targets who fail take 2d10+10 physical damage and are Restrained by the rubble until they break free with a successful Strength Roll. Targets who succeed take half damage. If the @Lookup[@name] is defeated while this countdown is active, trigger the countdown immediately as the destruction caused by their death throes.</p>",
+            "description": "<p>Quando a contagem regressiva dispara, @Lookup[@name] se debate, causando dano ambiental (como terremoto, avalanche ou desabamento de paredes). Todos os alvos em alcance Distante devem fazer um Teste de Reação de Força. Alvos que falharem sofrem 2d10+10 de dano físico e ficam Imobilizados pelos escombros até se libertarem com um Teste de Força bem-sucedido. Alvos que tiverem sucesso sofrem metade do dano. Se @Lookup[@name] for derrotado enquanto esta contagem regressiva estiver ativa, dispare-a imediatamente, como a destruição causada por seus espasmos de morte.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -748,9 +744,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -792,12 +786,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
             "range": "",
             "areas": [
               {
-                "name": "Apocalyptic Thrasing",
+                "name": "Debater Apocalíptico",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -815,7 +809,7 @@
             "type": "countdown",
             "_id": "rZ7IwBnDzw7VmBT6",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (1d12)</em>. <strong>Spend a Fear</strong> to activate. It ticks down when a PC rolls with Fear.</p>",
+            "description": "<p><em>Contagem Regressiva (1d12)</em>. <strong>Gaste 1 de Medo</strong> para ativar. Ela avança quando um PJ rola com Medo.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -839,7 +833,7 @@
             },
             "countdown": [
               {
-                "name": "Apocalyptic Thrasing",
+                "name": "Debater Apocalíptico",
                 "type": "encounter",
                 "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
                 "progress": {
@@ -853,7 +847,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
             "range": "",
             "baseAction": false,
@@ -871,7 +865,7 @@
       "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
       "effects": [
         {
-          "name": "Apocalyptic Thrasing",
+          "name": "Debater Apocalíptico",
           "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
           "transfer": false,
           "_id": "YUjdwrEZ4zn7WR9X",
@@ -880,7 +874,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Strength Roll.</p>"
+              "description": "<p>Até você se soltar com um Teste de Força bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -894,11 +888,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Restrained</em> by the rubble until you break free with a successful Strength Roll.</p>",
+          "description": "<p><em>Imobilizado</em> pelos escombros até você se libertar com um Teste de Força bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {

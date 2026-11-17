@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Darkweave Swarmlings",
+  "name": "Aranhinhas da Teia Sombria",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "horde",
-    "description": "<p>A teeming swarm of tiny spiders woven out of shadow-silk.</p>",
+    "description": "<p>Um enxame fervilhante de aranhas minúsculas tecidas de seda de sombra.</p>",
     "tier": 1,
-    "motivesAndTactics": "Burst out of holes, climb up legs, crawl into ears, scuttle under clothes",
+    "motivesAndTactics": "Irromper de buracos, subir pelas pernas, entrar nos ouvidos, correr por baixo das roupas",
     "difficulty": 9,
     "damageThresholds": {
       "major": 4,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Nibble",
+      "name": "Mordiscar",
       "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "2d5hMAmMLlfRdHqS": {
-        "name": "Climb",
+        "name": "Escalar",
         "value": 2,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "\"Get 'em Off , Get 'em Off !\"",
+      "name": "\"Tire Elas, Tire Elas!\"",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When an attack from the Swarmlings causes a target to mark HP, you can <strong>mark a Stress</strong> to make the target temporarily Covered in Spiders. While Covered in Spiders, the target must roll a <strong>[[/r d6]]</strong> when they make an action roll. On a result of 4 or higher, they must mark a Stress or you gain a Fear.</p>",
+        "description": "<p>Quando um ataque das Aranhinhas faz um alvo marcar PV, você pode <strong>marcar 1 Fadiga</strong> para deixar o alvo temporariamente Coberto de Aranhas. Enquanto Coberto de Aranhas, o alvo deve rolar um <strong>[[/r d6]]</strong> quando fizer um teste de ação. Com resultado 4 ou mais, ele deve marcar 1 Fadiga ou você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -190,7 +188,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -201,10 +199,10 @@
       "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
       "effects": [
         {
-          "name": "Covered In Spiders",
+          "name": "Coberto de Aranhas",
           "disabled": false,
           "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
-          "description": "<p>While Covered in Spiders, you must roll a <strong>d6</strong> when you make an action roll. On a result of 4 or higher, you must mark a Stress or the GM gains a Fear.</p>",
+          "description": "<p>Enquanto Coberto de Aranhas, você deve rolar um <strong>d6</strong> quando fizer um teste de ação. Com resultado 4 ou mais, você deve marcar 1 Fadiga ou o Mestre ganha um Medo.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -255,10 +253,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -274,7 +272,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [
@@ -343,7 +341,7 @@
   "_id": "ADiUlCE0woMcvnzv",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Darkweave Swarmlings",
+    "name": "Aranhinhas da Teia Sombria",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

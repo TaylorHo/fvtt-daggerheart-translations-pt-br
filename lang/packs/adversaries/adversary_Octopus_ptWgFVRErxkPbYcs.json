@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Octopus",
+  "name": "Polvo",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "skulk",
-    "description": "<p>An aquatic, soft-bodied mollusk that has eight sucker-bearing arms and a hard, beaklike jaw.</p>",
+    "description": "<p>Um molusco aquático de corpo mole, com oito braços cobertos de ventosas e uma mandíbula dura em forma de bico.</p>",
     "tier": 1,
-    "motivesAndTactics": "Crawl along the ocean floor, eat fish, squirt ink to escape",
+    "motivesAndTactics": "Rastejar pelo fundo do oceano, comer peixes, esguichar tinta para escapar",
     "difficulty": 12,
     "damageThresholds": {
       "major": 3,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Beak",
+      "name": "Bico",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,11 +106,11 @@
     },
     "experiences": {
       "UvjmblSJseofQ8KG": {
-        "name": "Dexterity",
+        "name": "Destreza",
         "value": 3
       },
       "XjUBea84i0DQpWaO": {
-        "name": "Water",
+        "name": "Água",
         "value": 3
       }
     },
@@ -141,11 +139,11 @@
   },
   "items": [
     {
-      "name": "Grapple",
+      "name": "Agarrar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Make an attack roll against a target within Close range. On a success, the target becomes <em>Restrained</em> and <em>Vulnerable</em> until they escape with a successful Strength Roll.</p>",
+        "description": "<p>Faça um teste de ataque contra um alvo em alcance Próximo. Em caso de sucesso, o alvo fica <em>Imobilizado</em> e <em>Vulnerável</em> até escapar com um Teste de Força bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,15 +213,12 @@
       "img": "icons/commodities/biological/tentacle-purple-white.webp",
       "effects": [
         {
-          "name": "Grappled",
+          "name": "Agarrado",
           "disabled": true,
           "img": "icons/commodities/biological/tentacle-purple-white.webp",
-          "description": "<p>You are <em>Restrained</em> and <em>Vulnerable</em> until you escape with a successful Strength Roll.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> e <em>Vulnerável</em> até escapar com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained",
-            "vulnerable"
-          ],
+          "statuses": ["restrained", "vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -271,11 +266,11 @@
       "_key": "!actors.items!ptWgFVRErxkPbYcs.JEsOYtkNPrEjQp9A"
     },
     {
-      "name": "Squirt Ink",
+      "name": "Esguichar Tinta",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] squirt ink. On land, the ink covers the ground within Very Close range. Each creature who moves through that area must succeed on an Agility Reaction Roll or slip and fall, becoming <em>Vulnerable</em> until they exit the area. If this feature is used while the @Lookup[@name] is underwater, it instead creates a cloud of darkness that fills an area within Very Close range and blocks line of sight.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o @Lookup[@name] esguichar tinta. Em terra, a tinta cobre o chão em alcance Muito Próximo. Cada criatura que se mover por essa área deve ter sucesso em um Teste de Reação de Agilidade ou escorregar e cair, ficando <em>Vulnerável</em> até sair da área. Se esta característica for usada enquanto o @Lookup[@name] está debaixo d'água, ela cria, em vez disso, uma nuvem de escuridão que preenche uma área em alcance Muito Próximo e bloqueia a linha de visão.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -294,7 +289,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Squirt Ink",
+                "name": "Esguichar Tinta",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -323,7 +318,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "ah5Lwv3tDEcZGjmi": {
@@ -380,7 +375,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -391,14 +386,12 @@
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "effects": [
         {
-          "name": "Slipped",
+          "name": "Escorregou",
           "disabled": false,
           "img": "icons/skills/movement/arrow-down-pink.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you exit the area of the ink.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até sair da área da tinta.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -449,7 +442,7 @@
   "_id": "ptWgFVRErxkPbYcs",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Octopus",
+    "name": "Polvo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

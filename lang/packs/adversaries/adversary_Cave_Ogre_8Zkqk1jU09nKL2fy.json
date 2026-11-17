@@ -1,5 +1,5 @@
 {
-  "name": "Cave Ogre",
+  "name": "Ogro das Cavernas",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,14 +35,14 @@
     "notes": "",
     "experiences": {
       "7GpgCWSe6hNwnOO7": {
-        "name": "Throw",
+        "name": "Arremessar",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A massive humanoid who sees all sapient life as food.</p>",
-    "motivesAndTactics": "Bite off  heads, feast, rip limbs, stomp, throw enemies",
+    "description": "<p>Um humanoide imenso que vê toda vida senciente como comida.</p>",
+    "motivesAndTactics": "Arrancar cabeças a mordidas, banquetear-se, rasgar membros, pisotear, arremessar inimigos",
     "attack": {
       "roll": {
         "bonus": 1,
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -95,7 +93,7 @@
         },
         "resources": {}
       },
-      "name": "Club",
+      "name": "Clava",
       "img": "icons/weapons/clubs/club-banded-barbed-black.webp",
       "type": "attack",
       "chatDisplay": false,
@@ -142,7 +140,7 @@
   "_id": "8Zkqk1jU09nKL2fy",
   "sort": 1500000,
   "prototypeToken": {
-    "name": "Cave Ogre",
+    "name": "Ogro das Cavernas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Ramp Up",
+      "name": "Aquecimento",
       "type": "feature",
       "_id": "ynuyMl1sMQYINfcQ",
       "img": "icons/weapons/clubs/club-spiked-glowing.webp",
       "system": {
-        "description": "<p>You must <strong>spend a Fear</strong> to spotlight the @Lookup[@name]. While spotlighted, they can make their standard attack against all targets within range.</p>",
+        "description": "<p>Você deve <strong>gastar 1 de Medo</strong> para dar destaque a @Lookup[@name]. Enquanto estiver em destaque, ele pode fazer seu ataque padrão contra todos os alvos dentro do alcance.</p>",
         "resource": null,
         "actions": {
           "UoZ6vXRXvWYjpJpZ": {
@@ -271,7 +269,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/weapons/clubs/club-spiked-glowing.webp",
             "range": "",
             "baseAction": false,
@@ -298,12 +296,12 @@
       "_key": "!actors.items!8Zkqk1jU09nKL2fy.ynuyMl1sMQYINfcQ"
     },
     {
-      "name": "Bone Breaker",
+      "name": "Quebra-Ossos",
       "type": "feature",
       "_id": "szu5YYQ6klkDbqAT",
       "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
       "system": {
-        "description": "<p>The @Lookup[@name]'s attacks deal direct damage.</p>",
+        "description": "<p>Os ataques de @Lookup[@name] causam dano direto.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -322,12 +320,12 @@
       "_key": "!actors.items!8Zkqk1jU09nKL2fy.szu5YYQ6klkDbqAT"
     },
     {
-      "name": "Hail of Boulders",
+      "name": "Chuva de Pedregulhos",
       "type": "feature",
       "_id": "zGvaBYJPOOnQVQEn",
       "img": "icons/magic/earth/projectile-stone-boulder-orange.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to pick up heavy objects and throw them at all targets in front of the @Lookup[@name] within Far range. Make an attack against these targets. Targets the @Lookup[@name] succeeds against take <strong>1d10+2</strong> physical damage. If they succeed against more than one target, you gain a Fear.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para pegar objetos pesados e arremessá-los contra todos os alvos à frente de @Lookup[@name] em alcance Distante. Faça um ataque contra esses alvos. Alvos contra os quais @Lookup[@name] tiver sucesso sofrem <strong>1d10+2</strong> de dano físico. Se tiver sucesso contra mais de um alvo, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "3p1qfHy5uHe4H2hB": {
@@ -366,9 +364,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -405,12 +401,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Throw",
+            "name": "Arremessar",
             "img": "icons/magic/earth/projectile-stone-boulder-orange.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Hail of Boulders",
+                "name": "Chuva de Pedregulhos",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "far",
@@ -481,7 +477,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/magic/unholy/orb-hands-pink.webp",
             "range": "",
             "baseAction": false,
@@ -508,12 +504,12 @@
       "_key": "!actors.items!8Zkqk1jU09nKL2fy.zGvaBYJPOOnQVQEn"
     },
     {
-      "name": "Rampaging Fury",
+      "name": "Fúria Devastadora",
       "type": "feature",
       "_id": "Qxkddj6nQc4RDExW",
       "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks 2 or more HP, they can rampage. Move the @Lookup[@name] to a point within Close range and deal <strong>2d6+3</strong> direct physical damage to all targets in their path.</p>",
+        "description": "<p>Quando @Lookup[@name] marca 2 ou mais PV, ele pode entrar em fúria destruidora. Mova @Lookup[@name] para um ponto em alcance Próximo e cause <strong>2d6+3</strong> de dano físico direto a todos os alvos em seu caminho.</p>",
         "resource": null,
         "actions": {
           "PtTu9bnCJKMySBSV": {
@@ -543,9 +539,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -561,7 +555,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
             "range": "close",
             "baseAction": false,

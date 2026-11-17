@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Ruby Dragon",
+  "name": "Dragão de Rubi",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "standard",
-    "description": "<p>A huge winged dragon that has visible flames beneath its glittering, gem-encrusted scales. Its body heat melts stone.</p>",
+    "description": "<p>Um enorme dragão alado com chamas visíveis sob suas escamas brilhantes incrustadas de gemas. O calor de seu corpo derrete pedra.</p>",
     "tier": 4,
-    "motivesAndTactics": "Crack the earth, melt, protect treasure",
+    "motivesAndTactics": "Rachar a terra, derreter, proteger tesouro",
     "difficulty": 19,
     "damageThresholds": {
       "major": 30,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tooth & Claw",
+      "name": "Dente e Garra",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "VqpEcAp8f8HPGwhs": {
-        "name": "Mountains",
+        "name": "Montanhas",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Dragon can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O Dragão pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!trcxftEx6fFKDNk0.rS6IHk80XESxFxno"
     },
     {
-      "name": "Fearsome",
+      "name": "Temível",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Dragon succeeds on an attack against a PC or a PC within Far range fails an action roll, you gain a Fear.</p>",
+        "description": "<p>Quando o Dragão tem sucesso em um ataque contra um PJ ou um PJ dentro do alcance Distante falha em um teste de ação, você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -253,11 +251,11 @@
       "_key": "!actors.items!trcxftEx6fFKDNk0.NlEFjJYQUwupXAdc"
     },
     {
-      "name": "Melting Breath",
+      "name": "Sopro Derretedor",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Dragon unleash a blast of fire on all PCs in front of it within Close range. Each target must succeed on an Agility Reaction Roll or take <strong>4d12+10</strong> magic damage and mark an Armor Slot without gaining its benefits (they can still use armor to reduce the damage).</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para fazer o Dragão liberar uma rajada de fogo sobre todos os PJs à sua frente dentro do alcance Próximo. Cada alvo deve ter sucesso em um Teste de Reação de Agilidade ou sofrer <strong>4d12+10</strong> de dano mágico e marcar um Espaço de Armadura sem ganhar seu benefício (ainda pode usar a armadura para reduzir o dano).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -283,9 +281,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -322,7 +318,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Melting Breath",
+                "name": "Sopro Derretedor",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "close",
@@ -371,7 +367,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -390,11 +386,11 @@
       "_key": "!actors.items!trcxftEx6fFKDNk0.V1Ccn0Hi2lKYYGUt"
     },
     {
-      "name": "Volcanic Fissure",
+      "name": "Fissura Vulcânica",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Dragon snap its tail against the ground, opening a lava rift that flows over the area within Close range. Each PC within that area must make an Agility Reaction Roll. Targets who succeed immediately move out of the area. Targets who fail take <strong>4d8+5</strong> magic damage. Until the Dragon is defeated, a creature who enters the area takes <strong>4d8+5</strong> magic damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Dragão bater a cauda no chão, abrindo uma fenda de lava que flui sobre a área dentro do alcance Próximo. Cada PJ nessa área deve fazer um Teste de Reação de Agilidade. Os alvos que tiverem sucesso saem imediatamente da área. Os alvos que falharem sofrem <strong>4d8+5</strong> de dano mágico. Até o Dragão ser derrotado, uma criatura que entrar na área sofre <strong>4d8+5</strong> de dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -420,9 +416,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -440,7 +434,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Volcanic Fissure",
+                "name": "Fissura Vulcânica",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -489,7 +483,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           },
           "IXSJXWOWHQoP3XWg": {
@@ -513,9 +507,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -544,7 +536,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lava Damage",
+            "name": "Dano de Lava",
             "range": ""
           }
         },
@@ -563,11 +555,11 @@
       "_key": "!actors.items!trcxftEx6fFKDNk0.yE763wnIGXDZv0vp"
     },
     {
-      "name": "Hot-Blooded",
+      "name": "Sangue Quente",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a creature makes a successful attack against the Dragon within Very Close range, the Dragon's blood erupts from the wound and burns the attacker, forcing them to mark an Armor Slot. If they can't mark an Armor Slot, they mark <strong>[[/r 1d4]]</strong> HP.</p>",
+        "description": "<p>Quando uma criatura faz um ataque bem-sucedido contra o Dragão dentro do alcance Muito Próximo, o sangue do Dragão jorra da ferida e queima o atacante, forçando-o a marcar um Espaço de Armadura. Se não puder marcar um Espaço de Armadura, ele marca <strong>[[/r 1d4]]</strong> PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -642,7 +634,7 @@
   "_id": "trcxftEx6fFKDNk0",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Ruby Dragon",
+    "name": "Dragão de Rubi",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -4,9 +4,9 @@
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "leader",
-    "description": "<p>A malevolent forest hag who has long, mossy hair and flies through the air with an oversized mortar and pestle.</p>",
+    "description": "<p>Uma bruxa maligna da floresta, de longos cabelos cobertos de musgo, que voa pelo ar com um pilão e almofariz de tamanho exagerado.</p>",
     "tier": 2,
-    "motivesAndTactics": "Collect souls, fly, vex trespassers",
+    "motivesAndTactics": "Coletar almas, voar, atormentar invasores",
     "difficulty": 16,
     "damageThresholds": {
       "major": 12,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Giant Stone Pestle",
+      "name": "Pilão de Pedra Gigante",
       "img": "icons/tools/cooking/mortar-herbs-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "0fo5z9F1r3nFDYYa": {
-        "name": "Witchcraft",
+        "name": "Bruxaria",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "To Me, My Pretties",
+      "name": "Venham a Mim, Minhas Belezinhas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Once per scene, summon <strong>[[/r 2d4]]</strong> Tier 2 Hordes, which appear at Far range. You gain a Fear for each Horde summoned in this way.</p>",
+        "description": "<p>Uma vez por cena, invoque <strong>[[/r 2d4]]</strong> Hordas de Nível 2, que aparecem em alcance Distante. Você ganha 1 de Medo para cada Horda invocada dessa forma.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -172,7 +170,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Summon",
+            "name": "Invocar",
             "range": ""
           }
         },
@@ -191,11 +189,11 @@
       "_key": "!actors.items!Xq00qigdsoB2b3gJ.UHgt0y5mAjYNFkKj"
     },
     {
-      "name": "Shadow Strangler",
+      "name": "Estrangulador de Sombras",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Far range. On a success, the shadow of the @Lookup[@name]'s hand stretches across the ground until it grasps the target's shadow and drains their essence. The target marks <strong>1d4</strong> Stress, and you gain an equal number of Fear.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um alvo em alcance Distante. Em caso de sucesso, a sombra da mão de @Lookup[@name] se estende pelo chão até agarrar a sombra do alvo e drenar sua essência. O alvo marca <strong>1d4</strong> de Fadiga e você ganha uma quantidade igual de Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -258,7 +256,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -277,11 +275,11 @@
       "_key": "!actors.items!Xq00qigdsoB2b3gJ.AhT2ysWH9VJvvoZF"
     },
     {
-      "name": "Corpse Whisperer",
+      "name": "Sussurrador de Cadáveres",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] call out to the lingering spirit of a fallen ally within Close range. Roll a <strong>d6</strong>. On an even result, the @Lookup[@name] resurrects the ally with half its HP cleared. On an odd result, the @Lookup[@name] absorbs the dregs of its life force and clears a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] chamar o espírito persistente de um aliado caído em alcance Próximo. Role um <strong>d6</strong>. Com resultado par, @Lookup[@name] ressuscita o aliado com metade de seus PV limpos. Com resultado ímpar, @Lookup[@name] absorve os resquícios de sua força vital e limpa 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -344,7 +342,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -363,11 +361,11 @@
       "_key": "!actors.items!Xq00qigdsoB2b3gJ.p4Uo22O2XtQULFI3"
     },
     {
-      "name": "Vexing Word",
+      "name": "Palavra Atormentadora",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>After a PC makes a roll, you can <strong>mark a Stress</strong> to force them to reroll it. This feature can't be used if the PC critically succeeds.</p>",
+        "description": "<p>Depois que um personagem faz uma rolagem, você pode <strong>marcar 1 Fadiga</strong> para forçá-lo a rolar novamente. Essa característica não pode ser usada se o personagem tiver um sucesso crítico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -406,7 +404,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },

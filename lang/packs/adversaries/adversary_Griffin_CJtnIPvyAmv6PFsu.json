@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Griffin",
+  "name": "Grifo",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "standard",
-    "description": "<p>A large leonine creature that has the head, talons, and wings of an eagle.</p>",
+    "description": "<p>Uma grande criatura leonina que tem a cabeça, as garras e as asas de uma águia.</p>",
     "tier": 4,
-    "motivesAndTactics": "Hunt, look for an opening, swoop",
+    "motivesAndTactics": "Caçar, procurar uma brecha, mergulhar em rasante",
     "difficulty": 18,
     "damageThresholds": {
       "major": 30,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Beak & Talons",
+      "name": "Bico e Garras",
       "img": "icons/creatures/claws/claw-scaled-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "U1AFqNx4uV4QeEC9": {
-        "name": "Riches",
+        "name": "Riquezas",
         "value": 5,
         "description": ""
       },
       "Bo751T083078YvTT": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Treasure Hoarder",
+      "name": "Acumulador de Tesouros",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC would mark any number of HP from the @Lookup[@name]'s attack, the PC can choose instead to give the @Lookup[@name] an equal number of bags of gold.</p>",
+        "description": "<p>Quando um PJ marcaria qualquer quantidade de PV por causa do ataque do @Lookup[@name], o PJ pode escolher, em vez disso, dar ao @Lookup[@name] uma quantidade igual de bolsas de ouro.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!CJtnIPvyAmv6PFsu.7IcOsM4iR6s29pNS"
     },
     {
-      "name": "Swooping Slash",
+      "name": "Ataque em Rasante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Move up to Far range and make a standard attack against a target along the way.</p>",
+        "description": "<p>Mova-se até o alcance Longe e realize um ataque padrão contra um alvo pelo caminho.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -197,9 +195,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -270,7 +266,7 @@
   "_id": "CJtnIPvyAmv6PFsu",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Griffin",
+    "name": "Grifo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

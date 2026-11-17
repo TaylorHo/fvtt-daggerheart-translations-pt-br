@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Redcap Biters",
+  "name": "Mordedores Barretes-Vermelhos",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "horde",
-    "description": "<p>A troop of fist-sized fey creatures who have needle-sharp teeth and conical red caps sealed on their heads with candle wax.</p>",
+    "description": "<p>Um bando de criaturas feéricas do tamanho de um punho, com dentes afiados como agulhas e barretes vermelhos cônicos selados na cabeça com cera de vela.</p>",
     "tier": 1,
-    "motivesAndTactics": "Bring 'em down, celebrate tiny victories, giggle and chitter, scamper between the walls",
+    "motivesAndTactics": "Derrubá-los, celebrar pequenas vitórias, rir e chiar, correr entre as paredes",
     "difficulty": 10,
     "damageThresholds": {
       "major": 6,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Gnash",
+      "name": "Mordida Rangente",
       "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "4InpHfJbXuTXiQer": {
-        "name": "Nooks and Crannies",
+        "name": "Cantos e Frestas",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Ankle Weights",
+      "name": "Pesos nos Tornozelos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC must mark a Stress to move out of the Biters' Melee range.</p>",
+        "description": "<p>Um PJ deve marcar um Fadiga para sair do alcance Corpo a Corpo dos Mordedores.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,10 +165,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -186,7 +184,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "showIcon": 2,
           "system": {
@@ -255,7 +253,7 @@
   "_id": "NWhnMXGWzAVUyelj",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Redcap Biters",
+    "name": "Mordedores Barretes-Vermelhos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

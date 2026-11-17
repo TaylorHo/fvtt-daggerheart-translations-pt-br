@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Berserker Alpha",
+  "name": "Berserker Alfa",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "leader",
-    "description": "<p>A veteran commander who quaff s magic elixirs to change into a beast and lead their packmates on a hunt.</p>",
+    "description": "<p>Um comandante veterano que bebe elixires mágicos para se transformar em uma fera e liderar seus companheiros de matilha em uma caçada.</p>",
     "tier": 2,
-    "motivesAndTactics": "Embrace the change, howl at the moon, lead the pack, run down enemies",
+    "motivesAndTactics": "Abraçar a transformação, uivar para a lua, liderar a matilha, perseguir inimigos",
     "difficulty": 14,
     "damageThresholds": {
       "major": 13,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tooth & Claw",
+      "name": "Dente e Garra",
       "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "Ea0uXzxMM3B5F8zr": {
-        "name": "Hunt",
+        "name": "Caçada",
         "value": 3,
         "description": ""
       },
       "sVDhRXpCh27NSnhc": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Pack Fury",
+      "name": "Fúria da Matilha",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Alpha gains a +1 bonus to their attack rolls for each ally within Very Close range of their attack's target.</p>",
+        "description": "<p>O Alfa ganha um bônus de +1 em seus testes de ataque para cada aliado em alcance Muito Próximo do alvo de seu ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!12TRnUh7RzLIn30r.SEvAYlwvFdLMx0yZ"
     },
     {
-      "name": "Bark at the Moon",
+      "name": "Latir para a Lua",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Once per scene, <strong>spend a Fear</strong> to have each ally within Close range of the Alpha clear a HP and a Stress.</p>",
+        "description": "<p>Uma vez por cena, <strong>gaste 1 de Medo</strong> para fazer cada aliado em alcance Próximo do Alfa limpar 1 PV e 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -190,7 +188,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Bark at the Moon",
+                "name": "Latir para a Lua",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -266,7 +264,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -285,11 +283,11 @@
       "_key": "!actors.items!12TRnUh7RzLIn30r.ky9NeQ55xa1TdP5j"
     },
     {
-      "name": "Berserker Rage",
+      "name": "Fúria Berserker",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>The first time in a scene the Alpha marks their last Stress, they gain a +6 bonus to damage rolls.</p>",
+        "description": "<p>Na primeira vez em uma cena que o Alfa marcar sua última Fadiga, ele ganha um bônus de +6 nas rolagens de dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -324,7 +322,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Enter Rage",
+            "name": "Entrar em Fúria",
             "range": "self"
           }
         },
@@ -335,10 +333,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-human.webp",
       "effects": [
         {
-          "name": "Raging",
+          "name": "Enfurecido",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-human.webp",
-          "description": "<p>Gain a +6 bonus to damage rolls.</p>",
+          "description": "<p>Receba um bônus de +6 nas rolagens de dano.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -399,7 +397,7 @@
   "_id": "12TRnUh7RzLIn30r",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Berserker Alpha",
+    "name": "Berserker Alfa",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

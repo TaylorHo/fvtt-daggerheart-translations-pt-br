@@ -1,5 +1,5 @@
 {
-  "name": "Construct",
+  "name": "Constructo",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Destroy environment, serve creator, smash target, trample groups",
+    "motivesAndTactics": "Destruir o ambiente, servir ao criador, esmagar o alvo, pisotear grupos",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,7 +36,7 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A roughly humanoid being of stone and steel, assembled and animated by magic.</p>",
+    "description": "<p>Um ser vagamente humanoide de pedra e aço, montado e animado por magia.</p>",
     "attack": {
       "roll": {
         "bonus": 4,
@@ -88,7 +88,7 @@
         },
         "resources": {}
       },
-      "name": "Fist Slam",
+      "name": "Soco Esmagador",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "type": "attack",
       "range": "melee",
@@ -136,7 +136,7 @@
   "_id": "uOP5oT9QzXPlnf3p",
   "sort": 4900000,
   "prototypeToken": {
-    "name": "Construct",
+    "name": "Constructo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +229,12 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "_id": "y3oUmDLGkcSjOO5Q",
       "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "resource": null,
         "actions": {
           "bay0pyPsCyDEZKuk": {
@@ -265,7 +265,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -292,12 +292,12 @@
       "_key": "!actors.items!uOP5oT9QzXPlnf3p.y3oUmDLGkcSjOO5Q"
     },
     {
-      "name": "Weak Structure",
+      "name": "Estrutura Frágil",
       "type": "feature",
       "_id": "p4HLIkiM3HsglRoA",
       "img": "icons/commodities/metal/barstock-broken-steel.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks HP from physical damage, they must mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca PV por dano físico, ele deve marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -316,12 +316,12 @@
       "_key": "!actors.items!uOP5oT9QzXPlnf3p.p4HLIkiM3HsglRoA"
     },
     {
-      "name": "Trample",
+      "name": "Pisoteio",
       "type": "feature",
       "_id": "93m085bEaKFzvEWT",
       "img": "icons/skills/movement/arrow-upward-blue.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets in the @Lookup[@name]'s path when they move. Targets the @Lookup[@name] succeeds against take <strong>1d8</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra todos os alvos no caminho do @Lookup[@name] quando ele se move. Alvos contra os quais o @Lookup[@name] for bem-sucedido sofrem <strong>1d8</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "OswphW4Z1B5oa4ts": {
@@ -398,7 +398,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/movement/arrow-upward-blue.webp",
             "range": "",
             "baseAction": false,
@@ -425,12 +425,12 @@
       "_key": "!actors.items!uOP5oT9QzXPlnf3p.93m085bEaKFzvEWT"
     },
     {
-      "name": "Overload",
+      "name": "Sobrecarga",
       "type": "feature",
       "_id": "EF6YIDjQ0liFubGA",
       "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
       "system": {
-        "description": "<p>Before rolling damage for the @Lookup[@name]'s attack, you can <strong>mark a Stress</strong> to gain a +10 bonus to the damage roll. The @Lookup[@name] can then take the spotlight again.</p>",
+        "description": "<p>Antes de rolar o dano do ataque do @Lookup[@name], você pode <strong>marcar 1 Fadiga</strong> para ganhar um bônus de +10 na rolagem de dano. O @Lookup[@name] pode então receber o foco novamente.</p>",
         "resource": null,
         "actions": {
           "xYACTiZzApmCXXmf": {
@@ -461,7 +461,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
             "range": "self",
             "baseAction": false,
@@ -480,7 +480,7 @@
       },
       "effects": [
         {
-          "name": "Overload",
+          "name": "Sobrecarga",
           "type": "base",
           "_id": "xkDIZk9u2ipDHvOL",
           "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
@@ -514,7 +514,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Gain a +10 bonus to the damage roll</p>",
+          "description": "<p>Ganhe um bônus de +10 na rolagem de dano</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -538,12 +538,12 @@
       "_key": "!actors.items!uOP5oT9QzXPlnf3p.EF6YIDjQ0liFubGA"
     },
     {
-      "name": "Death Quake",
+      "name": "Terremoto Mortal",
       "type": "feature",
       "_id": "UlGLuV1L33tDWkli",
       "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] marks their last HP, the magic powering them ruptures in an explosion of force. Make an attack with advantage against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take <strong>1d12+2</strong> magic damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca seu último PV, a magia que o move se rompe em uma explosão de força. Faça um ataque com vantagem contra todos os alvos em alcance Muito Próximo. Alvos contra os quais o @Lookup[@name] for bem-sucedido sofrem <strong>1d12+2</strong> de dano mágico.</p>",
         "resource": null,
         "actions": {
           "fkIWRdcGPgHgm6VC": {
@@ -612,12 +612,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Death Quake",
+                "name": "Terremoto Mortal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",

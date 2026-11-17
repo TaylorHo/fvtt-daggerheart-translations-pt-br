@@ -1,5 +1,5 @@
 {
-  "name": "Greater Water Elemental",
+  "name": "Elemental da Água Superior",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Deluge, disperse, drown",
+    "motivesAndTactics": "Dilúvio, dispersar, afogar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A huge living wave that crashes down upon enemies.</p>",
+    "description": "<p>Uma onda viva e enorme que se choca sobre os inimigos.</p>",
     "attack": {
-      "name": "Crashing Wave",
+      "name": "Onda Avassaladora",
       "img": "icons/magic/water/wave-water-blue.webp",
       "roll": {
         "bonus": 3,
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "xIICT6tEdnA7dKDV",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Greater Water Elemental",
+    "name": "Elemental da Água Superior",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Water Jet",
+      "name": "Jato de Água",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Very Close range. On a success, deal <strong>2d4+7</strong> physical damage and the target's next action has disadvantage. On a failure, the target must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um alvo dentro do alcance Muito Perto. Em caso de sucesso, cause <strong>2d4+7</strong> de dano físico, e a próxima ação do alvo tem desvantagem. Em caso de falha, o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "Gk5tcqshtwP4JsKS": {
@@ -271,9 +269,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -314,7 +310,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/water/projectile-icecicle-glowing.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -335,7 +331,7 @@
       "img": "icons/magic/water/projectile-icecicle-glowing.webp",
       "effects": [
         {
-          "name": "Water Jet",
+          "name": "Jato de Água",
           "img": "icons/magic/water/projectile-icecicle-glowing.webp",
           "transfer": false,
           "_id": "WYqjt1tVqPEdVV5l",
@@ -365,7 +361,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Your next action has disadvantage. On a failure, you must mark a Stress.</p>",
+          "description": "<p>Sua próxima ação tem desvantagem. Em caso de falha, você deve marcar 1 Fadiga.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -388,10 +384,10 @@
       "_key": "!actors.items!xIICT6tEdnA7dKDV.B8ZrtRCZrwwwWJOE"
     },
     {
-      "name": "Drowning Embrace",
+      "name": "Abraço Afogador",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against become <em>Restrained</em> and <em>Vulnerable</em> as they begin drowning. A target can break free, ending both conditions, with a successful Strength or Instinct Roll.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para realizar um ataque contra todos os alvos dentro do alcance Muito Perto. Os alvos contra os quais o @Lookup[@name] for bem-sucedido ficam <em>Restritos</em> e <em>Vulneráveis</em> enquanto começam a se afogar. Um alvo pode se libertar, encerrando ambas as condições, com um Teste de Força ou Instinto bem-sucedido.</p>",
         "resource": null,
         "actions": {
           "ooYbiLrYjoWXIfe9": {
@@ -451,12 +447,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Drowning Embrace",
+                "name": "Abraço Afogador",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -481,7 +477,7 @@
       "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
       "effects": [
         {
-          "name": "Drowning Embrace",
+          "name": "Abraço Afogador",
           "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
           "transfer": true,
           "_id": "X8NF2OB23mSpDvlx",
@@ -490,7 +486,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>You can break free with a successful Strength or Instinct Roll.</p>"
+              "description": "<p>Você pode se libertar com um Teste de Força ou Instinto bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -504,12 +500,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are<em> Restrained</em> and <em>Vulnerable</em> as you are drowning. You can break free, ending both conditions, with a successful Strength or Instinct Roll.</p>",
+          "description": "<p>Você está <em>Restrito</em> e <em>Vulnerável</em> enquanto se afoga. Você pode se libertar, encerrando ambas as condições, com um Teste de Força ou Instinto bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable",
-            "restrained"
-          ],
+          "statuses": ["vulnerable", "restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -537,10 +530,10 @@
       "_key": "!actors.items!xIICT6tEdnA7dKDV.bcwFQeuU6ZfIGjau"
     },
     {
-      "name": "High Tide",
+      "name": "Maré Alta",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>mark a Stress</strong> to knock the target back to Close range.</p>",
+        "description": "<p>Quando o @Lookup[@name] realiza um ataque padrão bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para empurrar o alvo de volta ao alcance Perto.</p>",
         "resource": null,
         "actions": {
           "MXSyEGbaHeFgyOsB": {
@@ -571,7 +564,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/water/tendrils-ice-thorns.webp",
             "range": "",
             "baseAction": false,

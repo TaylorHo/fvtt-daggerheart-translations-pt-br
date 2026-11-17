@@ -1,5 +1,5 @@
 {
-  "name": "Arch-Necromancer",
+  "name": "Arquinecromante",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -19,7 +19,7 @@
         "max": 8
       }
     },
-    "motivesAndTactics": "Corrupt, decay, flee to fight another day, resurrect",
+    "motivesAndTactics": "Corromper, decair, fugir para lutar outro dia, ressuscitar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "aVeeI6FLlefju6FP": {
-        "name": "Forbidden Knowledge",
+        "name": "Conhecimento Proibido",
         "description": "",
         "value": 3
       },
       "XffQuZmRCeu0asqS": {
-        "name": "Wisdom of Centuries",
+        "name": "Sabedoria dos Séculos",
         "description": "",
         "value": 3
       }
     },
     "tier": 4,
-    "description": "<p>A decaying mage adorned in dark, tattered robes.</p>",
+    "description": "<p>Um mago em decomposição adornado com vestes escuras e esfarrapadas.</p>",
     "attack": {
-      "name": "Necrotic Blast",
+      "name": "Explosão Necrótica",
       "roll": {
         "bonus": 6,
         "type": "attack",
@@ -79,9 +79,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "WPEOIGfclNJxWb87",
   "sort": 1200000,
   "prototypeToken": {
-    "name": "Arch-Necromancer",
+    "name": "Arquinecromante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Dance Of Death",
+      "name": "Dança da Morte",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight <strong>1d4</strong> allies. Attacks they make while spotlighted in this way deal half damage, or full damage if you spend a Fear.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para dar destaque a <strong>1d4</strong> aliados. Os ataques que eles fizerem enquanto estiverem em destaque dessa forma causam metade do dano, ou dano total se você gastar 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "wi2DDvBhlg6sxQoc": {
@@ -298,7 +296,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spotlight Allies",
+            "name": "Dar Destaque aos Aliados",
             "img": "icons/magic/death/skull-weapon-staff-glow-pink.webp",
             "range": "",
             "baseAction": false,
@@ -327,10 +325,10 @@
       "_key": "!actors.items!WPEOIGfclNJxWb87.jNmMyq5QI2HNgffy"
     },
     {
-      "name": "Beam Of Decay",
+      "name": "Raio de Decomposição",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark 2 Stress</strong> to cause all targets within Far range to make a Strength Reaction Roll. Targets who fail take <strong>2d20+12</strong> magic damage and you gain a Fear. Targets who succeed take half damage. A target who marks 2 or more HP must also <strong>mark 2 Stress</strong> and becomes <em>Vulnerable</em> until they roll with Hope.</p>",
+        "description": "<p><strong>Marque 2 Fadiga</strong> para fazer todos os alvos em alcance Distante fazerem um Teste de Reação de Força. Alvos que falharem sofrem <strong>2d20+12</strong> de dano mágico e você ganha 1 de Medo. Alvos que tiverem sucesso sofrem metade do dano. Um alvo que marcar 2 ou mais PV também deve <strong>marcar 2 Fadiga</strong> e fica <em>Vulnerável</em> até rolar com Esperança.</p>",
         "resource": null,
         "actions": {
           "vaXLESD4sRkQ3Ahn": {
@@ -369,9 +367,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -413,12 +409,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/unholy/projectile-missile-green.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Beam Of Decay",
+                "name": "Raio de Decomposição",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -489,7 +485,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/magic/unholy/orb-hands-pink.webp",
             "range": "",
             "baseAction": false,
@@ -510,7 +506,7 @@
       "img": "icons/magic/unholy/projectile-missile-green.webp",
       "effects": [
         {
-          "name": "Beam Of Decay",
+          "name": "Raio de Decomposição",
           "img": "icons/magic/unholy/projectile-missile-green.webp",
           "transfer": false,
           "_id": "KGdf2eqcXkdigg0u",
@@ -519,7 +515,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you roll with Hope.</p>"
+              "description": "<p>Até você rolar com Esperança.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -533,11 +529,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><em>Vulnerable</em> until you roll with Hope.</p>",
+          "description": "<p><em>Vulnerável</em> até você rolar com Esperança.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -565,10 +559,10 @@
       "_key": "!actors.items!WPEOIGfclNJxWb87.4EECsXzHFG0RoIg0"
     },
     {
-      "name": "Open the Gates of Death",
+      "name": "Abrir os Portões da Morte",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to summon a @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Zombie Legion}, which appears at Close range and immediately takes the spotlight.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Legião de Zumbis}, que aparece em alcance Próximo e imediatamente recebe o destaque.</p>",
         "resource": null,
         "actions": {
           "qSuWxC8xQOhnbBx9": {
@@ -595,7 +589,7 @@
                 "count": "1"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []
@@ -619,10 +613,10 @@
       "_key": "!actors.items!WPEOIGfclNJxWb87.XxXOrFovbCz9zFxR"
     },
     {
-      "name": "Not Today, My Dears",
+      "name": "Hoje Não, Queridos",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] has marked 7 or more of their HP, you can <strong>spend a Fear</strong> to have them teleport away to a safe location to recover. A PC who succeeds on an Instinct Roll can trace the teleportation magic to their destination.</p>",
+        "description": "<p>Quando @Lookup[@name] tiver marcado 7 ou mais de seus PV, você pode <strong>gastar 1 de Medo</strong> para fazê-lo se teletransportar para um local seguro para se recuperar. Um PJ que tiver sucesso em um Teste de Instinto pode rastrear a magia de teletransporte até seu destino.</p>",
         "resource": null,
         "actions": {
           "DX8WPeLVrRBB2CdM": {
@@ -677,7 +671,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
             "range": "",
             "baseAction": false,
@@ -706,17 +700,17 @@
       "_key": "!actors.items!WPEOIGfclNJxWb87.k4MSykLRoW3qp7Lk"
     },
     {
-      "name": "Your Life Is Mine",
+      "name": "Sua Vida É Minha",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (Loop 2d6)</em>. When the @Lookup[@name] has marked 6 or more of their HP, activate the countdown. When it triggers, deal <strong>2d10+6</strong> direct magic damage to a target within Close range. The @Lookup[@name] then <strong>clears a number of Stress or HP</strong> equal to the number of HP marked by the target from this attack.</p>",
+        "description": "<p><em>Contagem Regressiva (Ciclo 2d6)</em>. Quando @Lookup[@name] tiver marcado 6 ou mais de seus PV, ative a contagem regressiva. Quando ela disparar, cause <strong>2d10+6</strong> de dano mágico direto a um alvo em alcance Próximo. Então @Lookup[@name] <strong>limpa uma quantidade de Fadiga ou PV</strong> igual ao número de PV marcados pelo alvo por esse ataque.</p>",
         "resource": null,
         "actions": {
           "YzepYov9vEMcBPU1": {
             "type": "damage",
             "_id": "YzepYov9vEMcBPU1",
             "systemPath": "actions",
-            "description": "<p>Deal <strong>2d10+6</strong> direct magic damage to a target within Close range. The @Lookup[@name] then <strong>clears a number of Stress or HP</strong> equal to the number of HP marked by the target from this attack.</p>",
+            "description": "<p>Cause <strong>2d10+6</strong> de dano mágico direto a um alvo em alcance Próximo. Então @Lookup[@name] <strong>limpa uma quantidade de Fadiga ou PV</strong> igual ao número de PV marcados pelo alvo por esse ataque.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -739,9 +733,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -757,7 +749,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/unholy/hand-claw-fire-green.webp",
             "range": "close",
             "baseAction": false,
@@ -771,7 +763,7 @@
             "type": "countdown",
             "_id": "LXhwkNCDFeUric8D",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (Loop 2d6)</em>. When the @Lookup[@name] has marked 6 or more of their HP, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (Ciclo 2d6)</em>. Quando @Lookup[@name] tiver marcado 6 ou mais de seus PV, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -786,7 +778,7 @@
             },
             "countdown": [
               {
-                "name": "Your Life Is Mine",
+                "name": "Sua Vida É Minha",
                 "type": "encounter",
                 "img": "icons/magic/unholy/hand-claw-fire-green.webp",
                 "progress": {
@@ -800,7 +792,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/unholy/hand-claw-fire-green.webp",
             "range": "",
             "baseAction": false,

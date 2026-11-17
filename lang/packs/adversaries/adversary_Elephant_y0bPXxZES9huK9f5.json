@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Elephant",
+  "name": "Elefante",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A huge pachyderm that has large ears and a prehensile trunk.</p>",
+    "description": "<p>Um paquiderme enorme com orelhas grandes e uma tromba preênsil.</p>",
     "tier": 2,
-    "motivesAndTactics": "Eat vegetation, protect the herd, socialize",
+    "motivesAndTactics": "Comer vegetação, proteger a manada, socializar",
     "difficulty": 15,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Feet & Tusks",
+      "name": "Patas e Presas",
       "img": "icons/commodities/biological/foot-black-grey.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "7NwvsTANFupQ7vOO": {
-        "name": "Huge",
+        "name": "Enorme",
         "value": 2,
         "description": ""
       },
       "Tay4hf68HsWoR2Kz": {
-        "name": "Never Forgets",
+        "name": "Nunca Esquece",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Trample",
+      "name": "Pisoteio",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the @Lookup[@name] charge up to Far range in a straight line. Each target in its path must succeed on an Agility Reaction Roll or take <strong>2d10+3</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o @Lookup[@name] avançar até alcance Distante em linha reta. Cada alvo em seu caminho deve ter sucesso em um Teste de Reação de Agilidade ou sofre <strong>2d10+3</strong> de dano físico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -173,9 +171,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -193,7 +189,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Trample",
+                "name": "Pisoteio",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -242,7 +238,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -261,11 +257,11 @@
       "_key": "!actors.items!y0bPXxZES9huK9f5.1VtSVY2AP3yzn9YA"
     },
     {
-      "name": "Toss",
+      "name": "Arremesso",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>spend a Fear</strong> to have it toss the target to another location within Close range and deal an extra <strong>1d12</strong> damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>gastar 1 de Medo</strong> para fazê-lo arremessar o alvo a outro local em alcance Próximo e causar <strong>1d12</strong> de dano extra.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -291,9 +287,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -331,7 +325,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -353,7 +347,7 @@
   "_id": "y0bPXxZES9huK9f5",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Elephant",
+    "name": "Elefante",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

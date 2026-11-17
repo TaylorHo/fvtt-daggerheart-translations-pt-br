@@ -1,5 +1,5 @@
 {
-  "name": "Red Ooze",
+  "name": "Gosma Vermelha",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Camouflage, consume and multiply, ignite, start fires",
+    "motivesAndTactics": "Camuflar-se, consumir e multiplicar-se, incendiar, iniciar fogo",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "0QeViWJm5MdiJ9GL": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A moving mound of translucent flaming red slime.</p>",
+    "description": "<p>Um monte móvel de lodo vermelho translúcido em chamas.</p>",
     "attack": {
-      "name": "Ooze Appendage",
+      "name": "Apêndice de Gosma",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "9rVlbJVrDNn1x7PS",
   "sort": 1700000,
   "prototypeToken": {
-    "name": "Red Ooze",
+    "name": "Gosma Vermelha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Creeping Fire",
+      "name": "Fogo Rastejante",
       "type": "feature",
       "_id": "QGQTLWXIMMLUvm7c",
       "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] can only move within Very Close range as their normal movement. They light any flammable object they touch on fire.</p>",
+        "description": "<p>O @Lookup[@name] só pode se mover dentro do alcance Muito Próximo como movimento normal. Ele incendeia qualquer objeto inflamável que tocar.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,12 +257,12 @@
       "_key": "!actors.items!9rVlbJVrDNn1x7PS.QGQTLWXIMMLUvm7c"
     },
     {
-      "name": "Ignite",
+      "name": "Incendiar",
       "type": "feature",
       "_id": "JU9uVwZSM0ItnZRq",
       "img": "icons/magic/fire/blast-jet-stream-splash.webp",
       "system": {
-        "description": "<p>Make an attack against a target within Very Close range. On a success, the target takes <strong>1d8</strong> magic damage and is Ignited until they're extinguished with a successful Finesse Roll (14). While Ignited, the target takes <strong>1d4</strong> magic damage when they make an action roll.</p>",
+        "description": "<p>Faça um ataque contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, o alvo sofre <strong>1d8</strong> de dano mágico e fica Em Chamas até ser apagado com um Teste de Acuidade (14) bem-sucedido. Enquanto Em Chamas, o alvo sofre <strong>1d4</strong> de dano mágico quando faz um teste de ação.</p>",
         "resource": null,
         "actions": {
           "b4g8XUIKLhxDlUPy": {
@@ -294,9 +292,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -337,7 +333,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/fire/blast-jet-stream-splash.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -351,7 +347,7 @@
             "type": "damage",
             "_id": "6xYE9Zi8ce6bYjV8",
             "systemPath": "actions",
-            "description": "<p>While Ignited, the target takes <strong>1d4</strong> magic damage when they make an action roll.</p>",
+            "description": "<p>Enquanto Em Chamas, o alvo sofre <strong>1d4</strong> de dano mágico quando faz um teste de ação.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -374,9 +370,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -392,7 +386,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Ignited Damage",
+            "name": "Dano de Chamas",
             "img": "icons/magic/fire/blast-jet-stream-splash.webp",
             "range": "",
             "baseAction": false,
@@ -411,7 +405,7 @@
       },
       "effects": [
         {
-          "name": "Ignited",
+          "name": "Em Chamas",
           "img": "icons/magic/fire/blast-jet-stream-splash.webp",
           "transfer": false,
           "_id": "9UBLk9M87VIUziAQ",
@@ -420,7 +414,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until they're extinguished with a successful Finesse Roll (14)</p>"
+              "description": "<p>Até serem apagados com um Teste de Acuidade (14) bem-sucedido</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -434,7 +428,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Ignited</em> until you are extinguished with a successful Finesse Roll (14). While <em>Ignited</em>, you take <strong>1d4</strong> magic damage whenever you make an action roll.</p><p>[[/dr trait=finesse difficulty=14]]</p>",
+          "description": "<p>Você está <em>Em Chamas</em> até ser apagado com um Teste de Acuidade (14) bem-sucedido. Enquanto estiver <em>Em Chamas</em>, você sofre <strong>1d4</strong> de dano mágico sempre que faz um teste de ação.</p><p>[[/dr trait=finesse difficulty=14]]</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -464,12 +458,12 @@
       "_key": "!actors.items!9rVlbJVrDNn1x7PS.JU9uVwZSM0ItnZRq"
     },
     {
-      "name": "Split",
+      "name": "Dividir",
       "type": "feature",
       "_id": "M9gAcPrgKfSg9Tjb",
       "img": "icons/creatures/slimes/slime-movement-splashing-red.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] has 3 or more HP marked, you can <strong>spend a Fear</strong> to split them into two @UUID[Compendium.daggerheart.adversaries.Actor.1fkLQXVtmILqfJ44]{Tiny Red Oozes} (with no marked HP or Stress). Immediately spotlight both of them.</p>",
+        "description": "<p>Quando o @Lookup[@name] tem 3 ou mais PV marcados, você pode <strong>gastar um Medo</strong> para dividi-lo em duas @UUID[Compendium.daggerheart.adversaries.Actor.1fkLQXVtmILqfJ44]{Gosmas Vermelhas Minúsculas} (sem PV ou Fadiga marcados). Coloque ambas imediatamente em destaque.</p>",
         "resource": null,
         "actions": {
           "BMEr77hDxaQyYBna": {
@@ -505,7 +499,7 @@
                 "count": "2"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "triggers": [],
             "areas": []

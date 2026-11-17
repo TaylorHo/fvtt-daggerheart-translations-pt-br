@@ -1,5 +1,5 @@
 {
-  "name": "Jagged Knife Hexer",
+  "name": "Bruxo da Faca Serrilhada",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Command, hex, profit",
+    "motivesAndTactics": "Comandar, rogar maldições, lucrar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,14 +36,14 @@
     "notes": "",
     "experiences": {
       "B5VVVALfK4P1nbWo": {
-        "name": "Magical Knowledge",
+        "name": "Conhecimento Mágico",
         "value": 2
       }
     },
     "tier": 1,
-    "description": "<p>A staff-wielding bandit in a cloak adorned with magical paraphernalia, using curses to vex their foes.</p>",
+    "description": "<p>Um bandido armado com um cajado, em uma capa adornada com parafernália mágica, que usa maldições para atormentar seus inimigos.</p>",
     "attack": {
-      "name": "Staff",
+      "name": "Cajado",
       "range": "far",
       "roll": {
         "bonus": 2,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -141,7 +139,7 @@
   "_id": "MbBPIOxaxXYNApXz",
   "sort": 3000000,
   "prototypeToken": {
-    "name": "Jagged Knife Hexer",
+    "name": "Bruxo da Faca Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -234,12 +232,12 @@
   },
   "items": [
     {
-      "name": "Curse",
+      "name": "Maldição",
       "type": "feature",
       "_id": "Bl8L0RCGOgVUzuXo",
       "img": "icons/magic/unholy/hand-marked-pink.webp",
       "system": {
-        "description": "<p>Choose a target within Far range and temporarily Curse them. While the target is Cursed, you can <strong>mark a Stress</strong> when that target rolls with Hope to make the roll be with Fear instead.</p>",
+        "description": "<p>Escolha um alvo em alcance Distante e o Amaldiçoe temporariamente. Enquanto o alvo estiver Amaldiçoado, você pode <strong>marcar 1 Fadiga</strong> quando esse alvo rolar com Esperança para fazer a rolagem ser com Medo.</p>",
         "resource": null,
         "actions": {
           "yzjCJyfGzZrEd0G3": {
@@ -266,7 +264,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Use",
+            "name": "Usar",
             "img": "icons/magic/unholy/hand-marked-pink.webp",
             "range": "far",
             "baseAction": false,
@@ -285,7 +283,7 @@
       },
       "effects": [
         {
-          "name": "Curse",
+          "name": "Maldição",
           "img": "icons/magic/unholy/hand-marked-pink.webp",
           "transfer": false,
           "_id": "ihy3kvEGSOEKdNfT",
@@ -308,7 +306,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Whenever you roll with Hope, the hexer can <strong>mark a stress</strong> to make the roll be with Fear instead.</p>",
+          "description": "<p>Sempre que você rolar com Esperança, o bruxo pode <strong>marcar 1 Fadiga</strong> para fazer a rolagem ser com Medo.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -338,12 +336,12 @@
       "_key": "!actors.items!MbBPIOxaxXYNApXz.Bl8L0RCGOgVUzuXo"
     },
     {
-      "name": "Chaotic Flux",
+      "name": "Fluxo Caótico",
       "type": "feature",
       "_id": "d8uVdKpTm9yw6TZS",
       "img": "icons/magic/unholy/projectile-bolts-salvo-pink.webp",
       "system": {
-        "description": "<p>Make an attack against up to three targets within Very Close range. <strong>Mark a Stress</strong> to deal <strong>2d6+3</strong> magic damage to targets the @Lookup[@name] succeeded against.</p>",
+        "description": "<p>Faça um ataque contra até três alvos em alcance Muito Próximo. <strong>Marque 1 Fadiga</strong> para causar <strong>2d6+3</strong> de dano mágico aos alvos contra os quais @Lookup[@name] teve sucesso.</p>",
         "resource": null,
         "actions": {
           "HmvmqoMli6oC2y2a": {
@@ -382,9 +380,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -421,7 +417,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/unholy/projectile-bolts-salvo-pink.webp",
             "range": "veryClose",
             "baseAction": false,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Landshark",
+  "name": "Tubarão Terrestre",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A quadrupedal shark that swims through the ground.</p>",
+    "description": "<p>Um tubarão quadrúpede que nada através do solo.</p>",
     "tier": 2,
-    "motivesAndTactics": "Burrow, burst out of the ground, circle prey",
+    "motivesAndTactics": "Escavar, irromper do solo, circundar a presa",
     "difficulty": 14,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Toothy Maw",
+      "name": "Bocarra Dentada",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "blkibGCF5b7CdVLN": {
-        "name": "Subterranean",
+        "name": "Subterrâneo",
         "value": 3,
         "description": ""
       },
       "QqRfSwjGmSu6ghWe": {
-        "name": "Bloodthirsty",
+        "name": "Sanguinário",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Burrowing",
+      "name": "Escavação",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can move through the ground as easily as over it. When the @Lookup[@name] moves, it can choose to burrow or surface. While underground, the @Lookup[@name] has resistance to all damage but can't attack.</p>",
+        "description": "<p>@Lookup[@name] pode se mover pelo solo tão facilmente quanto sobre ele. Quando @Lookup[@name] se move, pode escolher escavar ou emergir. Enquanto estiver no subsolo, @Lookup[@name] tem resistência a todo dano, mas não pode atacar.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
       "effects": [
         {
-          "name": "Burrowed",
+          "name": "Enterrado",
           "type": "base",
           "system": {
             "changes": [
@@ -204,7 +202,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While underground, the Landshark has resistance to all damage but can't attack.</p>",
+          "description": "<p>Enquanto estiver no subsolo, o Tubarão Terrestre tem resistência a todo dano, mas não pode atacar.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -227,11 +225,11 @@
       "_key": "!actors.items!A9EuHHWa6UmN7khR.llcjO2P9jqrhl5vr"
     },
     {
-      "name": "Thick-Skinned",
+      "name": "Pele Grossa",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] would be forced to mark any number of HP, you can mark an equal number of Stress instead.</p>",
+        "description": "<p>Quando @Lookup[@name] seria forçado a marcar qualquer quantidade de PV, você pode marcar a mesma quantidade de Fadiga em vez disso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -270,7 +268,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -289,11 +287,11 @@
       "_key": "!actors.items!A9EuHHWa6UmN7khR.JQcVefx6fpSoa9Rd"
     },
     {
-      "name": "Rending Chomp",
+      "name": "Mordida Dilacerante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC within Melee range, you can <strong>spend a Fear</strong> to force the target to mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage).</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque bem-sucedido contra um PJ em alcance Corpo a Corpo, você pode <strong>gastar 1 de Medo</strong> para forçar o alvo a marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -355,7 +353,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -377,7 +375,7 @@
   "_id": "A9EuHHWa6UmN7khR",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Landshark",
+    "name": "Tubarão Terrestre",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

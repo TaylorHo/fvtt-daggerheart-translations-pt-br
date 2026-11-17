@@ -1,11 +1,11 @@
 {
   "folder": "7XHlANCPz18yvl5L",
-  "name": "Fallen Warlord: Undefeated Champion",
+  "name": "Senhor da Guerra Caído: Campeão Invicto",
   "type": "adversary",
   "_id": "RXkZTwBRi4dJ3JE5",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "system": {
-    "description": "<p><em>That which only the most feared have a chance to fear.</em></p>",
+    "description": "<p><em>Aquilo que só os mais temidos têm chance de temer.</em></p>",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -37,7 +37,7 @@
       }
     },
     "attack": {
-      "name": "Heart-Shattering Sword",
+      "name": "Espada Destruidora de Corações",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "bAM5u66XszRmjaT8",
       "systemPath": "attack",
@@ -76,9 +76,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -122,22 +120,22 @@
     },
     "experiences": {
       "94xNhHTol94phqUY": {
-        "name": "Conquest",
+        "name": "Conquista",
         "value": 3,
         "description": ""
       },
       "FNgjrxzFVeMzwMtZ": {
-        "name": "History",
+        "name": "História",
         "value": 2,
         "description": ""
       },
       "hxCjuOCUqJpKRER8": {
-        "name": "Intimidation",
+        "name": "Intimidação",
         "value": 3,
         "description": ""
       }
     },
-    "motivesAndTactics": "Dispatch merciless death, punish the defi ant, secure victory at any cost",
+    "motivesAndTactics": "Disseminar morte impiedosa, punir os desafiadores, garantir a vitória a qualquer custo",
     "attribution": {
       "source": "Daggerheart SRD",
       "page": null,
@@ -150,7 +148,7 @@
     "typeData": null
   },
   "prototypeToken": {
-    "name": "Fallen Warlord: Undefeated Champion",
+    "name": "Senhor da Guerra Caído: Campeão Invicto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -243,10 +241,10 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "BoDTEH8Y6i9G1d4R": {
@@ -277,7 +275,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -306,10 +304,10 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.ct5vhSsNP25arggo"
     },
     {
-      "name": "Faltering Armor",
+      "name": "Armadura Vacilante",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage, reduce it by <strong>1d10</strong>.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofrer dano, reduza-o em <strong>1d10</strong>.</p>",
         "resource": null,
         "actions": {
           "REOzNvunSAU3UcEx": {
@@ -355,7 +353,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll d10",
+            "name": "Role d10",
             "img": "icons/equipment/chest/breastplate-layered-steel.webp",
             "range": "",
             "baseAction": false,
@@ -384,10 +382,10 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.zypNlBVfuaHVw1M4"
     },
     {
-      "name": "Shattering Strike",
+      "name": "Golpe Estilhaçante",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against all targets within Very Close range. PCs the @Lookup[@name] succeeds against lose a number of Hope equal to the HP they marked from this attack.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra todos os alvos dentro do alcance Muito Próximo. PJs contra os quais o @Lookup[@name] for bem-sucedido perdem uma quantidade de Esperança igual ao número de PV que marcaram por causa desse ataque.</p>",
         "resource": null,
         "actions": {
           "t1GhGnEhNYyJ7p2U": {
@@ -426,9 +424,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -465,12 +461,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/sword-stuck-glowing-pink.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Shattering Strike",
+                "name": "Golpe Estilhaçante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -503,10 +499,10 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.t8yOkGWmPgQ6EbIr"
     },
     {
-      "name": "Endless Legions",
+      "name": "Legiões Infindáveis",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to summon a number of @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troops} equal to twice the number of PCs. The Shock Troops appear at Far range.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para invocar uma quantidade de @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Tropas de Choque Caídas} igual ao dobro do número de PJs. As Tropas de Choque aparecem no alcance Distante.</p>",
         "resource": null,
         "actions": {
           "SrU7qbh8LcOgfozT": {
@@ -543,7 +539,7 @@
                 "count": "@partySize*2"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far",
             "areas": []
           }
@@ -566,17 +562,17 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.AP7W9ruUCdTHO69S"
     },
     {
-      "name": "Circle of Defilement",
+      "name": "Círculo de Profanação",
       "type": "feature",
       "system": {
-        "description": "<p><em>Countdown (1d8)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown. When it triggers, activate a magical circle covering an area within Far range of the @Lookup[@name]. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the @Lookup[@name].</p>",
+        "description": "<p><em>Contagem Regressiva (1d8)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva. Quando ela disparar, ative um círculo mágico que cobre uma área dentro do alcance Distante do @Lookup[@name]. Um alvo dentro dessa área fica Vulnerável até sair do círculo. O círculo pode ser removido causando dano Grave ao @Lookup[@name].</p>",
         "resource": null,
         "actions": {
           "mHeYZ8e8MbkGz22d": {
             "type": "effect",
             "_id": "mHeYZ8e8MbkGz22d",
             "systemPath": "actions",
-            "description": "<p>Activate a magical circle covering an area within Far range of the @Lookup[@name]. A target within that area is Vulnerable until they leave the circle. The circle can be removed by dealing Severe damage to the @Lookup[@name].</p>",
+            "description": "<p>Ative um círculo mágico que cobre uma área dentro do alcance Distante do @Lookup[@name]. Um alvo dentro dessa área fica Vulnerável até sair do círculo. O círculo pode ser removido causando dano Grave ao @Lookup[@name].</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -591,18 +587,16 @@
               "type": "any",
               "amount": null
             },
-            "name": "Circle",
+            "name": "Círculo",
             "img": "icons/magic/unholy/barrier-fire-pink.webp",
             "range": "",
             "areas": [
               {
-                "name": "Circle of Defilement",
+                "name": "Círculo de Profanação",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
-                "effects": [
-                  "KlTKlZXjdXQ9v6qB"
-                ],
+                "effects": ["KlTKlZXjdXQ9v6qB"],
                 "hasHole": false
               }
             ],
@@ -616,7 +610,7 @@
             "type": "countdown",
             "_id": "4x13WyksHU0u0j20",
             "systemPath": "actions",
-            "description": "<p><em>Countdown (1d8)</em>. When the @Lookup[@name] is in the spotlight for the first time, activate the countdown.</p>",
+            "description": "<p><em>Contagem Regressiva (1d8)</em>. Quando o @Lookup[@name] estiver em destaque pela primeira vez, ative a contagem regressiva.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -631,7 +625,7 @@
             },
             "countdown": [
               {
-                "name": "Circle of Defilement",
+                "name": "Círculo de Profanação",
                 "type": "encounter",
                 "img": "icons/magic/unholy/barrier-fire-pink.webp",
                 "progress": {
@@ -645,7 +639,7 @@
                 "hidden": null
               }
             ],
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "img": "icons/magic/unholy/barrier-fire-pink.webp",
             "range": "",
             "baseAction": false,
@@ -663,14 +657,12 @@
       "img": "icons/magic/unholy/barrier-fire-pink.webp",
       "effects": [
         {
-          "name": "Circle Of Defilement",
+          "name": "Círculo de Profanação",
           "disabled": false,
           "img": "icons/magic/unholy/barrier-fire-pink.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you leave the circle.</p>",
+          "description": "<p>Você fica <em>Vulnerável</em> até sair do círculo.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -678,10 +670,7 @@
               "type": ""
             },
             "stacking": null,
-            "targetDispositions": [
-              1,
-              0
-            ],
+            "targetDispositions": [1, 0],
             "rangeDependence": null,
             "conditionals": []
           },
@@ -721,10 +710,10 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.55P7ZijSbQeVHCw4"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "i1Wmh6Mok4Qsur00": {
@@ -784,7 +773,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,
@@ -813,10 +802,10 @@
       "_key": "!actors.items!RXkZTwBRi4dJ3JE5.ReWtcLE5akrSauI1"
     },
     {
-      "name": "Doombringer",
+      "name": "Arauto da Perdição",
       "type": "feature",
       "system": {
-        "description": "<p>When a target marks HP from an attack by the @Lookup[@name], all PCs within Far range of the target lose a Hope.</p>",
+        "description": "<p>Quando um alvo marcar PV por causa de um ataque do @Lookup[@name], todos os PJs dentro do alcance Distante do alvo perdem 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "liwKSCTmQqZasAf6": {
@@ -861,12 +850,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/magic/death/skull-energy-light-purple.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Doombringer",
+                "name": "Arauto da Perdição",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",

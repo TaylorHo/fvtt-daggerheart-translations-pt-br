@@ -1,5 +1,5 @@
 {
-  "name": "Jagged Knife Bandit",
+  "name": "Bandido da Faca Serrilhada",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "ASrtgt4pTDvoXehG": {
-        "name": "Thief",
+        "name": "Ladrão",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A cunning criminal in a cloak bearing one of the gang's iconic knives.</p>",
-    "motivesAndTactics": "Escape, profi t, steal, throw smoke",
+    "description": "<p>Um criminoso astuto com uma capa que exibe uma das facas icônicas da gangue.</p>",
+    "motivesAndTactics": "Fugir, lucrar, roubar, lançar fumaça",
     "attack": {
-      "name": "Daggers",
+      "name": "Adagas",
       "roll": {
         "bonus": 1,
         "type": "attack",
@@ -73,9 +73,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "5Lh1T0zaT8Pkr2U2",
   "sort": 900000,
   "prototypeToken": {
-    "name": "Jagged Knife Bandit",
+    "name": "Bandido da Faca Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Climber",
+      "name": "Escalador",
       "type": "feature",
       "_id": "5VPb3OJDv6Q5150r",
       "img": "icons/skills/movement/arrow-upward-white.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] climbs just as easily as they run.</p>",
+        "description": "<p>@Lookup[@name] escala tão facilmente quanto corre.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,12 +257,12 @@
       "_key": "!actors.items!5Lh1T0zaT8Pkr2U2.5VPb3OJDv6Q5150r"
     },
     {
-      "name": "From Above",
+      "name": "Do Alto",
       "type": "feature",
       "_id": "V7haVmSLm6vTeffc",
       "img": "icons/skills/movement/arrow-down-pink.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack from above a target, they deal <strong>1d10+1</strong> physical damage instead of their standard damage.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão vindo de cima de um alvo, causa <strong>1d10+1</strong> de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "X7xdCLY7ySMpaTHe": {
@@ -294,9 +292,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -312,7 +308,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,

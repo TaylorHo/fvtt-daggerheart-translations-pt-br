@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Deep Dweller",
+  "name": "Habitante das Profundezas",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "leader",
-    "description": "<p>A huge psychic lamprey that has pitch-black eyes and toxic tentacles.</p>",
+    "description": "<p>Uma enorme lampreia psíquica com olhos negros como breu e tentáculos tóxicos.</p>",
     "tier": 3,
-    "motivesAndTactics": "Abuse power, seek worship, stalk sunken ruins",
+    "motivesAndTactics": "Abusar do poder, buscar adoração, espreitar ruínas submersas",
     "difficulty": 17,
     "damageThresholds": {
       "major": 22,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Teeth & Tentacles",
+      "name": "Dentes e Tentáculos",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "ZShKGjFLf92betXU": {
-        "name": "Ancient Mysteries",
+        "name": "Mistérios Antigos",
         "value": 2,
         "description": ""
       },
       "9C7Kf7FYrg2WYmXL": {
-        "name": "Dark Water",
+        "name": "Águas Escuras",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Psychic Blast",
+      "name": "Rajada Psíquica",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose up to three targets within Close range and force them to make an Instinct or Knowledge Reaction Roll. Targets who succeed mark a Stress. Targets who fail take <strong>3d10+4</strong> direct magic damage and are <em>Vulnerable</em> until spotlighted.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher até três alvos em alcance Próximo e forçá-los a fazer um Teste de Reação de Instinto ou Conhecimento. Alvos que forem bem-sucedidos marcam 1 Fadiga. Alvos que falharem sofrem <strong>3d10+4</strong> de dano mágico direto e ficam <em>Vulneráveis</em> até receberem o foco.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -173,9 +171,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -193,7 +189,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Psychic Blast",
+                "name": "Rajada Psíquica",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -247,7 +243,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -258,14 +254,12 @@
       "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
       "effects": [
         {
-          "name": "Psychic Blast",
+          "name": "Rajada Psíquica",
           "disabled": false,
           "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
-          "description": "<p>You are <em>Vulnerable</em> until spotlighted.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até receber o foco.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -313,11 +307,11 @@
       "_key": "!actors.items!Wy9Dx05ulqeybn4h.koabq82mtdwUm0J3"
     },
     {
-      "name": "Brain Drain",
+      "name": "Drenar Cérebro",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to choose a <em>Vulnerable</em> PC within Very Close range. The target marks <strong>1d4</strong> Stress, and the @Lookup[@name] clears an equal number of HP.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher um PJ <em>Vulnerável</em> em alcance Muito Próximo. O alvo marca <strong>1d4</strong> de Fadiga, e o @Lookup[@name] limpa um número igual de PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -379,7 +373,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryClose"
           }
         },
@@ -398,11 +392,11 @@
       "_key": "!actors.items!Wy9Dx05ulqeybn4h.EJSZFUchXzCQqGfn"
     },
     {
-      "name": "Call of the Deep",
+      "name": "Chamado das Profundezas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to summon <strong>1d4</strong> Cursed Merfolk, who appear at Far range and immediately take the spotlight.</p>",
+        "description": "<p><strong>Gaste 2 de Medo</strong> para invocar <strong>1d4</strong> Homens-Peixe Amaldiçoados, que aparecem em alcance Distante e recebem imediatamente o destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -461,11 +455,11 @@
       "_key": "!actors.items!Wy9Dx05ulqeybn4h.x7WN5SgJGj1dv4W1"
     },
     {
-      "name": "Mucosal Contamination",
+      "name": "Contaminação Mucosa",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Make an attack roll against a PC within Very Close range. On a success, the @Lookup[@name] uses its tentacles to immobilize the target, sliming them with toxic sludge. The target is <em>Restrained</em> until they break free or slip out with a successful Strength or Finesse Roll. Each time the @Lookup[@name] is spotlighted, all PCs <em>Restrained</em> in this way take <strong>3d8</strong> direct physical damage. The @Lookup[@name] releases all creatures <em>Restrained</em> by it when it's defeated or takes Severe damage.</p>",
+        "description": "<p>Faça uma jogada de ataque contra um PJ em alcance Muito Próximo. Em caso de sucesso, o @Lookup[@name] usa seus tentáculos para imobilizar o alvo, cobrindo-o com lodo tóxico. O alvo fica <em>Imobilizado</em> até se libertar ou escapar com um Teste de Força ou Acuidade bem-sucedido. Cada vez que o @Lookup[@name] recebe o destaque, todos os PJs <em>Imobilizados</em> dessa forma sofrem <strong>3d8</strong> de dano físico direto. O @Lookup[@name] solta todas as criaturas <em>Imobilizadas</em> por ele quando é derrotado ou sofre dano Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -535,14 +529,12 @@
       "img": "icons/magic/unholy/orb-smoking-green.webp",
       "effects": [
         {
-          "name": "Contaminated",
+          "name": "Contaminado",
           "disabled": false,
           "img": "icons/magic/unholy/orb-smoking-green.webp",
-          "description": "<p>The target is <em>Restrained</em> until they break free or slip out with a successful Strength or Finesse Roll. Each time the Deep Dweller is spotlighted, all PCs Restrained in this way take <strong>3d8</strong> direct physical damage. The Deep Dweller releases all creatures Restrained by it when it's defeated or takes Severe damage.</p>",
+          "description": "<p>O alvo fica <em>Imobilizado</em> até se libertar ou escapar com um Teste de Força ou Acuidade bem-sucedido. Cada vez que o Deep Dweller recebe o destaque, todos os PJs Imobilizados dessa forma sofrem <strong>3d8</strong> de dano físico direto. O Deep Dweller solta todas as criaturas Imobilizadas por ele quando é derrotado ou sofre dano Grave.</p>",
           "transfer": false,
-          "statuses": [
-            "restrain"
-          ],
+          "statuses": ["restrain"],
           "system": {
             "changes": [],
             "duration": {
@@ -593,7 +585,7 @@
   "_id": "Wy9Dx05ulqeybn4h",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Deep Dweller",
+    "name": "Habitante das Profundezas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

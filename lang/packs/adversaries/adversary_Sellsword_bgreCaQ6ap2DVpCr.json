@@ -1,10 +1,10 @@
 {
-  "name": "Sellsword",
+  "name": "Mercenário",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
-    "motivesAndTactics": "Charge, lacerate, overwhelm, profit",
+    "motivesAndTactics": "Investir, lacerar, subjugar, lucrar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,7 +22,7 @@
     "experiences": {},
     "difficulty": 10,
     "tier": 1,
-    "description": "<p>An armed mercenary testing their luck.</p>",
+    "description": "<p>Um mercenário armado testando a sorte.</p>",
     "resources": {
       "hitPoints": {
         "value": 0,
@@ -34,7 +34,7 @@
       }
     },
     "attack": {
-      "name": "Longsword",
+      "name": "Espada Longa",
       "damage": {
         "main": {
           "value": {
@@ -48,9 +48,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "bgreCaQ6ap2DVpCr",
   "sort": 4100000,
   "prototypeToken": {
-    "name": "Sellsword",
+    "name": "Mercenário",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "_id": "nLlbuGTKAvsFRnUB",
       "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 4 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. A cada 4 de dano que um PJ causa ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,12 +251,12 @@
       "_key": "!actors.items!bgreCaQ6ap2DVpCr.nLlbuGTKAvsFRnUB"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "_id": "CQZQiEiRH70Br5Ge",
       "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "K3pF2DBnR9zJ90W8": {
@@ -305,9 +303,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -341,7 +337,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

@@ -1,5 +1,5 @@
 {
-  "name": "Elite Soldier",
+  "name": "Soldado de Elite",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Gain glory, keep order, make alliances",
+    "motivesAndTactics": "Ganhar glória, manter a ordem, firmar alianças",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>An armored squire or experienced commoner looking to advance.</p>",
+    "description": "<p>Um escudeiro encouraçado ou plebeu experiente em busca de ascensão.</p>",
     "attack": {
-      "name": "Spear",
+      "name": "Lança",
       "range": "veryClose",
       "roll": {
         "bonus": 1,
@@ -82,9 +82,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -134,7 +132,7 @@
   },
   "flags": {},
   "prototypeToken": {
-    "name": "Elite Soldier",
+    "name": "Soldado de Elite",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -227,10 +225,10 @@
   },
   "items": [
     {
-      "name": "Reinforce",
+      "name": "Reforçar",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to move into Melee range of an ally and make a standard attack against a target within Very Close range. On a success, deal <strong>2d10+2</strong> physical damage and the ally can clear a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para se mover até alcance Corpo a Corpo de um aliado e fazer um ataque padrão contra um alvo em alcance Muito Próximo. Em caso de sucesso, cause <strong>2d10+2</strong> de dano físico e o aliado pode apagar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "XquYMA2xJZUKSmXQ": {
@@ -269,9 +267,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -307,7 +303,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/hand-grip-sword-orange.webp",
             "range": "",
             "baseAction": false,
@@ -336,10 +332,10 @@
       "_key": "!actors.items!bfhVWMBUh61b9J6n.ojiIZHBd0sMLxSUE"
     },
     {
-      "name": "Vassal's Loyalty",
+      "name": "Lealdade do Vassalo",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] is within Very Close range of a knight or other noble who would take damage, you can mark a Stress to move into Melee range of them and take the damage instead.</p>",
+        "description": "<p>Quando o @Lookup[@name] está em alcance Muito Próximo de um cavaleiro ou outro nobre que sofreria dano, você pode marcar 1 Fadiga para se mover até alcance Corpo a Corpo dele e sofrer o dano no lugar.</p>",
         "resource": null,
         "actions": {
           "dwpQNx63V6hL1mXZ": {
@@ -370,7 +366,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/defensive/shield-barrier-blue.webp",
             "range": "",
             "baseAction": false,

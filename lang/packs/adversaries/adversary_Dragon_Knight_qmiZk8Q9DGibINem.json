@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Dragon Knight",
+  "name": "Cavaleiro Dragão",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A knight clad in dragonplate armor and a helmet in the shape of a dragon's head.</p>",
+    "description": "<p>Um cavaleiro vestido com armadura de placas de dragão e um elmo em forma de cabeça de dragão.</p>",
     "tier": 2,
-    "motivesAndTactics": "Exploit an opening, get some distance, knock enemies off -balance, strike from above",
+    "motivesAndTactics": "Explorar uma brecha, ganhar distância, desequilibrar inimigos, atacar do alto",
     "difficulty": 15,
     "damageThresholds": {
       "major": 15,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Lance",
+      "name": "Lança de Justa",
       "img": "icons/weapons/polearms/spear-hooked-double.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "3VzaeKaXCqBXqpwN": {
-        "name": "Jousts",
+        "name": "Justas",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "High Ground",
+      "name": "Terreno Elevado",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Knight gains advantage on attacks made against targets below them.</p>",
+        "description": "<p>O Cavaleiro tem vantagem em ataques contra alvos abaixo dele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!qmiZk8Q9DGibINem.3rM30lvgTyp5NPyx"
     },
     {
-      "name": "Leaping Strike",
+      "name": "Golpe Saltado",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Knight leap into Melee range of a target within Far range and make a standard attack against them. On a success, the attack deals an extra <strong>1d12</strong> damage, and the target must mark an Armor Slot without receiving its benefits (they can still use armor to reduce the damage).</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Cavaleiro saltar até alcance Corpo a Corpo de um alvo em alcance Distante e fazer um ataque padrão contra ele. Em caso de sucesso, o ataque causa <strong>1d12</strong> de dano extra, e o alvo deve marcar um Ponto de Armadura sem receber seus benefícios (ele ainda pode usar a armadura para reduzir o dano).</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -271,7 +267,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "far"
           }
         },
@@ -290,11 +286,11 @@
       "_key": "!actors.items!qmiZk8Q9DGibINem.qDQbsNq0Rq4OcXoI"
     },
     {
-      "name": "Comeback",
+      "name": "Reviravolta",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Knight fails a standard attack, you can <strong>spend a Fear</strong> to reroll the attack with advantage.</p>",
+        "description": "<p>Quando o Cavaleiro falha em um ataque padrão, você pode <strong>gastar 1 de Medo</strong> para rolar o ataque novamente com vantagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -333,7 +329,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -355,7 +351,7 @@
   "_id": "qmiZk8Q9DGibINem",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Dragon Knight",
+    "name": "Cavaleiro Dragão",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

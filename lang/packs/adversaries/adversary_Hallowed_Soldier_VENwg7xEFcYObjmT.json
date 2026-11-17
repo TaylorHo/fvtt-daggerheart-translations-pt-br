@@ -1,10 +1,10 @@
 {
-  "name": "Hallowed Soldier",
+  "name": "Soldado Consagrado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
-    "motivesAndTactics": "Obey, outmaneuver, punish, swarm",
+    "motivesAndTactics": "Obedecer, superar em manobras, punir, enxamear",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,7 +22,7 @@
     "experiences": {},
     "difficulty": 18,
     "tier": 4,
-    "description": "<p>Souls of the faithful, lifted up with divine weaponry.</p>",
+    "description": "<p>Almas dos fiéis, erguidas com armamento divino.</p>",
     "resources": {
       "hitPoints": {
         "value": 0,
@@ -34,7 +34,7 @@
       }
     },
     "attack": {
-      "name": "Sword and Shield",
+      "name": "Espada e Escudo",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -63,9 +63,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "VENwg7xEFcYObjmT",
   "sort": 1100000,
   "prototypeToken": {
-    "name": "Hallowed Soldier",
+    "name": "Soldado Consagrado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Minion (13)",
+      "name": "Lacaio (13)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 13 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. Para cada 13 de dano que um PJ causar ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!VENwg7xEFcYObjmT.3QmaqgI6imRUvb7M"
     },
     {
-      "name": "Divine Flight",
+      "name": "Voo Divino",
       "type": "feature",
       "system": {
-        "description": "<p>While the @Lookup[@name] is flying, <strong>spend a Fear</strong> to move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p>Enquanto o @Lookup[@name] está voando, <strong>gaste 1 Medo</strong> para se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
         "resource": null,
         "actions": {
           "aCRmnQ5n7FrbQykj": {
@@ -287,7 +285,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "",
             "baseAction": false,
@@ -316,10 +314,10 @@
       "_key": "!actors.items!VENwg7xEFcYObjmT.6CvDtMEazJ35y2AA"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "irZGPKPpGLA6sP2y": {
@@ -366,9 +364,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -402,7 +398,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

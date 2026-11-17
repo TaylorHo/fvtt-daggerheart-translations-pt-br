@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Hive Walker",
+  "name": "Caminhante da Colmeia",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A corpse filled with and puppeted by a colony of carrion-eating bees.</p>",
+    "description": "<p>Um cadáver preenchido e manipulado por uma colônia de abelhas necrófagas.</p>",
     "tier": 2,
-    "motivesAndTactics": "Encase prey in honey, protect the hive",
+    "motivesAndTactics": "Envolver presas em mel, proteger a colmeia",
     "difficulty": 12,
     "damageThresholds": {
       "major": 11,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Rotting Fist",
+      "name": "Punho Podre",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "ctdR3oIiodzFIF59": {
-        "name": "Meat Eater",
+        "name": "Comedor de Carne",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Blood Honey",
+      "name": "Mel de Sangue",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>The Walker disgorges thick crimson honey at all targets between it and a point within Close range. Each target in that line must succeed on an Agility Reaction Roll or take <strong>2d8</strong> magic damage and become temporarily <em>Restrained</em> as the honey hardens on them.</p>",
+        "description": "<p>O Caminhante regurgita um mel carmesim espesso em todos os alvos entre ele e um ponto em alcance Próximo. Cada alvo nessa linha deve ter sucesso em um Teste de Reação de Agilidade ou sofrer <strong>2d8</strong> de dano mágico e ficar temporariamente <em>Restrito</em> enquanto o mel endurece sobre ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -188,7 +184,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Blood Honey",
+                "name": "Mel de Sangue",
                 "type": "placed",
                 "shape": "line",
                 "size": "veryClose",
@@ -233,7 +229,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -244,14 +240,12 @@
       "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
       "effects": [
         {
-          "name": "Honeyed",
+          "name": "Melado",
           "disabled": false,
           "img": "icons/commodities/materials/slime-white.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -299,11 +293,11 @@
       "_key": "!actors.items!MydEcpmRKsHt1snu.h2aCJ7Beoel7DHW5"
     },
     {
-      "name": "Bee-Ruption",
+      "name": "Erupção de Abelhas",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Walker marks HP, vengeful bees erupt from its body to protect it. Each target within Very Close range must succeed on an Instinct Reaction Roll or take <strong>1d8</strong> direct physical damage for each HP the @Lookup[@name] has marked. <em>Restrained</em> targets automatically fail the reaction roll.</p>",
+        "description": "<p>Quando o Caminhante marca PV, abelhas vingativas irrompem de seu corpo para protegê-lo. Cada alvo em alcance Muito Próximo deve ter sucesso em um Teste de Reação de Instinto ou sofrer <strong>1d8</strong> de dano físico direto para cada PV que @Lookup[@name] tenha marcado. Alvos <em>Restritos</em> falham automaticamente no teste de reação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -326,7 +320,7 @@
   "_id": "MydEcpmRKsHt1snu",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Hive Walker",
+    "name": "Caminhante da Colmeia",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

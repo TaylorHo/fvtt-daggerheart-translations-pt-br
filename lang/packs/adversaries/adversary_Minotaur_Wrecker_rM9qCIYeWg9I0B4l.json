@@ -1,5 +1,5 @@
 {
-  "name": "Minotaur Wrecker",
+  "name": "Minotauro Destruidor",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "KqhNrmipHiSGyVzY": {
-        "name": "Navigation",
+        "name": "Navegação",
         "value": 2,
         "description": ""
       }
     },
     "tier": 2,
-    "description": "<p>A massive bull-headed firbolg with a quick temper.</p>",
-    "motivesAndTactics": "Consume, gore, navigate, overpower, pursue",
+    "description": "<p>Um firbolg enorme, com cabeça de touro e pavio curto.</p>",
+    "motivesAndTactics": "Consumir, chifrar, navegar, subjugar, perseguir",
     "attack": {
-      "name": "Battleaxe",
+      "name": "Machado de Batalha",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "rM9qCIYeWg9I0B4l",
   "sort": 3200000,
   "prototypeToken": {
-    "name": "Minotaur Wrecker",
+    "name": "Minotauro Destruidor",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Ramp Up",
+      "name": "Aquecimento",
       "type": "feature",
       "system": {
-        "description": "<p>You must <strong>spend a Fear</strong> to spotlight the @Lookup[@name]. While spotlighted, they can make their standard attack against all targets within range.</p>",
+        "description": "<p>Você deve <strong>gastar 1 de Medo</strong> para dar destaque a @Lookup[@name]. Enquanto estiver em destaque, ele pode fazer seu ataque padrão contra todos os alvos dentro do alcance.</p>",
         "resource": null,
         "actions": {
           "oVGqHl82zSjnlym3": {
@@ -269,7 +267,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/orb-hands-pink.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!rM9qCIYeWg9I0B4l.RxTetAI1hmmxzJTg"
     },
     {
-      "name": "Charging Bull",
+      "name": "Investida do Touro",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to charge through a group within Close range and make an attack against all targets in the @Lookup[@name]'s path. Targets the @Lookup[@name] succeeds against take <strong>2d6+8</strong> physical damage and are knocked back to Very Far range. If a target is knocked into a solid object or another creature, they take an extra <strong>1d6</strong> damage (combine the damage).</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para investir através de um grupo em alcance Próximo e fazer um ataque contra todos os alvos no caminho do @Lookup[@name]. Alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>2d6+8</strong> de dano físico e são arremessados para alcance Muito Distante. Se um alvo for arremessado contra um objeto sólido ou outra criatura, ele sofre <strong>1d6</strong> de dano adicional (combine o dano).</p>",
         "resource": null,
         "actions": {
           "8fgkb7U2pxNyiHrB": {
@@ -340,9 +338,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -378,7 +374,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/creatures/mammals/bull-horned-blue.webp",
             "range": "close",
             "baseAction": false,
@@ -392,7 +388,7 @@
             "type": "damage",
             "_id": "fZ8jWUdMKBf5xSPO",
             "systemPath": "actions",
-            "description": "<p>If a target is knocked into a solid object or another creature, they take an extra <strong>1d6</strong> damage (combine the damage).</p>",
+            "description": "<p>Se um alvo for arremessado contra um objeto sólido ou outra criatura, ele sofre <strong>1d6</strong> de dano adicional (combine o dano).</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -415,9 +411,7 @@
                   "bonus": null
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -433,7 +427,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Collision Damage",
+            "name": "Dano de Colisão",
             "img": "icons/magic/earth/barrier-stone-brown-green.webp",
             "range": "",
             "baseAction": false,
@@ -462,10 +456,10 @@
       "_key": "!actors.items!rM9qCIYeWg9I0B4l.b2QvDYOq1nreI2uD"
     },
     {
-      "name": "Gore",
+      "name": "Chifrada",
       "type": "feature",
       "system": {
-        "description": "<p>Make an attack against a target within Very Close range, moving the Minotaur into Melee range of them. On a success, deal <strong>2d8</strong> direct physical damage.</p>",
+        "description": "<p>Faça um ataque contra um alvo em alcance Muito Próximo, movendo o Minotauro para alcance Corpo a Corpo dele. Em caso de sucesso, cause <strong>2d8</strong> de dano físico direto.</p>",
         "resource": null,
         "actions": {
           "3yqz7Gj34KBWMjwt": {
@@ -531,7 +525,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-slashes-red.webp",
             "range": "veryClose",
             "baseAction": false,

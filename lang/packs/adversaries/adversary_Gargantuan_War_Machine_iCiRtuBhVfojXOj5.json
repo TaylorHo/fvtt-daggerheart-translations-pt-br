@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Gargantuan War Machine",
+  "name": "Máquina de Guerra Gargantuesca",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A 100-foot-tall adamantine construct that has gemstone eyes, powered by a chest crucible of elemental flame.</p>",
+    "description": "<p>Uma construção de adamante de 30 metros de altura com olhos de gemas, alimentada por um crisol no peito com chama elemental.</p>",
     "tier": 4,
-    "motivesAndTactics": "Crush, destroy",
+    "motivesAndTactics": "Esmagar, destruir",
     "difficulty": 20,
     "damageThresholds": {
       "major": 48,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Fists of Iron",
+      "name": "Punhos de Ferro",
       "img": "icons/magic/earth/strike-fist-stone-gray.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "zCFl55F1zjNCbS7N": {
-        "name": "Unbreakable",
+        "name": "Inquebrável",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Machine can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>A Máquina pode ser colocada em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-la em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!iCiRtuBhVfojXOj5.chIi959EtrJuymsB"
     },
     {
-      "name": "Awesome Size",
+      "name": "Tamanho Colossal",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Machine enters the battlefield, each PC must either lose a Hope or mark <strong>1d4</strong> Stress.</p>",
+        "description": "<p>Quando a Máquina entrar no campo de batalha, cada PJ deve perder 1 Esperança ou marcar <strong>1d4</strong> de Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -238,11 +236,11 @@
       "_key": "!actors.items!iCiRtuBhVfojXOj5.Dji8Hfl4evCsiAZv"
     },
     {
-      "name": "Rocket Punch",
+      "name": "Soco-Foguete",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against a PC within Close range. On a success, the target takes <strong>4d12+10</strong> direct physical damage and marks 2 Armor Slots without gaining their benefits.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra um PJ dentro do alcance Próximo. Em caso de sucesso, o alvo sofre <strong>4d12+10</strong> de dano físico direto e marca 2 Espaços de Armadura sem receber seus benefícios.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -268,9 +266,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -347,7 +343,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -366,11 +362,11 @@
       "_key": "!actors.items!iCiRtuBhVfojXOj5.mqCuS2uMerHe5YoI"
     },
     {
-      "name": "Ground-Breaking Stomp",
+      "name": "Pisada Abala-Terra",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a point within Close range and make an attack roll against all enemies within Close range of that point. Targets the attack succeeds against take <strong>4d12</strong> direct physical damage and are <em>Vulnerable</em> until they are spotlighted. Additionally, the entire area becomes rubble, and a PC must succeed on an Agility Reaction Roll (16) to move through it.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para escolher um ponto dentro do alcance Próximo e fazer um teste de ataque contra todos os inimigos dentro do alcance Próximo desse ponto. Alvos contra os quais o ataque for bem-sucedido sofrem <strong>4d12</strong> de dano físico direto e ficam <em>Vulneráveis</em> até serem colocados em destaque. Além disso, toda a área se torna escombros, e um PJ deve ser bem-sucedido em um Teste de Reação de Agilidade (16) para atravessá-la.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -396,9 +392,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -416,7 +410,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Ground-Breaking Stomp",
+                "name": "Pisada Abala-Terra",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -470,7 +464,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -481,14 +475,12 @@
       "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
       "effects": [
         {
-          "name": "Stomped",
+          "name": "Pisoteado",
           "disabled": false,
           "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you are spotlighted.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até ser colocado em destaque.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -536,11 +528,11 @@
       "_key": "!actors.items!iCiRtuBhVfojXOj5.z780aZ858HHSiTLz"
     },
     {
-      "name": "Supercharged",
+      "name": "Sobrecarregada",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Countdown (Loop 2d6). When the Machine is spotlighted for the first time, activate the countdown. It ticks down each time the Machine is spotlighted. When it triggers, place a token on this stat block as the Machine's chest crucible flares with magical flame. For each token on this stat block, the Machine gains a +1 bonus to Difficulty and attack rolls, and its standard attack deals an extra <strong>1d12</strong> damage. Remove a token when the Machine takes Severe damage.</p>",
+        "description": "<p>Contagem Regressiva (Ciclo 2d6). Quando a Máquina for colocada em destaque pela primeira vez, ative a contagem regressiva. Ela avança cada vez que a Máquina é colocada em destaque. Quando disparar, coloque um token nesta ficha enquanto o crisol no peito da Máquina lança uma chama mágica. Para cada token nesta ficha, a Máquina recebe um bônus de +1 na Dificuldade e nos testes de ataque, e seu ataque padrão causa <strong>1d12</strong> de dano extra. Remova um token quando a Máquina sofrer dano Grave.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -556,10 +548,10 @@
         "actions": {
           "xccE9F4ovCbuaaUd": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Supercharged",
+                "name": "Sobrecarregada",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
@@ -601,7 +593,7 @@
       "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
       "effects": [
         {
-          "name": "Supercharged",
+          "name": "Sobrecarregada",
           "type": "base",
           "system": {
             "changes": [
@@ -630,9 +622,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -654,7 +644,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>For each token on this stat block, the Machine gains a +1 bonus to Difficulty and attack rolls, and its standard attack deals an extra <strong>1d12</strong> damage. Remove a token when the Machine takes Severe damage.</p>",
+          "description": "<p>Para cada token nesta ficha, a Máquina recebe um bônus de +1 na Dificuldade e nos testes de ataque, e seu ataque padrão causa <strong>1d12</strong> de dano extra. Remova um token quando a Máquina sofrer dano Grave.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -680,7 +670,7 @@
   "_id": "iCiRtuBhVfojXOj5",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Gargantuan War Machine",
+    "name": "Máquina de Guerra Gargantuesca",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

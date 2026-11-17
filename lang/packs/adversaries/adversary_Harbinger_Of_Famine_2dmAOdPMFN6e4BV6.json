@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Harbinger Of Famine",
+  "name": "Arauto da Fome",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "support",
-    "description": "<p>A dried-out husk of a body riding atop a withered white horse. They are covered in mouths and surrounded by swarming flies.</p>",
+    "description": "<p>Uma carcaça ressecada montada em um cavalo branco murcho. Está coberta de bocas e cercada por moscas em enxame.</p>",
     "tier": 4,
-    "motivesAndTactics": "Drain, impoverish, weaken, wither",
+    "motivesAndTactics": "Drenar, empobrecer, enfraquecer, murchar",
     "difficulty": 18,
     "damageThresholds": {
       "major": 26,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Barbed Lash",
+      "name": "Chicote Farpado",
       "img": "icons/commodities/biological/tentacle-thorned-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "yVqhwfXLXssnmmdn": {
-        "name": "Hunger",
+        "name": "Fome",
         "value": 2,
         "description": ""
       },
       "EPx7yMYBbr7rGbrM": {
-        "name": "Thirst",
+        "name": "Sede",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Harbinger can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Arauto pode receber Destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar Destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,21 +165,21 @@
       "_key": "!actors.items!2dmAOdPMFN6e4BV6.eQxHqyIAxS8YL4on"
     },
     {
-      "name": "Hunger Pangs",
+      "name": "Pontadas de Fome",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (Decreasing 6). When the Harbinger appears, activate the countdown. It ticks down when the Harbinger is spotlighted. When it triggers, all PCs within Far range mark a Stress and become Ravenous. While Ravenous, a PC can't spend Hope until they clear the condition with a successful Instinct Roll.</p>",
+        "description": "<p>Contagem Regressiva (Decrescente 6). Quando o Arauto aparece, ative a contagem regressiva. Ela diminui quando o Arauto recebe Destaque. Quando é ativada, todos os PJs dentro do alcance Longe marcam 1 Fadiga e ficam Famintos. Enquanto Faminto, um PJ não pode gastar Esperança até remover a condição com um Teste de Instinto bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "bGu2SoZLSdOKsAjm": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Hunger Pangs",
+                "name": "Pontadas de Fome",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/consumables/food/plate-fish-bowl-bones-brown.webp",
@@ -252,7 +250,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Hunger Pangs",
+                "name": "Pontadas de Fome",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -277,7 +275,7 @@
                 "onSave": false
               }
             ],
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": ""
           }
         },
@@ -288,10 +286,10 @@
       "img": "icons/consumables/food/plate-fish-bowl-bones-brown.webp",
       "effects": [
         {
-          "name": "Ravenous",
+          "name": "Faminto",
           "disabled": false,
           "img": "icons/consumables/food/plate-fish-bowl-bones-brown.webp",
-          "description": "<p>While Ravenous, a PC can't spend Hope until they clear the condition with a successful Instinct Roll.</p>",
+          "description": "<p>Enquanto Faminto, um PJ não pode gastar Esperança até remover a condição com um Teste de Instinto bem-sucedido.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -341,11 +339,11 @@
       "_key": "!actors.items!2dmAOdPMFN6e4BV6.jALBcE8dCmRLWsfW"
     },
     {
-      "name": "Drain Essence",
+      "name": "Drenar Essência",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose up to three PCs. Each target takes <strong>4d6</strong> magic damage.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para escolher até três PJs. Cada alvo sofre <strong>4d6</strong> de dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -371,9 +369,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -411,7 +407,7 @@
               "amount": 3
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -430,11 +426,11 @@
       "_key": "!actors.items!2dmAOdPMFN6e4BV6.4skXuiYVQGCEGyfP"
     },
     {
-      "name": "Too Many Mouths",
+      "name": "Bocas Demais",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a PC within Melee range. On a success, the Harbinger grabs the target and bites them, dealing <strong>4d6</strong> physical damage and <em>Restrain</em>ing the target until they break free with a successful Strength Roll.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um PJ dentro do alcance Corpo a Corpo. Em caso de sucesso, o Arauto agarra o alvo e o morde, causando <strong>4d6</strong> de dano físico e deixando o alvo <em>Restrito</em> até que ele se liberte com um Teste de Força bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -460,9 +456,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -525,7 +519,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -536,14 +530,12 @@
       "img": "icons/creatures/abilities/mouth-teeth-misshapen-pink.webp",
       "effects": [
         {
-          "name": "Grasped",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-misshapen-pink.webp",
-          "description": "<p>You are <em>Restrained</em> until you break free with a successful Strength Roll.</p>",
+          "description": "<p>Você está <em>Imobilizado</em> até se soltar com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -591,11 +583,11 @@
       "_key": "!actors.items!2dmAOdPMFN6e4BV6.0BirBknShzjOvSdz"
     },
     {
-      "name": "Withering Touch",
+      "name": "Toque Definhante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Harbinger caress the face of a <em>Restrained</em> PC within Melee range. The target marks 2 Stress and either loses a Hope or marks <strong>[[/r 1d4]]</strong> HP.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Arauto acariciar o rosto de um PJ <em>Restrito</em> dentro do alcance Corpo a Corpo. O alvo marca 2 Fadiga e perde 1 Esperança ou marca <strong>[[/r 1d4]]</strong> PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -657,7 +649,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -676,11 +668,11 @@
       "_key": "!actors.items!2dmAOdPMFN6e4BV6.lbwK2we0LKpFP7mx"
     },
     {
-      "name": "Mount",
+      "name": "Montaria",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty. When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+        "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade. Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -690,7 +682,7 @@
             "_id": "Qa6H0mZULkyHuQ63",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When the Harbinger takes Severe damage, they're knocked from their mount. If the Harbinger is unhorsed, their mount disappears until you mark a Stress to summon it again.</p>",
+            "description": "<p>Quando o Arauto sofre dano Grave, ele é derrubado da montaria. Se o Arauto estiver desmontado, sua montaria desaparece até você marcar 1 Fadiga para invocá-la novamente.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -719,7 +711,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Resummon Mount",
+            "name": "Reinvocar Montaria",
             "range": ""
           }
         },
@@ -729,7 +721,7 @@
       "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
       "effects": [
         {
-          "name": "Mounted",
+          "name": "Montado",
           "type": "base",
           "system": {
             "changes": [
@@ -767,7 +759,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While the Harbinger is on their mount, they gain a +2 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto o Arauto está em sua montaria, ele recebe +2 de bônus em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -794,7 +786,7 @@
   "_id": "2dmAOdPMFN6e4BV6",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Harbinger Of Famine",
+    "name": "Arauto da Fome",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

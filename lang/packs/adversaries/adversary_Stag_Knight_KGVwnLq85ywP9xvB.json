@@ -1,5 +1,5 @@
 {
-  "name": "Stag Knight",
+  "name": "Cavaleiro Cervo",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 5
       }
     },
-    "motivesAndTactics": "Isolate, maneuver, protect the forest, weed the unwelcome",
+    "motivesAndTactics": "Isolar, manobrar, proteger a floresta, eliminar os indesejados",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "dmivOIoh5ismjkQA": {
-        "name": "Forest Knowledge",
+        "name": "Conhecimento da Floresta",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A knight with huge, majestic antlers wearing armor made of dangerous thorns.</p>",
+    "description": "<p>Um cavaleiro com enormes e majestosas galhadas, usando uma armadura feita de espinhos perigosos.</p>",
     "attack": {
-      "name": "Bramble Sword",
+      "name": "Espada de Sarça",
       "img": "icons/magic/nature/root-vine-hand-strike.webp",
       "roll": {
         "bonus": 3,
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "KGVwnLq85ywP9xvB",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Stag Knight",
+    "name": "Cavaleiro Cervo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "From Above",
+      "name": "Do Alto",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack from above a target, they deal <strong>3d12+3</strong> physical damage instead of their standard damage.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão vindo de cima de um alvo, ele causa <strong>3d12+3</strong> de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "PZNJgyomR7MK2xUP": {
@@ -268,9 +266,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -286,7 +282,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/skills/movement/arrow-down-pink.webp",
             "range": "",
             "baseAction": false,
@@ -315,10 +311,10 @@
       "_key": "!actors.items!KGVwnLq85ywP9xvB.3Na2mDfKFB5Hqbqu"
     },
     {
-      "name": "Blade of the Forest",
+      "name": "Lâmina da Floresta",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against take physical damage equal to <strong>[[/r 3d4]]</strong> + the target's Major threshold.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um ataque contra todos os alvos em alcance Muito Próximo. Os alvos contra os quais @Lookup[@name] tiver sucesso sofrem dano físico igual a <strong>[[/r 3d4]]</strong> + o limiar Maior do alvo.</p>",
         "resource": null,
         "actions": {
           "xPSVwVVOC5gc2KTi": {
@@ -373,12 +369,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/melee/strike-blade-hooked-green-purple.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Blade of the Forest",
+                "name": "Lâmina da Floresta",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -411,10 +407,10 @@
       "_key": "!actors.items!KGVwnLq85ywP9xvB.CYaSykD9BUxpiOxg"
     },
     {
-      "name": "Thorny Armor",
+      "name": "Armadura de Espinhos",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes damage from an attack within Melee range, you can <strong>mark a Stress</strong> to deal <strong>1d10+5</strong> physical damage to the attacker.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano de um ataque em alcance Corpo a Corpo, você pode <strong>marcar 1 Fadiga</strong> para causar <strong>1d10+5</strong> de dano físico ao atacante.</p>",
         "resource": null,
         "actions": {
           "b5KO7xpWspZS0swK": {
@@ -469,7 +465,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
             "range": "melee",
             "baseAction": false,

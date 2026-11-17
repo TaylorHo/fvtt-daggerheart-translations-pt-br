@@ -1,5 +1,5 @@
 {
-  "name": "Knight of the Realm",
+  "name": "Cavaleiro do Reino",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Run down, seek glory, show dominance",
+    "motivesAndTactics": "Atropelar, buscar glória, mostrar domínio",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,25 +36,25 @@
     "notes": "",
     "experiences": {
       "EvssVXZXBdTiin7U": {
-        "name": "Ancient Knowledge",
+        "name": "Conhecimento Ancestral",
         "description": "",
         "value": 3
       },
       "uTh4UDSemwMxZ3wk": {
-        "name": "High Society",
+        "name": "Alta Sociedade",
         "description": "",
         "value": 2
       },
       "5KpTT5V80T3kNwHG": {
-        "name": "Tactics",
+        "name": "Táticas",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>A decorated soldier with heavy armor and a powerful steed.</p>",
+    "description": "<p>Um soldado condecorado com armadura pesada e um poderoso corcel.</p>",
     "attack": {
-      "name": "Longsword",
+      "name": "Espada Longa",
       "img": "icons/weapons/swords/sword-guard.webp",
       "roll": {
         "bonus": 4,
@@ -84,9 +84,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -152,7 +150,7 @@
   "_id": "7ai2opemrclQe3VF",
   "sort": 700000,
   "prototypeToken": {
-    "name": "Knight of the Realm",
+    "name": "Cavaleiro do Reino",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -245,10 +243,10 @@
   },
   "items": [
     {
-      "name": "Chevalier",
+      "name": "Cavalheiro",
       "type": "feature",
       "system": {
-        "description": "<p>While the @Lookup[@name] is on a mount, they gain a +2 bonus to their Difficulty. When they take Severe damage, they're knocked from their mount and lose this benefit until they're next spotlighted.</p>",
+        "description": "<p>Enquanto @Lookup[@name] estiver montado, ele ganha +2 de bônus em sua Dificuldade. Quando sofre dano Grave, é derrubado da montaria e perde esse benefício até receber o destaque novamente.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -261,7 +259,7 @@
       "img": "icons/environment/people/cavalry-heavy.webp",
       "effects": [
         {
-          "name": "Chevalier",
+          "name": "Cavalheiro",
           "type": "base",
           "system": {
             "changes": [
@@ -290,7 +288,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While the Knight is on a mount, they gain a +2 bonus to their Difficulty</p>",
+          "description": "<p>Enquanto o Cavaleiro estiver montado, ele ganha +2 de bônus em sua Dificuldade</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -314,10 +312,10 @@
       "_key": "!actors.items!7ai2opemrclQe3VF.5ag5tOemPJToOoUq"
     },
     {
-      "name": "Heavily Armored",
+      "name": "Fortemente Blindado",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes physical damage, reduce it by 3.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano físico, reduza-o em 3.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -330,7 +328,7 @@
       "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
       "effects": [
         {
-          "name": "Heavily Armored",
+          "name": "Fortemente Blindado",
           "type": "base",
           "system": {
             "changes": [
@@ -359,7 +357,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>When the Knight takes physical damage, reduce it by 3.</p>",
+          "description": "<p>Quando o Cavaleiro sofre dano físico, reduza-o em 3.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -383,10 +381,10 @@
       "_key": "!actors.items!7ai2opemrclQe3VF.ErWO4lqni81aRo7k"
     },
     {
-      "name": "Cavalry Charge",
+      "name": "Carga de Cavalaria",
       "type": "feature",
       "system": {
-        "description": "<p>If the @Lookup[@name] is mounted, move up to Far range and make a standard attack against a target. On a success, deal <strong>2d8+4</strong> physical damage and the target must mark a Stress.</p>",
+        "description": "<p>Se @Lookup[@name] estiver montado, mova-se até alcance Distante e faça um ataque padrão contra um alvo. Em um sucesso, cause <strong>2d8+4</strong> de dano físico e o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "Mb079uPkaZgpo9y3": {
@@ -471,7 +469,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/movement/arrow-upward-yellow.webp",
             "range": "far",
             "baseAction": false,
@@ -500,10 +498,10 @@
       "_key": "!actors.items!7ai2opemrclQe3VF.djKDZawLnGF1zkbY"
     },
     {
-      "name": "For the Realm!",
+      "name": "Pelo Reino!",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to spotlight <strong>[[/r 1d4+1]]</strong> allies. Attacks they make while spotlighted in this way deal half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para dar destaque a <strong>[[/r 1d4+1]]</strong> aliados. Ataques que eles fizerem enquanto estiverem em destaque dessa forma causam metade do dano.</p>",
         "resource": null,
         "actions": {
           "V5fLHHdTOita6u9f": {
@@ -534,7 +532,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/environment/people/charge.webp",
             "range": "",
             "baseAction": false,

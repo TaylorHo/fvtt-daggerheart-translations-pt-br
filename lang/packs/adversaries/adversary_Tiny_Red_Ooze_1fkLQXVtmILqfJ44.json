@@ -1,10 +1,10 @@
 {
-  "name": "Tiny Red Ooze",
+  "name": "Pequena Gosma Vermelha",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
-    "motivesAndTactics": "Blaze, camouflage",
+    "motivesAndTactics": "Arder, camuflar-se",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,9 +22,9 @@
     "experiences": {},
     "difficulty": 11,
     "tier": 1,
-    "description": "<p>A small moving mound of translucent flaming red slime</p>",
+    "description": "<p>Um pequeno monte móvel de lodo vermelho translúcido em chamas</p>",
     "attack": {
-      "name": "Ooze Appendage",
+      "name": "Apêndice de Gosma",
       "img": "icons/creatures/slimes/slime-movement-splashing-red.webp",
       "roll": {
         "bonus": -1,
@@ -54,9 +54,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "1fkLQXVtmILqfJ44",
   "sort": 200000,
   "prototypeToken": {
-    "name": "Tiny Red Ooze",
+    "name": "Pequena Gosma Vermelha",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,19 +227,19 @@
   },
   "items": [
     {
-      "name": "Burning",
+      "name": "Ardente",
       "type": "feature",
       "_id": "zsUMP2qNmNpVHwk0",
       "img": "icons/magic/fire/blast-jet-stream-splash.webp",
       "system": {
-        "description": "<p>When a creature within Melee range deals damage to the @Lookup[@name], they take <strong>1d6</strong> direct magic damage.</p>",
+        "description": "<p>Quando uma criatura em alcance Corpo a Corpo causa dano a @Lookup[@name], ela sofre <strong>1d6</strong> de dano mágico direto.</p>",
         "resource": null,
         "actions": {
           "cHaEnBwinVKmoS9s": {
             "type": "damage",
             "_id": "cHaEnBwinVKmoS9s",
             "systemPath": "actions",
-            "description": "<p>When a creature within Melee range deals damage to the Ooze, they take <strong>1d6</strong> direct magic damage.</p>",
+            "description": "<p>Quando uma criatura em alcance Corpo a Corpo causa dano à Gosma, ela sofre <strong>1d6</strong> de dano mágico direto.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [],
@@ -264,9 +262,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -282,7 +278,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Damage",
+            "name": "Dano",
             "img": "icons/magic/fire/blast-jet-stream-splash.webp",
             "range": "",
             "baseAction": false,

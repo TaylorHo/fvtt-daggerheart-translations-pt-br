@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cephilith Novitiate",
+  "name": "Noviço de Cephilith",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "minion",
-    "description": "<p>A luminary of the Mortal Realm who has given their mind to extradimensional entities in exchange for eldritch abilities.</p>",
+    "description": "<p>Um luminar do Reino Mortal que entregou sua mente a entidades extradimensionais em troca de habilidades sobrenaturais.</p>",
     "tier": 4,
-    "motivesAndTactics": "Help others see the Truth, make way for It, seek forbidden knowledge",
+    "motivesAndTactics": "Ajudar outros a ver a Verdade, abrir caminho para Ela, buscar conhecimento proibido",
     "difficulty": 16,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Eldritch Might",
+      "name": "Poder Sobrenatural",
       "img": "icons/magic/unholy/hand-grasping-green.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "LtXbT7kPQgrzA1fc": {
-        "name": "Visions",
+        "name": "Visões",
         "value": 2,
         "description": ""
       }
@@ -142,7 +140,7 @@
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Novitiate is defeated when they take any damage. For every 12 damage a PC deals to the Novitiate, the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O Noviço é derrotado ao sofrer qualquer dano. A cada 12 de dano que um PJ causar ao Noviço, o PJ derrota um Minion adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!kA7erU1gkzB84PDY.51jjStc5Lv9zAu14"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 12 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os @Lookup[@name]s em alcance Próximo dele. Esses Minions se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 12 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -252,7 +248,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -271,11 +267,11 @@
       "_key": "!actors.items!kA7erU1gkzB84PDY.OpPYnhqeYotcyobD"
     },
     {
-      "name": "Sacrifice Self",
+      "name": "Autossacrifício",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Novitiate charge at a target within Far range and melt into them. Deal 12 direct magic damage to the target and defeat the Novitiate.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Noviço avançar contra um alvo em alcance Distante e se derreter sobre ele. Cause 12 de dano mágico direto ao alvo e derrote o Noviço.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -301,9 +297,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -341,7 +335,7 @@
               "amount": 1
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -363,7 +357,7 @@
   "_id": "kA7erU1gkzB84PDY",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cephilith Novitiate",
+    "name": "Noviço de Cephilith",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

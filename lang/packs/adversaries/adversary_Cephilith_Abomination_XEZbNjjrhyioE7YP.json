@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cephilith Abomination",
+  "name": "Abominação Cephilith",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "bruiser",
-    "description": "<p>A lumbering, bog-grown frog beast that has tadpolelike leeches visibly wriggling underneath their translucent skin.</p>",
+    "description": "<p>Uma besta-sapo desajeitada, criada no pântano, com sanguessugas semelhantes a girinos visivelmente se contorcendo sob sua pele translúcida.</p>",
     "tier": 4,
-    "motivesAndTactics": "Do the heavy lifting, leap menacingly, move surprisingly fast, smash and grab",
+    "motivesAndTactics": "Fazer o trabalho pesado, saltar de forma ameaçadora, mover-se surpreendentemente rápido, agarrar e destruir",
     "difficulty": 19,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Meaty Fists",
+      "name": "Punhos Carnudos",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "dh7b1OdDJGfvqL7Q": {
-        "name": "Brute",
+        "name": "Bruto",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Toxic Skin",
+      "name": "Pele Tóxica",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC who comes into physical contact with the Abomination must roll a <strong>d6</strong>. On a result of 3 or lower, the PC must mark an Armor Slot or 2 HP.</p>",
+        "description": "<p>Um PJ que entrar em contato físico com a Abominação deve rolar um <strong>d6</strong>. Em um resultado 3 ou menos, o PJ deve marcar um Espaço de Armadura ou 2 PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -196,7 +194,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Contact",
+            "name": "Contato",
             "range": ""
           }
         },
@@ -215,11 +213,11 @@
       "_key": "!actors.items!XEZbNjjrhyioE7YP.MFkY0BD2EhKp9lTo"
     },
     {
-      "name": "Bear Hug",
+      "name": "Abraço de Urso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against a target within Melee range. On a success, the target takes standard damage and is Grappled until they escape with a successful Strength Roll. While Grappled, the target is <em>Vulnerable</em> and <em>Restrained</em>.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra um alvo em alcance Corpo a Corpo. Em caso de sucesso, o alvo sofre dano padrão e fica Agarrado até escapar com um Teste de Força bem-sucedido. Enquanto estiver Agarrado, o alvo fica <em>Vulnerável</em> e <em>Imobilizado</em>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -245,9 +243,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -310,7 +306,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -321,15 +317,12 @@
       "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
       "effects": [
         {
-          "name": "Bear Hug",
+          "name": "Abraço de Urso",
           "disabled": false,
           "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
-          "description": "<p>You are Grappled until you escape with a successful Strength Roll.</p><p>While Grappled, the target is <em>Vulnerable</em> and <em>Restrained</em>.</p>",
+          "description": "<p>Você está Agarrado até escapar com um Teste de Força bem-sucedido.</p><p>Enquanto estiver Agarrado, o alvo fica <em>Vulnerável</em> e <em>Imobilizado</em>.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable",
-            "restrained"
-          ],
+          "statuses": ["vulnerable", "restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -377,11 +370,11 @@
       "_key": "!actors.items!XEZbNjjrhyioE7YP.bSG0fOnMCgOFVdpP"
     },
     {
-      "name": "Crunch!",
+      "name": "Crocante!",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to deal <strong>4d12</strong> direct physical damage to a creature Grappled by the Abomination.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para causar <strong>4d12</strong> de dano físico direto a uma criatura Agarrada pela Abominação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -407,9 +400,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -447,7 +438,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -466,11 +457,11 @@
       "_key": "!actors.items!XEZbNjjrhyioE7YP.eNlJcvDxqoyCPtW6"
     },
     {
-      "name": "Tongue Attack",
+      "name": "Ataque de Língua",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Abomination pull a target within Far range into Melee range, then immediately spotlight the Abomination again.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer a Abominação puxar um alvo em alcance Distante para o alcance Corpo a Corpo e, em seguida, dar o foco imediatamente à Abominação de novo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -509,7 +500,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -528,11 +519,11 @@
       "_key": "!actors.items!XEZbNjjrhyioE7YP.7DSC9gbRVC7j7nKh"
     },
     {
-      "name": "Burrowing Leechpoles",
+      "name": "Sanguessugas Escavadoras",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Abomination takes Major or greater damage, their skin erupts in an explosion of subcutaneous wrigglers. Each PC within Close range must make an Agility Reaction Roll. Targets who fail are covered in <strong>[[/r 2d4]]</strong> leechpoles, which burrow under their skin. Until the leechpoles are dug out with a successful Finesse Roll (21), any damage the target takes gains a +1 bonus for each leechpole under their skin.</p>",
+        "description": "<p>Quando a Abominação sofre dano Maior ou superior, sua pele explode em uma erupção de vermes subcutâneos. Cada PJ em alcance Próximo deve fazer um Teste de Reação de Agilidade. Alvos que falharem ficam cobertos por <strong>[[/r 2d4]]</strong> sanguessugas, que se enterram sob a pele. Até que as sanguessugas sejam removidas com um Teste de Finesse bem-sucedido (21), todo dano que o alvo sofrer recebe um bônus de +1 para cada sanguessuga sob a pele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -555,7 +546,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Burrowing Leechpoles",
+                "name": "Sanguessugas Escavadoras",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -600,7 +591,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -611,10 +602,10 @@
       "img": "icons/creatures/invertebrates/leech-attack-green.webp",
       "effects": [
         {
-          "name": "Leechpoles",
+          "name": "Sanguessugas",
           "disabled": false,
           "img": "icons/creatures/invertebrates/leech-attack-green.webp",
-          "description": "<p>Until the leechpoles are dug out with a successful Finesse Roll (21), any damage the target takes gains a +1 bonus for each leechpole under their skin.</p>",
+          "description": "<p>Até que as sanguessugas sejam removidas com um Teste de Finesse bem-sucedido (21), todo dano que o alvo sofrer recebe um bônus de +1 para cada sanguessuga sob a pele.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -670,7 +661,7 @@
   "_id": "XEZbNjjrhyioE7YP",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cephilith Abomination",
+    "name": "Abominação Cephilith",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

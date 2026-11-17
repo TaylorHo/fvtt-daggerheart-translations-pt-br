@@ -1,5 +1,5 @@
 {
-  "name": "Outer Realms Thrall",
+  "name": "Servo dos Reinos Exteriores",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "7XHlANCPz18yvl5L",
@@ -21,8 +21,8 @@
     "experiences": {},
     "difficulty": 17,
     "tier": 4,
-    "description": "<p>A vaguely humanoid form stripped of memory and identity.</p>",
-    "motivesAndTactics": "Destroy, disgust, disorient, intimidate",
+    "description": "<p>Uma forma vagamente humanoide, despojada de memória e identidade.</p>",
+    "motivesAndTactics": "Destruir, enojar, desorientar, intimidar",
     "resources": {
       "hitPoints": {
         "value": 0,
@@ -47,9 +47,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -69,7 +67,7 @@
         },
         "resources": {}
       },
-      "name": "Claws and Teeth",
+      "name": "Garras e Dentes",
       "roll": {
         "bonus": 3,
         "type": "attack",
@@ -136,7 +134,7 @@
   "_id": "moJhHgKqTKPS2WYS",
   "sort": 1700000,
   "prototypeToken": {
-    "name": "Outer Realms Thrall",
+    "name": "Servo dos Reinos Exteriores",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Minion (13)",
+      "name": "Lacaio (13)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 13 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. Para cada 13 de dano que um PJ causar ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque seria bem-sucedido.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!moJhHgKqTKPS2WYS.1jaA64hZ2OMdSPYK"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "6VKv71tPUIGGIfkZ": {
@@ -303,9 +301,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -339,7 +335,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

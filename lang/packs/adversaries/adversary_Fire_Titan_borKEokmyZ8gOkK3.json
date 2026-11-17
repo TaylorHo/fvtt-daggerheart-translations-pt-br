@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fire Titan",
+  "name": "Titã de Fogo",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "solo",
-    "description": "<p>An armor-clad goliath who has ash-gray skin and fiery hair and wields a masterwork greatsword crafted in their own smithy.</p>",
+    "description": "<p>Um golias vestido de armadura, com pele cinza-cinzas e cabelos flamejantes, que empunha uma montante de mestre forjada em sua própria forja.</p>",
     "tier": 3,
-    "motivesAndTactics": "Act valorously, make war, think tactically",
+    "motivesAndTactics": "Agir com bravura, fazer guerra, pensar taticamente",
     "difficulty": 18,
     "damageThresholds": {
       "major": 19,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Greatsword",
+      "name": "Montante",
       "img": "icons/weapons/swords/sword-guard-red-jewel.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "hLL2GJm02OJ5N3qp": {
-        "name": "Smithing",
+        "name": "Forja",
         "value": 5,
         "description": ""
       },
       "KZzAn1MwdPazyLLq": {
-        "name": "Tactics",
+        "name": "Táticas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,21 +165,21 @@
       "_key": "!actors.items!borKEokmyZ8gOkK3.YlCbUXn7uh8hmVQs"
     },
     {
-      "name": "Masterwork Armor",
+      "name": "Armadura de Mestre",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (3). When the Titan first appears, activate the countdown. It ticks down when the Titan takes Major or Severe damage. Until the countdown triggers, reduce incoming damage by <strong>1d12</strong>. When it triggers, the Titan gains a +1 bonus to their Difficulty and attack rolls.</p>",
+        "description": "<p>Contagem Regressiva (3). Quando o Titã aparecer pela primeira vez, ative a contagem regressiva. Ela avança quando o Titã sofrer dano Maior ou Grave. Até a contagem regressiva disparar, reduza o dano recebido em <strong>1d12</strong>. Quando ela disparar, o Titã recebe um bônus de +1 em sua Dificuldade e nos testes de ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "OF01PgCtbYidpp9i": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Masterwork Armor",
+                "name": "Armadura de Mestre",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
@@ -220,7 +218,7 @@
             "_id": "wjxg7DKqkTMMZQG6",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, the Titan gains a +1 bonus to their Difficulty and attack rolls.</p>",
+            "description": "<p>Quando ela disparar, o Titã recebe um bônus de +1 em sua Dificuldade e nos testes de ataque.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -245,7 +243,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": "self"
           }
         },
@@ -256,10 +254,10 @@
       "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
       "effects": [
         {
-          "name": "Broken Armor",
+          "name": "Armadura Quebrada",
           "disabled": false,
           "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
-          "description": "<p>The Titan gains a +1 bonus to their Difficulty and attack rolls.</p>",
+          "description": "<p>O Titã recebe um bônus de +1 em sua Dificuldade e nos testes de ataque.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -289,9 +287,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -332,11 +328,11 @@
       "_key": "!actors.items!borKEokmyZ8gOkK3.YUMQEamNAhygXnBu"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Titan makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o Titã fizer um ataque bem-sucedido contra um PJ, você recebe 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -356,11 +352,11 @@
       "_key": "!actors.items!borKEokmyZ8gOkK3.aHGHtfEbItbHHGXa"
     },
     {
-      "name": "Hurl Rock",
+      "name": "Arremessar Rocha",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to choose a point within Far range, then make an attack against all targets between the Titan and that point. Targets the Titan succeeds against take <strong>3d12</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher um ponto dentro do alcance Distante e então fazer um ataque contra todos os alvos entre o Titã e esse ponto. Alvos contra os quais o Titã for bem-sucedido sofrem <strong>3d12</strong> de dano físico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -386,9 +382,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -406,7 +400,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Hurl Rock",
+                "name": "Arremessar Rocha",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -446,7 +440,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -465,11 +459,11 @@
       "_key": "!actors.items!borKEokmyZ8gOkK3.JtCBTVjwPIpVg5dO"
     },
     {
-      "name": "Skull Splitter",
+      "name": "Racha-Crânios",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to place a token on this stat block. The next time the Titan is spotlighted, you must spend the token from this stat block and make an attack against a PC within Close range. On a success, deal <strong>3d20+5</strong> direct physical damage. On a failure, the target marks a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para colocar um token nesta ficha. Na próxima vez que o Titã for colocado em destaque, você deve gastar o token desta ficha e fazer um ataque contra um PJ dentro do alcance Próximo. Em caso de sucesso, cause <strong>3d20+5</strong> de dano físico direto. Em caso de falha, o alvo marca 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": {
@@ -555,7 +549,7 @@
               },
               "useDefault": false
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "self"
           },
           "Fy3CLnChxJEjGNoK": {
@@ -579,9 +573,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -590,7 +582,7 @@
             "_id": "Fy3CLnChxJEjGNoK",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>The next time the Titan is spotlighted, you must spend the token from this stat block and make an attack against a PC within Close range. On a success, deal <strong>3d20+5</strong> direct physical damage. On a failure, the target marks a Stress.</p>",
+            "description": "<p>Na próxima vez que o Titã for colocado em destaque, você deve gastar o token desta ficha e fazer um ataque contra um PJ dentro do alcance Próximo. Em caso de sucesso, cause <strong>3d20+5</strong> de dano físico direto. Em caso de falha, o alvo marca 1 Fadiga.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -658,11 +650,11 @@
       "_key": "!actors.items!borKEokmyZ8gOkK3.JU15za0bgkRuliRN"
     },
     {
-      "name": "Blazing Heart",
+      "name": "Coração Flamejante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Titan marks half or more of their HP, you can <strong>spend a Fear</strong> and mark any number of Stress to clear a number of HP equal to the number of Stress marked.</p>",
+        "description": "<p>Quando o Titã marcar metade ou mais de seus PV, você pode <strong>gastar 1 Medo</strong> e marcar qualquer quantidade de Fadiga para recuperar uma quantidade de PV igual ao número de Fadiga marcado.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -747,7 +739,7 @@
               },
               "useDefault": false
             },
-            "name": "Heal",
+            "name": "Curar",
             "range": "self"
           }
         },
@@ -769,7 +761,7 @@
   "_id": "borKEokmyZ8gOkK3",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fire Titan",
+    "name": "Titã de Fogo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

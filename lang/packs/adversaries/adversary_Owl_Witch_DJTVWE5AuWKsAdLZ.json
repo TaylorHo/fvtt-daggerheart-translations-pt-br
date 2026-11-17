@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Owl Witch",
+  "name": "Bruxa-Coruja",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "support",
-    "description": "<p>A giant, vengeful barn owl that has a 15-foot wingspan and a human face.</p>",
+    "description": "<p>Uma coruja-das-torres gigante e vingativa, com 4,5 metros de envergadura e um rosto humano.</p>",
     "tier": 4,
-    "motivesAndTactics": "Consume essence, curse, predict death",
+    "motivesAndTactics": "Consumir essência, amaldiçoar, prever a morte",
     "difficulty": 19,
     "damageThresholds": {
       "major": 27,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Razor Talons",
+      "name": "Garras Afiadas",
       "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "kK7baYaUYhGwXT6l": {
-        "name": "Magic",
+        "name": "Magia",
         "value": 2,
         "description": ""
       },
       "U0wito1N2EIw0ZX9": {
-        "name": "Night Stalker",
+        "name": "Espreitador Noturno",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Ill Omen",
+      "name": "Mau Presságio",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When a PC within Close range makes an action roll, their Fear Die gains a bonus equal to the amount of Fear you have.</p>",
+        "description": "<p>Quando um PJ em alcance Próximo faz uma rolagem de ação, seu Dado de Medo recebe um bônus igual à quantidade de Medo que você tem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!DJTVWE5AuWKsAdLZ.oiBhMfUNn9bCEdmX"
     },
     {
-      "name": "Witch Barrier",
+      "name": "Barreira da Bruxa",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to magic damage.</p>",
+        "description": "<p>O @Lookup[@name] tem resistência a dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -183,7 +181,7 @@
       "img": "icons/magic/symbols/runes-triangle-magenta.webp",
       "effects": [
         {
-          "name": "Witch Barrier",
+          "name": "Barreira da Bruxa",
           "type": "base",
           "system": {
             "changes": [
@@ -221,7 +219,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Owl Witch has resistance to magic damage.</p>",
+          "description": "<p>A Bruxa-Coruja tem resistência a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -244,11 +242,11 @@
       "_key": "!actors.items!DJTVWE5AuWKsAdLZ.q3k7aTwqNIwjfKTd"
     },
     {
-      "name": "Voice Mimicry",
+      "name": "Imitação de Voz",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] beckon with the voice of a beloved figure to a creature within earshot. The target must succeed on an Instinct Reaction Roll or move up to Far range toward the @Lookup[@name].</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o @Lookup[@name] chamar, com a voz de uma figura querida, uma criatura ao alcance da voz. O alvo deve ter sucesso em um Teste de Reação de Instinto ou se mover até alcance Distante em direção ao @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -311,7 +309,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -330,11 +328,11 @@
       "_key": "!actors.items!DJTVWE5AuWKsAdLZ.SDq4QlTBkrX0v5mZ"
     },
     {
-      "name": "Nightmare Stare",
+      "name": "Olhar de Pesadelo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] Afflict a PC within Far range with waking nightmares unless the target succeeds on a Knowledge Reaction Roll. While Afflicted, the target can't clear HP or Stress. The condition is cleared when another PC uses a downtime move to comfort the Afflicted creature.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer o @Lookup[@name] Afligir um PJ em alcance Distante com pesadelos em vigília, a menos que o alvo tenha sucesso em um Teste de Reação de Conhecimento. Enquanto Afligido, o alvo não pode limpar PV ou Fadiga. A condição é removida quando outro PJ usa um movimento de intervalo para confortar a criatura Afligida.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -402,7 +400,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "far"
           }
         },
@@ -413,10 +411,10 @@
       "img": "icons/magic/death/skull-humanoid-white-red.webp",
       "effects": [
         {
-          "name": "Afflicted",
+          "name": "Afligido",
           "disabled": false,
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
-          "description": "<p>While Afflicted, you can't clear HP or Stress. The condition is cleared when another PC uses a downtime move to comfort you.</p>",
+          "description": "<p>Enquanto Afligido, você não pode limpar PV ou Fadiga. A condição é removida quando outro PJ usa um movimento de intervalo para confortar você.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -466,11 +464,11 @@
       "_key": "!actors.items!DJTVWE5AuWKsAdLZ.JQ0bdv1Gnb0VD4Gm"
     },
     {
-      "name": "Visions of a Violent End",
+      "name": "Visões de um Fim Violento",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] is targeted by an attack, you can <strong>spend a Fear</strong> to force the attacker to make a Presence Reaction Roll. On a failure, they must mark <strong>1d4</strong> Stress as their mind is flooded with harrowing imagery.</p>",
+        "description": "<p>Quando o @Lookup[@name] é alvo de um ataque, você pode <strong>gastar 1 de Medo</strong> para forçar o atacante a fazer um Teste de Reação de Presença. Em caso de falha, ele deve marcar <strong>1d4</strong> Fadiga enquanto sua mente é inundada por imagens angustiantes.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -552,7 +550,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -574,7 +572,7 @@
   "_id": "DJTVWE5AuWKsAdLZ",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Owl Witch",
+    "name": "Bruxa-Coruja",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

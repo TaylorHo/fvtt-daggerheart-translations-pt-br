@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Cephilith Priest",
+  "name": "Sacerdote de Cephilith",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "leader",
-    "description": "<p>A perpetually moist, faceless humanoid from the Outer Realms who has elongated fingers and translucent skin, under which one can see wriggling worms.</p>",
+    "description": "<p>Um humanoide sem rosto, perpetuamente úmido, dos Reinos Exteriores, com dedos alongados e pele translúcida, sob a qual se veem vermes se contorcendo.</p>",
     "tier": 4,
-    "motivesAndTactics": "Break the unbelievers' minds, prepare this world for the Cephilith Titan's arrival, sing its praises",
+    "motivesAndTactics": "Quebrar a mente dos descrentes, preparar este mundo para a chegada do Titã de Cephilith, entoar seus louvores",
     "difficulty": 20,
     "damageThresholds": {
       "major": 37,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Psychic Strike",
+      "name": "Golpe Psíquico",
       "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "p655EkVGRtLPmFzU": {
-        "name": "Outer Realms",
+        "name": "Reinos Exteriores",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Psychic Blast",
+      "name": "Rajada Psíquica",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose up to three PCs within Close range and force them to make a Knowledge Reaction Roll. Targets who succeed take <strong>2d10+5</strong> direct magic damage. Targets who fail take <strong>4d10+10</strong> direct magic damage and are <em>Vulnerable</em> until spotlighted.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher até três PJs em alcance Próximo e forçá-los a fazer um Teste de Reação de Conhecimento. Alvos que forem bem-sucedidos sofrem <strong>2d10+5</strong> de dano mágico direto. Alvos que falharem sofrem <strong>4d10+10</strong> de dano mágico direto e ficam <em>Vulneráveis</em> até receberem o foco.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -233,7 +229,7 @@
               "difficulty": null,
               "damageMod": "doubleOnFail"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -244,14 +240,12 @@
       "img": "icons/magic/unholy/orb-beam-pink.webp",
       "effects": [
         {
-          "name": "Psychic Blast",
+          "name": "Rajada Psíquica",
           "disabled": false,
           "img": "icons/magic/unholy/orb-beam-pink.webp",
-          "description": "<p>You are <em>Vulnerable</em> until spotlighted.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até receber o foco.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -299,11 +293,11 @@
       "_key": "!actors.items!2G7IfajsxWczY04t.cVDi7HxrpgdaKIps"
     },
     {
-      "name": "Cerebral Incursion",
+      "name": "Incursão Cerebral",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a <em>Vulnerable</em> target within Melee range. The Priest grabs the target and inserts their elongated fingers into the target's ears, nose, and mouth. The target must succeed on a Strength Reaction Roll or mark <strong>1d6</strong> Stress, and the Priest clears an equal number of Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo <em>Vulnerável</em> em alcance Corpo a Corpo. O Sacerdote agarra o alvo e insere seus dedos alongados nos ouvidos, no nariz e na boca dele. O alvo deve ser bem-sucedido em um Teste de Reação de Força ou marcar <strong>1d6</strong> de Fadiga, e o Sacerdote limpa um número igual de Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -385,7 +379,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "melee"
           }
         },
@@ -404,11 +398,11 @@
       "_key": "!actors.items!2G7IfajsxWczY04t.WXxRFMvq0LjWyNEj"
     },
     {
-      "name": "Telekinetic Grasp",
+      "name": "Agarre Telecinético",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Priest makes a successful standard attack against a PC, you can <strong>mark a Stress</strong> to <em>Restrain</em> the target until they <strong>spend a Hope</strong>.</p>",
+        "description": "<p>Quando o Sacerdote faz um ataque padrão bem-sucedido contra um PJ, você pode <strong>marcar 1 Fadiga</strong> para <em>Restringir</em> o alvo até que ele <strong>gaste uma Esperança</strong>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -452,7 +446,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -463,14 +457,12 @@
       "img": "icons/magic/control/debuff-chains-purple.webp",
       "effects": [
         {
-          "name": "Grasped",
+          "name": "Agarrado",
           "disabled": false,
           "img": "icons/magic/control/debuff-chains-purple.webp",
-          "description": "<p>You are <em>Restrained</em> until you spend a Hope.</p>",
+          "description": "<p>Você está <em>Restrito</em> até gastar uma Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -521,7 +513,7 @@
   "_id": "2G7IfajsxWczY04t",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Cephilith Priest",
+    "name": "Sacerdote de Cephilith",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

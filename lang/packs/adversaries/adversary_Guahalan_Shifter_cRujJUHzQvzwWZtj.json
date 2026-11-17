@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Guahalan Shifter",
+  "name": "Metamorfo Guahalano",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "standard",
-    "description": "<p>A shapeshifting masked warrior who has animalistic features.</p>",
+    "description": "<p>Um guerreiro mascarado metamorfo com características animalescas.</p>",
     "tier": 2,
-    "motivesAndTactics": "Escape, profit, throw smoke",
+    "motivesAndTactics": "Escapar, lucrar, lançar fumaça",
     "difficulty": 15,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Warclub",
+      "name": "Clava de Guerra",
       "img": "icons/weapons/clubs/club-heavy-barbed-grey.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "5eURENe7f4fFMEf2": {
-        "name": "Hunter",
+        "name": "Caçadora",
         "value": 2,
         "description": ""
       },
       "FewEbRc25H1vuu34": {
-        "name": "Trapper",
+        "name": "Caçador de Armadilhas",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Unleash the Beast",
+      "name": "Libertar a Fera",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Shifter adopt a more bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Metamorfo assumir uma forma mais bestial. Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,7 +189,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -202,10 +200,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "effects": [
         {
-          "name": "Unleash the Beast",
+          "name": "Libertar a Fera",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
-          "description": "<p>While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+          "description": "<p>Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -235,9 +233,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -278,11 +274,11 @@
       "_key": "!actors.items!cRujJUHzQvzwWZtj.hm59cVjpGREZwPQ8"
     },
     {
-      "name": "Pack Attack",
+      "name": "Ataque em Matilha",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack. On a success, the attack gains a bonus to damage equal to the number of other Shifters within Very Close range of the target.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para realizar um ataque padrão. Em caso de sucesso, o ataque recebe um bônus de dano igual ao número de outros Metamorfos dentro do alcance Muito Perto do alvo.</p>",
         "attribution": {},
         "gmNotes": "<p>Add the additional damage as a Situation Bonus in the damage roll.</p>",
         "resource": null,
@@ -308,9 +304,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -368,7 +362,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -390,7 +384,7 @@
   "_id": "cRujJUHzQvzwWZtj",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Guahalan Shifter",
+    "name": "Metamorfo Guahalano",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

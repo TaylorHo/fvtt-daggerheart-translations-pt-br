@@ -4,9 +4,9 @@
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A majestic green water bird that has a ten-foot wingspan and is hunted for the fortune-telling stone inside their stomach.</p>",
+    "description": "<p>Uma majestosa ave aquática verde com três metros de envergadura, caçada pela pedra de adivinhação em seu estômago.</p>",
     "tier": 1,
-    "motivesAndTactics": "Avoid, escape, misdirect",
+    "motivesAndTactics": "Evitar, escapar, despistar",
     "difficulty": 12,
     "damageThresholds": {
       "major": 8,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Talons",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "lvDciVcovOcl9lxp": {
-        "name": "Flight",
+        "name": "Voo",
         "value": 3,
         "description": ""
       },
       "q0Cy3MxJ2IVoD3n4": {
-        "name": "Jungles",
+        "name": "Selvas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Wind Lord",
+      "name": "Senhor dos Ventos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While the @Lookup[@name] is flying, attacks against it is made with disadvantage.</p>",
+        "description": "<p>Enquanto @Lookup[@name] está voando, ataques contra ele são feitos com desvantagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!bXuRtHS6diPWAJKA.y5zfcEnGcTaBtOcF"
     },
     {
-      "name": "Stone of Omens",
+      "name": "Pedra dos Presságios",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Inside the @Lookup[@name] is a stone that foretells good or ill fortune, depending on its color. A PC who searches the @Lookup[@name]'s remains finds the stone and makes a fate roll. On an even result, the PC gains Hope equal to half the result, which they can distribute among the PCs however they wish. On an odd result, you gain Fear equal to half the result.</p><p>[[/fr]]</p>",
+        "description": "<p>Dentro de @Lookup[@name] há uma pedra que prevê boa ou má sorte, dependendo de sua cor. Um PJ que revistar os restos de @Lookup[@name] encontra a pedra e faz uma rolagem de destino. Em um resultado par, o PJ ganha Esperança igual à metade do resultado, que pode distribuir entre os PJs como desejar. Em um resultado ímpar, você ganha Medo igual à metade do resultado.</p><p>[[/fr]]</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,11 +189,11 @@
       "_key": "!actors.items!bXuRtHS6diPWAJKA.46qqHZuEI7P7ZXt8"
     },
     {
-      "name": "Archer's Bane",
+      "name": "Flagelo dos Arqueiros",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a creature beyond Very Close range would deal damage to the @Lookup[@name] with a weapon attack, you can <strong>spend a Fear</strong> to make an attack roll against them. On a success, whirling winds reflect the attack and deal the attacker's damage back to them.</p>",
+        "description": "<p>Quando uma criatura além do alcance Muito Próximo causaria dano a @Lookup[@name] com um ataque de arma, você pode <strong>gastar 1 de Medo</strong> para fazer um teste de ataque contra ela. Em caso de sucesso, ventos giratórios refletem o ataque e devolvem ao atacante o dano que ele causaria.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -258,7 +256,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },

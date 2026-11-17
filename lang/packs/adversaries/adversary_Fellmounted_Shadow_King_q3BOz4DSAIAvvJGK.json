@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fellmounted Shadow King",
+  "name": "Rei das Sombras Montado em Fellmount",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "support",
-    "description": "<p>The shade of a forgotten ruler, cursed to patrol the skies atop a winged eel in the service of an even greater evil.</p>",
+    "description": "<p>A sombra de um governante esquecido, amaldiçoado a patrulhar os céus sobre uma enguia alada a serviço de um mal ainda maior.</p>",
     "tier": 3,
-    "motivesAndTactics": "Find magic items, inspire fear, patrol skies",
+    "motivesAndTactics": "Encontrar itens mágicos, inspirar medo, patrulhar os céus",
     "difficulty": 15,
     "damageThresholds": {
       "major": 24,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Cursed Lance",
+      "name": "Lança Amaldiçoada",
       "img": "icons/weapons/polearms/spear-flared-purple.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "4h5VHlsEnMdJg465": {
-        "name": "Seeker",
+        "name": "Buscador",
         "value": 3,
         "description": ""
       }
@@ -142,7 +140,7 @@
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>While the Shadow King is on his mount, he gains a +2 bonus to his Difficulty. When the Shadow King takes Severe damage, he's knocked from his mount. If the Shadow King is unmounted, his mount disappears until you mark a Stress to summon it again.</p>",
+        "description": "<p>Enquanto o Rei das Sombras estiver em sua montaria, ele recebe um bônus de +2 em sua Dificuldade. Quando o Rei das Sombras sofrer dano Grave, ele é derrubado de sua montaria. Se o Rei das Sombras estiver desmontado, sua montaria desaparece até que você marque 1 Fadiga para invocá-la novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -154,7 +152,7 @@
       "img": "icons/creatures/fish/fish-bioluminous-blue.webp",
       "effects": [
         {
-          "name": "Mounted",
+          "name": "Montado",
           "type": "base",
           "system": {
             "changes": [
@@ -192,7 +190,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While the Shadow King is on his mount, he gains a +2 bonus to his Difficulty. When the Shadow King takes Severe damage, he's knocked from his mount. If the Shadow King is unmounted, his mount disappears until you mark a Stress to summon it again.</p>",
+          "description": "<p>Enquanto o Rei das Sombras estiver em sua montaria, ele recebe um bônus de +2 em sua Dificuldade. Quando o Rei das Sombras sofrer dano Grave, ele é derrubado de sua montaria. Se o Rei das Sombras estiver desmontado, sua montaria desaparece até que você marque 1 Fadiga para invocá-la novamente.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -215,11 +213,11 @@
       "_key": "!actors.items!q3BOz4DSAIAvvJGK.qGCf81nK10Og7mpt"
     },
     {
-      "name": "Light and Shadow",
+      "name": "Luz e Sombra",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Shadow King has advantage on attack rolls while in shadow or darkness and disadvantage on attack rolls while in bright light.</p>",
+        "description": "<p>O Rei das Sombras tem vantagem em testes de ataque enquanto estiver na sombra ou na escuridão e desvantagem em testes de ataque enquanto estiver sob luz intensa.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -231,7 +229,7 @@
       "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
       "effects": [
         {
-          "name": "Light and Shadow",
+          "name": "Luz e Sombra",
           "type": "base",
           "system": {
             "changes": [
@@ -276,7 +274,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Shadow King has advantage on attack rolls while in shadow or darkness and disadvantage on attack rolls while in bright light.</p>",
+          "description": "<p>O Rei das Sombras tem vantagem em testes de ataque enquanto estiver na sombra ou na escuridão e desvantagem em testes de ataque enquanto estiver sob luz intensa.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -299,11 +297,11 @@
       "_key": "!actors.items!q3BOz4DSAIAvvJGK.biHR6taBVH4KDrRg"
     },
     {
-      "name": "Relic Hunter",
+      "name": "Caçador de Relíquias",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Shadow King has advantage on attack rolls against PCs who have magic weapons or armor equipped.</p>",
+        "description": "<p>O Rei das Sombras tem vantagem em testes de ataque contra PJs que tenham armas ou armaduras mágicas equipadas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -315,7 +313,7 @@
       "img": "icons/commodities/treasure/stone-cracked-lightning-blue.webp",
       "effects": [
         {
-          "name": "Relic Hunter",
+          "name": "Caçador de Relíquias",
           "type": "base",
           "system": {
             "changes": [
@@ -353,7 +351,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Shadow King has advantage on attack rolls against PCs who have magic weapons or armor equipped.</p>",
+          "description": "<p>O Rei das Sombras tem vantagem em testes de ataque contra PJs que tenham armas ou armaduras mágicas equipadas.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -376,11 +374,11 @@
       "_key": "!actors.items!q3BOz4DSAIAvvJGK.XovVA3ukIIrcNraP"
     },
     {
-      "name": "Hellsong",
+      "name": "Canção Infernal",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend 2 Fear</strong> to have the Shadow King's mount unleash a spine-chilling screech that echoes over the battlefield. Each PC within Far range must make a Presence Reaction Roll (18). Targets who succeed must mark a Stress. Targets who fail must mark a Stress and lose a Hope. If a PC can't lose a Hope, you gain 2 Fear.</p>",
+        "description": "<p><strong>Gaste 2 Medo</strong> para fazer a montaria do Rei das Sombras soltar um guincho de gelar a espinha que ecoa pelo campo de batalha. Cada PJ dentro do alcance Distante deve fazer um Teste de Reação de Presença (18). Alvos que forem bem-sucedidos devem marcar 1 Fadiga. Alvos que falharem devem marcar 1 Fadiga e perder 1 Esperança. Se um PJ não puder perder Esperança, você recebe 2 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -403,7 +401,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Hellsong",
+                "name": "Canção Infernal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -452,7 +450,7 @@
               "difficulty": 18,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -471,11 +469,11 @@
       "_key": "!actors.items!q3BOz4DSAIAvvJGK.c5tmMQ8XqlbWxg1E"
     },
     {
-      "name": "Air Support",
+      "name": "Apoio Aéreo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Three times per scene, you can <strong>spend a Fear</strong> to have an ally within Far range reroll a failed attack with advantage.</p>",
+        "description": "<p>Três vezes por cena, você pode <strong>gastar 1 Medo</strong> para fazer um aliado dentro do alcance Distante refazer com vantagem um ataque que falhou.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -514,7 +512,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -536,7 +534,7 @@
   "_id": "q3BOz4DSAIAvvJGK",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fellmounted Shadow King",
+    "name": "Rei das Sombras Montado em Fellmount",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

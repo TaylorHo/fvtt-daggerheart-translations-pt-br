@@ -1,5 +1,5 @@
 {
-  "name": "Patchwork Zombie Hulk",
+  "name": "Colosso Zumbi Remendado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Absorb corpses, flail, hunger, terrify",
+    "motivesAndTactics": "Absorver cadáveres, esmurrar, ter fome, aterrorizar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "rLPEhboQmaD7QV7T": {
-        "name": "Intimidation",
+        "name": "Intimidação",
         "value": 2,
         "description": ""
       },
       "ejtjcqd5oW6eKnav": {
-        "name": "Tear Things Apart",
+        "name": "Despedaçar Tudo",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A towering gestalt of corpses moving as one, with torso-sized limbs and fists as large as a grown halfling.</p>",
+    "description": "<p>Um gestalt imponente de cadáveres movendo-se como um só, com membros do tamanho de troncos e punhos tão grandes quanto um halfling adulto.</p>",
     "attack": {
-      "name": "Too Many Arms",
+      "name": "Braços Demais",
       "range": "veryClose",
       "roll": {
         "bonus": 4,
@@ -79,9 +79,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "EQTOAOUrkIvS2z88",
   "sort": 2500000,
   "prototypeToken": {
-    "name": "Patchwork Zombie Hulk",
+    "name": "Colosso Zumbi Remendado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,12 +238,12 @@
   },
   "items": [
     {
-      "name": "Destructible",
+      "name": "Destrutível",
       "type": "feature",
       "_id": "rEJ1kAfhHQZWhrZj",
       "img": "icons/commodities/biological/hand-clawed-tan.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] takes Major or greater damage, they mark an additional HP.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano Maior ou superior, ele marca 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "Y8LQe5TzbdK2mOG9": {
@@ -275,9 +273,7 @@
                   "bonus": null
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -293,7 +289,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark HP",
+            "name": "Marcar PV",
             "img": "icons/commodities/biological/hand-clawed-tan.webp",
             "range": "",
             "baseAction": false,
@@ -320,12 +316,12 @@
       "_key": "!actors.items!EQTOAOUrkIvS2z88.rEJ1kAfhHQZWhrZj"
     },
     {
-      "name": "Flailing Limbs",
+      "name": "Membros Desgovernados",
       "type": "feature",
       "_id": "0fn7rVLwBnyCyvTA",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a standard attack, they can attack all targets within Very Close range.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque padrão, ele pode atacar todos os alvos em alcance Muito Próximo.</p>",
         "resource": null,
         "actions": {
           "ngl1xlJT4IOh3bkJ": {
@@ -342,7 +338,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Flailing Limbs",
+                "name": "Membros Desgovernados",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -382,12 +378,12 @@
       "_key": "!actors.items!EQTOAOUrkIvS2z88.0fn7rVLwBnyCyvTA"
     },
     {
-      "name": "Another for the Pile",
+      "name": "Mais Um para a Pilha",
       "type": "feature",
       "_id": "gw1Z2VazlRXYCiCK",
       "img": "icons/magic/death/skull-trio-badge-purple.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] is within Very Close range of a corpse, they can incorporate it into themselves, clearing a HP and a Stress.</p>",
+        "description": "<p>Quando o @Lookup[@name] está em alcance Muito Próximo de um cadáver, ele pode incorporá-lo a si mesmo, limpando 1 PV e 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "PfaFRZKFnHGg6mU4": {
@@ -465,7 +461,7 @@
               },
               "useDefault": false
             },
-            "name": "Heal",
+            "name": "Curar",
             "img": "icons/magic/death/skull-trio-badge-purple.webp",
             "range": "self",
             "baseAction": false,
@@ -492,12 +488,12 @@
       "_key": "!actors.items!EQTOAOUrkIvS2z88.gw1Z2VazlRXYCiCK"
     },
     {
-      "name": "Tormented Screams",
+      "name": "Gritos Atormentados",
       "type": "feature",
       "_id": "uTtQwNg46NAjgzuD",
       "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to cause all PCs within Far range to make a Presence Reaction Roll (13). Targets who fail lose a Hope and you gain a Fear for each. Targets who succeed must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer todos os PJs em alcance Distante fazerem um Teste de Reação de Presença (13). Alvos que falharem perdem 1 Esperança e você ganha 1 de Medo para cada um. Alvos que tiverem sucesso devem marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "2NYC0D7wkBNrUAKl": {
@@ -571,12 +567,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Tormented Screams",
+                "name": "Gritos Atormentados",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",

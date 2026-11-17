@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Common Ruffian",
+  "name": "Valentão Comum",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>A local laborer or artisan pushed by circumstances to assail others.</p>",
+    "description": "<p>Um trabalhador ou artesão local levado pelas circunstâncias a agredir os outros.</p>",
     "tier": 1,
-    "motivesAndTactics": "Do violence, seek security and survival",
+    "motivesAndTactics": "Praticar violência, buscar segurança e sobrevivência",
     "difficulty": 12,
     "damageThresholds": {
       "major": 6,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Improvised Weapon",
+      "name": "Arma Improvisada",
       "img": "icons/weapons/clubs/club-barbed-square-black.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "OD05o4Zfl2hwZLvi": {
-        "name": "Desperate",
+        "name": "Desesperado",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all Ruffians within Close range of them. The Ruffians move into Melee range of the target and make one shared attack roll. On a success, they deal <strong>1d8</strong> physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os Valentões em alcance Próximo dele. Os Valentões se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa <strong>1d8</strong> de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -228,7 +224,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -247,11 +243,11 @@
       "_key": "!actors.items!JQN5j1AB0VwV0AWN.sLpf8vqxOlxYUHZN"
     },
     {
-      "name": "Survival Instinct",
+      "name": "Instinto de Sobrevivência",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Ruffian marks half their HP, roll a <strong>d6</strong>. On a result of 4 or higher, the Ruffian flees the scene. Otherwise, you gain a Fear.</p>",
+        "description": "<p>Quando o Valentão marca metade de seus PV, role um <strong>d6</strong>. Com resultado 4 ou mais, o Valentão foge da cena. Caso contrário, você ganha um Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -305,7 +301,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Flee Check",
+            "name": "Teste de Fuga",
             "range": ""
           }
         },
@@ -327,7 +323,7 @@
   "_id": "JQN5j1AB0VwV0AWN",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Common Ruffian",
+    "name": "Valentão Comum",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

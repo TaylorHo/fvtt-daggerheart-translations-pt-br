@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Entombed Skin Beetles",
+  "name": "Besouros Devoradores de Pele Sepultados",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "horde",
-    "description": "<p>Flesh-eating beetles that burrow beneath the skin.</p>",
+    "description": "<p>Besouros carnívoros que se enterram sob a pele.</p>",
     "tier": 2,
-    "motivesAndTactics": "Carpet the ground, consume the living, crawl under clothing",
+    "motivesAndTactics": "Cobrir o chão, consumir os vivos, rastejar sob as roupas",
     "difficulty": 14,
     "damageThresholds": {
       "major": 10,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Pincers",
+      "name": "Pinças",
       "img": "icons/commodities/biological/mouth-pincer-brown.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "LRc5r4uwD6K538NX": {
-        "name": "Tombs",
+        "name": "Tumbas",
         "value": 3,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Omophagous",
+      "name": "Omófago",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Mark a HP to have 5 Beetles burrow under the skin of a PC within Melee range, forcing them to mark a Stress and Infecting them. While Infected, the target takes 6 direct physical damage every time they roll with Fear. This condition is cleared when the PC clears a HP or a Stress.</p>",
+        "description": "<p>Marque 1 PV para fazer 5 Besouros se enterrarem sob a pele de um PJ dentro do alcance Corpo a Corpo, forçando-o a marcar 1 Fadiga e deixando-o Infectado. Enquanto Infectado, o alvo sofre 6 de dano físico direto toda vez que fizer uma rolagem com Medo. Essa condição é removida quando o PJ recuperar 1 PV ou 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -224,10 +222,10 @@
       "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
       "effects": [
         {
-          "name": "Infected",
+          "name": "Infectado",
           "disabled": false,
           "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
-          "description": "<p>While Infected, you takes 6 direct physical damage every time you roll with Fear. This condition is cleared when you clear a HP or a Stress.</p>",
+          "description": "<p>Enquanto Infectado, você sofre 6 de dano físico direto toda vez que fizer uma rolagem com Medo. Essa condição é removida quando você recuperar 1 PV ou 1 Fadiga.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -277,11 +275,11 @@
       "_key": "!actors.items!BSLBG7hQ9K1HGlU6.TO8FKfEWHZ29FQh8"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the Beetles make a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando os Besouros fizerem um ataque bem-sucedido contra um PJ, você recebe 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -302,10 +300,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -321,7 +319,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "showIcon": 2,
           "system": {
@@ -390,7 +388,7 @@
   "_id": "BSLBG7hQ9K1HGlU6",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Entombed Skin Beetles",
+    "name": "Besouros Devoradores de Pele Sepultados",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Water Mother",
+  "name": "Mãe das Águas",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A colossal fur-covered snake that hunts in large bodies of water.</p>",
+    "description": "<p>Uma colossal serpente coberta de pelos que caça em grandes corpos d'água.</p>",
     "tier": 4,
-    "motivesAndTactics": "Constrict the world, control the battlefield, draw enemies into the water",
+    "motivesAndTactics": "Constringir o mundo, controlar o campo de batalha, arrastar inimigos para a água",
     "difficulty": 20,
     "damageThresholds": {
       "major": 40,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "qFytUFWveEoxr9zb": {
-        "name": "Rivers",
+        "name": "Rios",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Segmented",
+      "name": "Segmentada",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name]'s body is divided into three segments: Head, Center, and Tail. The @Lookup[@name] always moves from the Head first, pulling the Center and then Tail behind it. A creature can target the @Lookup[@name] with an attack as long as at least one of her segments is within range, but the @Lookup[@name] can make a standard attack only against a target within range of her Head. If an attack deals damage to the @Lookup[@name] and her Head is within range, the attack deals an extra <strong>1d10</strong> damage.</p>",
+        "description": "<p>O corpo de @Lookup[@name] é dividido em três segmentos: Cabeça, Centro e Cauda. @Lookup[@name] sempre se move pela Cabeça primeiro, puxando o Centro e depois a Cauda atrás de si. Uma criatura pode atacar @Lookup[@name] enquanto pelo menos um de seus segmentos estiver em alcance, mas @Lookup[@name] só pode fazer um ataque padrão contra um alvo em alcance de sua Cabeça. Se um ataque causar dano a @Lookup[@name] e a Cabeça dela estiver em alcance, o ataque causa <strong>1d10</strong> de dano extra.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!vXYRAVdCo7812o1g.5cxpr0Fie0sBbZWL"
     },
     {
-      "name": "Eat the World",
+      "name": "Devorar o Mundo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] inhale sharply. Each PC within Close range of her Head must succeed on a Strength Reaction Roll or mark a Stress and be pulled within Melee range of the Head. The @Lookup[@name] then makes a standard attack against all targets within Melee range of her Head.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] inspirar profundamente. Cada PJ em alcance Próximo de sua Cabeça deve ter sucesso em um Teste de Reação de Força ou marcar 1 de Fadiga e ser puxado para alcance Corpo a Corpo da Cabeça. Então @Lookup[@name] faz um ataque padrão contra todos os alvos em alcance Corpo a Corpo de sua Cabeça.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -208,7 +206,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Eat the World",
+                "name": "Devorar o Mundo",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -257,7 +255,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -276,11 +274,11 @@
       "_key": "!actors.items!vXYRAVdCo7812o1g.3R0HRksFmQaKyLk4"
     },
     {
-      "name": "Constrict",
+      "name": "Constringir",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Melee range of the Center segment. Targets the attack succeeds against take <strong>4d8+8</strong> physical damage and are temporarily <em>Restrained</em>. At the beginning of each GM turn, you can <strong>mark a Stress</strong> to force all targets <em>Restrained</em> by the @Lookup[@name] to mark a HP.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para fazer um ataque contra todos os alvos em alcance Corpo a Corpo do segmento Centro. Alvos contra os quais o ataque tiver sucesso sofrem <strong>4d8+8</strong> de dano físico e ficam temporariamente <em>Imobilizados</em>. No início de cada turno do Mestre, você pode <strong>marcar 1 de Fadiga</strong> para forçar todos os alvos <em>Imobilizados</em> por @Lookup[@name] a marcar 1 Ponto de Vida.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -306,9 +304,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -326,7 +322,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Constrict",
+                "name": "Constringir",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "melee",
@@ -380,7 +376,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           },
           "ETaF5f5bWNjbNXy1": {
@@ -411,7 +407,7 @@
             "_id": "ETaF5f5bWNjbNXy1",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>At the beginning of each GM turn, you can <strong>mark a Stress</strong> to force all targets <em>Restrained</em> by the @Lookup[@name] to mark a HP.</p>",
+            "description": "<p>No início de cada turno do Mestre, você pode <strong>marcar 1 de Fadiga</strong> para forçar todos os alvos <em>Imobilizados</em> por @Lookup[@name] a marcar 1 Ponto de Vida.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -440,7 +436,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Constrict Damage",
+            "name": "Dano de Constrição",
             "range": ""
           }
         },
@@ -451,14 +447,12 @@
       "img": "icons/creatures/reptiles/serpent-horned-green.webp",
       "effects": [
         {
-          "name": "Constricted",
+          "name": "Constrito",
           "disabled": false,
           "img": "icons/creatures/reptiles/serpent-horned-green.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "system": {
             "changes": [],
             "duration": {
@@ -506,11 +500,11 @@
       "_key": "!actors.items!vXYRAVdCo7812o1g.2jD66IGYZIZF385K"
     },
     {
-      "name": "Venom Surge",
+      "name": "Surto de Veneno",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>spend a Fear</strong> to make the target <em>Vulnerable</em> until the end of the scene.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>gastar 1 de Medo</strong> para deixar o alvo <em>Vulnerável</em> até o fim da cena.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -554,7 +548,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -565,14 +559,12 @@
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
       "effects": [
         {
-          "name": "New Effect",
+          "name": "Novo Efeito",
           "disabled": false,
           "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
-          "description": "<p>You are Vulnerable until the end of the scene.</p>",
+          "description": "<p>Você está Vulnerável até o fim da cena.</p>",
           "transfer": true,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -623,7 +615,7 @@
   "_id": "vXYRAVdCo7812o1g",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Water Mother",
+    "name": "Mãe das Águas",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

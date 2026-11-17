@@ -1,5 +1,5 @@
 {
-  "name": "Chaos Skull",
+  "name": "Crânio do Caos",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Cackle, consume magic, serve creator",
+    "motivesAndTactics": "Gargalhar, consumir magia, servir ao criador",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A floating humanoid skull animated by scintillating magic.</p>",
+    "description": "<p>Um crânio humanoide flutuante animado por magia cintilante.</p>",
     "attack": {
-      "name": "Energy Blast",
+      "name": "Rajada de Energia",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -136,7 +136,7 @@
   "_id": "jDmHqGvzg5wjgmxE",
   "sort": 2800000,
   "prototypeToken": {
-    "name": "Chaos Skull",
+    "name": "Crânio do Caos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +229,10 @@
   },
   "items": [
     {
-      "name": "Levitation",
+      "name": "Levitação",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] levitates several feet off the ground and can't be <em>Restrained</em>.</p>",
+        "description": "<p>O @Lookup[@name] levita a alguns palmos do chão e não pode ser <em>Restrito</em>.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -245,7 +245,7 @@
       "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "effects": [
         {
-          "name": "Levitation",
+          "name": "Levitação",
           "type": "base",
           "system": {
             "changes": [
@@ -274,7 +274,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Skull levitates several feet off the ground and can't be <em>Restrained</em>.</p>",
+          "description": "<p>O Crânio levita a alguns palmos do chão e não pode ser <em>Restrito</em>.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -298,10 +298,10 @@
       "_key": "!actors.items!jDmHqGvzg5wjgmxE.m6uPm4vujrUjSFPw"
     },
     {
-      "name": "Wards",
+      "name": "Proteções",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is resistant to magic damage.</p>",
+        "description": "<p>O @Lookup[@name] é resistente a dano mágico.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -314,7 +314,7 @@
       "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
       "effects": [
         {
-          "name": "Wards",
+          "name": "Proteções",
           "type": "base",
           "system": {
             "changes": [
@@ -343,7 +343,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Skull is resistant to magic damage.</p>",
+          "description": "<p>O Crânio é resistente a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -367,10 +367,10 @@
       "_key": "!actors.items!jDmHqGvzg5wjgmxE.LNVlf1BeqC3XyTrV"
     },
     {
-      "name": "Magic Burst",
+      "name": "Explosão Mágica",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make an attack against all targets within Close range. Targets the @Lookup[@name] succeeds against take <strong>2d6+4</strong> magic damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque contra todos os alvos em alcance Próximo. Alvos contra os quais o @Lookup[@name] for bem-sucedido sofrem <strong>2d6+4</strong> de dano mágico.</p>",
         "resource": null,
         "actions": {
           "iF0PD1t3yovKMTfy": {
@@ -448,12 +448,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/lightning/bolt-strike-purple.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Magic Burst",
+                "name": "Explosão Mágica",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -486,10 +486,10 @@
       "_key": "!actors.items!jDmHqGvzg5wjgmxE.Zn25zBr96y1hrmnr"
     },
     {
-      "name": "Siphon Magic",
+      "name": "Sifonar Magia",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make an attack against a PC with a Spellcast trait within Very Close range. On a success, the target marks <strong>1d4</strong> Stress and the @Lookup[@name] clears that many Stress. Additionally, on a success, the @Lookup[@name] can immediately be spotlighted again.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer um ataque contra um PJ com traço de Conjuração em alcance Muito Próximo. Em caso de sucesso, o alvo marca <strong>1d4</strong> de Fadiga e o @Lookup[@name] limpa essa quantidade de Fadiga. Além disso, em caso de sucesso, o @Lookup[@name] pode receber o foco novamente de imediato.</p>",
         "resource": null,
         "actions": {
           "872Fq88Hitwc6f3W": {
@@ -554,7 +554,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/control/sihouette-hold-beam-green.webp",
             "range": "veryClose",
             "baseAction": false,

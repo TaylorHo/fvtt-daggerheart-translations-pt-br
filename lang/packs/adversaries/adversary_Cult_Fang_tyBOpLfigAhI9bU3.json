@@ -1,5 +1,5 @@
 {
-  "name": "Cult Fang",
+  "name": "Presa do Culto",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Capture sacrifices, isolate prey, rise in the ranks",
+    "motivesAndTactics": "Capturar sacrifícios, isolar presas, subir na hierarquia",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 2,
-    "description": "<p>A professional killer-turned-cultist.</p>",
+    "description": "<p>Um assassino profissional que se tornou cultista.</p>",
     "attack": {
-      "name": "Long Knife",
+      "name": "Faca Longa",
       "img": "icons/weapons/daggers/dagger-ritual-simple-green.webp",
       "roll": {
         "bonus": 2,
@@ -68,9 +68,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "tyBOpLfigAhI9bU3",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Cult Fang",
+    "name": "Presa do Culto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Shadow's Embrace",
+      "name": "Abraço da Sombra",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can climb and walk on vertical surfaces. <strong>Mark a Stress</strong> to move from one shadow to another within Far range.</p>",
+        "description": "<p>O @Lookup[@name] pode escalar e andar em superfícies verticais. <strong>Marque 1 Fadiga</strong> para se mover de uma sombra para outra em alcance Distante.</p>",
         "resource": null,
         "actions": {
           "hjuqvsMB7KNLNvjg": {
@@ -263,7 +261,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
             "range": "",
             "baseAction": false,
@@ -292,10 +290,10 @@
       "_key": "!actors.items!tyBOpLfigAhI9bU3.vX5FHwLvFjuc4JC1"
     },
     {
-      "name": "Pick Off the Straggler",
+      "name": "Pegar o Retardatário",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to cause a target within Melee range to make an Instinct Reaction Roll. On a failure, the target must mark 2 Stress and is teleported with the @Lookup[@name] to a shadow within Far range, making them temporarily Vulnerable. On a success, the target must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um alvo em alcance Corpo a Corpo realizar um Teste de Reação de Instinto. Em caso de falha, o alvo deve marcar 2 Fadiga e é teletransportado com o @Lookup[@name] para uma sombra em alcance Distante, ficando temporariamente Vulnerável. Em caso de sucesso, o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "QjQ04SAwfjrxliNI": {
@@ -374,7 +372,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/unholy/barrier-fire-pink.webp",
             "range": "melee",
             "baseAction": false,
@@ -395,7 +393,7 @@
       "img": "icons/magic/unholy/barrier-fire-pink.webp",
       "effects": [
         {
-          "name": "Pick Off the Straggler",
+          "name": "Pegar o Retardatário",
           "img": "icons/magic/unholy/barrier-fire-pink.webp",
           "transfer": false,
           "_id": "LwWxRz7FTMA80VdA",
@@ -420,9 +418,7 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "sort": 0,
           "flags": {},
           "_stats": {

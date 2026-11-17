@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fowlbear",
+  "name": "Urso-Ganso",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A grizzly bear with a feathery hide and the head of a giant goose.</p>",
+    "description": "<p>Um urso pardo com pelagem emplumada e a cabeça de um ganso gigante.</p>",
     "tier": 2,
-    "motivesAndTactics": "Drive prey into an ambush, fight to the death, hunt in pairs",
+    "motivesAndTactics": "Levar presas a uma emboscada, lutar até a morte, caçar em pares",
     "difficulty": 15,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Goose Teeth & Bear Claws",
+      "name": "Dentes de Ganso e Garras de Urso",
       "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "C7l5XPHj94LFwWgl": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 3,
         "description": ""
       },
       "YnF8G1AzJ3ZE8lHY": {
-        "name": "Ponds",
+        "name": "Lagoas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!diyNjiVzyZEwYg1V.HBhRULMqb1dRqTEJ"
     },
     {
-      "name": "Double Strike",
+      "name": "Golpe Duplo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make two standard attacks. If both attacks succeed against the same target, combine the damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer dois ataques padrão. Se ambos os ataques forem bem-sucedidos contra o mesmo alvo, combine o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -210,7 +208,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -229,11 +227,11 @@
       "_key": "!actors.items!diyNjiVzyZEwYg1V.dvI3a8cyvSu7f4FE"
     },
     {
-      "name": "Dread Honk",
+      "name": "Grasnido Aterrorizante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] unleash a terrifying, ear-splitting goose honk. Each PC within Close range must make a Presence Reaction Roll. Targets who fail must mark a Stress, move away from the @Lookup[@name] to Far range, and become <em>Vulnerable</em> until the @Lookup[@name] deals damage to them. Targets who succeed must mark a Stress or move away from the @Lookup[@name] to Far range.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o @Lookup[@name] soltar um grasnido de ganso aterrorizante e ensurdecedor. Cada PJ dentro do alcance Próximo deve fazer um Teste de Reação de Presença. Alvos que falharem devem marcar 1 Fadiga, se afastar do @Lookup[@name] até o alcance Distante e ficar <em>Vulneráveis</em> até o @Lookup[@name] causar dano a eles. Alvos que forem bem-sucedidos devem marcar 1 Fadiga ou se afastar do @Lookup[@name] até o alcance Distante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -275,7 +273,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Dread Honk",
+                "name": "Grasnido Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -329,7 +327,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -340,14 +338,12 @@
       "img": "icons/magic/death/skull-energy-light-purple.webp",
       "effects": [
         {
-          "name": "Dread Honk",
+          "name": "Grasnido Aterrorizante",
           "disabled": true,
           "img": "icons/magic/death/skull-energy-light-purple.webp",
-          "description": "<p>You are <em>Vulnerable</em> until the Fowlbear deals damage to you.</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até o Urso-Ganso causar dano a você.</p>",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -398,7 +394,7 @@
   "_id": "diyNjiVzyZEwYg1V",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fowlbear",
+    "name": "Urso-Ganso",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

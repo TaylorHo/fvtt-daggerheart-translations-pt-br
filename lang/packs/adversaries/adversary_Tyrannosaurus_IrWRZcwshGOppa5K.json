@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Tyrannosaurus",
+  "name": "Tiranossauro",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A huge carnivorous dinosaur that walks on two legs.</p>",
+    "description": "<p>Um enorme dinossauro carnívoro que anda sobre duas patas.</p>",
     "tier": 2,
-    "motivesAndTactics": "Break through the treeline, eat, stomp around",
+    "motivesAndTactics": "Romper a linha de árvores, comer, pisotear por aí",
     "difficulty": 15,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Mighty Jaws",
+      "name": "Mandíbulas Poderosas",
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "S5yDPfUZZ2h7aEKm": {
-        "name": "Predator",
+        "name": "Predador",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Earth-Shaking Roar",
+      "name": "Rugido Estremecedor",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to force each PC within Close range to make a Presence Reaction Roll. On a failure, they must choose to lose a Hope or mark <strong>1d4</strong> Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para forçar cada personagem em alcance Próximo a fazer um teste de reação de Presença. Em caso de falha, eles devem escolher entre perder 1 de Esperança ou marcar <strong>1d4</strong> de Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -165,7 +163,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Earth-Shaking Roar",
+                "name": "Rugido Estremecedor",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -214,7 +212,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -233,11 +231,11 @@
       "_key": "!actors.items!IrWRZcwshGOppa5K.VZcHBueL3e8hLcN4"
     },
     {
-      "name": "Stomp",
+      "name": "Pisada",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Melee range. On a success, the target takes <strong>3d12</strong> direct physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para atacar um alvo em alcance Corpo a Corpo. Em caso de sucesso, o alvo sofre <strong>3d12</strong> de dano físico direto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -263,9 +261,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -323,7 +319,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -342,11 +338,11 @@
       "_key": "!actors.items!IrWRZcwshGOppa5K.k1RdR8MHtgtN65RM"
     },
     {
-      "name": "Crushing Bite",
+      "name": "Mordida Esmagadora",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] makes a successful standard attack, you can <strong>spend a Fear</strong> to force the target to mark an additional HP.</p>",
+        "description": "<p>Quando @Lookup[@name] faz um ataque padrão bem-sucedido, você pode <strong>gastar 1 de Medo</strong> para forçar o alvo a marcar 1 PV adicional.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -408,7 +404,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -430,7 +426,7 @@
   "_id": "IrWRZcwshGOppa5K",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Tyrannosaurus",
+    "name": "Tiranossauro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Wyrmlings",
+  "name": "Dragonetes",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "horde",
-    "description": "<p>A clutch of newly hatched dragons. As newborns, they're furious, hungry, and stupid.</p>",
+    "description": "<p>Uma ninhada de dragões recém-nascidos. Como filhotes, são furiosos, famintos e estúpidos.</p>",
     "tier": 4,
-    "motivesAndTactics": "Consume, shred, swarm",
+    "motivesAndTactics": "Consumir, dilacerar, enxamear",
     "difficulty": 17,
     "damageThresholds": {
       "major": 25,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tiny Jaws & Claws",
+      "name": "Mandíbulas e Garras Minúsculas",
       "img": "icons/creatures/abilities/mouth-teeth-lamprey-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -71,9 +71,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "VAGHi0J0szwhoUOr": {
-        "name": "Dragon Bond",
+        "name": "Vínculo Dracônico",
         "value": 2,
         "description": ""
       }
@@ -142,11 +140,11 @@
   },
   "items": [
     {
-      "name": "Ravenous",
+      "name": "Faminto",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Once per GM turn when a PC marks a HP from an attack made by the @Lookup[@name], you can <strong>spend a Fear</strong> to spotlight the @Lookup[@name] again.</p>",
+        "description": "<p>Uma vez por turno do Mestre, quando um PJ marca 1 Ponto de Vida de um ataque feito por @Lookup[@name], você pode <strong>gastar 1 de Medo</strong> para dar o destaque a @Lookup[@name] novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -185,7 +183,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -204,11 +202,11 @@
       "_key": "!actors.items!qEzuNntzQ1fRInTm.0V472TOtSicWIeo5"
     },
     {
-      "name": "Overwhelm",
+      "name": "Sobrepujar",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] take Minor damage from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack with advantage against the attacker.</p>",
+        "description": "<p>Quando @Lookup[@name] sofre dano Menor de um ataque em alcance Corpo a Corpo, você pode <strong>marcar 1 de Fadiga</strong> para fazer um ataque padrão com vantagem contra o atacante.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -234,9 +232,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -294,7 +290,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "melee"
           }
         },
@@ -314,10 +310,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -333,7 +329,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "showIcon": 2,
           "system": {
@@ -402,7 +398,7 @@
   "_id": "qEzuNntzQ1fRInTm",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Wyrmlings",
+    "name": "Dragonetes",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

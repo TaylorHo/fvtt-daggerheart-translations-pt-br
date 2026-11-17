@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Shapeshifting Fiend",
+  "name": "Demônio Metamorfo",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "social",
-    "description": "<p>An evil entity who impersonates a trusted figure.</p>",
+    "description": "<p>Uma entidade maligna que se passa por uma figura de confiança.</p>",
     "tier": 3,
-    "motivesAndTactics": "Impersonate, sow discord, tempt betrayal",
+    "motivesAndTactics": "Personificar, semear discórdia, tentar à traição",
     "difficulty": 17,
     "damageThresholds": {
       "major": 20,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Hidden Blade",
+      "name": "Lâmina Oculta",
       "img": "icons/weapons/swords/sword-guard-serrated.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "e06WRZ2y63qpQZkp": {
-        "name": "Manipulate",
+        "name": "Manipular",
         "value": 3,
         "description": ""
       },
       "f6dJfC2Fnv85dlpb": {
-        "name": "Mimic",
+        "name": "Imitar",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Fiendish Nature",
+      "name": "Natureza Demoníaca",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+        "description": "<p>O Demônio tem resistência a dano mágico e não pode ser enganado por ilusões mágicas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -159,7 +157,7 @@
       "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
       "effects": [
         {
-          "name": "Fiendish Nature",
+          "name": "Natureza Demoníaca",
           "type": "base",
           "system": {
             "changes": [
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Fiend has resistance to magic damage and can't be fooled by magic illusions.</p>",
+          "description": "<p>O Demônio tem resistência a dano mágico e não pode ser enganado por ilusões mágicas.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!C652lQ56oZWBhdNz.pnMA6UWprfKjTu5m"
     },
     {
-      "name": "Impersonate",
+      "name": "Personificar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Fiend magically transform into a humanoid they have previously interacted with. A PC who targets the Fiend while they're in the form of a person the PC cares for must succeed on an Instinct Reaction Roll or the attack fails and the PC must mark a Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer o Demônio se transformar magicamente em um humanoide com quem já interagiu anteriormente. Um PJ que mirar no Demônio enquanto ele estiver na forma de uma pessoa de quem o PJ gosta deve ter sucesso em um Teste de Reação de Instinto, ou o ataque falha e o PJ deve marcar um Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -268,7 +266,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           },
           "laPYDHfBKv4hKPpe": {
@@ -339,7 +337,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -350,10 +348,10 @@
       "img": "icons/magic/life/heart-red-blue.webp",
       "effects": [
         {
-          "name": "Impersonating",
+          "name": "Personificando",
           "disabled": false,
           "img": "icons/magic/life/heart-red-blue.webp",
-          "description": "<p>The Fiend has magically transformed into a humanoid they have previously interacted with. A PC who targets the Fiend while they're in the form of a person the PC cares for must succeed on an Instinct Reaction Roll or the attack fails and the PC must mark a Stress.</p>",
+          "description": "<p>O Demônio se transformou magicamente em um humanoide com quem já interagiu anteriormente. Um PJ que mirar no Demônio enquanto ele estiver na forma de uma pessoa de quem o PJ gosta deve ter sucesso em um Teste de Reação de Instinto, ou o ataque falha e o PJ deve marcar um Fadiga.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -403,11 +401,11 @@
       "_key": "!actors.items!C652lQ56oZWBhdNz.VrUFHMjVrWUc2JHd"
     },
     {
-      "name": "Turn Invisible",
+      "name": "Ficar Invisível",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make the Fiend Hidden until they make an action roll or take damage.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para deixar o Demônio Escondido até ele fazer um teste de ação ou sofrer dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -451,7 +449,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "self"
           }
         },
@@ -462,14 +460,12 @@
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "effects": [
         {
-          "name": "Invisible",
+          "name": "Invisível",
           "disabled": false,
           "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
-          "description": "<p>The Fiend is <em>Hidden</em> until they make an action roll or take damage.</p>",
+          "description": "<p>O Demônio está <em>Escondido</em> até fazer um teste de ação ou sofrer dano.</p>",
           "transfer": false,
-          "statuses": [
-            "hidden"
-          ],
+          "statuses": ["hidden"],
           "system": {
             "changes": [],
             "duration": {
@@ -517,11 +513,11 @@
       "_key": "!actors.items!C652lQ56oZWBhdNz.MIvcup4AWUoqBMKq"
     },
     {
-      "name": "Backhanded Guidance",
+      "name": "Orientação Dissimulada",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When a PC makes an action roll while the Fiend is in the scene, you can <strong>mark a Stress</strong> to add <strong>1d6</strong> to the result of their Fear Die.</p>",
+        "description": "<p>Quando um PJ faz um teste de ação enquanto o Demônio está na cena, você pode <strong>marcar um Fadiga</strong> para adicionar <strong>1d6</strong> ao resultado do Dado de Medo dele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -584,7 +580,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -603,11 +599,11 @@
       "_key": "!actors.items!C652lQ56oZWBhdNz.DH3qyIQPoi3soxdU"
     },
     {
-      "name": "Exposed! (Phase Change)",
+      "name": "Desmascarado! (Mudança de Fase)",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Fiend is defeated or the PCs discover its true identity, replace the Fiend with @Lookup[@name] Revealed and immediately spotlight them.</p>",
+        "description": "<p>Quando o Demônio é derrotado ou os PJs descobrem sua verdadeira identidade, substitua o Demônio por @Lookup[@name] Revelado e coloque-o imediatamente em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -659,7 +655,7 @@
   "_id": "C652lQ56oZWBhdNz",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Shapeshifting Fiend",
+    "name": "Demônio Metamorfo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

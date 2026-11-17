@@ -1,5 +1,5 @@
 {
-  "name": "Vault Guardian Turret",
+  "name": "Torreta Guardiã do Cofre",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Concentrate fire, lock down, mark, protect",
+    "motivesAndTactics": "Concentrar fogo, bloquear, marcar, proteger",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A massive living turret with reinforced armor and twelve piston-driven mechanical legs.</p>",
+    "description": "<p>Uma enorme torreta viva com armadura reforçada e doze pernas mecânicas movidas a pistões.</p>",
     "attack": {
-      "name": "Magitech Cannon",
+      "name": "Canhão Magitech",
       "roll": {
         "bonus": 3,
         "type": "attack",
@@ -68,9 +68,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "c5hGdvY5UnSjlHws",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Vault Guardian Turret",
+    "name": "Torreta Guardiã do Cofre",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Slow Firing",
+      "name": "Disparo Lento",
       "type": "feature",
       "system": {
-        "description": "<p>When you spotlight the @Lookup[@name] and they don't have a token on their stat block, they can't make a standard attack. Place a token on their stat block and describe what they're preparing to do. When you spotlight the @Lookup[@name] and they have a token on their stat block, clear the token and they can attack.</p>",
+        "description": "<p>Quando você der o destaque a @Lookup[@name] e ele não tiver uma ficha em sua ficha de estatísticas, ele não pode fazer um ataque padrão. Coloque uma ficha em sua ficha de estatísticas e descreva o que ele está preparando. Quando você der o destaque a @Lookup[@name] e ele tiver uma ficha em sua ficha de estatísticas, remova a ficha e ele pode atacar.</p>",
         "resource": {
           "type": "simple",
           "value": 0,
@@ -262,10 +260,10 @@
       "_key": "!actors.items!c5hGdvY5UnSjlHws.TwVkBln6URoPHvlC"
     },
     {
-      "name": "Mark Target",
+      "name": "Marcar Alvo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to Mark a target within Far range until the @Lookup[@name] is destroyed or the Marked target becomes Hidden. While the target is Marked, their Evasion is halved.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para Marcar um alvo em alcance Distante até @Lookup[@name] ser destruído ou o alvo Marcado ficar Oculto. Enquanto o alvo estiver Marcado, sua Evasão é reduzida pela metade.</p>",
         "resource": null,
         "actions": {
           "1SfYAIIr5znuHCKX": {
@@ -301,7 +299,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
             "range": "far",
             "baseAction": false,
@@ -322,7 +320,7 @@
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "effects": [
         {
-          "name": "Marked",
+          "name": "Marcado",
           "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
           "transfer": false,
           "_id": "yQ85C0JHRG1pwu8a",
@@ -352,7 +350,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Marked until the Turret is destroyed or you become <em>Hidden</em>. While you are Marked, your Evasion is halved.</p>",
+          "description": "<p>Marcado até a Torreta ser destruída ou você ficar <em>Oculto</em>. Enquanto estiver Marcado, sua Evasão é reduzida pela metade.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -375,10 +373,10 @@
       "_key": "!actors.items!c5hGdvY5UnSjlHws.uwAr6wR4k7ppI2cW"
     },
     {
-      "name": "Concentrate Fire",
+      "name": "Concentrar Fogo",
       "type": "feature",
       "system": {
-        "description": "<p>When another adversary deals damage to a target within Far range of the @Lookup[@name], you can <strong>mark a Stress</strong> to add the @Lookup[@name]'s standard attack damage to the damage roll.</p>",
+        "description": "<p>Quando outro adversário causa dano a um alvo em alcance Distante de @Lookup[@name], você pode <strong>marcar 1 de Fadiga</strong> para somar o dano do ataque padrão de @Lookup[@name] à rolagem de dano.</p>",
         "resource": null,
         "actions": {
           "3cqPKBRtwxtLwDpN": {
@@ -409,7 +407,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/commodities/tech/cog-brass.webp",
             "range": "",
             "baseAction": false,
@@ -438,10 +436,10 @@
       "_key": "!actors.items!c5hGdvY5UnSjlHws.G7qZ9RHPyNns3axX"
     },
     {
-      "name": "Detonation",
+      "name": "Detonação",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] is destroyed, they explode. All targets within Close range must make an Agility Reaction Roll. Targets who fail take <strong>3d20</strong> physical damage. Targets who succeed take half damage.</p>",
+        "description": "<p>Quando @Lookup[@name] é destruído, ele explode. Todos os alvos em alcance Próximo devem fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>3d20</strong> de dano físico. Alvos que tiverem sucesso sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "i1PZ9ddYdOOs2xSb": {
@@ -471,9 +469,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -510,12 +506,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Detonation",
+                "name": "Detonação",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",

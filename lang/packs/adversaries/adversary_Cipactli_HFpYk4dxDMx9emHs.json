@@ -4,9 +4,9 @@
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "solo",
-    "description": "<p>A gargantuan crocodile that has a body covered in a patchwork of fish scales, toad skin, and dozens of hungry mouths.</p>",
+    "description": "<p>Um crocodilo gargantuesco com o corpo coberto por um remendo de escamas de peixe, pele de sapo e dezenas de bocas famintas.</p>",
     "tier": 4,
-    "motivesAndTactics": "Consume, reshape the land, trample",
+    "motivesAndTactics": "Consumir, remodelar a terra, pisotear",
     "difficulty": 20,
     "damageThresholds": {
       "major": 35,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -108,7 +108,7 @@
     },
     "experiences": {
       "qjqDDcxLzcyqdEjm": {
-        "name": "Hungry",
+        "name": "Faminto",
         "value": 3,
         "description": ""
       },
@@ -143,11 +143,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight it.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até três vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +167,11 @@
       "_key": "!actors.items!HFpYk4dxDMx9emHs.6h3DlaZmdtcikM4H"
     },
     {
-      "name": "Many Mouths",
+      "name": "Muitas Bocas",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against all targets within Very Close range. Targets the @Lookup[@name] succeeds against must also mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra todos os alvos em alcance Muito Próximo. Alvos contra os quais o @Lookup[@name] for bem-sucedido também devem marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -236,7 +236,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Many Mouths",
+                "name": "Muitas Bocas",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -285,7 +285,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -304,11 +304,11 @@
       "_key": "!actors.items!HFpYk4dxDMx9emHs.LW4JURcTsZzpC5Ay"
     },
     {
-      "name": "Frenzied Feeding",
+      "name": "Alimentação Frenética",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to force all PCs within Close range to succeed on an Instinct Reaction Roll or take <strong>4d6</strong> direct physical damage. The @Lookup[@name] clears a HP for each creature who took Severe damage from this attack.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para forçar todos os PJs em alcance Próximo a serem bem-sucedidos em um Teste de Reação de Instinto ou sofrerem <strong>4d6</strong> de dano físico direto. O @Lookup[@name] limpa 1 PV para cada criatura que sofreu dano Grave desse ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -354,7 +354,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Frenzied Feeding",
+                "name": "Alimentação Frenética",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -403,7 +403,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -422,11 +422,11 @@
       "_key": "!actors.items!HFpYk4dxDMx9emHs.qkWS8NduN1NUBsg9"
     },
     {
-      "name": "Quaking Footfalls",
+      "name": "Passos Estrondosos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to force each PC within Far range to make an Agility Reaction Roll. Targets who fail must mark 2 Stress and are <em>Vulnerable</em> until they take damage. Targets who succeed must mark a Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para forçar cada PJ em alcance Distante a fazer um Teste de Reação de Agilidade. Alvos que falharem devem marcar 2 Fadiga e ficam <em>Vulneráveis</em> até sofrerem dano. Alvos que forem bem-sucedidos devem marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -468,7 +468,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Quaking Footfalls",
+                "name": "Passos Estrondosos",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -522,7 +522,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -533,10 +533,10 @@
       "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
       "effects": [
         {
-          "name": "Quaking Footfalls",
+          "name": "Passos Estrondosos",
           "disabled": false,
           "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
-          "description": "<p>You are <em>Vulnerable</em> until you take damage</p>",
+          "description": "<p>Você está <em>Vulnerável</em> até sofrer dano</p>",
           "transfer": false,
           "statuses": [
             "vulnerable"
@@ -588,11 +588,11 @@
       "_key": "!actors.items!HFpYk4dxDMx9emHs.UGMAHKqr6KGuKx0o"
     },
     {
-      "name": "Lifeblooded",
+      "name": "Sangue Vivo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] takes Severe damage, its blood splashes to the ground and instantly erupts into a jungle. All creatures within Close range are temporarily <em>Restrained</em>.</p>",
+        "description": "<p>Quando o @Lookup[@name] sofre dano Grave, seu sangue respinga no chão e instantaneamente irrompe em uma selva. Todas as criaturas em alcance Próximo ficam temporariamente <em>Restritas</em>.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -611,7 +611,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Lifeblooded",
+                "name": "Sangue Vivo",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -647,7 +647,7 @@
       "img": "icons/magic/life/heart-cross-strong-green.webp",
       "effects": [
         {
-          "name": "Overgrown",
+          "name": "Crescimento Descontrolado",
           "disabled": false,
           "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
           "description": "",
@@ -702,11 +702,11 @@
       "_key": "!actors.items!HFpYk4dxDMx9emHs.a4e7n4uzB7hHlVyW"
     },
     {
-      "name": "Verdant Explosion",
+      "name": "Explosão Verdejante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] marks its last HP, its body erupts into dense vegetation that overtakes the landscape.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca seu último PV, seu corpo irrompe em vegetação densa que domina a paisagem.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,

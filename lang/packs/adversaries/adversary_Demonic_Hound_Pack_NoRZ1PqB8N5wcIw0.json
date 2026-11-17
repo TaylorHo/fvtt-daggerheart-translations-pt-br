@@ -1,5 +1,5 @@
 {
-  "name": "Demonic Hound Pack",
+  "name": "Matilha de Cães Demoníacos",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -35,14 +35,14 @@
     "notes": "",
     "experiences": {
       "hJHaPH3178AFdAgT": {
-        "name": "Scent Tracking",
+        "name": "Rastrear pelo Cheiro",
         "description": "",
         "value": 3
       }
     },
     "tier": 2,
-    "description": "<p>Unnatural hounds lit from within by hellfire.</p>",
-    "motivesAndTactics": "Cause fear, consume fl esh, please masters",
+    "description": "<p>Cães sobrenaturais iluminados por dentro por fogo infernal.</p>",
+    "motivesAndTactics": "Causar medo, devorar carne, agradar os mestres",
     "attack": {
       "damage": {
         "main": {
@@ -57,9 +57,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 2,
@@ -79,7 +77,7 @@
         },
         "resources": {}
       },
-      "name": "Claws and Fangs",
+      "name": "Garras e Presas",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "roll": {
         "bonus": 0,
@@ -146,7 +144,7 @@
   "_id": "NoRZ1PqB8N5wcIw0",
   "sort": 1800000,
   "prototypeToken": {
-    "name": "Demonic Hound Pack",
+    "name": "Matilha de Cães Demoníacos",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -239,10 +237,10 @@
   },
   "items": [
     {
-      "name": "Dreadhowl",
+      "name": "Uivo Aterrorizante",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to make all targets within Very Close range lose a Hope. If a target is not able to lose a Hope, they must instead mark 2 Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer todos os alvos em alcance Muito Próximo perderem 1 de Esperança. Se um alvo não puder perder Esperança, ele deve marcar 2 Fadiga.</p>",
         "resource": null,
         "actions": {
           "XyLlX9RWSxciZ7oV": {
@@ -287,12 +285,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Lose Hope",
+            "name": "Perder a Esperança",
             "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
             "range": "veryClose",
             "areas": [
               {
-                "name": "Dreadhowl",
+                "name": "Uivo Aterrorizante",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -325,10 +323,10 @@
       "_key": "!actors.items!NoRZ1PqB8N5wcIw0.WEbHwamS5ZBphiKq"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "BApDkAKPfyBkqrKY": {
@@ -388,7 +386,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,
@@ -418,10 +416,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -437,7 +435,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

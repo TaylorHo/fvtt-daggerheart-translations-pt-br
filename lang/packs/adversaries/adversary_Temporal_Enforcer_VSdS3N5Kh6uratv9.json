@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Temporal Enforcer",
+  "name": "Executor Temporal",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "bruiser",
-    "description": "<p>A giant mechanical being from a dimension outside time, built by the Time Keepers to preserve the Holy Continuum.</p>",
+    "description": "<p>Um ser mecânico gigante de uma dimensão fora do tempo, construído pelos Guardiões do Tempo para preservar o Continuum Sagrado.</p>",
     "tier": 4,
-    "motivesAndTactics": "Repair the timeline, seek out temporal heretics, serve the Lords of Continuity",
+    "motivesAndTactics": "Consertar a linha do tempo, caçar hereges temporais, servir aos Senhores da Continuidade",
     "difficulty": 20,
     "damageThresholds": {
       "major": 42,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Adamantine Hammer",
+      "name": "Martelo de Adamantina",
       "img": "icons/weapons/hammers/hammer-double-engraved.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "bthZnZ7zB8qwQ5Qu": {
-        "name": "Temporal Anomalies",
+        "name": "Anomalias Temporais",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Enforcer can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Executor pode receber destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,21 +160,21 @@
       "_key": "!actors.items!VSdS3N5Kh6uratv9.MMbIERlxi7DsVlXx"
     },
     {
-      "name": "Time Looper",
+      "name": "Laço do Tempo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (Loop 2d6). When the Enforcer first appears, activate the countdown. It ticks down when the Enforcer is spotlighted. When it triggers, the Enforcer clears all HP, Stress, and conditions. Reroll the countdown when the Enforcer takes Severe damage.</p>",
+        "description": "<p>Contagem Regressiva (Laço 2d6). Quando o Executor aparece pela primeira vez, ative a contagem regressiva. Ela avança quando o Executor recebe destaque. Quando disparar, o Executor limpa todos os PV, Fadiga e condições. Role a contagem regressiva novamente quando o Executor sofrer dano Severo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "1Z0OyqCIS705TEIr": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Time Looper",
+                "name": "Laço do Tempo",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
@@ -226,11 +224,11 @@
       "_key": "!actors.items!VSdS3N5Kh6uratv9.wBfRwWNwBkJALC5s"
     },
     {
-      "name": "Move Between Moments",
+      "name": "Mover Entre Momentos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to have the Enforcer teleport to a point within Very Far range, then spotlight them again.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer o Executor se teletransportar para um ponto em alcance Muito Distante e então dar destaque a ele novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryFar"
           }
         },
@@ -288,11 +286,11 @@
       "_key": "!actors.items!VSdS3N5Kh6uratv9.SZKbrbzW9ITQuELW"
     },
     {
-      "name": "Instant Rewind",
+      "name": "Retrocesso Instantâneo",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Enforcer fails an attack, you can <strong>spend a Fear</strong> to reroll the die.</p>",
+        "description": "<p>Quando o Executor falha em um ataque, você pode <strong>gastar 1 de Medo</strong> para rolar o dado novamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -331,7 +329,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -350,11 +348,11 @@
       "_key": "!actors.items!VSdS3N5Kh6uratv9.TubY8u9hJy8MbDEK"
     },
     {
-      "name": "Invert Polarity",
+      "name": "Inverter Polaridade",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Up to three times per scene, you can <strong>spend a Fear</strong> to flip any die rolled onto its obverse result. This effect can't be used to alter a critical success.</p>",
+        "description": "<p>Até três vezes por cena, você pode <strong>gastar 1 de Medo</strong> para virar qualquer dado rolado para o resultado oposto. Esse efeito não pode ser usado para alterar um sucesso crítico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -393,7 +391,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -415,7 +413,7 @@
   "_id": "VSdS3N5Kh6uratv9",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Temporal Enforcer",
+    "name": "Executor Temporal",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

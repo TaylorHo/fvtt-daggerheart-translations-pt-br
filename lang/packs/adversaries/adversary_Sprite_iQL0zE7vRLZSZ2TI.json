@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Sprite",
+  "name": "Espírito",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "minion",
-    "description": "<p>A tiny winged warrior that attacks trespassers with poison-tipped arrows.</p>",
+    "description": "<p>Um minúsculo guerreiro alado que ataca invasores com flechas de ponta envenenada.</p>",
     "tier": 2,
-    "motivesAndTactics": "Avoid detection, let the poison do its work, protect the wilderness",
+    "motivesAndTactics": "Evitar ser detectado, deixar o veneno agir, proteger a natureza selvagem",
     "difficulty": 13,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Needle-Sharp Arrows",
+      "name": "Flechas Afiadas como Agulhas",
       "img": "icons/weapons/ammunition/arrowhead-glowing-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,12 +102,12 @@
     },
     "experiences": {
       "4M4nDppk6iskH3eC": {
-        "name": "Stealth",
+        "name": "Furtividade",
         "value": 2,
         "description": ""
       },
       "M2PbnC816rf2Am4w": {
-        "name": "Vengeance",
+        "name": "Vingança",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Minion (5)",
+      "name": "Lacaio (5)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 5 damage a PC deals to the @Lookup[@name], the PC defeats an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>@Lookup[@name] é derrotado quando sofre qualquer dano. A cada 5 de dano que um personagem causa a @Lookup[@name], o personagem derrota um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!iQL0zE7vRLZSZ2TI.M04qpWw3oAmwebn4"
     },
     {
-      "name": "Art of Invisibility",
+      "name": "Arte da Invisibilidade",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to make the @Lookup[@name] Hidden until they attack.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para deixar @Lookup[@name] Escondido até que ele ataque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -215,7 +213,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -226,14 +224,12 @@
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "effects": [
         {
-          "name": "Invisible",
+          "name": "Invisível",
           "disabled": false,
           "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-          "description": "<p><em>Hidden</em> until they attack.</p>",
+          "description": "<p><em>Escondido</em> até que ataque.</p>",
           "transfer": true,
-          "statuses": [
-            "hidden"
-          ],
+          "statuses": ["hidden"],
           "system": {
             "changes": [],
             "duration": {
@@ -281,11 +277,11 @@
       "_key": "!actors.items!iQL0zE7vRLZSZ2TI.Uovw42uUT8p4fOub"
     },
     {
-      "name": "Dream Petal Poison",
+      "name": "Veneno de Pétala dos Sonhos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>When the @Lookup[@name] succeeds on a standard attack, you can <strong>spend a Fear</strong> to make the target Sleepy until the target takes damage. While Sleepy, the target must make a Presence Reaction Roll before they make an action roll. On a failure, they must mark 2 Stress or fall asleep until they take damage.</p>",
+        "description": "<p>Quando @Lookup[@name] tem sucesso em um ataque padrão, você pode <strong>gastar 1 de Medo</strong> para deixar o alvo Sonolento até que ele sofra dano. Enquanto estiver Sonolento, o alvo deve fazer um teste de reação de Presença antes de fazer uma rolagem de ação. Em caso de falha, ele deve marcar 2 Fadiga ou adormecer até sofrer dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -329,7 +325,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -340,10 +336,10 @@
       "img": "icons/magic/control/silhouette-hold-change-green.webp",
       "effects": [
         {
-          "name": "Sleepy",
+          "name": "Sonolento",
           "disabled": false,
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
-          "description": "<p>While Sleepy, you must make a Presence Reaction Roll before you make an action roll. On a failure, you must mark 2 Stress or fall asleep until you take damage.</p>",
+          "description": "<p>Enquanto estiver Sonolento, você deve fazer um teste de reação de Presença antes de fazer uma rolagem de ação. Em caso de falha, você deve marcar 2 Fadiga ou adormecer até sofrer dano.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -396,7 +392,7 @@
   "_id": "iQL0zE7vRLZSZ2TI",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Sprite",
+    "name": "Espírito",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Elk",
+  "name": "Alce",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "skulk",
-    "description": "<p>A large deer.</p>",
+    "description": "<p>Um cervo grande.</p>",
     "tier": 1,
-    "motivesAndTactics": "Bound away, graze, rut, sense danger",
+    "motivesAndTactics": "Saltar para longe, pastar, entrar no cio, sentir o perigo",
     "difficulty": 13,
     "damageThresholds": {
       "major": 4,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Antlers",
+      "name": "Chifres",
       "img": "icons/creatures/mammals/deer-antlers-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "mWolvWSrzcVAQ4YT": {
-        "name": "Keen Senses",
+        "name": "Sentidos Aguçados",
         "value": 3,
         "description": ""
       },
       "zU5m9ZVki3AgmhCk": {
-        "name": "Run",
+        "name": "Correr",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Headbutt",
+      "name": "Cabeçada",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] moves from Close range or farther before making a standard attack, it deals <strong>1d12+2</strong> physical damage instead of its standard damage.</p>",
+        "description": "<p>Quando o @Lookup[@name] se move de alcance Próximo ou mais distante antes de fazer um ataque padrão, ele causa <strong>1d12+2</strong> de dano físico em vez do dano padrão.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -173,9 +171,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -223,11 +219,11 @@
       "_key": "!actors.items!VhPEpRkCZKOwK3me.WxeMh4vOkER8kCLr"
     },
     {
-      "name": "Bolt",
+      "name": "Fuga",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] marks a HP or Stress, it must succeed on a Reaction Roll (10) or flee the scene.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca 1 PV ou 1 Fadiga, ele deve ter sucesso em um Teste de Reação (10) ou fugir da cena.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -281,7 +277,7 @@
               "difficulty": 10,
               "damageMod": "none"
             },
-            "name": "Flee Check",
+            "name": "Teste de Fuga",
             "range": "self"
           }
         },
@@ -303,7 +299,7 @@
   "_id": "VhPEpRkCZKOwK3me",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Elk",
+    "name": "Alce",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

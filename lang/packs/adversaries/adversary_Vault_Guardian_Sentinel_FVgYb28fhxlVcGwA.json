@@ -1,5 +1,5 @@
 {
-  "name": "Vault Guardian Sentinel",
+  "name": "Sentinela Guardiã do Cofre",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Destroy at any cost, expunge, protect",
+    "motivesAndTactics": "Destruir a qualquer custo, expurgar, proteger",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 3,
-    "description": "<p>A dust-covered golden construct with boxy limbs and a huge mace for a hand.</p>",
+    "description": "<p>Um constructo dourado coberto de poeira, com membros quadrados e uma enorme maça no lugar de uma das mãos.</p>",
     "attack": {
-      "name": "Charged Mace",
+      "name": "Maça Carregada",
       "img": "icons/weapons/maces/shortmace-ornate-gold.webp",
       "range": "veryClose",
       "roll": {
@@ -69,9 +69,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "FVgYb28fhxlVcGwA",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Vault Guardian Sentinel",
+    "name": "Sentinela Guardiã do Cofre",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Kinetic Slam",
+      "name": "Pancada Cinética",
       "type": "feature",
       "system": {
-        "description": "<p>Targets who take damage from the @Lookup[@name]'s standard attack are knocked back to Very Close range.</p>",
+        "description": "<p>Alvos que sofrem dano do ataque padrão de @Lookup[@name] são arremessados para alcance Muito Próximo.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!FVgYb28fhxlVcGwA.eXgcX8stbsTetuoU"
     },
     {
-      "name": "Box In",
+      "name": "Encurralar",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to choose a target within Very Close range to focus on. That target has disadvantage on attack rolls when they're within Very Close range of the @Lookup[@name]. The @Lookup[@name] can only focus on one target at a time.</p>",
+        "description": "<p><strong>Marque 1 de Fadiga</strong> para escolher um alvo em alcance Muito Próximo como foco. Esse alvo tem desvantagem em jogadas de ataque enquanto estiver em alcance Muito Próximo de @Lookup[@name]. @Lookup[@name] só pode focar um alvo por vez.</p>",
         "resource": null,
         "actions": {
           "4RQnBu4kcUs3PcPH": {
@@ -292,7 +290,7 @@
               "type": "any",
               "amount": 1
             },
-            "name": "Mark",
+            "name": "Marca",
             "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
             "range": "veryClose",
             "baseAction": false,
@@ -313,7 +311,7 @@
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
       "effects": [
         {
-          "name": "Box In",
+          "name": "Encurralar",
           "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
           "transfer": false,
           "_id": "Fo5bLYlmYGtQFAGg",
@@ -343,7 +341,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have<strong> </strong>disadvantage on attack rolls while you're within Very Close range of the Sentinel. The Sentinel can only focus on one target at a time.</p>",
+          "description": "<p>Você tem desvantagem em jogadas de ataque enquanto estiver em alcance Muito Próximo da Sentinela. A Sentinela só pode focar um alvo por vez.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -366,10 +364,10 @@
       "_key": "!actors.items!FVgYb28fhxlVcGwA.DLspoIclNJcTB3YJ"
     },
     {
-      "name": "Mana Bolt",
+      "name": "Projétil de Mana",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to lob explosive magic at a point within Far range. All targets within Very Close range of that point must make an Agility Reaction Roll. Targets who fail take <strong>2d8+20</strong> magic damage and are knocked back to Close range. Targets who succeed take half damage and aren't knocked back.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para lançar magia explosiva em um ponto em alcance Distante. Todos os alvos em alcance Muito Próximo desse ponto devem fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>2d8+20</strong> de dano mágico e são arremessados para alcance Próximo. Alvos que tiverem sucesso sofrem metade do dano e não são arremessados.</p>",
         "resource": null,
         "actions": {
           "mI9i9iwrM48NjzeE": {
@@ -408,9 +406,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -446,12 +442,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Roll Save",
+            "name": "Fazer Teste de Resistência",
             "img": "icons/magic/sonic/projectile-shock-wave-blue.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Mana Bolt",
+                "name": "Projétil de Mana",
                 "type": "placed",
                 "shape": "circle",
                 "size": "veryClose",
@@ -484,10 +480,10 @@
       "_key": "!actors.items!FVgYb28fhxlVcGwA.LVFZ4AfVhS6Q9hRy"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "AtXg38fItOgiYUee": {
@@ -547,7 +543,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

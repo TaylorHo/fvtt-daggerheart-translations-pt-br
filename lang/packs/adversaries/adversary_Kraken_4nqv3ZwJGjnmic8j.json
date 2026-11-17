@@ -19,7 +19,7 @@
         "max": 8
       }
     },
-    "motivesAndTactics": "Consume, crush, drown, grapple",
+    "motivesAndTactics": "Consumir, esmagar, afogar, agarrar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "auixJ5ypouNbU5iu": {
-        "name": "Swimming",
+        "name": "Natação",
         "description": "",
         "value": 3
       }
     },
     "tier": 4,
-    "description": "<p>A legendary beast of the sea, bigger than the largest galleon, with sucker-laden tentacles and a terrifying maw.</p>",
+    "description": "<p>Uma besta lendária do mar, maior que o maior galeão, com tentáculos cobertos de ventosas e uma boca aterrorizante.</p>",
     "attack": {
-      "name": "Tentacles",
+      "name": "Tentáculos",
       "roll": {
         "bonus": 7,
         "type": "attack",
@@ -74,9 +74,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>@Lookup[@name] pode receber o destaque até três vezes por turno do Mestre. Gaste Medo normalmente para dar destaque a ele.</p>",
         "resource": null,
         "actions": {
           "420LQBs27zQTAXfY": {
@@ -269,7 +267,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -298,10 +296,10 @@
       "_key": "!actors.items!4nqv3ZwJGjnmic8j.1YxbPc8C0X64w1JN"
     },
     {
-      "name": "Many Tentacles",
+      "name": "Muitos Tentáculos",
       "type": "feature",
       "system": {
-        "description": "<p>While the @Lookup[@name] has 7 or fewer marked HP, they can make their standard attack against two targets within range.</p>",
+        "description": "<p>Enquanto @Lookup[@name] tiver 7 ou menos PV marcados, ele pode fazer seu ataque padrão contra dois alvos dentro do alcance.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -322,10 +320,10 @@
       "_key": "!actors.items!4nqv3ZwJGjnmic8j.z01hq9CKFTupyRwT"
     },
     {
-      "name": "Grapple and Drown",
+      "name": "Agarrar e Afogar",
       "type": "feature",
       "system": {
-        "description": "<p>Make an attack roll against a target within Close range. On a success, <strong>mark a Stress</strong> to grab them with a tentacle and drag them beneath the water. The target is <em>Restrained</em> and <em>Vulnerable</em> until they break free with a successful Strength Roll or the @Lookup[@name] takes Major or greater damage. While <em>Restrained</em> and <em>Vulnerable</em> in this way, a target must mark a Stress when they make an action roll.</p>",
+        "description": "<p>Faça uma rolagem de ataque contra um alvo em alcance Próximo. Em um sucesso, <strong>marque 1 Fadiga</strong> para agarrá-lo com um tentáculo e arrastá-lo para debaixo d'água. O alvo fica <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força bem-sucedido ou até @Lookup[@name] sofrer dano Maior ou superior. Enquanto estiver <em>Restrito</em> e <em>Vulnerável</em> dessa forma, o alvo deve marcar 1 Fadiga quando fizer uma rolagem de ação.</p>",
         "resource": null,
         "actions": {
           "SX2Y4OapGEawl17j": {
@@ -385,7 +383,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/water/orb-water-bubbles-blue.webp",
             "range": "",
             "baseAction": false,
@@ -406,7 +404,7 @@
       "img": "icons/magic/water/orb-water-bubbles-blue.webp",
       "effects": [
         {
-          "name": "Grapple and Drown",
+          "name": "Agarrar e Afogar",
           "img": "icons/magic/water/orb-water-bubbles-blue.webp",
           "transfer": false,
           "_id": "Xes6ZIE01CCN67KF",
@@ -415,7 +413,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Strength Roll or the Kraken takes Major or greater damage.</p>"
+              "description": "<p>Até você se libertar com um Teste de Força bem-sucedido ou o Kraken sofrer dano Maior ou superior.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -429,12 +427,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are <em>Restrained</em> and <em>Vulnerable</em> until you break free with a successful Strength Roll or the Kraken takes Major or greater damage. While <em>Restrained</em> and <em>Vulnerable</em> in this way, you must mark a Stress when you make an action roll.</p>",
+          "description": "<p>Você fica <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força bem-sucedido ou o Kraken sofrer dano Maior ou superior. Enquanto estiver <em>Restrito</em> e <em>Vulnerável</em> dessa forma, você deve marcar 1 Fadiga quando fizer uma rolagem de ação.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "vulnerable",
-            "restrained"
-          ],
+          "statuses": ["vulnerable", "restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -462,10 +457,10 @@
       "_key": "!actors.items!4nqv3ZwJGjnmic8j.vz2BWhispgR7mSWF"
     },
     {
-      "name": "Boiling Blast",
+      "name": "Jato Fervente",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to spew a line of boiling water at any number of targets in a line up to Far range. All targets must succeed on an Agility Reaction Roll or take <strong>4d6+9</strong> physical damage. If a target marks an Armor Slot to reduce the damage, they must also mark a Stress.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para cuspir uma linha de água fervente em qualquer número de alvos em linha até alcance Distante. Todos os alvos devem ter sucesso em um Teste de Reação de Agilidade ou sofrer <strong>4d6+9</strong> de dano físico. Se um alvo marcar um Espaço de Armadura para reduzir o dano, ele também deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "pHZUiZRSj4FuG0uK": {
@@ -495,9 +490,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -534,12 +527,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/water/projectile-icecicle-glowing.webp",
             "range": "",
             "areas": [
               {
-                "name": "Boiling Blast",
+                "name": "Jato Fervente",
                 "type": "placed",
                 "shape": "line",
                 "size": "far",
@@ -572,10 +565,10 @@
       "_key": "!actors.items!4nqv3ZwJGjnmic8j.eksa3E2ecBgdib6h"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "hXQtIGmSaWKMOuFB": {
@@ -635,7 +628,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

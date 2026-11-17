@@ -1,5 +1,5 @@
 {
-  "name": "Dire Bat",
+  "name": "Morcego Terrível",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Dive-bomb, hide, protect leader",
+    "motivesAndTactics": "Mergulhar em ataque, esconder-se, proteger o líder",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,15 +36,15 @@
     "notes": "",
     "experiences": {
       "ti3Z1mq2M92KK4GJ": {
-        "name": "Bloodthirsty",
+        "name": "Sanguinário",
         "description": "",
         "value": 3
       }
     },
     "tier": 3,
-    "description": "<p>A wide-winged pet endlessly loyal to their vampire owner.</p>",
+    "description": "<p>Um animal de estimação de asas largas, infinitamente leal a seu dono vampiro.</p>",
     "attack": {
-      "name": "Claws and Teeth",
+      "name": "Garras e Dentes",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -73,9 +73,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "tBWHW00epmMnkawe",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Dire Bat",
+    "name": "Morcego Terrível",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Flying",
+      "name": "Voo",
       "type": "feature",
       "system": {
-        "description": "<p>While flying, the @Lookup[@name] gains a +3 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto estiver voando, o @Lookup[@name] recebe +3 de bônus em sua Dificuldade.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -251,7 +249,7 @@
       "img": "icons/commodities/biological/wing-lizard-brown.webp",
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "system": {
             "changes": [
@@ -280,7 +278,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, the Bat gains a +3 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto estiver voando, o Morcego recebe +3 de bônus em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -304,10 +302,10 @@
       "_key": "!actors.items!tBWHW00epmMnkawe.gx22MpD8fWoi8klZ"
     },
     {
-      "name": "Screech",
+      "name": "Guincho",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to send a high-pitch screech out toward all targets in front of the @Lookup[@name] within Far range. Those targets must mark <strong>1d4</strong> Stress.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para emitir um guincho agudo em direção a todos os alvos à frente do @Lookup[@name] em alcance Distante. Esses alvos devem marcar <strong>1d4</strong> de Fadiga.</p>",
         "resource": null,
         "actions": {
           "2ILfoiBoMyBCtBsL": {
@@ -352,12 +350,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Screech",
+                "name": "Guincho",
                 "type": "placed",
                 "shape": "inFront",
                 "size": "far",
@@ -390,10 +388,10 @@
       "_key": "!actors.items!tBWHW00epmMnkawe.o69lipskvBwGVhe4"
     },
     {
-      "name": "Guardian",
+      "name": "Guardião",
       "type": "feature",
       "system": {
-        "description": "<p>When an allied Vampire marks HP, you can <strong>mark a Stress</strong> to fly into Melee range of the attacker and make an attack with advantage against them. On a success, deal <strong>2d6+2</strong> physical damage.</p>",
+        "description": "<p>Quando um Vampiro aliado marca PV, você pode <strong>marcar 1 Fadiga</strong> para voar até alcance Corpo a Corpo do atacante e fazer um ataque com vantagem contra ele. Em caso de sucesso, cause <strong>2d6+2</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "wW7WGisUBzyxjsH2": {
@@ -432,9 +430,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -470,7 +466,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/melee/strike-slashes-red.webp",
             "range": "",
             "baseAction": false,

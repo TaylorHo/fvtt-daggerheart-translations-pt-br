@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Spellbound Armor",
+  "name": "Armadura Enfeitiçada",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "bruiser",
-    "description": "<p>An empty suit of full plate armor that glows with a faint corona of ghostly light.</p>",
+    "description": "<p>Uma armadura completa vazia que brilha com uma tênue coroa de luz fantasmagórica.</p>",
     "tier": 1,
-    "motivesAndTactics": "Clank noisily, move like clockwork, watch silently",
+    "motivesAndTactics": "Fazer barulho de metal, mover-se como um mecanismo, vigiar em silêncio",
     "difficulty": 10,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Zweihander",
+      "name": "Montante",
       "img": "icons/weapons/swords/sword-runed-glowing.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "VMERIDdmeayI8njr": {
-        "name": "Guardian",
+        "name": "Guardião",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Tireless",
+      "name": "Incansável",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Armor can't be forced to mark Stress. When an effect would cause it to mark Stress, the Armor ignores that part of the effect.</p>",
+        "description": "<p>A Armadura não pode ser forçada a marcar Fadiga. Quando um efeito fizesse com que ela marcasse Fadiga, a Armadura ignora essa parte do efeito.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!jTFawThYqDS5sOnH.6mqb7HLSxw2jRXB5"
     },
     {
-      "name": "Clatter & Recombobulate",
+      "name": "Estrépito e Remontagem",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Once per scene when the Armor is defeated, you can <strong>spend a Fear</strong> to reactivate it. Clear 2 HP and immediately spotlight it.</p>",
+        "description": "<p>Uma vez por cena, quando a Armadura é derrotada, você pode <strong>gastar 1 de Medo</strong> para reativá-la. Limpe 2 PV e dê destaque a ela imediatamente.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -243,7 +241,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -265,7 +263,7 @@
   "_id": "jTFawThYqDS5sOnH",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Spellbound Armor",
+    "name": "Armadura Enfeitiçada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -358,12 +356,10 @@
   },
   "effects": [
     {
-      "name": "Vulnerable",
-      "description": "While a creature is Vulnerable, all rolls targeting them have advantage.\nA creature who is already Vulnerable can't be made to take the condition again.",
+      "name": "Vulnerável",
+      "description": "Enquanto uma criatura está Vulnerável, todas as rolagens que a têm como alvo têm vantagem.\nUma criatura que já está Vulnerável não pode receber a condição novamente.",
       "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "flags": {
         "daggerheart": {
           "autoApplyFlagId": "auto-vulnerable"

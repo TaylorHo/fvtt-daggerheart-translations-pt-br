@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Hill Titan",
+  "name": "Titã da Colina",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "solo",
-    "description": "<p>A goliath clad in animal skins and surrounded by a swarm of insects.</p>",
+    "description": "<p>Um golias vestido com peles de animais e cercado por um enxame de insetos.</p>",
     "tier": 2,
-    "motivesAndTactics": "Eat, make a mess, patrol stomping grounds",
+    "motivesAndTactics": "Comer, fazer bagunça, patrulhar seu território",
     "difficulty": 14,
     "damageThresholds": {
       "major": 13,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Tree Stump",
+      "name": "Toco de Árvore",
       "img": "icons/commodities/wood/log-rough-hickory-brown.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "OyApi8y9bJcUUzRW": {
-        "name": "Survival",
+        "name": "Sobrevivência",
         "value": 3,
         "description": ""
       },
       "OUwZgPQPvvamgWmo": {
-        "name": "Vengeful",
+        "name": "Vingativo",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Relentless (3)",
+      "name": "Implacável (3)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Titan can be spotlighted up to three times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Titã pode ser colocado em destaque até três vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!321E0ZexRT4zjpKu.M0xm1RuRp8RKZ9U2"
     },
     {
-      "name": "Gullible",
+      "name": "Ingênuo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>PCs have advantage on action rolls to trick or emotionally manipulate the Titan.</p>",
+        "description": "<p>PJs têm vantagem em rolagens de ação para enganar ou manipular emocionalmente o Titã.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,11 +189,11 @@
       "_key": "!actors.items!321E0ZexRT4zjpKu.4Ujl7ftNG0ZGGRng"
     },
     {
-      "name": "Bug Swarm",
+      "name": "Enxame de Insetos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>PCs are <em>Vulnerable</em> while within Very Close range.</p>",
+        "description": "<p>PJs ficam <em>Vulneráveis</em> enquanto estiverem em alcance Muito Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -214,14 +212,12 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Bug Swarm",
+                "name": "Enxame de Insetos",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": [
-                  "XUB4VupK2GO40Phy"
-                ]
+                "effects": ["XUB4VupK2GO40Phy"]
               }
             ],
             "cost": [],
@@ -236,7 +232,7 @@
               "type": "",
               "amount": null
             },
-            "name": "Activate",
+            "name": "Ativar",
             "range": ""
           }
         },
@@ -247,14 +243,12 @@
       "img": "icons/creatures/invertebrates/spider-dotted-green.webp",
       "effects": [
         {
-          "name": "Bug Swarm",
+          "name": "Enxame de Insetos",
           "disabled": false,
           "img": "icons/creatures/invertebrates/spider-dotted-green.webp",
           "description": "",
           "transfer": false,
-          "statuses": [
-            "vulnerable"
-          ],
+          "statuses": ["vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -263,9 +257,7 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [
-              1
-            ],
+            "targetDispositions": [1],
             "conditionals": []
           },
           "_id": "XUB4VupK2GO40Phy",
@@ -304,11 +296,11 @@
       "_key": "!actors.items!321E0ZexRT4zjpKu.kkVrD8dy2HAdNz3a"
     },
     {
-      "name": "Mighty Swing",
+      "name": "Golpe Poderoso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to make a standard attack against all targets within Very Close range.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer um ataque padrão contra todos os alvos em alcance Muito Próximo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -334,9 +326,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -354,7 +344,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Mighty Swing",
+                "name": "Golpe Poderoso",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -403,7 +393,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -422,11 +412,11 @@
       "_key": "!actors.items!321E0ZexRT4zjpKu.Xgwos3c1kvGSl9yu"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Titan makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o Titã fizer um ataque bem-sucedido contra um PJ, você recebe 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -449,7 +439,7 @@
   "_id": "321E0ZexRT4zjpKu",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Hill Titan",
+    "name": "Titã da Colina",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

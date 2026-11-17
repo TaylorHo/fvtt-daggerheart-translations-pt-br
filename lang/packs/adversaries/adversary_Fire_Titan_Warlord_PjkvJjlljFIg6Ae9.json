@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Fire Titan Warlord",
+  "name": "Senhor da Guerra Titã de Fogo",
   "folder": "7XHlANCPz18yvl5L",
   "system": {
     "type": "leader",
-    "description": "<p>A smoldering, battle-obsessed goliath wearing bespoke armor and wielding a massive maul.</p>",
+    "description": "<p>Um golias em brasa e obcecado por batalhas, vestindo uma armadura sob medida e empunhando uma maça colossal.</p>",
     "tier": 4,
-    "motivesAndTactics": "Compete against rivals, conquer the weak, craft colossal war machines",
+    "motivesAndTactics": "Competir com rivais, conquistar os fracos, forjar máquinas de guerra colossais",
     "difficulty": 21,
     "damageThresholds": {
       "major": 33,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Maul",
+      "name": "Maça",
       "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "E9EKwdWaU5eaFoxT": {
-        "name": "Tactics",
+        "name": "Táticas",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Warlord can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O Senhor da Guerra pode ser colocado em destaque até duas vezes por turno do Mestre. Gaste Medo normalmente para colocá-lo em destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,21 +160,21 @@
       "_key": "!actors.items!PjkvJjlljFIg6Ae9.PxiD2XExe45fHIKM"
     },
     {
-      "name": "Colossus Crafter",
+      "name": "Criador de Colossos",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>Countdown (6). When the Warlord enters the scene, activate the countdown. It ticks down when the Warlord is spotlighted. When it triggers, summon the Gargantuan War Machine, which appears at the edge of the battlefield and immediately takes the spotlight.</p>",
+        "description": "<p>Contagem Regressiva (6). Quando o Senhor da Guerra entrar na cena, ative a contagem regressiva. Ela avança quando o Senhor da Guerra é colocado em destaque. Quando disparar, invoque a Máquina de Guerra Gargantuesca, que aparece na borda do campo de batalha e imediatamente assume o destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "XCZQJSvp4yPO1rCh": {
             "type": "countdown",
-            "name": "Start Countdown",
+            "name": "Iniciar Contagem Regressiva",
             "countdown": [
               {
-                "name": "Colossus Crafter",
+                "name": "Criador de Colossos",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
@@ -215,7 +213,7 @@
             "_id": "nFtxBG44eEjAF9uk",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, summon the Gargantuan War Machine, which appears at the edge of the battlefield and immediately takes the spotlight.</p>",
+            "description": "<p>Quando ela disparar, invoque a Máquina de Guerra Gargantuesca, que aparece na borda do campo de batalha e imediatamente assume o destaque.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -236,7 +234,7 @@
                 "count": "1"
               }
             ],
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": "",
             "img": "icons/weapons/artillery/trebuchet-simple.webp"
           }
@@ -256,11 +254,11 @@
       "_key": "!actors.items!PjkvJjlljFIg6Ae9.y23ZdtLiSn0pN2g8"
     },
     {
-      "name": "Release the Hounds",
+      "name": "Soltar os Cães",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Warlord summon two Demonic Hound Packs, which appear at Close range and immediately take the spotlight.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Senhor da Guerra invocar dois Bandos de Cães Demoníacos, que aparecem no alcance Próximo e imediatamente assumem o destaque.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -300,7 +298,7 @@
                 "count": "2"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -319,11 +317,11 @@
       "_key": "!actors.items!PjkvJjlljFIg6Ae9.jxtN0zwQ0831Esty"
     },
     {
-      "name": "Spinning Strike",
+      "name": "Golpe Giratório",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to make a standard attack against all targets within Very Close range and gain a Fear.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para fazer um ataque padrão contra todos os alvos dentro do alcance Muito Próximo e receber 1 Medo.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -349,9 +347,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -369,7 +365,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Spinning Strike",
+                "name": "Golpe Giratório",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -418,7 +414,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -437,11 +433,11 @@
       "_key": "!actors.items!PjkvJjlljFIg6Ae9.tkErESgXR79emSYb"
     },
     {
-      "name": "Ground-Breaking",
+      "name": "Abala-Terra",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Warlord crack the earth with a downward swing of their maul and make an attack against a group within Close range. Targets the attack succeeds against take <strong>4d10+10</strong> direct damage. The area becomes rough terrain, and a PC must succeed on an Agility Reaction Roll (16) to move through it.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Senhor da Guerra rachar o chão com um golpe descendente de sua maça e fazer um ataque contra um grupo dentro do alcance Próximo. Alvos contra os quais o ataque for bem-sucedido sofrem <strong>4d10+10</strong> de dano direto. A área se torna terreno acidentado, e um PJ deve ser bem-sucedido em um Teste de Reação de Agilidade (16) para atravessá-la.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -467,9 +463,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -487,7 +481,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Ground-Breaking",
+                "name": "Abala-Terra",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -536,7 +530,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -558,7 +552,7 @@
   "_id": "PjkvJjlljFIg6Ae9",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Fire Titan Warlord",
+    "name": "Senhor da Guerra Titã de Fogo",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

@@ -1,10 +1,10 @@
 {
-  "name": "Cult Initiate",
+  "name": "Iniciado do Culto",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
-    "motivesAndTactics": "Follow orders, gain power, seek forbidden knowledge",
+    "motivesAndTactics": "Seguir ordens, ganhar poder, buscar conhecimento proibido",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,7 +22,7 @@
     "experiences": {},
     "difficulty": 13,
     "tier": 2,
-    "description": "<p>A low-ranking cultist in simple robes, eager to gain power.</p>",
+    "description": "<p>Um cultista de baixa patente em vestes simples, ansioso por ganhar poder.</p>",
     "resources": {
       "hitPoints": {
         "value": 0,
@@ -34,7 +34,7 @@
       }
     },
     "attack": {
-      "name": "Ritual Dagger",
+      "name": "Adaga Ritual",
       "img": "icons/weapons/daggers/dagger-crooked-black.webp",
       "roll": {
         "bonus": 0,
@@ -64,9 +64,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "zx99sOGTXicP4SSD",
   "sort": 3600000,
   "prototypeToken": {
-    "name": "Cult Initiate",
+    "name": "Iniciado do Culto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,10 +227,10 @@
   },
   "items": [
     {
-      "name": "Minion (6)",
+      "name": "Lacaio (6)",
       "type": "feature",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 6 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>@Lookup[@name] é derrotado quando sofre qualquer dano. Para cada 6 de dano que um PJ causar a @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,10 +251,10 @@
       "_key": "!actors.items!zx99sOGTXicP4SSD.oYoMjSd4OKLWUxlP"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all Cult @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para escolher um alvo e dar o foco a todos os @Lookup[@name]s do Culto em alcance Próximo dele. Esses Minions se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "4M2MvVzEgIQEQHBS": {
@@ -303,9 +301,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -339,7 +335,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

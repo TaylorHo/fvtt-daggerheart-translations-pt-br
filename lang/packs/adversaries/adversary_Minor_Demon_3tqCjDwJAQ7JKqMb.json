@@ -1,5 +1,5 @@
 {
-  "name": "Minor Demon",
+  "name": "Demônio Menor",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 4
       }
     },
-    "motivesAndTactics": "Act erratically, corral targets, relish pain, torment",
+    "motivesAndTactics": "Agir de forma errática, encurralar alvos, deleitar-se com a dor, atormentar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A crimson-hued creature from the Circles Below, consumed by rage against all mortals.</p>",
+    "description": "<p>Uma criatura de tom carmesim dos Círculos Inferiores, consumida pela fúria contra todos os mortais.</p>",
     "attack": {
-      "name": "Claws",
+      "name": "Garras",
       "img": "icons/creatures/claws/claw-hooked-barbed.webp",
       "roll": {
         "bonus": 3,
@@ -68,9 +68,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "3tqCjDwJAQ7JKqMb",
   "sort": 700000,
   "prototypeToken": {
-    "name": "Minor Demon",
+    "name": "Demônio Menor",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "_id": "4xoydX3YwsLujuaI",
       "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "resource": null,
         "actions": {
           "lfYFbb71wWaR8DJs": {
@@ -265,7 +263,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -292,12 +290,12 @@
       "_key": "!actors.items!3tqCjDwJAQ7JKqMb.4xoydX3YwsLujuaI"
     },
     {
-      "name": "All Must fall",
+      "name": "Todos Devem Cair",
       "type": "feature",
       "_id": "kD9kO92V7t3IqZu8",
       "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
       "system": {
-        "description": "<p>When a PC rolls a failure with Fear while within Close range of the @Lookup[@name], they lose a Hope.</p>",
+        "description": "<p>Quando um PJ rola uma falha com Medo em alcance Próximo do @Lookup[@name], ele perde 1 Esperança.</p>",
         "resource": null,
         "actions": {
           "XQ7QebA0iGvMti4A": {
@@ -342,12 +340,12 @@
               "amount": null
             },
             "effects": [],
-            "name": "Hope Damage",
+            "name": "Dano de Esperança",
             "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
             "range": "",
             "areas": [
               {
-                "name": "All Must fall",
+                "name": "Todos Devem Cair",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -378,12 +376,12 @@
       "_key": "!actors.items!3tqCjDwJAQ7JKqMb.kD9kO92V7t3IqZu8"
     },
     {
-      "name": "Hellfire",
+      "name": "Fogo Infernal",
       "type": "feature",
       "_id": "lA7vcvS7oGT9NTSy",
       "img": "icons/magic/fire/projectile-beams-salvo-red.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to rain down hellfire within Far range. All targets within the area must make an Agility Reaction Roll. Targets who fail take <strong>1d20+3</strong> magic damage. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer chover fogo infernal em alcance Distante. Todos os alvos na área devem fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>1d20+3</strong> de dano mágico. Alvos que tiverem sucesso sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "nOzLQ0NJzeB3vKiV": {
@@ -422,9 +420,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -461,12 +457,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/fire/projectile-beams-salvo-red.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Hellfire",
+                "name": "Fogo Infernal",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
@@ -497,12 +493,12 @@
       "_key": "!actors.items!3tqCjDwJAQ7JKqMb.lA7vcvS7oGT9NTSy"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "w400aHTlADxDihpt",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "Cmd4f2gfxgOZsN6f": {
@@ -562,7 +558,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,
@@ -589,12 +585,12 @@
       "_key": "!actors.items!3tqCjDwJAQ7JKqMb.w400aHTlADxDihpt"
     },
     {
-      "name": "Reaper",
+      "name": "Ceifador",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
         "attribution": {},
-        "description": "<p>Before rolling damage for the Demon's attack, you can <strong>mark a Stress</strong> to gain a bonus to the damage roll equal to the Demon's current number of marked HP.</p>",
+        "description": "<p>Antes de rolar o dano do ataque do Demônio, você pode <strong>marcar 1 Fadiga</strong> para receber um bônus na rolagem de dano igual ao número atual de PV marcados do Demônio.</p>",
         "gmNotes": "",
         "resource": null,
         "actions": {
@@ -619,9 +615,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -659,7 +653,7 @@
               "amount": null
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },

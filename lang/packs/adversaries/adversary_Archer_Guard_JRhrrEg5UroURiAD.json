@@ -1,5 +1,5 @@
 {
-  "name": "Archer Guard",
+  "name": "Guarda Arqueiro",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "Gtr9I2G39GcXT2Si": {
-        "name": "Local Knowledge",
+        "name": "Conhecimento Local",
         "value": 3,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A tall guard bearing a longbow and quiver with arrows fletched in the settlement's colors.</p>",
-    "motivesAndTactics": "Arrest, close gates, make it through the day, pin down",
+    "description": "<p>Um guarda alto portando um arco longo e uma aljava com flechas emplumadas nas cores do povoado.</p>",
+    "motivesAndTactics": "Prender, fechar os portões, sobreviver ao dia, encurralar",
     "attack": {
-      "name": "Longbow",
+      "name": "Arco Longo",
       "range": "far",
       "roll": {
         "bonus": 1,
@@ -74,9 +74,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "JRhrrEg5UroURiAD",
   "sort": 2900000,
   "prototypeToken": {
-    "name": "Archer Guard",
+    "name": "Guarda Arqueiro",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Hobbling Shot",
+      "name": "Tiro Incapacitante",
       "type": "feature",
       "_id": "DMtd1EXQPlPaoRmV",
       "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "system": {
-        "description": "<p>Make an attack against a target within Far range. On a success, <strong>mark a Stress</strong> to deal <strong>1d12+3</strong> physical damage. If the target marks HP from this attack, they have disadvantage on Agility Rolls until they clear at least 1 HP.</p>",
+        "description": "<p>Faça um ataque contra um alvo em alcance Distante. Em caso de sucesso, <strong>marque 1 Fadiga</strong> para causar <strong>1d12+3</strong> de dano físico. Se o alvo marcar PV com esse ataque, ele tem desvantagem em Testes de Agilidade até limpar pelo menos 1 PV.</p>",
         "resource": null,
         "actions": {
           "84rwldOFvTPrrHJJ": {
@@ -279,9 +277,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -323,7 +319,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
             "range": "far",
             "baseAction": false,
@@ -342,7 +338,7 @@
       },
       "effects": [
         {
-          "name": "Hobbling Shot",
+          "name": "Tiro Incapacitante",
           "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
           "transfer": false,
           "_id": "wGuxOLokMqdxVSOo",
@@ -372,7 +368,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You have disadvantage on Agility Rolls until you clear at least 1 HP.</p>",
+          "description": "<p>Você tem desvantagem em Testes de Agilidade até limpar pelo menos 1 PV.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,

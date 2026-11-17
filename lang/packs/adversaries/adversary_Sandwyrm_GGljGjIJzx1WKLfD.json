@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Sandwyrm",
+  "name": "Verme-das-Areias",
   "folder": "wTI7nZkPhKxl7Wwq",
   "system": {
     "type": "bruiser",
-    "description": "<p>A gargantuan burrowing worm that has armor plating and gnashing jaws. This intelligent and opportunistic hunter can swim through sand as quickly as a cheetah runs on land.</p>",
+    "description": "<p>Um verme escavador gigantesco com placas de armadura e mandíbulas rangentes. Este caçador inteligente e oportunista consegue nadar pela areia tão rápido quanto um guepardo corre em terra.</p>",
     "tier": 3,
-    "motivesAndTactics": "Ambush from below, eat and leave, tunnel and erupt, use both ends",
+    "motivesAndTactics": "Emboscar por baixo, comer e partir, cavar túneis e irromper, usar ambas as extremidades",
     "difficulty": 17,
     "damageThresholds": {
       "major": 21,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Bite",
+      "name": "Mordida",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "5h5VexBnnkpu2uq7": {
-        "name": "Tremor Sense",
+        "name": "Sentido de Tremor",
         "value": 4,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Venomous Tail Stinger",
+      "name": "Ferrão de Cauda Venenoso",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to attack a target within Close range. On a success, the target takes <strong>3d10+2</strong> physical damage and must succeed on a Strength Reaction Roll or become <em>Restrained</em> and <em>Vulnerable</em> until they roll with Hope.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para atacar um alvo dentro do alcance Próximo. Em caso de sucesso, o alvo sofre <strong>3d10+2</strong> de dano físico e deve ter sucesso em um Teste de Reação de Força ou ficar <em>Restringido</em> e <em>Vulnerável</em> até rolar com Esperança.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -168,9 +166,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -233,7 +229,7 @@
               "difficulty": null,
               "damageMod": "full"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -244,15 +240,12 @@
       "img": "icons/commodities/biological/stinger-insect-grey.webp",
       "effects": [
         {
-          "name": "Stabbed",
+          "name": "Perfurado",
           "disabled": false,
           "img": "icons/commodities/biological/stinger-insect-grey.webp",
-          "description": "<p>You are <em>Restrained</em> and <em>Vulnerable</em> until you roll with Hope.</p>",
+          "description": "<p>Você fica <em>Restringido</em> e <em>Vulnerável</em> até rolar com Esperança.</p>",
           "transfer": false,
-          "statuses": [
-            "restrained",
-            "vulnerable"
-          ],
+          "statuses": ["restrained", "vulnerable"],
           "system": {
             "changes": [],
             "duration": {
@@ -300,11 +293,11 @@
       "_key": "!actors.items!GGljGjIJzx1WKLfD.LaD80Lyc7hjdTwjJ"
     },
     {
-      "name": "Devour",
+      "name": "Devorar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Make an attack against a target within Melee range. On a success, the @Lookup[@name] Swallows the target. While Swallowed, the target is <em>Restrained</em> and marks a HP when the @Lookup[@name] is spotlighted. The @Lookup[@name] disgorges all Swallowed creatures when it takes Major or greater damage.</p>",
+        "description": "<p>Faça um ataque contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, o @Lookup[@name] Engole o alvo. Enquanto Engolido, o alvo fica <em>Restringido</em> e marca um PV quando o @Lookup[@name] está em destaque. O @Lookup[@name] regurgita todas as criaturas Engolidas quando sofre dano Maior ou superior.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -374,10 +367,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "effects": [
         {
-          "name": "Swallowed",
+          "name": "Engolido",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
-          "description": "<p>While Swallowed, the target is <em>Restrained</em> and marks a HP when the Sandwyrm is spotlighted. The Sandwyrm disgorges all Swallowed creatures when it takes Major or greater damage.</p>",
+          "description": "<p>Enquanto Engolido, o alvo fica <em>Restringido</em> e marca um PV quando o Verme-das-Areias está em destaque. O Verme-das-Areias regurgita todas as criaturas Engolidas quando sofre dano Maior ou superior.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -427,11 +420,11 @@
       "_key": "!actors.items!GGljGjIJzx1WKLfD.3p7DukovYy3xgCHW"
     },
     {
-      "name": "Hungry, Not Stupid",
+      "name": "Faminto, Não Burro",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] marks half its HP or Swallows a creature, roll a <strong>d6</strong>. On a result of 3 or lower, the @Lookup[@name] retreats to safety.</p>",
+        "description": "<p>Quando o @Lookup[@name] marca metade de seus PV ou Engole uma criatura, role um <strong>d6</strong>. Com resultado 3 ou menos, o @Lookup[@name] se retira para um lugar seguro.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -485,7 +478,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Flee Check",
+            "name": "Teste de Fuga",
             "range": ""
           }
         },
@@ -507,7 +500,7 @@
   "_id": "GGljGjIJzx1WKLfD",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Sandwyrm",
+    "name": "Verme-das-Areias",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

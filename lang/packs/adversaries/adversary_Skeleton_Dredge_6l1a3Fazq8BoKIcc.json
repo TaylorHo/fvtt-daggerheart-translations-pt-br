@@ -1,10 +1,10 @@
 {
-  "name": "Skeleton Dredge",
+  "name": "Esqueleto Dragador",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
-    "motivesAndTactics": "Fall apart, overwhelm, play dead, steal skin",
+    "motivesAndTactics": "Desmontar-se, subjugar, fingir-se de morto, roubar pele",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -22,9 +22,9 @@
     "experiences": {},
     "difficulty": 8,
     "tier": 1,
-    "description": "<p>A clattering pile of bones.</p>",
+    "description": "<p>Uma pilha de ossos chacoalhantes.</p>",
     "attack": {
-      "name": "Bone Claws",
+      "name": "Garras de Osso",
       "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
       "roll": {
         "bonus": -1,
@@ -54,9 +54,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "6l1a3Fazq8BoKIcc",
   "sort": 1100000,
   "prototypeToken": {
-    "name": "Skeleton Dredge",
+    "name": "Esqueleto Dragador",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "_id": "g9GQ9cMPNETxKXOz",
       "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 4 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. A cada 4 de dano que um PJ causa ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -253,12 +251,12 @@
       "_key": "!actors.items!6l1a3Fazq8BoKIcc.g9GQ9cMPNETxKXOz"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "_id": "wl9KKEpVWDBu62hU",
       "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "6rdwJKwsSCO4R0Ty": {
@@ -305,9 +303,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -341,7 +337,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }

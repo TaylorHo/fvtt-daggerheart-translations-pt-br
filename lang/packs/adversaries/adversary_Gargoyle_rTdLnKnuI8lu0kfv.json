@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Gargoyle",
+  "name": "Gárgula",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A magically animated statue resembling a terrifying beast or demon.</p>",
+    "description": "<p>Uma estátua animada por magia que lembra uma fera ou demônio aterrorizante.</p>",
     "tier": 2,
-    "motivesAndTactics": "Hide in plain sight, overwatch, swoop down",
+    "motivesAndTactics": "Esconder-se à vista de todos, vigiar, mergulhar sobre a presa",
     "difficulty": 13,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Stone Claws",
+      "name": "Garras de Pedra",
       "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "a1KlvwlhFkOn6KQX": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 4,
         "description": ""
       },
       "pslHotwRn6SsxwH7": {
-        "name": "Ruins",
+        "name": "Ruínas",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Unliving",
+      "name": "Inanimado",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to magic damage.</p>",
+        "description": "<p>O @Lookup[@name] tem resistência a dano mágico.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -197,7 +195,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Gargoyle has resistance to magic damage.</p>",
+          "description": "<p>A Gárgula tem resistência a dano mágico.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -220,11 +218,11 @@
       "_key": "!actors.items!rTdLnKnuI8lu0kfv.bJHrY6RTqDaqJrsU"
     },
     {
-      "name": "Swooping Strike",
+      "name": "Golpe Mergulhante",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p>Choose a point within Far range. The @Lookup[@name] moves to that point and makes a standard attack against one target along its path.</p>",
+        "description": "<p>Escolha um ponto dentro do alcance Distante. O @Lookup[@name] se move até esse ponto e faz um ataque padrão contra um alvo ao longo de seu trajeto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -250,9 +248,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -320,11 +316,11 @@
       "_key": "!actors.items!rTdLnKnuI8lu0kfv.WLqbQcas7nK0lmWT"
     },
     {
-      "name": "Petrifying Slash",
+      "name": "Talho Petrificante",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the @Lookup[@name] deals damage, the target must succeed on a Strength Reaction Roll or become <em>Vulnerable</em>. If the target is already <em>Vulnerable</em>, they become <em>Restrained</em>. If the target is already <em>Vulnerable</em> and <em>Restrained</em>, they must make a death move. The PC can <strong>spend a Hope</strong> per condition to clear it.</p>",
+        "description": "<p>Quando o @Lookup[@name] causar dano, o alvo deve ser bem-sucedido em um Teste de Reação de Força ou ficar <em>Vulnerável</em>. Se o alvo já estiver <em>Vulnerável</em>, ele fica <em>Imobilizado</em>. Se o alvo já estiver <em>Vulnerável</em> e <em>Imobilizado</em>, ele deve fazer um movimento de morte. O PJ pode <strong>gastar 1 Esperança</strong> por condição para removê-la.</p>",
         "attribution": {},
         "gmNotes": "<p>Manually advance the condition by swapping effects depending on the stage a character is currently in.</p>",
         "resource": null,
@@ -378,7 +374,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -400,7 +396,7 @@
   "_id": "rTdLnKnuI8lu0kfv",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Gargoyle",
+    "name": "Gárgula",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

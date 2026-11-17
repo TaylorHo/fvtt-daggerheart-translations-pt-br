@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Guahalan Spirit Singer",
+  "name": "Cantor de Espíritos Guahalano",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "support",
-    "description": "<p>A shapeshifting summoner who has animalistic features.</p>",
+    "description": "<p>Um invocador metamorfo com características animalescas.</p>",
     "tier": 2,
-    "motivesAndTactics": "Abjure, bolster, summon",
+    "motivesAndTactics": "Abjurar, fortalecer, invocar",
     "difficulty": 14,
     "damageThresholds": {
       "major": 9,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Spirit Flame",
+      "name": "Chama Espiritual",
       "img": "icons/magic/light/projectile-smoke-blue.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -113,7 +111,7 @@
         "description": ""
       },
       "sMR5u8CeFlS3SMzJ": {
-        "name": "Ancient History",
+        "name": "História Antiga",
         "value": 2,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Unleash the Beast",
+      "name": "Libertar a Fera",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Spirit Singer adopt a more bestial form. While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Cantor de Espíritos assumir uma forma mais bestial. Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,7 +189,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -202,10 +200,10 @@
       "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
       "effects": [
         {
-          "name": "Unleash the Beast",
+          "name": "Libertar a Fera",
           "disabled": false,
           "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
-          "description": "<p>While in this form, they gain a bonus to attack and damage rolls equal to the number of Stress they have marked. Additionally, they can move up to Far range instead of Close range before taking an action.</p>",
+          "description": "<p>Enquanto estiver nessa forma, ele recebe um bônus nas rolagens de ataque e dano igual ao número de Fadiga que tiver marcado. Além disso, ele pode se mover até o alcance Longe em vez do alcance Perto antes de realizar uma ação.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
@@ -235,9 +233,7 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": [
-                  "attack"
-                ],
+                "actionTypes": ["attack"],
                 "traits": []
               }
             ]
@@ -278,11 +274,11 @@
       "_key": "!actors.items!9K39Wga6Lj5y0g8M.Yrqv87f6puOCxm10"
     },
     {
-      "name": "Beast-Caller",
+      "name": "Chamador de Feras",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the Spirit Singer summon <strong>2d4</strong> Guahalan Spirit Beasts within Very Close range and immediately spotlight one.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para fazer o Cantor de Espíritos invocar <strong>2d4</strong> Feras Espirituais Guahalanas dentro do alcance Muito Perto e dar Destaque imediato a uma delas.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -322,7 +318,7 @@
                 "count": "2d4"
               }
             ],
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryClose"
           }
         },
@@ -341,11 +337,11 @@
       "_key": "!actors.items!9K39Wga6Lj5y0g8M.caJPsyCr135shtxb"
     },
     {
-      "name": "Rage of Spirits",
+      "name": "Fúria dos Espíritos",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to spotlight any number of Guahalan Spirit Beasts within Very Close range and have each one move into Melee range with the nearest PC and make a standard attack. If any attacks succeed against the same target, combine their damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para dar Destaque a qualquer quantidade de Feras Espirituais Guahalanas dentro do alcance Muito Perto e fazer cada uma se mover para o alcance Corpo a Corpo do PJ mais próximo e realizar um ataque padrão. Se algum ataque for bem-sucedido contra o mesmo alvo, combine o dano deles.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -364,7 +360,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Rage of Spirits",
+                "name": "Fúria dos Espíritos",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -393,7 +389,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -412,11 +408,11 @@
       "_key": "!actors.items!9K39Wga6Lj5y0g8M.7cdY7q2H3EknbG3A"
     },
     {
-      "name": "Spiritual Sacrifice",
+      "name": "Sacrifício Espiritual",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Spirit Singer would take damage while within Very Close range of a Guahalan Spirit Beast, you can <strong>spend a Fear</strong> to sacrifice the Spirit Beast and negate the damage.</p>",
+        "description": "<p>Quando o Cantor de Espíritos sofreria dano estando dentro do alcance Muito Perto de uma Fera Espiritual Guahalana, você pode <strong>gastar 1 Medo</strong> para sacrificar a Fera Espiritual e anular o dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -455,7 +451,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "veryClose"
           }
         },
@@ -477,7 +473,7 @@
   "_id": "9K39Wga6Lj5y0g8M",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Guahalan Spirit Singer",
+    "name": "Cantor de Espíritos Guahalano",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

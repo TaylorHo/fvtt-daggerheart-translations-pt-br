@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Entombed Stonemason",
+  "name": "Pedreiro Sepultado",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "minion",
-    "description": "<p>An unfortunate undead laborer chosen by lottery to wall up their empress's tomb from the inside.</p>",
+    "description": "<p>Um infeliz trabalhador morto-vivo escolhido por sorteio para emparedar por dentro a tumba de sua imperatriz.</p>",
     "tier": 2,
-    "motivesAndTactics": "Never stop working, sacrifice yourself for the empress",
+    "motivesAndTactics": "Nunca parar de trabalhar, sacrificar-se pela imperatriz",
     "difficulty": 12,
     "resources": {
       "hitPoints": {
@@ -19,7 +19,7 @@
       }
     },
     "attack": {
-      "name": "Hammer and Chisel",
+      "name": "Martelo e Cinzel",
       "img": "icons/tools/hand/hammer-and-nail.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -57,9 +57,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -104,7 +102,7 @@
     },
     "experiences": {
       "22qiF9mGNKCqxgX9": {
-        "name": "Builder",
+        "name": "Construtor",
         "value": 2,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Minion (5)",
+      "name": "Lacaio (5)",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The Stonemason is defeated when they take any damage. For every 5 damage a PC deals to the Stonemason, the PC defeats an additional Minion within range their attack would succeed against.</p>",
+        "description": "<p>O Pedreiro é derrotado quando sofre qualquer dano. A cada 5 de dano que um PJ causar ao Pedreiro, o PJ derrota um Lacaio adicional dentro do alcance contra o qual seu ataque seria bem-sucedido.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -162,11 +160,11 @@
       "_key": "!actors.items!cugsaVxMi9UCUNku.6huNvvnU8PLKiohT"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal 5 physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 Medo</strong> para escolher um alvo e colocar em destaque todos os @Lookup[@name] dentro do alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque em conjunto. Em caso de sucesso, cada um causa 5 de dano físico. Combine esse dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -192,9 +190,7 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "close",
                 "itemId": null
               },
@@ -252,7 +248,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": ""
           }
         },
@@ -271,11 +267,11 @@
       "_key": "!actors.items!cugsaVxMi9UCUNku.SLFSJAPmV9LzxgmJ"
     },
     {
-      "name": "The Work Never Ends",
+      "name": "O Trabalho Nunca Termina",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>When the Stonemason is defeated by an attack that deals physical damage, you can <strong>spend a Fear</strong> to clear the Stonemason's HP and Stress.</p>",
+        "description": "<p>Quando o Pedreiro for derrotado por um ataque que cause dano físico, você pode <strong>gastar 1 Medo</strong> para recuperar todos os PV e o Fadiga do Pedreiro.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -370,7 +366,7 @@
               },
               "useDefault": false
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "self"
           }
         },
@@ -392,7 +388,7 @@
   "_id": "cugsaVxMi9UCUNku",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Entombed Stonemason",
+    "name": "Pedreiro Sepultado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

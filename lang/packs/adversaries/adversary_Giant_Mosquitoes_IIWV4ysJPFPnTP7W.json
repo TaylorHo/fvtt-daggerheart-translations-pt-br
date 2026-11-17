@@ -1,5 +1,5 @@
 {
-  "name": "Giant Mosquitoes",
+  "name": "Mosquitos Gigantes",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,14 +35,14 @@
     "notes": "",
     "experiences": {
       "4SUFXKZh33mFvNt9": {
-        "name": "Camouflage",
+        "name": "Camuflagem",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>Dozens of fist-sized mosquitoes, flying together for protection.</p>",
-    "motivesAndTactics": "Fly away, harass, steal blood",
+    "description": "<p>Dezenas de mosquitos do tamanho de punhos, voando juntos para se proteger.</p>",
+    "motivesAndTactics": "Fugir voando, assediar, roubar sangue",
     "attack": {
       "damage": {
         "main": {
@@ -57,9 +57,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -79,7 +77,7 @@
         },
         "resources": {}
       },
-      "name": "Proboscis",
+      "name": "Probóscide",
       "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
       "roll": {
         "bonus": -2,
@@ -146,7 +144,7 @@
   "_id": "IIWV4ysJPFPnTP7W",
   "sort": 2800000,
   "prototypeToken": {
-    "name": "Giant Mosquitoes",
+    "name": "Mosquitos Gigantes",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -239,12 +237,12 @@
   },
   "items": [
     {
-      "name": "Flying",
+      "name": "Voo",
       "type": "feature",
       "_id": "gxYV6iTMM1S9Vv5v",
       "img": "icons/commodities/biological/wing-insect-green.webp",
       "system": {
-        "description": "<p>While flying, the @Lookup[@name] have a +2 bonus to their Difficulty.</p>",
+        "description": "<p>Enquanto estiverem voando, o @Lookup[@name] tem um bônus de +2 em sua Dificuldade.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -255,7 +253,7 @@
       },
       "effects": [
         {
-          "name": "Flying",
+          "name": "Voo",
           "type": "base",
           "_id": "aATxfjeOzUYtKuU6",
           "img": "icons/commodities/biological/wing-insect-green.webp",
@@ -284,7 +282,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>While flying, the Mosquitoes have a +2 bonus to their Difficulty.</p>",
+          "description": "<p>Enquanto estão voando, os Mosquitos têm +2 de bônus em sua Dificuldade.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -308,12 +306,12 @@
       "_key": "!actors.items!IIWV4ysJPFPnTP7W.gxYV6iTMM1S9Vv5v"
     },
     {
-      "name": "Bloodsucker",
+      "name": "Sanguessuga",
       "type": "feature",
       "_id": "BTlMLjG65KQs0Jk2",
       "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name]'s attack causes a target to mark HP, you can <strong>mark a Stress</strong> to force the target to mark an additional HP.</p>",
+        "description": "<p>Quando o ataque do @Lookup[@name] faz um alvo marcar PV, você pode <strong>marcar 1 Fadiga</strong> para forçar o alvo a marcar 1 PV adicional.</p>",
         "resource": null,
         "actions": {
           "7ee6IhkKYDehjLmg": {
@@ -344,7 +342,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
             "range": "",
             "baseAction": false,
@@ -372,10 +370,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -391,7 +389,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "showIcon": 2,
           "system": {

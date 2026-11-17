@@ -1,5 +1,5 @@
 {
-  "name": "Tangle Bramble",
+  "name": "Espinheiro Emaranhado",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 1
       }
     },
-    "motivesAndTactics": "Combine, drain, entangle",
+    "motivesAndTactics": "Combinar, drenar, emaranhar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>An animate, blood-drinking tumbleweed.</p>",
+    "description": "<p>Uma erva rolante animada que bebe sangue.</p>",
     "attack": {
-      "name": "Thorns",
+      "name": "Espinhos",
       "img": "icons/magic/nature/root-vine-hand-strike.webp",
       "_id": "LEgXds9kkshd2Ytq",
       "systemPath": "attack",
@@ -77,9 +77,7 @@
             "bonus": null
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -134,7 +132,7 @@
   },
   "flags": {},
   "prototypeToken": {
-    "name": "Tangle Bramble",
+    "name": "Espinheiro Emaranhado",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -227,12 +225,12 @@
   },
   "items": [
     {
-      "name": "Minion (4)",
+      "name": "Lacaio (4)",
       "type": "feature",
       "_id": "jH1VMpj4dCUhKVCJ",
       "img": "icons/magic/symbols/runes-carved-stone-yellow.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] is defeated when they take any damage. For every 4 damage a PC deals to the @Lookup[@name], defeat an additional Minion within range the attack would succeed against.</p>",
+        "description": "<p>O @Lookup[@name] é derrotado quando sofre qualquer dano. A cada 4 de dano que um PJ causa ao @Lookup[@name], derrote um Lacaio adicional dentro do alcance contra o qual o ataque teria sucesso.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -251,12 +249,12 @@
       "_key": "!actors.items!XcAGOSmtCFLT1unN.jH1VMpj4dCUhKVCJ"
     },
     {
-      "name": "Group Attack",
+      "name": "Ataque em Grupo",
       "type": "feature",
       "_id": "WiobzuyvJ46zfsOv",
       "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to choose a target and spotlight all @Lookup[@name]s within Close range of them. Those Minions move into Melee range of the target and make one shared attack roll. On a success, they deal @Lookup[@system.attack.damageFormula] physical damage each. Combine this damage.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para escolher um alvo e dar destaque a todos os @Lookup[@name]s em alcance Próximo dele. Esses Lacaios se movem para o alcance Corpo a Corpo do alvo e fazem um único teste de ataque compartilhado. Em caso de sucesso, cada um causa @Lookup[@system.attack.damageFormula] de dano físico. Combine esse dano.</p>",
         "resource": null,
         "actions": {
           "V58Ry90tvIjvfDTZ": {
@@ -303,9 +301,7 @@
                 },
                 "valueAlt": null,
                 "base": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "includeBase": false,
                 "direct": false,
                 "groupAttack": "close",
@@ -339,7 +335,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "",
             "areas": []
           }
@@ -360,12 +356,12 @@
       "_key": "!actors.items!XcAGOSmtCFLT1unN.WiobzuyvJ46zfsOv"
     },
     {
-      "name": "Drain and Multiply",
+      "name": "Drenar e Multiplicar",
       "type": "feature",
       "_id": "KBMf7oBfFSHoafKN",
       "img": "icons/magic/nature/root-vines-knot-brown.webp",
       "system": {
-        "description": "<p>When an attack from the @Lookup[@name] causes a target to mark HP and there are three or more @Lookup[@name] Minions within Close range, you can combine the Minions into a @UUID[Compendium.daggerheart.adversaries.Actor.PKSXFuaIHUCoH63A]{Tangle Bramble Swarm Horde}. The Horde's HP is equal to the number of Minions combined.</p>",
+        "description": "<p>Quando um ataque de @Lookup[@name] faz um alvo marcar PV e há três ou mais Lacaios @Lookup[@name] em alcance Próximo, você pode combinar os Lacaios em uma @UUID[Compendium.daggerheart.adversaries.Actor.PKSXFuaIHUCoH63A]{Horda de Enxame de Espinheiros Emaranhados}. Os PV da Horda são iguais à quantidade de Lacaios combinados.</p>",
         "resource": null,
         "actions": {
           "g1OQ5xlMHFWsoktd": {
@@ -392,7 +388,7 @@
                 "count": "1"
               }
             ],
-            "name": "Summon",
+            "name": "Invocar",
             "range": "",
             "triggers": [],
             "areas": []

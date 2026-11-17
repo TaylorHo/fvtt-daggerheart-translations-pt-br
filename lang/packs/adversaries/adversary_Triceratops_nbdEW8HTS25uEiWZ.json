@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Triceratops",
+  "name": "Tricerátops",
   "folder": "OgzrmfH1ZbpljX7k",
   "system": {
     "type": "bruiser",
-    "description": "<p>A large dinosaur that has an armored frill and three horns.</p>",
+    "description": "<p>Um grande dinossauro com uma gola blindada e três chifres.</p>",
     "tier": 2,
-    "motivesAndTactics": "Eat ferns, move in herds for protection, patrol the watering hole",
+    "motivesAndTactics": "Comer samambaias, mover-se em manadas para se proteger, patrulhar o bebedouro",
     "difficulty": 15,
     "damageThresholds": {
       "major": 14,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Horns",
+      "name": "Chifres",
       "img": "icons/commodities/bones/horn-simple-white.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "hmIsHTEoZ9mLDEaD": {
-        "name": "Defender",
+        "name": "Defensor",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Leathery Hide",
+      "name": "Couro Resistente",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>When the @Lookup[@name] would be forced to mark HP, you can mark any number of Stress instead of an equal number of HP.</p>",
+        "description": "<p>Quando @Lookup[@name] seria forçado a marcar PV, você pode marcar qualquer quantidade de Fadiga em vez de uma quantidade igual de PV.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -181,7 +179,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -200,11 +198,11 @@
       "_key": "!actors.items!nbdEW8HTS25uEiWZ.8Av06kAvwAE2WhSL"
     },
     {
-      "name": "Tail Swipe",
+      "name": "Golpe de Cauda",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to choose up to three targets within Very Close range. Each target must make an Agility Reaction Roll. Targets who fail take <strong>5d6</strong> physical damage. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher até três alvos em alcance Muito Próximo. Cada alvo deve fazer um teste de reação de Agilidade. Os alvos que falharem sofrem <strong>5d6</strong> de dano físico. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -230,9 +228,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -290,7 +286,7 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "veryClose"
           }
         },
@@ -309,11 +305,11 @@
       "_key": "!actors.items!nbdEW8HTS25uEiWZ.yN9PTYAX9BWUha61"
     },
     {
-      "name": "Bull Rush",
+      "name": "Investida Brutal",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to choose a target within Close range. The @Lookup[@name] moves into Melee range with the target and makes an attack. On a success, deal <strong>3d10</strong> direct physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher um alvo em alcance Próximo. @Lookup[@name] se move para alcance Corpo a Corpo do alvo e faz um ataque. Em caso de sucesso, cause <strong>3d10</strong> de dano físico direto.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -339,9 +335,7 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -399,7 +393,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": "close"
           }
         },
@@ -421,7 +415,7 @@
   "_id": "nbdEW8HTS25uEiWZ",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Triceratops",
+    "name": "Tricerátops",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

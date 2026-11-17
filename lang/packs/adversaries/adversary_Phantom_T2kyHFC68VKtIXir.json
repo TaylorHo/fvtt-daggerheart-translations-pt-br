@@ -1,12 +1,12 @@
 {
   "type": "adversary",
-  "name": "Phantom",
+  "name": "Fantasma",
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "standard",
-    "description": "<p>The echo of a lost soul in the form of an ectoplasmic shadow.</p>",
+    "description": "<p>O eco de uma alma perdida na forma de uma sombra ectoplásmica.</p>",
     "tier": 1,
-    "motivesAndTactics": "Create cold spots, swoop through the air, whisper dark tidings",
+    "motivesAndTactics": "Criar pontos frios, planar pelo ar, sussurrar presságios sombrios",
     "difficulty": 11,
     "damageThresholds": {
       "major": 5,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Chill Touch",
+      "name": "Toque Gélido",
       "img": "icons/magic/light/orbs-hand-gray.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,7 +106,7 @@
     },
     "experiences": {
       "37aQfPAMjuhDQwKX": {
-        "name": "Spooky",
+        "name": "Assombroso",
         "value": 3,
         "description": ""
       }
@@ -138,11 +136,11 @@
   },
   "items": [
     {
-      "name": "Incorporeal",
+      "name": "Incorpóreo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>The @Lookup[@name] has resistance to physical damage and can move through solid objects.</p>",
+        "description": "<p>O @Lookup[@name] tem resistência a dano físico e pode atravessar objetos sólidos.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -154,7 +152,7 @@
       "img": "icons/magic/death/undead-ghost-scream-teal.webp",
       "effects": [
         {
-          "name": "Incorporeal",
+          "name": "Incorpóreo",
           "type": "base",
           "system": {
             "changes": [
@@ -192,7 +190,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>The Phantom has resistance to physical damage and can move through solid objects.</p>",
+          "description": "<p>O Fantasma tem resistência a dano físico e pode atravessar objetos sólidos.</p>",
           "tint": "#ffffff",
           "transfer": true,
           "statuses": [],
@@ -215,11 +213,11 @@
       "_key": "!actors.items!T2kyHFC68VKtIXir.8X2Jv3VVwXPkt73H"
     },
     {
-      "name": "Fear Aura",
+      "name": "Aura de Medo",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC who takes the spotlight within Very Close range of the @Lookup[@name] must succeed on a Presence Reaction Roll (10) or mark a Stress.</p>",
+        "description": "<p>Um PJ que recebe o destaque em alcance Muito Próximo do @Lookup[@name] deve ter sucesso em um Teste de Reação de Presença (10) ou marcar 1 Fadiga.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -238,7 +236,7 @@
             "triggers": [],
             "areas": [
               {
-                "name": "Fear Aura",
+                "name": "Aura de Medo",
                 "type": "attached",
                 "shape": "emanation",
                 "size": "veryClose",
@@ -258,7 +256,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Activate Aura",
+            "name": "Ativar Aura",
             "range": "self"
           },
           "TPaOLiW7sZpQAdDp": {
@@ -329,7 +327,7 @@
               "difficulty": 10,
               "damageMod": "none"
             },
-            "name": "Reaction Roll",
+            "name": "Teste de Reação",
             "range": ""
           }
         },
@@ -348,21 +346,21 @@
       "_key": "!actors.items!T2kyHFC68VKtIXir.M8DGdeEjEqjiwhfs"
     },
     {
-      "name": "Lingering Haunt",
+      "name": "Assombração Persistente",
       "type": "feature",
       "system": {
         "featureForm": "reaction",
-        "description": "<p>Countdown (1d6). When the @Lookup[@name] is defeated, you can <strong>spend a Fear</strong> to activate the countdown. It ticks down when a PC rolls with Fear. When it triggers, clear the @Lookup[@name]'s HP and immediately spotlight them.</p>",
+        "description": "<p>Contagem Regressiva (1d6). Quando o @Lookup[@name] é derrotado, você pode <strong>gastar 1 de Medo</strong> para ativar a contagem regressiva. Ela diminui quando um PJ rola com Medo. Quando disparar, limpe os PV do @Lookup[@name] e dê o destaque a ele de imediato.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
         "actions": {
           "J60ZNcqyhHc3dFX6": {
             "type": "countdown",
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "countdown": [
               {
-                "name": "Lingering Haunt",
+                "name": "Assombração Persistente",
                 "type": "encounter",
                 "hidden": false,
                 "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
@@ -410,7 +408,7 @@
             "_id": "eLEuZWbjMcwd1Zw5",
             "systemPath": "actions",
             "baseAction": false,
-            "description": "<p>When it triggers, clear the @Lookup[@name]'s HP and immediately spotlight them.</p>",
+            "description": "<p>Quando disparar, limpe os PV do @Lookup[@name] e dê o destaque a ele de imediato.</p>",
             "chatDisplay": true,
             "originItem": {
               "type": "itemCollection"
@@ -468,7 +466,7 @@
               },
               "useDefault": false
             },
-            "name": "Trigger Countdown",
+            "name": "Disparar Contagem Regressiva",
             "range": "self"
           }
         },
@@ -490,7 +488,7 @@
   "_id": "T2kyHFC68VKtIXir",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "prototypeToken": {
-    "name": "Phantom",
+    "name": "Fantasma",
     "displayName": 0,
     "actorLink": false,
     "width": 1,

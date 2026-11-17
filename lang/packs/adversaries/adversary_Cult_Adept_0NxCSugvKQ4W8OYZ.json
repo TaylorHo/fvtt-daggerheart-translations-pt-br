@@ -1,5 +1,5 @@
 {
-  "name": "Cult Adept",
+  "name": "Adepto do Culto",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "OgzrmfH1ZbpljX7k",
@@ -19,7 +19,7 @@
         "max": 6
       }
     },
-    "motivesAndTactics": "Curry favor, hinder foes, uncover knowledge",
+    "motivesAndTactics": "Bajular, atrapalhar inimigos, desvendar conhecimento",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,20 +36,20 @@
     "notes": "",
     "experiences": {
       "Lt65O6BraCDSG6A9": {
-        "name": "Fallen Lore",
+        "name": "Saber Caído",
         "description": "",
         "value": 2
       },
       "zUrYeLaTh26XK19W": {
-        "name": "Rituals",
+        "name": "Rituais",
         "description": "",
         "value": 2
       }
     },
     "tier": 2,
-    "description": "<p>An experienced mage wielding shadow and fear.</p>",
+    "description": "<p>Um mago experiente que maneja sombra e medo.</p>",
     "attack": {
-      "name": "Rune-Covered Rod",
+      "name": "Bastão Coberto de Runas",
       "roll": {
         "bonus": 2,
         "type": "attack",
@@ -78,9 +78,7 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -147,7 +145,7 @@
   "_id": "0NxCSugvKQ4W8OYZ",
   "sort": 100000,
   "prototypeToken": {
-    "name": "Cult Adept",
+    "name": "Adepto do Culto",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -240,10 +238,10 @@
   },
   "items": [
     {
-      "name": "Enervating Blast",
+      "name": "Rajada Enervante",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to make a standard attack against a target within range. On a success, the target must mark a Stress.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> para fazer um ataque padrão contra um alvo dentro do alcance. Em caso de sucesso, o alvo deve marcar 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "TQv3o9sRnlDNbPyu": {
@@ -282,9 +280,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -340,7 +336,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
             "range": "far",
             "baseAction": false,
@@ -369,10 +365,10 @@
       "_key": "!actors.items!0NxCSugvKQ4W8OYZ.kCffzM8rX8NEr9d2"
     },
     {
-      "name": "Shroud of the Fallen",
+      "name": "Mortalha dos Caídos",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to wrap an ally within Close range in a shroud of Protection until the @Lookup[@name] marks their last HP. While Protected, the target has resistance to all damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para envolver um aliado em alcance Próximo em uma mortalha de Proteção até que o @Lookup[@name] marque seu último PV. Enquanto Protegido, o alvo tem resistência a todo dano.</p>",
         "resource": null,
         "actions": {
           "8yRj7EpEI4PlKNhl": {
@@ -408,7 +404,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Protect",
+            "name": "Proteger",
             "img": "icons/magic/unholy/orb-contained-pink.webp",
             "range": "close",
             "baseAction": false,
@@ -429,7 +425,7 @@
       "img": "icons/magic/unholy/orb-contained-pink.webp",
       "effects": [
         {
-          "name": "Shroud of the Fallen",
+          "name": "Mortalha dos Caídos",
           "img": "icons/magic/unholy/orb-contained-pink.webp",
           "transfer": false,
           "_id": "U9lWz1LgeAiK5L85",
@@ -453,7 +449,7 @@
             ],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until the Cult Adept marks their last HP.</p>"
+              "description": "<p>Até que o Adepto do Culto marque seu último PV.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -467,7 +463,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>Resistance to all damage until the Adept marks their last HP</p>",
+          "description": "<p>Resistência a todo dano até que o Adepto marque seu último PV</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,
@@ -497,10 +493,10 @@
       "_key": "!actors.items!0NxCSugvKQ4W8OYZ.IHWDn097sRgjlZXO"
     },
     {
-      "name": "Shadow Shackles",
+      "name": "Grilhões de Sombra",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> and choose a point within Far range. All targets within Close range of that point are <em>Restrained</em> in smoky chains until they break free with a successful Strength or Instinct Roll. A target Restrained by this feature must spend a Hope to make an action roll.</p>",
+        "description": "<p><strong>Gaste um Medo</strong> e escolha um ponto em alcance Distante. Todos os alvos em alcance Próximo desse ponto ficam <em>Restritos</em> por correntes de fumaça até se libertarem com um Teste de Força ou Instinto bem-sucedido. Um alvo Restrito por essa habilidade deve gastar uma Esperança para fazer um teste de ação.</p>",
         "resource": null,
         "actions": {
           "g4RDHrY0AEYXjH52": {
@@ -536,12 +532,12 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "img": "icons/magic/air/fog-gas-smoke-dense-pink.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Shadow Shackles",
+                "name": "Grilhões de Sombra",
                 "type": "placed",
                 "shape": "circle",
                 "size": "close",
@@ -566,7 +562,7 @@
       "img": "icons/magic/air/fog-gas-smoke-dense-pink.webp",
       "effects": [
         {
-          "name": "Shadow Shackles",
+          "name": "Grilhões de Sombra",
           "img": "icons/magic/air/fog-gas-smoke-dense-pink.webp",
           "transfer": false,
           "_id": "lNH6srSPyEprXZ4o",
@@ -575,7 +571,7 @@
             "changes": [],
             "duration": {
               "type": "temporary",
-              "description": "<p>Until you break free with a successful Strength or Instinct Roll.</p>"
+              "description": "<p>Até você se libertar com um Teste de Força ou Instinto bem-sucedido.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -589,11 +585,9 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p>You are<em> Restrained</em> in smoky chains until you break free with a successful Strength or Instinct Roll. A target Restrained by this feature must spend a Hope to make an action roll.</p>",
+          "description": "<p>Você está <em>Restrito</em> por correntes de fumaça até se libertar com um Teste de Força ou Instinto bem-sucedido. Um alvo Restrito por essa habilidade deve gastar uma Esperança para fazer um teste de ação.</p>",
           "tint": "#ffffff",
-          "statuses": [
-            "restrained"
-          ],
+          "statuses": ["restrained"],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -621,10 +615,10 @@
       "_key": "!actors.items!0NxCSugvKQ4W8OYZ.JpSrduK3vjd9h098"
     },
     {
-      "name": "Fear Is Fuel",
+      "name": "O Medo É Combustível",
       "type": "feature",
       "system": {
-        "description": "<p>Twice per scene, when a PC rolls a failure with Fear, clear a Stress.</p>",
+        "description": "<p>Duas vezes por cena, quando um PJ obtém uma falha com Medo, limpe 1 Fadiga.</p>",
         "resource": null,
         "actions": {
           "3tibqB97ooJesxf0": {
@@ -684,7 +678,7 @@
               },
               "useDefault": false
             },
-            "name": "Clear Stress",
+            "name": "Limpar Fadiga",
             "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
             "range": "self",
             "baseAction": false,

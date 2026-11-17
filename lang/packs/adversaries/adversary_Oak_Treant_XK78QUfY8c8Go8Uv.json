@@ -1,5 +1,5 @@
 {
-  "name": "Oak Treant",
+  "name": "Treant Carvalho",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "wTI7nZkPhKxl7Wwq",
@@ -35,15 +35,15 @@
     "notes": "",
     "experiences": {
       "SmT41lk9EmP69J4c": {
-        "name": "Forest Knowledge",
+        "name": "Conhecimento da Floresta",
         "value": 3,
         "description": ""
       }
     },
     "tier": 3,
-    "description": "<p>A sturdy animate old-growth tree.</p>",
+    "description": "<p>Uma árvore robusta e animada, de mata virgem.</p>",
     "attack": {
-      "name": "Branch",
+      "name": "Galho",
       "roll": {
         "type": "attack",
         "bonus": 2,
@@ -72,9 +72,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -131,7 +129,7 @@
       "page": null,
       "artist": ""
     },
-    "motivesAndTactics": "Hide in plain sight, preserve the forest, root down, swing branches",
+    "motivesAndTactics": "Esconder-se à vista de todos, preservar a floresta, fincar raízes, balançar galhos",
     "size": "large",
     "advantageSources": [],
     "disadvantageSources": [],
@@ -142,7 +140,7 @@
   "_id": "XK78QUfY8c8Go8Uv",
   "sort": 3400000,
   "prototypeToken": {
-    "name": "Oak Treant",
+    "name": "Treant Carvalho",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,10 +233,10 @@
   },
   "items": [
     {
-      "name": "Just a Tree",
+      "name": "Só uma Árvore",
       "type": "feature",
       "system": {
-        "description": "<p>Before they make their first attack in a fight or after they become Hidden the @Lookup[@name] is indistinguishable from other trees until they next act or a PC succeeds on an Instinct Roll to identify them.</p>",
+        "description": "<p>Antes de fazer seu primeiro ataque em uma luta ou depois de ficar Oculto, o @Lookup[@name] é indistinguível de outras árvores até agir novamente ou até um PJ ter sucesso em um Teste de Instinto para identificá-lo.</p>",
         "resource": null,
         "actions": {},
         "attribution": {},
@@ -259,10 +257,10 @@
       "_key": "!actors.items!XK78QUfY8c8Go8Uv.ERco8urSuHgrtnzL"
     },
     {
-      "name": "Seed Barrage",
+      "name": "Rajada de Sementes",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> and make an attack against up to three targets within Close range pummeling them with giant acorns. Targets the @Lookup[@name] succeeds against take <strong>2d10+5</strong> physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> e faça um ataque contra até três alvos em alcance Próximo, atingindo-os com bolotas gigantes. Alvos contra os quais o @Lookup[@name] tiver sucesso sofrem <strong>2d10+5</strong> de dano físico.</p>",
         "resource": null,
         "actions": {
           "cM5BBUSFxOHBsV2G": {
@@ -301,9 +299,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -319,7 +315,7 @@
               "amount": 3
             },
             "effects": [],
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/consumables/nuts/nut-spiked-shell.webp",
             "range": "close",
             "baseAction": false,
@@ -348,17 +344,17 @@
       "_key": "!actors.items!XK78QUfY8c8Go8Uv.Q2slH9qkBO5SPw43"
     },
     {
-      "name": "Take Root",
+      "name": "Fincar Raízes",
       "type": "feature",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to Root the @Lookup[@name] in place. The @Lookup[@name] is Restrained while Rooted and can end this effect instead of moving while they are spotlighted. While Rooted the @Lookup[@name] has resistance to physical damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para Enraizar o @Lookup[@name] no lugar. O @Lookup[@name] fica Imobilizado enquanto Enraizado e pode encerrar esse efeito em vez de se mover enquanto estiver em destaque. Enquanto Enraizado, o @Lookup[@name] tem resistência a dano físico.</p>",
         "resource": null,
         "actions": {
           "008EelRlcs6CKGvM": {
             "type": "effect",
             "_id": "008EelRlcs6CKGvM",
             "systemPath": "actions",
-            "description": "<p><strong>Mark a Stress</strong> to Root the Treant in place. The Treant is Restrained while Rooted and can end this effect instead of moving while they are spotlighted. While Rooted the Treant has resistance to physical damage.</p>",
+            "description": "<p><strong>Marque 1 Fadiga</strong> para Enraizar o Treant no lugar. O Treant fica Imobilizado enquanto Enraizado e pode encerrar esse efeito em vez de se mover enquanto estiver em destaque. Enquanto Enraizado, o Treant tem resistência a dano físico.</p>",
             "chatDisplay": true,
             "actionType": "action",
             "cost": [
@@ -387,7 +383,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/consumables/plants/thorned-stem-brown.webp",
             "range": "self",
             "baseAction": false,
@@ -408,7 +404,7 @@
       "img": "icons/consumables/plants/thorned-stem-brown.webp",
       "effects": [
         {
-          "name": "Take Root",
+          "name": "Fincar Raízes",
           "img": "icons/consumables/plants/thorned-stem-brown.webp",
           "transfer": false,
           "_id": "3PY5KIG6d3dr3dty",
@@ -425,7 +421,7 @@
             ],
             "duration": {
               "type": "temporary",
-              "description": "<p>Can end this effect instead of moving while they are spotlighted.</p>"
+              "description": "<p>Pode encerrar esse efeito em vez de se mover enquanto estiver em destaque.</p>"
             },
             "rangeDependence": null,
             "stacking": null,
@@ -439,7 +435,7 @@
             "expiry": null,
             "expired": false
           },
-          "description": "<p><strong>Mark a Stress</strong> to Root the Treant in place. The Treant is Restrained while Rooted and can end this effect instead of moving while they are spotlighted. While Rooted the Treant has resistance to physical damage.</p>",
+          "description": "<p><strong>Marque 1 Fadiga</strong> para Enraizar o Treant no lugar. O Treant fica Imobilizado enquanto Enraizado e pode encerrar esse efeito em vez de se mover enquanto estiver em destaque. Enquanto Enraizado, o Treant tem resistência a dano físico.</p>",
           "tint": "#ffffff",
           "statuses": [],
           "sort": 0,

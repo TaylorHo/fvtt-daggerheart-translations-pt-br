@@ -1,5 +1,5 @@
 {
-  "name": "Jagged Knife Sniper",
+  "name": "Franco-Atirador da Faca Serrilhada",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -35,16 +35,16 @@
     "notes": "",
     "experiences": {
       "GLqSqPJcyKHQYMtO": {
-        "name": "Stealth",
+        "name": "Furtividade",
         "value": 2,
         "description": ""
       }
     },
     "tier": 1,
-    "description": "<p>A lanky bandit striking from cover with a shortbow.</p>",
-    "motivesAndTactics": "Ambush, hide, profit, reposition",
+    "description": "<p>Um bandido magricela atacando de uma posição coberta com um arco curto.</p>",
+    "motivesAndTactics": "Emboscar, esconder-se, lucrar, reposicionar-se",
     "attack": {
-      "name": "Shortbow",
+      "name": "Arco Curto",
       "img": "icons/weapons/bows/shortbow-leather.webp",
       "roll": {
         "bonus": -1,
@@ -75,9 +75,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -142,7 +140,7 @@
   "_id": "1zuyof1XuIfi3aMG",
   "sort": 300000,
   "prototypeToken": {
-    "name": "Jagged Knife Sniper",
+    "name": "Franco-Atirador da Faca Serrilhada",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -235,12 +233,12 @@
   },
   "items": [
     {
-      "name": "Unseen Strike",
+      "name": "Golpe Invisível",
       "type": "feature",
       "_id": "adPXzpvLREjN3len",
       "img": "icons/skills/ranged/arrow-flying-spiral-blue.webp",
       "system": {
-        "description": "<p>If the @Lookup[@name] is <em>Hidden</em> when they make a successful standard attack against a target, they deal <strong>1d10+4</strong> physical damage instead of their standard damage.</p>",
+        "description": "<p>Se @Lookup[@name] estiver <em>Oculto</em> quando fizer um ataque padrão bem-sucedido contra um alvo, causa <strong>1d10+4</strong> de dano físico em vez de seu dano padrão.</p>",
         "resource": null,
         "actions": {
           "2eX7P0wSfbKKu8dJ": {
@@ -270,9 +268,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "physical"
-                ],
+                "type": ["physical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -308,7 +304,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/skills/ranged/arrow-flying-spiral-blue.webp",
             "range": "",
             "baseAction": false,

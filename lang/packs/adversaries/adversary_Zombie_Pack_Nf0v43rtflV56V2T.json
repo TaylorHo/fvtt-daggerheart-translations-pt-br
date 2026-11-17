@@ -1,5 +1,5 @@
 {
-  "name": "Zombie Pack",
+  "name": "Bando de Zumbis",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Consume flesh, hunger, maul",
+    "motivesAndTactics": "Consumir carne, ter fome, dilacerar",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,7 +36,7 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A group of shambling corpses instinctively moving together.</p>",
+    "description": "<p>Um grupo de cadáveres cambaleantes que se movem juntos por instinto.</p>",
     "attack": {
       "damage": {
         "main": {
@@ -51,9 +51,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -73,7 +71,7 @@
         },
         "resources": {}
       },
-      "name": "Bite",
+      "name": "Mordida",
       "roll": {
         "bonus": -1,
         "type": "attack",
@@ -140,7 +138,7 @@
   "_id": "Nf0v43rtflV56V2T",
   "sort": 3100000,
   "prototypeToken": {
-    "name": "Zombie Pack",
+    "name": "Bando de Zumbis",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -233,12 +231,12 @@
   },
   "items": [
     {
-      "name": "Overwhelm",
+      "name": "Sobrepujar",
       "type": "feature",
       "_id": "jQmltra0ovHE33Nx",
       "img": "icons/magic/death/blood-corruption-vomit-red.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name]s mark HP from an attack within Melee range, you can <strong>mark a Stress</strong> to make a standard attack against the attacker.</p>",
+        "description": "<p>Quando @Lookup[@name]s marcam Pontos de Vida de um ataque em alcance Corpo a Corpo, você pode <strong>marcar 1 de Fadiga</strong> para fazer um ataque padrão contra o atacante.</p>",
         "resource": null,
         "actions": {
           "0Im5AEgp8gJaVJHh": {
@@ -269,7 +267,7 @@
               "type": "self",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "img": "icons/magic/death/blood-corruption-vomit-red.webp",
             "range": "",
             "baseAction": false,
@@ -297,10 +295,10 @@
     },
     {
       "type": "feature",
-      "name": "Horde",
+      "name": "Horda",
       "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
       "system": {
-        "description": "When the @Lookup[@name] have marked half or more of their HP, their standard attack deals @Lookup[@system.typeData.hordeDamage] @Lookup[@system.attackDamageType] damage instead.",
+        "description": "Quando @Lookup[@name] tiver marcado metade ou mais de seus PV, seu ataque padrão causa @Lookup[@system.typeData.hordeDamage] de dano @Lookup[@system.attackDamageType] em vez disso.",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -316,7 +314,7 @@
       },
       "effects": [
         {
-          "name": "Horde",
+          "name": "Horda",
           "img": "icons/magic/movement/chevrons-down-yellow.webp",
           "system": {
             "conditionals": [

@@ -1,5 +1,5 @@
 {
-  "name": "Minor Fire Elemental",
+  "name": "Elemental de Fogo Menor",
   "img": "systems/daggerheart/assets/icons/documents/actors/dragon-head.svg",
   "type": "adversary",
   "folder": "sxvlEwi25uAoB2C5",
@@ -19,7 +19,7 @@
         "max": 3
       }
     },
-    "motivesAndTactics": "Encircle enemies, grow in size, intimidate, start fires",
+    "motivesAndTactics": "Cercar inimigos, crescer, intimidar, iniciar incêndios",
     "resistance": {
       "physical": {
         "resistance": false,
@@ -36,9 +36,9 @@
     "notes": "",
     "experiences": {},
     "tier": 1,
-    "description": "<p>A living flame the size of a large bonfire.</p>",
+    "description": "<p>Uma chama viva do tamanho de uma grande fogueira.</p>",
     "attack": {
-      "name": "Elemental Blast",
+      "name": "Explosão Elemental",
       "img": "icons/magic/fire/flame-burning-earth-orange.webp",
       "roll": {
         "bonus": 3,
@@ -69,9 +69,7 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -136,7 +134,7 @@
   "_id": "DscWkNVoHak6P4hh",
   "sort": 2400000,
   "prototypeToken": {
-    "name": "Minor Fire Elemental",
+    "name": "Elemental de Fogo Menor",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -229,12 +227,12 @@
   },
   "items": [
     {
-      "name": "Relentless (2)",
+      "name": "Implacável (2)",
       "type": "feature",
       "_id": "c1jcZZD616J5Y4Mb",
       "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
       "system": {
-        "description": "<p>The @Lookup[@name] can be spotlighted up to two times per GM turn. Spend Fear as usual to spotlight them.</p>",
+        "description": "<p>O @Lookup[@name] pode receber o foco até duas vezes por turno do Mestre. Gaste Medo normalmente para dar o foco a ele.</p>",
         "resource": null,
         "actions": {
           "oFsBEbdXCpX9XLQy": {
@@ -256,7 +254,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Spotlight: Relentless",
+            "name": "Destaque: Implacável",
             "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
             "range": "",
             "baseAction": false,
@@ -283,12 +281,12 @@
       "_key": "!actors.items!DscWkNVoHak6P4hh.c1jcZZD616J5Y4Mb"
     },
     {
-      "name": "Scorched Earth",
+      "name": "Terra Arrasada",
       "type": "feature",
       "_id": "7AXE86WNd68OySkD",
       "img": "icons/magic/fire/explosion-flame-lightning-strike.webp",
       "system": {
-        "description": "<p><strong>Mark a Stress</strong> to choose a point within Far range. The ground within Very Close range of that point immediately bursts into flames. All creatures within this area must make an Agility Reaction Roll. Targets who fail take <strong>2d8</strong> magic damage from the flames. Targets who succeed take half damage.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para escolher um ponto em alcance Distante. O chão em alcance Muito Próximo desse ponto irrompe imediatamente em chamas. Todas as criaturas nessa área devem fazer um Teste de Reação de Agilidade. Alvos que falharem sofrem <strong>2d8</strong> de dano mágico das chamas. Alvos que tiverem sucesso sofrem metade do dano.</p>",
         "resource": null,
         "actions": {
           "x1VCkfcSYiPyg8fk": {
@@ -327,9 +325,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -365,12 +361,12 @@
               "difficulty": null,
               "damageMod": "half"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/fire/explosion-flame-lightning-strike.webp",
             "range": "far",
             "areas": [
               {
-                "name": "Scorched Earth",
+                "name": "Terra Arrasada",
                 "type": "placed",
                 "shape": "circle",
                 "size": "veryClose",
@@ -401,12 +397,12 @@
       "_key": "!actors.items!DscWkNVoHak6P4hh.7AXE86WNd68OySkD"
     },
     {
-      "name": "Explosion",
+      "name": "Explosão",
       "type": "feature",
       "_id": "ESnu3I89BmUdBZEk",
       "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
       "system": {
-        "description": "<p><strong>Spend a Fear</strong> to erupt in a fi ery explosion. Make an attack against all targets within Close range. Targets the Elemental succeeds against take <strong>1d8</strong> magic damage and are knocked back to Far range.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para irromper em uma explosão ardente. Faça um ataque contra todos os alvos em alcance Próximo. Alvos contra os quais o Elemental tiver sucesso sofrem <strong>1d8</strong> de dano mágico e são arremessados para alcance Distante.</p>",
         "resource": null,
         "actions": {
           "JQgqyW8H7fugR7F0": {
@@ -445,9 +441,7 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": [
-                  "magical"
-                ],
+                "type": ["magical"],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -484,12 +478,12 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Attack",
+            "name": "Ataque",
             "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
             "range": "close",
             "areas": [
               {
-                "name": "Explosion",
+                "name": "Explosão",
                 "type": "placed",
                 "shape": "emanation",
                 "size": "close",
@@ -520,12 +514,12 @@
       "_key": "!actors.items!DscWkNVoHak6P4hh.ESnu3I89BmUdBZEk"
     },
     {
-      "name": "Consume Kindling",
+      "name": "Consumir Gravetos",
       "type": "feature",
       "_id": "3u6wvKPJAS2v5nWV",
       "img": "icons/magic/fire/elemental-fire-flying.webp",
       "system": {
-        "description": "<p>Three times per scene, when the @Lookup[@name] moves onto objects that are highly flammable, consume them to clear a HP or a Stress.</p>",
+        "description": "<p>Três vezes por cena, quando o @Lookup[@name] se move sobre objetos altamente inflamáveis, ele pode consumi-los para limpar 1 PV ou 1 Fadiga.</p>",
         "resource": {
           "type": "simple",
           "value": 3,
@@ -603,7 +597,7 @@
               },
               "useDefault": false
             },
-            "name": "Heal HP",
+            "name": "Curar PV",
             "img": "icons/magic/fire/elemental-fire-flying.webp",
             "range": "",
             "baseAction": false,
@@ -679,7 +673,7 @@
               },
               "useDefault": false
             },
-            "name": "Healing",
+            "name": "Cura",
             "img": "icons/magic/fire/elemental-fire-flying.webp",
             "range": "",
             "baseAction": false,
@@ -706,12 +700,12 @@
       "_key": "!actors.items!DscWkNVoHak6P4hh.3u6wvKPJAS2v5nWV"
     },
     {
-      "name": "Momentum",
+      "name": "Impulso",
       "type": "feature",
       "_id": "kssnXljBaV31iX58",
       "img": "icons/skills/melee/strike-weapons-orange.webp",
       "system": {
-        "description": "<p>When the @Lookup[@name] makes a successful attack against a PC, you gain a Fear.</p>",
+        "description": "<p>Quando o @Lookup[@name] faz um ataque bem-sucedido contra um PJ, você ganha 1 de Medo.</p>",
         "resource": null,
         "actions": {
           "rPj1Wf22Kai3eBCv": {
@@ -771,7 +765,7 @@
               },
               "useDefault": false
             },
-            "name": "Gain Fear",
+            "name": "Ganhar Medo",
             "img": "icons/skills/melee/strike-weapons-orange.webp",
             "range": "",
             "baseAction": false,

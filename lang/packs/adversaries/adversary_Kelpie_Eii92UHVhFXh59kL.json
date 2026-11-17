@@ -4,9 +4,9 @@
   "folder": "sxvlEwi25uAoB2C5",
   "system": {
     "type": "skulk",
-    "description": "<p>A river-dwelling shapeshifter who prefers an enchanting equine form in and out of the water.</p>",
+    "description": "<p>Um metamorfo que vive em rios e prefere uma forma equina encantadora dentro e fora da água.</p>",
     "tier": 1,
-    "motivesAndTactics": "Adopt an attractive or useful shape, drown and devour, entice unwary travelers",
+    "motivesAndTactics": "Adotar uma forma atraente ou útil, afogar e devorar, atrair viajantes incautos",
     "difficulty": 12,
     "damageThresholds": {
       "major": 4,
@@ -23,7 +23,7 @@
       }
     },
     "attack": {
-      "name": "Hooves",
+      "name": "Cascos",
       "img": "icons/commodities/bones/hooves-cloven-brown.webp",
       "_id": "qHEFFbkvLvbm9VmI",
       "systemPath": "attack",
@@ -61,9 +61,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -108,12 +106,12 @@
     },
     "experiences": {
       "5F4BHvDhFAuetPAV": {
-        "name": "Entanglement",
+        "name": "Emaranhamento",
         "value": 3,
         "description": ""
       },
       "lQClE24x25M7strL": {
-        "name": "Mind Reader",
+        "name": "Leitor de Mentes",
         "value": 3,
         "description": ""
       }
@@ -143,11 +141,11 @@
   },
   "items": [
     {
-      "name": "Captivating",
+      "name": "Cativante",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>A PC must mark a Stress to move out of the @Lookup[@name]'s Melee range.</p>",
+        "description": "<p>Um PJ deve marcar 1 Fadiga para sair do alcance Corpo a Corpo de @Lookup[@name].</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -167,11 +165,11 @@
       "_key": "!actors.items!Eii92UHVhFXh59kL.GWoZeTvWRz31pKP3"
     },
     {
-      "name": "Heart's Desire",
+      "name": "Desejo do Coração",
       "type": "feature",
       "system": {
         "featureForm": "passive",
-        "description": "<p>After the @Lookup[@name] interacts with or watches a creature for at least a hundred heartbeats, the @Lookup[@name] knows the physical form that creature would find most pleasing or alluring.</p>",
+        "description": "<p>Depois que @Lookup[@name] interage com uma criatura ou a observa por pelo menos cem batimentos cardíacos, @Lookup[@name] sabe qual forma física essa criatura acharia mais agradável ou sedutora.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -191,11 +189,11 @@
       "_key": "!actors.items!Eii92UHVhFXh59kL.PxihMdsvGEScJiJZ"
     },
     {
-      "name": "Shapeshifter",
+      "name": "Metamorfo",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Mark a Stress</strong> to change the @Lookup[@name]'s physical form into any creature or object smaller than a wagon. A creature has disadvantage on rolls against the @Lookup[@name] while the @Lookup[@name] is in a form the creature finds pleasing or alluring.</p>",
+        "description": "<p><strong>Marque 1 Fadiga</strong> para mudar a forma física de @Lookup[@name] para qualquer criatura ou objeto menor que uma carroça. Uma criatura tem desvantagem em rolagens contra @Lookup[@name] enquanto @Lookup[@name] estiver em uma forma que a criatura ache agradável ou sedutora.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -234,7 +232,7 @@
               "type": "any",
               "amount": null
             },
-            "name": "Mark Stress",
+            "name": "Marcar Fadiga",
             "range": ""
           }
         },
@@ -253,11 +251,11 @@
       "_key": "!actors.items!Eii92UHVhFXh59kL.vJ9gupJ0Hmya1o47"
     },
     {
-      "name": "Enchant",
+      "name": "Encantar",
       "type": "feature",
       "system": {
         "featureForm": "action",
-        "description": "<p><strong>Spend a Fear</strong> to have the @Lookup[@name] beguile a PC within Close range. The PC must succeed on an Instinct Reaction Roll or become Enchanted until they take damage. While Enchanted, the PC perceives the @Lookup[@name] as a trusted friend or ally and will do what the @Lookup[@name] says unless it contradicts the PC's most deeply held morals.</p>",
+        "description": "<p><strong>Gaste 1 de Medo</strong> para fazer @Lookup[@name] seduzir um PJ em alcance Próximo. O PJ deve ter sucesso em um Teste de Reação de Instinto ou ficar Encantado até sofrer dano. Enquanto estiver Encantado, o PJ percebe @Lookup[@name] como um amigo ou aliado de confiança e fará o que @Lookup[@name] disser, a menos que contradiga os princípios morais mais profundos do PJ.</p>",
         "attribution": {},
         "gmNotes": "",
         "resource": null,
@@ -325,7 +323,7 @@
               "difficulty": null,
               "damageMod": "none"
             },
-            "name": "Spend Fear",
+            "name": "Gastar Medo",
             "range": "close"
           }
         },
@@ -336,10 +334,10 @@
       "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
       "effects": [
         {
-          "name": "Enchanted",
+          "name": "Encantado",
           "disabled": false,
           "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
-          "description": "<p>You perceive the Kelpie as a trusted friend or ally and will do what the Kelpie says unless it contradicts your most deeply held morals.</p>",
+          "description": "<p>Você percebe o Kelpie como um amigo ou aliado de confiança e fará o que o Kelpie disser, a menos que contradiga seus princípios morais mais profundos.</p>",
           "transfer": false,
           "statuses": [],
           "system": {
