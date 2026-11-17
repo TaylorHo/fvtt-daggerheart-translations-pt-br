@@ -1,10 +1,10 @@
 {
-  "name": "Hush",
+  "name": "Silêncio",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "8erksbTp7ic6in4I",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, <strong>spend a Hope</strong> to conjure suppressive magic around the target that encompasses everything within Very Close range of them and follows them as they move.</p><p>The target and anything within the area is <em>Silenced </em>until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage. While <em>Silenced</em>, they can't make noise and can't cast spells.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, <strong>gaste uma Esperança</strong> para conjurar uma magia supressora ao redor do alvo que abrange tudo dentro do alcance Muito Próximo dele e o acompanha enquanto ele se move.</p><p>O alvo e tudo dentro da área ficam <em>Silenciados</em> até que o Mestre gaste um Medo em seu turno para limpar essa condição, você lance Silêncio novamente ou você sofra dano Maior. Enquanto <em>Silenciados</em>, eles não podem fazer barulho nem lançar magias.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 5,
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/unholy/orb-glowing-purple.webp",
         "range": "close",
         "baseAction": false,
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Silenced",
+      "name": "Silenciado",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
       "transfer": false,
       "_id": "pZ5YpjKidaj48IYF",
@@ -104,7 +104,7 @@
         "changes": [],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage.</p>"
+          "description": "<p>Até que o Mestre gaste um Medo em seu turno para limpar essa condição, você lance Silêncio novamente ou você sofra dano Maior.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -118,7 +118,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Suppressive magic around the target that encompasses everything within Very Close range of them and follows them as they move. The target and anything within the area is Silenced until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage. While Silenced, they can't make noise and can't cast spells.</p>",
+      "description": "<p>Magia supressora ao redor do alvo que abrange tudo dentro do alcance Muito Próximo dele e o acompanha enquanto ele se move. O alvo e tudo dentro da área ficam Silenciados até que o Mestre gaste um Medo em seu turno para limpar essa condição, você lance Silêncio novamente ou você sofra dano Maior. Enquanto Silenciados, eles não podem fazer barulho nem lançar magias.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

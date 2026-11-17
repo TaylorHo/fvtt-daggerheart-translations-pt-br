@@ -1,10 +1,10 @@
 {
-  "name": "Brace",
+  "name": "Firmar-se",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "eR7sP5jQwfCLORUe",
   "system": {
-    "description": "<p>When you mark an Armor Slot to reduce incoming damage, you can <strong>mark a Stress</strong> to mark an additional Armor Slot.</p>",
+    "description": "<p>Quando você marca um Espaço de Armadura para reduzir o dano recebido, pode <strong>marcar um Fadiga</strong> para marcar um Espaço de Armadura adicional.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 3,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Brace",
+      "name": "Firmar-se",
       "type": "base",
       "system": {
         "changes": [
@@ -56,7 +56,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you mark an Armor Slot to reduce incoming damage, you can <strong>mark a Stress</strong> to mark an additional Armor Slot.</p>",
+      "description": "<p>Quando você marca um Espaço de Armadura para reduzir o dano recebido, pode <strong>marcar um Fadiga</strong> para marcar um Espaço de Armadura adicional.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,10 +1,10 @@
 {
-  "name": "Conjure Swarm",
+  "name": "Conjurar Enxame",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "xZrCYAd05ayNu1yW",
   "system": {
-    "description": "<p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold. You can <strong>spend a Hope</strong> to keep the beetles conjured after taking damage.</p><p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast Roll</strong> against all adversaries within Close range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic damage to targets you succeeded against.</p>",
+    "description": "<p><em><strong>Besouros Blindados de Tekaira:</strong></em> <strong>Marque um Fadiga</strong> para conjurar besouros blindados que circundam você. Quando você sofrer dano pela próxima vez, reduza a gravidade em um limiar. Você pode <strong>gastar uma Esperança</strong> para manter os besouros conjurados depois de sofrer dano.</p><p><em><strong>Vaga-lumes de Fogo:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra todos os adversários dentro do alcance Próximo. <strong>Gaste uma Esperança</strong> para causar <strong>2d8+3</strong> de dano mágico aos alvos contra os quais você teve sucesso.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "qygTUSNldYNbP7vN",
         "systemPath": "actions",
-        "description": "<p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold.</p>",
+        "description": "<p><em><strong>Besouros Blindados de Tekaira:</strong></em> <strong>Marque um Fadiga</strong> para conjurar besouros blindados que circundam você. Quando você sofrer dano pela próxima vez, reduza a gravidade em um limiar.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Tekaira's Armored Beetles: Stress",
+        "name": "Besouros Blindados de Tekaira: Fadiga",
         "img": "icons/creatures/invertebrates/wasp-swarm-attack.webp",
         "range": "self",
         "baseAction": false,
@@ -81,7 +81,7 @@
         "type": "effect",
         "_id": "533qzPIjcccpiMey",
         "systemPath": "actions",
-        "description": "<p>You can <strong>spend a Hope</strong> to keep the beetles conjured after taking damage.</p>",
+        "description": "<p>Você pode <strong>gastar uma Esperança</strong> para manter os besouros conjurados depois de sofrer dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -105,7 +105,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Keep Beetles",
+        "name": "Manter Besouros",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -119,7 +119,7 @@
         "type": "attack",
         "_id": "nugW0yPOG08pqBAT",
         "systemPath": "actions",
-        "description": "<p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast Roll</strong> against all adversaries within Close range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic damage to targets you succeeded against.</p>",
+        "description": "<p><em><strong>Vaga-lumes de Fogo:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra todos os adversários dentro do alcance Próximo. <strong>Gaste uma Esperança</strong> para causar <strong>2d8+3</strong> de dano mágico aos alvos contra os quais você teve sucesso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -189,12 +189,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Fire Flies: Cast",
+        "name": "Vaga-lumes de Fogo: Lançar",
         "img": "icons/creatures/invertebrates/wasp-swarm-movement.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Conjure Swarm",
+            "name": "Conjurar Enxame",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -226,7 +226,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Reduced Damage",
+      "name": "Dano Reduzido",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
       "transfer": false,
       "_id": "dImnF8ZT2rVybiIP",
@@ -257,7 +257,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you next take damage, reduce the severity by one threshold.</p>",
+      "description": "<p>Quando você sofrer dano pela próxima vez, reduza a gravidade em um limiar.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

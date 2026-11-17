@@ -1,10 +1,10 @@
 {
-  "name": "Unleash Chaos",
+  "name": "Libertar o Caos",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "o7kvw9NRGvDZSce2",
   "system": {
-    "description": "<p>At the beginning of a session, place a number of tokens equal to your Spellcast trait on this card.</p><p>Make a <strong>Spellcast Roll</strong> against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of<strong> d10s</strong> equal to the tokens you spent and deal that much magic damage to the target. <strong>Mark a Stress</strong> to replenish this card with tokens (up to your Spellcast trait).</p><p>At the end of each session, clear all unspent tokens.</p>",
+    "description": "<p>No início de uma sessão, coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração.</p><p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante e gaste qualquer quantidade de fichas para canalizar energia bruta de dentro de si e liberá-la contra ele. Em caso de sucesso, role uma quantidade de <strong>d10</strong> igual às fichas que você gastou e cause essa quantidade de dano mágico ao alvo. <strong>Marque um Fadiga</strong> para reabastecer esta carta com fichas (até o valor da sua característica de Conjuração).</p><p>Ao final de cada sessão, limpe todas as fichas não gastas.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 1,
@@ -24,7 +24,7 @@
         "type": "attack",
         "_id": "MWvrKuwejWcQm7N1",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of d10s equal to the tokens you spent and deal that much magic damage to the target.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante e gaste qualquer quantidade de fichas para canalizar energia bruta de dentro de si e liberá-la contra ele. Em caso de sucesso, role uma quantidade de d10 igual às fichas que você gastou e cause essa quantidade de dano mágico ao alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -94,7 +94,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/light/projectiles-pink-purple.webp",
         "range": "far",
         "baseAction": false,
@@ -109,7 +109,7 @@
         "_id": "OOMICXFmXqlPy80J",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p><strong>Mark a Stress</strong> to replenish this card with tokens (up to your Spellcast trait).</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para reabastecer esta carta com fichas (até o valor da sua característica de Conjuração).</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -176,7 +176,7 @@
           },
           "useDefault": false
         },
-        "name": "Replenish Tokens",
+        "name": "Reabastecer Fichas",
         "range": "self",
         "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp"
       }

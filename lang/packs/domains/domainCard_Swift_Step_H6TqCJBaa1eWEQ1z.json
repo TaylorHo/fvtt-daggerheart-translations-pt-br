@@ -1,10 +1,10 @@
 {
-  "name": "Swift Step",
+  "name": "Passo Veloz",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "Hs6POmXKThDXQJBn",
   "system": {
-    "description": "<p>When an attack made against you fails, clear a Stress. If you can't clear a Stress, gain a Hope.</p>",
+    "description": "<p>Quando um ataque feito contra você falha, limpe um Fadiga. Se você não puder limpar um Fadiga, ganhe uma Esperança.</p>",
     "domain": "bone",
     "recallCost": 2,
     "level": 10,
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/magic/life/cross-beam-green.webp",
         "range": "",
         "baseAction": false,
@@ -134,7 +134,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "img": "icons/magic/life/cross-beam-green.webp",
         "range": "",
         "baseAction": false,

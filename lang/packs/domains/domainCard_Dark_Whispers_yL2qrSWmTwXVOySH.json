@@ -1,10 +1,10 @@
 {
-  "name": "Dark Whispers",
+  "name": "Sussurros Sombrios",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "xuGz0QPNlkTOV0rV",
   "system": {
-    "description": "<p>You can speak into the mind of any person with whom you've made physical contact. Once you've opened a channel with them, they can speak back into your mind. Additionally, you can <strong>mark a Stress</strong> to make a <strong>Spellcast Roll</strong> against them. On a success, you can ask the GM one of the following questions and receive an answer:</p><ul><li class=\"vertical-card-list-found\">Where are they?</li><li class=\"vertical-card-list-found\">What are they doing?</li><li class=\"vertical-card-list-found\">What are they afraid of?</li><li class=\"vertical-card-list-found\">What do they cherish most in the world?</li></ul>",
+    "description": "<p>Você pode falar diretamente na mente de qualquer pessoa com quem tenha feito contato físico. Depois de abrir um canal com ela, ela também pode falar na sua mente. Além disso, você pode <strong>marcar um Fadiga</strong> para fazer um <strong>Teste de Conjuração</strong> contra ela. Em caso de sucesso, você pode fazer ao Mestre uma das seguintes perguntas e receber uma resposta:</p><ul><li class=\"vertical-card-list-found\">Onde ela está?</li><li class=\"vertical-card-list-found\">O que ela está fazendo?</li><li class=\"vertical-card-list-found\">Do que ela tem medo?</li><li class=\"vertical-card-list-found\">O que ela mais valoriza no mundo?</li></ul>",
     "domain": "midnight",
     "recallCost": 0,
     "level": 6,
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Ask a question",
+        "name": "Fazer uma pergunta",
         "img": "icons/magic/control/mouth-smile-deception-purple.webp",
         "range": "",
         "baseAction": false,

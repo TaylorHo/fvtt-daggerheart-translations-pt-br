@@ -1,10 +1,10 @@
 {
-  "name": "Book of Homet",
+  "name": "Livro de Homet",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "hh2vkggcAQ0QUE6C",
   "system": {
-    "description": "<p><em><strong>Pass Through:</strong></em> Make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.</p><p><em><strong>Plane Gate:</strong></em> Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.</p>",
+    "description": "<p><em><strong>Atravessar:</strong></em> Faça um <strong>Teste de Conjuração (13)</strong>. Uma vez por descanso, em caso de sucesso, você e todas as criaturas que estiverem tocando você podem atravessar uma parede ou porta dentro do alcance Próximo. O efeito termina quando todos estiverem do outro lado.</p><p><em><strong>Portal Planar:</strong></em> Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, abra uma passagem para um local em outra dimensão ou plano de existência onde você já esteve. Essa passagem dura até seu próximo descanso.</p>",
     "domain": "codex",
     "recallCost": 0,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "4cKqwH2jWsYylzI7",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong>. Uma vez por descanso, em caso de sucesso, você e todas as criaturas que estiverem tocando você podem atravessar uma parede ou porta dentro do alcance Próximo. O efeito termina quando todos estiverem do outro lado.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Pass Through",
+        "name": "Atravessar",
         "img": "icons/magic/symbols/cross-circle-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "RTUxVXUyRM6mNwUX",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, abra uma passagem para um local em outra dimensão ou plano de existência onde você já esteve. Essa passagem dura até seu próximo descanso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -106,7 +106,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Plane Gate",
+        "name": "Portal Planar",
         "img": "icons/magic/movement/portal-vortex-orange.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Rapid Riposte",
+  "name": "Resposta Rápida",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "pYEavNqteiQepvvD",
   "system": {
-    "description": "<p>When an attack made against you from within Melee range fails, you can <strong>mark a Stress</strong> and seize the opportunity to deal the weapon damage of one of your active weapons to the attacker.</p>",
+    "description": "<p>Quando um ataque feito contra você de dentro do alcance Corpo a Corpo falha, você pode <strong>marcar um Fadiga</strong> e aproveitar a oportunidade para causar ao atacante o dano de arma de uma das suas armas ativas.</p>",
     "domain": "bone",
     "recallCost": 0,
     "level": 6,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
         "range": "",
         "baseAction": false,

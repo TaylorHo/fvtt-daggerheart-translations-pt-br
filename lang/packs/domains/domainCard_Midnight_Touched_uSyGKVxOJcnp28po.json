@@ -1,10 +1,10 @@
 {
-  "name": "Midnight-Touched",
+  "name": "Tocado pela Meia-noite",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "ML2JusN36oJoR8QA",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Midnight domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p></li><li class=\"vertical-card-list-found\"><p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Meia-noite, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Uma vez por descanso, quando você tiver 0 Esperança e o Mestre fosse ganhar um Medo, você pode ganhar uma Esperança em vez disso.</p></li><li class=\"vertical-card-list-found\"><p>Quando você faz um ataque bem-sucedido, pode <strong>marcar um Fadiga</strong> para somar o resultado do seu Dado de Medo à sua rolagem de dano.</p></li></ul>",
     "domain": "midnight",
     "recallCost": 2,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "healing",
         "_id": "ksl1CcxcuwYxObiS",
         "systemPath": "actions",
-        "description": "<p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p>",
+        "description": "<p>Uma vez por descanso, quando você tiver 0 Esperança e o Mestre fosse ganhar um Medo, você pode ganhar uma Esperança em vez disso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -81,7 +81,7 @@
         "type": "effect",
         "_id": "Ky5wcwBqgm5bJCK1",
         "systemPath": "actions",
-        "description": "<p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p>",
+        "description": "<p>Quando você faz um ataque bem-sucedido, pode <strong>marcar um Fadiga</strong> para somar o resultado do seu Dado de Medo à sua rolagem de dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -105,7 +105,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
         "range": "",
         "baseAction": false,
@@ -133,7 +133,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Midnight-Touched",
+      "name": "Tocado pela Meia-noite",
       "type": "base",
       "system": {
         "changes": [],
@@ -154,7 +154,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When 4 or more of the domain cards in your loadout are from the Midnight domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p></li><li class=\"vertical-card-list-found\"><p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p></li></ul>",
+      "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Meia-noite, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Uma vez por descanso, quando você tiver 0 Esperança e o Mestre fosse ganhar um Medo, você pode ganhar uma Esperança em vez disso.</p></li><li class=\"vertical-card-list-found\"><p>Quando você faz um ataque bem-sucedido, pode <strong>marcar um Fadiga</strong> para somar o resultado do seu Dado de Medo à sua rolagem de dano.</p></li></ul>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

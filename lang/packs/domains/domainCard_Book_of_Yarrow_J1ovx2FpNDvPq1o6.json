@@ -1,10 +1,10 @@
 {
-  "name": "Book of Yarrow",
+  "name": "Livro de Yarrow",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "IIVaYseNJbA2ta1B",
   "system": {
-    "description": "<p><em><strong>Timejammer:</strong></em> Make a <strong>Spellcast Roll</strong><strong> (18)</strong>. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.</p><p><em><strong>Magic Immunity:</strong></em> <strong>Spend 5 </strong><strong>Hope</strong> to become immune to magic damage until your next rest.</p>",
+    "description": "<p><em><strong>Bloqueio Temporal:</strong></em> Faça um <strong>Teste de Conjuração</strong><strong> (18)</strong>. Em caso de sucesso, o tempo desacelera temporariamente até parar para todos dentro do alcance Distante, exceto você. Ele retoma na próxima vez que você fizer um teste de ação que mire outra criatura.</p><p><em><strong>Imunidade à Magia:</strong></em> <strong>Gaste 5 </strong><strong>Esperança</strong> para ficar imune a dano mágico até seu próximo descanso.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "IxoglRervMx9YdVn",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (18)</strong>. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (18)</strong>. Em caso de sucesso, o tempo desacelera temporariamente até parar para todos dentro do alcance Distante, exceto você. Ele retoma na próxima vez que você fizer um teste de ação que mire outra criatura.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,12 +53,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Timejammer",
+        "name": "Bloqueio Temporal",
         "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Book of Yarrow",
+            "name": "Livro de Yarrow",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -76,7 +76,7 @@
         "type": "effect",
         "_id": "ZcQfbtGet0KQWjWS",
         "systemPath": "actions",
-        "description": "<p><strong>Spend 5 Hope</strong> to become immune to magic damage until your next rest.</p>",
+        "description": "<p><strong>Gaste 5 Esperança</strong> para ficar imune a dano mágico até seu próximo descanso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -105,7 +105,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Magic Immunity",
+        "name": "Imunidade à Magia",
         "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
         "range": "self",
         "baseAction": false,
@@ -133,7 +133,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Magic Immunity",
+      "name": "Imunidade à Magia",
       "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
       "transfer": false,
       "_id": "HWJYhSegVLeAa3dE",
@@ -164,7 +164,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p><strong>I</strong>mmune to magic damage until your next rest.</p>",
+      "description": "<p><strong>I</strong>mune a dano mágico até seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

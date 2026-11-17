@@ -1,10 +1,10 @@
 {
-  "name": "Rift Walker",
+  "name": "Andarilho das Fendas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "gqnmAgerh7HhNo7t",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, you place an arcane marking on the ground where you currently stand. The next time you successfully cast Rift Walker, a rift in space opens up, providing safe passage back to the exact spot where the marking was placed. This rift stays open until you choose to close it or you cast another spell.</p><p>You can drop the spell at any time to cast Rift Walker again and place the marking somewhere new.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, você faz uma marca arcana no chão onde está. Na próxima vez que você lançar Andarilho das Fendas com sucesso, uma fenda no espaço se abre, oferecendo passagem segura de volta ao ponto exato onde a marca foi feita. Essa fenda permanece aberta até você escolher fechá-la ou lançar outra magia.</p><p>Você pode desfazer a magia a qualquer momento para lançar Andarilho das Fendas novamente e colocar a marca em outro lugar.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 6,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/earth/projectile-stone-bullet-pink.webp",
         "range": "",
         "baseAction": false,

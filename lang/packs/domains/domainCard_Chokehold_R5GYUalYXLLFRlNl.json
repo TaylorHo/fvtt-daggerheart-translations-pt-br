@@ -1,10 +1,10 @@
 {
-  "name": "Chokehold",
+  "name": "Estrangulamento",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "hoDIPBzwYPxiSXGU",
   "system": {
-    "description": "<p>When you position yourself behind a creature who's about your size, you can <strong>mark a Stress</strong> to pull them into a chokehold, making them temporarily <em>Vulnerable</em>.</p><p>When a creature attacks a target who is <em>Vulnerable</em> in this way, they deal an extra <strong>2d6</strong> damage.</p>",
+    "description": "<p>Quando você se posiciona atrás de uma criatura de tamanho aproximado ao seu, pode <strong>marcar um Fadiga</strong> para agarrá-la em um estrangulamento, deixando-a temporariamente <em>Vulnerável</em>.</p><p>Quando uma criatura ataca um alvo que está <em>Vulnerável</em> dessa forma, ela causa <strong>2d6</strong> de dano extra.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "QCMkze8rU0VB1VYL",
         "systemPath": "actions",
-        "description": "<p>When you position yourself behind a creature who's about your size, you can mark a <strong>Stress</strong> to pull them into a chokehold, making them temporarily <em>Vulnerable</em>.</p>",
+        "description": "<p>Quando você se posiciona atrás de uma criatura de tamanho aproximado ao seu, pode marcar um <strong>Fadiga</strong> para agarrá-la em um estrangulamento, deixando-a temporariamente <em>Vulnerável</em>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Pull into Chokehold",
+        "name": "Puxar para o Estrangulamento",
         "img": "icons/skills/melee/hand-grip-staff-teal.webp",
         "range": "",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "damage",
         "_id": "IwiUBldoDTUgT6mh",
         "systemPath": "actions",
-        "description": "<p>When a creature attacks a target who is <em>Vulnerable</em> in this way, they deal an extra <strong>2d6</strong> damage.</p>",
+        "description": "<p>Quando uma criatura ataca um alvo que está <em>Vulnerável</em> dessa forma, ela causa <strong>2d6</strong> de dano extra.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -85,7 +85,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Damage",
+        "name": "Dano",
         "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
         "range": "",
         "baseAction": false,
@@ -113,7 +113,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Chokehold",
+      "name": "Estrangulamento",
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "transfer": false,
       "_id": "yzGem7IfViJdAv1H",
@@ -135,7 +135,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Temporarily Vulnerable</p>",
+      "description": "<p>Temporariamente Vulnerável</p>",
       "tint": "#ffffff",
       "statuses": [
         "vulnerable"

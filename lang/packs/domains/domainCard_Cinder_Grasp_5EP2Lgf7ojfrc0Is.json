@@ -1,10 +1,10 @@
 {
-  "name": "Cinder Grasp",
+  "name": "Garra de Cinzas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "u8Yz2hUTaF3N2fFT",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> magic damage, and is temporarily lit <em>On Fire</em>.</p><p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, o alvo irrompe instantaneamente em chamas, sofre <strong>1d20+3</strong> de dano mágico e fica temporariamente <em>Pegando Fogo</em>.</p><p>Quando uma criatura age enquanto está <em>Pegando Fogo</em>, ela deve sofrer <strong>2d6</strong> de dano mágico extra se ainda estiver <em>Pegando Fogo</em> ao final de sua ação.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "9qebkHgxdWVFhIqd",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> magic damage, and is temporarily lit <em>On Fire</em>.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, o alvo irrompe instantaneamente em chamas, sofre <strong>1d20+3</strong> de dano mágico e fica temporariamente <em>Pegando Fogo</em>.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -80,7 +80,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/fire/flame-burning-fist-strike.webp",
         "range": "",
         "baseAction": false,
@@ -94,7 +94,7 @@
         "type": "damage",
         "_id": "z9vUmnLXfskowwsc",
         "systemPath": "actions",
-        "description": "<p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>",
+        "description": "<p>Quando uma criatura age enquanto está <em>Pegando Fogo</em>, ela deve sofrer <strong>2d6</strong> de dano mágico extra se ainda estiver <em>Pegando Fogo</em> ao final de sua ação.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -135,7 +135,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "On Fire: Damage",
+        "name": "Pegando Fogo: Dano",
         "img": "icons/magic/fire/flame-burning-earth-orange.webp",
         "range": "",
         "baseAction": false,
@@ -163,7 +163,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "On Fire",
+      "name": "Pegando Fogo",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
       "transfer": false,
       "_id": "HNKkaWi507whJuYN",
@@ -186,7 +186,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>",
+      "description": "<p>Quando uma criatura age enquanto está <em>Pegando Fogo</em>, ela deve sofrer <strong>2d6</strong> de dano mágico extra se ainda estiver <em>Pegando Fogo</em> ao final de sua ação.</p>",
       "tint": "#ffffff",
       "statuses": [
         "burning"

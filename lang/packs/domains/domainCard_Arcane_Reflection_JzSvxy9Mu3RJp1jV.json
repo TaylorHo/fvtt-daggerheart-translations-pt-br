@@ -1,10 +1,10 @@
 {
-  "name": "Arcane Reflection",
+  "name": "Reflexo Arcano",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "KmaX6wNBLzkFevaG",
   "system": {
-    "description": "<p>When you would take magic damage, you can <strong>spend any number of Hope</strong> to roll that many <strong>d6s</strong>. If any roll a 6, the attack is reflected back to the caster, dealing the damage to them instead.</p>",
+    "description": "<p>Quando você sofreria dano mágico, pode <strong>gastar qualquer quantidade de Esperança</strong> para rolar essa quantidade de <strong>d6</strong>. Se algum tirar 6, o ataque é refletido de volta ao conjurador, causando o dano a ele em vez de a você.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 8,
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Reflect Back",
+        "name": "Refletir de Volta",
         "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
         "range": "",
         "baseAction": false,

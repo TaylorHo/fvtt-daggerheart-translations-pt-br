@@ -1,10 +1,10 @@
 {
-  "name": "Share the Burden",
+  "name": "Dividir o Fardo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "VgADdqYn9nS9G1Us",
   "system": {
-    "description": "<p>Once per rest, take on the Stress from a willing creature within Melee range. The target describes what intimate knowledge or emotions telepathically leak from their mind in this moment between you. Transfer any number of their marked Stress to you, then gain a Hope for each Stress transferred.</p>",
+    "description": "<p>Uma vez por descanso, assuma o Fadiga de uma criatura disposta dentro do alcance Corpo a Corpo. O alvo descreve que conhecimento íntimo ou emoções vazam telepaticamente de sua mente nesse momento entre vocês. Transfira para você qualquer quantidade do Fadiga marcado dele e depois ganhe uma Esperança para cada Fadiga transferido.</p>",
     "domain": "grace",
     "recallCost": 0,
     "level": 6,
@@ -29,7 +29,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Take Stress",
+        "name": "Assumir Fadiga",
         "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
         "range": "",
         "baseAction": false,

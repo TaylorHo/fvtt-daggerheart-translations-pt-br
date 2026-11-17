@@ -1,10 +1,10 @@
 {
-  "name": "Deadly Focus",
+  "name": "Foco Mortal",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "yalAnCU3SndrYImF",
   "system": {
-    "description": "<p>Once per rest, you can apply all your focus toward a target of your choice. Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.</p>",
+    "description": "<p>Uma vez por descanso, você pode concentrar todo o seu foco em um alvo à sua escolha. Até você atacar outra criatura, derrotar o alvo ou a batalha terminar, ganhe um bônus de +1 em sua Proficiência.</p>",
     "domain": "blade",
     "recallCost": 2,
     "level": 4,
@@ -34,7 +34,7 @@
           "type": "self",
           "amount": 1
         },
-        "name": "Focus",
+        "name": "Foco",
         "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
         "range": "self",
         "baseAction": false,
@@ -62,7 +62,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Deadly Focus",
+      "name": "Foco Mortal",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "transfer": false,
       "_id": "TFWiAUDCfGaax5MU",
@@ -92,7 +92,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.</p>",
+      "description": "<p>Até você atacar outra criatura, derrotar o alvo ou a batalha terminar, ganhe um bônus de +1 em sua Proficiência.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,10 +1,10 @@
 {
-  "name": "Adjust Reality",
+  "name": "Ajustar a Realidade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "7Cs44YADBTmmtCw6",
   "system": {
-    "description": "<p>After you or a willing ally make any roll, you can <strong>spend 5 Hope</strong> to change the numerical result of that roll to a result of your choice instead. The result must be plausible within the range of the dice.</p>",
+    "description": "<p>Depois que você ou um aliado disposto fizer qualquer teste, você pode <strong>gastar 5 Esperança</strong> para mudar o resultado numérico desse teste para um resultado de sua escolha. O resultado deve ser plausível dentro do intervalo dos dados.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 10,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/fire/flame-burning-hand-purple.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Book of Vagras",
+  "name": "Livro de Vagras",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "j9i2Q6Z7Z82udHn1",
   "system": {
-    "description": "<p><em><strong>Runic Lock:</strong></em> Make a <strong>Spellcast Roll (15)</strong> on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p><p><em><strong>Arcane Door:</strong></em> When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p><p><em><strong>Reveal:</strong></em> Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p>",
+    "description": "<p><em><strong>Trava Rúnica:</strong></em> Faça um <strong>Teste de Conjuração (15)</strong> em um objeto que você esteja tocando e que possa ser fechado (como uma fechadura, baú ou caixa). Uma vez por descanso, em caso de sucesso, você pode trancar o objeto de modo que só possa ser aberto por criaturas de sua escolha. Alguém com acesso à magia e uma hora para estudar a magia pode quebrá-la.</p><p><em><strong>Porta Arcana:</strong></em> Quando você não tiver adversários dentro do alcance Corpo a Corpo, faça um <strong>Teste de Conjuração (13)</strong>. Em caso de sucesso, <strong>gaste uma Esperança</strong> para criar um portal de onde você está até um ponto dentro do alcance Distante que você consiga ver. Ele se fecha depois que uma criatura o atravessa.</p><p><em><strong>Revelar:</strong></em> Faça um <strong>Teste de Conjuração</strong>. Se houver algo magicamente oculto dentro do alcance Próximo contra o qual o teste seria bem-sucedido, isso é revelado.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "kfJZdT3F4SH1h1dc",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (15)</strong> on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong> em um objeto que você esteja tocando e que possa ser fechado (como uma fechadura, baú ou caixa). Uma vez por descanso, em caso de sucesso, você pode trancar o objeto de modo que só possa ser aberto por criaturas de sua escolha. Alguém com acesso à magia e uma hora para estudar a magia pode quebrá-la.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Runic Lock",
+        "name": "Trava Rúnica",
         "img": "icons/magic/symbols/runes-star-blue.webp",
         "range": "",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "Da3zkKkOljZfu5Xb",
         "systemPath": "actions",
-        "description": "<p>When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p>",
+        "description": "<p>Quando você não tiver adversários dentro do alcance Corpo a Corpo, faça um <strong>Teste de Conjuração (13)</strong>. Em caso de sucesso, <strong>gaste uma Esperança</strong> para criar um portal de onde você está até um ponto dentro do alcance Distante que você consiga ver. Ele se fecha depois que uma criatura o atravessa.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -115,7 +115,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Arcane Door",
+        "name": "Porta Arcana",
         "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
         "range": "far",
         "baseAction": false,
@@ -129,7 +129,7 @@
         "type": "attack",
         "_id": "VOOND5icbz1WxUUD",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p><p>@Template[type:emanation|range:c]</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong>. Se houver algo magicamente oculto dentro do alcance Próximo contra o qual o teste seria bem-sucedido, isso é revelado.</p><p>@Template[type:emanation|range:c]</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -168,7 +168,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Reveal",
+        "name": "Revelar",
         "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
         "range": "close",
         "baseAction": false,

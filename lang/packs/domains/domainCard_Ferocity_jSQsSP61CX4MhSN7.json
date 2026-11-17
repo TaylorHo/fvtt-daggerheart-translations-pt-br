@@ -1,10 +1,10 @@
 {
-  "name": "Ferocity",
+  "name": "Ferocidade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "Q9rmrfeKqcqBNnWc",
   "system": {
-    "description": "<p>When you cause an adversary to mark 1 or more Hit Points, you can <strong>spend 2 Hope</strong> to increase your Evasion by the number of Hit Points they marked. This bonus lasts until after the next attack made against you.</p>",
+    "description": "<p>Quando você faz um adversário marcar 1 ou mais Pontos de Vida, pode <strong>gastar 2 Esperança</strong> para aumentar sua Evasão pelo número de Pontos de Vida que ele marcou. Esse bônus dura até depois do próximo ataque feito contra você.</p>",
     "domain": "bone",
     "recallCost": 2,
     "level": 2,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
         "range": "",
         "triggers": [],

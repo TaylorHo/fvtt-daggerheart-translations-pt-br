@@ -20,7 +20,7 @@
         "type": "effect",
         "chatDisplay": true,
         "name": "Abençoada",
-        "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Risk It All. Você ganha um bônus no resultado do seu Dado de Esperança igual à quantidade de Esperança gasta.",
+        "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Arriscar Tudo. Você ganha um bônus no resultado do seu Dado de Esperança igual à quantidade de Esperança gasta.",
         "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
         "uses": {
           "max": "1",

@@ -6,7 +6,7 @@
   "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Quando você escolhe o movimento mortal Risk It All e falha, pode <strong>marcar permanentemente um Ponto de Vida</strong> para ter sucesso em vez disso. Quando fizer isso, você ainda usa o valor do Dado de Esperança para limpar Pontos de Vida e Fadiga. Quando você marca permanentemente seu último Ponto de Vida, você atravessa o véu da morte.</p>",
+    "description": "<p>Quando você escolhe o movimento mortal Arriscar Tudo e falha, pode <strong>marcar permanentemente um Ponto de Vida</strong> para ter sucesso em vez disso. Quando fizer isso, você ainda usa o valor do Dado de Esperança para limpar Pontos de Vida e Fadiga. Quando você marca permanentemente seu último Ponto de Vida, você atravessa o véu da morte.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

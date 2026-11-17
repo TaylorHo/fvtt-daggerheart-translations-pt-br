@@ -1,10 +1,10 @@
 {
-  "name": "Body Basher",
+  "name": "Golpeador Corporal",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "pk4xXE8D3vTawrqj",
   "system": {
-    "description": "<p>You use the full force of your body in a fight. On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>",
+    "description": "<p>Você usa toda a força do seu corpo em uma luta. Em um ataque bem-sucedido com uma arma de alcance Corpo a Corpo, receba um bônus na sua rolagem de dano igual à sua Força.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 2,
@@ -25,7 +25,7 @@
   "flags": {},
   "effects": [
     {
-      "name": "Body Basher",
+      "name": "Golpeador Corporal",
       "type": "base",
       "_id": "8uOMyEczlY2OrKau",
       "img": "icons/skills/melee/hand-grip-staff-teal.webp",
@@ -63,7 +63,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>",
+      "description": "<p>Em um ataque bem-sucedido com uma arma de alcance Corpo a Corpo, receba um bônus na sua rolagem de dano igual à sua Força.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

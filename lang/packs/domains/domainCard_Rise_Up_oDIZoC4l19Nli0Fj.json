@@ -1,10 +1,10 @@
 {
-  "name": "Rise Up",
+  "name": "Reerguer-se",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "nKCmeAn7ESsb4byE",
   "system": {
-    "description": "<p>Gain a bonus to your Severe threshold equal to your Proficiency.</p><p>When you mark 1 or more Hit Points from an attack, clear a Stress.</p>",
+    "description": "<p>Receba um bônus no seu limiar Severo igual à sua Proficiência.</p><p>Quando você marca 1 ou mais Pontos de Vida de um ataque, limpe um Fadiga.</p>",
     "domain": "valor",
     "recallCost": 2,
     "level": 6,
@@ -14,7 +14,7 @@
         "type": "healing",
         "_id": "DAsnjDomrlupo1aw",
         "systemPath": "actions",
-        "description": "<p>When you mark 1 or more Hit Points from an attack, clear a Stress.</p>",
+        "description": "<p>Quando você marca 1 ou mais Pontos de Vida de um ataque, limpe um Fadiga.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
         "range": "",
         "baseAction": false,
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Rise Up",
+      "name": "Reerguer-se",
       "type": "base",
       "system": {
         "changes": [
@@ -124,7 +124,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a bonus to your Severe threshold equal to your Proficiency.</p>",
+      "description": "<p>Receba um bônus no seu limiar Severo igual à sua Proficiência.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

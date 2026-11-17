@@ -1,10 +1,10 @@
 {
-  "name": "Vanishing Dodge",
+  "name": "Esquiva Evanescente",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "ML2JusN36oJoR8QA",
   "system": {
-    "description": "<p>When an attack made against you that would deal physical damage fails, you can <strong>spend a Hope</strong> to envelop yourself in shadow, becoming <em>Hidden</em> and teleporting to a point within Close range of the attacker. You remain <em>Hidden</em> until the next time you make an action roll.</p>",
+    "description": "<p>Quando um ataque feito contra você que causaria dano físico falha, você pode <strong>gastar uma Esperança</strong> para se envolver em sombras, ficando <em>Escondido</em> e se teletransportando para um ponto dentro do alcance Próximo do atacante. Você permanece <em>Escondido</em> até a próxima vez que fizer um teste de ação.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 7,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Vanish",
+        "name": "Desaparecer",
         "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
         "range": "close",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Hidden",
+      "name": "Escondido",
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "transfer": false,
       "_id": "kxal5WfDr3hTHYpb",
@@ -93,7 +93,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Envelop yourself in shadow, becoming Hidden and teleporting to a point within Close range of the attacker. You remain Hidden until the next time you make an action roll.</p>",
+      "description": "<p>Envolva-se em sombras, ficando Escondido e se teletransportando para um ponto dentro do alcance Próximo do atacante. Você permanece Escondido até a próxima vez que fizer um teste de ação.</p>",
       "tint": "#ffffff",
       "statuses": [
         "hidden"

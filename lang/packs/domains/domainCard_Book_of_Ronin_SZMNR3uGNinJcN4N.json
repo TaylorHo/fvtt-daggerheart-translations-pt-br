@@ -1,10 +1,10 @@
 {
-  "name": "Book of Ronin",
+  "name": "Livro de Ronin",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "KwZYrsSUYnHiNtPl",
   "system": {
-    "description": "<p><em><strong>Transform:</strong></em> Make a <strong>Spellcast Roll (15)</strong>. On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p><p><em><strong>Eternal Enervation:</strong> </em>Once per long rest, make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>",
+    "description": "<p><em><strong>Transformar:</strong></em> Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, transforme-se em um objeto inanimado de no máximo o dobro do seu tamanho normal. Você pode permanecer nessa forma até sofrer dano.</p><p><em><strong>Enervação Eterna:</strong> </em>Uma vez por descanso longo, faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, ele fica permanentemente <em>Vulnerável</em>. Ele não pode limpar essa condição por nenhum meio.</p>",
     "domain": "codex",
     "recallCost": 4,
     "level": 9,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "etnR1OKzpLWrx2os",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, transforme-se em um objeto inanimado de no máximo o dobro do seu tamanho normal. Você pode permanecer nessa forma até sofrer dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Transform",
+        "name": "Transformar",
         "img": "icons/containers/barrels/barrel-reinforced-cherry-brown.webp",
         "range": "self",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "attack",
         "_id": "h7i4ZuDYuYLnjze6",
         "systemPath": "actions",
-        "description": "<p>Once per long rest, make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>",
+        "description": "<p>Uma vez por descanso longo, faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, ele fica permanentemente <em>Vulnerável</em>. Ele não pode limpar essa condição por nenhum meio.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -116,7 +116,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Eternal Enervation",
+        "name": "Enervação Eterna",
         "img": "icons/magic/unholy/hand-light-green.webp",
         "range": "close",
         "baseAction": false,
@@ -144,7 +144,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Transform",
+      "name": "Transformar",
       "img": "icons/containers/barrels/barrel-reinforced-cherry-brown.webp",
       "transfer": false,
       "_id": "ntQfpTcXyEL76vCK",
@@ -166,7 +166,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You've transformed into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>",
+      "description": "<p>Você se transformou em um objeto inanimado de no máximo o dobro do seu tamanho normal. Você pode permanecer nessa forma até sofrer dano.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -180,7 +180,7 @@
       "_key": "!items.effects!SZMNR3uGNinJcN4N.ntQfpTcXyEL76vCK"
     },
     {
-      "name": "Eternal Enervation",
+      "name": "Enervação Eterna",
       "img": "icons/magic/unholy/hand-light-green.webp",
       "transfer": false,
       "_id": "y44r3c91m06WKSiq",
@@ -202,7 +202,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>",
+      "description": "<p>Permanentemente <em>Vulnerável</em>. Ele não pode limpar essa condição por nenhum meio.</p>",
       "tint": "#ffffff",
       "statuses": [
         "vulnerable"

@@ -1,10 +1,10 @@
 {
-  "name": "Cloaking Blast",
+  "name": "Explosão Encobridora",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "bCjkysrofWPiZqNh",
   "system": {
-    "description": "<p>When you make a successful <strong>Spellcast Roll</strong> to cast a different spell, you can <strong>spend a Hope</strong> to become <em>Cloaked</em>. While <em>Cloaked</em>, you remain unseen if you are stationary when an adversary moves to where they would normally see you. When you move into or within an adversary's line of sight or make an attack, you are no longer <em>Cloaked</em>.</p>",
+    "description": "<p>Quando você faz um <strong>Teste de Conjuração</strong> bem-sucedido para lançar uma magia diferente, pode <strong>gastar uma Esperança</strong> para ficar <em>Encoberto</em>. Enquanto <em>Encoberto</em>, você permanece invisível se estiver parado quando um adversário se mover para onde normalmente o veria. Quando você se move para dentro ou dentro da linha de visão de um adversário, ou faz um ataque, você deixa de estar <em>Encoberto</em>.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 7,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Become Cloaked",
+        "name": "Ficar Encoberto",
         "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
         "range": "self",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Cloaked",
+      "name": "Encoberto",
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "transfer": false,
       "_id": "twCBqXytmRkMz0kV",
@@ -80,7 +80,7 @@
         "changes": [],
         "duration": {
           "type": "temporary",
-          "description": "<p>When you move into or within an adversary's line of sight or make an attack, you are no longer Cloaked.</p>"
+          "description": "<p>Quando você se move para dentro ou dentro da linha de visão de um adversário, ou faz um ataque, você deixa de estar Encoberto.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -94,7 +94,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While <em>Cloaked</em>, you remain unseen if you are stationary when an adversary moves to where they would normally see you. When you move into or within an adversary's line of sight or make an attack, you are no longer <em>Cloaked</em>.</p>",
+      "description": "<p>Enquanto <em>Encoberto</em>, você permanece invisível se estiver parado quando um adversário se mover para onde normalmente o veria. Quando você se move para dentro ou dentro da linha de visão de um adversário, ou faz um ataque, você deixa de estar <em>Encoberto</em>.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,10 +1,10 @@
 {
-  "name": "Transcendent Union",
+  "name": "União Transcendente",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "IIVaYseNJbA2ta1B",
   "system": {
-    "description": "<p>Once per long rest, <strong>spend 5 Hope</strong> to cast this spell on two or more willing creatures. Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.</p>",
+    "description": "<p>Uma vez por descanso longo, <strong>gaste 5 Esperança</strong> para lançar esta magia em duas ou mais criaturas dispostas. Até seu próximo descanso, quando uma criatura conectada por esta união fosse marcar Fadiga ou Pontos de Vida, as criaturas conectadas podem escolher quem os marca.</p>",
     "domain": "codex",
     "recallCost": 1,
     "level": 10,
@@ -43,7 +43,7 @@
           "type": "friendly",
           "amount": 2
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Transcendent Union",
+      "name": "União Transcendente",
       "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "transfer": false,
       "_id": "kMcvp2QKmBP4uinB",
@@ -94,7 +94,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.</p>",
+      "description": "<p>Até seu próximo descanso, quando uma criatura conectada por esta união fosse marcar Fadiga ou Pontos de Vida, as criaturas conectadas podem escolher quem os marca.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

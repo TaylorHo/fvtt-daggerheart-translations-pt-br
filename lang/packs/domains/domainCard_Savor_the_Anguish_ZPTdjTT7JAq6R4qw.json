@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Savor the Anguish",
+  "name": "Saborear a Angústia",
   "folder": "mEBydlforCvDGfDq",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>When an adversary within Close range takes Severe damage, you can clear a Stress.</p>",
+    "description": "<p>Quando um adversário dentro do alcance Próximo sofre dano Severo, você pode limpar um Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -76,7 +76,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "range": "self",
         "img": "icons/magic/life/cross-embers-glow-yellow-purple.webp"
       }

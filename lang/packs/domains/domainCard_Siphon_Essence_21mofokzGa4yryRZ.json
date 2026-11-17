@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Siphon Essence",
+  "name": "Sifonar Essência",
   "folder": "Px6nK9RuheaYIYI9",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Very Close range. Once per long rest on a success, the target takes <strong>d12+4</strong> magic damage using your Proficiency. On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.</p><p>You clear a number of Hit Points equal to the number of Hit Points the target marked from this attack.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Próximo. Uma vez por descanso longo, em caso de sucesso, o alvo sofre <strong>d12+4</strong> de dano mágico usando sua Proficiência. Em um sucesso com Medo, você ganha um bônus de +1 em sua Proficiência neste ataque.</p><p>Você limpa uma quantidade de Pontos de Vida igual ao número de Pontos de Vida que o alvo marcou com este ataque.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -84,7 +84,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "veryClose",
         "img": "icons/magic/unholy/energy-smoke-pink.webp"
       },
@@ -119,7 +119,7 @@
         "_id": "2WSDK7psPlgjOnSG",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.</p>",
+        "description": "<p>Em um sucesso com Medo, você ganha um bônus de +1 em sua Proficiência neste ataque.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -139,7 +139,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "With Fear",
+        "name": "Com Medo",
         "range": "",
         "img": "icons/magic/unholy/orb-hands-pink.webp"
       }

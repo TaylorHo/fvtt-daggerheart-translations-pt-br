@@ -1,10 +1,10 @@
 {
-  "name": "Shadowhunter",
+  "name": "Caçador das Sombras",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "taM81THa8h6Bv2Xa",
   "system": {
-    "description": "<p>Your prowess is enhanced under the cover of shadow. While you're shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.</p>",
+    "description": "<p>Sua destreza é aprimorada sob o manto das sombras. Enquanto estiver envolto em pouca luz ou escuridão, você ganha um bônus de +1 na Evasão e faz testes de ataque com vantagem.</p>",
     "domain": "midnight",
     "recallCost": 2,
     "level": 8,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Shadowhunter Evasion",
+      "name": "Evasão do Caçador das Sombras",
       "type": "base",
       "system": {
         "changes": [],
@@ -48,7 +48,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While you're shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.</p>",
+      "description": "<p>Enquanto estiver envolto em pouca luz ou escuridão, você ganha um bônus de +1 na Evasão e faz testes de ataque com vantagem.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -63,7 +63,7 @@
       "_key": "!items.effects!A0XzD6MmBXYdk7Ps.A6gMv7TbMu3nV3NT"
     },
     {
-      "name": "Shadowhunter Advantage Hint",
+      "name": "Dica de Vantagem do Caçador das Sombras",
       "type": "base",
       "system": {
         "changes": [

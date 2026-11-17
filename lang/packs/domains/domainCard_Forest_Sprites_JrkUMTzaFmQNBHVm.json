@@ -1,10 +1,10 @@
 {
-  "name": "Forest Sprites",
+  "name": "Espíritos da Floresta",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "qY4Zqc1Ch6p317uK",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend any number of Hope</strong> to create an equal number of small forest sprites who appear at points you choose within Far range, providing the following benefits:</p><ul><li class=\"vertical-card-list\"><p>Your allies gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p></li><li class=\"vertical-card-list\"><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p></li></ul><p>A sprite vanishes after granting a benefit or taking any damage.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong>. Em caso de sucesso, <strong>gaste qualquer quantidade de Esperança</strong> para criar a mesma quantidade de pequenos sprites da floresta que aparecem em pontos de sua escolha dentro do alcance Distante, concedendo os seguintes benefícios:</p><ul><li class=\"vertical-card-list\"><p>Seus aliados ganham um bônus de +3 nos testes de ataque contra adversários dentro do alcance Corpo a Corpo de um sprite.</p></li><li class=\"vertical-card-list\"><p>Um aliado que marca um Espaço de Armadura enquanto estiver dentro do alcance Corpo a Corpo de um sprite pode marcar um Espaço de Armadura adicional.</p></li></ul><p>Um sprite desaparece depois de conceder um benefício ou sofrer qualquer dano.</p>",
     "domain": "sage",
     "recallCost": 2,
     "level": 8,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "TVepLgRNQLhZWDu6",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend any number of Hope</strong> to create an equal number of small forest sprites who appear at points you choose within Far range, providing the following benefits:</p><ul class=\"\"><li class=\"vertical-card-list\"><p>Your allies gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p></li><li class=\"vertical-card-list\"><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p></li></ul><p>A sprite vanishes after granting a benefit or taking any damage.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong>. Em caso de sucesso, <strong>gaste qualquer quantidade de Esperança</strong> para criar a mesma quantidade de pequenos sprites da floresta que aparecem em pontos de sua escolha dentro do alcance Distante, concedendo os seguintes benefícios:</p><ul class=\"\"><li class=\"vertical-card-list\"><p>Seus aliados ganham um bônus de +3 nos testes de ataque contra adversários dentro do alcance Corpo a Corpo de um sprite.</p></li><li class=\"vertical-card-list\"><p>Um aliado que marca um Espaço de Armadura enquanto estiver dentro do alcance Corpo a Corpo de um sprite pode marcar um Espaço de Armadura adicional.</p></li></ul><p>Um sprite desaparece depois de conceder um benefício ou sofrer qualquer dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/creatures/magical/humanoid-silhouette-dashing-blue.webp",
         "range": "",
         "baseAction": false,
@@ -119,9 +119,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]
@@ -133,7 +131,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p><p>A sprite vanishes after granting a benefit or taking any damage.</p>",
+      "description": "<p>Receba um bônus de +3 nos testes de ataque contra adversários dentro do alcance Corpo a Corpo de um sprite.</p><p>Um aliado que marca um Espaço de Armadura enquanto estiver dentro do alcance Corpo a Corpo de um sprite pode marcar um Espaço de Armadura adicional.</p><p>Um sprite desaparece depois de conceder um benefício ou sofrer qualquer dano.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

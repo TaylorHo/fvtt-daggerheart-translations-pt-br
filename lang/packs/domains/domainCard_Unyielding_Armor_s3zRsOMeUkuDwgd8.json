@@ -1,10 +1,10 @@
 {
-  "name": "Unyielding Armor",
+  "name": "Armadura Inflexível",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "D1MFCYakdFIKDmcD",
   "system": {
-    "description": "<p>When you would mark an Armor Slot, roll a number of <strong>d6s</strong> equal to your Proficiency. If any roll a 6, reduce the severity by one threshold without marking an Armor Slot.</p>",
+    "description": "<p>Quando você marcaria um Espaço de Armadura, role uma quantidade de <strong>d6</strong> igual à sua Proficiência. Se algum tirar 6, reduza a gravidade em um limiar sem marcar um Espaço de Armadura.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 10,

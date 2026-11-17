@@ -3,7 +3,7 @@
   "type": "loot",
   "img": "icons/commodities/treasure/totem-wood-face-brown.webp",
   "system": {
-    "description": "<p>Você ganha um bônus de +1 em seu Dado de Esperança quando faz o movimento mortal Risk It All.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Dado de Esperança quando faz o movimento mortal Arriscar Tudo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

@@ -1,10 +1,10 @@
 {
-  "name": "Gifted Tracker",
+  "name": "Rastreador Talentoso",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "EJoXzO85rG5EiZsh",
   "system": {
-    "description": "<p>When you're tracking a specific creature or group of creatures based on signs of their passage, you <strong>can spend any number of Hope</strong> and ask the GM that many questions from the following list.</p><ul><li class=\"vertical-card-list\">What direction did they go?</li><li class=\"vertical-card-list\">How long ago did they pass through?</li><li class=\"vertical-card-list\">What were they doing in this location?</li><li class=\"vertical-card-list\">How many of them were here?</li></ul><p>When you encounter creatures you've tracked in this way, gain a +1 bonus to your Evasion against them.</p>",
+    "description": "<p>Quando você está rastreando uma criatura ou grupo de criaturas específico com base em sinais de sua passagem, você <strong>pode gastar qualquer quantidade de Esperança</strong> e fazer ao Mestre essa quantidade de perguntas da lista a seguir.</p><ul><li class=\"vertical-card-list\">Em que direção eles foram?</li><li class=\"vertical-card-list\">Há quanto tempo eles passaram por aqui?</li><li class=\"vertical-card-list\">O que eles estavam fazendo neste local?</li><li class=\"vertical-card-list\">Quantos deles estiveram aqui?</li></ul><p>Quando você encontrar criaturas que rastreou dessa forma, receba um bônus de +1 na Evasão contra elas.</p>",
     "domain": "sage",
     "recallCost": 0,
     "level": 1,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Ask Questions",
+        "name": "Fazer Perguntas",
         "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Gifted Tracker",
+      "name": "Rastreador Talentoso",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
       "transfer": false,
       "_id": "47Oh2weCdmuvKHM9",
@@ -101,7 +101,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you encounter creatures you've tracked in this way, gain a +1 bonus to your Evasion against them.</p>",
+      "description": "<p>Quando você encontrar criaturas que rastreou dessa forma, receba um bônus de +1 na Evasão contra elas.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

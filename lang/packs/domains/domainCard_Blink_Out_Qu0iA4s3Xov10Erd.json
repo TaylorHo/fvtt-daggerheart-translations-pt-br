@@ -1,10 +1,10 @@
 {
-  "name": "Blink Out",
+  "name": "Desvanecer",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "1e5Sn8OXxEQ57GSD",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong><strong> (12)</strong>. On a success, <strong>spend a </strong><strong>Hope</strong> to teleport to another point you can see within Far range. If any willing creatures are within Very Close range, <strong>spend an additional Hope</strong> for each creature to bring them with you.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong><strong> (12)</strong>. Em caso de sucesso, <strong>gaste uma </strong><strong>Esperança</strong> para se teletransportar a outro ponto que você consiga ver dentro do alcance Distante. Se houver criaturas dispostas dentro do alcance Muito Próximo, <strong>gaste uma Esperança adicional</strong> por criatura para levá-las com você.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 4,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "LsAdmSinOiNr9jH8",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (12)</strong>. On a success, <strong>spend a Hope</strong> to teleport to another point you can see within Far range. If any willing creatures are within Very Close range, <strong>spend an additional Hope</strong> for each creature to bring them with you.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (12)</strong>. Em caso de sucesso, <strong>gaste uma Esperança</strong> para se teletransportar a outro ponto que você consiga ver dentro do alcance Distante. Se houver criaturas dispostas dentro do alcance Muito Próximo, <strong>gaste uma Esperança adicional</strong> por criatura para levá-las com você.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Teleport",
+        "name": "Teletransportar",
         "img": "icons/magic/symbols/runes-star-orange-purple.webp",
         "range": "veryClose",
         "baseAction": false,

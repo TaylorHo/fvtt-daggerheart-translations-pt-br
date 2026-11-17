@@ -1,10 +1,10 @@
 {
-  "name": "Flight",
+  "name": "Voo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "mOv6BGhJAeGrzA84",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, place a number of tokens equal to your Agility on this card (minimum 1). When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, coloque nesta carta uma quantidade de fichas igual à sua Agilidade (mínimo 1). Quando você faz um teste de ação enquanto voa, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, você desce até o chão diretamente abaixo de você.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "sAE4ZDLyU9CmNzES",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> (15). On a success, place a number of tokens equal to your Agility on this card (minimum 1).</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> (15). Em caso de sucesso, coloque nesta carta uma quantidade de fichas igual à sua Agilidade (mínimo 1).</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
         "range": "",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "effect",
         "_id": "2wzlrOPefdowBtRr",
         "systemPath": "actions",
-        "description": "<p>When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>",
+        "description": "<p>Quando você faz um teste de ação enquanto voa, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, você desce até o chão diretamente abaixo de você.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -96,7 +96,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Token",
+        "name": "Gastar Ficha",
         "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
         "range": "",
         "baseAction": false,
@@ -133,7 +133,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Flying",
+      "name": "Voando",
       "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
       "transfer": false,
       "_id": "gd8crfrvMGWXLWGP",
@@ -155,7 +155,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can fly. When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>",
+      "description": "<p>Você pode voar. Quando você faz um teste de ação enquanto voa, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, você desce até o chão diretamente abaixo de você.</p>",
       "tint": "#ffffff",
       "statuses": [
         "fly"

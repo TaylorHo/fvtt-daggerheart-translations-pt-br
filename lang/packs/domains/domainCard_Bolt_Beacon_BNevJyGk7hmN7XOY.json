@@ -1,10 +1,10 @@
 {
-  "name": "Bolt Beacon",
+  "name": "Farol de Raio",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "LlWJaBZOKh0Ot2kD",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, <strong>spend a Hope</strong> to send a bolt of shimmering light toward them, dealing <strong>d8+2</strong> magic damage using your Proficiency. The target becomes temporarily <em>Vulnerable</em> and glows brightly until this condition is cleared.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, <strong>gaste uma Esperança</strong> para enviar um raio de luz cintilante contra ele, causando <strong>d8+2</strong> de dano mágico usando sua Proficiência. O alvo fica temporariamente <em>Vulnerável</em> e brilha intensamente até que essa condição seja limpa.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "zrGLlwmpuUIBrSXy",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, spend a <strong>Hope</strong> to send a bolt of shimmering light toward them, dealing d8+2 magic damage using your Proficiency. The target becomes temporarily <em>Vulnerable</em> and glows brightly until this condition is cleared.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, gaste uma <strong>Esperança</strong> para enviar um raio de luz cintilante contra ele, causando d8+2 de dano mágico usando sua Proficiência. O alvo fica temporariamente <em>Vulnerável</em> e brilha intensamente até que essa condição seja limpa.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -87,7 +87,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/light/beam-horizon-strike-yellow.webp",
         "range": "far",
         "baseAction": false,
@@ -115,7 +115,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Vulnerable",
+      "name": "Vulnerável",
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "transfer": false,
       "_id": "veZpnhnF8NRRhKG4",
@@ -138,7 +138,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Temporarily Vulnerable and glows brightly until this condition is cleared.</p>",
+      "description": "<p>Temporariamente Vulnerável e brilhando intensamente até que essa condição seja limpa.</p>",
       "tint": "#ffffff",
       "statuses": [
         "vulnerable"

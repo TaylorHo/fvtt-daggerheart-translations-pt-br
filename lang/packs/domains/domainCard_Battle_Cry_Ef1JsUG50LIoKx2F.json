@@ -1,10 +1,10 @@
 {
-  "name": "Battle Cry",
+  "name": "Brado de Batalha",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "me7ywrVh38j6T8Sm",
   "system": {
-    "description": "<p>Once per long rest, while you're charging into danger, you can muster a rousing call that inspires your allies. All allies who can hear you each clear a Stress and gain a Hope. Additionally, your allies gain advantage on attack rolls until you or an ally rolls a failure with Fear.</p>",
+    "description": "<p>Uma vez por descanso longo, enquanto avança contra o perigo, você pode soltar um brado inspirador para seus aliados. Todos os aliados que puderem ouvir você limpam cada um um Fadiga e ganham uma Esperança. Além disso, seus aliados ganham vantagem nos testes de ataque até você ou um aliado tirar uma falha com Medo.</p>",
     "domain": "blade",
     "recallCost": 2,
     "level": 8,
@@ -90,7 +90,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress & Gain Hope",
+        "name": "Limpar Fadiga e Ganhar Esperança",
         "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
         "range": "",
         "baseAction": false,
@@ -118,7 +118,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Battle Cry",
+      "name": "Brado de Batalha",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
       "transfer": false,
       "_id": "s7ma4TNgAvt0ZgEW",
@@ -135,7 +135,7 @@
         ],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until you or an ally rolls a failure with Fear.</p>"
+          "description": "<p>Até você ou um aliado tirar uma falha com Medo.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -149,7 +149,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain advantage on attack rolls until you or an ally rolls a failure with Fear.</p>",
+      "description": "<p>Você ganha vantagem nos testes de ataque até você ou um aliado tirar uma falha com Medo.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

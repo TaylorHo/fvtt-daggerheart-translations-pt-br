@@ -1,10 +1,10 @@
 {
-  "name": "Master of the Craft",
+  "name": "Mestre do Ofício",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "yFcD1LOM3xKbkNYl",
   "system": {
-    "description": "<p>Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences. Then place this card in your vault permanently.</p>",
+    "description": "<p>Receba um bônus permanente de +2 em duas das suas Experiências ou um bônus permanente de +3 em uma das suas Experiências. Em seguida, coloque esta carta permanentemente no seu cofre.</p>",
     "domain": "grace",
     "recallCost": 0,
     "level": 9,

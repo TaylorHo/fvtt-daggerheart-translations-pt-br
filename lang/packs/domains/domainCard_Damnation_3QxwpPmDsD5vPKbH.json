@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Damnation",
+  "name": "Danação",
   "folder": "mEBydlforCvDGfDq",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, <strong>mark any number of Stress</strong> to roll an equal number of <strong>d20</strong>s, dealing magic damage equal to the total result. If this attack defeats the target, all adversaries within Far range of the target must mark a Stress.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, <strong>marque qualquer quantidade de Fadiga</strong> para rolar a mesma quantidade de <strong>d20</strong>, causando dano mágico igual ao resultado total. Se este ataque derrotar o alvo, todos os adversários dentro do alcance Distante do alvo devem marcar um Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -93,7 +93,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "far",
         "img": "icons/magic/unholy/beam-impact-purple.webp"
       },
@@ -125,7 +125,7 @@
         "_id": "84fdyQS28Xi3Kvhi",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>If this attack defeats the target, all adversaries within Far range of the target must mark a Stress.</p>",
+        "description": "<p>Se este ataque derrotar o alvo, todos os adversários dentro do alcance Distante do alvo devem marcar um Fadiga.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -134,7 +134,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Damnation",
+            "name": "Danação",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -154,7 +154,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Stress Damage",
+        "name": "Dano de Fadiga",
         "range": "",
         "img": "icons/magic/death/skull-flames-white-blue.webp"
       }

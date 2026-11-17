@@ -1,10 +1,10 @@
 {
-  "name": "Know Thy Enemy",
+  "name": "Conheça Seu Inimigo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "BQ1L4EiwOs84Xysp",
   "system": {
-    "description": "<p>When observing a creature, you can make an <strong>Instinct Roll</strong> against them. On a success, <strong>spend a Hope</strong> and ask the GM for one set of information about the target from the following options:</p><ul><li class=\"vertical-card-list-found\"><p>Their unmarked Hit Points and Stress.</p></li><li class=\"vertical-card-list-found\"><p>Their Difficulty and damage thresholds.</p></li><li class=\"vertical-card-list-found\">Their tactics and standard attack damage dice.</li><li class=\"vertical-card-list-found\"><p>Their features and Experiences.</p></li></ul><p>Additionally on a success, you can <strong>mark a Stress</strong> to remove a Fear from the GM's Fear Pool.</p>",
+    "description": "<p>Ao observar uma criatura, você pode fazer um <strong>Teste de Instinto</strong> contra ela. Em caso de sucesso, <strong>gaste uma Esperança</strong> e peça ao Mestre um conjunto de informações sobre o alvo dentre as seguintes opções:</p><ul><li class=\"vertical-card-list-found\"><p>Seus Pontos de Vida e Fadiga desmarcados.</p></li><li class=\"vertical-card-list-found\"><p>Sua Dificuldade e seus limiares de dano.</p></li><li class=\"vertical-card-list-found\">Suas táticas e dados de dano de ataque padrão.</li><li class=\"vertical-card-list-found\"><p>Suas características e Experiências.</p></li></ul><p>Além disso, em caso de sucesso, você pode <strong>marcar um Fadiga</strong> para remover um Medo da Reserva de Medo do Mestre.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 5,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "CTIjJn5xFME0DCWm",
         "systemPath": "actions",
-        "description": "<p>When observing a creature, you can make an <strong>Instinct Roll</strong> against them. On a success, <strong>spend a Hope</strong> and ask the GM for one set of information about the target from the following options:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Their unmarked Hit Points and Stress.</p></li><li class=\"vertical-card-list-found\"><p>Their Difficulty and damage thresholds.</p></li><li class=\"vertical-card-list-found\">Their tactics and standard attack damage dice.</li><li class=\"vertical-card-list-found\"><p>Their features and Experiences.</p></li></ul>",
+        "description": "<p>Ao observar uma criatura, você pode fazer um <strong>Teste de Instinto</strong> contra ela. Em caso de sucesso, <strong>gaste uma Esperança</strong> e peça ao Mestre um conjunto de informações sobre o alvo dentre as seguintes opções:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Seus Pontos de Vida e Fadiga desmarcados.</p></li><li class=\"vertical-card-list-found\"><p>Sua Dificuldade e seus limiares de dano.</p></li><li class=\"vertical-card-list-found\">Suas táticas e dados de dano de ataque padrão.</li><li class=\"vertical-card-list-found\"><p>Suas características e Experiências.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Instinct Roll",
+        "name": "Teste de Instinto",
         "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
         "range": "",
         "baseAction": false,
@@ -76,7 +76,7 @@
         "type": "effect",
         "_id": "ADRUe0WJktpHFz1o",
         "systemPath": "actions",
-        "description": "<p>On a success, you can <strong>mark a Stress</strong> to remove a Fear from the GM's Fear Pool.</p>",
+        "description": "<p>Em caso de sucesso, você pode <strong>marcar um Fadiga</strong> para remover um Medo da Reserva de Medo do Mestre.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -100,7 +100,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
         "range": "",
         "baseAction": false,

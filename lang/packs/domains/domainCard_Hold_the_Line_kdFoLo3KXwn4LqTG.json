@@ -1,10 +1,10 @@
 {
-  "name": "Hold the Line",
+  "name": "Manter a Linha",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "8DOVMjTtZFKtwX4p",
   "system": {
-    "description": "<p>Describe the defensive stance you take and <strong>spend a Hope</strong>. If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p><p>This condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>",
+    "description": "<p>Descreva a postura defensiva que você assume e <strong>gaste uma Esperança</strong>. Se um adversário se mover para dentro do alcance Muito Próximo, ele é puxado para o alcance Corpo a Corpo e fica <em>Restringido.</em></p><p>Esta condição dura até você se mover ou falhar em um teste com Medo, ou até o Mestre gastar 2 Medo em seu turno para limpá-la.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 9,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
         "range": "self",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "effect",
         "_id": "SKG6Gu0uJZxtYTnz",
         "systemPath": "actions",
-        "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p>",
+        "description": "<p>Se um adversário se mover para dentro do alcance Muito Próximo, ele é puxado para o alcance Corpo a Corpo e fica <em>Restringido.</em></p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -77,7 +77,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Restrain",
+        "name": "Restringir",
         "img": "icons/magic/defensive/shield-barrier-blue.webp",
         "range": "veryClose",
         "baseAction": false,
@@ -105,7 +105,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Hold the Line",
+      "name": "Manter a Linha",
       "img": "icons/magic/defensive/shield-barrier-blue.webp",
       "transfer": false,
       "_id": "y82y3nUStyL8DIJL",
@@ -127,7 +127,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p><p>This condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>",
+      "description": "<p>Se um adversário se mover para dentro do alcance Muito Próximo, ele é puxado para o alcance Corpo a Corpo e fica <em>Restringido.</em></p><p>Esta condição dura até você se mover ou falhar em um teste com Medo, ou até o Mestre gastar 2 Medo em seu turno para limpá-la.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -141,7 +141,7 @@
       "_key": "!items.effects!kdFoLo3KXwn4LqTG.y82y3nUStyL8DIJL"
     },
     {
-      "name": "Hold the Line",
+      "name": "Manter a Linha",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "transfer": false,
       "_id": "WTYg0b8nE1XbnMiA",
@@ -164,7 +164,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p>",
+      "description": "<p>Se um adversário se mover para dentro do alcance Muito Próximo, ele é puxado para o alcance Corpo a Corpo e fica <em>Restringido.</em></p>",
       "tint": "#ffffff",
       "statuses": [
         "restrained"

@@ -1,10 +1,10 @@
 {
-  "name": "Rain of Blades",
+  "name": "Chuva de Lâminas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "sCiN7DoysdKceIMd",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to make a <strong>Spellcast Roll</strong> and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take <strong>d8+2</strong> magic damage using your Proficiency.</p><p>If a target you hit is <em>Vulnerable</em>, they take an extra <strong>1d8</strong> damage.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> para fazer um <strong>Teste de Conjuração</strong> e conjurar lâminas de arremesso que atingem todos os alvos dentro do alcance Muito Próximo. Os alvos contra os quais você tiver sucesso sofrem <strong>d8+2</strong> de dano mágico usando sua Proficiência.</p><p>Se um alvo que você atingir estiver <em>Vulnerável</em>, ele sofre <strong>1d8</strong> de dano extra.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "WTnjKQs2uI1TuF9r",
         "systemPath": "actions",
-        "description": "<p><strong>Spend a Hope</strong> to make a <strong>Spellcast Roll</strong> and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take <strong>d8+2</strong> magic damage using your Proficiency.</p>",
+        "description": "<p><strong>Gaste uma Esperança</strong> para fazer um <strong>Teste de Conjuração</strong> e conjurar lâminas de arremesso que atingem todos os alvos dentro do alcance Muito Próximo. Os alvos contra os quais você tiver sucesso sofrem <strong>d8+2</strong> de dano mágico usando sua Proficiência.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -84,12 +84,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/skills/melee/spear-tips-three-green.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Rain of Blades",
+            "name": "Chuva de Lâminas",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",

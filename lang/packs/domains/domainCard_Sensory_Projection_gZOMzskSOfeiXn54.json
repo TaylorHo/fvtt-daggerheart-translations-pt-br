@@ -1,10 +1,10 @@
 {
-  "name": "Sensory Projection",
+  "name": "Projeção Sensorial",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "fucNnucgoUjbzvcA",
   "system": {
-    "description": "<p>Once per rest, make a <strong>Spellcast Roll</strong><strong> (15)</strong>. On a success, drop into a vision that lets you clearly see and hear any place you have been before as though you are standing there in this moment. You can move freely in this vision and are not constrained by the physics or impediments of a physical body. This spell cannot be detected by mundane or magical means. You drop out of this vision upon taking damage or casting another spell.</p>",
+    "description": "<p>Uma vez por descanso, faça um <strong>Teste de Conjuração</strong><strong> (15)</strong>. Em caso de sucesso, mergulhe em uma visão que permite ver e ouvir claramente qualquer lugar onde você já esteve como se estivesse ali naquele momento. Você pode se mover livremente nessa visão e não é limitado pelas leis da física ou pelos impedimentos de um corpo físico. Esta magia não pode ser detectada por meios comuns ou mágicos. Você sai dessa visão ao sofrer dano ou lançar outra magia.</p>",
     "domain": "arcana",
     "recallCost": 0,
     "level": 9,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/control/debuff-energy-hold-pink.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Wall Walk",
+  "name": "Caminhar na Parede",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "o7kvw9NRGvDZSce2",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to allow a creature you can touch to climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> para permitir que uma criatura que você consiga tocar escale paredes e tetos tão facilmente quanto caminha no chão. Isso dura até o final da cena ou até você lançar Caminhar na Parede novamente.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 1,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Wall Walk",
+      "name": "Caminhar na Parede",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
       "transfer": false,
       "_id": "s1q4O65vtoEDvvUF",
@@ -93,7 +93,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Can climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>",
+      "description": "<p>Pode escalar paredes e tetos tão facilmente quanto caminha no chão. Isso dura até o final da cena ou até você lançar Caminhar na Parede novamente.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

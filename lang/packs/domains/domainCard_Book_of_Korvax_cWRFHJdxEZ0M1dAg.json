@@ -1,10 +1,10 @@
 {
-  "name": "Book of Korvax",
+  "name": "Livro de Korvax",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "7XeaYZPMB0SopAfo",
   "system": {
-    "description": "<p><em><strong>Levitation:</strong></em> Make a <strong>Spellcast Roll</strong> to temporarily lift a target you can see up into the air and move them within Close range of their original position.</p><p><em><strong>Recant:</strong></em> <strong>Spend a Hope</strong> to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.</p><p><em><strong>Rune Circle:</strong></em> <strong>Mark a Stress</strong> to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take <strong>2d12+4</strong> magic damage and are knocked back to Very Close range.</p>",
+    "description": "<p><em><strong>Levitação:</strong></em> Faça um <strong>Teste de Conjuração</strong> para erguer temporariamente no ar um alvo que você consiga ver e movê-lo dentro do alcance Próximo de sua posição original.</p><p><em><strong>Retratação:</strong></em> <strong>Gaste uma Esperança</strong> para forçar um alvo dentro do alcance Corpo a Corpo a fazer um Teste de Reação (15). Em caso de falha, ele esquece o último minuto da sua conversa.</p><p><em><strong>Círculo Rúnico:</strong></em> <strong>Marque um Fadiga</strong> para criar um círculo mágico temporário no chão onde você está. Todos os adversários dentro do alcance Corpo a Corpo, ou que entrem nele, sofrem <strong>2d12+4</strong> de dano mágico e são empurrados até o alcance Muito Próximo.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "fgBLkAtuv9okxUd4",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> to temporarily lift a target you can see up into the air and move them within Close range of their original position.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> para erguer temporariamente no ar um alvo que você consiga ver e movê-lo dentro do alcance Próximo de sua posição original.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Levitation",
+        "name": "Levitação",
         "img": "icons/magic/control/energy-stream-link-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "m4y7KXhjVNT30wUT",
         "systemPath": "actions",
-        "description": "<p><strong>Spend a Hope</strong> to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.</p>",
+        "description": "<p><strong>Gaste uma Esperança</strong> para forçar um alvo dentro do alcance Corpo a Corpo a fazer um Teste de Reação (15). Em caso de falha, ele esquece o último minuto da sua conversa.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -115,7 +115,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Recant",
+        "name": "Retratação",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "range": "melee",
         "baseAction": false,
@@ -129,7 +129,7 @@
         "type": "damage",
         "_id": "fb2HYD9J759nHKhV",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take <strong>2d12+4</strong> magic damage and are knocked back to Very Close range.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para criar um círculo mágico temporário no chão onde você está. Todos os adversários dentro do alcance Corpo a Corpo, ou que entrem nele, sofrem <strong>2d12+4</strong> de dano mágico e são empurrados até o alcance Muito Próximo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -179,12 +179,12 @@
           "amount": null
         },
         "effects": [],
-        "name": "Rune Circle",
+        "name": "Círculo Rúnico",
         "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
         "range": "",
         "areas": [
           {
-            "name": "Book of Korvax",
+            "name": "Livro de Korvax",
             "type": "placed",
             "shape": "emanation",
             "size": "melee",

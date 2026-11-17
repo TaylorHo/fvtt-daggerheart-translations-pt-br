@@ -1,10 +1,10 @@
 {
-  "name": "Battle-Hardened",
+  "name": "Calejado em Batalha",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "EiP5dLozOFZKIeWN",
   "system": {
-    "description": "<p>Once per long rest when you would make a Death Move, you can <strong>spend a Hope</strong> to clear a Hit Point instead.</p>",
+    "description": "<p>Uma vez por descanso longo, quando você fizesse um Movimento Mortal, pode <strong>gastar uma Esperança</strong> para limpar um Ponto de Vida em vez disso.</p>",
     "domain": "blade",
     "recallCost": 2,
     "level": 6,
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Spend a Hope",
+        "name": "Gastar uma Esperança",
         "img": "icons/magic/life/heart-cross-green.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Tempest",
+  "name": "Tempestade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "pPzU9WOQNv3ckO1w",
   "system": {
-    "description": "<p>Choose one of the following tempests and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Blizzard:</strong></em> Deal <strong>2d20+8</strong> magic damage and targets are temporarily <em>Vulnerable</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Hurricane: </strong></em>Deal <strong>3d10+10</strong> magic damage and choose a direction the wind is blowing. Targets can't move against the wind.</li><li class=\"vertical-card-list\"><p><em><strong>Sandstorm:</strong></em> Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee range have disadvantage.</p></li></ul>",
+    "description": "<p>Escolha uma das seguintes tempestades e faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem seus efeitos até o Mestre gastar um Medo em seu turno para encerrar esta magia.</p><ul><li class=\"vertical-card-list\"><p><em><strong>Nevasca:</strong></em> Cause <strong>2d20+8</strong> de dano mágico, e os alvos ficam temporariamente <em>Vulneráveis</em>.</p></li><li class=\"vertical-card-list\"><em><strong>Furacão: </strong></em>Cause <strong>3d10+10</strong> de dano mágico e escolha a direção em que o vento sopra. Os alvos não podem se mover contra o vento.</li><li class=\"vertical-card-list\"><p><em><strong>Tempestade de Areia:</strong></em> Cause <strong>5d6+9</strong> de dano mágico. Ataques feitos de além do alcance Corpo a Corpo têm desvantagem.</p></li></ul>",
     "domain": "sage",
     "recallCost": 2,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "ZqnziDBlh5Re7SKs",
         "systemPath": "actions",
-        "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Blizzard:</strong></em> Deal <strong>2d20+8</strong> magic damage and targets are temporarily <em>Vulnerable</em>.</p></li></ul>",
+        "description": "<p>Escolha a seguinte tempestade e faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem seus efeitos até o Mestre gastar um Medo em seu turno para encerrar esta magia.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Nevasca:</strong></em> Cause <strong>2d20+8</strong> de dano mágico, e os alvos ficam temporariamente <em>Vulneráveis</em>.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -80,12 +80,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Blizzard",
+        "name": "Nevasca",
         "img": "icons/magic/water/projectiles-ice-faceted-shard-salvo-blue.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Tempest",
+            "name": "Tempestade",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -103,7 +103,7 @@
         "type": "attack",
         "_id": "FEPhujGa5lvu5fXr",
         "systemPath": "actions",
-        "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><em><strong>Hurricane: </strong></em>Deal <strong>3d10+10</strong> magic damage and choose a direction the wind is blowing. Targets can't move against the wind.</li></ul>",
+        "description": "<p>Escolha a seguinte tempestade e faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem seus efeitos até o Mestre gastar um Medo em seu turno para encerrar esta magia.</p><ul class=\"\"><li class=\"vertical-card-list\"><em><strong>Furacão: </strong></em>Cause <strong>3d10+10</strong> de dano mágico e escolha a direção em que o vento sopra. Os alvos não podem se mover contra o vento.</li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -169,12 +169,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Hurricane",
+        "name": "Furacão",
         "img": "icons/magic/air/wind-tornado-cyclone-purple-blue.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Tempest",
+            "name": "Tempestade",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -192,7 +192,7 @@
         "type": "attack",
         "_id": "CzMlqo91kuTgg1As",
         "systemPath": "actions",
-        "description": "<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Sandstorm:</strong></em> Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee range have disadvantage.</p></li></ul>",
+        "description": "<p>Escolha a seguinte tempestade e faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem seus efeitos até o Mestre gastar um Medo em seu turno para encerrar esta magia.</p><ul class=\"\"><li class=\"vertical-card-list\"><p><em><strong>Tempestade de Areia:</strong></em> Cause <strong>5d6+9</strong> de dano mágico. Ataques feitos de além do alcance Corpo a Corpo têm desvantagem.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -258,12 +258,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Sandstorm",
+        "name": "Tempestade de Areia",
         "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Tempest",
+            "name": "Tempestade",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -295,7 +295,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Vulnerable",
+      "name": "Vulnerável",
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "transfer": false,
       "_id": "oqPY3I9oO9J6l5Aj",
@@ -341,7 +341,7 @@
       "_key": "!items.effects!X7YaZgFieBlqaPdZ.oqPY3I9oO9J6l5Aj"
     },
     {
-      "name": "Wind",
+      "name": "Vento",
       "img": "icons/magic/air/wind-tornado-cyclone-purple-blue.webp",
       "transfer": false,
       "_id": "tB7AyDy0pbE9q5hM",
@@ -363,7 +363,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Targets can't move against the wind.</p>",
+      "description": "<p>Os alvos não podem se mover contra o vento.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -377,7 +377,7 @@
       "_key": "!items.effects!X7YaZgFieBlqaPdZ.tB7AyDy0pbE9q5hM"
     },
     {
-      "name": "Sand",
+      "name": "Areia",
       "img": "icons/magic/air/air-wave-gust-smoke-yellow.webp",
       "transfer": false,
       "_id": "S4Vpgf3FMmq8MGrb",
@@ -399,7 +399,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Attacks made from beyond Melee range have disadvantage.</p>",
+      "description": "<p>Ataques feitos de além do alcance Corpo a Corpo têm desvantagem.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

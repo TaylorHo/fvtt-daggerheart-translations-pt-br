@@ -1,10 +1,10 @@
 {
-  "name": "Invisibility",
+  "name": "Invisibilidade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "GhLhMfmSgGqS9bwU",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (10)</strong>. On a success, <strong>mark a Stress</strong> and choose yourself or an ally within Melee range to become <em>Invisible</em>. An <em>Invisible</em> creature can't be seen except through magical means and attack rolls against them are made with disadvantage. Place a number of tokens on this card equal to your Spellcast trait. When the <em>Invisible</em> creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.</p><p>You can only hold Invisibility on one creature at a time.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (10)</strong>. Em caso de sucesso, <strong>marque um Fadiga</strong> e escolha você mesmo ou um aliado dentro do alcance Corpo a Corpo para ficar <em>Invisível</em>. Uma criatura <em>Invisível</em> não pode ser vista, exceto por meios mágicos, e testes de ataque contra ela são feitos com desvantagem. Coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração. Quando a criatura <em>Invisível</em> realiza uma ação, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, o efeito termina.</p><p>Você só pode manter Invisibilidade em uma criatura por vez.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 3,
@@ -87,7 +87,7 @@
           },
           "useDefault": false
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "melee",
         "img": "icons/magic/perception/silhouette-stealth-shadow.webp"
       }
@@ -118,10 +118,10 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Invisible",
+      "name": "Invisível",
       "disabled": false,
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-      "description": "<p>An <em>Invisible</em> creature can't be seen except through magical means and attack rolls against them are made with disadvantage. Place a number of tokens on this card equal to your Spellcast trait. When the <em>Invisible</em> creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.</p>",
+      "description": "<p>Uma criatura <em>Invisível</em> não pode ser vista, exceto por meios mágicos, e testes de ataque contra ela são feitos com desvantagem. Coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração. Quando a criatura <em>Invisível</em> realiza uma ação, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, o efeito termina.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,10 +1,10 @@
 {
-  "name": "Ground Pound",
+  "name": "Pancada no Chão",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "FUzQxkv4gFc46SIs",
   "system": {
-    "description": "<p><strong>Spend 2 Hope</strong> to strike the ground where you stand and make a <strong>Strength Roll</strong> against all targets within Very Close range. Targets you succeed against are thrown back to Far range and must make a Reaction Roll (17). Targets who fail take <strong>4d10+8</strong> damage. Targets who succeed take half damage.</p>",
+    "description": "<p><strong>Gaste 2 Esperança</strong> para golpear o chão onde você está e fazer um <strong>Teste de Força</strong> contra todos os alvos dentro do alcance Muito Próximo. Os alvos contra os quais você tiver sucesso são arremessados até o alcance Distante e devem fazer um Teste de Reação (17). Os alvos que falharem sofrem <strong>4d10+8</strong> de dano. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
     "domain": "valor",
     "recallCost": 2,
     "level": 8,
@@ -84,12 +84,12 @@
           "difficulty": 17,
           "damageMod": "half"
         },
-        "name": "Strike Ground",
+        "name": "Golpear o Chão",
         "img": "icons/magic/earth/barrier-stone-brown-green.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Ground Pound",
+            "name": "Pancada no Chão",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",

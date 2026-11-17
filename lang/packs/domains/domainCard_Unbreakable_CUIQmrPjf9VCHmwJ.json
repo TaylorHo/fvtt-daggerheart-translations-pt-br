@@ -1,10 +1,10 @@
 {
-  "name": "Unbreakable",
+  "name": "Inquebrável",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "D1MFCYakdFIKDmcD",
   "system": {
-    "description": "<p>When you mark your last Hit Point, instead of making a death move, you can roll a <strong>d6</strong> and clear a number of Hit Points equal to the result. Then place this card in your vault.</p>",
+    "description": "<p>Quando você marca seu último Ponto de Vida, em vez de fazer um movimento mortal, pode rolar um <strong>d6</strong> e limpar uma quantidade de Pontos de Vida igual ao resultado. Em seguida, coloque esta carta no seu cofre.</p>",
     "domain": "valor",
     "recallCost": 4,
     "level": 10,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Roll d6",
+        "name": "Rolar d6",
         "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
         "range": "",
         "baseAction": false,

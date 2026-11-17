@@ -1,10 +1,10 @@
 {
-  "name": "Full Surge",
+  "name": "Surto Total",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "FUzQxkv4gFc46SIs",
   "system": {
-    "description": "<p>Once per long rest, <strong>mark 3 Stress</strong> to push your body to its limits. Gain a +2 bonus to all of your character traits until your next rest.</p>",
+    "description": "<p>Uma vez por descanso longo, <strong>marque 3 Fadiga</strong> para levar seu corpo ao limite. Receba um bônus de +2 em todos os seus atributos de personagem até seu próximo descanso.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 8,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
         "range": "self",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Full Surge",
+      "name": "Surto Total",
       "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
       "transfer": false,
       "_id": "H5q5iYImr69TfZcp",
@@ -137,7 +137,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +2 bonus to all of your character traits until your next rest.</p>",
+      "description": "<p>Receba um bônus de +2 em todos os seus atributos de personagem até seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

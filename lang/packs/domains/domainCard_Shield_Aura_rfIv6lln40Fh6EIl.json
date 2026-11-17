@@ -1,10 +1,10 @@
 {
-  "name": "Shield Aura",
+  "name": "Aura de Escudo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "A00z8Q8B3aKApKzI",
   "system": {
-    "description": "<p><strong>Mark a </strong><strong>Stress</strong> to cast a protective aura on a target within Very Close range. When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p><p>You can only hold Shield Aura on one creature at a time.</p>",
+    "description": "<p><strong>Marque um </strong><strong>Fadiga</strong> para lançar uma aura protetora em um alvo dentro do alcance Muito Próximo. Quando o alvo marca um Espaço de Armadura, ele reduz a gravidade do ataque em um limiar adicional. Se esta magia fizer com que uma criatura que sofreria dano não marque nenhum Ponto de Vida, o efeito termina.</p><p>Você só pode manter Aura de Escudo em uma criatura por vez.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 8,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "vox5fIIFsOnraXgK",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to cast a protective aura on a target within Very Close range. When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p><p>You can only hold Shield Aura on one creature at a time.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para lançar uma aura protetora em um alvo dentro do alcance Muito Próximo. Quando o alvo marca um Espaço de Armadura, ele reduz a gravidade do ataque em um limiar adicional. Se esta magia fizer com que uma criatura que sofreria dano não marque nenhum Ponto de Vida, o efeito termina.</p><p>Você só pode manter Aura de Escudo em uma criatura por vez.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Cast Protective Aura",
+        "name": "Lançar Aura Protetora",
         "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Protective Aura",
+      "name": "Aura Protetora",
       "img": "icons/magic/defensive/shield-barrier-flaming-diamond-orange.webp",
       "transfer": false,
       "_id": "OQreUqdAfIt3V6uq",
@@ -101,7 +101,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p>",
+      "description": "<p>Quando o alvo marca um Espaço de Armadura, ele reduz a gravidade do ataque em um limiar adicional. Se esta magia fizer com que uma criatura que sofreria dano não marque nenhum Ponto de Vida, o efeito termina.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

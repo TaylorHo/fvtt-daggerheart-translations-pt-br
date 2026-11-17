@@ -1,10 +1,10 @@
 {
-  "name": "Uncanny Disguise",
+  "name": "Disfarce Sobrenatural",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "sCiN7DoysdKceIMd",
   "system": {
-    "description": "<p>When you have a few minutes to prepare, you can <strong>mark a Stress</strong> to don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p><p>Place a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>",
+    "description": "<p>Quando você tem alguns minutos para se preparar, pode <strong>marcar um Fadiga</strong> para assumir a fachada de qualquer humanoide que consiga visualizar claramente em sua mente. Enquanto disfarçado, você tem vantagem em Testes de Presença para evitar escrutínio.</p><p>Coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração. Quando você realiza uma ação enquanto disfarçado, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, o disfarce se desfaz.</p>",
     "domain": "midnight",
     "recallCost": 0,
     "level": 1,
@@ -87,7 +87,7 @@
           },
           "useDefault": false
         },
-        "name": "Don Facade",
+        "name": "Assumir Fachada",
         "range": "self",
         "img": "icons/magic/control/debuff-energy-hold-pink.webp"
       },
@@ -95,7 +95,7 @@
         "type": "effect",
         "_id": "OoNND7VcWoBQdtFK",
         "systemPath": "actions",
-        "description": "<p>Place a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>",
+        "description": "<p>Coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração. Quando você realiza uma ação enquanto disfarçado, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, o disfarce se desfaz.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -119,7 +119,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Token",
+        "name": "Gastar Ficha",
         "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
         "range": "",
         "baseAction": false,
@@ -156,7 +156,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Disguised",
+      "name": "Disfarçado",
       "img": "icons/magic/control/mouth-smile-deception-purple.webp",
       "transfer": false,
       "_id": "ZMDyDwI5RHe427O4",
@@ -186,7 +186,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p>",
+      "description": "<p>Assuma a fachada de qualquer humanoide que consiga visualizar claramente em sua mente. Enquanto disfarçado, você tem vantagem em Testes de Presença para evitar escrutínio.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -200,10 +200,10 @@
       "_key": "!items.effects!TV56wSysbU5xAlOa.ZMDyDwI5RHe427O4"
     },
     {
-      "name": "Disguised",
+      "name": "Disfarçado",
       "disabled": false,
       "img": "icons/commodities/treasure/mask-bone-white.webp",
-      "description": "<p>While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p><p>When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>",
+      "description": "<p>Enquanto disfarçado, você tem vantagem em Testes de Presença para evitar escrutínio.</p><p>Quando você realiza uma ação enquanto disfarçado, gaste uma ficha desta carta. Depois que a ação que gasta a última ficha for resolvida, o disfarce se desfaz.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

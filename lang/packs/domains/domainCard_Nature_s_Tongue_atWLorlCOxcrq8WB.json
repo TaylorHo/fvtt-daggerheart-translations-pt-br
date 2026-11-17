@@ -1,10 +1,10 @@
 {
-  "name": "Nature's Tongue",
+  "name": "Língua da Natureza",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "EJoXzO85rG5EiZsh",
   "system": {
-    "description": "<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they'll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p><p>Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>",
+    "description": "<p>Você pode falar a língua do mundo natural. Quando quiser conversar com as plantas e os animais ao seu redor, faça um <strong>Teste de Instinto (12)</strong>. Em caso de sucesso, eles lhe darão as informações que conhecem. Em um teste com Medo, o conhecimento deles pode ser limitado ou ter um custo.</p><p>Além disso, antes de fazer um Teste de Conjuração em um ambiente natural, você pode <strong>gastar uma Esperança</strong> para ganhar um bônus de +2 no teste.</p>",
     "domain": "sage",
     "recallCost": 0,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "qQEeyIGs0wKjW3a1",
         "systemPath": "actions",
-        "description": "<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they'll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p>",
+        "description": "<p>Você pode falar a língua do mundo natural. Quando quiser conversar com as plantas e os animais ao seu redor, faça um <strong>Teste de Instinto (12)</strong>. Em caso de sucesso, eles lhe darão as informações que conhecem. Em um teste com Medo, o conhecimento deles pode ser limitado ou ter um custo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Speak with Nature",
+        "name": "Falar com a Natureza",
         "img": "icons/creatures/birds/corvid-call-sound-blue.webp",
         "range": "",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "effect",
         "_id": "IIJC4HGdilVv3YMo",
         "systemPath": "actions",
-        "description": "<p>Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>",
+        "description": "<p>Além disso, antes de fazer um Teste de Conjuração em um ambiente natural, você pode <strong>gastar uma Esperança</strong> para ganhar um bônus de +2 no teste.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -96,7 +96,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Gain Bonus",
+        "name": "Ganhar Bônus",
         "img": "icons/magic/nature/beam-hand-leaves-green.webp",
         "range": "",
         "baseAction": false,
@@ -124,7 +124,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Bonus to Spellcast",
+      "name": "Bônus de Conjuração",
       "img": "icons/magic/nature/beam-hand-leaves-green.webp",
       "transfer": false,
       "_id": "0JYDk5CQ66bHGQO0",

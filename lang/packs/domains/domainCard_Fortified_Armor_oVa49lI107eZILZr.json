@@ -1,10 +1,10 @@
 {
-  "name": "Fortified Armor",
+  "name": "Armadura Fortificada",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "yalAnCU3SndrYImF",
   "system": {
-    "description": "<p>While you are wearing armor, gain a +2 bonus to your damage thresholds.</p>",
+    "description": "<p>Enquanto estiver usando armadura, receba um bônus de +2 nos seus limiares de dano.</p>",
     "domain": "blade",
     "recallCost": 0,
     "level": 4,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Fortified Armor",
+      "name": "Armadura Fortificada",
       "type": "base",
       "system": {
         "changes": [

@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Invoke Torment",
+  "name": "Invocar Tormento",
   "folder": "zZSPtyWjYqruXtbs",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>You deal double damage to targets that have all their Stress marked.</p><p>Additionally, when an adversary within Close range is defeated with all its Stress marked, you gain a Hope.</p>",
+    "description": "<p>Você causa dano dobrado a alvos que tenham todo o seu Fadiga marcado.</p><p>Além disso, quando um adversário dentro do alcance Próximo é derrotado com todo o seu Fadiga marcado, você ganha uma Esperança.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -18,7 +18,7 @@
         "_id": "3fABewYlBBP80OiK",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>When an adversary within Close range is defeated with all its Stress marked, you gain a Hope.</p>",
+        "description": "<p>Quando um adversário dentro do alcance Próximo é derrotado com todo o seu Fadiga marcado, você ganha uma Esperança.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -76,7 +76,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "range": "close",
         "img": "icons/magic/unholy/hand-light-green.webp"
       }
@@ -92,7 +92,7 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Invoke Torment",
+      "name": "Invocar Tormento",
       "type": "base",
       "system": {
         "changes": [
@@ -130,7 +130,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You deal double damage to targets that have all their Stress marked.</p>",
+      "description": "<p>Você causa dano dobrado a alvos que tenham todo o seu Fadiga marcado.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

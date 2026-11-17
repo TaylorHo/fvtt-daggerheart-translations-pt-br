@@ -1,10 +1,10 @@
 {
-  "name": "Rejuvenation Barrier",
+  "name": "Barreira de Rejuvenescimento",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "qY4Zqc1Ch6p317uK",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. Once per rest on a success, create a temporary barrier of protective energy around you at Very Close range. You and all allies within the barrier when this spell is cast clear <strong>1d4</strong> Hit Points. While the barrier is up, you and all allies within have resistance to physical damage from outside the barrier.</p><p>When you move, the barrier follows you.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Uma vez por descanso, em caso de sucesso, crie uma barreira temporária de energia protetora ao seu redor, com alcance Muito Próximo. Você e todos os aliados dentro da barreira quando esta magia é lançada limpam <strong>1d4</strong> Pontos de Vida. Enquanto a barreira estiver ativa, você e todos os aliados dentro dela têm resistência a dano físico vindo de fora da barreira.</p><p>Quando você se move, a barreira acompanha você.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 8,
@@ -72,12 +72,12 @@
           },
           "useDefault": false
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/nature/leaf-hand-green.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Rejuvenation Barrier",
+            "name": "Barreira de Rejuvenescimento",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -109,7 +109,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Rejuvenation Barrier",
+      "name": "Barreira de Rejuvenescimento",
       "img": "icons/magic/nature/leaf-elm-sparkle-glow-green.webp",
       "transfer": false,
       "_id": "obul9k0P4CjFuxJD",
@@ -139,7 +139,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While the barrier is up, the caster and all allies within have resistance to physical damage from outside the barrier. When the caster moves, the barrier follows them.</p>",
+      "description": "<p>Enquanto a barreira estiver ativa, o conjurador e todos os aliados dentro dela têm resistência a dano físico vindo de fora da barreira. Quando o conjurador se move, a barreira o acompanha.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

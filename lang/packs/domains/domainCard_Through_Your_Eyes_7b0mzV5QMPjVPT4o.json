@@ -1,10 +1,10 @@
 {
-  "name": "Through Your Eyes",
+  "name": "Através dos Seus Olhos",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "thP6nUk0nkrNcpXY",
   "system": {
-    "description": "<p>Choose a target within Very Far range. You can see through their eyes and hear through their ears. You can transition between using your own senses or the target's freely until you cast another spell or until your next rest.</p>",
+    "description": "<p>Escolha um alvo dentro do alcance Muito Distante. Você pode ver através dos olhos dele e ouvir através dos ouvidos dele. Você pode alternar livremente entre usar seus próprios sentidos ou os do alvo até lançar outra magia ou até seu próximo descanso.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 4,
@@ -34,7 +34,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/perception/eye-slit-pink.webp",
         "range": "veryFar",
         "baseAction": false,
@@ -62,7 +62,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Seeing, Hearing",
+      "name": "Vendo, Ouvindo",
       "img": "icons/magic/perception/eye-slit-pink.webp",
       "transfer": false,
       "_id": "TCOHV7tWpunCZDxn",
@@ -85,7 +85,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Can see through their eyes and hear through their ears.</p>",
+      "description": "<p>Pode ver através dos olhos dele e ouvir através dos ouvidos dele.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

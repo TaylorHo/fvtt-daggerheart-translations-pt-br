@@ -1,10 +1,10 @@
 {
-  "name": "Recovery",
+  "name": "Recuperação",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "pYEavNqteiQepvvD",
   "system": {
-    "description": "<p>During a short rest, you can choose a long rest downtime move instead. You can <strong>spend a Hope</strong> to let an ally do the same.</p>",
+    "description": "<p>Durante um descanso curto, você pode escolher uma ação de intervalo de descanso longo em vez disso. Você pode <strong>gastar uma Esperança</strong> para permitir que um aliado faça o mesmo.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 6,
@@ -34,7 +34,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/life/cross-beam-green.webp",
         "range": "",
         "baseAction": false,
@@ -62,7 +62,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Recovery (Ally)",
+      "name": "Recuperação (Aliado)",
       "img": "icons/magic/life/cross-beam-green.webp",
       "transfer": false,
       "_id": "smTjINqIldErFD3q",
@@ -99,7 +99,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>During this short rest, you can choose a long rest downtime move instead.</p>",
+      "description": "<p>Durante este descanso curto, você pode escolher uma ação de intervalo de descanso longo em vez disso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -113,7 +113,7 @@
       "_key": "!items.effects!gsiQFT6q3WOgqerJ.smTjINqIldErFD3q"
     },
     {
-      "name": "Recovery",
+      "name": "Recuperação",
       "type": "base",
       "system": {
         "changes": [
@@ -149,7 +149,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>During a short rest, you can choose a long rest downtime move instead.</p>",
+      "description": "<p>Durante um descanso curto, você pode escolher uma ação de intervalo de descanso longo em vez disso.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

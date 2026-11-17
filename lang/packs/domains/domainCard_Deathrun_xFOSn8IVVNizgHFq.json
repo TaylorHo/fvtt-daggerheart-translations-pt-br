@@ -1,10 +1,10 @@
 {
-  "name": "Deathrun",
+  "name": "Corrida da Morte",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "Hs6POmXKThDXQJBn",
   "system": {
-    "description": "<p><strong>Spend 3 Hope</strong> to run a straight path through the battlefield to a point within Far range, making an attack against all adversaries within your weapon's range along that path. Choose the order in which you deal damage to the targets you succeeded against. For the first, roll your weapon damage with a +1 bonus to your Proficiency. Then remove a die from your damage roll and deal the remaining damage to the next target. Continue to remove a die for each subsequent target until you have no more damage dice or adversaries.</p><p>You can't target the same adversary more than once per attack.</p>",
+    "description": "<p><strong>Gaste 3 Esperança</strong> para correr em linha reta pelo campo de batalha até um ponto dentro do alcance Distante, fazendo um ataque contra todos os adversários dentro do alcance da sua arma ao longo desse caminho. Escolha a ordem em que causa dano aos alvos contra os quais teve sucesso. Para o primeiro, role o dano da sua arma com um bônus de +1 em sua Proficiência. Depois remova um dado da sua rolagem de dano e cause o dano restante ao próximo alvo. Continue removendo um dado para cada alvo seguinte até não restarem mais dados de dano ou adversários.</p><p>Você não pode atingir o mesmo adversário mais de uma vez por ataque.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 10,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/movement/trail-streak-zigzag-yellow.webp",
         "range": "far",
         "baseAction": false,

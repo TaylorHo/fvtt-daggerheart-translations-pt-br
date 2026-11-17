@@ -1,10 +1,10 @@
 {
-  "name": "Reassurance",
+  "name": "Tranquilização",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "LlWJaBZOKh0Ot2kD",
   "system": {
-    "description": "<p>Once per rest, after an ally attempts an action roll but before the consequences take place, you can offer assistance or words of support. When you do, your ally can reroll their dice.</p>",
+    "description": "<p>Uma vez por descanso, depois que um aliado tentar um teste de ação, mas antes de as consequências ocorrerem, você pode oferecer ajuda ou palavras de apoio. Quando fizer isso, seu aliado pode rolar novamente seus dados.</p>",
     "domain": "splendor",
     "recallCost": 0,
     "level": 1,
@@ -29,7 +29,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Reassure",
+        "name": "Tranquilizar",
         "img": "icons/sundries/gaming/dice-pair-white-green.webp",
         "range": "",
         "baseAction": false,

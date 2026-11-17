@@ -1,10 +1,10 @@
 {
-  "name": "Endless Charisma",
+  "name": "Carisma Infinito",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "W81LnTWzwmoaycTl",
   "system": {
-    "description": "<p>After you make an action roll to persuade, lie, or garner favor, you can <strong>spend a Hope</strong> to reroll the Hope or Fear Die.</p>",
+    "description": "<p>Depois de fazer um teste de ação para persuadir, mentir ou conquistar favores, você pode <strong>gastar uma Esperança</strong> para rolar novamente o Dado de Esperança ou o Dado de Medo.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 7,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope to Reroll",
+        "name": "Gastar Esperança para Rolar de Novo",
         "img": "icons/sundries/gaming/dice-runed-tan.webp",
         "range": "",
         "baseAction": false,

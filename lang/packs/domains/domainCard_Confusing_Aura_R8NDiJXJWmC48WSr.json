@@ -1,10 +1,10 @@
 {
-  "name": "Confusing Aura",
+  "name": "Aura Confusa",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "KmaX6wNBLzkFevaG",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are. <strong>Mark any number of Stress</strong> to make that many additional layers. When an adversary makes an attack against you, roll a number of <strong>d6s</strong> equal to the number of layers currently active. If any roll a 5 or higher, one layer of the aura is destroyed and the attack fails. If all the results are 4 or lower, you take the damage and this spell ends.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, você cria uma camada de ilusão sobre seu corpo que torna difícil dizer exatamente onde você está. <strong>Marque qualquer quantidade de Fadiga</strong> para criar essa mesma quantidade de camadas adicionais. Quando um adversário faz um ataque contra você, role uma quantidade de <strong>d6</strong> igual ao número de camadas atualmente ativas. Se algum tirar 5 ou mais, uma camada da aura é destruída e o ataque falha. Se todos os resultados forem 4 ou menos, você sofre o dano e esta magia termina.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 8,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "L2hCs7xXO6sD4tUa",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, você cria uma camada de ilusão sobre seu corpo que torna difícil dizer exatamente onde você está.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Create First Layer",
+        "name": "Criar Primeira Camada",
         "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
         "range": "",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "oB5tyd2a7bmcJJmm",
         "systemPath": "actions",
-        "description": "<p>Mark any number of Stress to make that many additional layers.</p>",
+        "description": "<p>Marque qualquer quantidade de Fadiga para criar essa mesma quantidade de camadas adicionais.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -115,7 +115,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Create Extra Layers",
+        "name": "Criar Camadas Extras",
         "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Voice of Reason",
+  "name": "Voz da Razão",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "8ZfL09F8MiOEUzzw",
   "system": {
-    "description": "<p>You speak with an unmatched power and authority. You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.</p><p>Additionally, you're emboldened in moments of duress. When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
+    "description": "<p>Você fala com um poder e uma autoridade incomparáveis. Você tem vantagem em testes de ação para apaziguar situações violentas ou convencer alguém a seguir sua liderança.</p><p>Além disso, você se enche de ousadia em momentos de aflição. Quando todos os seus espaços de Fadiga estiverem marcados, você ganha um bônus de +1 em sua Proficiência nas rolagens de dano.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 3,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Advantage",
+      "name": "Vantagem",
       "type": "base",
       "system": {
         "changes": [
@@ -63,7 +63,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.</p>",
+      "description": "<p>Você tem vantagem em testes de ação para apaziguar situações violentas ou convencer alguém a seguir sua liderança.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -78,7 +78,7 @@
       "_key": "!items.effects!t3RRGH6mMYYJJCcF.qWDojebJXMPIP629"
     },
     {
-      "name": "Emboldened (activate manually)",
+      "name": "Encorajado (ativar manualmente)",
       "type": "base",
       "system": {
         "changes": [
@@ -107,7 +107,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>",
+      "description": "<p>Quando todos os seus espaços de Fadiga estiverem marcados, você ganha um bônus de +1 em sua Proficiência nas rolagens de dano.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

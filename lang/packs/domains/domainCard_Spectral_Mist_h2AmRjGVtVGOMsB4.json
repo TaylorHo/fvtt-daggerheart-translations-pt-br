@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Spectral Mist",
+  "name": "Névoa Espectral",
   "folder": "ZjU7pw0DklPo9XZH",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p><strong>Spend 2 Hope</strong> to conjure an eerie mist that turns you and allies of your choice within Close range momentarily incorporeal. While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.</p>",
+    "description": "<p><strong>Gaste 2 Esperança</strong> para conjurar uma névoa sinistra que torna você e aliados de sua escolha dentro do alcance Próximo momentaneamente incorpóreos. Enquanto uma criatura estiver incorpórea, ela pode atravessar objetos sólidos e é imune a dano físico. Ela volta a ser corpórea depois de atravessar um objeto sólido ou fazer um teste de ação. Caso contrário, este efeito dura até o final da cena.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": "close",
         "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp"
       }
@@ -68,10 +68,10 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Spectral",
+      "name": "Espectral",
       "disabled": false,
       "img": "icons/magic/air/fog-gas-smoke-purple-blue.webp",
-      "description": "<p>While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.</p>",
+      "description": "<p>Enquanto uma criatura estiver incorpórea, ela pode atravessar objetos sólidos e é imune a dano físico. Ela volta a ser corpórea depois de atravessar um objeto sólido ou fazer um teste de ação. Caso contrário, este efeito dura até o final da cena.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

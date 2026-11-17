@@ -1,10 +1,10 @@
 {
-  "name": "Corrosive Projectile",
+  "name": "Projétil Corrosivo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "uXGugK72AffddFdH",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, deal <strong>d6+4</strong> magic damage using your Proficiency. Additionally, <strong>mark 2 or more Stress</strong> to make them permanently <em>Corroded</em>. While a target is <em>Corroded</em>, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, cause <strong>d6+4</strong> de dano mágico usando sua Proficiência. Além disso, <strong>marque 2 ou mais Fadiga</strong> para torná-lo permanentemente <em>Corroído</em>. Enquanto um alvo estiver <em>Corroído</em>, ele recebe uma penalidade de -1 em sua Dificuldade a cada 2 Fadiga que você gastou. Essa condição pode se acumular.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "WqHLiHxP2enmJaHx",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, deal <strong>d6+4</strong> magic damage using your Proficiency.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, cause <strong>d6+4</strong> de dano mágico usando sua Proficiência.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -73,7 +73,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/acid/projectile-smoke-glowing.webp",
         "range": "far",
         "baseAction": false,
@@ -87,7 +87,7 @@
         "type": "effect",
         "_id": "maf0whws7wgRnFsH",
         "systemPath": "actions",
-        "description": "<p>Additionally, <strong>mark 2 or more Stress</strong> to make them permanently <em>Corroded</em>. While a target is <em>Corroded</em>, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>",
+        "description": "<p>Além disso, <strong>marque 2 ou mais Fadiga</strong> para torná-lo permanentemente <em>Corroído</em>. Enquanto um alvo estiver <em>Corroído</em>, ele recebe uma penalidade de -1 em sua Dificuldade a cada 2 Fadiga que você gastou. Essa condição pode se acumular.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -116,7 +116,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Corrode",
+        "name": "Corroer",
         "img": "icons/magic/acid/dissolve-bone-white.webp",
         "range": "",
         "baseAction": false,
@@ -144,7 +144,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Corroded",
+      "name": "Corroído",
       "img": "icons/magic/acid/dissolve-bone-white.webp",
       "transfer": false,
       "_id": "zB95bjSSdVlApQnR",
@@ -178,7 +178,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While a target is Corroded, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>",
+      "description": "<p>Enquanto um alvo estiver Corroído, ele recebe uma penalidade de -1 em sua Dificuldade a cada 2 Fadiga que você gastou. Essa condição pode se acumular.</p>",
       "tint": "#ffffff",
       "statuses": [
         "corrode"

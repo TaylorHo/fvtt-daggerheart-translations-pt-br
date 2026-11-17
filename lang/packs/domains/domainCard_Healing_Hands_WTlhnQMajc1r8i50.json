@@ -1,10 +1,10 @@
 {
-  "name": "Healing Hands",
+  "name": "Mãos Curativas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "2yh8wuYprOyswf0r",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range. On a success, <strong>mark a Stress</strong> to clear 2 Hit Points or 2 Stress on the target. On a failure, <strong>mark a Stress</strong> to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong> e escolha uma criatura que não seja você dentro do alcance Corpo a Corpo. Em caso de sucesso, <strong>marque um Fadiga</strong> para limpar 2 Pontos de Vida ou 2 Fadiga do alvo. Em caso de falha, <strong>marque um Fadiga</strong> para limpar um Ponto de Vida ou um Fadiga do alvo. Você não pode curar o mesmo alvo novamente até seu próximo descanso longo.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "PjXt807MYg1JbAfO",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong> e escolha uma criatura que não seja você dentro do alcance Corpo a Corpo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/life/heart-hand-gold-green-light.webp",
         "range": "melee",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "healing",
         "_id": "vmWku5XYmakLdwX2",
         "systemPath": "actions",
-        "description": "<p>On a failure, mark a Stress to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>",
+        "description": "<p>Em caso de falha, marque um Fadiga para limpar um Ponto de Vida ou um Fadiga do alvo. Você não pode curar o mesmo alvo novamente até seu próximo descanso longo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -134,7 +134,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal One Hit Point",
+        "name": "Curar Um Ponto de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "melee",
         "baseAction": false,
@@ -148,7 +148,7 @@
         "type": "healing",
         "_id": "FYHLuVtFCR9A6Nvt",
         "systemPath": "actions",
-        "description": "<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target. You can't heal the same target again until your next long rest.</p>",
+        "description": "<p>Em caso de sucesso, marque um Fadiga para limpar 2 Pontos de Vida ou 2 Fadiga do alvo. Você não pode curar o mesmo alvo novamente até seu próximo descanso longo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -210,7 +210,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Two Hit Points",
+        "name": "Curar Dois Pontos de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "melee",
         "baseAction": false,
@@ -224,7 +224,7 @@
         "type": "healing",
         "_id": "8ElTYMjIM7YI6Kb8",
         "systemPath": "actions",
-        "description": "<p>On a failure, mark a Stress to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>",
+        "description": "<p>Em caso de falha, marque um Fadiga para limpar um Ponto de Vida ou um Fadiga do alvo. Você não pode curar o mesmo alvo novamente até seu próximo descanso longo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -286,7 +286,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal One Stress",
+        "name": "Curar Um Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -300,7 +300,7 @@
         "type": "healing",
         "_id": "lQMhidLodJn9Nj7e",
         "systemPath": "actions",
-        "description": "<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target.  You can't heal the same target again until your next long rest.</p>",
+        "description": "<p>Em caso de sucesso, marque um Fadiga para limpar 2 Pontos de Vida ou 2 Fadiga do alvo.  Você não pode curar o mesmo alvo novamente até seu próximo descanso longo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -362,7 +362,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Two Stress",
+        "name": "Curar Dois Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "melee",
         "baseAction": false,
@@ -390,7 +390,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Healed by Healing Hands",
+      "name": "Curado por Mãos Curativas",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
       "transfer": false,
       "_id": "sd5liP4ZcVeTMAoW",
@@ -412,7 +412,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Can't be healed again with Healing Hands by the caster of the Healing Hands until a long rest.</p>",
+      "description": "<p>Não pode ser curado novamente com Mãos Curativas pelo conjurador das Mãos Curativas até um descanso longo.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

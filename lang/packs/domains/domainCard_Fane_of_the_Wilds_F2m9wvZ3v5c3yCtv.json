@@ -1,10 +1,10 @@
 {
-  "name": "Fane of the Wilds",
+  "name": "Santuário dos Ermos",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "R5afi5bhq9ccnYY2",
   "system": {
-    "description": "<p>After a long rest, place a number of tokens equal to the number of Sage domain cards in your loadout and vault on this card.</p><p>When you would make a Spellcast Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.</p><p>When you critically succeed on a Spellcast Roll for a Sage domain spell, gain a token.</p><p>When you take a long rest, clear all unspent tokens.</p>",
+    "description": "<p>Depois de um descanso longo, coloque nesta carta uma quantidade de fichas igual ao número de cartas de domínio Sabedoria no seu carregamento e cofre.</p><p>Quando você fizesse um Teste de Conjuração, pode gastar qualquer quantidade de fichas após a rolagem para ganhar um bônus de +1 por ficha gasta.</p><p>Quando você obtém sucesso crítico em um Teste de Conjuração para uma magia do domínio Sabedoria, ganhe uma ficha.</p><p>Quando você faz um descanso longo, limpe todas as fichas não gastas.</p>",
     "domain": "sage",
     "recallCost": 2,
     "level": 9,

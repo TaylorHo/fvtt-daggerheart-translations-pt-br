@@ -1,10 +1,10 @@
 {
-  "name": "Cruel Precision",
+  "name": "Precisão Cruel",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "i5iDLXMZLc0ckWI5",
   "system": {
-    "description": "<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>",
+    "description": "<p>Quando você faz um ataque bem-sucedido com uma arma, receba um bônus na sua rolagem de dano igual à sua Acuidade ou à sua Agilidade.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 7,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Cruel Precision (Agi)",
+      "name": "Precisão Cruel (Agi)",
       "type": "base",
       "system": {
         "changes": [
@@ -61,7 +61,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>",
+      "description": "<p>Quando você faz um ataque bem-sucedido com uma arma, receba um bônus na sua rolagem de dano igual à sua Acuidade ou à sua Agilidade.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -76,7 +76,7 @@
       "_key": "!items.effects!bap1eCWryPNowbyo.t5D10AL2W9LMGsX4"
     },
     {
-      "name": "Cruel Precision (Fin)",
+      "name": "Precisão Cruel (Acu)",
       "type": "base",
       "system": {
         "changes": [
@@ -110,7 +110,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>",
+      "description": "<p>Quando você faz um ataque bem-sucedido com uma arma, receba um bônus na sua rolagem de dano igual à sua Acuidade ou à sua Agilidade.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

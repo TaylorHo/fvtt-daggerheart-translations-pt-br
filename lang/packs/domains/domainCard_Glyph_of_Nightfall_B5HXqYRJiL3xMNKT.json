@@ -1,10 +1,10 @@
 {
-  "name": "Glyph of Nightfall",
+  "name": "Glifo do Anoitecer",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "WTdOLLkQyPdg0KWU",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, <strong>spend a Hope</strong> to conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target's Difficulty by a value equal to your Knowledge (minimum 1).</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, <strong>gaste uma Esperança</strong> para conjurar um glifo sombrio em seu corpo que expõe seus pontos fracos, reduzindo temporariamente a Dificuldade do alvo em um valor igual ao seu Conhecimento (mínimo 1).</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 4,
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/symbols/runes-triangle-blue.webp",
         "range": "veryClose",
         "baseAction": false,
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Glyph of Nightfall",
+      "name": "Glifo do Anoitecer",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
       "transfer": false,
       "_id": "9avDhppIdTqAR56f",
@@ -134,7 +134,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target's Difficulty by a value equal to your Knowledge (minimum 1).</p>",
+      "description": "<p>Conjure um glifo sombrio em seu corpo que expõe seus pontos fracos, reduzindo temporariamente a Dificuldade do alvo em um valor igual ao seu Conhecimento (mínimo 1).</p>",
       "tint": "#ffffff",
       "statuses": [],
       "showIcon": 1,

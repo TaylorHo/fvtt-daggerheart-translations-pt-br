@@ -1,10 +1,10 @@
 {
-  "name": "Never Upstaged",
+  "name": "Nunca Ofuscado",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "VgADdqYn9nS9G1Us",
   "system": {
-    "description": "<p>When you mark 1 or more Hit Points from an attack, you can <strong>mark a Stress</strong> to place a number of tokens equal to the number of Hit Points you marked on this card. On your next successful attack, gain a +5 bonus to your damage roll for each token on this card, then clear all tokens.</p>",
+    "description": "<p>Quando você marca 1 ou mais Pontos de Vida de um ataque, pode <strong>marcar um Fadiga</strong> para colocar nesta carta uma quantidade de fichas igual ao número de Pontos de Vida que você marcou. No seu próximo ataque bem-sucedido, receba um bônus de +5 na sua rolagem de dano para cada ficha nesta carta e depois limpe todas as fichas.</p>",
     "domain": "grace",
     "recallCost": 2,
     "level": 6,
@@ -61,7 +61,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress (1 token)",
+        "name": "Marcar Fadiga (1 ficha)",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -112,7 +112,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress (2 tokens)",
+        "name": "Marcar Fadiga (2 fichas)",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -163,7 +163,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress (3 tokens)",
+        "name": "Marcar Fadiga (3 fichas)",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -214,7 +214,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress (4 tokens)",
+        "name": "Marcar Fadiga (4 fichas)",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -241,7 +241,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Never Upstaged (1 token)",
+      "name": "Nunca Ofuscado (1 ficha)",
       "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
       "transfer": false,
       "_id": "C6e1T2oEx6PFoRUP",
@@ -271,7 +271,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +5 bonus to your damage roll</p>",
+      "description": "<p>Receba um bônus de +5 na sua rolagem de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -285,7 +285,7 @@
       "_key": "!items.effects!McdncxmO9K1YNP7Y.C6e1T2oEx6PFoRUP"
     },
     {
-      "name": "Never Upstaged (2 tokens)",
+      "name": "Nunca Ofuscado (2 fichas)",
       "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
       "transfer": false,
       "_id": "bMMxsBungVYB1rI8",
@@ -315,7 +315,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +10 bonus to your damage roll</p>",
+      "description": "<p>Receba um bônus de +10 na sua rolagem de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -329,7 +329,7 @@
       "_key": "!items.effects!McdncxmO9K1YNP7Y.bMMxsBungVYB1rI8"
     },
     {
-      "name": "Never Upstaged (3 tokens)",
+      "name": "Nunca Ofuscado (3 fichas)",
       "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
       "transfer": false,
       "_id": "tsQRbrurzi8iqs0o",
@@ -359,7 +359,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +15 bonus to your damage roll</p>",
+      "description": "<p>Receba um bônus de +15 na sua rolagem de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -373,7 +373,7 @@
       "_key": "!items.effects!McdncxmO9K1YNP7Y.tsQRbrurzi8iqs0o"
     },
     {
-      "name": "Never Upstaged (4 tokens)",
+      "name": "Nunca Ofuscado (4 fichas)",
       "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
       "transfer": false,
       "_id": "3eTaSgHlmNDcymnW",
@@ -403,7 +403,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Gain a +20 bonus to your damage roll</p>",
+      "description": "<p>Receba um bônus de +20 na sua rolagem de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

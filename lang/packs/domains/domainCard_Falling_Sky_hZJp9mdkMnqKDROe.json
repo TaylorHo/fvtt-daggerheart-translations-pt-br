@@ -1,10 +1,10 @@
 {
-  "name": "Falling Sky",
+  "name": "Céu Desabando",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "7Cs44YADBTmmtCw6",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against all adversaries within Far range. <strong>Mark any number of Stress</strong> to make shards of arcana rain down from above. Targets you succeed against take <strong>1d20+2</strong> magic damage for each Stress marked.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra todos os adversários dentro do alcance Distante. <strong>Marque qualquer quantidade de Fadiga</strong> para fazer fragmentos de arcana chover do alto. Os alvos contra os quais você tiver sucesso sofrem <strong>1d20+2</strong> de dano mágico por cada Fadiga marcado.</p>",
     "domain": "arcana",
     "recallCost": 1,
     "level": 10,
@@ -82,12 +82,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Attack",
+        "name": "Ataque",
         "img": "icons/magic/light/projectiles-star-purple.webp",
         "range": "",
         "areas": [
           {
-            "name": "Falling Sky",
+            "name": "Céu Desabando",
             "type": "placed",
             "shape": "emanation",
             "size": "far",

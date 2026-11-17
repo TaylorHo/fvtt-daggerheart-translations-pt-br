@@ -1,10 +1,10 @@
 {
-  "name": "Vicious Entangle",
+  "name": "Emaranhado Cruel",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "EJoXzO85rG5EiZsh",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, roots and vines reach out from the ground, dealing <strong>1d8+1</strong> physical damage and temporarily <em>Restraining</em> the target.</p><p>Additionally on a success, you can <strong>spend a Hope</strong> to temporarily <em>Restrain</em> another adversary within Very Close range of your target.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, raízes e trepadeiras surgem do chão, causando <strong>1d8+1</strong> de dano físico e <em>Restringindo</em> temporariamente o alvo.</p><p>Além disso, em caso de sucesso, você pode <strong>gastar uma Esperança</strong> para <em>Restringir</em> temporariamente outro adversário dentro do alcance Muito Próximo do seu alvo.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "lrA95PnD2vOwwmgN",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, roots and vines reach out from the ground, dealing <strong>1d8+1</strong> physical damage and temporarily <em>Restraining</em> the target.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, raízes e trepadeiras surgem do chão, causando <strong>1d8+1</strong> de dano físico e <em>Restringindo</em> temporariamente o alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -80,7 +80,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/nature/vines-thorned-curled-glow-teal.webp",
         "range": "",
         "baseAction": false,
@@ -94,7 +94,7 @@
         "type": "effect",
         "_id": "vh1IKRvsU4w57lBt",
         "systemPath": "actions",
-        "description": "<p>Additionally on a success, you can <strong>spend a Hope</strong> to temporarily <em>Restrain</em> another adversary within Very Close range of your target.</p>",
+        "description": "<p>Além disso, em caso de sucesso, você pode <strong>gastar uma Esperança</strong> para <em>Restringir</em> temporariamente outro adversário dentro do alcance Muito Próximo do seu alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -123,7 +123,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Restrain Another",
+        "name": "Restringir Outro",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -151,7 +151,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "Xh0wrgRUuYpwChBU",
@@ -197,7 +197,7 @@
       "_key": "!items.effects!qvpvTnkAoRn9vYO4.Xh0wrgRUuYpwChBU"
     },
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "2xzOqTaPJQzGqFJv",

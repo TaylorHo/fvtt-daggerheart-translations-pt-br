@@ -1,10 +1,10 @@
 {
-  "name": "Bold Presence",
+  "name": "Presença Ousada",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "pk4xXE8D3vTawrqj",
   "system": {
-    "description": "<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p><p>Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>",
+    "description": "<p>Quando você faz um Teste de Presença, pode <strong>gastar uma Esperança</strong> para somar sua Força ao teste.</p><p>Além disso, uma vez por descanso, quando você fosse receber uma condição, pode descrever como sua presença ousada ajuda você na situação e evitar receber a condição.</p>",
     "domain": "valor",
     "recallCost": 0,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "GYXo5c2OYS3v1UBA",
         "systemPath": "actions",
-        "description": "<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p>",
+        "description": "<p>Quando você faz um Teste de Presença, pode <strong>gastar uma Esperança</strong> para somar sua Força ao teste.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
         "range": "self",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "effect",
         "_id": "OdRTXMOXhZFiZHES",
         "systemPath": "actions",
-        "description": "<p>Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>",
+        "description": "<p>Além disso, uma vez por descanso, quando você fosse receber uma condição, pode descrever como sua presença ousada ajuda você na situação e evitar receber a condição.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -72,7 +72,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Avoid Condition",
+        "name": "Evitar Condição",
         "img": "icons/skills/wounds/blood-cells-disease-green.webp",
         "range": "",
         "baseAction": false,
@@ -100,7 +100,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Bold Presence",
+      "name": "Presença Ousada",
       "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
       "transfer": false,
       "_id": "2XEYhuAcRGTtqvED",
@@ -139,7 +139,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Add your Strength to the presence roll.</p>",
+      "description": "<p>Some sua Força ao teste de Presença.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

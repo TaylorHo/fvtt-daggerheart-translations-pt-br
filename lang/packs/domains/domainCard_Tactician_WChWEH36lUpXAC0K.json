@@ -1,10 +1,10 @@
 {
-  "name": "Tactician",
+  "name": "Estrategista",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "eR7sP5jQwfCLORUe",
   "system": {
-    "description": "<p>When you Help an Ally, they can spend a Hope to add one of your Experiences to their roll alongside your advantage die.</p><p>When making a Tag Team Roll, you can roll a <strong>d20</strong> as your Hope Die.</p>",
+    "description": "<p>Quando você Ajuda um Aliado, ele pode gastar uma Esperança para adicionar uma das suas Experiências à sua rolagem, junto com seu dado de vantagem.</p><p>Ao fazer um Teste em Equipe, você pode rolar um <strong>d20</strong> como seu Dado de Esperança.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 3,

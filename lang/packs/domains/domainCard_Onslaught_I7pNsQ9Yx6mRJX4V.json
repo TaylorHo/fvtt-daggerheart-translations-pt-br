@@ -1,10 +1,10 @@
 {
-  "name": "Onslaught",
+  "name": "Investida Impetuosa",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "7pKKYgRQAKlQAksV",
   "system": {
-    "description": "<p>When you successfully make an attack with your weapon, you never deal damage beneath a target's Major damage threshold (the target always marks a minimum of 2 Hit Points).</p><p>Additionally, when a creature within your weapon's range deals damage to an ally with an attack that doesn't include you, you can <strong>mark a Stress</strong> to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.</p>",
+    "description": "<p>Quando você faz um ataque bem-sucedido com sua arma, nunca causa dano abaixo do limiar de dano Maior do alvo (o alvo sempre marca no mínimo 2 Pontos de Vida).</p><p>Além disso, quando uma criatura dentro do alcance da sua arma causa dano a um aliado com um ataque que não inclui você, você pode <strong>marcar um Fadiga</strong> para forçá-la a fazer um Teste de Reação (15). Em caso de falha, o alvo deve marcar um Ponto de Vida.</p>",
     "domain": "blade",
     "recallCost": 3,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "damage",
         "_id": "MxaqNvY9IfWnFe5P",
         "systemPath": "actions",
-        "description": "<p>When a creature within your weapon's range deals damage to an ally with an attack that doesn't include you, you can <strong>mark a Stress</strong> to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.</p>",
+        "description": "<p>Quando uma criatura dentro do alcance da sua arma causa dano a um aliado com um ataque que não inclui você, você pode <strong>marcar um Fadiga</strong> para forçá-la a fazer um Teste de Reação (15). Em caso de falha, o alvo deve marcar um Ponto de Vida.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -61,7 +61,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark a Stress",
+        "name": "Marcar um Fadiga",
         "img": "icons/skills/melee/strike-axe-blood-red.webp",
         "range": "",
         "baseAction": false,

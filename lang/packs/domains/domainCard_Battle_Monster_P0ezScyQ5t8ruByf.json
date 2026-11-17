@@ -1,10 +1,10 @@
 {
-  "name": "Battle Monster",
+  "name": "Monstro de Batalha",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "7pKKYgRQAKlQAksV",
   "system": {
-    "description": "<p>When you make a successful attack against an adversary, you can <strong>mark 4 Stress</strong> to force the target to mark a number of Hit Points equal to the number of Hit Points you currently have marked instead of rolling for damage.</p>",
+    "description": "<p>Quando você faz um ataque bem-sucedido contra um adversário, pode <strong>marcar 4 Fadiga</strong> para forçar o alvo a marcar uma quantidade de Pontos de Vida igual ao número de Pontos de Vida que você tem marcados atualmente, em vez de rolar o dano.</p>",
     "domain": "blade",
     "recallCost": 0,
     "level": 10,
@@ -67,7 +67,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "",
         "img": "icons/skills/melee/strike-axe-red.webp"
       }

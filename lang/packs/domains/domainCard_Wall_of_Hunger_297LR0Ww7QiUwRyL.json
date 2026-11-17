@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Wall of Hunger",
+  "name": "Muralha da Fome",
   "folder": "BUFGXH8Ez4ct3d4f",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>Make a <strong>Spellcast Roll (10).</strong> On a success, you can spend a Hope to create a visible wall of writhing necrotic energy between two points within Far range. The wall lasts until you mark a Hit Point or cast this spell again. A creature inside the wall when it appears or that passes through it must mark 2 Stress.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (10).</strong> Em caso de sucesso, você pode gastar uma Esperança para criar uma muralha visível de energia necrótica serpenteante entre dois pontos dentro do alcance Distante. A muralha dura até você marcar um Ponto de Vida ou lançar esta magia novamente. Uma criatura que esteja dentro da muralha quando ela surge, ou que a atravesse, deve marcar 2 Fadiga.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -50,7 +50,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Wall of Hunger",
+            "name": "Muralha da Fome",
             "type": "placed",
             "shape": "line",
             "size": "far",
@@ -99,7 +99,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "",
         "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp"
       },
@@ -131,7 +131,7 @@
         "_id": "kleemC4p5DTs3YTp",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>A creature inside the wall when it appears or that passes through it must mark 2 Stress.</p>",
+        "description": "<p>Uma criatura que esteja dentro da muralha quando ela surge, ou que a atravesse, deve marcar 2 Fadiga.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -151,7 +151,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Wall Damage",
+        "name": "Dano da Muralha",
         "range": "",
         "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp"
       }

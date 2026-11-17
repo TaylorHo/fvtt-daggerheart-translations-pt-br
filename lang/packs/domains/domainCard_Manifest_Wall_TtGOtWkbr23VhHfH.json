@@ -1,10 +1,10 @@
 {
-  "name": "Manifest Wall",
+  "name": "Manifestar Muralha",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "pDtffkb0SMv1O8pL",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. Once per rest on a success, <strong>spend a Hope</strong> to create a temporary magical wall between two points within Far range. It can be up to 50 feet high and form at any angle. Creatures or objects in its path are shunted to a side of your choice. The wall stays up until your next rest or you cast Manifest Wall again.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Uma vez por descanso, em caso de sucesso, <strong>gaste uma Esperança</strong> para criar uma muralha mágica temporária entre dois pontos dentro do alcance Distante. Ela pode ter até 15 metros de altura e se formar em qualquer ângulo. Criaturas ou objetos em seu caminho são empurrados para um lado de sua escolha. A muralha permanece até seu próximo descanso ou até você lançar Manifestar Muralha novamente.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 5,
@@ -62,12 +62,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
         "range": "",
         "areas": [
           {
-            "name": "Manifest Wall",
+            "name": "Manifestar Muralha",
             "type": "placed",
             "shape": "line",
             "size": "far",

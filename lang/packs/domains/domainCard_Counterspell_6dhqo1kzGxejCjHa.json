@@ -1,10 +1,10 @@
 {
-  "name": "Counterspell",
+  "name": "Contramagia",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "mOv6BGhJAeGrzA84",
   "system": {
-    "description": "<p>You can interrupt a magical effect taking place by making a reaction roll using your Spellcast trait. On a success, the effect stops and any consequences are avoided, and this card is placed in your vault.</p>",
+    "description": "<p>Você pode interromper um efeito mágico em andamento fazendo um teste de reação usando sua característica de Conjuração. Em caso de sucesso, o efeito para e quaisquer consequências são evitadas, e esta carta é colocada no seu cofre.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 3,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Interrupt",
+        "name": "Interromper",
         "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
         "range": "",
         "baseAction": false,

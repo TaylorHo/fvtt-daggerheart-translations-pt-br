@@ -1,10 +1,10 @@
 {
-  "name": "Healing Field",
+  "name": "Campo de Cura",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "BJIiOIWAQUz5zuqo",
   "system": {
-    "description": "<p>Once per long rest, you can conjure a field of healing plants around you. Everywhere within Close range of you bursts to life with vibrant nature, allowing you and all allies in the area to clear a Hit Point.</p><p><strong>Spend 2 Hope</strong> to allow you and all allies to clear 2 Hit Points instead.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode conjurar um campo de plantas curativas ao seu redor. Todo o espaço dentro do alcance Próximo de você floresce com natureza vibrante, permitindo que você e todos os aliados na área limpem um Ponto de Vida.</p><p><strong>Gaste 2 Esperança</strong> para permitir que você e todos os aliados limpem 2 Pontos de Vida em vez disso.</p>",
     "domain": "sage",
     "recallCost": 2,
     "level": 4,
@@ -76,12 +76,12 @@
           },
           "useDefault": false
         },
-        "name": "Heal 1 Hit Point",
+        "name": "Curar 1 Ponto de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Healing Field",
+            "name": "Campo de Cura",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -169,12 +169,12 @@
           },
           "useDefault": false
         },
-        "name": "Heal 2 Hit Points",
+        "name": "Curar 2 Pontos de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Healing Field",
+            "name": "Campo de Cura",
             "type": "placed",
             "shape": "emanation",
             "size": "close",

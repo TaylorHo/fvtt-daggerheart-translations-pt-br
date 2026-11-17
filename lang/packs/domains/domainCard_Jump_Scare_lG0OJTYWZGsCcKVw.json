@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Jump Scare",
+  "name": "Susto Repentino",
   "folder": "6PuOmwrnOkbs8EW5",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>When you deal magic damage to a target, you can <strong>mark a Stress</strong> to teleport into Melee range with them. When you do, they are <em>Vulnerable</em> until they mark 1 or more Hit Points.</p>",
+    "description": "<p>Quando você causa dano mágico a um alvo, pode <strong>marcar um Fadiga</strong> para se teletransportar para o alcance Corpo a Corpo dele. Quando fizer isso, ele fica <em>Vulnerável</em> até marcar 1 ou mais Pontos de Vida.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "",
         "img": "icons/magic/death/skull-energy-light-purple.webp"
       }
@@ -68,10 +68,10 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Scared",
+      "name": "Assustado",
       "disabled": false,
       "img": "icons/magic/death/skull-energy-light-purple.webp",
-      "description": "<p>They are <em>Vulnerable</em> until they mark 1 or more Hit Points.</p>",
+      "description": "<p>Ele fica <em>Vulnerável</em> até marcar 1 ou mais Pontos de Vida.</p>",
       "transfer": false,
       "statuses": [
         "vulnerable"

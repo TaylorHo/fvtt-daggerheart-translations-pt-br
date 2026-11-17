@@ -1,10 +1,10 @@
 {
-  "name": "Book of Illiat",
+  "name": "Livro de Illiat",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "tqhasjtHBX0F20lN",
   "system": {
-    "description": "<p><em><strong>Slumber:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, they're <em>Asleep</em> until they take damage or the GM spends a <strong>Fear</strong> on their turn to clear this condition.</p><p><em><strong>Arcane Barrage:</strong></em> Once per rest, <strong>spend any number of Hope</strong> and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of <strong>d6s</strong> equal to the Hope spent and deal that much magic damage to the target.</p><p><em><strong>Telepathy:</strong></em> <strong>Spend a Hope</strong> to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.</p>",
+    "description": "<p><em><strong>Sono:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, ele fica <em>Adormecido</em> até sofrer dano ou até o Mestre gastar um <strong>Medo</strong> em seu turno para limpar essa condição.</p><p><em><strong>Rajada Arcana:</strong></em> Uma vez por descanso, <strong>gaste qualquer quantidade de Esperança</strong> e dispare projéteis mágicos que atingem um alvo de sua escolha dentro do alcance Próximo. Role uma quantidade de <strong>d6</strong> igual à Esperança gasta e cause essa quantidade de dano mágico ao alvo.</p><p><em><strong>Telepatia:</strong></em> <strong>Gaste uma Esperança</strong> para abrir uma linha de comunicação mental com um alvo que você consiga ver. Essa conexão dura até seu próximo descanso ou até você lançar Telepatia novamente.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "gd4zjBV1UvXhgAid",
         "systemPath": "actions",
-        "description": "<p><em><strong>Slumber:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, they're <em>Asleep</em> until they take damage or the GM spends a <strong>Fear</strong> on their turn to clear this condition.</p>",
+        "description": "<p><em><strong>Sono:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, ele fica <em>Adormecido</em> até sofrer dano ou até o Mestre gastar um <strong>Medo</strong> em seu turno para limpar essa condição.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Slumber",
+        "name": "Sono",
         "img": "icons/magic/control/sleep-bubble-purple.webp",
         "range": "veryClose",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "damage",
         "_id": "tOHoeUFjdPw2TGrw",
         "systemPath": "actions",
-        "description": "<p>Once per rest, <strong>spend any number of Hope</strong> and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of <strong>d6s</strong> equal to the Hope spent and deal that much magic damage to the target.</p>",
+        "description": "<p>Uma vez por descanso, <strong>gaste qualquer quantidade de Esperança</strong> e dispare projéteis mágicos que atingem um alvo de sua escolha dentro do alcance Próximo. Role uma quantidade de <strong>d6</strong> igual à Esperança gasta e cause essa quantidade de dano mágico ao alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -120,7 +120,7 @@
           "amount": 1
         },
         "effects": [],
-        "name": "Arcane Barrage",
+        "name": "Rajada Arcana",
         "img": "icons/magic/light/projectiles-trio-pink.webp",
         "range": "close",
         "baseAction": false,
@@ -134,7 +134,7 @@
         "type": "effect",
         "_id": "Ya1vttriJRLbuyhk",
         "systemPath": "actions",
-        "description": "<p><strong>Spend a Hope</strong> to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.</p>",
+        "description": "<p><strong>Gaste uma Esperança</strong> para abrir uma linha de comunicação mental com um alvo que você consiga ver. Essa conexão dura até seu próximo descanso ou até você lançar Telepatia novamente.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -163,7 +163,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Telepathy",
+        "name": "Telepatia",
         "img": "icons/magic/perception/third-eye-blue-red.webp",
         "range": "",
         "baseAction": false,
@@ -191,7 +191,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Telepathy",
+      "name": "Telepatia",
       "img": "icons/magic/perception/third-eye-blue-red.webp",
       "transfer": false,
       "_id": "zAEaETYSOE2fmcyB",
@@ -214,7 +214,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Lasts until your next rest or the caster casts Telepathy again.</p>",
+      "description": "<p>Dura até seu próximo descanso ou até o conjurador lançar Telepatia novamente.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -235,7 +235,7 @@
       "_key": "!items.effects!df4iRqQzRntrF6Qw.zAEaETYSOE2fmcyB"
     },
     {
-      "name": "Slumber",
+      "name": "Sono",
       "img": "icons/magic/control/sleep-bubble-purple.webp",
       "transfer": false,
       "_id": "gfZTHSgwYSDKsePW",
@@ -244,7 +244,7 @@
         "changes": [],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until they take damage or the GM spends a Fear on their turn to clear this condition.</p>"
+          "description": "<p>Até sofrerem dano ou até o Mestre gastar um Medo em seu turno para limpar essa condição.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -258,7 +258,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Asleep until they take damage or the GM spends a Fear on their turn to clear this condition.</p>",
+      "description": "<p>Adormecido até sofrer dano ou até o Mestre gastar um Medo em seu turno para limpar essa condição.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

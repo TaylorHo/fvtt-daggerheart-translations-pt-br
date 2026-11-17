@@ -1,10 +1,10 @@
 {
-  "name": "Twilight Toll",
+  "name": "Pedágio do Crepúsculo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "2rqOUxEglhhPKk2j",
   "system": {
-    "description": "<p>Choose a target within Far range. When you succeed on an action roll against them that doesn't result in making a damage roll, place a token on this card. When you deal damage to this target, spend any number of tokens to add a<strong> d12</strong> for each token spent to your damage roll. You can only hold Twilight Toll on one creature at a time.</p><p>When you choose a new target or take a rest, clear all unspent tokens.</p>",
+    "description": "<p>Escolha um alvo dentro do alcance Distante. Quando você tiver sucesso em um teste de ação contra ele que não resulte em uma rolagem de dano, coloque uma ficha nesta carta. Quando você causar dano a este alvo, gaste qualquer quantidade de fichas para adicionar um <strong>d12</strong> por ficha gasta à sua rolagem de dano. Você só pode manter Pedágio do Crepúsculo em uma criatura por vez.</p><p>Quando você escolher um novo alvo ou fizer um descanso, limpe todas as fichas não gastas.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 9,
@@ -24,7 +24,7 @@
         "type": "damage",
         "_id": "hdMFgH17KyxENDAJ",
         "systemPath": "actions",
-        "description": "<p>When you deal damage to this target, spend any number of tokens to add a<strong> d12</strong> for each token spent to your damage roll. You can only hold Twilight Toll on one creature at a time.When you choose a new target or take a rest, clear all unspent tokens.</p>",
+        "description": "<p>Quando você causar dano a este alvo, gaste qualquer quantidade de fichas para adicionar um <strong>d12</strong> por ficha gasta à sua rolagem de dano. Você só pode manter Pedágio do Crepúsculo em uma criatura por vez.Quando você escolher um novo alvo ou fizer um descanso, limpe todas as fichas não gastas.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -72,7 +72,7 @@
           "amount": 1
         },
         "effects": [],
-        "name": "Spend Tokens",
+        "name": "Gastar Fichas",
         "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
         "range": "far",
         "baseAction": false,
@@ -99,7 +99,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Twilight Toll",
+      "name": "Pedágio do Crepúsculo",
       "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
       "transfer": false,
       "_id": "65UMKq0epBx5DbMC",

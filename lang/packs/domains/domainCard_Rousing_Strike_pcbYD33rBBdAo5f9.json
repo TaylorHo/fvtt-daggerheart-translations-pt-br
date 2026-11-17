@@ -1,10 +1,10 @@
 {
-  "name": "Rousing Strike",
+  "name": "Golpe Motivador",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "XDSp0FdiYDVO0tfw",
   "system": {
-    "description": "<p>Once per rest, when you critically succeed on an attack, you and all allies who can see or hear you can clear a Hit Point or <strong>1d4</strong> Stress.</p>",
+    "description": "<p>Uma vez por descanso, quando você obtém sucesso crítico em um ataque, você e todos os aliados que puderem ver ou ouvir você podem limpar um Ponto de Vida ou <strong>1d4</strong> Fadiga.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 5,
@@ -29,7 +29,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Critically Succeed",
+        "name": "Sucesso Crítico",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
         "range": "",
         "baseAction": false,

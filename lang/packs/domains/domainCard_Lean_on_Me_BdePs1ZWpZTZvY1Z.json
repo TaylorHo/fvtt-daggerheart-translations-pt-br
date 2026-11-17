@@ -1,10 +1,10 @@
 {
-  "name": "Lean on Me",
+  "name": "Conte Comigo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "Oo9EkkF7CDD3QZEG",
   "system": {
-    "description": "<p>Once per long rest, when you console or inspire an ally who failed an action roll, you can both clear 2 Stress.</p>",
+    "description": "<p>Uma vez por descanso longo, quando você consolar ou inspirar um aliado que falhou em um teste de ação, vocês dois podem limpar 2 Fadiga.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 3,
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Healing",
+        "name": "Cura",
         "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
         "range": "",
         "baseAction": false,

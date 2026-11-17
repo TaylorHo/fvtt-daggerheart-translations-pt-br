@@ -1,10 +1,10 @@
 {
-  "name": "Natural Familiar",
+  "name": "Familiar Natural",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "xZrCYAd05ayNu1yW",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to summon a small nature spirit or forest critter to your side until your next rest, you cast Natural Familiar again, or the familiar is targeted by an attack. If you <strong>spend an additional Hope</strong>, you can summon a familiar that flies. You can communicate with them, make a <strong>Spellcast Roll</strong> to command them to perform simple tasks, and <strong>mark a Stress</strong> to see through their eyes.</p><p>When you deal damage to an adversary within Melee range of your familiar, you add a <strong>d6</strong> to your damage roll.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> para invocar ao seu lado um pequeno espírito da natureza ou criatura da floresta até seu próximo descanso, até você lançar Familiar Natural novamente ou até o familiar ser alvo de um ataque. Se você <strong>gastar uma Esperança adicional</strong>, pode invocar um familiar que voa. Você pode se comunicar com ele, fazer um <strong>Teste de Conjuração</strong> para comandá-lo a realizar tarefas simples e <strong>marcar um Fadiga</strong> para ver através dos olhos dele.</p><p>Quando você causa dano a um adversário dentro do alcance Corpo a Corpo do seu familiar, adicione um <strong>d6</strong> à sua rolagem de dano.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "BhVDgty2nqoOhn97",
         "systemPath": "actions",
-        "description": "<p><strong>Spend a Hope</strong> to summon a small nature spirit or forest critter to your side until your next rest, you cast Natural Familiar again, or the familiar is targeted by an attack. If you <strong>spend an additional Hope</strong>, you can summon a familiar that flies.</p>",
+        "description": "<p><strong>Gaste uma Esperança</strong> para invocar ao seu lado um pequeno espírito da natureza ou criatura da floresta até seu próximo descanso, até você lançar Familiar Natural novamente ou até o familiar ser alvo de um ataque. Se você <strong>gastar uma Esperança adicional</strong>, pode invocar um familiar que voa.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Summon Familiar",
+        "name": "Invocar Familiar",
         "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
         "range": "",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "attack",
         "_id": "kHAwq8lfsEPd9Qga",
         "systemPath": "actions",
-        "description": "<p>You can communicate with them, make a <strong>Spellcast Roll</strong> to command them to perform simple tasks.</p>",
+        "description": "<p>Você pode se comunicar com ele e fazer um <strong>Teste de Conjuração</strong> para comandá-lo a realizar tarefas simples.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -96,7 +96,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Perform Task",
+        "name": "Realizar Tarefa",
         "img": "icons/creatures/amphibians/treefrog-leaf-green.webp",
         "range": "",
         "baseAction": false,
@@ -110,7 +110,7 @@
         "type": "effect",
         "_id": "8Y03LcPgXF30DfzZ",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to see through their eyes.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para ver através dos olhos dele.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -134,7 +134,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "See Through Eyes",
+        "name": "Ver Através dos Olhos",
         "img": "icons/magic/perception/eye-ringed-green.webp",
         "range": "",
         "baseAction": false,
@@ -162,7 +162,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Familiar Damage",
+      "name": "Dano do Familiar",
       "img": "icons/sundries/gaming/dice-pair-white-green.webp",
       "transfer": false,
       "_id": "0BumAWKw2aK4A5al",

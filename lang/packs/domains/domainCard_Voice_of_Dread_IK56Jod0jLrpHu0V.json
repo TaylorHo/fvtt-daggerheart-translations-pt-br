@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Voice of Dread",
+  "name": "Voz do Pavor",
   "folder": "pO0uBPDGQi4ULPAt",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>You can magically speak to a creature you can see, tormenting them with your words. Make a <strong>Spellcast Roll</strong> against them. On a success, they must mark a Stress and are frozen with terror, making them temporarily <em>Restrained</em>.</p>",
+    "description": "<p>Você pode falar magicamente com uma criatura que consiga ver, atormentando-a com suas palavras. Faça um <strong>Teste de Conjuração</strong> contra ela. Em caso de sucesso, ela deve marcar um Fadiga e fica paralisada de terror, ficando temporariamente <em>Restringida</em>.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -86,7 +86,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "",
         "img": "icons/magic/death/skull-energy-light-purple.webp"
       }
@@ -102,7 +102,7 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Dreading",
+      "name": "Apavorado",
       "disabled": false,
       "img": "icons/magic/death/skull-energy-light-white.webp",
       "description": "",

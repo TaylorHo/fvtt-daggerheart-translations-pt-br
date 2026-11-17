@@ -1,10 +1,10 @@
 {
-  "name": "Encore",
+  "name": "Bis",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "wdhWWqWlPiBxtsvr",
   "system": {
-    "description": "<p>When an ally within Close range deals damage to an adversary, you can make a <strong>Spellcast Roll</strong> against that same target. On a success, you deal the same damage to the target that your ally dealt. If your Spellcast Roll succeeds with Fear, place this card in your vault.</p>",
+    "description": "<p>Quando um aliado dentro do alcance Próximo causa dano a um adversário, você pode fazer um <strong>Teste de Conjuração</strong> contra esse mesmo alvo. Em caso de sucesso, você causa ao alvo o mesmo dano que seu aliado causou. Se seu Teste de Conjuração for bem-sucedido com Medo, coloque esta carta no seu cofre.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 10,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Repeat Attack",
+        "name": "Repetir Ataque",
         "img": "icons/magic/light/explosion-impact-purple.webp",
         "range": "",
         "baseAction": false,

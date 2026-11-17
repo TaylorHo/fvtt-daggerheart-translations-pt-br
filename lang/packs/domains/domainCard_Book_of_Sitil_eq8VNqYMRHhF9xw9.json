@@ -1,10 +1,10 @@
 {
-  "name": "Book of Sitil",
+  "name": "Livro de Sitil",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "j9i2Q6Z7Z82udHn1",
   "system": {
-    "description": "<p><em><strong>Adjust Appearance:</strong></em> You magically shift your appearance and clothing to avoid recognition.</p><p><em><strong>Parallela:</strong></em><strong> Spend 2 Hope</strong> to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.</p><p><em><strong>Illusion:</strong></em> Make a <strong>Spellcast Roll (14)</strong>. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.</p>",
+    "description": "<p><em><strong>Ajustar Aparência:</strong></em> Você altera magicamente sua aparência e suas roupas para evitar ser reconhecido.</p><p><em><strong>Parallela:</strong></em><strong> Gaste 2 Esperança</strong> para lançar esta magia em você mesmo ou em um aliado dentro do alcance Próximo. Na próxima vez que o alvo fizer um ataque, ele pode atingir um alvo adicional dentro do alcance contra o qual seu teste de ataque seria bem-sucedido. Você só pode manter esta magia em uma criatura por vez.</p><p><em><strong>Ilusão:</strong></em> Faça um <strong>Teste de Conjuração (14)</strong>. Em caso de sucesso, crie uma ilusão visual temporária de tamanho não maior que o seu dentro do alcance Próximo, que dura enquanto você olhar para ela. Ela resiste ao escrutínio até que um observador esteja dentro do alcance Corpo a Corpo.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "cc1ahwawL16OEu2r",
         "systemPath": "actions",
-        "description": "<p>You magically shift your appearance and clothing to avoid recognition.</p>",
+        "description": "<p>Você altera magicamente sua aparência e suas roupas para evitar ser reconhecido.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -34,7 +34,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Adjust Appearance",
+        "name": "Ajustar Aparência",
         "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
         "range": "self",
         "baseAction": false,
@@ -48,7 +48,7 @@
         "type": "effect",
         "_id": "wBQkw3P4Esj6kOx2",
         "systemPath": "actions",
-        "description": "<p><strong>Spend 2 Hope</strong> to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.</p>",
+        "description": "<p><strong>Gaste 2 Esperança</strong> para lançar esta magia em você mesmo ou em um aliado dentro do alcance Próximo. Na próxima vez que o alvo fizer um ataque, ele pode atingir um alvo adicional dentro do alcance contra o qual seu teste de ataque seria bem-sucedido. Você só pode manter esta magia em uma criatura por vez.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -91,7 +91,7 @@
         "type": "attack",
         "_id": "rsyxORrTH5oU2DkV",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Em caso de sucesso, crie uma ilusão visual temporária de tamanho não maior que o seu dentro do alcance Próximo, que dura enquanto você olhar para ela. Ela resiste ao escrutínio até que um observador esteja dentro do alcance Corpo a Corpo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -130,7 +130,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Illusion",
+        "name": "Ilusão",
         "img": "icons/magic/control/silhouette-hold-change-green.webp",
         "range": "close",
         "baseAction": false,
@@ -180,7 +180,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>The next time you make an attack, you can hit an additional target within range that your attack roll would succeed against.</p>",
+      "description": "<p>Na próxima vez que você fizer um ataque, pode atingir um alvo adicional dentro do alcance contra o qual seu teste de ataque seria bem-sucedido.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -194,7 +194,7 @@
       "_key": "!items.effects!eq8VNqYMRHhF9xw9.klUaU5KeQCu7KCBI"
     },
     {
-      "name": "Adjust Appearance",
+      "name": "Ajustar Aparência",
       "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
       "transfer": false,
       "_id": "wnrHSvvB6pydTVcC",
@@ -216,7 +216,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You magically shift your appearance and clothing to avoid recognition.</p>",
+      "description": "<p>Você altera magicamente sua aparência e suas roupas para evitar ser reconhecido.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

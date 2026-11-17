@@ -1,10 +1,10 @@
 {
-  "name": "Valor-Touched",
+  "name": "Tocado pelo Valor",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "kj3gwg5bmCqwFYze",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Valor domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Armor Score</p></li><li class=\"vertical-card-list-found\"><p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Valor, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Bônus de +1 na sua Pontuação de Armadura</p></li><li class=\"vertical-card-list-found\"><p>Quando você marca 1 ou mais Pontos de Vida sem marcar um Espaço de Armadura, limpe um Espaço de Armadura.</p></li></ul>",
     "domain": "valor",
     "recallCost": 1,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "healing",
         "_id": "F04596OgMgpnhpQp",
         "systemPath": "actions",
-        "description": "<p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p>",
+        "description": "<p>Quando você marca 1 ou mais Pontos de Vida sem marcar um Espaço de Armadura, limpe um Espaço de Armadura.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Armor",
+        "name": "Limpar Armadura",
         "img": "icons/equipment/chest/breastplate-collared-steel-grey.webp",
         "range": "",
         "baseAction": false,
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Valor-Touched",
+      "name": "Tocado pelo Valor",
       "type": "base",
       "system": {
         "changes": [
@@ -128,7 +128,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Armor Score</p></li><li class=\"vertical-card-list-found\"><p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p></li></ul>",
+      "description": "<ul><li class=\"vertical-card-list-found\"><p>Bônus de +1 na sua Pontuação de Armadura</p></li><li class=\"vertical-card-list-found\"><p>Quando você marca 1 ou mais Pontos de Vida sem marcar um Espaço de Armadura, limpe um Espaço de Armadura.</p></li></ul>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

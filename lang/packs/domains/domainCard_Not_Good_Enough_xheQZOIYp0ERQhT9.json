@@ -1,10 +1,10 @@
 {
-  "name": "Not Good Enough",
+  "name": "Não Bom o Bastante",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "9Xc6KzNyjDtTGZkp",
   "system": {
-    "description": "<p>When you roll your damage dice, you can reroll any 1s or 2s.</p>",
+    "description": "<p>Quando você rola seus dados de dano, pode rolar novamente quaisquer 1 ou 2.</p>",
     "domain": "blade",
     "recallCost": 1,
     "level": 1,

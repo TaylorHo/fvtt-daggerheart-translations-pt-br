@@ -1,10 +1,10 @@
 {
-  "name": "Earthquake",
+  "name": "Terremoto",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "fucNnucgoUjbzvcA",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. Once per rest on a success, all targets within Very Far range who aren't flying must make a Reaction Roll (18). Targets who fail take <strong>3d10+8</strong> physical damage and are temporarily <em>Vulnerable</em>. Targets who succeed take half damage.</p><p>Additionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes difficult to move through and structures within this range might sustain damage or crumble.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (16)</strong>. Uma vez por descanso, em caso de sucesso, todos os alvos dentro do alcance Muito Distante que não estiverem voando devem fazer um Teste de Reação (18). Os alvos que falharem sofrem <strong>3d10+8</strong> de dano físico e ficam temporariamente <em>Vulneráveis</em>. Os alvos que tiverem sucesso sofrem metade do dano.</p><p>Além disso, quando você tem sucesso no Teste de Conjuração, todo o terreno dentro do alcance Muito Distante se torna difícil de atravessar e estruturas dentro desse alcance podem sofrer danos ou desmoronar.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 9,
@@ -80,7 +80,7 @@
           "difficulty": 18,
           "damageMod": "half"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/earth/barrier-stone-explosion-red.webp",
         "range": "veryFar",
         "baseAction": false,
@@ -108,7 +108,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Vulnerable",
+      "name": "Vulnerável",
       "img": "icons/skills/wounds/injury-pain-body-orange.webp",
       "transfer": false,
       "_id": "Z31XqmGUKWYcZdMY",
@@ -131,7 +131,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Temporarily Vulnerable.</p>",
+      "description": "<p>Temporariamente Vulnerável.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

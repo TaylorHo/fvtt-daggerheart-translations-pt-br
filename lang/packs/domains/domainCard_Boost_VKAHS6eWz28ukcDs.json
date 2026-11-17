@@ -1,10 +1,10 @@
 {
-  "name": "Boost",
+  "name": "Impulsionar",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "3e8kCsLzLxiACJDb",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to boost off a willing ally within Close range, fling yourself into the air, and perform an aerial attack against a target within Far range. You have advantage on the attack, add a<strong> d10</strong> to the damage roll, and end your move within Melee range of the target.</p>",
+    "description": "<p><strong>Marque um Fadiga</strong> para se impulsionar em um aliado disposto dentro do alcance Próximo, lançar-se ao ar e realizar um ataque aéreo contra um alvo dentro do alcance Distante. Você tem vantagem no ataque, adiciona um <strong>d10</strong> à rolagem de dano e termina seu movimento dentro do alcance Corpo a Corpo do alvo.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 4,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "range": "far",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Hideous Retribution",
+  "name": "Retribuição Hedionda",
   "folder": "Px6nK9RuheaYIYI9",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>When an ally within Close range takes damage from a target you can see, you can make a reaction roll against the target using your Spellcast trait. On a success, <strong>mark a Stress</strong> to deal <strong>d6</strong> magic damage using your Proficiency.</p>",
+    "description": "<p>Quando um aliado dentro do alcance Próximo sofre dano de um alvo que você consegue ver, você pode fazer um teste de reação contra o alvo usando sua característica de Conjuração. Em caso de sucesso, <strong>marque um Fadiga</strong> para causar <strong>d6</strong> de dano mágico usando sua Proficiência.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -93,7 +93,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Reaction Roll",
+        "name": "Teste de Reação",
         "range": "close",
         "img": "icons/magic/unholy/hand-claw-glow-orange.webp"
       }

@@ -1,10 +1,10 @@
 {
-  "name": "Overwhelming Aura",
+  "name": "Aura Avassaladora",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "sGCKwmomutMTv0Xs",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (15)</strong> to magically empower your aura. On a success, <strong>spend 2 Hope</strong> to make your Presence equal to your Spellcast trait until your next long rest.</p><p>While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong> para fortalecer magicamente sua aura. Em caso de sucesso, <strong>gaste 2 Esperança</strong> para tornar sua Presença igual à sua característica de Conjuração até seu próximo descanso longo.</p><p>Enquanto esta magia estiver ativa, um adversário deve marcar um Fadiga quando mirar um ataque em você.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 9,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "r2XblKJyZyamOOXq",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (15)</strong> to magically empower your aura. On a success, <strong>spend 2 Hope</strong> to make your Presence equal to your Spellcast trait until your next long rest.While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong> para fortalecer magicamente sua aura. Em caso de sucesso, <strong>gaste 2 Esperança</strong> para tornar sua Presença igual à sua característica de Conjuração até seu próximo descanso longo.Enquanto esta magia estiver ativa, um adversário deve marcar um Fadiga quando mirar um ataque em você.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -67,7 +67,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
         "range": "self",
         "baseAction": false,
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Overwhelming Aura",
+      "name": "Aura Avassaladora",
       "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
       "transfer": false,
       "_id": "ba9GO4NtQHYkaRR9",
@@ -126,7 +126,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Your Presence is equal to your Spellcast trait until your next long rest.<br>While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>",
+      "description": "<p>Sua Presença é igual à sua característica de Conjuração até seu próximo descanso longo.<br>Enquanto esta magia estiver ativa, um adversário deve marcar um Fadiga quando mirar um ataque em você.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

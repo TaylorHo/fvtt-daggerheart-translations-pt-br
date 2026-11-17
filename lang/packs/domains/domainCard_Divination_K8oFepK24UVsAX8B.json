@@ -1,10 +1,10 @@
 {
-  "name": "Divination",
+  "name": "Adivinhação",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "vAZKNDtAafd7HDWV",
   "system": {
-    "description": "<p>Once per long rest, <strong>spend 3 Hope</strong> to reach out to the forces beyond and ask one \"yes or no\" question about an event, person, place, or situation in the near future. For a moment, the present falls away and you see the answer before you.</p>",
+    "description": "<p>Uma vez por descanso longo, <strong>gaste 3 Esperança</strong> para alcançar as forças do além e fazer uma pergunta de \"sim ou não\" sobre um evento, pessoa, lugar ou situação em um futuro próximo. Por um instante, o presente se dissolve e você vê a resposta diante de si.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 4,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Ask one Question",
+        "name": "Fazer uma Pergunta",
         "img": "icons/skills/trades/academics-astronomy-navigation-blue.webp",
         "range": "",
         "baseAction": false,

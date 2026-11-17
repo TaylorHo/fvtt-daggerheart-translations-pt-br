@@ -1,10 +1,10 @@
 {
-  "name": "Stunning Sunlight",
+  "name": "Luz Solar Atordoante",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "A00z8Q8B3aKApKzI",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> to unleash powerful rays of burning sunlight against all adversaries in front of you within Far range. On a success, <strong>spend any number of Hope</strong> and force that many targets you succeeded against to make a Reaction Roll (14).</p><p>Targets who succeed take <strong>3d20+3</strong> magic damage. Targets who fail take <strong>4d20+5</strong> magic damage and are temporarily <em>Stunned</em>. While <em>Stunned</em>, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> para liberar poderosos raios de luz solar escaldante contra todos os adversários à sua frente dentro do alcance Distante. Em caso de sucesso, <strong>gaste qualquer quantidade de Esperança</strong> e force essa quantidade de alvos contra os quais você teve sucesso a fazer um Teste de Reação (14).</p><p>Os alvos que tiverem sucesso sofrem <strong>3d20+3</strong> de dano mágico. Os alvos que falharem sofrem <strong>4d20+5</strong> de dano mágico e ficam temporariamente <em>Atordoados</em>. Enquanto <em>Atordoados</em>, eles não podem usar reações nem realizar nenhuma outra ação até limparem essa condição.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 8,
@@ -89,12 +89,12 @@
           "difficulty": 14,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/light/beam-strike-village-yellow.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Stunning Sunlight",
+            "name": "Luz Solar Atordoante",
             "type": "placed",
             "shape": "inFront",
             "size": "far",
@@ -112,7 +112,7 @@
         "type": "damage",
         "_id": "AI8sGbUXLw4gG8mW",
         "systemPath": "actions",
-        "description": "<p>Targets who succeed take <strong>3d20+3</strong> magic damage.</p>",
+        "description": "<p>Os alvos que tiverem sucesso sofrem <strong>3d20+3</strong> de dano mágico.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -153,7 +153,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Damage on Successful Save",
+        "name": "Dano em Teste Bem-Sucedido",
         "img": "icons/magic/light/beam-strike-village-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -181,7 +181,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Stunning Sunlight",
+      "name": "Luz Solar Atordoante",
       "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
       "transfer": false,
       "_id": "kSLuGSI6FLhOJaGp",
@@ -204,7 +204,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Temporarily Stunned. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+      "description": "<p>Temporariamente Atordoados. Enquanto Atordoados, eles não podem usar reações nem realizar nenhuma outra ação até limparem essa condição.</p>",
       "tint": "#ffffff",
       "statuses": [
         "stun"

@@ -1,10 +1,10 @@
 {
-  "name": "Blade-Touched",
+  "name": "Tocado pela Lâmina",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "HAGbPLHwm0UozDeG",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Blade domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+2 bonus to your attack rolls</p></li><li class=\"vertical-card-list-found\"><p>+4 bonus to your Severe damage threshold</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Lâmina, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Bônus de +2 nos seus testes de ataque</p></li><li class=\"vertical-card-list-found\"><p>Bônus de +4 no seu limiar de dano Severo</p></li></ul>",
     "domain": "blade",
     "recallCost": 1,
     "level": 7,
@@ -27,7 +27,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Blade-Touched",
+      "name": "Tocado pela Lâmina",
       "type": "base",
       "system": {
         "changes": [

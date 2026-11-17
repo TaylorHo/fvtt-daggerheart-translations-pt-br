@@ -1,10 +1,10 @@
 {
-  "name": "Death Grip",
+  "name": "Garra da Morte",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "BJIiOIWAQUz5zuqo",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose one of the following options:</p><ul><li class=\"vertical-card-list\"><p>You pull the target into Melee range or pull yourself into Melee range of them.</p></li><li class=\"vertical-card-list\"><p>You constrict the target and force them to mark 2 Stress.</p></li><li class=\"vertical-card-list\"><p>All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking <strong>3d6+2</strong> physical damage.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo e escolha uma das seguintes opções:</p><ul><li class=\"vertical-card-list\"><p>Você puxa o alvo para o alcance Corpo a Corpo ou se puxa para o alcance Corpo a Corpo dele.</p></li><li class=\"vertical-card-list\"><p>Você aperta o alvo e o força a marcar 2 Fadiga.</p></li><li class=\"vertical-card-list\"><p>Todos os adversários entre você e o alvo devem ser bem-sucedidos em um Teste de Reação (13) ou serão atingidos por trepadeiras, sofrendo <strong>3d6+2</strong> de dano físico.</p></li></ul><p>Em caso de sucesso, trepadeiras saem de suas mãos, causando o efeito escolhido e <em>Restringindo</em> temporariamente o alvo.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 4,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "wsXZCKqGKfOUHE1M",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range, and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>You pull the target into Melee range or pull yourself into Melee range of them.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo e escolha a seguinte opção:</p><ul><li class=\"vertical-card-list\"><p>Você puxa o alvo para o alcance Corpo a Corpo ou se puxa para o alcance Corpo a Corpo dele.</p></li></ul><p>Em caso de sucesso, trepadeiras saem de suas mãos, causando o efeito escolhido e <em>Restringindo</em> temporariamente o alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Pull",
+        "name": "Puxar",
         "img": "icons/magic/nature/root-vine-entangled-hand.webp",
         "range": "close",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "attack",
         "_id": "x62SXSpT9bjIEP5e",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>You constrict the target and force them to mark 2 Stress.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo e escolha a seguinte opção:</p><ul><li class=\"vertical-card-list\"><p>Você aperta o alvo e o força a marcar 2 Fadiga.</p></li></ul><p>Em caso de sucesso, trepadeiras saem de suas mãos, causando o efeito escolhido e <em>Restringindo</em> temporariamente o alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -135,7 +135,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Constrict",
+        "name": "Apertar",
         "img": "icons/magic/nature/root-vines-knot-brown.webp",
         "range": "close",
         "baseAction": false,
@@ -149,7 +149,7 @@
         "type": "attack",
         "_id": "9416a3EogNFLRdUX",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class=\"vertical-card-list\"><p>All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking <strong>3d6+2</strong> physical damage.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo e escolha a seguinte opção:</p><ul><li class=\"vertical-card-list\"><p>Todos os adversários entre você e o alvo devem ser bem-sucedidos em um Teste de Reação (13) ou serão atingidos por trepadeiras, sofrendo <strong>3d6+2</strong> de dano físico.</p></li></ul><p>Em caso de sucesso, trepadeiras saem de suas mãos, causando o efeito escolhido e <em>Restringindo</em> temporariamente o alvo.</p>",
         "chatDisplay": true,
         "actionType": "reaction",
         "cost": [],
@@ -215,12 +215,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Hit All Adversaries Between",
+        "name": "Atingir Todos os Adversários no Caminho",
         "img": "icons/magic/nature/root-vine-beanstalk-moon.webp",
         "range": "",
         "areas": [
           {
-            "name": "Line To Target",
+            "name": "Linha até o Alvo",
             "type": "placed",
             "shape": "line",
             "size": "close",
@@ -252,7 +252,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "wMXCIQxqLS9IbsEK",
@@ -290,7 +290,7 @@
       "_key": "!items.effects!x0FVGE1YbfXalJiw.wMXCIQxqLS9IbsEK"
     },
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "bZ0xgZ6TT2099OYp",
@@ -328,7 +328,7 @@
       "_key": "!items.effects!x0FVGE1YbfXalJiw.bZ0xgZ6TT2099OYp"
     },
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "Oe95zWWY41nH8y5l",

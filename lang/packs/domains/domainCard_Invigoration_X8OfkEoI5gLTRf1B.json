@@ -1,10 +1,10 @@
 {
-  "name": "Invigoration",
+  "name": "Revigoramento",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "nZr2hsu6Q6TlFXQn",
   "system": {
-    "description": "<p>When you or an ally within Close range has used a feature that has an exhaustion limit (such as once per rest or once per session), you can <strong>spend any number of Hope</strong> and roll that many <strong>d6s</strong>. If any roll a 6, the feature can be used again.</p>",
+    "description": "<p>Quando você ou um aliado dentro do alcance Próximo usou uma característica que tem um limite de uso (como uma vez por descanso ou uma vez por sessão), você pode <strong>gastar qualquer quantidade de Esperança</strong> e rolar essa quantidade de <strong>d6</strong>. Se algum tirar 6, a característica pode ser usada novamente.</p>",
     "domain": "splendor",
     "recallCost": 3,
     "level": 10,
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Roll Dice Pool",
+        "name": "Rolar Reserva de Dados",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Smite",
+  "name": "Golpe Sagrado",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "Jbw6Teaha6So9tym",
   "system": {
-    "description": "<p>Once per rest, <strong>spend 3 Hope</strong> to charge your powerful smite. When you next successfully attack with a weapon, double the result of your damage roll. This attack deals magic damage regardless of the weapon's damage type.</p>",
+    "description": "<p>Uma vez por descanso, <strong>gaste 3 Esperança</strong> para carregar seu poderoso golpe sagrado. Quando você atacar com sucesso com uma arma pela próxima vez, dobre o resultado da sua rolagem de dano. Este ataque causa dano mágico, independentemente do tipo de dano da arma.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 5,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Charge Smite",
+        "name": "Carregar Golpe Sagrado",
         "img": "icons/skills/melee/sword-winged-holy-orange.webp",
         "range": "self",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Smite",
+      "name": "Golpe Sagrado",
       "img": "icons/skills/melee/sword-winged-holy-orange.webp",
       "transfer": false,
       "_id": "mqZSae8J9d7o3lon",
@@ -93,7 +93,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you next successfully attack with a weapon, double the result of your damage roll. This attack deals magic damage regardless of the weapon's damage type.</p>",
+      "description": "<p>Quando você atacar com sucesso com uma arma pela próxima vez, dobre o resultado da sua rolagem de dano. Este ataque causa dano mágico, independentemente do tipo de dano da arma.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

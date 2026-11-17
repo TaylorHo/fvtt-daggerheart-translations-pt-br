@@ -1,10 +1,10 @@
 {
-  "name": "Tell No Lies",
+  "name": "Sem Mentiras",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "pu3xD4rEkdfdAvGc",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong><strong> </strong>against a target within Very Close range. On a success, they can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong><strong> </strong>contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, ele não pode mentir para você enquanto permanecer dentro do alcance Próximo, mas não é obrigado a falar. Se você fizer uma pergunta e ele se recusar a responder, ele deve marcar um Fadiga e o efeito termina. O alvo normalmente não percebe que esta magia foi lançada sobre ele até que ela o faça dizer a verdade.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "Et9JXoAULa2EAZfa",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll </strong>against a target within Very Close range. On a success, they can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração </strong>contra um alvo dentro do alcance Muito Próximo. Em caso de sucesso, ele não pode mentir para você enquanto permanecer dentro do alcance Próximo, mas não é obrigado a falar. Se você fizer uma pergunta e ele se recusar a responder, ele deve marcar um Fadiga e o efeito termina. O alvo normalmente não percebe que esta magia foi lançada sobre ele até que ela o faça dizer a verdade.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -72,7 +72,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/control/voodoo-doll-pain-damage-red.webp",
         "range": "close",
         "baseAction": false,
@@ -100,7 +100,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Can't Lie",
+      "name": "Não Pode Mentir",
       "type": "base",
       "system": {
         "changes": [],
@@ -121,7 +121,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>",
+      "description": "<p>Não pode mentir para você enquanto permanecer dentro do alcance Próximo, mas não é obrigado a falar. Se você fizer uma pergunta e ele se recusar a responder, ele deve marcar um Fadiga e o efeito termina. O alvo normalmente não percebe que esta magia foi lançada sobre ele até que ela o faça dizer a verdade.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

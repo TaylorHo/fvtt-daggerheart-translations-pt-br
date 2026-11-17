@@ -1,10 +1,10 @@
 {
-  "name": "Splintering Strike",
+  "name": "Golpe Estilhaçante",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "eg2vM8j9xhya9Rwa",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> and make an attack against all adversaries within your weapon's range. Once per long rest, on a success against any targets, roll your weapon's damage and distribute that damage however you wish between the targets you succeeded against. Before you deal damage to each target, roll an additional damage die and add its result to the damage you deal to them.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> e faça um ataque contra todos os adversários dentro do alcance da sua arma. Uma vez por descanso longo, em caso de sucesso contra quaisquer alvos, role o dano da sua arma e distribua esse dano como desejar entre os alvos contra os quais teve sucesso. Antes de causar dano a cada alvo, role um dado de dano adicional e some seu resultado ao dano que você causa a ele.</p>",
     "domain": "bone",
     "recallCost": 3,
     "level": 9,
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
         "range": "",
         "baseAction": false,

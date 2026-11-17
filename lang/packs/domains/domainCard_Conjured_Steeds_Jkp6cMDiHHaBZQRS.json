@@ -1,10 +1,10 @@
 {
-  "name": "Conjured Steeds",
+  "name": "Montarias Conjuradas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "u5Lq2kfC8LlDAGDC",
   "system": {
-    "description": "<p><strong>Spend any number of Hope</strong> to conjure that many magical steeds (such as horses, camels, or elephants) that you and your allies can ride until your next long rest or the steeds take any damage. The steeds double your land speed while traveling and, when in danger, allow you to move within Far range without having to roll. Creatures riding a steed gain a -2 penalty to attack rolls and a +2 bonus to damage rolls.</p>",
+    "description": "<p><strong>Gaste qualquer quantidade de Esperança</strong> para conjurar essa quantidade de montarias mágicas (como cavalos, camelos ou elefantes) que você e seus aliados podem cavalgar até seu próximo descanso longo ou até as montarias sofrerem qualquer dano. As montarias dobram sua velocidade em terra durante viagens e, em perigo, permitem que você se mova dentro do alcance Distante sem precisar rolar. Criaturas montadas recebem uma penalidade de -2 nos testes de ataque e um bônus de +2 nas rolagens de dano.</p>",
     "domain": "sage",
     "recallCost": 0,
     "level": 6,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Conjure",
+        "name": "Conjurar",
         "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Riding",
+      "name": "Cavalgando",
       "img": "icons/creatures/mammals/goat-horned-blue.webp",
       "transfer": false,
       "_id": "cNSlGBGPKKBNnlH8",
@@ -116,7 +116,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Creatures riding a steed gain a -2 penalty to attack rolls and a +2 bonus to damage rolls.</p>",
+      "description": "<p>Criaturas montadas recebem uma penalidade de -2 nos testes de ataque e um bônus de +2 nas rolagens de dano.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,10 +1,10 @@
 {
-  "name": "Salvation Beam",
+  "name": "Raio da Salvação",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "sGCKwmomutMTv0Xs",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. On a success, <strong>mark any number of Stress</strong> to target a line of allies within Far range. You can clear Hit Points on the targets equal to the number of Stress marked, divided among them however you'd like.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (16)</strong>. Em caso de sucesso, <strong>marque qualquer quantidade de Fadiga</strong> para mirar em uma fila de aliados dentro do alcance Distante. Você pode limpar Pontos de Vida nos alvos em quantidade igual ao número de Fadiga marcado, divididos entre eles como quiser.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 9,
@@ -76,12 +76,12 @@
           },
           "useDefault": false
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/light/beams-rays-orange-purple-large.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Salvation Beam",
+            "name": "Raio da Salvação",
             "type": "placed",
             "shape": "line",
             "size": "far",

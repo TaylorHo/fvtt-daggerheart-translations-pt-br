@@ -1,10 +1,10 @@
 {
-  "name": "Banish",
+  "name": "Banir",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "FcMclsLDy86EicA6",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, roll a number of <strong>d20</strong>s equal to your Spellcast trait. The target must make a reaction roll with a Difficulty equal to your highest result. On a success, the target must mark a Stress but isn't banished. Once per rest on a failure, they are banished from this realm.</p><p>When the PCs roll with Fear, the Difficulty gains a -1 penalty and the target makes another reaction roll. On a success, they return from banishment.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, role uma quantidade de <strong>d20</strong> igual à sua característica de Conjuração. O alvo deve fazer um teste de reação com Dificuldade igual ao seu maior resultado. Em caso de sucesso, o alvo deve marcar um Fadiga, mas não é banido. Uma vez por descanso, em caso de falha, ele é banido deste reino.</p><p>Quando os PJs rolam com Medo, a Dificuldade recebe uma penalidade de -1 e o alvo faz outro teste de reação. Em caso de sucesso, ele retorna do banimento.</p>",
     "domain": "codex",
     "recallCost": 0,
     "level": 6,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
         "range": "close",
         "baseAction": false,

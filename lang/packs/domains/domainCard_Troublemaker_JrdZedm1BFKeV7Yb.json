@@ -1,10 +1,10 @@
 {
-  "name": "Troublemaker",
+  "name": "Encrenqueiro",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "pu3xD4rEkdfdAvGc",
   "system": {
-    "description": "<p>When you taunt or provoke a target within Far range, make a <strong>Presence Roll</strong> against them. Once per rest on a success, roll a number of <strong>d4s</strong> equal to your Proficiency. The target must mark Stress equal to the highest result rolled.</p>",
+    "description": "<p>Quando você provoca ou instiga um alvo dentro do alcance Distante, faça um <strong>Teste de Presença</strong> contra ele. Uma vez por descanso, em caso de sucesso, role uma quantidade de <strong>d4</strong> igual à sua Proficiência. O alvo deve marcar Fadiga igual ao maior resultado rolado.</p>",
     "domain": "grace",
     "recallCost": 2,
     "level": 2,
@@ -72,7 +72,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Provoke",
+        "name": "Provocar",
         "img": "icons/magic/control/fear-fright-monster-purple-blue.webp",
         "range": "far",
         "baseAction": false,

@@ -933,7 +933,7 @@
                 "rerollDice": "Rolar Dados Novamente"
             },
             "RiskItAllDialog": {
-                "title": "{name} - Arrisque tudo",
+                "title": "{name} - Arriscar Tudo",
                 "subtitle": "Elimine o fadiga e os pontos de vida",
                 "remainingTitle": "Pontos Restantes",
                 "clearResource": "Limpar {resource}",
@@ -1168,11 +1168,11 @@
                 },
                 "blessed": {
                     "name": "Abençoada",
-                    "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Risk It All. Você ganha um bônus no resultado do seu Dado de Esperança igual ao número de Esperança gasta.",
+                    "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Arriscar Tudo. Você ganha um bônus no resultado do seu Dado de Esperança igual ao número de Esperança gasta.",
                     "actions": {
                         "blessed": {
                             "name": "Abençoada",
-                            "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Risk It All. Você ganha um bônus no resultado do seu Dado de Esperança igual ao número de Esperança gasta."
+                            "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Arriscar Tudo. Você ganha um bônus no resultado do seu Dado de Esperança igual ao número de Esperança gasta."
                         }
                     }
                 },

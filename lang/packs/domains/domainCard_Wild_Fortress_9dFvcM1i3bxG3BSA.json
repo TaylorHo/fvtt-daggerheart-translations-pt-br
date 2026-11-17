@@ -1,10 +1,10 @@
 {
-  "name": "Wild Fortress",
+  "name": "Fortaleza Selvagem",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "ZZHIbaynhzVArA1p",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend 2 Hope</strong> to grow a natural barricade in the shape of a dome that you and one ally can take cover within. While inside the dome, a creature can't be targeted by attacks and can't make attacks. Attacks made against the dome automatically succeed. The dome has a Major damage threshold of 15 and a Severe damage threshold of 30, and lasts until it marks 3 Hit Points. Place tokens on this card to represent marking Hit Points.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (13)</strong>. Em caso de sucesso, <strong>gaste 2 Esperança</strong> para fazer crescer uma barricada natural em forma de domo, na qual você e um aliado podem se abrigar. Enquanto estiver dentro do domo, uma criatura não pode ser alvo de ataques e não pode fazer ataques. Ataques feitos contra o domo têm sucesso automático. O domo tem um limiar de dano Maior de 15 e um limiar de dano Severo de 30, e dura até marcar 3 Pontos de Vida. Coloque fichas nesta carta para representar os Pontos de Vida marcados.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 5,
@@ -62,7 +62,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/nature/leaf-armor-scale-green.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Chains of Affliction",
+  "name": "Correntes da Aflição",
   "folder": "ZE7QW8vFGAScp8VG",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p><strong>Mark 2 Stress</strong> to temporarily <em>Chain</em> a target within Close range. When a <em>Chained</em> creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can't have more than one creature <em>Chained</em> at a time.</p>",
+    "description": "<p><strong>Marque 2 Fadiga</strong> para <em>Acorrentar</em> temporariamente um alvo dentro do alcance Próximo. Quando uma criatura <em>Acorrentada</em> causa dano, o alvo do ataque dela marca um Ponto de Vida a menos do que normalmente marcaria. Você não pode ter mais de uma criatura <em>Acorrentada</em> por vez.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "close",
         "img": "icons/magic/unholy/orb-contained-pink.webp"
       }
@@ -68,10 +68,10 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Chained",
+      "name": "Acorrentado",
       "disabled": false,
       "img": "icons/magic/unholy/orb-contained-pink.webp",
-      "description": "<p>When a <em>Chained</em> creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can't have more than one creature <em>Chained</em> at a time.</p>",
+      "description": "<p>Quando uma criatura <em>Acorrentada</em> causa dano, o alvo do ataque dela marca um Ponto de Vida a menos do que normalmente marcaria. Você não pode ter mais de uma criatura <em>Acorrentada</em> por vez.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

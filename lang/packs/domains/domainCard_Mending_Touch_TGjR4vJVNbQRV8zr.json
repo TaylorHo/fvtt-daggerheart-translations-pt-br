@@ -1,10 +1,10 @@
 {
-  "name": "Mending Touch",
+  "name": "Toque Restaurador",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "LlWJaBZOKh0Ot2kD",
   "system": {
-    "description": "<p>You lay your hands upon a creature and channel healing magic to close their wounds. When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>",
+    "description": "<p>Você impõe as mãos sobre uma criatura e canaliza magia de cura para fechar seus ferimentos. Quando você puder dedicar alguns minutos para se concentrar no alvo que está ajudando, pode <strong>gastar 2 Esperança</strong> para limpar um Ponto de Vida ou um Fadiga dele.</p><p>Uma vez por descanso longo, quando você passa esse tempo de cura aprendendo algo novo sobre ele ou revelando algo sobre si mesmo, pode limpar 2 Pontos de Vida ou 2 Fadiga dele em vez disso.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "healing",
         "_id": "sDoL9p1cpIx8Vdbb",
         "systemPath": "actions",
-        "description": "<p>When you can take a few minutes to focus on the target you're helping, you can spend 2 Hope to clear a Hit Point or a Stress on them.</p>",
+        "description": "<p>Quando você puder dedicar alguns minutos para se concentrar no alvo que está ajudando, pode gastar 2 Esperança para limpar um Ponto de Vida ou um Fadiga dele.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -76,7 +76,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal One Hitpoint",
+        "name": "Curar Um Ponto de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -152,7 +152,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal One Stress",
+        "name": "Curar Um Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -166,7 +166,7 @@
         "type": "healing",
         "_id": "FsbOSV8eR2PEb1aS",
         "systemPath": "actions",
-        "description": "<p>When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>",
+        "description": "<p>Quando você puder dedicar alguns minutos para se concentrar no alvo que está ajudando, pode <strong>gastar 2 Esperança</strong> para limpar um Ponto de Vida ou um Fadiga dele.</p><p>Uma vez por descanso longo, quando você passa esse tempo de cura aprendendo algo novo sobre ele ou revelando algo sobre si mesmo, pode limpar 2 Pontos de Vida ou 2 Fadiga dele em vez disso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -236,7 +236,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Two Hit Points",
+        "name": "Curar Dois Pontos de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -250,7 +250,7 @@
         "type": "healing",
         "_id": "mqDV9s6oMRQjJF4U",
         "systemPath": "actions",
-        "description": "<p>When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>",
+        "description": "<p>Quando você puder dedicar alguns minutos para se concentrar no alvo que está ajudando, pode <strong>gastar 2 Esperança</strong> para limpar um Ponto de Vida ou um Fadiga dele.</p><p>Uma vez por descanso longo, quando você passa esse tempo de cura aprendendo algo novo sobre ele ou revelando algo sobre si mesmo, pode limpar 2 Pontos de Vida ou 2 Fadiga dele em vez disso.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -320,7 +320,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Two Stress",
+        "name": "Curar Dois Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Dark Army",
+  "name": "Exército Sombrio",
   "folder": "QNE7zqvTh3VRHt1e",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you can summon fiends that surround and move with you. Place 8 tokens on this card. When you deal damage to a target within Very Close range, you can spend any number of tokens to add <strong>1d8</strong> for each token spent to your damage roll. Additionally, when you take damage, you can spend any number of tokens to reduce the damage by <strong>1d8</strong> for each token spent. Each time you spend a token, a fiend acts on your behalf, then disappears.</p><p>When you take a rest, clear all unspent tokens.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, você pode invocar demônios que cercam e acompanham você. Coloque 8 fichas nesta carta. Quando você causar dano a um alvo dentro do alcance Muito Próximo, pode gastar qualquer quantidade de fichas para adicionar <strong>1d8</strong> por ficha gasta à sua rolagem de dano. Além disso, quando você sofrer dano, pode gastar qualquer quantidade de fichas para reduzir o dano em <strong>1d8</strong> por ficha gasta. Cada vez que você gasta uma ficha, um demônio age em seu favor e depois desaparece.</p><p>Quando você faz um descanso, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -31,7 +31,7 @@
         "_id": "040T1iKcp84YM2mp",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you can summon fiends that surround and move with you. Place 8 tokens on this card. When you deal damage to a target within Very Close range, you can spend any number of tokens to add <strong>1d8</strong> for each token spent to your damage roll. Additionally, when you take damage, you can spend any number of tokens to reduce the damage by <strong>1d8</strong> for each token spent. Each time you spend a token, a fiend acts on your behalf, then disappears.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, você pode invocar demônios que cercam e acompanham você. Coloque 8 fichas nesta carta. Quando você causar dano a um alvo dentro do alcance Muito Próximo, pode gastar qualquer quantidade de fichas para adicionar <strong>1d8</strong> por ficha gasta à sua rolagem de dano. Além disso, quando você sofrer dano, pode gastar qualquer quantidade de fichas para reduzir o dano em <strong>1d8</strong> por ficha gasta. Cada vez que você gasta uma ficha, um demônio age em seu favor e depois desaparece.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -71,7 +71,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "range": "",
         "img": "icons/magic/death/skull-trio-badge-purple.webp"
       },
@@ -135,7 +135,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Deal Damage",
+        "name": "Causar Dano",
         "range": "",
         "img": "icons/creatures/unholy/demon-fire-horned-clawed.webp"
       }

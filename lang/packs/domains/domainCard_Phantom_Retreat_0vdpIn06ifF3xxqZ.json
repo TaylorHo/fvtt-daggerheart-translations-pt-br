@@ -1,10 +1,10 @@
 {
-  "name": "Phantom Retreat",
+  "name": "Retirada Fantasma",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "8erksbTp7ic6in4I",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to activate Phantom Retreat where you're currently standing. <strong>Spend another Hope</strong> at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> para ativar Retirada Fantasma onde você está agora. <strong>Gaste outra Esperança</strong> a qualquer momento antes do seu próximo descanso para desaparecer de onde está e reaparecer onde estava quando ativou Retirada Fantasma. Esta magia termina depois que você reaparece.</p>",
     "domain": "midnight",
     "recallCost": 2,
     "level": 5,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "SE2C9Andtlw3OQLL",
         "systemPath": "actions",
-        "description": "<p>Spend a <strong>Hope</strong> to activate Phantom Retreat where you're currently standing.</p>",
+        "description": "<p>Gaste uma <strong>Esperança</strong> para ativar Retirada Fantasma onde você está agora.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/magic/air/air-smoke-casting.webp",
         "range": "",
         "baseAction": false,
@@ -52,7 +52,7 @@
         "type": "effect",
         "_id": "1AJRAbFtDx8Pm26q",
         "systemPath": "actions",
-        "description": "<p><strong>Spend another Hope</strong> at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.</p>",
+        "description": "<p><strong>Gaste outra Esperança</strong> a qualquer momento antes do seu próximo descanso para desaparecer de onde está e reaparecer onde estava quando ativou Retirada Fantasma. Esta magia termina depois que você reaparece.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -76,7 +76,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Retreat",
+        "name": "Recuar",
         "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
         "range": "",
         "baseAction": false,

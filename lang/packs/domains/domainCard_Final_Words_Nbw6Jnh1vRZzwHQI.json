@@ -1,10 +1,10 @@
 {
-  "name": "Final Words",
+  "name": "Últimas Palavras",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "2yh8wuYprOyswf0r",
   "system": {
-    "description": "<p>You can infuse a corpse with a moment of life to speak with it. Make a <strong>Spellcast Roll (13)</strong>. On a success with Hope, the corpse answers up to three questions. On a success with Fear, the corpse answers one question. The corpse answers truthfully, but it can't impart information it didn't know in life. On a failure, or once the corpse has finished answering your questions, the body turns to dust.</p>",
+    "description": "<p>Você pode infundir um cadáver com um momento de vida para conversar com ele. Faça um <strong>Teste de Conjuração (13)</strong>. Em um sucesso com Esperança, o cadáver responde a até três perguntas. Em um sucesso com Medo, o cadáver responde a uma pergunta. O cadáver responde com sinceridade, mas não pode revelar informações que não conhecia em vida. Em caso de falha, ou quando o cadáver terminar de responder às suas perguntas, o corpo se transforma em pó.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 2,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Infuse Corpse",
+        "name": "Infundir Cadáver",
         "img": "icons/magic/death/undead-skeleton-fire-green.webp",
         "range": "",
         "baseAction": false,

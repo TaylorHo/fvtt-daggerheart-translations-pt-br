@@ -1,10 +1,10 @@
 {
-  "name": "Mass Enrapture",
+  "name": "Cativar em Massa",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "7O1tTswJMNdPgLsx",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. <strong>Mark a Stress</strong> to force all <em>Enraptured</em> targets to mark a Stress, ending this spell.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Distante. Os alvos contra os quais você tiver sucesso ficam temporariamente <em>Cativados</em>. Enquanto <em>Cativados</em>, a atenção do alvo fica fixa em você, estreitando seu campo de visão e abafando qualquer som que não seja a sua voz. <strong>Marque um Fadiga</strong> para forçar todos os alvos <em>Cativados</em> a marcar um Fadiga, encerrando esta magia.</p>",
     "domain": "grace",
     "recallCost": 3,
     "level": 8,
@@ -58,12 +58,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Enrapture",
+        "name": "Cativar",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Mass Enrapture",
+            "name": "Cativar em Massa",
             "type": "placed",
             "shape": "emanation",
             "size": "far",
@@ -81,7 +81,7 @@
         "type": "damage",
         "_id": "QhBaM0LU9tmSI3IO",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to force all <em>Enraptured</em> targets to mark a Stress, ending this spell.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para forçar todos os alvos <em>Cativados</em> a marcar um Fadiga, encerrando esta magia.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -128,7 +128,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -156,7 +156,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Enraptured",
+      "name": "Cativado",
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "transfer": false,
       "_id": "QNbnelRylVB0yCm0",
@@ -179,7 +179,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While Enraptured, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+      "description": "<p>Enquanto Cativado, a atenção do alvo fica fixa em você, estreitando seu campo de visão e abafando qualquer som que não seja a sua voz.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

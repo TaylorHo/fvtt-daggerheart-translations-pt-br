@@ -1,10 +1,10 @@
 {
-  "name": "Restoration",
+  "name": "Restauração",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "OwsbTSWzKq2WJmQN",
   "system": {
-    "description": "<p>After a long rest, place a number of tokens equal to your Spellcast trait on this card. Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p><p>You can also spend a token from this card when touching a creature to clear the <em>Vulnerable</em> condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).</p><p>When you take a long rest, clear all unspent tokens.</p>",
+    "description": "<p>Depois de um descanso longo, coloque nesta carta uma quantidade de fichas igual à sua característica de Conjuração. Toque em uma criatura e gaste qualquer quantidade de fichas para limpar 2 Pontos de Vida ou 2 Fadiga por ficha gasta.</p><p>Você também pode gastar uma ficha desta carta ao tocar em uma criatura para limpar a condição <em>Vulnerável</em> ou curar uma enfermidade física ou mágica (o Mestre pode exigir fichas adicionais dependendo da gravidade da enfermidade).</p><p>Quando você faz um descanso longo, limpe todas as fichas não gastas.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 6,
@@ -24,7 +24,7 @@
         "type": "healing",
         "_id": "udmHKUtCDClxeB4h",
         "systemPath": "actions",
-        "description": "<p>Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p>",
+        "description": "<p>Toque em uma criatura e gaste qualquer quantidade de fichas para limpar 2 Pontos de Vida ou 2 Fadiga por ficha gasta.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -86,7 +86,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Hitpoints",
+        "name": "Curar Pontos de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -100,7 +100,7 @@
         "type": "healing",
         "_id": "TvF88tS5x3Yof8Q1",
         "systemPath": "actions",
-        "description": "<p>Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p>",
+        "description": "<p>Toque em uma criatura e gaste qualquer quantidade de fichas para limpar 2 Pontos de Vida ou 2 Fadiga por ficha gasta.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -162,7 +162,7 @@
           },
           "useDefault": false
         },
-        "name": "Reduce Stress",
+        "name": "Reduzir Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -176,7 +176,7 @@
         "type": "effect",
         "_id": "LFDgLQ2CjnBEoTH9",
         "systemPath": "actions",
-        "description": "<p>You can also spend a token from this card when touching a creature to clear the <em>Vulnerable</em> condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).</p>",
+        "description": "<p>Você também pode gastar uma ficha desta carta ao tocar em uma criatura para limpar a condição <em>Vulnerável</em> ou curar uma enfermidade física ou mágica (o Mestre pode exigir fichas adicionais dependendo da gravidade da enfermidade).</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -200,7 +200,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Remove Condition",
+        "name": "Remover Condição",
         "img": "icons/magic/light/beam-rays-yellow.webp",
         "range": "",
         "baseAction": false,

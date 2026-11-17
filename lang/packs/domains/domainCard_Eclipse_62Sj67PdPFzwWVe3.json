@@ -4,7 +4,7 @@
   "type": "domainCard",
   "folder": "8qr1Y2tW3vLwNZOg",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.</p><p>Additionally, when you or an ally succeeds with Hope against an adversary within this shadow, the target must mark a Stress.</p><p>This spell lasts until the GM spends a <strong>Fear</strong> on their turn to clear this effect or you take Severe damage.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (16)</strong>. Uma vez por descanso longo, em caso de sucesso, mergulhe toda a área dentro do alcance Distante em escuridão completa que somente você e seus aliados conseguem enxergar através. Testes de ataque têm desvantagem ao mirar em você ou em um aliado dentro desta sombra.</p><p>Além disso, quando você ou um aliado tiver sucesso com Esperança contra um adversário dentro desta sombra, o alvo deve marcar um Fadiga.</p><p>Esta magia dura até o Mestre gastar um <strong>Medo</strong> em seu turno para encerrar este efeito ou você sofrer dano Severo.</p>",
     "domain": "midnight",
     "recallCost": 2,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "7vU2EBQ1bp3OF3G3",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (16)</strong>. Uma vez por descanso longo, em caso de sucesso, mergulhe toda a área dentro do alcance Distante em escuridão completa que somente você e seus aliados conseguem enxergar através. Testes de ataque têm desvantagem ao mirar em você ou em um aliado dentro desta sombra.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/nature/moon-crescent.webp",
         "range": "far",
         "areas": [
@@ -119,7 +119,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Target Marks Stress",
+        "name": "Alvo Marca Fadiga",
         "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
         "range": "",
         "baseAction": false,
@@ -147,7 +147,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "In the Eclipse",
+      "name": "No Eclipse",
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "transfer": false,
       "_id": "ARMcw2FtKfaYr902",
@@ -177,7 +177,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>",
+      "description": "<p>Testes de ataque têm desvantagem ao mirar em você ou em um aliado dentro desta sombra.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

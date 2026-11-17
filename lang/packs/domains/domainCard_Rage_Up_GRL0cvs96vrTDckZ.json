@@ -1,10 +1,10 @@
 {
-  "name": "Rage Up",
+  "name": "Fúria Crescente",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "EiP5dLozOFZKIeWN",
   "system": {
-    "description": "<p>Before you make an attack, you can <strong>mark a Stress</strong> to gain a bonus to your damage roll equal to twice your Strength.</p><p>You can Rage Up twice per attack.</p>",
+    "description": "<p>Antes de fazer um ataque, você pode <strong>marcar um Fadiga</strong> para ganhar um bônus na rolagem de dano igual ao dobro da sua Força.</p><p>Você pode usar Fúria Crescente duas vezes por ataque.</p>",
     "domain": "blade",
     "recallCost": 1,
     "level": 6,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "LmjwPg03xLnoGTHm",
         "systemPath": "actions",
-        "description": "<p>You can <strong>mark a Stress</strong> to gain a bonus to your damage roll equal to twice your Strength.</p>",
+        "description": "<p>Você pode <strong>marcar um Fadiga</strong> para ganhar um bônus na rolagem de dano igual ao dobro da sua Força.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/wounds/injury-face-impact-orange.webp",
         "range": "self",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Rage Up",
+      "name": "Fúria Crescente",
       "img": "icons/skills/wounds/injury-face-impact-orange.webp",
       "transfer": false,
       "_id": "bq1MhcmoP6Wo5CXF",
@@ -105,7 +105,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>For your next attack you have a bonus to your damage roll equal to twice your Strength.</p>",
+      "description": "<p>No seu próximo ataque, você tem um bônus na rolagem de dano igual ao dobro da sua Força.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -126,7 +126,7 @@
       "_key": "!items.effects!GRL0cvs96vrTDckZ.bq1MhcmoP6Wo5CXF"
     },
     {
-      "name": "Rage Up (2)",
+      "name": "Fúria Crescente (2)",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
       "transfer": false,
       "_id": "t6SIjQxB6UBUJ98f",

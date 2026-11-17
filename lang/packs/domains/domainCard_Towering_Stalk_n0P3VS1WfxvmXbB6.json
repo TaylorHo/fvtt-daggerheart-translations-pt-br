@@ -1,10 +1,10 @@
 {
-  "name": "Towering Stalk",
+  "name": "Caule Imponente",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "uXGugK72AffddFdH",
   "system": {
-    "description": "<p>Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.</p><p><strong>Mark a Stress</strong> to use this spell as an attack. Make a <strong>Spellcast Roll</strong> against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing <strong>d8</strong> physical damage using your Proficiency.</p>",
+    "description": "<p>Uma vez por descanso, você pode conjurar um caule grosso e retorcido dentro do alcance Próximo que pode ser facilmente escalado. Sua altura pode chegar até o alcance Distante.</p><p><strong>Marque um Fadiga</strong> para usar esta magia como um ataque. Faça um <strong>Teste de Conjuração</strong> contra um adversário ou grupo de adversários dentro do alcance Próximo. O caule em erupção ergue no ar os alvos contra os quais você tiver sucesso e os derruba, causando <strong>d8</strong> de dano físico usando sua Proficiência.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "KzEDeofyjxeg3pV5",
         "systemPath": "actions",
-        "description": "<p><strong>Mark a Stress</strong> to use this spell as an attack. Make a <strong>Spellcast Roll</strong> against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing <strong>d8</strong> physical damage using your Proficiency.</p>",
+        "description": "<p><strong>Marque um Fadiga</strong> para usar esta magia como um ataque. Faça um <strong>Teste de Conjuração</strong> contra um adversário ou grupo de adversários dentro do alcance Próximo. O caule em erupção ergue no ar os alvos contra os quais você tiver sucesso e os derruba, causando <strong>d8</strong> de dano físico usando sua Proficiência.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -92,12 +92,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Use as attack",
+        "name": "Usar como ataque",
         "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Towering Stalk",
+            "name": "Caule Imponente",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -115,7 +115,7 @@
         "type": "effect",
         "_id": "I6eSBTpuYDU1nEgr",
         "systemPath": "actions",
-        "description": "<p>Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.</p>",
+        "description": "<p>Uma vez por descanso, você pode conjurar um caule grosso e retorcido dentro do alcance Próximo que pode ser facilmente escalado. Sua altura pode chegar até o alcance Distante.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -139,7 +139,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Conjure Stalk",
+        "name": "Conjurar Caule",
         "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
         "range": "",
         "baseAction": false,

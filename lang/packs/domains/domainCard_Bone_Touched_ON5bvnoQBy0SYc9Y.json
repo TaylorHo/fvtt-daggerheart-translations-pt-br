@@ -1,10 +1,10 @@
 {
-  "name": "Bone-Touched",
+  "name": "Tocado pela Falange",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "i5iDLXMZLc0ckWI5",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Bone domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonus to Agility</p></li><li class=\"vertical-card-list-found\"><p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an attack that succeeded against you to fail instead.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Falange, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Bônus de +1 em Agilidade</p></li><li class=\"vertical-card-list-found\"><p>Uma vez por descanso, você pode <strong>gastar 3 Esperança</strong> para fazer com que um ataque que foi bem-sucedido contra você falhe.</p></li></ul>",
     "domain": "bone",
     "recallCost": 2,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "pRSiIoh4Bzk5I9ej",
         "systemPath": "actions",
-        "description": "<p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an attack that succeeded against you to fail instead.</p>",
+        "description": "<p>Uma vez por descanso, você pode <strong>gastar 3 Esperança</strong> para fazer com que um ataque que foi bem-sucedido contra você falhe.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -38,7 +38,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
         "range": "",
         "baseAction": false,
@@ -66,7 +66,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Bone Touched",
+      "name": "Tocado pela Falange",
       "type": "base",
       "system": {
         "changes": [
@@ -95,7 +95,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>+1 bonus to Agility</p>",
+      "description": "<p>Bônus de +1 em Agilidade</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,10 +1,10 @@
 {
-  "name": "Safe Haven",
+  "name": "Refúgio Seguro",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "8bWpGblWODdf8mDR",
   "system": {
-    "description": "<p>When you have a few minutes of calm to focus, you can <strong>spend 2 Hope</strong> to summon your Safe Haven, a large interdimensional home where you and your allies can take shelter. When you do, a magical door appears somewhere within Close range. Only creatures of your choice can enter. Once inside, you can make the entrance invisible. You and anyone else inside can always exit. Once you leave, the doorway must be summoned again.</p><p>When you take a rest within your own Safe Haven, you can choose an additional downtime move.</p>",
+    "description": "<p>Quando você tem alguns minutos de calma para se concentrar, pode <strong>gastar 2 Esperança</strong> para invocar seu Refúgio Seguro, uma grande morada interdimensional onde você e seus aliados podem se abrigar. Quando fizer isso, uma porta mágica aparece em algum lugar dentro do alcance Próximo. Apenas criaturas de sua escolha podem entrar. Uma vez lá dentro, você pode tornar a entrada invisível. Você e qualquer outra pessoa lá dentro podem sempre sair. Depois que você sair, a porta precisa ser invocada novamente.</p><p>Quando você faz um descanso dentro do seu próprio Refúgio Seguro, pode escolher uma ação de intervalo adicional.</p>",
     "domain": "codex",
     "recallCost": 3,
     "level": 8,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/environment/settlement/watchtower-moonlit-blue.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Safe Haven",
+      "name": "Refúgio Seguro",
       "img": "icons/environment/settlement/watchtower-moonlit-blue.webp",
       "transfer": false,
       "_id": "UaqohKZnokIPLeYf",
@@ -108,7 +108,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When you take a rest within your own Safe Haven, you can choose an additional downtime move.</p>",
+      "description": "<p>Quando você faz um descanso dentro do seu próprio Refúgio Seguro, pode escolher uma ação de intervalo adicional.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

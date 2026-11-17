@@ -1,10 +1,10 @@
 {
-  "name": "Shape Material",
+  "name": "Moldar Material",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "Jbw6Teaha6So9tym",
   "system": {
-    "description": "<p><strong>Spend a Hope</strong> to shape a section of natural material you're touching (such as stone, ice, or wood) to suit your purpose. The area of the material can be no larger than you. For example, you can form a rudimentary tool or create a door.</p><p>You can only affect the material within Close range of where you're touching it.</p>",
+    "description": "<p><strong>Gaste uma Esperança</strong> para moldar uma seção de material natural que você esteja tocando (como pedra, gelo ou madeira) de acordo com seu propósito. A área do material não pode ser maior que você. Por exemplo, você pode formar uma ferramenta rudimentar ou criar uma porta.</p><p>Você só pode afetar o material dentro do alcance Próximo de onde o está tocando.</p>",
     "domain": "splendor",
     "recallCost": 1,
     "level": 5,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Shape",
+        "name": "Moldar",
         "img": "icons/commodities/stone/geode-raw-white.webp",
         "range": "",
         "baseAction": false,

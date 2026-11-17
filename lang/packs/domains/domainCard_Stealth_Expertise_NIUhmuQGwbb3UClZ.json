@@ -1,10 +1,10 @@
 {
-  "name": "Stealth Expertise",
+  "name": "Perícia em Furtividade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "WTdOLLkQyPdg0KWU",
   "system": {
-    "description": "<p>When you roll with Fear while attempting to move unnoticed through a dangerous area, you can <strong>mark a Stress</strong> to roll with Hope instead.</p><p>If an ally within Close range is also attempting to move unnoticed and rolls with Fear, you can <strong>mark a Stress</strong> to change their result to a roll with Hope.</p>",
+    "description": "<p>Quando você rola com Medo ao tentar se mover sem ser notado por uma área perigosa, pode <strong>marcar um Fadiga</strong> para rolar com Esperança em vez disso.</p><p>Se um aliado dentro do alcance Próximo também estiver tentando se mover sem ser notado e rolar com Medo, você pode <strong>marcar um Fadiga</strong> para mudar o resultado dele para uma rolagem com Esperança.</p>",
     "domain": "midnight",
     "recallCost": 0,
     "level": 4,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Change Fear to Hope",
+        "name": "Mudar Medo em Esperança",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "close",
         "baseAction": false,

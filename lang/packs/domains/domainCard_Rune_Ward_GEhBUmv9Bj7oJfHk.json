@@ -1,10 +1,10 @@
 {
-  "name": "Rune Ward",
+  "name": "Proteção Rúnica",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "o7kvw9NRGvDZSce2",
   "system": {
-    "description": "<p>You have a deeply personal trinket that can be infused with protective magic and held as a ward by you or an ally. Describe what it is and why it's important to you. The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>",
+    "description": "<p>Você tem uma bugiganga muito pessoal que pode ser imbuída de magia protetora e carregada como um amuleto por você ou por um aliado. Descreva o que ela é e por que é importante para você. Quem estiver com o amuleto pode gastar uma Esperança para reduzir o dano recebido em <strong>1d8</strong>.</p><p>Se o resultado do Dado de Proteção for 8, o poder do amuleto termina depois de reduzir o dano neste turno. Ele pode ser recarregado gratuitamente no seu próximo descanso.</p>",
     "domain": "arcana",
     "recallCost": 0,
     "level": 1,
@@ -15,7 +15,7 @@
         "_id": "kvZVvvcAnR21ykD7",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>",
+        "description": "<p>Quem estiver com o amuleto pode gastar uma Esperança para reduzir o dano recebido em <strong>1d8</strong>.</p><p>Se o resultado do Dado de Proteção for 8, o poder do amuleto termina depois de reduzir o dano neste turno. Ele pode ser recarregado gratuitamente no seu próximo descanso.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -40,7 +40,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Give Rune Ward",
+        "name": "Dar Proteção Rúnica",
         "range": "",
         "img": "icons/commodities/gems/gem-faceted-diamond-pink-gold.webp"
       }
@@ -62,10 +62,10 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Rune Ward",
+      "name": "Proteção Rúnica",
       "disabled": false,
       "img": "icons/commodities/treasure/brooch-jeweled-pink.webp",
-      "description": "<p>The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>",
+      "description": "<p>Quem estiver com o amuleto pode gastar uma Esperança para reduzir o dano recebido em <strong>1d8</strong>.</p><p>Se o resultado do Dado de Proteção for 8, o poder do amuleto termina depois de reduzir o dano neste turno. Ele pode ser recarregado gratuitamente no seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -75,7 +75,7 @@
             "phase": "initial",
             "priority": 0,
             "value": {
-              "label": "Rune Ward",
+              "label": "Proteção Rúnica",
               "value": "1d8",
               "costs": [
                 {

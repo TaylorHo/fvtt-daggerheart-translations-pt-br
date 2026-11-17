@@ -1,10 +1,10 @@
 {
-  "name": "Resurrection",
+  "name": "Ressurreição",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "nZr2hsu6Q6TlFXQn",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong><strong> (20)</strong>. On a success, restore one creature who has been dead no longer than 100 years to full strength. Then roll a <strong>d6</strong>. On a result of 5 or lower, place this card in your vault permanently.</p><p>On a failure, you can't cast Resurrection again for a week.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong><strong> (20)</strong>. Em caso de sucesso, restaure à plena força uma criatura que esteja morta há no máximo 100 anos. Em seguida, role um <strong>d6</strong>. Em um resultado 5 ou menos, coloque esta carta permanentemente no seu cofre.</p><p>Em caso de falha, você não pode lançar Ressurreição novamente por uma semana.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "znSDInMjOlFZn7Vp",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (20)</strong>. On a success, restore one creature who has been dead no longer than 100 years to full strength.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (20)</strong>. Em caso de sucesso, restaure à plena força uma criatura que esteja morta há no máximo 100 anos.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
         "range": "",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "NurXUfoPDSVptejR",
         "systemPath": "actions",
-        "description": "<p>Then roll a <strong>d6</strong>. On a result of 5 or lower, place this card in your vault permanently. On a failure, you can't cast Resurrection again for a week.</p>",
+        "description": "<p>Em seguida, role um <strong>d6</strong>. Em um resultado 5 ou menos, coloque esta carta permanentemente no seu cofre. Em caso de falha, você não pode lançar Ressurreição novamente por uma semana.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -106,7 +106,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Keep Card",
+        "name": "Manter Carta",
         "img": "icons/sundries/gaming/dice-runed-brown.webp",
         "range": "",
         "baseAction": false,

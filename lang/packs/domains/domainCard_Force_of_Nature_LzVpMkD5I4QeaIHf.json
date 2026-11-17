@@ -1,10 +1,10 @@
 {
-  "name": "Force of Nature",
+  "name": "Força da Natureza",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "pPzU9WOQNv3ckO1w",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to transform into a hulking nature spirit, gaining the following benefits:</p><ul><li class=\"vertical-card-list\"><p>When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.</p></li><li class=\"vertical-card-list\"><p>When you deal enough damage to defeat a creature within Close range, you absorb them and clear an Armor Slot.</p></li><li class=\"vertical-card-list\"><p>You can't be <em>Restrained</em>.</p></li></ul><p>Before you make an action roll, you must <strong>spend a Hope</strong>. If you can't, you revert to your normal form.</p>",
+    "description": "<p><strong>Marque um Fadiga</strong> para se transformar em um enorme espírito da natureza, recebendo os seguintes benefícios:</p><ul><li class=\"vertical-card-list\"><p>Quando você tem sucesso em um ataque ou Teste de Conjuração, receba um bônus de +10 na rolagem de dano.</p></li><li class=\"vertical-card-list\"><p>Quando você causa dano suficiente para derrotar uma criatura dentro do alcance Próximo, você a absorve e limpa um Espaço de Armadura.</p></li><li class=\"vertical-card-list\"><p>Você não pode ser <em>Restringido</em>.</p></li></ul><p>Antes de fazer um teste de ação, você deve <strong>gastar uma Esperança</strong>. Se não puder, você volta à sua forma normal.</p>",
     "domain": "sage",
     "recallCost": 2,
     "level": 10,
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Transform",
+        "name": "Transformar",
         "img": "icons/magic/nature/elemental-plant-humanoid.webp",
         "range": "self",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "effect",
         "_id": "1rLoYS90AZizJujS",
         "systemPath": "actions",
-        "description": "<p>Before you make an action roll, you must <strong>spend a Hope</strong>. If you can't, you revert to your normal form.</p>",
+        "description": "<p>Antes de fazer um teste de ação, você deve <strong>gastar uma Esperança</strong>. Se não puder, você volta à sua forma normal.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -81,7 +81,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope for Action",
+        "name": "Gastar Esperança por Ação",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -109,7 +109,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Force of Nature",
+      "name": "Força da Natureza",
       "img": "icons/magic/nature/elemental-plant-humanoid.webp",
       "transfer": false,
       "_id": "ptBC882plZW39Ld9",
@@ -146,7 +146,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<ul><li><p>When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.</p></li><li><p>When you deal enough damage to defeat a creature within Close range, you absorb them and clear an Armor Slot.</p></li><li><p>You can't be <em>Restrained</em>.</p></li><li><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p></li></ul>",
+      "description": "<ul><li><p>Quando você tem sucesso em um ataque ou Teste de Conjuração, receba um bônus de +10 na rolagem de dano.</p></li><li><p>Quando você causa dano suficiente para derrotar uma criatura dentro do alcance Próximo, você a absorve e limpa um Espaço de Armadura.</p></li><li><p>Você não pode ser <em>Restringido</em>.</p></li><li><p>Antes de fazer um teste de ação, você deve gastar uma Esperança. Se não puder, você volta à sua forma normal.</p></li></ul>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

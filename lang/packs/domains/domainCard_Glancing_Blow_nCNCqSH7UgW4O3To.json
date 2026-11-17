@@ -1,10 +1,10 @@
 {
-  "name": "Glancing Blow",
+  "name": "Golpe de Raspão",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "HAGbPLHwm0UozDeG",
   "system": {
-    "description": "<p>When you fail an attack, you can <strong>mark a Stress</strong> to deal weapon damage using half your Proficiency.</p>",
+    "description": "<p>Quando você falha em um ataque, pode <strong>marcar um Fadiga</strong> para causar dano de arma usando metade da sua Proficiência.</p>",
     "domain": "blade",
     "recallCost": 1,
     "level": 7,
@@ -42,7 +42,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark a Stress",
+        "name": "Marcar um Fadiga",
         "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
         "range": "",
         "baseAction": false,

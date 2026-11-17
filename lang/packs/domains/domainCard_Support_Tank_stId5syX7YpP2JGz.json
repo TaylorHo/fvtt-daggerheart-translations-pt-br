@@ -1,10 +1,10 @@
 {
-  "name": "Support Tank",
+  "name": "Tanque de Apoio",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "cOZgzLQRGNnBzsHT",
   "system": {
-    "description": "<p>When an ally within Close range fails a roll, you can <strong>spend 2 Hope</strong> to allow them to reroll either their Hope or Fear Die.</p>",
+    "description": "<p>Quando um aliado dentro do alcance Próximo falha em um teste, você pode <strong>gastar 2 Esperança</strong> para permitir que ele role novamente seu Dado de Esperança ou seu Dado de Medo.</p>",
     "domain": "valor",
     "recallCost": 2,
     "level": 4,
@@ -38,7 +38,7 @@
           "type": "friendly",
           "amount": 1
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
         "range": "close",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Night Terror",
+  "name": "Terror Noturno",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "2rqOUxEglhhPKk2j",
   "system": {
-    "description": "<p>Once per long rest, choose any targets within Very Close range to perceive you as a nightmarish horror. The targets must succeed on a Reaction Roll (16) or become temporarily <em>Horrified</em>. While <em>Horrified</em>, they're <em>Vulnerable</em>. Steal a number of Fear from the GM equal to the number of targets that are <em>Horrified</em> (up to the number of Fear in the GM's pool). Roll a number of <strong>d6s</strong> equal to the number of stolen Fear and deal the total damage to each <em>Horrified</em> target. Discard the stolen Fear.</p>",
+    "description": "<p>Uma vez por descanso longo, escolha quaisquer alvos dentro do alcance Muito Próximo para que percebam você como um horror de pesadelo. Os alvos devem ser bem-sucedidos em um Teste de Reação (16) ou ficar temporariamente <em>Horrorizados</em>. Enquanto <em>Horrorizados</em>, eles ficam <em>Vulneráveis</em>. Roube do Mestre uma quantidade de Medo igual ao número de alvos <em>Horrorizados</em> (até o número de Medo na reserva do Mestre). Role uma quantidade de <strong>d6</strong> igual ao número de Medo roubado e cause o dano total a cada alvo <em>Horrorizado</em>. Descarte o Medo roubado.</p>",
     "domain": "midnight",
     "recallCost": 2,
     "level": 9,
@@ -58,12 +58,12 @@
           "difficulty": 16,
           "damageMod": "none"
         },
-        "name": "Horrify",
+        "name": "Horrorizar",
         "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Night Terror",
+            "name": "Terror Noturno",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -81,7 +81,7 @@
         "type": "damage",
         "_id": "ELzQvftGxZigPkBH",
         "systemPath": "actions",
-        "description": "<p>Steal a number of Fear from the GM equal to the number of targets that are Horrified (up to the number of Fear in the GM's pool). Roll a number of d6s equal to the number of stolen Fear and deal the total damage to each Horrified target. Discard the stolen Fear.</p>",
+        "description": "<p>Roube do Mestre uma quantidade de Medo igual ao número de alvos Horrorizados (até o número de Medo na reserva do Mestre). Role uma quantidade de d6 igual ao número de Medo roubado e cause o dano total a cada alvo Horrorizado. Descarte o Medo roubado.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -129,7 +129,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Steal Fear",
+        "name": "Roubar Medo",
         "img": "icons/commodities/gems/gem-faceted-diamond-pink.webp",
         "range": "",
         "baseAction": false,
@@ -157,7 +157,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Horrified",
+      "name": "Horrorizado",
       "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
       "transfer": false,
       "_id": "32j3ZeNMMCk1QLlM",
@@ -180,7 +180,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While Horrified, they're Vulnerable.</p>",
+      "description": "<p>Enquanto Horrorizados, eles ficam Vulneráveis.</p>",
       "tint": "#ffffff",
       "statuses": [
         "vulnerable"

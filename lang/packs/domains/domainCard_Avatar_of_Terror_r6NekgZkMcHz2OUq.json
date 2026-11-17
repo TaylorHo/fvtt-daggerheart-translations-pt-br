@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Avatar of Terror",
+  "name": "Avatar do Terror",
   "folder": "zZSPtyWjYqruXtbs",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p><strong>Mark a Stress</strong> to transform into a creature fueled by fear. While in this form, you gain a <strong>1d6</strong> bonus to your damage rolls for each Fear in the GM's pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.</p><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p>",
+    "description": "<p><strong>Marque um Fadiga</strong> para se transformar em uma criatura movida pelo medo. Enquanto estiver nesta forma, você ganha um bônus de <strong>1d6</strong> nas suas rolagens de dano para cada Medo na reserva do Mestre. Além disso, você ganha uma Esperança quando o Mestre gasta um Medo para dar destaque a um adversário dentro do alcance Muito Próximo.</p><p>Antes de fazer um teste de ação, você deve gastar uma Esperança. Se não puder, você volta à sua forma normal.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "self",
         "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp"
       }
@@ -68,10 +68,10 @@
   "img": "systems/daggerheart/assets/icons/domains/domain-card/dread.png",
   "effects": [
     {
-      "name": "Avatar Of Terror",
+      "name": "Avatar do Terror",
       "disabled": false,
       "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
-      "description": "<p>While in this form, you gain a <strong>1d6</strong> bonus to your damage rolls for each Fear in the GM's pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.</p><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p>",
+      "description": "<p>Enquanto estiver nesta forma, você ganha um bônus de <strong>1d6</strong> nas suas rolagens de dano para cada Medo na reserva do Mestre. Além disso, você ganha uma Esperança quando o Mestre gasta um Medo para dar destaque a um adversário dentro do alcance Muito Próximo.</p><p>Antes de fazer um teste de ação, você deve gastar uma Esperança. Se não puder, você volta à sua forma normal.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

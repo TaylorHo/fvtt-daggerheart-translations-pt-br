@@ -1,10 +1,10 @@
 {
-  "name": "Reckless",
+  "name": "Imprudente",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "o7t2fsAmRxKLoHrO",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to gain advantage on an attack.</p>",
+    "description": "<p><strong>Marque um Fadiga</strong> para ganhar vantagem em um ataque.</p>",
     "domain": "blade",
     "recallCost": 1,
     "level": 2,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark a Stress",
+        "name": "Marcar um Fadiga",
         "img": "icons/magic/control/silhouette-aura-energy.webp",
         "range": "",
         "baseAction": false,

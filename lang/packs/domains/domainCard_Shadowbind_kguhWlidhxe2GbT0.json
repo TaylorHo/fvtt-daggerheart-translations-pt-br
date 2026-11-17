@@ -1,10 +1,10 @@
 {
-  "name": "Shadowbind",
+  "name": "Amarra Sombria",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "Abn46nCQst6kpGeA",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against all adversaries within Very Close range. Targets you succeed against are temporarily <em>Restrained</em> as their shadow binds them in place.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra todos os adversários dentro do alcance Muito Próximo. Os alvos contra os quais você tiver sucesso ficam temporariamente <em>Restringidos</em> enquanto sua sombra os prende no lugar.</p>",
     "domain": "midnight",
     "recallCost": 0,
     "level": 2,
@@ -58,12 +58,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/control/debuff-energy-snare-blue.webp",
         "range": "veryClose",
         "areas": [
           {
-            "name": "Shadowbind",
+            "name": "Amarra Sombria",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Restrained",
+      "name": "Restringido",
       "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
       "transfer": false,
       "_id": "RFB4V0V4bDJ6vCL2",

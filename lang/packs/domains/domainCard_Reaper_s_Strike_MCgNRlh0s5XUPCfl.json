@@ -1,10 +1,10 @@
 {
-  "name": "Reaper's Strike",
+  "name": "Golpe do Ceifador",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "QYdeGsmVYIF34kZR",
   "system": {
-    "description": "<p>Once per long rest, <strong>spend a Hope</strong> to make an attack roll. The GM tells you which targets within range it would succeed against. Choose one of these targets and force them to mark 5 Hit Points.</p>",
+    "description": "<p>Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para fazer um teste de ataque. O Mestre diz contra quais alvos dentro do alcance ele seria bem-sucedido. Escolha um desses alvos e force-o a marcar 5 Pontos de Vida.</p>",
     "domain": "blade",
     "recallCost": 3,
     "level": 9,
@@ -81,7 +81,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spend a Hope",
+        "name": "Gastar uma Esperança",
         "img": "icons/skills/melee/strike-axe-red.webp",
         "range": "",
         "baseAction": false,

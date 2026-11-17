@@ -1,10 +1,10 @@
 {
-  "name": "Copycat",
+  "name": "Imitador",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "yFcD1LOM3xKbkNYl",
   "system": {
-    "description": "<p>Once per long rest, this card can mimic the features of another domain card of level 8 or lower in another player's loadout. <strong>Spend Hope equal to half the card's level</strong> to gain access to the feature. It lasts until your next rest or they place the card in their vault.</p>",
+    "description": "<p>Uma vez por descanso longo, esta carta pode imitar as características de outra carta de domínio de nível 8 ou inferior no carregamento de outro jogador. <strong>Gaste Esperança igual à metade do nível da carta</strong> para ter acesso à característica. Ela dura até seu próximo descanso ou até o outro jogador colocar a carta em seu cofre.</p>",
     "domain": "grace",
     "recallCost": 3,
     "level": 9,
@@ -30,7 +30,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mimic",
+        "name": "Imitar",
         "img": "icons/magic/perception/hand-eye-black.webp",
         "range": "",
         "baseAction": false,

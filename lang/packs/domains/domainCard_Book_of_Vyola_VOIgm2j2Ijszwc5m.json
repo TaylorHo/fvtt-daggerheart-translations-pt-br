@@ -1,10 +1,10 @@
 {
-  "name": "Book of Vyola",
+  "name": "Livro de Vyola",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "8bWpGblWODdf8mDR",
   "system": {
-    "description": "<p><em><strong>Memory Delve:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.</p><p><em><strong>Shared Clarity:</strong> </em>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>",
+    "description": "<p><em><strong>Mergulho na Memória:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, perscrute a mente do alvo e faça uma pergunta ao Mestre. O Mestre descreve quaisquer memórias que o alvo tenha relacionadas à resposta.</p><p><em><strong>Clareza Compartilhada:</strong> </em>Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para escolher duas criaturas dispostas. Quando uma delas fosse marcar Fadiga, elas podem escolher entre as duas quem o marca. Esta magia dura até o próximo descanso delas.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 8,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "gV6i6Nn6Qolc6PuF",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, perscrute a mente do alvo e faça uma pergunta ao Mestre. O Mestre descreve quaisquer memórias que o alvo tenha relacionadas à resposta.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Memory Delve",
+        "name": "Mergulho na Memória",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "range": "far",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "effect",
         "_id": "djZ0hQamdwzvYeKc",
         "systemPath": "actions",
-        "description": "<p>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>",
+        "description": "<p>Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para escolher duas criaturas dispostas. Quando uma delas fosse marcar Fadiga, elas podem escolher entre as duas quem o marca. Esta magia dura até o próximo descanso delas.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -96,7 +96,7 @@
           "type": "any",
           "amount": 2
         },
-        "name": "Shared Clarity",
+        "name": "Clareza Compartilhada",
         "img": "icons/magic/control/energy-stream-link-large-teal.webp",
         "range": "",
         "baseAction": false,
@@ -124,7 +124,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Shared Clarity",
+      "name": "Clareza Compartilhada",
       "img": "icons/magic/control/energy-stream-link-large-teal.webp",
       "transfer": false,
       "_id": "6PPapwuwgKy23oHg",
@@ -146,7 +146,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>",
+      "description": "<p>Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para escolher duas criaturas dispostas. Quando uma delas fosse marcar Fadiga, elas podem escolher entre as duas quem o marca. Esta magia dura até o próximo descanso delas.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

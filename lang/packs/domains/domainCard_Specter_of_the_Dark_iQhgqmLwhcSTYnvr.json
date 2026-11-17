@@ -1,10 +1,10 @@
 {
-  "name": "Specter of the Dark",
+  "name": "Espectro das Trevas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "8qr1Y2tW3vLwNZOg",
   "system": {
-    "description": "<p><strong>Mark a Stress</strong> to become <em>Spectral </em>until you make an action roll targeting another creature. While <em>Spectral</em>, you're immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you're in this form.</p>",
+    "description": "<p><strong>Marque um Fadiga</strong> para ficar <em>Espectral </em>até fazer um teste de ação mirando outra criatura. Enquanto <em>Espectral</em>, você é imune a dano físico e pode flutuar e atravessar objetos sólidos. Outras criaturas ainda podem ver você enquanto estiver nessa forma.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 10,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "K91pB8O1ak8fikUj",
         "systemPath": "actions",
-        "description": "<p>Mark a <strong>Stress</strong> to become Spectral until you make an action roll targeting another creature. While Spectral, you're immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you're in this form.</p>",
+        "description": "<p>Marque um <strong>Fadiga</strong> para ficar Espectral até fazer um teste de ação mirando outra criatura. Enquanto Espectral, você é imune a dano físico e pode flutuar e atravessar objetos sólidos. Outras criaturas ainda podem ver você enquanto estiver nessa forma.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Become Spectral",
+        "name": "Tornar-se Espectral",
         "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
         "range": "self",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Spectral",
+      "name": "Espectral",
       "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
       "transfer": false,
       "_id": "d9bZJl0yZnvOe2f3",

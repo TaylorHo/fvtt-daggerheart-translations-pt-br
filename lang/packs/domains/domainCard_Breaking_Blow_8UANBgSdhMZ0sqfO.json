@@ -1,10 +1,10 @@
 {
-  "name": "Breaking Blow",
+  "name": "Golpe Demolidor",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "n7pgTBYSItMzCX0s",
   "system": {
-    "description": "<p>When you make a successful attack, you can <strong>mark a Stress</strong> to make the next successful attack against that same target deal an extra <strong>2d12</strong> damage.</p>",
+    "description": "<p>Quando você faz um ataque bem-sucedido, pode <strong>marcar um Fadiga</strong> para fazer com que o próximo ataque bem-sucedido contra esse mesmo alvo cause <strong>2d12</strong> de dano extra.</p>",
     "domain": "bone",
     "recallCost": 3,
     "level": 8,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Breaking Blow",
+      "name": "Golpe Demolidor",
       "img": "icons/skills/wounds/bone-broken-knee-beam.webp",
       "transfer": false,
       "_id": "ETIeXRAib3DFBHpX",
@@ -93,7 +93,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>The next successful attack against this target deals an extra <strong>2d12</strong> damage.</p>",
+      "description": "<p>O próximo ataque bem-sucedido contra este alvo causa <strong>2d12</strong> de dano extra.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

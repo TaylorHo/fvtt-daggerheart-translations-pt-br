@@ -1,10 +1,10 @@
 {
-  "name": "Forceful Push",
+  "name": "Empurrão Forçado",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "QpOL7jPbMBzH96qR",
   "system": {
-    "description": "<p>Make an attack with your primary weapon against a target within Melee range. On a success, you deal damage and knock them back to Close range. On a success with Hope, add a <strong>d6</strong> to your damage roll.</p><p>Additionally, you can <strong>spend a Hope</strong> to make them temporarily <em>Vulnerable</em>.</p>",
+    "description": "<p>Faça um ataque com sua arma primária contra um alvo dentro do alcance Corpo a Corpo. Em caso de sucesso, você causa dano e o empurra até o alcance Próximo. Em um sucesso com Esperança, adicione um <strong>d6</strong> à sua rolagem de dano.</p><p>Além disso, você pode <strong>gastar uma Esperança</strong> para torná-lo temporariamente <em>Vulnerável</em>.</p>",
     "domain": "valor",
     "recallCost": 0,
     "level": 1,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "img": "icons/skills/melee/shield-block-bash-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -69,7 +69,7 @@
   "flags": {},
   "effects": [
     {
-      "name": "Forcefully Pushed",
+      "name": "Empurrado com Força",
       "img": "icons/skills/melee/shield-block-bash-yellow.webp",
       "transfer": false,
       "_id": "95oX6QYPySdyyh2v",

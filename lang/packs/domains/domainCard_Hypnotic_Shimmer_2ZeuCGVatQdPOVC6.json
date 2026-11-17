@@ -1,10 +1,10 @@
 {
-  "name": "Hypnotic Shimmer",
+  "name": "Cintilação Hipnótica",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "GhLhMfmSgGqS9bwU",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against all adversaries in front of you within Close range. Once per rest on a success, create an illusion of flashing colors and lights that temporarily <em>Stuns</em> targets you succeed against and forces them to mark a Stress. While <em>Stunned</em>, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra todos os adversários à sua frente dentro do alcance Próximo. Uma vez por descanso, em caso de sucesso, crie uma ilusão de cores e luzes piscantes que temporariamente <em>Atordoa</em> os alvos contra os quais você tiver sucesso e os força a marcar um Fadiga. Enquanto <em>Atordoados</em>, eles não podem usar reações nem realizar nenhuma outra ação até limparem essa condição.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 3,
@@ -77,12 +77,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
         "range": "close",
         "areas": [
           {
-            "name": "Hypnotic Shimmer",
+            "name": "Cintilação Hipnótica",
             "type": "placed",
             "shape": "inFront",
             "size": "close",
@@ -114,7 +114,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Stunned",
+      "name": "Atordoado",
       "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
       "transfer": false,
       "_id": "xAG75UWUz3aDZH3m",
@@ -137,7 +137,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>An illusion of flashing colors and lights that temporarily Stuns targets. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>",
+      "description": "<p>Uma ilusão de cores e luzes piscantes que temporariamente Atordoa os alvos. Enquanto Atordoados, eles não podem usar reações nem realizar nenhuma outra ação até limparem essa condição.</p>",
       "tint": "#ffffff",
       "statuses": [
         "stun"

@@ -1,10 +1,10 @@
 {
-  "name": "Redirect",
+  "name": "Redirecionar",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "3e8kCsLzLxiACJDb",
   "system": {
-    "description": "<p>When an attack made against you from beyond Melee range fails, roll a number of <strong>d6s</strong> equal to your Proficiency. If any roll a 6, you can <strong>mark a Stress</strong> to redirect the attack to damage an adversary within Very Close range instead.</p>",
+    "description": "<p>Quando um ataque feito contra você de além do alcance Corpo a Corpo falha, role uma quantidade de <strong>d6</strong> igual à sua Proficiência. Se algum tirar 6, você pode <strong>marcar um Fadiga</strong> para redirecionar o ataque e causar dano a um adversário dentro do alcance Muito Próximo.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 4,
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/melee/sword-twirl-orange.webp",
         "range": "",
         "baseAction": false,

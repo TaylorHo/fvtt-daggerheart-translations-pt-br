@@ -1,10 +1,10 @@
 {
-  "name": "Inspirational Words",
+  "name": "Palavras Inspiradoras",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "nVCKcZkcoEivYJaF",
   "system": {
-    "description": "<p>Your speech is imbued with power. After a long rest, place a number of tokens on this card equal to your Presence. When you speak with an ally, you can spend a token from this card to give them one benefit from the following options:</p><ul><li class=\"vertical-card-list-found\"><p>Your ally clears a Stress.</p></li><li class=\"vertical-card-list-found\"><p>Your ally clears a Hit Point.</p></li><li class=\"vertical-card-list-found\"><p>Your ally gains a Hope.</p></li></ul><p>When you take a long rest, clear all unspent tokens.</p>",
+    "description": "<p>Suas palavras são imbuídas de poder. Depois de um descanso longo, coloque nesta carta uma quantidade de fichas igual à sua Presença. Quando você falar com um aliado, pode gastar uma ficha desta carta para dar a ele um benefício dentre as seguintes opções:</p><ul><li class=\"vertical-card-list-found\"><p>Seu aliado limpa um Fadiga.</p></li><li class=\"vertical-card-list-found\"><p>Seu aliado limpa um Ponto de Vida.</p></li><li class=\"vertical-card-list-found\"><p>Seu aliado ganha uma Esperança.</p></li></ul><p>Quando você faz um descanso longo, limpe todas as fichas não gastas.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 1,
@@ -24,7 +24,7 @@
         "type": "healing",
         "_id": "5sGMd6m6Ltahit4h",
         "systemPath": "actions",
-        "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally clears a Stress.</p></li></ul>",
+        "description": "<p>Gaste uma ficha desta carta para dar a ele o seguinte:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Seu aliado limpa um Fadiga.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -86,7 +86,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -100,7 +100,7 @@
         "type": "healing",
         "_id": "QKS3vo3Nf5CK8rkF",
         "systemPath": "actions",
-        "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally clears a Hit Point.</p></li></ul>",
+        "description": "<p>Gaste uma ficha desta carta para dar a ele o seguinte:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Seu aliado limpa um Ponto de Vida.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -162,7 +162,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Hitpoint",
+        "name": "Limpar Ponto de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -176,7 +176,7 @@
         "type": "healing",
         "_id": "5xn70wYZW7k9aiVl",
         "systemPath": "actions",
-        "description": "<p>Spend a token from this card to give them the following:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Your ally gains a Hope.</p></li></ul>",
+        "description": "<p>Gaste uma ficha desta carta para dar a ele o seguinte:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Seu aliado ganha uma Esperança.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -238,7 +238,7 @@
           },
           "useDefault": false
         },
-        "name": "Give Hope",
+        "name": "Dar Esperança",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,

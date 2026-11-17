@@ -1,10 +1,10 @@
 {
-  "name": "Arcana-Touched",
+  "name": "Tocado pelo Arcano",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "bCjkysrofWPiZqNh",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Arcana domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Spellcast Rolls</p></li><li class=\"vertical-card-list-found\"><p>Once per rest, you can switch the results of your Hope and Fear Dice.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Arcano, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Bônus de +1 nos seus Testes de Conjuração</p></li><li class=\"vertical-card-list-found\"><p>Uma vez por descanso, você pode trocar os resultados dos seus Dados de Esperança e de Medo.</p></li></ul>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 7,
@@ -24,7 +24,7 @@
         "type": "effect",
         "_id": "hBh4Lt0Bdd9CtJY7",
         "systemPath": "actions",
-        "description": "<p>Once per rest, you can switch the results of your Hope and Fear Dice.</p>",
+        "description": "<p>Uma vez por descanso, você pode trocar os resultados dos seus Dados de Esperança e de Medo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -48,7 +48,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Switch Duality Results",
+        "name": "Trocar Resultados da Dualidade",
         "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -75,7 +75,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Arcana-Touched",
+      "name": "Tocado pelo Arcano",
       "type": "base",
       "system": {
         "changes": [
@@ -112,7 +112,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>When 4 or more of the domain cards in your loadout are from the Arcana domain, gain the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>+1 bonus to your Spellcast Rolls</p></li><li class=\"vertical-card-list-found\"><p>Once per rest, you can switch the results of your Hope and Fear Dice.</p></li></ul>",
+      "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Arcano, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Bônus de +1 nos seus Testes de Conjuração</p></li><li class=\"vertical-card-list-found\"><p>Uma vez por descanso, você pode trocar os resultados dos seus Dados de Esperança e de Medo.</p></li></ul>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

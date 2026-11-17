@@ -1,10 +1,10 @@
 {
-  "name": "Book of Norai",
+  "name": "Livro de Norai",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "7XeaYZPMB0SopAfo",
   "system": {
-    "description": "<p><em><strong>Mystic Tether:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, they're temporarily <em>Restrained</em> and must mark a Stress. If you target a flying creature, this spell grounds and temporarily <em>Restrains</em> them.</p><p><em><strong>Fireball:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact. The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take<strong> d20+5</strong> magic damage using your Proficiency. Targets who succeed take half damage.</p>",
+    "description": "<p><em><strong>Elo Místico:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, ele fica temporariamente <em>Restringido</em> e deve marcar um Fadiga. Se você mirar uma criatura voadora, esta magia a derruba ao chão e a <em>Restringe</em> temporariamente.</p><p><em><strong>Bola de Fogo:</strong></em> Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Distante. Em caso de sucesso, arremesse uma esfera de fogo contra ele que explode no impacto. O alvo e todas as criaturas dentro do alcance Muito Próximo dele devem fazer um Teste de Reação (13). Os alvos que falharem sofrem <strong>d20+5</strong> de dano mágico usando sua Proficiência. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "ywBVT5mbDKr485Jg",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, they're temporarily <em>Restrained</em> and must mark a Stress. If you target a flying creature, this spell grounds and temporarily <em>Restrains</em> them.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, ele fica temporariamente <em>Restringido</em> e deve marcar um Fadiga. Se você mirar uma criatura voadora, esta magia a derruba ao chão e a <em>Restringe</em> temporariamente.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -77,7 +77,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Mystic Tether",
+        "name": "Elo Místico",
         "img": "icons/magic/control/energy-stream-link-white.webp",
         "range": "far",
         "baseAction": false,
@@ -91,7 +91,7 @@
         "type": "attack",
         "_id": "GI2VkIcGDOjFRxpT",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Distante. Em caso de sucesso, arremesse uma esfera de fogo contra ele que explode no impacto.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -130,7 +130,7 @@
           "difficulty": 13,
           "damageMod": "half"
         },
-        "name": "Fireball - Cast",
+        "name": "Bola de Fogo - Lançar",
         "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
         "range": "veryFar",
         "baseAction": false,
@@ -145,7 +145,7 @@
         "_id": "HJ749c2a8WTjkSHY",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take<strong> d20+5</strong> magic damage using your Proficiency. Targets who succeed take half damage.</p>",
+        "description": "<p>O alvo e todas as criaturas dentro do alcance Muito Próximo dele devem fazer um Teste de Reação (13). Os alvos que falharem sofrem <strong>d20+5</strong> de dano mágico usando sua Proficiência. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -154,7 +154,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Fireball",
+            "name": "Bola de Fogo",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -220,7 +220,7 @@
           "difficulty": 13,
           "damageMod": "half"
         },
-        "name": "Fireball - Explosion",
+        "name": "Bola de Fogo - Explosão",
         "range": "",
         "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp"
       }
@@ -242,7 +242,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Mystic Tether",
+      "name": "Elo Místico",
       "img": "icons/magic/control/energy-stream-link-white.webp",
       "transfer": false,
       "_id": "iPnT02apql16Zhjf",

@@ -1,10 +1,10 @@
 {
-  "name": "Book of Grynn",
+  "name": "Livro de Grynn",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "rUGDM9JvGfhh9a2Y",
   "system": {
-    "description": "<p><em><strong>Arcane Deflection:</strong></em> Once per long rest, <strong>spend a Hope</strong> to negate the damage of an attack targeting you or an ally within Very Close range.</p><p><em><strong>Time Lock:</strong></em> Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a <strong>Spellcast Roll</strong> against them to maintain this spell.</p><p><em><strong>Wall of Flame:</strong></em> Make a <strong>Spellcast Roll (15)</strong>. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes <strong>4d10+3</strong> magic damage.</p>",
+    "description": "<p><em><strong>Deflexão Arcana:</strong></em> Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para anular o dano de um ataque que tenha você ou um aliado dentro do alcance Muito Próximo como alvo.</p><p><em><strong>Trava Temporal:</strong></em> Escolha um objeto dentro do alcance Distante. Esse objeto para no tempo e no espaço exatamente onde está até seu próximo descanso. Se uma criatura tentar movê-lo, faça um <strong>Teste de Conjuração</strong> contra ela para manter esta magia.</p><p><em><strong>Muralha de Chamas:</strong></em> Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, crie uma muralha temporária de chamas mágicas entre dois pontos dentro do alcance Distante. Todas as criaturas em seu caminho devem escolher um lado, e tudo o que depois atravessar a muralha sofre <strong>4d10+3</strong> de dano mágico.</p>",
     "domain": "codex",
     "recallCost": 2,
     "level": 4,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "2pyqgdVZDCUQPYaj",
         "systemPath": "actions",
-        "description": "<p>Once per long rest, <strong>spend a Hope</strong> to negate the damage of an attack targeting you or an ally within Very Close range.</p>",
+        "description": "<p>Uma vez por descanso longo, <strong>gaste uma Esperança</strong> para anular o dano de um ataque que tenha você ou um aliado dentro do alcance Muito Próximo como alvo.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -38,7 +38,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Arcane Deflection",
+        "name": "Deflexão Arcana",
         "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
         "range": "veryClose",
         "baseAction": false,
@@ -52,7 +52,7 @@
         "type": "effect",
         "_id": "0vUkyQiGHTFS3Api",
         "systemPath": "actions",
-        "description": "<p>Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a <strong>Spellcast Roll</strong> against them to maintain this spell.</p>",
+        "description": "<p>Escolha um objeto dentro do alcance Distante. Esse objeto para no tempo e no espaço exatamente onde está até seu próximo descanso. Se uma criatura tentar movê-lo, faça um <strong>Teste de Conjuração</strong> contra ela para manter esta magia.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -67,7 +67,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Time Lock",
+        "name": "Trava Temporal",
         "img": "icons/magic/time/hourglass-yellow-green.webp",
         "range": "far",
         "baseAction": false,
@@ -81,7 +81,7 @@
         "type": "attack",
         "_id": "K26kfjmTEH9zPMMO",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes <strong>4d10+3</strong> magic damage.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração (15)</strong>. Em caso de sucesso, crie uma muralha temporária de chamas mágicas entre dois pontos dentro do alcance Distante. Todas as criaturas em seu caminho devem escolher um lado, e tudo o que depois atravessar a muralha sofre <strong>4d10+3</strong> de dano mágico.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -142,12 +142,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Wall Of Flame",
+        "name": "Muralha de Chamas",
         "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
         "range": "",
         "areas": [
           {
-            "name": "Book of Grynn",
+            "name": "Livro de Grynn",
             "type": "placed",
             "shape": "line",
             "size": "far",

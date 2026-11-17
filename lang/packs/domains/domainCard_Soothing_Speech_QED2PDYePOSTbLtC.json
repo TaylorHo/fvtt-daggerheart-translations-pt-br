@@ -1,10 +1,10 @@
 {
-  "name": "Soothing Speech",
+  "name": "Fala Tranquilizante",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "thP6nUk0nkrNcpXY",
   "system": {
-    "description": "<p>During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character. When you do, you also clear 2 Hit Points.</p>",
+    "description": "<p>Durante um descanso curto, quando você dedica um tempo a confortar outro personagem enquanto usa a ação de intervalo Cuidar dos Ferimentos nele, limpe um Ponto de Vida adicional desse personagem. Quando fizer isso, você também limpa 2 Pontos de Vida.</p>",
     "domain": "grace",
     "recallCost": 1,
     "level": 4,
@@ -14,7 +14,7 @@
         "type": "healing",
         "_id": "r9mQqwdwL6J15IEf",
         "systemPath": "actions",
-        "description": "<p>During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character.</p>",
+        "description": "<p>Durante um descanso curto, quando você dedica um tempo a confortar outro personagem enquanto usa a ação de intervalo Cuidar dos Ferimentos nele, limpe um Ponto de Vida adicional desse personagem.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Another",
+        "name": "Curar Outro",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,
@@ -81,7 +81,7 @@
         "type": "healing",
         "_id": "s4KRqnNHNrSsOoNi",
         "systemPath": "actions",
-        "description": "<p>When you do, you also clear 2 Hit Points.</p>",
+        "description": "<p>Quando fizer isso, você também limpa 2 Pontos de Vida.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -134,7 +134,7 @@
           },
           "useDefault": false
         },
-        "name": "Heal Self",
+        "name": "Curar a Si Mesmo",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "",
         "baseAction": false,

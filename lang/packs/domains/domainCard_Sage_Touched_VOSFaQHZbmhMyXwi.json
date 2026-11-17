@@ -1,10 +1,10 @@
 {
-  "name": "Sage-Touched",
+  "name": "Tocado pela Sabedoria",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "gEVGjjPrjqxxZkb5",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Sage domain, gain the following benefits:</p><ul><li class=\"vertical-card-list\"><p>While you're in a natural environment, you gain a +2 bonus to your Spellcast Rolls.</p></li><li class=\"vertical-card-list\"><p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Sabedoria, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list\"><p>Enquanto estiver em um ambiente natural, você ganha um bônus de +2 nos seus Testes de Conjuração.</p></li><li class=\"vertical-card-list\"><p>Uma vez por descanso, você pode dobrar sua Agilidade ou seu Instinto ao fazer um teste que use esse atributo. Você deve escolher fazer isso antes de rolar.</p></li></ul>",
     "domain": "sage",
     "recallCost": 2,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "JVrYhunJ2qr5uOcx",
         "systemPath": "actions",
-        "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+        "description": "<p>Uma vez por descanso, você pode dobrar sua Agilidade ou seu Instinto ao fazer um teste que use esse atributo. Você deve escolher fazer isso antes de rolar.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Double Agility",
+        "name": "Dobrar Agilidade",
         "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
         "range": "",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "effect",
         "_id": "zdu8GkVWby3nz8Pa",
         "systemPath": "actions",
-        "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+        "description": "<p>Uma vez por descanso, você pode dobrar sua Agilidade ou seu Instinto ao fazer um teste que use esse atributo. Você deve escolher fazer isso antes de rolar.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -86,7 +86,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Double Instinct",
+        "name": "Dobrar Instinto",
         "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
         "range": "",
         "baseAction": false,
@@ -123,7 +123,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Increase Spellcasting",
+      "name": "Aumentar Conjuração",
       "type": "base",
       "system": {
         "changes": [
@@ -160,7 +160,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While you're in a natural environment, you gain a +2 bonus to your Spellcast Rolls.</p>",
+      "description": "<p>Enquanto estiver em um ambiente natural, você ganha um bônus de +2 nos seus Testes de Conjuração.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -175,7 +175,7 @@
       "_key": "!items.effects!VOSFaQHZbmhMyXwi.7zMpgedPII5GIYUl"
     },
     {
-      "name": "Double Agility",
+      "name": "Dobrar Agilidade",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
       "transfer": true,
       "_id": "Mmax64mlLPYxJPB7",
@@ -219,7 +219,7 @@
       "_key": "!items.effects!VOSFaQHZbmhMyXwi.Mmax64mlLPYxJPB7"
     },
     {
-      "name": "Double Instinct",
+      "name": "Dobrar Instinto",
       "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
       "transfer": true,
       "_id": "p03IjcyigL4b2WD1",
@@ -249,7 +249,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>",
+      "description": "<p>Uma vez por descanso, você pode dobrar sua Agilidade ou seu Instinto ao fazer um teste que use esse atributo. Você deve escolher fazer isso antes de rolar.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Umbral Veil",
+  "name": "Véu Umbral",
   "folder": "pO0uBPDGQi4ULPAt",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>Once per rest, you can <strong>mark a Stress</strong> to encase yourself in shadowy energy. When you do, place a number of tokens on this card equal to the number of Fear in the GM's pool. After an attack roll is made against you, you can spend any number of tokens to give the result a -1 penalty per token spent.</p><p>At the end of the scene, clear all unspent tokens.</p>",
+    "description": "<p>Uma vez por descanso, você pode <strong>marcar um Fadiga</strong> para se envolver em energia sombria. Quando fizer isso, coloque nesta carta uma quantidade de fichas igual ao número de Medo na reserva do Mestre. Depois que um teste de ataque for feito contra você, você pode gastar qualquer quantidade de fichas para dar ao resultado uma penalidade de -1 por ficha gasta.</p><p>Ao final da cena, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -94,7 +94,7 @@
           },
           "useDefault": false
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "self",
         "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp"
       },
@@ -103,7 +103,7 @@
         "_id": "oeuSyzRQ7Qtg6JaT",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>After an attack roll is made against you, you can spend any number of tokens to give the result a -1 penalty per token spent.</p>",
+        "description": "<p>Depois que um teste de ataque for feito contra você, você pode gastar qualquer quantidade de fichas para dar ao resultado uma penalidade de -1 por ficha gasta.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -132,7 +132,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Spend Tokens",
+        "name": "Gastar Fichas",
         "range": "self",
         "img": "icons/magic/defensive/barrier-shield-dome-pink.webp"
       }

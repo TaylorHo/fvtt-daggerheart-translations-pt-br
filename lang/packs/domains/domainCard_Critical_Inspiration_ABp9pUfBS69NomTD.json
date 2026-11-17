@@ -1,10 +1,10 @@
 {
-  "name": "Critical Inspiration",
+  "name": "Inspiração Crítica",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "Oo9EkkF7CDD3QZEG",
   "system": {
-    "description": "<p>Once per rest, when you critically succeed on an attack, all allies within Very Close range can clear a Stress or gain a Hope.</p>",
+    "description": "<p>Uma vez por descanso, quando você obtém sucesso crítico em um ataque, todos os aliados dentro do alcance Muito Próximo podem limpar um Fadiga ou ganhar uma Esperança.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 3,
@@ -48,7 +48,7 @@
           },
           "useDefault": false
         },
-        "name": "Critically Succeed",
+        "name": "Sucesso Crítico",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
         "range": "veryClose",
         "baseAction": false,

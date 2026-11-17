@@ -1,10 +1,10 @@
 {
-  "name": "Deft Maneuvers",
+  "name": "Manobras Ágeis",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "PeeIjbkBv41613yZ",
   "system": {
-    "description": "<p>Once per rest,<strong> mark a Stress</strong> to sprint anywhere within Far range without making an Agility Roll to get there.</p><p>If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>",
+    "description": "<p>Uma vez por descanso,<strong> marque um Fadiga</strong> para correr até qualquer lugar dentro do alcance Distante sem fazer um Teste de Agilidade para chegar lá.</p><p>Se você terminar este movimento dentro do alcance Corpo a Corpo de um adversário e fizer imediatamente um ataque contra ele, receba um bônus de +1 no teste de ataque.</p>",
     "domain": "bone",
     "recallCost": 0,
     "level": 1,
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -71,7 +71,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Deft Maneuvers",
+      "name": "Manobras Ágeis",
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "transfer": true,
       "_id": "gEDGcbsgWY2D2nOo",
@@ -109,7 +109,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>",
+      "description": "<p>Se você terminar este movimento dentro do alcance Corpo a Corpo de um adversário e fizer imediatamente um ataque contra ele, receba um bônus de +1 no teste de ataque.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

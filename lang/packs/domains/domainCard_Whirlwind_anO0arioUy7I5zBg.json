@@ -1,10 +1,10 @@
 {
-  "name": "Whirlwind",
+  "name": "Redemoinho",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "9Xc6KzNyjDtTGZkp",
   "system": {
-    "description": "<p>When you make a successful attack against a target within Very Close range, you can <strong>spend a Hope</strong> to use the attack against all other targets within Very Close range. All additional adversaries you succeed against with this ability take half damage.</p>",
+    "description": "<p>Quando você faz um ataque bem-sucedido contra um alvo dentro do alcance Muito Próximo, pode <strong>gastar uma Esperança</strong> para usar o ataque contra todos os outros alvos dentro do alcance Muito Próximo. Todos os adversários adicionais contra os quais você tiver sucesso com esta habilidade sofrem metade do dano.</p>",
     "domain": "blade",
     "recallCost": 0,
     "level": 1,
@@ -38,12 +38,12 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend a Hope",
+        "name": "Gastar uma Esperança",
         "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
         "range": "",
         "areas": [
           {
-            "name": "Whirlwind",
+            "name": "Redemoinho",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",

@@ -1,10 +1,10 @@
 {
-  "name": "Book of Exota",
+  "name": "Livro de Exota",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "rUGDM9JvGfhh9a2Y",
   "system": {
-    "description": "<p><em><strong>Repudiate:</strong></em> You can interrupt a magical effect taking place. Make a reaction roll using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.</p><p><em><strong>Create Construct:</strong></em> <strong>Spend a Hope</strong> to choose a group of objects around you and create an animated construct from them that obeys basic commands. Make a <strong>Spellcast Roll</strong> to command them to take action. When necessary, they share your Evasion and traits and their attacks deal <strong>2d10+3</strong> physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.</p>",
+    "description": "<p><em><strong>Repudiar:</strong></em> Você pode interromper um efeito mágico em andamento. Faça um teste de reação usando sua característica de Conjuração. Uma vez por descanso, em caso de sucesso, o efeito para e quaisquer consequências são evitadas.</p><p><em><strong>Criar Constructo:</strong></em> <strong>Gaste uma Esperança</strong> para escolher um grupo de objetos ao seu redor e criar com eles um constructo animado que obedece a comandos básicos. Faça um <strong>Teste de Conjuração</strong> para comandá-los a agir. Quando necessário, eles compartilham sua Evasão e seus atributos, e seus ataques causam <strong>2d10+3</strong> de dano físico. Você só pode manter um constructo por vez, e ele se desfaz ao sofrer qualquer quantidade de dano.</p>",
     "domain": "codex",
     "recallCost": 3,
     "level": 4,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "6eioK8CoAPfObBP2",
         "systemPath": "actions",
-        "description": "<p>You can interrupt a magical effect taking place. Make a reaction roll using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.</p>",
+        "description": "<p>Você pode interromper um efeito mágico em andamento. Faça um teste de reação usando sua característica de Conjuração. Uma vez por descanso, em caso de sucesso, o efeito para e quaisquer consequências são evitadas.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Repudiate",
+        "name": "Repudiar",
         "img": "icons/magic/light/orbs-hand-gray.webp",
         "range": "",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "effect",
         "_id": "6JWhxevxbL0sOcbv",
         "systemPath": "actions",
-        "description": "<p><strong>Spend a Hope</strong> to choose a group of objects around you and create an animated construct from them that obeys basic commands.</p>",
+        "description": "<p><strong>Gaste uma Esperança</strong> para escolher um grupo de objetos ao seu redor e criar com eles um constructo animado que obedece a comandos básicos.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -91,7 +91,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Create Construct",
+        "name": "Criar Constructo",
         "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
         "range": "",
         "baseAction": false,
@@ -105,7 +105,7 @@
         "type": "attack",
         "_id": "MGVKJ8wVac1v8eJv",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> to command the constructs to take action. When necessary, they share your Evasion and traits and their attacks deal <strong>2d10+3</strong> physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> para comandar os constructos a agir. Quando necessário, eles compartilham sua Evasão e seus atributos, e seus ataques causam <strong>2d10+3</strong> de dano físico. Você só pode manter um constructo por vez, e ele se desfaz ao sofrer qualquer quantidade de dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -166,7 +166,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Construct (Take Action)",
+        "name": "Constructo (Realizar Ação)",
         "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
         "range": "",
         "baseAction": false,

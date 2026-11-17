@@ -1,10 +1,10 @@
 {
-  "name": "Gore and Glory",
+  "name": "Sangue e Glória",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "QYdeGsmVYIF34kZR",
   "system": {
-    "description": "<p>When you critically succeed on a weapon attack, gain an additional Hope or clear an additional Stress.</p><p>Additionally, when you deal enough damage to defeat an enemy, gain a Hope or clear a Stress.</p>",
+    "description": "<p>Quando você obtém sucesso crítico em um ataque com arma, ganhe uma Esperança adicional ou limpe um Fadiga adicional.</p><p>Além disso, quando você causa dano suficiente para derrotar um inimigo, ganhe uma Esperança ou limpe um Fadiga.</p>",
     "domain": "blade",
     "recallCost": 2,
     "level": 9,
@@ -67,7 +67,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/magic/control/buff-flight-wings-runes-purple.webp",
         "range": "",
         "baseAction": false,
@@ -134,7 +134,7 @@
           },
           "useDefault": false
         },
-        "name": "Gain Hope",
+        "name": "Ganhar Esperança",
         "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
         "range": "",
         "baseAction": false,

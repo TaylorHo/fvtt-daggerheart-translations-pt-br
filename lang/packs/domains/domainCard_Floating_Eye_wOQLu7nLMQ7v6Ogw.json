@@ -1,10 +1,10 @@
 {
-  "name": "Floating Eye",
+  "name": "Olho Flutuante",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "u8Yz2hUTaF3N2fFT",
   "system": {
-    "description": "<p><strong>Spend a </strong><strong>Hope</strong> to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+    "description": "<p><strong>Gaste uma </strong><strong>Esperança</strong> para criar um único orbe flutuante pequeno que você pode mover para qualquer lugar dentro do alcance Muito Distante. Enquanto esta magia estiver ativa, você pode ver através do orbe como se estivesse olhando a partir da posição dele. Você pode alternar livremente entre usar seus próprios sentidos e ver através do orbe. Se o orbe sofrer dano ou sair do alcance, a magia termina.</p>",
     "domain": "arcana",
     "recallCost": 0,
     "level": 2,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "pO8E1Bf4GDAU0efI",
         "systemPath": "actions",
-        "description": "<p>Spend a <strong>Hope</strong> to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+        "description": "<p>Gaste uma <strong>Esperança</strong> para criar um único orbe flutuante pequeno que você pode mover para qualquer lugar dentro do alcance Muito Distante. Enquanto esta magia estiver ativa, você pode ver através do orbe como se estivesse olhando a partir da posição dele. Você pode alternar livremente entre usar seus próprios sentidos e ver através do orbe. Se o orbe sofrer dano ou sair do alcance, a magia termina.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -34,7 +34,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Create Orb",
+        "name": "Criar Orbe",
         "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
         "range": "veryFar",
         "baseAction": false,
@@ -62,7 +62,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Floating Eye",
+      "name": "Olho Flutuante",
       "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
       "transfer": false,
       "_id": "ahKlKAc9TuGgx9Zm",
@@ -84,7 +84,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>",
+      "description": "<p>Enquanto esta magia estiver ativa, você pode ver através do orbe como se estivesse olhando a partir da posição dele. Você pode alternar livremente entre usar seus próprios sentidos e ver através do orbe. Se o orbe sofrer dano ou sair do alcance, a magia termina.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

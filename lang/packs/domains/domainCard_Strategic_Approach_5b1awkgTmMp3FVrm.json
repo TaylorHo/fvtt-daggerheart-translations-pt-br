@@ -1,10 +1,10 @@
 {
-  "name": "Strategic Approach",
+  "name": "Abordagem Estratégica",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/bone.png",
   "type": "domainCard",
   "folder": "Q9rmrfeKqcqBNnWc",
   "system": {
-    "description": "<p>After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul><li class=\"vertical-card-list-found\"><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul><p>When you take a long rest, clear all unspent tokens.</p>",
+    "description": "<p>Depois de um descanso longo, coloque nesta carta uma quantidade de fichas igual ao seu Conhecimento (mínimo 1). Na primeira vez que você se mover para dentro do alcance Próximo de um adversário e fizer um ataque contra ele, pode gastar uma ficha para escolher uma das seguintes opções:</p><ul><li class=\"vertical-card-list-found\"><p>Você faz o ataque com vantagem.</p></li><li class=\"vertical-card-list-found\"><p>Você limpa um Fadiga de um aliado dentro do alcance Corpo a Corpo do adversário.</p></li><li class=\"vertical-card-list-found\"><p>Você adiciona um <strong>d8</strong> à sua rolagem de dano.</p></li></ul><p>Quando você faz um descanso longo, limpe todas as fichas não gastas.</p>",
     "domain": "bone",
     "recallCost": 1,
     "level": 2,
@@ -24,7 +24,7 @@
         "type": "effect",
         "_id": "jTC0GbsBpGmaQLi7",
         "systemPath": "actions",
-        "description": "<p>The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>You make the attack with advantage.</p></li><li class=\"vertical-card-list-found\"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class=\"vertical-card-list-found\"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul>",
+        "description": "<p>Na primeira vez que você se mover para dentro do alcance Próximo de um adversário e fizer um ataque contra ele, pode gastar uma ficha para escolher uma das seguintes opções:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Você faz o ataque com vantagem.</p></li><li class=\"vertical-card-list-found\"><p>Você limpa um Fadiga de um aliado dentro do alcance Corpo a Corpo do adversário.</p></li><li class=\"vertical-card-list-found\"><p>Você adiciona um <strong>d8</strong> à sua rolagem de dano.</p></li></ul>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -48,7 +48,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Token",
+        "name": "Gastar Ficha",
         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
         "range": "",
         "baseAction": false,

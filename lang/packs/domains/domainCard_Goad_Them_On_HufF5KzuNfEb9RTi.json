@@ -1,10 +1,10 @@
 {
-  "name": "Goad Them On",
+  "name": "Instigá-los",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "cOZgzLQRGNnBzsHT",
   "system": {
-    "description": "<p>Describe how you taunt a target within Close range, then make a <strong>Presence Roll</strong> against them. On a success, the target must mark a Stress, and the next time the GM spotlights them, they must target you with an attack, which they make with disadvantage.</p>",
+    "description": "<p>Descreva como você provoca um alvo dentro do alcance Próximo e depois faça um <strong>Teste de Presença</strong> contra ele. Em caso de sucesso, o alvo deve marcar um Fadiga, e na próxima vez que o Mestre der destaque a ele, ele deve mirar um ataque em você, que faz com desvantagem.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 4,
@@ -77,7 +77,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Goad",
+        "name": "Instigar",
         "img": "icons/magic/control/mouth-smile-deception-purple.webp",
         "range": "close",
         "baseAction": false,
@@ -105,7 +105,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Goaded",
+      "name": "Instigado",
       "img": "icons/magic/control/mouth-smile-deception-purple.webp",
       "transfer": false,
       "_id": "Jccsuc48gmA6QAni",
@@ -135,7 +135,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>The next time this Adversary is spotlighted, they must target the Goading Character with an attack, which they make with disadvantage.</p>",
+      "description": "<p>Na próxima vez que este Adversário receber destaque, ele deve mirar um ataque no Personagem Provocador, que faz com desvantagem.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

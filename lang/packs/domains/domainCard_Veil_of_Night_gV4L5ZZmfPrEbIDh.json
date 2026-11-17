@@ -1,10 +1,10 @@
 {
-  "name": "Veil of Night",
+  "name": "Véu da Noite",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "hoDIPBzwYPxiSXGU",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong><strong> (13)</strong>. On a success, you can create a temporary curtain of darkness between two points within Far range. Only you can see through this darkness. You're considered <em>Hidden</em> to adversaries on the other side of the veil, and you have advantage on attacks you make through the darkness. The veil remains until you cast another spell.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong><strong> (13)</strong>. Em caso de sucesso, você pode criar uma cortina temporária de escuridão entre dois pontos dentro do alcance Distante. Somente você consegue enxergar através dessa escuridão. Você é considerado <em>Escondido</em> para adversários do outro lado do véu e tem vantagem nos ataques que fizer através da escuridão. O véu permanece até você lançar outra magia.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 3,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "br6UQ0toK4ZYpP2s",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> (13). On a success, you can create a temporary curtain of darkness between two points within Far range. Only you can see through this darkness. You're considered <em>Hidden</em> to adversaries on the other side of the veil, and you have advantage on attacks you make through the darkness. The veil remains until you cast another spell.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> (13). Em caso de sucesso, você pode criar uma cortina temporária de escuridão entre dois pontos dentro do alcance Distante. Somente você consegue enxergar através dessa escuridão. Você é considerado <em>Escondido</em> para adversários do outro lado do véu e tem vantagem nos ataques que fizer através da escuridão. O véu permanece até você lançar outra magia.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,12 +58,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
         "range": "self",
         "areas": [
           {
-            "name": "Veil of Night",
+            "name": "Véu da Noite",
             "type": "placed",
             "shape": "line",
             "size": "far",
@@ -95,7 +95,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Veiled",
+      "name": "Velado",
       "img": "icons/magic/perception/shadow-stealth-eyes-purple.webp",
       "transfer": false,
       "_id": "eSfBBZ7IP8qirLu7",

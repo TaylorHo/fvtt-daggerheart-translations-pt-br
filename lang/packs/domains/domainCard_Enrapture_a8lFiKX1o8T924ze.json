@@ -1,10 +1,10 @@
 {
-  "name": "Enrapture",
+  "name": "Cativar",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/grace.png",
   "type": "domainCard",
   "folder": "nVCKcZkcoEivYJaF",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, ele fica temporariamente <em>Cativado</em>. Enquanto <em>Cativado</em>, a atenção do alvo fica fixa em você, estreitando seu campo de visão e abafando qualquer som que não seja a sua voz. Uma vez por descanso, em caso de sucesso, você pode <strong>marcar um Fadiga</strong> para forçar o alvo <em>Cativado</em> a marcar um Fadiga também.</p>",
     "domain": "grace",
     "recallCost": 0,
     "level": 1,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "G6RBFMbCuHlM45t0",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, ele fica temporariamente <em>Cativado</em>. Enquanto <em>Cativado</em>, a atenção do alvo fica fixa em você, estreitando seu campo de visão e abafando qualquer som que não seja a sua voz.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -58,7 +58,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Enrapture",
+        "name": "Cativar",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "range": "close",
         "baseAction": false,
@@ -72,7 +72,7 @@
         "type": "damage",
         "_id": "oJDiE9egDyfdLbR7",
         "systemPath": "actions",
-        "description": "<p>Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>",
+        "description": "<p>Uma vez por descanso, em caso de sucesso, você pode <strong>marcar um Fadiga</strong> para forçar o alvo <em>Cativado</em> a marcar um Fadiga também.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -119,7 +119,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "close",
         "baseAction": false,
@@ -147,7 +147,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Enraptured",
+      "name": "Cativado",
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "transfer": false,
       "_id": "EYG5dLImk6GkmfRd",
@@ -170,7 +170,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>",
+      "description": "<p>Enquanto <em>Cativado</em>, a atenção do alvo fica fixa em você, estreitando seu campo de visão e abafando qualquer som que não seja a sua voz.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,10 +1,10 @@
 {
-  "name": "I Am Your Shield",
+  "name": "Eu Sou Seu Escudo",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/valor.png",
   "type": "domainCard",
   "folder": "QpOL7jPbMBzH96qR",
   "system": {
-    "description": "<p>When an ally within Very Close range would take damage, you can <strong>mark a Stress</strong> to stand in the way and make yourself the target of the attack instead. When you take damage from this attack, you can mark any number of Armor Slots.</p>",
+    "description": "<p>Quando um aliado dentro do alcance Muito Próximo fosse sofrer dano, você pode <strong>marcar um Fadiga</strong> para se colocar no caminho e se tornar o alvo do ataque no lugar dele. Quando você sofre dano desse ataque, pode marcar qualquer quantidade de Espaços de Armadura.</p>",
     "domain": "valor",
     "recallCost": 1,
     "level": 1,
@@ -38,7 +38,7 @@
           "type": "friendly",
           "amount": 1
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/skills/melee/shield-block-fire-orange.webp",
         "range": "veryClose",
         "baseAction": false,

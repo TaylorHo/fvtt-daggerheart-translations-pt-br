@@ -1,10 +1,10 @@
 {
-  "name": "Spellcharge",
+  "name": "Carga Arcana",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/midnight.png",
   "type": "domainCard",
   "folder": "taM81THa8h6Bv2Xa",
   "system": {
-    "description": "<p>When you take magic damage, place tokens equal to the number of Hit Points you marked on this card. You can store a number of tokens equal to your Spellcast trait.</p><p>When you make a successful attack against a target, you can spend any number of tokens to add a <strong>d6</strong> for each token spent to your damage roll.</p>",
+    "description": "<p>Quando você sofre dano mágico, coloque nesta carta fichas iguais ao número de Pontos de Vida que você marcou. Você pode armazenar uma quantidade de fichas igual à sua característica de Conjuração.</p><p>Quando você faz um ataque bem-sucedido contra um alvo, pode gastar qualquer quantidade de fichas para adicionar um <strong>d6</strong> por ficha gasta à sua rolagem de dano.</p>",
     "domain": "midnight",
     "recallCost": 1,
     "level": 8,
@@ -24,7 +24,7 @@
         "type": "effect",
         "_id": "jCgZ0yCoIhSAVEw3",
         "systemPath": "actions",
-        "description": "<p>When you make a successful attack against a target, you can spend any number of tokens to add a d6 for each token spent to your damage roll.</p>",
+        "description": "<p>Quando você faz um ataque bem-sucedido contra um alvo, pode gastar qualquer quantidade de fichas para adicionar um d6 por ficha gasta à sua rolagem de dano.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -48,7 +48,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Tokens",
+        "name": "Gastar Fichas",
         "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
         "range": "",
         "baseAction": false,

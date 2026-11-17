@@ -1,10 +1,10 @@
 {
-  "name": "Plant Dominion",
+  "name": "Domínio das Plantas",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "R5afi5bhq9ccnYY2",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (18)</strong>. Once per long rest on a success, you reshape the natural world, changing the surrounding plant life anywhere within Far range of you. For example, you can grow trees instantly, clear a path through dense vines, or create a wall of roots.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (18)</strong>. Uma vez por descanso longo, em caso de sucesso, você remodela o mundo natural, alterando a vida vegetal ao redor em qualquer lugar dentro do alcance Distante de você. Por exemplo, você pode fazer árvores crescerem instantaneamente, abrir um caminho em meio a trepadeiras densas ou criar uma muralha de raízes.</p>",
     "domain": "sage",
     "recallCost": 1,
     "level": 9,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Reshape Natural World",
+        "name": "Remodelar o Mundo Natural",
         "img": "icons/magic/nature/tree-elm-roots-brown.webp",
         "range": "far",
         "baseAction": false,

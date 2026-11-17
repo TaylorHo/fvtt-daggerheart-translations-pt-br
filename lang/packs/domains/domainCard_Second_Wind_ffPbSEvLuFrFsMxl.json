@@ -1,10 +1,10 @@
 {
-  "name": "Second Wind",
+  "name": "Segundo Fôlego",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "8ZfL09F8MiOEUzzw",
   "system": {
-    "description": "<p>Once per rest, when you succeed on an attack against an adversary, you can clear 3 Stress or a Hit Point. On a success with Hope, you also clear 3 Stress or a Hit Point on an ally within Close range of you.</p>",
+    "description": "<p>Uma vez por descanso, quando você tem sucesso em um ataque contra um adversário, pode limpar 3 Fadiga ou um Ponto de Vida. Em um sucesso com Esperança, você também limpa 3 Fadiga ou um Ponto de Vida de um aliado dentro do alcance Próximo de você.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 3,
@@ -76,7 +76,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Three Stress",
+        "name": "Limpar Três Fadiga",
         "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
         "range": "",
         "baseAction": false,
@@ -152,7 +152,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Hit Point",
+        "name": "Limpar Ponto de Vida",
         "img": "icons/commodities/gems/gem-faceted-diamond-green.webp",
         "range": "close",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Vitality",
+  "name": "Vitalidade",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
   "type": "domainCard",
   "folder": "Emnx4o1DWGTVKoAg",
   "system": {
-    "description": "<p>When you choose this card, permanently gain two of the following benefits:</p><ul><li class=\"vertical-card-list-found\"><p>One Stress slot</p></li><li class=\"vertical-card-list-found\"><p>One Hit Point slot</p></li><li class=\"vertical-card-list-found\">+2 bonus to your damage thresholds</li></ul><p>Then place this card in your vault permanently.</p>",
+    "description": "<p>Quando você escolhe esta carta, receba permanentemente dois dos seguintes benefícios:</p><ul><li class=\"vertical-card-list-found\"><p>Um espaço de Fadiga</p></li><li class=\"vertical-card-list-found\"><p>Um espaço de Ponto de Vida</p></li><li class=\"vertical-card-list-found\">Bônus de +2 nos seus limiares de dano</li></ul><p>Em seguida, coloque esta carta permanentemente no seu cofre.</p>",
     "domain": "blade",
     "recallCost": 0,
     "level": 5,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "W8nmboZ41sij2ybT",
         "systemPath": "actions",
-        "description": "<p>Choose from:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>One Stress slot</p></li><li class=\"vertical-card-list-found\"><p>One Hit Point slot</p></li><li class=\"vertical-card-list-found\">+2 bonus to your damage thresholds</li></ul><p>(The effects are applied disabled. You have to manually enable two of them in your character sheet for now.</p>",
+        "description": "<p>Escolha entre:</p><ul class=\"\"><li class=\"vertical-card-list-found\"><p>Um espaço de Fadiga</p></li><li class=\"vertical-card-list-found\"><p>Um espaço de Ponto de Vida</p></li><li class=\"vertical-card-list-found\">Bônus de +2 nos seus limiares de dano</li></ul><p>(Os efeitos são aplicados desativados. Por enquanto, você precisa ativar manualmente dois deles na sua ficha de personagem.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -42,7 +42,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Apply Effect",
+        "name": "Aplicar Efeito",
         "img": "systems/daggerheart/assets/icons/domains/domain-card/blade.png",
         "range": "",
         "baseAction": false,
@@ -70,7 +70,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Vitality (HP)",
+      "name": "Vitalidade (PV)",
       "img": "icons/magic/life/heart-cross-green.webp",
       "transfer": true,
       "_id": "1jtgIyFvDpTb0asZ",
@@ -100,7 +100,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Permanently add one Hit Point slot</p>",
+      "description": "<p>Adicione permanentemente um espaço de Ponto de Vida</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -114,7 +114,7 @@
       "_key": "!items.effects!sWUlSPOJEaXyQLCj.1jtgIyFvDpTb0asZ"
     },
     {
-      "name": "Vitality (Stress)",
+      "name": "Vitalidade (Fadiga)",
       "img": "icons/magic/life/heart-cross-blue.webp",
       "transfer": true,
       "_id": "vj9rm1tLqqsSFOXF",
@@ -144,7 +144,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Permanently add one Stress slot</p>",
+      "description": "<p>Adicione permanentemente um espaço de Fadiga</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
@@ -158,7 +158,7 @@
       "_key": "!items.effects!sWUlSPOJEaXyQLCj.vj9rm1tLqqsSFOXF"
     },
     {
-      "name": "Vitality (Thresholds)",
+      "name": "Vitalidade (Limiares)",
       "img": "icons/magic/life/heart-cross-purple-orange.webp",
       "transfer": true,
       "_id": "BcqCG9yF6l1LRYqm",
@@ -195,7 +195,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Permanently add a +2 bonus to your damage thresholds</p>",
+      "description": "<p>Adicione permanentemente um bônus de +2 nos seus limiares de dano</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

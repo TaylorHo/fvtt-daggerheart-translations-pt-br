@@ -1,10 +1,10 @@
 {
-  "name": "Zone of Protection",
+  "name": "Zona de Proteção",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/splendor.png",
   "type": "domainCard",
   "folder": "OwsbTSWzKq2WJmQN",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, choose a point within Far range and create a visible zone of protection there for all allies within Very Close range of that point. When you do, place a <strong>d6</strong> on this card with the 1 value facing up. When an ally in this zone takes damage, they reduce it by the die's value. You then increase the die's value by one. When the die's value would exceed 6, this effect ends.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (16)</strong>. Uma vez por descanso longo, em caso de sucesso, escolha um ponto dentro do alcance Distante e crie ali uma zona de proteção visível para todos os aliados dentro do alcance Muito Próximo desse ponto. Quando fizer isso, coloque um <strong>d6</strong> nesta carta com o valor 1 virado para cima. Quando um aliado nesta zona sofre dano, ele o reduz pelo valor do dado. Em seguida, você aumenta o valor do dado em um. Quando o valor do dado fosse exceder 6, este efeito termina.</p>",
     "domain": "splendor",
     "recallCost": 2,
     "level": 6,
@@ -53,12 +53,12 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
         "range": "far",
         "areas": [
           {
-            "name": "Zone of Protection",
+            "name": "Zona de Proteção",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -100,10 +100,10 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Zone of Protection",
+      "name": "Zona de Proteção",
       "disabled": false,
       "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
-      "description": "<p>When an ally in this zone takes damage, they reduce it by the die's value. You then increase the die's value by one. When the die's value would exceed 6, this effect ends.</p>",
+      "description": "<p>Quando um aliado nesta zona sofre dano, ele o reduz pelo valor do dado. Em seguida, você aumenta o valor do dado em um. Quando o valor do dado fosse exceder 6, este efeito termina.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

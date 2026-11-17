@@ -1,10 +1,10 @@
 {
-  "name": "Disintegration Wave",
+  "name": "Onda de Desintegração",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "KwZYrsSUYnHiNtPl",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll (18)</strong>. Once per long rest on a success, the GM tells you which adversaries within Far range have a Difficulty of 18 or lower. <strong>Mark a Stress</strong> for each one you wish to hit with this spell. They are killed and can't come back to life by any means.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração (18)</strong>. Uma vez por descanso longo, em caso de sucesso, o Mestre diz quais adversários dentro do alcance Distante têm Dificuldade 18 ou menor. <strong>Marque um Fadiga</strong> para cada um que você deseje atingir com esta magia. Eles morrem e não podem voltar à vida por nenhum meio.</p>",
     "domain": "codex",
     "recallCost": 4,
     "level": 9,
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Spellcast Roll",
+        "name": "Teste de Conjuração",
         "img": "icons/magic/light/beam-rays-teal-large.webp",
         "range": "far",
         "baseAction": false,

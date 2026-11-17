@@ -1,10 +1,10 @@
 {
-  "name": "Preservation Blast",
+  "name": "Explosão de Preservação",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "1e5Sn8OXxEQ57GSD",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against all targets within Melee range. Targets you succeed against are forced back to Far range and take <strong>d8+3</strong> magic damage using your Spellcast trait.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra todos os alvos dentro do alcance Corpo a Corpo. Os alvos contra os quais você tiver sucesso são empurrados até o alcance Distante e sofrem <strong>d8+3</strong> de dano mágico usando sua característica de Conjuração.</p>",
     "domain": "arcana",
     "recallCost": 2,
     "level": 4,
@@ -75,7 +75,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Cast",
+        "name": "Lançar",
         "img": "icons/magic/air/air-pressure-shield-blue.webp",
         "range": "melee",
         "baseAction": false,

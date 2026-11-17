@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Dire Strike",
+  "name": "Golpe Funesto",
   "folder": "ZjU7pw0DklPo9XZH",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>When a target marks any number of Hit Points from an attack you make, you can <strong>spend a Hope</strong> to drain power from them. The GM loses a Fear.</p>",
+    "description": "<p>Quando um alvo marca qualquer quantidade de Pontos de Vida de um ataque seu, você pode <strong>gastar uma Esperança</strong> para drenar o poder dele. O Mestre perde um Medo.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": "",
         "img": "icons/magic/unholy/energy-smoke-pink.webp"
       }

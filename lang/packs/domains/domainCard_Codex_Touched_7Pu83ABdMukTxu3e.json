@@ -1,10 +1,10 @@
 {
-  "name": "Codex-Touched",
+  "name": "Tocado pelo Códice",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/codex.png",
   "type": "domainCard",
   "folder": "hh2vkggcAQ0QUE6C",
   "system": {
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Codex domain, gain the following benefits:</p><ul><li class=\"vertical-card-list\">You can <strong>mark a </strong><strong>Stress</strong> to add your Proficiency to a Spellcast Roll.            </li><li class=\"vertical-card-list\">Once per rest, replace this card with any card from your vault without paying its Recall Cost.</li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Códice, receba os seguintes benefícios:</p><ul><li class=\"vertical-card-list\">Você pode <strong>marcar um </strong><strong>Fadiga</strong> para somar sua Proficiência a um Teste de Conjuração.            </li><li class=\"vertical-card-list\">Uma vez por descanso, substitua esta carta por qualquer carta do seu cofre sem pagar seu Custo de Recuperação.</li></ul>",
     "domain": "codex",
     "recallCost": 2,
     "level": 7,
@@ -14,7 +14,7 @@
         "type": "effect",
         "_id": "OV23p0uWuzmrQsZi",
         "systemPath": "actions",
-        "description": "<p>You can <strong>mark a Stress</strong> to add your Proficiency to a Spellcast Roll.</p>",
+        "description": "<p>Você pode <strong>marcar um Fadiga</strong> para somar sua Proficiência a um Teste de Conjuração.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,7 +43,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -57,7 +57,7 @@
         "type": "effect",
         "_id": "TGOGkEzH3HluH6YK",
         "systemPath": "actions",
-        "description": "<p>Once per rest, replace this card with any card from your vault without paying its Recall Cost.</p>",
+        "description": "<p>Uma vez por descanso, substitua esta carta por qualquer carta do seu cofre sem pagar seu Custo de Recuperação.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -72,7 +72,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Replace Card",
+        "name": "Substituir Carta",
         "img": "icons/magic/symbols/star-inverted-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -100,7 +100,7 @@
   "sort": 3400000,
   "effects": [
     {
-      "name": "Codex-Touched",
+      "name": "Tocado pelo Códice",
       "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
       "transfer": true,
       "_id": "oWs00mBY3onxGjF9",
@@ -138,7 +138,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Add your Proficiency to a Spellcast Roll.</p>",
+      "description": "<p>Some sua Proficiência a um Teste de Conjuração.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

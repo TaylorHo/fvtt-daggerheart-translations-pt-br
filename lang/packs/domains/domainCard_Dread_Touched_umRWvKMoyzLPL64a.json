@@ -1,6 +1,6 @@
 {
   "type": "domainCard",
-  "name": "Dread-Touched",
+  "name": "Tocado pelo Pavor",
   "folder": "BUFGXH8Ez4ct3d4f",
   "system": {
     "domain": "dread",
@@ -9,7 +9,7 @@
       "source": "Daggerheart SRD H&F",
       "page": null
     },
-    "description": "<p>When 4 or more of the domain cards in your loadout are from the Dread domain, gain the following benefits:</p><ul><li><p>When you succeed with Fear, you can <strong>mark 2 Stress</strong> to prevent the GM from gaining a Fear.</p></li><li><p>Once per rest when making an action roll, you can gain a bonus to the roll equal to the number of Fear in the GM's pool.</p></li></ul>",
+    "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Pavor, receba os seguintes benefícios:</p><ul><li><p>Quando você tem sucesso com Medo, pode <strong>marcar 2 Fadiga</strong> para impedir que o Mestre ganhe um Medo.</p></li><li><p>Uma vez por descanso, ao fazer um teste de ação, você pode receber um bônus no teste igual ao número de Medo na reserva do Mestre.</p></li></ul>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "",
         "img": "icons/magic/unholy/orb-hands-pink.webp"
       },
@@ -76,7 +76,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Gain Bonus",
+        "name": "Ganhar Bônus",
         "range": "",
         "img": "icons/magic/unholy/hand-light-pink.webp"
       }

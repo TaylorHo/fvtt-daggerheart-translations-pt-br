@@ -1,10 +1,10 @@
 {
-  "name": "Wild Surge",
+  "name": "Surto Selvagem",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/sage.png",
   "type": "domainCard",
   "folder": "gEVGjjPrjqxxZkb5",
   "system": {
-    "description": "<p>Once per long rest, <strong>mark a Stress</strong> to channel the natural world around you and enhance yourself. Describe how your appearance changes, then place a <strong>d6</strong> on this card with the 1 value facing up.</p><p>While the Wild Surge Die is active, you add its value to every action roll you make. After you add its value to a roll, increase the Wild Surge Die's value by one. When the die's value would exceed 6 or you take a rest, this form drops and you must <strong>mark an additional Stress</strong>.</p>",
+    "description": "<p>Uma vez por descanso longo, <strong>marque um Fadiga</strong> para canalizar o mundo natural ao seu redor e fortalecer a si mesmo. Descreva como sua aparência muda, depois coloque um <strong>d6</strong> nesta carta com o valor 1 virado para cima.</p><p>Enquanto o Dado de Surto Selvagem estiver ativo, você soma o valor dele a todo teste de ação que fizer. Depois de somar o valor a um teste, aumente o valor do Dado de Surto Selvagem em um. Quando o valor do dado fosse exceder 6 ou você fizer um descanso, esta forma se desfaz e você deve <strong>marcar um Fadiga adicional</strong>.</p>",
     "domain": "sage",
     "recallCost": 2,
     "level": 7,
@@ -48,7 +48,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Channel Nature",
+        "name": "Canalizar a Natureza",
         "img": "icons/magic/control/debuff-energy-hold-levitate-green.webp",
         "range": "",
         "baseAction": false,

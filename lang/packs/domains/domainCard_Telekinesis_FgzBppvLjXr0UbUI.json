@@ -1,10 +1,10 @@
 {
-  "name": "Telekinesis",
+  "name": "Telecinese",
   "img": "systems/daggerheart/assets/icons/domains/domain-card/arcana.png",
   "type": "domainCard",
   "folder": "gqnmAgerh7HhNo7t",
   "system": {
-    "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, you can use your mind to move them anywhere within Far range of their original position. You can throw the lifted target as an attack by making an additional Spellcast Roll against the second target you're trying to attack. On a success, deal<strong> d12+4</strong> physical damage to the second target using your Proficiency. This spell then ends.</p>",
+    "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, você pode usar sua mente para movê-lo para qualquer lugar dentro do alcance Distante de sua posição original. Você pode arremessar o alvo erguido como um ataque fazendo um Teste de Conjuração adicional contra o segundo alvo que está tentando atacar. Em caso de sucesso, cause <strong>d12+4</strong> de dano físico ao segundo alvo usando sua Proficiência. Esta magia então termina.</p>",
     "domain": "arcana",
     "recallCost": 0,
     "level": 6,
@@ -14,7 +14,7 @@
         "type": "attack",
         "_id": "IPtULQVFaBoeWDfz",
         "systemPath": "actions",
-        "description": "<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, you can use your mind to move them anywhere within Far range of their original position.</p>",
+        "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, você pode usar sua mente para movê-lo para qualquer lugar dentro do alcance Distante de sua posição original.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -53,7 +53,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Move Target",
+        "name": "Mover Alvo",
         "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
         "range": "far",
         "baseAction": false,
@@ -67,7 +67,7 @@
         "type": "attack",
         "_id": "rgDZzUg8ivTTctsM",
         "systemPath": "actions",
-        "description": "<p>You can throw the lifted target as an attack by making an additional Spellcast Roll against the second target you're trying to attack. On a success, deal<strong> d12+4</strong> physical damage to the second target using your Proficiency. This spell then ends.</p>",
+        "description": "<p>Você pode arremessar o alvo erguido como um ataque fazendo um Teste de Conjuração adicional contra o segundo alvo que está tentando atacar. Em caso de sucesso, cause <strong>d12+4</strong> de dano físico ao segundo alvo usando sua Proficiência. Esta magia então termina.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [],
@@ -128,7 +128,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Throw Target",
+        "name": "Arremessar Alvo",
         "img": "icons/magic/control/energy-stream-link-spiral-blue.webp",
         "range": "far",
         "baseAction": false,
