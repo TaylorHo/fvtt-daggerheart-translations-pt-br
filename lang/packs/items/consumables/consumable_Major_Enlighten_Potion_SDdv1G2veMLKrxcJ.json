@@ -1,10 +1,10 @@
 {
-  "name": "Major Enlighten Potion",
+  "name": "Poção da Iluminação Maior",
   "type": "consumable",
   "_id": "SDdv1G2veMLKrxcJ",
   "img": "icons/consumables/potions/bottle-corked-empty.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Knowledge until your next rest.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Conhecimento até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "cZL1A3hNXHbjfwi3": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-corked-empty.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Major Enlighten Potion",
+      "name": "Poção da Iluminação Maior",
       "img": "icons/consumables/potions/bottle-corked-empty.webp",
       "transfer": false,
       "_id": "Ul5brgnx88npVGNj",

@@ -1,10 +1,10 @@
 {
-  "name": "Dripfang Poison",
+  "name": "Veneno de Presa Gotejante",
   "type": "consumable",
   "_id": "eU8VpbWB2NHIL47n",
   "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
   "system": {
-    "description": "<p>A creature who consumes this poison takes 8d10 direct magic damage.</p>",
+    "description": "<p>Uma criatura que consome este veneno sofre 8d10 de dano mágico direto.</p>",
     "quantity": 1,
     "actions": {
       "F8CUhhCuZMnXVCrw": {
@@ -43,9 +43,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -61,7 +59,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Consume",
+        "name": "Consumir",
         "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Returning Blade",
+  "name": "Lâmina Retornável Aprimorada",
   "type": "weapon",
   "_id": "SKNwkW23eVQjN4Zy",
   "img": "icons/weapons/swords/shortsword-hooked-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

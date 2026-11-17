@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Glowing Rings",
+  "name": "Anéis Brilhantes Aprimorados",
   "type": "weapon",
   "_id": "N5amhkxR1xn3B7r2",
   "img": "icons/equipment/finger/ring-band-engraved-teal.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

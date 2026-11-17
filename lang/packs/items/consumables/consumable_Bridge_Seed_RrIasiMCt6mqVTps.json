@@ -1,10 +1,10 @@
 {
-  "name": "Bridge Seed",
+  "name": "Semente da Ponte",
   "type": "consumable",
   "_id": "RrIasiMCt6mqVTps",
   "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
   "system": {
-    "description": "<p>Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next short rest.</p>",
+    "description": "<p>Grossas trepadeiras crescem a partir da sua posição até um ponto de sua escolha dentro do alcance Distante, permitindo que você suba ou atravesse por elas. As trepadeiras se dissipam no seu próximo descanso curto.</p>",
     "quantity": 1,
     "actions": {
       "dk7fhkfA4m5lqNWB": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Plant",
+        "name": "Plantar",
         "img": "icons/consumables/plants/leaf-old-dried-curled-green.webp",
         "range": "",
         "baseAction": false,

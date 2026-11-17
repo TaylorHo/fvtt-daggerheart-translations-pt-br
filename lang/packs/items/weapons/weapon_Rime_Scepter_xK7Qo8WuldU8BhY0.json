@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Rime Scepter",
+  "name": "Cetro de Geada",
   "type": "weapon",
   "_id": "xK7Qo8WuldU8BhY0",
   "img": "icons/weapons/staves/staff-ornate-teal.webp",
@@ -19,8 +19,8 @@
       "LYqVHYFcuJlf6omC": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Freezing",
-        "description": "When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained.",
+        "name": "Congelante",
+        "description": "Quando um ataque desta arma faz um alvo marcar 2 ou mais PV, ele fica temporariamente Restringido.",
         "img": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
         "effects": [
           {
@@ -55,7 +55,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -160,7 +160,7 @@
   },
   "effects": [
     {
-      "name": "Freezing",
+      "name": "Congelante",
       "description": "",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
       "statuses": [

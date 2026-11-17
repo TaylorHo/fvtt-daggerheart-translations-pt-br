@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Spear",
+  "name": "Lança Aprimorada",
   "type": "weapon",
   "_id": "j5Pt1thLfcvopBij",
   "img": "icons/weapons/polearms/spear-flared-steel.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

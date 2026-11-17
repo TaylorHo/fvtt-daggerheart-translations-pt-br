@@ -1,10 +1,10 @@
 {
-  "name": "Charging Quiver",
+  "name": "Aljava de Carga",
   "type": "loot",
   "_id": "gsUDP90d4SRtLEUn",
   "img": "icons/containers/ammunition/arrows-quiver-grey-gold.webp",
   "system": {
-    "description": "<p>When you succeed on an attack with an arrow stored in this quiver, gain a bonus to the damage roll equal to your current tier.</p>",
+    "description": "<p>Quando você é bem-sucedido em um ataque com uma flecha guardada nesta aljava, receba um bônus na rolagem de dano igual ao seu patamar atual.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Charging Quiver",
+      "name": "Aljava de Carga",
       "type": "base",
       "_id": "0zebbOsyjkm9IqE6",
       "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",

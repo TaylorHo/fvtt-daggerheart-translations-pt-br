@@ -1,9 +1,9 @@
 {
-  "name": "Titan's Girdle",
+  "name": "Cinturão do Titã",
   "type": "loot",
   "img": "icons/equipment/waist/belt-thick-bossed.webp",
   "system": {
-    "description": "<p>Once per scene, you can activate this girdle to gain a +1 bonus to your Proficiency for your next attack.</p>",
+    "description": "<p>Uma vez por cena, você pode ativar este cinturão para ganhar um bônus de +1 em sua Proficiência no seu próximo ataque.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -42,7 +42,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate Girdle",
+        "name": "Ativar Cinturão",
         "range": ""
       }
     }
@@ -50,10 +50,10 @@
   "_id": "rJN3uu8KSC3CELzw",
   "effects": [
     {
-      "name": "Active Girdle",
+      "name": "Cinturão Ativo",
       "disabled": false,
       "img": "icons/equipment/waist/belt-thick-bossed.webp",
-      "description": "<p>+1 bonus to your Proficiency for your next attack.</p>",
+      "description": "<p>Bônus de +1 em sua Proficiência no seu próximo ataque.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

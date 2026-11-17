@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Round Shield",
+  "name": "Escudo Redondo",
   "type": "weapon",
   "_id": "mxwWKDujgsRcZWPT",
   "img": "icons/equipment/shield/buckler-wooden-boss-brown.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "h3g8PT67I6xr3xsW",
       "baseAction": true,
@@ -125,8 +125,8 @@
   },
   "effects": [
     {
-      "name": "Protective",
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "name": "Protetora",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "img": "icons/skills/melee/shield-block-gray-orange.webp",
       "_id": "eV4lFIpQMiKERj4U",
       "type": "base",

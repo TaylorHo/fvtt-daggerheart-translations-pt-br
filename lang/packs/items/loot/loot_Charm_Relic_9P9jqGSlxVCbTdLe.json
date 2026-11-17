@@ -1,10 +1,10 @@
 {
-  "name": "Charm Relic",
+  "name": "Relíquia de Charme",
   "type": "loot",
   "_id": "9P9jqGSlxVCbTdLe",
   "img": "icons/commodities/treasure/token-runed-wyn-grey.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Presence. You can only carry one relic.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Presença. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Charm Relic",
+      "name": "Relíquia de Charme",
       "type": "base",
       "_id": "2yr8Ps6wvaG3b1qy",
       "img": "icons/magic/life/heart-cross-strong-purple-orange.webp",
@@ -45,7 +45,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Presence.</p>",
+      "description": "<p>Você ganha um bônus de +1 em sua Presença.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

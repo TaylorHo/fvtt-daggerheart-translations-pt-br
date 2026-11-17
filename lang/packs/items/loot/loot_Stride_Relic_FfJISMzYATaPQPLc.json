@@ -1,10 +1,10 @@
 {
-  "name": "Stride Relic",
+  "name": "Relíquia da Velocidade",
   "type": "loot",
   "_id": "FfJISMzYATaPQPLc",
   "img": "icons/commodities/treasure/token-runed-ing-brown.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Agility. You can only carry one relic.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Agilidade. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Stride Relic",
+      "name": "Relíquia da Velocidade",
       "type": "base",
       "_id": "7lHIbMyCDonSxSZf",
       "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
@@ -45,7 +45,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Agility.</p>",
+      "description": "<p>Você ganha um bônus de +1 em sua Agilidade.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

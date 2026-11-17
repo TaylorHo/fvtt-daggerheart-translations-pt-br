@@ -1,10 +1,10 @@
 {
-  "name": "Gem of Precision",
+  "name": "Gema de Controle",
   "type": "loot",
   "_id": "CrvJ7vb4s40YgEcy",
   "img": "icons/commodities/gems/gem-rough-cushion-green.webp",
   "system": {
-    "description": "<p>You can attach this gem to a weapon, allowing you to use your Finesse when making an attack with that weapon.</p>",
+    "description": "<p>Você pode fixar esta gema em uma arma, permitindo usar sua Acuidade ao fazer um ataque com essa arma.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

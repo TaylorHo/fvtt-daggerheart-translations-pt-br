@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Arcane Rifle",
+  "name": "Rifle Arcano Avançado",
   "type": "weapon",
   "_id": "oqoS55ZzmFnC6V4N",
   "img": "icons/weapons/guns/gun-purple.webp",
@@ -18,8 +18,8 @@
       "LlGYNCSjPpaHCgkl": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Aimed",
-        "description": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+        "name": "Preciso",
+        "description": "Seu ataque tem desvantagem se o alvo estiver dentro do alcance Muito Próximo de você ou dentro do alcance Corpo a Corpo de um de seus aliados. Você pode marcar um Fadiga para ignorar essa penalidade.",
         "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -87,9 +87,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -152,9 +150,7 @@
       "aimed": {
         "value": "aimed",
         "effectIds": [],
-        "actionIds": [
-          "LlGYNCSjPpaHCgkl"
-        ],
+        "actionIds": ["LlGYNCSjPpaHCgkl"],
         "config": {}
       }
     }

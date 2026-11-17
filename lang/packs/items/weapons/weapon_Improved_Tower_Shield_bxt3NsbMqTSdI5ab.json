@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Improved Tower Shield",
+  "name": "Escudo de Torre Aprimorado",
   "type": "weapon",
   "_id": "bxt3NsbMqTSdI5ab",
   "img": "icons/equipment/shield/pavise-wooden-seahorse-blue-white.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "tkNEA1PO3jEFhKCa",
       "type": "base",
@@ -167,8 +167,8 @@
       "_key": "!items.effects!bxt3NsbMqTSdI5ab.tkNEA1PO3jEFhKCa"
     },
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "XugJeHJdnC6IymSa",
       "type": "base",

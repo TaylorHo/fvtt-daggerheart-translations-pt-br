@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Casting Dagger",
+  "name": "Adaga de Conjuração Aprimorada",
   "type": "weapon",
   "_id": "xKnGSccF7x5GIK0E",
   "img": "icons/weapons/daggers/dagger-double-engraved-black.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

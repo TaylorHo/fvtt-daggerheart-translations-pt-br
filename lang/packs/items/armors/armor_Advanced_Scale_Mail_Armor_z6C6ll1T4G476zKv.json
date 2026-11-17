@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Scale Mail Armor",
+  "name": "Armadura de Escamas Avançada",
   "type": "armor",
   "_id": "z6C6ll1T4G476zKv",
   "img": "icons/equipment/chest/breastplate-rivited-red.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "2uaDK1adL1aVP1Pg"
-        ],
+        "effectIds": ["2uaDK1adL1aVP1Pg"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "system": {
         "changes": [

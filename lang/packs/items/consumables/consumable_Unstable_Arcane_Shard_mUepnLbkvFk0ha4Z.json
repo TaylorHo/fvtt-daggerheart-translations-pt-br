@@ -1,10 +1,10 @@
 {
-  "name": "Unstable Arcane Shard",
+  "name": "Fragmento Arcano Instável",
   "type": "consumable",
   "_id": "mUepnLbkvFk0ha4Z",
   "img": "icons/commodities/gems/gem-faceted-cushion-teal-black.webp",
   "system": {
-    "description": "<p>You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 1d20 magic damage.</p>",
+    "description": "<p>Você pode fazer um Teste de Acuidade para arremessar este fragmento em um grupo de adversários dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem 1d20 de dano mágico.</p>",
     "quantity": 1,
     "actions": {
       "D7BTCUV5DOXmqC0l": {
@@ -44,9 +44,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "base": false,
             "valueAlt": null,
             "includeBase": false,
@@ -81,7 +79,7 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Throw",
+        "name": "Arremessar",
         "img": "icons/commodities/gems/gem-faceted-cushion-teal-black.webp",
         "range": "far",
         "baseAction": false,

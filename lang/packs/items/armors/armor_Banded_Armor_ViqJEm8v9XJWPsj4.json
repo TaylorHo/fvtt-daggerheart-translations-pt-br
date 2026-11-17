@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Banded Armor",
+  "name": "Armadura de Bandas",
   "type": "armor",
   "_id": "ViqJEm8v9XJWPsj4",
   "img": "icons/equipment/chest/bullet-proof-vest-kevlar.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": [
-          "JkRfeN3ioW857m1p"
-        ],
+        "effectIds": ["JkRfeN3ioW857m1p"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Bulky",
-      "description": "-1 to Evasion; when you take Severe damage, you must mark a Stress.",
+      "name": "Volumosa",
+      "description": "-1 na Evasão; quando você sofre dano Severo, deve marcar um Fadiga.",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "system": {
         "changes": [

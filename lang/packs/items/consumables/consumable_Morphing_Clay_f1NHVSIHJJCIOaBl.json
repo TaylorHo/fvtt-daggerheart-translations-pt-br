@@ -1,10 +1,10 @@
 {
-  "name": "Morphing Clay",
+  "name": "Molde de Argila",
   "type": "consumable",
   "_id": "f1NHVSIHJJCIOaBl",
   "img": "icons/commodities/stone/ore-chunk-brown.webp",
   "system": {
-    "description": "<p>You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.</p>",
+    "description": "<p>Você pode gastar uma Esperança para usar esta argila, alterando seu rosto o suficiente para ficar irreconhecível até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "S4wEG1RzfLNtvcg7": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/stone/ore-chunk-brown.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Morphing Clay",
+      "name": "Molde de Argila",
       "img": "icons/commodities/stone/ore-chunk-brown.webp",
       "transfer": false,
       "_id": "rMno0zO5Cbwlu4zn",
@@ -84,7 +84,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Your face is unrecognizable until your next rest.</p>",
+      "description": "<p>Seu rosto fica irreconhecível até seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

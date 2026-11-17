@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Broadsword",
+  "name": "Espada Larga Lendária",
   "type": "weapon",
   "_id": "y3hfTPfZhMognyaJ",
   "img": "icons/weapons/swords/sword-guard-bronze.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "+1 to attack rolls",
+      "name": "Confiável",
+      "description": "+1 nos testes de ataque",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "system": {
         "conditionals": [

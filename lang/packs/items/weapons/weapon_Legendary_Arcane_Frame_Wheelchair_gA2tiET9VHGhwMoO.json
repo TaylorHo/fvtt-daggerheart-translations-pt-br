@@ -1,6 +1,6 @@
 {
   "folder": "beilKE5ZPAihKg3O",
-  "name": "Legendary Arcane-Frame Wheelchair",
+  "name": "Cadeira de Rodas de Estrutura Arcana Lendária",
   "type": "weapon",
   "img": "systems/daggerheart/assets/icons/documents/items/ArcaneWheelchair.webp",
   "system": {
@@ -11,7 +11,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "fKTeCKjfyQauf5bA",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "+1 to attack rolls",
+      "name": "Confiável",
+      "description": "+1 nos testes de ataque",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "TvsoAiqHCwgtYat1",
       "type": "base",

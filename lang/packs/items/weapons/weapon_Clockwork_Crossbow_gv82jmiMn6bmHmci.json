@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Clockwork Crossbow",
+  "name": "Besta Mecânica",
   "type": "weapon",
   "_id": "gv82jmiMn6bmHmci",
   "img": "icons/weapons/crossbows/crossbow-golden-bolt.webp",
@@ -18,8 +18,8 @@
       "L7gm9rLjSswDoeg6": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Quick",
-        "description": "When you make an attack, you can mark a Stress to target another creature within range.",
+        "name": "Veloz",
+        "description": "Quando você faz um ataque, pode marcar um Fadiga para atingir outra criatura dentro do alcance.",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -87,9 +87,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d6",
@@ -152,9 +150,7 @@
       "quick": {
         "value": "quick",
         "effectIds": [],
-        "actionIds": [
-          "L7gm9rLjSswDoeg6"
-        ],
+        "actionIds": ["L7gm9rLjSswDoeg6"],
         "config": {}
       }
     }

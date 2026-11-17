@@ -1,10 +1,10 @@
 {
-  "name": "Piper Whistle",
+  "name": "Apito-flauta",
   "type": "loot",
   "_id": "v4PIoCCEjeE3acys",
   "img": "icons/tools/instruments/pipe-flue-tan.webp",
   "system": {
-    "description": "<p>This handcrafted whistle has a distinctive sound. When you blow this whistle, its piercing tone can be heard within a 1-mile radius.</p>",
+    "description": "<p>Este apito artesanal tem um som distintivo. Quando você o sopra, seu tom estridente pode ser ouvido em um raio de 1,6 quilômetro.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

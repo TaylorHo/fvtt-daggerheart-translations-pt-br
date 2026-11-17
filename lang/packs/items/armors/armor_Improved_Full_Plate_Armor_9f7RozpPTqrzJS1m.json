@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Improved Full Plate Armor",
+  "name": "Armadura de Placas Completa Aprimorada",
   "type": "armor",
   "_id": "9f7RozpPTqrzJS1m",
   "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "veryheavy": {
         "value": "veryheavy",
-        "effectIds": [
-          "wstJ1aKKtmXgCwxB"
-        ],
+        "effectIds": ["wstJ1aKKtmXgCwxB"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Very Heavy",
-      "description": "-2 to Evasion; -1 to Agility",
+      "name": "Muito Pesada",
+      "description": "-2 na Evasão; -1 na Agilidade",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "_id": "wstJ1aKKtmXgCwxB",
       "type": "base",

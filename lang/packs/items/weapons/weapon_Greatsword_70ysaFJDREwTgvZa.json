@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Greatsword",
+  "name": "Montante",
   "type": "weapon",
   "_id": "70ysaFJDREwTgvZa",
   "img": "icons/weapons/swords/greatsword-crossguard-barbed.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Massive",
-      "description": "-1 to Evasion",
+      "name": "Enorme",
+      "description": "-1 na Evasão",
       "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "system": {
         "changes": [

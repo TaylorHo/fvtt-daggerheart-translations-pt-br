@@ -1,10 +1,10 @@
 {
-  "name": "Growing Potion",
+  "name": "Poção do Crescimento",
   "type": "consumable",
   "_id": "fl2f3ees8RFMze9t",
   "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
   "system": {
-    "description": "<p>You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency.</p>",
+    "description": "<p>Você pode beber esta poção para dobrar seu tamanho até escolher abandonar esta forma ou até seu próximo descanso. Enquanto estiver nesta forma, você tem um bônus de +2 em Força e um bônus de +1 em sua Proficiência.</p>",
     "quantity": 1,
     "actions": {
       "A8wHvMnKnewQ2J3m": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Growing Potion",
+      "name": "Poção do Crescimento",
       "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
       "transfer": false,
       "_id": "YEGd74Lssj7rCmpF",

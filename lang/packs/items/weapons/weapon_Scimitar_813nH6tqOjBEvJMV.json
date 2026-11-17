@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Scimitar",
+  "name": "Cimitarra",
   "type": "weapon",
   "_id": "813nH6tqOjBEvJMV",
   "img": "icons/weapons/swords/scimitar-worn-blue.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

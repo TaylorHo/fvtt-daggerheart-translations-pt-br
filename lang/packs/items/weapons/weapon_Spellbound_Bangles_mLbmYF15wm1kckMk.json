@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Spellbound Bangles",
+  "name": "Pulseiras Enfeitiçadas",
   "type": "weapon",
   "_id": "mLbmYF15wm1kckMk",
   "img": "icons/equipment/wrist/bracer-studded-copper.webp",
@@ -21,7 +21,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

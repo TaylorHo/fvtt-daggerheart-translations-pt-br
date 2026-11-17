@@ -1,10 +1,10 @@
 {
-  "name": "Blinding Orb",
+  "name": "Orbe Cegante",
   "type": "consumable",
   "_id": "eAXHdzA5qNPldOpn",
   "img": "icons/magic/light/explosion-star-large-blue-yellow.webp",
   "system": {
-    "description": "<p>You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP.</p><p>@Template[type:emanation|range:c]</p>",
+    "description": "<p>Você pode ativar este orbe para criar um clarão de luz intensa. Todos os alvos dentro do alcance Próximo ficam Vulneráveis até marcarem PV.</p><p>@Template[type:emanation|range:c]</p>",
     "quantity": 1,
     "actions": {
       "vk4dE0C8bjNdTwAF": {
@@ -40,7 +40,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/magic/light/explosion-star-large-blue-yellow.webp",
         "range": "close",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Blinding Orb",
+      "name": "Orbe Cegante",
       "img": "icons/magic/light/explosion-star-large-blue-yellow.webp",
       "transfer": false,
       "_id": "nryJhrF26hyFQUxH",
@@ -70,7 +70,7 @@
         "changes": [],
         "duration": {
           "type": "temporary",
-          "description": "<p>Until they mark HP.</p>"
+          "description": "<p>Até marcarem PV.</p>"
         },
         "rangeDependence": null,
         "stacking": null,
@@ -84,11 +84,9 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You are Vulnerable until you mark a Hit Point.</p>",
+      "description": "<p>Você fica Vulnerável até marcar um Ponto de Vida.</p>",
       "tint": "#ffffff",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "sort": 0,
       "flags": {},
       "_stats": {

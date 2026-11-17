@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Legendary Scepter",
+  "name": "Cetro Lendário",
   "type": "weapon",
   "_id": "IZ4CWNxfuM46JeCN",
   "img": "icons/weapons/staves/staff-orb-purple.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,

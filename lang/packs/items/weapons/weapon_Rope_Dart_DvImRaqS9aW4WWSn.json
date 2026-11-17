@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Rope Dart",
+  "name": "Dardo de Corda",
   "type": "weapon",
   "_id": "DvImRaqS9aW4WWSn",
   "img": "icons/weapons/daggers/dagger-simple-blue.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

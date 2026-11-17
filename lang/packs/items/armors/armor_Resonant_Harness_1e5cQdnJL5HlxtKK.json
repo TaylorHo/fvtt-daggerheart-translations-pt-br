@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Resonant Harness",
+  "name": "Arnês Ressonante",
   "type": "armor",
   "_id": "1e5cQdnJL5HlxtKK",
   "img": "icons/equipment/chest/breastplate-layered-gilded-black.webp",
@@ -19,8 +19,8 @@
       "iTv5QVsZaJ6KYEv3": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Vitreous",
-        "description": "When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move.",
+        "name": "Vítrea",
+        "description": "Quando você sofreria dano Severo ou maior, pode marcar 2 Espaços de Armadura para anular esse dano. Se fizer isso, você recebe uma penalidade de -5 nos seus limiares de dano até escolher consertar sua armadura como uma ação de intervalo.",
         "img": "icons/magic/defensive/armor-stone-skin.webp",
         "target": {
           "type": "self",
@@ -72,20 +72,16 @@
     "itemFeatures": {
       "vitreous": {
         "value": "vitreous",
-        "effectIds": [
-          "dzGZkBgtJjQh3JH1"
-        ],
-        "actionIds": [
-          "iTv5QVsZaJ6KYEv3"
-        ],
+        "effectIds": ["dzGZkBgtJjQh3JH1"],
+        "actionIds": ["iTv5QVsZaJ6KYEv3"],
         "config": {}
       }
     }
   },
   "effects": [
     {
-      "name": "Vitreous",
-      "description": "You have a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move",
+      "name": "Vítrea",
+      "description": "Você tem uma penalidade de -5 nos seus limiares de dano até escolher consertar sua armadura como uma ação de intervalo",
       "img": "icons/skills/melee/shield-damaged-broken-blue.webp",
       "system": {
         "stacking": {

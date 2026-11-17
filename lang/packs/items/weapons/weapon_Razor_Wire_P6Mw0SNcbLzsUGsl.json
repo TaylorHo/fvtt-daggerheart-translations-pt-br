@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Razor Wire",
+  "name": "Fio de Navalha",
   "type": "weapon",
   "_id": "P6Mw0SNcbLzsUGsl",
   "img": "icons/commodities/metal/chain-steel.webp",
@@ -19,8 +19,8 @@
       "WEj9asBFTeuvpcgu": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Entangling",
-        "description": "On a successful attack with your primary weapon against a target within Very Close range, you can spend a Hope to make the target temporarily Vulnerable.",
+        "name": "Enredante",
+        "description": "Em um ataque bem-sucedido com sua arma primária contra um alvo dentro do alcance Muito Próximo, você pode gastar uma Esperança para tornar o alvo temporariamente Vulnerável.",
         "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
         "target": {
           "type": "self",
@@ -64,7 +64,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,
@@ -169,7 +169,7 @@
   },
   "effects": [
     {
-      "name": "Entangling",
+      "name": "Enredante",
       "description": "",
       "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
       "statuses": [

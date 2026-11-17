@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Scimitar",
+  "name": "Cimitarra Lendária",
   "type": "weapon",
   "_id": "EsFsgaEUdJJRCklS",
   "img": "icons/weapons/swords/scimitar-guard-wood.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

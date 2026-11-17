@@ -1,9 +1,9 @@
 {
-  "name": "Phial of Deep Ink",
+  "name": "Ampola de Tinta Profunda",
   "type": "consumable",
   "img": "icons/consumables/potions/potion-bottle-corked-blue.webp",
   "system": {
-    "description": "<p>You can drink this bottle of ink to transform into a cephalopod of roughly your size for the next hour. You gain rubbery skin, soft bones, the ability to breathe underwater, and new limbs until you have eight total.</p>",
+    "description": "<p>Você pode beber este frasco de tinta para se transformar em um cefalópode de tamanho aproximado ao seu pela próxima hora. Você ganha pele emborrachada, ossos macios, a capacidade de respirar debaixo d'água e novos membros até ter oito no total.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,16 +60,16 @@
   "_id": "j2tN23J2c1FA4IUS",
   "effects": [
     {
-      "name": "Phial Of deep Ink",
+      "name": "Ampola de Tinta Profunda",
       "disabled": false,
       "img": "icons/commodities/biological/tentacle-purple-white.webp",
-      "description": "<p>You can drink this bottle of ink to transform into a cephalopod of roughly your size for the next hour. You gain rubbery skin, soft bones, the ability to breathe underwater, and new limbs until you have eight total.</p>",
+      "description": "<p>Você pode beber este frasco de tinta para se transformar em um cefalópode de tamanho aproximado ao seu pela próxima hora. Você ganha pele emborrachada, ossos macios, a capacidade de respirar debaixo d'água e novos membros até ter oito no total.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
         "changes": [],
         "duration": {
-          "description": "<p>An hour</p>",
+          "description": "<p>Uma hora</p>",
           "type": "temporary"
         },
         "rangeDependence": null,

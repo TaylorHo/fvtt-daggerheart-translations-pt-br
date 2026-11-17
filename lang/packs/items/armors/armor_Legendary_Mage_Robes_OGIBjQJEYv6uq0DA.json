@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Legendary Mage Robes",
+  "name": "Vestes de Mago Lendárias",
   "type": "armor",
   "_id": "OGIBjQJEYv6uq0DA",
   "img": "icons/equipment/chest/robe-collared-pink.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "enchanted": {
         "value": "enchanted",
-        "effectIds": [
-          "YEg4fgH21uRnKW7f"
-        ],
+        "effectIds": ["YEg4fgH21uRnKW7f"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Enchanted",
-      "description": "Gain a bonus to your damage thresholds equal to your Spellcast trait.",
+      "name": "Encantada",
+      "description": "Receba um bônus nos seus limiares de dano igual à sua característica de Conjuração.",
       "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
       "system": {
         "changes": [

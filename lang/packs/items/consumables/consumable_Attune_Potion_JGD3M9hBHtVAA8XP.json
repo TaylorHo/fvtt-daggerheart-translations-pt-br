@@ -1,10 +1,10 @@
 {
-  "name": "Attune Potion",
+  "name": "Poção da Sintonia",
   "type": "consumable",
   "_id": "JGD3M9hBHtVAA8XP",
   "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your next Instinct Roll.</p>",
+    "description": "<p>Você ganha um bônus de +1 no seu próximo Teste de Instinto.</p>",
     "quantity": 1,
     "actions": {
       "aiyNOQZbVpTDagXy": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Attune Potion",
+      "name": "Poção da Sintonia",
       "img": "icons/consumables/potions/bottle-conical-corked-purple.webp",
       "transfer": false,
       "_id": "I5vgALTNDVApxy9d",

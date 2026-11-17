@@ -1,10 +1,10 @@
 {
-  "name": "Ring of Resistance",
+  "name": "Anel da Resistência",
   "type": "loot",
   "_id": "aUqRifqR5JXXa1dN",
   "img": "icons/equipment/finger/ring-shield-silver.webp",
   "system": {
-    "description": "<p>Once per long rest, you can activate this ring after a successful attack against you to halve the damage.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode ativar este anel após um ataque bem-sucedido contra você para reduzir o dano pela metade.</p>",
     "quantity": 1,
     "actions": {
       "4swwe8SZeh2KyPtl": {
@@ -31,7 +31,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/equipment/finger/ring-shield-silver.webp",
         "range": "self",
         "baseAction": false,
@@ -51,7 +51,7 @@
   },
   "effects": [
     {
-      "name": "Ring of Resistance",
+      "name": "Anel da Resistência",
       "img": "icons/equipment/finger/ring-shield-silver.webp",
       "transfer": false,
       "_id": "Sj7uGf560T7u4rlX",
@@ -88,7 +88,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Once per long rest, you can activate this ring after a successful attack against you to halve the damage.</p>",
+      "description": "<p>Uma vez por descanso longo, você pode ativar este anel após um ataque bem-sucedido contra você para reduzir o dano pela metade.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

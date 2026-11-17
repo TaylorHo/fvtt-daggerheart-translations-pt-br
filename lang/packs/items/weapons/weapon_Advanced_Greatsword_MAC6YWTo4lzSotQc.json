@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Greatsword",
+  "name": "Montante Avançado",
   "type": "weapon",
   "_id": "MAC6YWTo4lzSotQc",
   "img": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,17 +111,15 @@
     "itemFeatures": {
       "massive": {
         "value": "massive",
-        "effectIds": [
-          "ouQRbD8XVCEEnuhx"
-        ],
+        "effectIds": ["ouQRbD8XVCEEnuhx"],
         "actionIds": []
       }
     }
   },
   "effects": [
     {
-      "name": "Massive",
-      "description": "-1 to Evasion",
+      "name": "Enorme",
+      "description": "-1 na Evasão",
       "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "system": {
         "changes": [

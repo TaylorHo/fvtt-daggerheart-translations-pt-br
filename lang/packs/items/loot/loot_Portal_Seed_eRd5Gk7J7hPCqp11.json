@@ -1,10 +1,10 @@
 {
-  "name": "Portal Seed",
+  "name": "Semente de Portal",
   "type": "loot",
   "_id": "eRd5Gk7J7hPCqp11",
   "img": "icons/commodities/treasure/egg-ornate-green-gold.webp",
   "system": {
-    "description": "<p>You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of magic damage to it.</p>",
+    "description": "<p>Você pode plantar esta semente no chão para fazer crescer um portal naquele local. O portal fica pronto para uso em 24 horas. Você pode usar este portal para viajar a qualquer outro local onde tenha plantado uma semente de portal. Um portal pode ser destruído causando qualquer quantidade de dano mágico a ele.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

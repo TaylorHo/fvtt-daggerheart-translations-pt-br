@@ -1,9 +1,9 @@
 {
-  "name": "Augur's Relic",
+  "name": "Relíquia do Áugure",
   "type": "loot",
   "img": "icons/commodities/treasure/puzzle-triangle-gold.webp",
   "system": {
-    "description": "<p>Once per long rest, you can activate your Hope feature without spending Hope. You can carry only one relic.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode ativar sua característica de Esperança sem gastar Esperança. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "range": ""
       }
     }

@@ -1,9 +1,9 @@
 {
-  "name": "Staff of Reversal",
+  "name": "Cajado da Reversão",
   "type": "consumable",
   "img": "icons/weapons/staves/staff-simple-spiral.webp",
   "system": {
-    "description": "<p>You can break this staff against the ground to reverse one magical transformation or effect within Far range.</p>",
+    "description": "<p>Você pode quebrar este cajado contra o chão para reverter uma transformação ou efeito mágico dentro do alcance Distante.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Break",
+        "name": "Quebrar",
         "range": ""
       }
     }

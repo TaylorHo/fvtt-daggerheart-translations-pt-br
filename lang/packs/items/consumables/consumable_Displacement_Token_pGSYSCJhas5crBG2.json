@@ -1,9 +1,9 @@
 {
-  "name": "Displacement Token",
+  "name": "Ficha de Deslocamento",
   "type": "consumable",
   "img": "icons/commodities/treasure/token-brass-round.webp",
   "system": {
-    "description": "<p>You can swallow this token to conjure two illusions of yourself that you can control. Each illusion lasts until it takes damage or until your next rest.</p>",
+    "description": "<p>Você pode engolir esta ficha para conjurar duas ilusões de si mesmo que você pode controlar. Cada ilusão dura até sofrer dano ou até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Swallow",
+        "name": "Engolir",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "pGSYSCJhas5crBG2",
   "effects": [
     {
-      "name": "Displaced",
+      "name": "Deslocado",
       "disabled": false,
       "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
-      "description": "<p>You can swallow this token to conjure two illusions of yourself that you can control. Each illusion lasts until it takes damage or until your next rest.</p>",
+      "description": "<p>Você pode engolir esta ficha para conjurar duas ilusões de si mesmo que você pode controlar. Cada ilusão dura até sofrer dano ou até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

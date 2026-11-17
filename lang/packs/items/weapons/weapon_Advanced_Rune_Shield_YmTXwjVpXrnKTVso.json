@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Rune Shield",
+  "name": "Escudo Rúnico Avançado",
   "type": "weapon",
   "_id": "YmTXwjVpXrnKTVso",
   "img": "icons/equipment/shield/heater-stone-orange.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d4",
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "protective": {
         "value": "protective",
-        "effectIds": [
-          "TqOWmUMXr5RnE8fY"
-        ],
+        "effectIds": ["TqOWmUMXr5RnE8fY"],
         "actionIds": [],
         "config": {
           "value": "@item.tier"
@@ -125,8 +121,8 @@
   },
   "effects": [
     {
-      "name": "Protective",
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "name": "Protetora",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "img": "icons/skills/melee/shield-block-gray-orange.webp",
       "system": {
         "changes": [

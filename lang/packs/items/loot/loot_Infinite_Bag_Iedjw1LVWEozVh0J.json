@@ -1,10 +1,10 @@
 {
-  "name": "Infinite Bag",
+  "name": "Bolsa Infinita",
   "type": "loot",
   "_id": "Iedjw1LVWEozVh0J",
   "img": "icons/containers/bags/pack-engraved-leather-blue.webp",
   "system": {
-    "description": "<p>When you store items in this bag, they are kept in a pocket dimension that never runs out of space. You can retrieve an item at any time.</p>",
+    "description": "<p>Quando você guarda itens nesta bolsa, eles ficam em um bolso dimensional que nunca fica sem espaço. Você pode retirar um item a qualquer momento.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

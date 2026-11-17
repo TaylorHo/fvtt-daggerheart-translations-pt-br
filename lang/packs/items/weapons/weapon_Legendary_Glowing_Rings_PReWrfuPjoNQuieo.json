@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Legendary Glowing Rings",
+  "name": "Anéis Brilhantes Lendários",
   "type": "weapon",
   "_id": "PReWrfuPjoNQuieo",
   "img": "icons/equipment/finger/ring-bone-teeth.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,

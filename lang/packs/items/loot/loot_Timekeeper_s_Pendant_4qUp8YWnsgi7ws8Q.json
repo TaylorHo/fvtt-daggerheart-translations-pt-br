@@ -1,9 +1,9 @@
 {
-  "name": "Timekeeper's Pendant",
+  "name": "Pingente do Guardião do Tempo",
   "type": "loot",
   "img": "icons/equipment/neck/amulet-round-gold-green-blue.webp",
   "system": {
-    "description": "<p>You can choose an additional downtime move each rest.</p>",
+    "description": "<p>Você pode escolher uma ação de intervalo adicional a cada descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -16,7 +16,7 @@
   "_id": "4qUp8YWnsgi7ws8Q",
   "effects": [
     {
-      "name": "Timekeeper's Pendant",
+      "name": "Pingente do Guardião do Tempo",
       "type": "base",
       "system": {
         "changes": [
@@ -61,7 +61,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can choose an additional downtime move each rest.</p>",
+      "description": "<p>Você pode escolher uma ação de intervalo adicional a cada descanso.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

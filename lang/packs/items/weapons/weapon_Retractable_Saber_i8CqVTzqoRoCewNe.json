@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Retractable Saber",
+  "name": "Sabre Retrátil",
   "type": "weapon",
   "_id": "i8CqVTzqoRoCewNe",
   "img": "icons/weapons/swords/sword-guard-worn-brown.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,

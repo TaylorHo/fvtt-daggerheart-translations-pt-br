@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Tyris Soft Armor",
+  "name": "Armadura Macia de Tyris",
   "type": "armor",
   "_id": "PSW3BxCGmtLeWOxM",
   "img": "icons/equipment/chest/robe-layered-purple.webp",
@@ -29,9 +29,7 @@
       "quiet": {
         "value": "quiet",
         "effectIds": [],
-        "actionIds": [
-          "Ch6IhuPewBeseGez"
-        ],
+        "actionIds": ["Ch6IhuPewBeseGez"],
         "config": {}
       }
     }

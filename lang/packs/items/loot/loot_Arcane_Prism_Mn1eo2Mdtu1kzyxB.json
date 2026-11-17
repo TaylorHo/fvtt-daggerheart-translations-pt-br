@@ -1,10 +1,10 @@
 {
-  "name": "Arcane Prism",
+  "name": "Prisma Arcano",
   "type": "loot",
   "_id": "Mn1eo2Mdtu1kzyxB",
   "img": "icons/commodities/gems/gem-faceted-trillion-blue.webp",
   "system": {
-    "description": "<p>Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can't be moved. Once the prism is deactivated, it can't be activated again until your next long rest.</p>",
+    "description": "<p>Posicione este prisma em um local de sua escolha e ative-o. Todos os aliados dentro do alcance Próximo dele ganham um bônus de +1 em seus Testes de Conjuração. Enquanto estiver ativado, o prisma não pode ser movido. Depois de desativado, o prisma não pode ser ativado novamente até seu próximo descanso longo.</p>",
     "quantity": 1,
     "actions": {
       "QgBDJh0laEvOB94w": {
@@ -31,7 +31,7 @@
           "type": "friendly",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/commodities/gems/gem-faceted-trillion-blue.webp",
         "range": "close",
         "baseAction": false,
@@ -51,7 +51,7 @@
   },
   "effects": [
     {
-      "name": "Arcane Prism",
+      "name": "Prisma Arcano",
       "img": "icons/commodities/gems/gem-faceted-trillion-blue.webp",
       "transfer": false,
       "_id": "Ee3Z0PnyERiNFgjU",
@@ -75,9 +75,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "spellcast"
-            ],
+            "actionTypes": ["spellcast"],
             "traits": []
           }
         ]

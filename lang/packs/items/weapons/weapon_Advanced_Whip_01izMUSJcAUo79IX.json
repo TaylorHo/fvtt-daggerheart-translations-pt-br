@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Whip",
+  "name": "Chicote Avançado",
   "type": "weapon",
   "_id": "01izMUSJcAUo79IX",
   "img": "icons/weapons/misc/whip-red-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "startling": {
         "value": "startling",
         "effectIds": [],
-        "actionIds": [
-          "9x82us4KqCFp2ds0"
-        ],
+        "actionIds": ["9x82us4KqCFp2ds0"],
         "config": {}
       }
     }

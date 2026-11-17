@@ -1,10 +1,10 @@
 {
-  "name": "Mythic Dust Recipe",
+  "name": "Receita de Pó Mítico",
   "type": "loot",
   "_id": "5YZls8XH3MB7twNa",
   "img": "icons/sundries/scrolls/scroll-bound-green.webp",
   "system": {
-    "description": "<p>As a downtime move, you can use a handful of fine gold dust to craft Mythic Dust.</p>",
+    "description": "<p>Como uma ação de intervalo, você pode usar um punhado de pó de ouro fino para fabricar Pó Mítico.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

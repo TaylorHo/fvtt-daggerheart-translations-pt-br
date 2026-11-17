@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Adder's Fang",
+  "name": "Presa de Víbora",
   "type": "weapon",
   "_id": "n0qB948TRIJ8nRtP",
   "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
@@ -19,8 +19,8 @@
       "1nmjsSNRC9uHl2j4": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Venomous",
-        "description": "When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable.",
+        "name": "Venenosa",
+        "description": "Quando você causa dano Maior ou superior com esta arma, o alvo fica temporariamente Vulnerável.",
         "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
         "effects": [
           {
@@ -55,7 +55,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -84,9 +84,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -148,24 +146,18 @@
     "itemFeatures": {
       "venomous": {
         "value": "venomous",
-        "effectIds": [
-          "t6Qu6nt3bGnkTlXP"
-        ],
-        "actionIds": [
-          "1nmjsSNRC9uHl2j4"
-        ],
+        "effectIds": ["t6Qu6nt3bGnkTlXP"],
+        "actionIds": ["1nmjsSNRC9uHl2j4"],
         "config": {}
       }
     }
   },
   "effects": [
     {
-      "name": "Venomous",
+      "name": "Venenosa",
       "description": "",
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
-      "statuses": [
-        "vulnerable"
-      ],
+      "statuses": ["vulnerable"],
       "transfer": false,
       "_id": "t6Qu6nt3bGnkTlXP",
       "type": "base",

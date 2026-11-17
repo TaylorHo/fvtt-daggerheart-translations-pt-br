@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Brightsword",
+  "name": "Espada Luminosa Avançada",
   "type": "weapon",
   "_id": "RPBABgpMFJK9YNQh",
   "img": "icons/weapons/swords/sword-gold-holy.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d10",

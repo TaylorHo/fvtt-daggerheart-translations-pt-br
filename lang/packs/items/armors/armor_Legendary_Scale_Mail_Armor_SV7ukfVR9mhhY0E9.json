@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Legendary Scale Mail Armor",
+  "name": "Armadura de Escamas Lendária",
   "type": "armor",
   "_id": "SV7ukfVR9mhhY0E9",
   "img": "icons/equipment/chest/breastplate-layered-leather-green.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "yYHxeQ0YPiVl8Cbc"
-        ],
+        "effectIds": ["yYHxeQ0YPiVl8Cbc"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "system": {
         "changes": [

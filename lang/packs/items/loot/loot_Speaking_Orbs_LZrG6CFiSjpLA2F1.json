@@ -1,10 +1,10 @@
 {
-  "name": "Speaking Orbs",
+  "name": "Orbes da Comunicação",
   "type": "loot",
   "_id": "LZrG6CFiSjpLA2F1",
   "img": "icons/commodities/materials/glass-orb-blue-gold.webp",
   "system": {
-    "description": "<p>This pair of orbs allows any creatures holding them to communicate with each other across any distance.</p>",
+    "description": "<p>Este par de orbes permite que quaisquer criaturas que os segurem se comuniquem entre si a qualquer distância.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

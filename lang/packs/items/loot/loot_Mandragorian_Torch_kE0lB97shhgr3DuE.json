@@ -1,9 +1,9 @@
 {
-  "name": "Mandragorian Torch",
+  "name": "Tocha Mandragoriana",
   "type": "loot",
   "img": "icons/sundries/lights/torch-brown.webp",
   "system": {
-    "description": "<p>This torch gives off light only the bearer can see.</p>",
+    "description": "<p>Esta tocha emite uma luz que somente quem a carrega consegue ver.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

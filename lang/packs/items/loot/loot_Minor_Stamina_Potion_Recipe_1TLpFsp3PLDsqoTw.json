@@ -1,10 +1,10 @@
 {
-  "name": "Minor Stamina Potion Recipe",
+  "name": "Receita de Poção de Vigor Menor",
   "type": "loot",
   "_id": "1TLpFsp3PLDsqoTw",
   "img": "icons/sundries/scrolls/scroll-bound-green.webp",
   "system": {
-    "description": "<p>As a downtime move, you can use the bone of a creature to craft a Minor Stamina Potion.</p>",
+    "description": "<p>Como uma ação de intervalo, você pode usar o osso de uma criatura para fabricar uma Poção de Vigor Menor.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Quarterstaff",
+  "name": "Bordão",
   "type": "weapon",
   "_id": "mlIj88p1wcQNjEDG",
   "img": "icons/weapons/staves/staff-simple.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,

@@ -1,9 +1,9 @@
 {
-  "name": "Lyrebird Lozenge",
+  "name": "Pastilha de Lira",
   "type": "consumable",
   "img": "icons/commodities/treasure/token-silver-blue.webp",
   "system": {
-    "description": "<p>You can dissolve this lozenge in your mouth to perfectly mimic any voice you've heard until the end of the scene.</p>",
+    "description": "<p>Você pode dissolver esta pastilha na boca para imitar perfeitamente qualquer voz que já tenha ouvido até o final da cena.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -60,10 +60,10 @@
   "_id": "ojK5ogZD6WJqamaP",
   "effects": [
     {
-      "name": "Lyrebird",
+      "name": "Lira",
       "disabled": false,
       "img": "icons/commodities/treasure/token-silver-blue.webp",
-      "description": "<p>You can dissolve this lozenge in your mouth to perfectly mimic any voice you've heard until the end of the scene.</p>",
+      "description": "<p>Você pode dissolver esta pastilha na boca para imitar perfeitamente qualquer voz que já tenha ouvido até o final da cena.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

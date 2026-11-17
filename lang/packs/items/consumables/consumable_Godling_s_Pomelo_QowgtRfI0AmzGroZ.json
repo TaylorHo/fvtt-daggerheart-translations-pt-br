@@ -1,9 +1,9 @@
 {
-  "name": "Godling's Pomelo",
+  "name": "Toranja do Semideus",
   "type": "consumable",
   "img": "icons/consumables/fruit/plum-ripe-yellow.webp",
   "system": {
-    "description": "<p>You can eat this citrus fruit to clear all Hit Points and Stress.</p>",
+    "description": "<p>Você pode comer esta fruta cítrica para limpar todos os Pontos de Vida e Fadiga.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -103,7 +103,7 @@
           },
           "useDefault": false
         },
-        "name": "Eat",
+        "name": "Comer",
         "range": ""
       }
     }

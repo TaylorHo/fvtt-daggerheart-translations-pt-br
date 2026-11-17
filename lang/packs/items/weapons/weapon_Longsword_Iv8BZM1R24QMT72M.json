@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Longsword",
+  "name": "Espada Longa",
   "type": "weapon",
   "_id": "Iv8BZM1R24QMT72M",
   "img": "icons/weapons/swords/sword-guard.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,

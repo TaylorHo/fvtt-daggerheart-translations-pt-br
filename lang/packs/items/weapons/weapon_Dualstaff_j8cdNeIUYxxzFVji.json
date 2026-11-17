@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Dualstaff",
+  "name": "Cajado Duplo",
   "type": "weapon",
   "_id": "j8cdNeIUYxxzFVji",
   "img": "icons/weapons/staves/staff-simple-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,

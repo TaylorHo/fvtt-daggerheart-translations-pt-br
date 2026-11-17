@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Spiked Plate Armor",
+  "name": "Armadura de Placas Espinhosa",
   "type": "armor",
   "_id": "QjwsIhXKqnlvRBMv",
   "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "sharp": {
         "value": "sharp",
-        "effectIds": [
-          "V8CcTcVAIxHq8KNd"
-        ],
+        "effectIds": ["V8CcTcVAIxHq8KNd"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Sharp",
-      "description": "On a successful attack against a target within Melee range, add a d4 to the damage roll.",
+      "name": "Cortante",
+      "description": "Em um ataque bem-sucedido contra um alvo dentro do alcance Corpo a Corpo, adicione um d4 à rolagem de dano.",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
       "_id": "V8CcTcVAIxHq8KNd",
       "type": "base",

@@ -1,9 +1,9 @@
 {
-  "name": "Yakamel Milk",
+  "name": "Leite de Yakamel",
   "type": "consumable",
   "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
   "system": {
-    "description": "<p>After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.</p>",
+    "description": "<p>Depois de consumir este leite, na próxima vez que você limpar 1 ou mais Pontos de Vida, limpa um Ponto de Vida adicional.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Consume",
+        "name": "Consumir",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "wmwbo6ogg6ExLozU",
   "effects": [
     {
-      "name": "Yakamel Milk",
+      "name": "Leite de Yakamel",
       "disabled": false,
       "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
-      "description": "<p>After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.</p>",
+      "description": "<p>Depois de consumir este leite, na próxima vez que você limpar 1 ou mais Pontos de Vida, limpa um Ponto de Vida adicional.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

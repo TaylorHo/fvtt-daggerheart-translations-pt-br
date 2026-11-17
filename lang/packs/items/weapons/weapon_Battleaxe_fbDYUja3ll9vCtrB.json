@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Battleaxe",
+  "name": "Machado de Batalha",
   "type": "weapon",
   "_id": "fbDYUja3ll9vCtrB",
   "img": "icons/weapons/axes/axe-double-jagged-black.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {

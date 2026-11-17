@@ -1,10 +1,10 @@
 {
-  "name": "Glider",
+  "name": "Paraquedas",
   "type": "loot",
   "_id": "CiXwelozmBDcPY48",
   "img": "icons/commodities/leather/leather-patch-red.webp",
   "system": {
-    "description": "<p>While falling, you can <strong>mark a Stress</strong> to deploy this small parachute and glide safely to the ground.</p>",
+    "description": "<p>Enquanto estiver caindo, você pode <strong>marcar um Fadiga</strong> para abrir este pequeno paraquedas e planar com segurança até o chão.</p>",
     "quantity": 1,
     "actions": {
       "Adz50oihGEMJxbyA": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "img": "icons/commodities/leather/leather-patch-red.webp",
         "range": "",
         "baseAction": false,

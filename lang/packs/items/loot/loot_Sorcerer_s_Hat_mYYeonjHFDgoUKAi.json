@@ -1,9 +1,9 @@
 {
-  "name": "Sorcerer's Hat",
+  "name": "Chapéu do Feiticeiro",
   "type": "loot",
   "img": "icons/equipment/head/hat-pointed-leather-blue.webp",
   "system": {
-    "description": "<p>This conical blue hat is covered in silver stars. Once per rest, you can cast a spell from your vault with a Recall Cost equal to or less than your tier. This doesn't work for permanently vaulted cards.</p>",
+    "description": "<p>Este chapéu cônico azul é coberto de estrelas de prata. Uma vez por descanso, você pode lançar uma magia do seu cofre com Custo de Recuperação igual ou menor que seu patamar. Isso não funciona para cartas permanentemente no cofre.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

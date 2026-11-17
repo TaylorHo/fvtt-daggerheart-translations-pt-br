@@ -1,9 +1,9 @@
 {
-  "name": "Iron Veil",
+  "name": "Véu de Ferro",
   "type": "loot",
   "img": "icons/equipment/head/hood-chain-worn.webp",
   "system": {
-    "description": "<p>This chain-link head covering renders the wearer invisible to fey creatures.</p>",
+    "description": "<p>Esta touca de malha torna quem a usa invisível para criaturas feéricas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

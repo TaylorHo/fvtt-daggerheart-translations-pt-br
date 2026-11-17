@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "War Dart",
+  "name": "Dardo de Guerra",
   "type": "weapon",
   "_id": "Bm5jlRxmF5Yn72DV",
   "img": "icons/weapons/daggers/dagger-double-black.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

@@ -1,10 +1,10 @@
 {
-  "name": "Bonding Honey",
+  "name": "Mel da União",
   "type": "consumable",
   "_id": "PfQvqopXgvroBklL",
   "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
   "system": {
-    "description": "<p>This honey can be used to glue two objects together permanently.</p>",
+    "description": "<p>Este mel pode ser usado para colar dois objetos permanentemente.</p>",
     "quantity": 1,
     "actions": {
       "SWrgUGHIWCXpED1b": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
         "range": "",
         "baseAction": false,

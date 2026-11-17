@@ -1,9 +1,9 @@
 {
-  "name": "Gravity Bomb",
+  "name": "Bomba de Gravidade",
   "type": "consumable",
   "img": "icons/commodities/metal/plate-mount-round-copper.webp",
   "system": {
-    "description": "<p>You can throw this peach-sized mechanical orb at a point within Far range. It implodes and pulls all creatures and objects within Close range of that point into Melee range with it.</p>",
+    "description": "<p>Você pode arremessar este orbe mecânico do tamanho de um pêssego em um ponto dentro do alcance Distante. Ele implode e puxa todas as criaturas e objetos dentro do alcance Próximo desse ponto para o alcance Corpo a Corpo dele.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -27,7 +27,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Gravity Bomb",
+            "name": "Bomba de Gravidade",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -56,7 +56,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Throw",
+        "name": "Arremessar",
         "range": "far"
       }
     }

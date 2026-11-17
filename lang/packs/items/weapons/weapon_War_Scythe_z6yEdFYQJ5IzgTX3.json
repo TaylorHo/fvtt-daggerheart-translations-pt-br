@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "War Scythe",
+  "name": "Foice de Guerra",
   "type": "weapon",
   "_id": "z6yEdFYQJ5IzgTX3",
   "img": "icons/weapons/sickles/scythe-wrapped-red.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "reliable": {
         "value": "reliable",
-        "effectIds": [
-          "md3xTiCMlyMcKg5S"
-        ],
+        "effectIds": ["md3xTiCMlyMcKg5S"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "+1 to attack rolls",
+      "name": "Confiável",
+      "description": "+1 nos testes de ataque",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "system": {
         "conditionals": [
@@ -134,9 +130,7 @@
           },
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ],

@@ -1,10 +1,10 @@
 {
-  "name": "Alistair's Torch",
+  "name": "Tocha de Alistair",
   "type": "loot",
   "_id": "MeEg57T6MKpw3sme",
   "img": "icons/sundries/lights/torch-brown-lit.webp",
   "system": {
-    "description": "<p>You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day.</p>",
+    "description": "<p>Você pode acender esta tocha mágica à vontade. A luz da chama preenche um espaço muito maior do que deveria, o suficiente para iluminar uma caverna como se fosse dia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

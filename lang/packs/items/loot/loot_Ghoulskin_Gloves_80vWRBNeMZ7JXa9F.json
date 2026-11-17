@@ -1,9 +1,9 @@
 {
-  "name": "Ghoulskin Gloves",
+  "name": "Luvas de Pele de Carniçal",
   "type": "loot",
   "img": "icons/equipment/hand/glove-cuffed-leather-purple.webp",
   "system": {
-    "description": "<p>When you attack with a physical weapon while wearing these gloves, the damage is considered both physical and magic.</p>",
+    "description": "<p>Quando você ataca com uma arma física usando estas luvas, o dano é considerado tanto físico quanto mágico.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

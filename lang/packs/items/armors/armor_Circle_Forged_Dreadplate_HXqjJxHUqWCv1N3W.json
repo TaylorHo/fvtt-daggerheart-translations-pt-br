@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Circle-Forged Dreadplate",
+  "name": "Placa Sombria Forjada no Círculo",
   "type": "armor",
   "_id": "HXqjJxHUqWCv1N3W",
   "img": "icons/equipment/chest/tech-green.webp",
@@ -19,8 +19,8 @@
       "3io8jJeWVrwcKBcF": {
         "type": "attack",
         "chatDisplay": true,
-        "name": "Accursed",
-        "description": "When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress.",
+        "name": "Amaldiçoada",
+        "description": "Quando você marca qualquer quantidade de Pontos de Vida de um ataque, role um d4. Em um resultado 4, o atacante deve marcar a mesma quantidade de Fadiga.",
         "img": "icons/magic/unholy/hand-marked-pink.webp",
         "roll": {
           "type": "diceSet",
@@ -83,9 +83,7 @@
       "accursed": {
         "value": "accursed",
         "effectIds": [],
-        "actionIds": [
-          "3io8jJeWVrwcKBcF"
-        ],
+        "actionIds": ["3io8jJeWVrwcKBcF"],
         "config": {}
       }
     }

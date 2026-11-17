@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Enchanted Lute",
+  "name": "Alaúde Encantado",
   "type": "weapon",
   "_id": "JMVPiFhDLwIYZCbI",
   "img": "icons/tools/instruments/lute-gold-brown.webp",
@@ -19,8 +19,8 @@
       "EIwNjlroQWthm07Q": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Invigorate",
-        "description": "On a successful attack, roll a d4. On a result of 4, clear a Stress.",
+        "name": "Revigorar",
+        "description": "Em um ataque bem-sucedido, role um d4. Em um resultado 4, limpe um Fadiga.",
         "img": "icons/magic/life/heart-cross-green.webp",
         "_id": "EIwNjlroQWthm07Q",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

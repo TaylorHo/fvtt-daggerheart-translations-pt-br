@@ -1,10 +1,10 @@
 {
-  "name": "Jar of Lost Voices",
+  "name": "Jarra de Vozes Perdidas",
   "type": "consumable",
   "_id": "yUol6M5b8jsbk9za",
   "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
   "system": {
-    "description": "<p>You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage.</p><p>@Template[type:emanation|range:f]</p>",
+    "description": "<p>Você pode abrir este jarro para liberar um eco ensurdecedor de vozes por um número de minutos igual ao seu Instinto. Criaturas dentro do alcance Distante despreparadas para o som sofrem 6d8 de dano mágico.</p><p>@Template[type:emanation|range:f]</p>",
     "quantity": 1,
     "actions": {
       "QEk4TaJeN9FX8cZN": {
@@ -43,9 +43,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -61,7 +59,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Open",
+        "name": "Abrir",
         "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Black Powder Serpentine",
+  "name": "Serpentina de Pólvora Negra",
   "type": "weapon",
   "_id": "6subq9ZgtKcnHB6u",
   "img": "icons/weapons/guns/gun-green.webp",
@@ -18,8 +18,8 @@
       "pkg1z8LU5URZsQIe": {
         "type": "damage",
         "chatDisplay": true,
-        "name": "Incendiary",
-        "description": "On a successful attack, all creatures within Very Close range of the target must mark a Hit Point.",
+        "name": "Incendiária",
+        "description": "Em um ataque bem-sucedido, todas as criaturas dentro do alcance Muito Próximo do alvo devem marcar um Ponto de Vida.",
         "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
         "areas": [
           {
@@ -81,7 +81,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -110,9 +110,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -174,20 +172,16 @@
     "itemFeatures": {
       "incendiary": {
         "value": "incendiary",
-        "effectIds": [
-          "DQcdvMkGHEUycaBv"
-        ],
-        "actionIds": [
-          "pkg1z8LU5URZsQIe"
-        ],
+        "effectIds": ["DQcdvMkGHEUycaBv"],
+        "actionIds": ["pkg1z8LU5URZsQIe"],
         "config": {}
       }
     }
   },
   "effects": [
     {
-      "name": "Incendiary",
-      "description": "-1 to Agility.",
+      "name": "Incendiária",
+      "description": "-1 na Agilidade.",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "system": {
         "changes": [

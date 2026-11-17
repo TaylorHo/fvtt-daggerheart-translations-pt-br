@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Shadowblade",
+  "name": "Lâmina Sombria Avançada",
   "type": "weapon",
   "_id": "VzzjS5BjASNYKaqc",
   "img": "icons/weapons/swords/sword-flanged-lightning.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -113,17 +111,15 @@
     "itemFeatures": {
       "otherwordly": {
         "value": "otherwordly",
-        "effectIds": [
-          "nDm8RkYXzxv1KBmQ"
-        ],
+        "effectIds": ["nDm8RkYXzxv1KBmQ"],
         "actionIds": []
       }
     }
   },
   "effects": [
     {
-      "name": "Otherwordly",
-      "description": "On a successful attack, you can deal physical or magic damage.",
+      "name": "Sobrenatural",
+      "description": "Em um ataque bem-sucedido, você pode causar dano físico ou mágico.",
       "img": "icons/weapons/swords/sword-flanged-lightning.webp",
       "system": {
         "conditionals": [

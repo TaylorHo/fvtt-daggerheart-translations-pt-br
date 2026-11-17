@@ -1,9 +1,9 @@
 {
-  "name": "Collapsible Pole",
+  "name": "Vara Retrátil",
   "type": "loot",
   "img": "icons/commodities/tech/pipe-metal.webp",
   "system": {
-    "description": "<p>You can break down this 18-foot pole into six interlinked 3-foot segments.</p>",
+    "description": "<p>Você pode desmontar esta vara de 5,5 metros em seis segmentos articulados de 90 centímetros.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

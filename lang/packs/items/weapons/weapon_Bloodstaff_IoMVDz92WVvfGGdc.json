@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Bloodstaff",
+  "name": "Cajado de Sangue",
   "type": "weapon",
   "_id": "IoMVDz92WVvfGGdc",
   "img": "icons/weapons/staves/staff-ornate-orb-steel-red.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "painful": {
         "value": "painful",
         "effectIds": [],
-        "actionIds": [
-          "Unom5L1XimxLcXSp"
-        ],
+        "actionIds": ["Unom5L1XimxLcXSp"],
         "config": {}
       }
     }

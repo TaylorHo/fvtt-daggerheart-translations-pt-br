@@ -1,10 +1,10 @@
 {
-  "name": "Vial of Moondrip",
+  "name": "Frasco de Gota Lunar",
   "type": "consumable",
   "_id": "VqEX5YwK5oL3r1t6",
   "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
   "system": {
-    "description": "<p>When you drink the contents of this vial, you can see in total darkness until your next rest.</p>",
+    "description": "<p>Quando você bebe o conteúdo deste frasco, consegue enxergar na escuridão total até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "6Ny75zR1b8I8Ycsb": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Vial of Moondrip",
+      "name": "Frasco de Gota Lunar",
       "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
       "transfer": false,
       "_id": "548KAUPcSbQLsivh",
@@ -84,7 +84,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can see in total darkness until your next rest.</p>",
+      "description": "<p>Você consegue enxergar na escuridão total até seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

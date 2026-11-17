@@ -18,8 +18,8 @@
       "hsPKe9xRQlcMwR9v": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Devastate",
-        "description": "Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.",
+        "name": "Devastar",
+        "description": "Antes de fazer um teste de ataque, você pode marcar um Fadiga para usar um d20 como seu dado de dano.",
         "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -87,9 +87,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -152,9 +150,7 @@
       "devastating": {
         "value": "devastating",
         "effectIds": [],
-        "actionIds": [
-          "hsPKe9xRQlcMwR9v"
-        ],
+        "actionIds": ["hsPKe9xRQlcMwR9v"],
         "config": {}
       }
     }

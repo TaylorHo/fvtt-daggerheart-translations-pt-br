@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Improved Brigandine Armor",
+  "name": "Armadura de Brigantina Aprimorada",
   "type": "armor",
   "_id": "2ObDhrPlWlsfmnz2",
   "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "lined": {
         "value": "lined",
-        "effectIds": [
-          "qtuLYIIbHcUzeVpq"
-        ],
+        "effectIds": ["qtuLYIIbHcUzeVpq"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Lined",
-      "description": "Mark a Stress to negate Minor damage.",
+      "name": "Forrada",
+      "description": "Marque um Fadiga para anular dano Menor.",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
       "system": {
         "changes": [

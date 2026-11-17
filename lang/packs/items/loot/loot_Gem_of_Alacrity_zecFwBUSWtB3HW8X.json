@@ -1,10 +1,10 @@
 {
-  "name": "Gem of Alacrity",
+  "name": "Gema de Velocidade",
   "type": "loot",
   "_id": "zecFwBUSWtB3HW8X",
   "img": "icons/commodities/gems/gem-rough-ball-purple.webp",
   "system": {
-    "description": "<p>You can attach this gem to a weapon, allowing you to use your Agility when making an attack with that weapon.</p>",
+    "description": "<p>Você pode fixar esta gema em uma arma, permitindo usar sua Agilidade ao fazer um ataque com essa arma.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

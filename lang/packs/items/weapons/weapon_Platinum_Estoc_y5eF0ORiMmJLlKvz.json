@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Platinum Estoc",
+  "name": "Estoque de Platina",
   "type": "weapon",
   "_id": "y5eF0ORiMmJLlKvz",
   "img": "icons/weapons/swords/greatsword-guard.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

@@ -1,10 +1,10 @@
 {
-  "name": "Channelstone",
+  "name": "Pedra Canalizadora",
   "type": "consumable",
   "_id": "IKMVQ6VwtapwoUim",
   "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
   "system": {
-    "description": "<p>You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault.</p>",
+    "description": "<p>Você pode usar esta pedra para pegar uma magia ou grimório do seu cofre, usá-lo uma vez e devolvê-lo ao cofre.</p>",
     "quantity": 1,
     "actions": {
       "X4KtBG5Uve09hRoj": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/stone/engraved-symbol-water-grey.webp",
         "range": "",
         "baseAction": false,

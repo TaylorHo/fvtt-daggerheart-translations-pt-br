@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Greatbow",
+  "name": "Arco Colossal",
   "type": "weapon",
   "_id": "MXBpbqQsZFln4rZk",
   "img": "icons/weapons/bows/bow-ornamental-silver-black.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

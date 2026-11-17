@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Cutlass",
+  "name": "Alfanje Lendário",
   "type": "weapon",
   "_id": "Rpyz0jbFJ1SwqfyD",
   "img": "icons/weapons/swords/scimitar-guard.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

@@ -1,10 +1,10 @@
 {
-  "name": "Greatstone",
+  "name": "Pedra do Poder",
   "type": "loot",
   "_id": "y7zABzR0Q2fRskTw",
   "img": "icons/commodities/treasure/token-etched-h-brown.webp",
   "system": {
-    "description": "<p>You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature.</p><p><strong>Powerful</strong>: On a successful attack, roll an additional damage die and discard the lowest result.</p>",
+    "description": "<p>Você pode fixar esta pedra em uma arma que ainda não tenha uma característica. A arma ganha a seguinte característica.</p><p><strong>Poderoso</strong>: Em um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

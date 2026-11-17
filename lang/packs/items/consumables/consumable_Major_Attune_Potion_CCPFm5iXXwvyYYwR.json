@@ -1,10 +1,10 @@
 {
-  "name": "Major Attune Potion",
+  "name": "Poção da Sintonia Maior",
   "type": "consumable",
   "_id": "CCPFm5iXXwvyYYwR",
   "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Instinct until your next rest.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Instinto até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "zerWKpcBvtiaUfaw": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Major Attune Potion",
+      "name": "Poção da Sintonia Maior",
       "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
       "transfer": false,
       "_id": "v2EXGXbJaewaMxFC",

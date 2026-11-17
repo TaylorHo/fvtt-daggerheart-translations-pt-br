@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Improved Scale Mail Armor",
+  "name": "Armadura de Escamas Aprimorada",
   "type": "armor",
   "_id": "JJ08yuuFq3NjjMRV",
   "img": "icons/equipment/chest/breastplate-sculpted-green.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "bE8TfDWmibDVXlDK"
-        ],
+        "effectIds": ["bE8TfDWmibDVXlDK"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "system": {
         "changes": [

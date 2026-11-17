@@ -1,10 +1,10 @@
 {
-  "name": "Clay Companion",
+  "name": "Companheiro de Argila",
   "type": "loot",
   "_id": "lGIk9vBNz0jvskXD",
   "img": "icons/commodities/gems/pearl-brown.webp",
   "system": {
-    "description": "<p>When you sculpt this ball of clay into a clay animal companion, it behaves as that animal. For example, a clay spider can spin clay webs, while a clay bird can fly. The clay companion retains memory and identity across different shapes, but they can adopt new mannerisms with each form.</p>",
+    "description": "<p>Quando você molda esta bola de argila em um companheiro animal de argila, ele se comporta como aquele animal. Por exemplo, uma aranha de argila pode tecer teias de argila, enquanto um pássaro de argila pode voar. O companheiro de argila mantém memória e identidade entre as diferentes formas, mas pode adotar novos maneirismos em cada uma.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

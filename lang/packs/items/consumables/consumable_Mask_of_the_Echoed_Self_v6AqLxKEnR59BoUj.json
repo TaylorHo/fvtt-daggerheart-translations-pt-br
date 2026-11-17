@@ -1,9 +1,9 @@
 {
-  "name": "Mask of the Echoed Self",
+  "name": "Máscara do Eu Ecoado",
   "type": "consumable",
   "img": "icons/commodities/treasure/mask-bone-white.webp",
   "system": {
-    "description": "<p>You can wear this mask during your next level up to swap the values of any of your traits. When you do, the mask becomes your permanent face.</p>",
+    "description": "<p>Você pode usar esta máscara na sua próxima subida de nível para trocar os valores de quaisquer de seus atributos. Quando fizer isso, a máscara se torna seu rosto permanente.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

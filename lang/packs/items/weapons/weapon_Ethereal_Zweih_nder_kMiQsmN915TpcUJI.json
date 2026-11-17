@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Ethereal Zweihänder",
+  "name": "Zweihänder Etéreo",
   "type": "weapon",
   "_id": "kMiQsmN915TpcUJI",
   "img": "icons/weapons/swords/sword-runed-glowing.webp",
@@ -19,8 +19,8 @@
       "XdQBnYfIX5Km5KqU": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Ethereal",
-        "description": "You must mark a Stress to conjure this weapon. It lasts until the end of the scene.",
+        "name": "Etérea",
+        "description": "Você deve marcar um Fadiga para conjurar esta arma. Ela dura até o final da cena.",
         "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
         "target": {
           "type": "self",
@@ -64,7 +64,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -169,8 +169,8 @@
   },
   "effects": [
     {
-      "name": "Ethereal",
-      "description": "This weapon lasts until the end of the scene.",
+      "name": "Etérea",
+      "description": "Esta arma dura até o final da cena.",
       "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
       "system": {
         "duration": {

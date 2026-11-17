@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Crossbow",
+  "name": "Besta Lendária",
   "type": "weapon",
   "_id": "1G6xX2QL9O0Rsgz7",
   "img": "icons/weapons/crossbows/crossbow-ornamental-winged.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Vorpal Shard",
+  "name": "Fragmento Vorpal",
   "type": "weapon",
   "_id": "A7fiGMpCTZxecElO",
   "img": "icons/commodities/gems/gem-faceted-teardrop-pink.webp",
@@ -19,8 +19,8 @@
       "lwtLR9xWsREAonue": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Targeted",
-        "description": "When you fail a weapon attack, you can spend a Hope to succeed on your next weapon attack.",
+        "name": "Direcionada",
+        "description": "Quando você falha em um ataque com arma, pode gastar uma Esperança para ter sucesso em seu próximo ataque com arma.",
         "img": "icons/skills/targeting/crosshair-arrowhead-blue.webp",
         "_id": "lwtLR9xWsREAonue",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

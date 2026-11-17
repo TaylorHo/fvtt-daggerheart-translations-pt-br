@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Halberd",
+  "name": "Alabarda Aprimorada",
   "type": "weapon",
   "_id": "F9PETfCQGwczBPif",
   "img": "icons/weapons/polearms/halberd-crescent-worn.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "_id": "POQepSxCro9T9OYT",
       "type": "base",

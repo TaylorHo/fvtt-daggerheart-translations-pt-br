@@ -1,9 +1,9 @@
 {
-  "name": "Verglasian Seed",
+  "name": "Semente Verglasiana",
   "type": "consumable",
   "img": "icons/commodities/gems/gem-faceted-oval-blue.webp",
   "system": {
-    "description": "<p>You can use this ice shard to instantly freeze an area of water up to Close range.</p>",
+    "description": "<p>Você pode usar este fragmento de gelo para congelar instantaneamente uma área de água de até o alcance Próximo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -27,7 +27,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Verglasian Seed",
+            "name": "Semente Verglasiana",
             "type": "placed",
             "shape": "circle",
             "size": "close",

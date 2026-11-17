@@ -1,10 +1,10 @@
 {
-  "name": "Paragon's Chain",
+  "name": "Corrente dos Princípios",
   "type": "loot",
   "_id": "F4hoRfvVdZq5bhhI",
   "img": "icons/equipment/neck/choker-chain-thin-gold.webp",
   "system": {
-    "description": "<p>As a downtime move, you can meditate on an ideal or principle you hold dear and focus your will into this chain.</p><p>Once per long rest, you can spend a Hope to roll a d20 as your Hope Die for rolls that directly align with that principle.</p>",
+    "description": "<p>Como uma ação de intervalo, você pode meditar sobre um ideal ou princípio que preza e concentrar sua vontade nesta corrente.</p><p>Uma vez por descanso longo, você pode gastar uma Esperança para rolar um d20 como seu Dado de Esperança em rolagens que se alinhem diretamente com esse princípio.</p>",
     "quantity": 1,
     "actions": {
       "esnUuqMcvyOvI6PV": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/equipment/neck/choker-chain-thin-gold.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Blessed Anlace",
+  "name": "Anlace Abençoado",
   "type": "weapon",
   "_id": "n1oPTk5czTIGTkVj",
   "img": "icons/weapons/daggers/dagger-magical-glowing-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "8j3yjH0TiwwZsaBW",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "healing": {
         "value": "healing",
         "effectIds": [],
-        "actionIds": [
-          "o18UvqLPWLe1A8XJ"
-        ],
+        "actionIds": ["o18UvqLPWLe1A8XJ"],
         "config": {}
       }
     }

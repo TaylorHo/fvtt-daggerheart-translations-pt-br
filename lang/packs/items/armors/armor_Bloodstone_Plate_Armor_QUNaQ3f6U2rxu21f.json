@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Bloodstone Plate Armor",
+  "name": "Armadura de Placas de Heliotrópio",
   "type": "armor",
   "_id": "QUNaQ3f6U2rxu21f",
   "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
@@ -19,8 +19,8 @@
       "LoUjBJNX5nvhKyZM": {
         "type": "healing",
         "chatDisplay": true,
-        "name": "Clear Hitpoint",
-        "description": "When you critically succeed on a weapon attack within Melee range, clear a Hit Point.",
+        "name": "Limpar Ponto de Vida",
+        "description": "Quando você obtém sucesso crítico em um ataque com arma dentro do alcance Corpo a Corpo, limpe um Ponto de Vida.",
         "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
         "target": {
           "type": "self",
@@ -97,9 +97,7 @@
       "bloodthirsty": {
         "value": "bloodthirsty",
         "effectIds": [],
-        "actionIds": [
-          "LoUjBJNX5nvhKyZM"
-        ],
+        "actionIds": ["LoUjBJNX5nvhKyZM"],
         "config": {}
       }
     }

@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Javelins",
+  "name": "Azagaias",
   "type": "weapon",
   "_id": "DT1lcITh681IiDoC",
   "img": "icons/weapons/polearms/javelin-hooked.webp",
@@ -21,7 +21,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

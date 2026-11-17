@@ -1,9 +1,9 @@
 {
-  "name": "Reliquary of the Sightless Saint",
+  "name": "Relicário do Santo Sem Visão",
   "type": "loot",
   "img": "icons/commodities/treasure/totem-wood-face-brown.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Hope Die when you make the Risk It All death move.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Dado de Esperança quando faz o movimento mortal Risk It All.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

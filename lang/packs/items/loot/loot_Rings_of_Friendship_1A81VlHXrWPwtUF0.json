@@ -1,9 +1,9 @@
 {
-  "name": "Rings of Friendship",
+  "name": "Anéis da Amizade",
   "type": "loot",
   "img": "icons/equipment/finger/ring-fish-silver.webp",
   "system": {
-    "description": "<p>Two creatures can wear this pair of rings shaped like coiled snakes. You can spend the Hope of whoever is wearing the other ring (with their permission) as if it were your own.</p>",
+    "description": "<p>Duas criaturas podem usar este par de anéis em forma de serpentes enroladas. Você pode gastar a Esperança de quem estiver usando o outro anel (com a permissão dessa pessoa) como se fosse sua.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

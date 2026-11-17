@@ -1,10 +1,10 @@
 {
-  "name": "Major Arcane Shard",
+  "name": "Fragmento Arcano Maior",
   "type": "consumable",
   "_id": "AA7bmiwv00lshPrC",
   "img": "icons/commodities/gems/gem-rough-round-blue.webp",
   "system": {
-    "description": "<p>You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage.</p>",
+    "description": "<p>Você pode fazer um Teste de Acuidade para arremessar este fragmento em um grupo de adversários dentro do alcance Distante. Os alvos contra os quais você tiver sucesso sofrem 4d20 de dano mágico.</p>",
     "quantity": 1,
     "actions": {
       "8JHqtEYD0uOGwHdd": {
@@ -79,7 +79,7 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Throw",
+        "name": "Arremessar",
         "img": "icons/commodities/gems/gem-rough-round-blue.webp",
         "range": "far",
         "baseAction": false,

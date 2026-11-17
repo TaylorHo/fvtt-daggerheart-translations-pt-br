@@ -1,10 +1,10 @@
 {
-  "name": "Death Tea",
+  "name": "Chá da Morte",
   "type": "consumable",
   "_id": "xDnJeF1grkmKck8Q",
   "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
   "system": {
-    "description": "<p>After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don't critically succeed on an attack before your next long rest, you die.</p>",
+    "description": "<p>Depois de beber este chá, você mata instantaneamente seu alvo quando obtém sucesso crítico em um ataque. Se você não obtiver sucesso crítico em um ataque antes do seu próximo descanso longo, você morre.</p>",
     "quantity": 1,
     "actions": {
       "U7da5R4pgVkEQJVj": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Death Tea",
+      "name": "Chá da Morte",
       "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
       "transfer": false,
       "_id": "IqlpqsgurXsUEQhs",
@@ -83,7 +83,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don't critically succeed on an attack before your next long rest, you die.</p>",
+      "description": "<p>Depois de beber este chá, você mata instantaneamente seu alvo quando obtém sucesso crítico em um ataque. Se você não obtiver sucesso crítico em um ataque antes do seu próximo descanso longo, você morre.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Severed Dragon Claw",
+  "name": "Garra de Dragão Decepada",
   "type": "weapon",
   "_id": "bMgJ1MBDbcr5H6nZ",
   "img": "icons/weapons/swords/shortsword-hooked-blue.webp",
@@ -41,8 +41,8 @@
         },
         "type": "damage",
         "chatDisplay": true,
-        "name": "Destruction",
-        "description": "On a successful attack, all adversaries within Very Close range must mark a Stress.",
+        "name": "Destruição",
+        "description": "Em um ataque bem-sucedido, todos os adversários dentro do alcance Muito Próximo devem marcar um Fadiga.",
         "img": "icons/skills/melee/strike-flail-spiked-pink.webp",
         "range": "veryClose",
         "target": {
@@ -73,7 +73,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -177,8 +177,8 @@
   },
   "effects": [
     {
-      "name": "Destructive",
-      "description": "-1 to Agility",
+      "name": "Destruição",
+      "description": "-1 na Agilidade",
       "img": "icons/skills/melee/strike-flail-spiked-pink.webp",
       "system": {
         "changes": [

@@ -1,9 +1,9 @@
 {
-  "name": "Necroprancer's Bell",
+  "name": "Sino do Necrodançarino",
   "type": "consumable",
   "img": "icons/tools/instruments/bell-gold.webp",
   "system": {
-    "description": "<p>You can break this rusted, clapperless bell against the ground to summon a skeletal steed that climbs out of the earth and serves you until the next sunrise.</p>",
+    "description": "<p>Você pode quebrar este sino enferrujado e sem badalo contra o chão para invocar um corcel esquelético que sai de dentro da terra e serve você até o próximo nascer do sol.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Break",
+        "name": "Quebrar",
         "range": ""
       }
     }
@@ -60,16 +60,16 @@
   "_id": "9iuovYP8xMpL1fHH",
   "effects": [
     {
-      "name": "Necroprancer's Bell",
+      "name": "Sino do Necrodançarino",
       "disabled": false,
       "img": "icons/magic/death/undead-mammal-fire-breath-pink.webp",
-      "description": "<p>You can break this rusted, clapperless bell against the ground to summon a skeletal steed that climbs out of the earth and serves you until the next sunrise.</p>",
+      "description": "<p>Você pode quebrar este sino enferrujado e sem badalo contra o chão para invocar um corcel esquelético que sai de dentro da terra e serve você até o próximo nascer do sol.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
         "changes": [],
         "duration": {
-          "description": "<p>Next sunrise</p>",
+          "description": "<p>Próximo nascer do sol</p>",
           "type": "temporary"
         },
         "rangeDependence": null,

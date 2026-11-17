@@ -1,9 +1,9 @@
 {
-  "name": "Gravewarden's Bell",
+  "name": "Sino do Guardião das Tumbas",
   "type": "loot",
   "img": "icons/tools/instruments/bell-silver.webp",
   "system": {
-    "description": "<p>This bell rings when a ghost or undead creature moves within Far range of it.</p>",
+    "description": "<p>Este sino toca quando um fantasma ou criatura morta-viva se move dentro do alcance Distante dele.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

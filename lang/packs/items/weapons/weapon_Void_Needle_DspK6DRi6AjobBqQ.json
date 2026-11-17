@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Void Needle",
+  "name": "Agulha do Vazio",
   "type": "weapon",
   "_id": "DspK6DRi6AjobBqQ",
   "img": "icons/weapons/daggers/dagger-simple-green.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

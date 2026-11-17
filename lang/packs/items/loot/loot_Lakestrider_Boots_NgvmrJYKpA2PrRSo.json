@@ -1,10 +1,10 @@
 {
-  "name": "Lakestrider Boots",
+  "name": "Botas do Passo D'água",
   "type": "loot",
   "_id": "NgvmrJYKpA2PrRSo",
   "img": "icons/equipment/feet/shoes-collared-leather-blue.webp",
   "system": {
-    "description": "<p>You can walk on the surface of water as if it were soft ground.</p>",
+    "description": "<p>Você pode caminhar sobre a superfície da água como se fosse solo macio.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

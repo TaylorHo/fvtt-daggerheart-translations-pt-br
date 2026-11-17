@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Ricochet Axes",
+  "name": "Machados de Ricochete",
   "type": "weapon",
   "_id": "E9QDh5o9eQ1Qx0kH",
   "img": "icons/weapons/axes/axe-battle-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

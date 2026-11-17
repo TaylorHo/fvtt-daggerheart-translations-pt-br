@@ -1,10 +1,10 @@
 {
-  "name": "Potion of Stability",
+  "name": "Poção da Estabilidade",
   "type": "consumable",
   "_id": "dvL8oaxpEF6jKvYN",
   "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
   "system": {
-    "description": "<p>You can drink this potion to choose one additional downtime move.</p>",
+    "description": "<p>Você pode beber esta poção para escolher uma ação de intervalo adicional.</p>",
     "quantity": 1,
     "actions": {
       "ifj42z5FhfMVyyd1": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Potion of Stability",
+      "name": "Poção da Estabilidade",
       "img": "icons/consumables/potions/bottle-conical-corked-labeled-shell-cyan.webp",
       "transfer": false,
       "_id": "PjjGC4TpzjSz9z8s",

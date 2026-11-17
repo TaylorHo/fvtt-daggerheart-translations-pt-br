@@ -1,9 +1,9 @@
 {
-  "name": "Enchanter's Loupe",
+  "name": "Lupa do Encantador",
   "type": "loot",
   "img": "icons/tools/scribal/magnifying-glass.webp",
   "system": {
-    "description": "<p>You can use this loupe to see through illusions and enchantments.</p>",
+    "description": "<p>Você pode usar esta lupa para enxergar através de ilusões e encantamentos.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

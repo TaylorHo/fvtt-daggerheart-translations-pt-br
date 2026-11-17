@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Veritas Opal Armor",
+  "name": "Armadura de Opala Veritas",
   "type": "armor",
   "_id": "OvzgUTYy2RCN85vV",
   "img": "icons/equipment/chest/breastplate-collared-steel-green.webp",
@@ -29,9 +29,7 @@
       "truthseeking": {
         "value": "truthseeking",
         "effectIds": [],
-        "actionIds": [
-          "sY3W5JYspN5Du5ag"
-        ],
+        "actionIds": ["sY3W5JYspN5Du5ag"],
         "config": {}
       }
     }

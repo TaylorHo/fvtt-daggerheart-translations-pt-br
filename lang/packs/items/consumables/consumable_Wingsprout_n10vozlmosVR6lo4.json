@@ -1,10 +1,10 @@
 {
-  "name": "Wingsprout",
+  "name": "Asas Mágicas",
   "type": "consumable",
   "_id": "n10vozlmosVR6lo4",
   "img": "icons/consumables/plants/leaf-broad-blue.webp",
   "system": {
-    "description": "<p>You gain magic wings that allow you to fly for a number of minutes equal to your level.</p>",
+    "description": "<p>Você ganha asas mágicas que permitem voar por um número de minutos igual ao seu nível.</p>",
     "quantity": 1,
     "actions": {
       "HopgGHn12CHiDNuk": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/consumables/plants/leaf-broad-blue.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Wingsprout",
+      "name": "Asas Mágicas",
       "img": "icons/consumables/plants/leaf-broad-blue.webp",
       "transfer": false,
       "_id": "80F8gAn7ejhhNL7R",
@@ -83,7 +83,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain magic wings that allow you to fly for a number of minutes equal to your level.</p>",
+      "description": "<p>Você ganha asas mágicas que permitem voar por um número de minutos igual ao seu nível.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

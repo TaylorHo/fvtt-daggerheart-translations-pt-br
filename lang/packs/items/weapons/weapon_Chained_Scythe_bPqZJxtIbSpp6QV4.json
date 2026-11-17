@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Chained Scythe",
+  "name": "Foice Acorrentada",
   "type": "weapon",
   "_id": "bPqZJxtIbSpp6QV4",
   "img": "icons/weapons/sickles/scythe-wrapped-worn-red.webp",
@@ -18,8 +18,8 @@
       "oS1KZo6N8KzUMxgt": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Quick",
-        "description": "When you make an attack, you can mark a Stress to target another creature within range.",
+        "name": "Veloz",
+        "description": "Quando você faz um ataque, pode marcar um Fadiga para atingir outra criatura dentro do alcance.",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -87,9 +87,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -152,9 +150,7 @@
       "quick": {
         "value": "quick",
         "effectIds": [],
-        "actionIds": [
-          "oS1KZo6N8KzUMxgt"
-        ],
+        "actionIds": ["oS1KZo6N8KzUMxgt"],
         "config": {}
       }
     }

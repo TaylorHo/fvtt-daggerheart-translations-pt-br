@@ -1,9 +1,9 @@
 {
-  "name": "Instant Camp",
+  "name": "Acampamento Instantâneo",
   "type": "consumable",
   "img": "icons/containers/boxes/crate-tech-silver-tan.webp",
   "system": {
-    "description": "<p>You can unfold this small mechanical box into a camping tent large enough to safely house six people. The tent collapses at the end of your next long rest.</p>",
+    "description": "<p>Você pode desdobrar esta pequena caixa mecânica em uma tenda de acampamento grande o suficiente para abrigar seis pessoas com segurança. A tenda desmonta ao final do seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

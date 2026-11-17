@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Dual-Ended Sword",
+  "name": "Espada de Duas Pontas",
   "type": "weapon",
   "_id": "nXjuBa215H1sTUK3",
   "img": "icons/weapons/swords/swords-sharp-worn.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Returning Blade",
+  "name": "Lâmina Retornável Avançada",
   "type": "weapon",
   "_id": "sIGXA4KMeYBUjcEO",
   "img": "icons/weapons/swords/greatsword-crossguard-flanged.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "8j3yjH0TiwwZsaBW",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "returning": {
         "value": "returning",
         "effectIds": [],
-        "actionIds": [
-          "guRvZkjZnWrpH6HT"
-        ],
+        "actionIds": ["guRvZkjZnWrpH6HT"],
         "config": {}
       }
     }

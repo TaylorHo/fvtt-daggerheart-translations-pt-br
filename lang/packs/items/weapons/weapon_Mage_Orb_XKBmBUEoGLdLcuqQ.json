@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Mage Orb",
+  "name": "Orbe do Mago",
   "type": "weapon",
   "_id": "XKBmBUEoGLdLcuqQ",
   "img": "icons/commodities/gems/pearl-purple-smooth.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "Zz0k98NVLRpebKgq",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Scale Mail Armor",
+  "name": "Armadura de Escamas",
   "type": "armor",
   "_id": "hfueRvwhlpTbtHmK",
   "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "2wGrVqcFO8jiTuDv"
-        ],
+        "effectIds": ["2wGrVqcFO8jiTuDv"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "system": {
         "changes": [

@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Runes of Fortification",
+  "name": "Runas de Fortificação",
   "type": "armor",
   "_id": "P4qAEDJUoNLgVRsA",
   "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
@@ -29,9 +29,7 @@
       "painful": {
         "value": "painful",
         "effectIds": [],
-        "actionIds": [
-          "37KLF2bim9nRdPTU"
-        ],
+        "actionIds": ["37KLF2bim9nRdPTU"],
         "config": {}
       }
     }

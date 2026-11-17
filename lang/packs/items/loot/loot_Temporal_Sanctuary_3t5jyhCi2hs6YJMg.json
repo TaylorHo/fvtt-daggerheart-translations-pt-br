@@ -1,9 +1,9 @@
 {
-  "name": "Temporal Sanctuary",
+  "name": "Santuário Temporal",
   "type": "loot",
   "img": "icons/commodities/treasure/token-worn-yang-brown.webp",
   "system": {
-    "description": "<p>A PC who takes a rest in the temporal sanctuary can choose an additional downtime move.</p>",
+    "description": "<p>Um PJ que faz um descanso no santuário temporal pode escolher uma ação de intervalo adicional.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -16,7 +16,7 @@
   "_id": "3t5jyhCi2hs6YJMg",
   "effects": [
     {
-      "name": "Temporal Sanctuary",
+      "name": "Santuário Temporal",
       "type": "base",
       "system": {
         "changes": [
@@ -61,7 +61,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>A PC who takes a rest in the temporal sanctuary can choose an additional downtime move.</p>",
+      "description": "<p>Um PJ que faz um descanso no santuário temporal pode escolher uma ação de intervalo adicional.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

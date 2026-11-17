@@ -1,10 +1,10 @@
 {
-  "name": "Gem of Audacity",
+  "name": "Gema de Charme",
   "type": "loot",
   "_id": "hMu9It3ThCLCXuCA",
   "img": "icons/commodities/gems/gem-rough-cushion-pink-yellow.webp",
   "system": {
-    "description": "<p>You can attach this gem to a weapon, allowing you to use your Presence when making an attack with that weapon.</p>",
+    "description": "<p>Você pode fixar esta gema em uma arma, permitindo usar sua Presença ao fazer um ataque com essa arma.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

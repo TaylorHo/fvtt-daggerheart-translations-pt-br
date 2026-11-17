@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Legendary Banded Armor",
+  "name": "Armadura de Bandas Lendária",
   "type": "armor",
   "_id": "Fi3gY51MTzHa4gl6",
   "img": "icons/equipment/chest/breastplate-layered-leather-studded-black.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": [
-          "jTiOZCLUWkOdkkts"
-        ],
+        "effectIds": ["jTiOZCLUWkOdkkts"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Bulky",
-      "description": "-1 to Evasion; when you take Severe damage, you must mark a Stress.",
+      "name": "Volumosa",
+      "description": "-1 na Evasão; quando você sofre dano Severo, deve marcar um Fadiga.",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "system": {
         "changes": [

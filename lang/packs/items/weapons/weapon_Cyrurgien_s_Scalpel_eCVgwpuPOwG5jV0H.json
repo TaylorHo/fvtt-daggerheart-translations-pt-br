@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Cyrurgien's Scalpel",
+  "name": "Bisturi de Cyrurgien",
   "type": "weapon",
   "_id": "eCVgwpuPOwG5jV0H",
   "img": "icons/weapons/daggers/dagger-straight-thin-black.webp",
@@ -19,8 +19,8 @@
       "mmsWOr3NPsbUM4TB": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Scare",
-        "description": "On a successful attack, the target must mark a Stress.",
+        "name": "Assustar",
+        "description": "Em um ataque bem-sucedido, o alvo deve marcar um Fadiga.",
         "img": "icons/magic/death/skull-energy-light-purple.webp",
         "_id": "mmsWOr3NPsbUM4TB",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

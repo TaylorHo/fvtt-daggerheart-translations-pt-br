@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Tinker's Hammer",
+  "name": "Martelo do Engenhoqueiro",
   "type": "weapon",
   "_id": "EaivcnHXjPcQr4OM",
   "img": "icons/weapons/hammers/hammer-double-sledge-engraved.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -124,8 +124,8 @@
   },
   "effects": [
     {
-      "name": "Trusty",
-      "description": "<p>+1 to attack rolls made with your primary weapon.</p>",
+      "name": "Confiável",
+      "description": "<p>+1 nos testes de ataque feitos com sua arma primária.</p>",
       "img": "icons/skills/melee/sword-twirl-orange.webp",
       "system": {
         "changes": [

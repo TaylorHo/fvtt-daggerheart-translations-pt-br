@@ -1,9 +1,9 @@
 {
-  "name": "Nighthawker's Ring",
+  "name": "Anel do Falcão Noturno",
   "type": "loot",
   "img": "icons/equipment/finger/ring-band-thin-silver-teal.webp",
   "system": {
-    "description": "<p>Spend a Hope to activate the gemstone in this ring until the end of the scene. While active, the gemstone changes color to indicate the wearer's proximity to hidden treasure: warm colors for near, cool colors for far.</p>",
+    "description": "<p>Gaste uma Esperança para ativar a gema deste anel até o final da cena. Enquanto ativa, a gema muda de cor para indicar a proximidade de quem a usa de um tesouro escondido: cores quentes para perto, cores frias para longe.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -51,7 +51,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     }
@@ -59,10 +59,10 @@
   "_id": "E7iVLwAEHiTccm3A",
   "effects": [
     {
-      "name": "Nighthawker's Ring",
+      "name": "Anel do Falcão Noturno",
       "disabled": false,
       "img": "icons/equipment/finger/ring-band-thin-silver-teal.webp",
-      "description": "<p>While active, the gemstone changes color to indicate the wearer's proximity to hidden treasure: warm colors for near, cool colors for far.</p>",
+      "description": "<p>Enquanto ativa, a gema muda de cor para indicar a proximidade de quem a usa de um tesouro escondido: cores quentes para perto, cores frias para longe.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

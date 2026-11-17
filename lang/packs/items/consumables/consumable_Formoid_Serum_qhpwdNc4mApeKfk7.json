@@ -1,9 +1,9 @@
 {
-  "name": "Formoid Serum",
+  "name": "Soro Formoide",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
   "system": {
-    "description": "<p>You can drink this potion to become a swarm of 16 million ants until the end of the scene. You keep and have access to all equipment, loot, and features.</p>",
+    "description": "<p>Você pode beber esta poção para se tornar um enxame de 16 milhões de formigas até o final da cena. Você mantém e tem acesso a todo o equipamento, espólio e características.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "qhpwdNc4mApeKfk7",
   "effects": [
     {
-      "name": "Formoid Serum",
+      "name": "Soro Formoide",
       "disabled": false,
       "img": "icons/creatures/invertebrates/ant-strength-green.webp",
-      "description": "<p>You can drink this potion to become a swarm of 16 million ants until the end of the scene. You keep and have access to all equipment, loot, and features.</p>",
+      "description": "<p>Você pode beber esta poção para se tornar um enxame de 16 milhões de formigas até o final da cena. Você mantém e tem acesso a todo o equipamento, espólio e características.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

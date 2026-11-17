@@ -1,9 +1,9 @@
 {
-  "name": "Windup Toy",
+  "name": "Brinquedo de Corda",
   "type": "loot",
   "img": "icons/commodities/treasure/statue-carved-figurehead.webp",
   "system": {
-    "description": "<p>This small mechanical device is shaped like a strixwolf pup and can be programmed to perform simple tricks.</p>",
+    "description": "<p>Este pequeno dispositivo mecânico tem a forma de um filhote de lobo-estrige e pode ser programado para realizar truques simples.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

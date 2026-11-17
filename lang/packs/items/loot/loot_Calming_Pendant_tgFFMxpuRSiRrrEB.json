@@ -1,10 +1,10 @@
 {
-  "name": "Calming Pendant",
+  "name": "Pingente Tranquilizante",
   "type": "loot",
   "_id": "tgFFMxpuRSiRrrEB",
   "img": "icons/equipment/neck/amulet-round-blue.webp",
   "system": {
-    "description": "<p>When you would mark your last Stress, roll a [[/r d6]]. On a result of 5 or higher, don't mark it.</p>",
+    "description": "<p>Quando você marcaria seu último Fadiga, role um [[/r d6]]. Em um resultado 5 ou mais, você não o marca.</p>",
     "quantity": 1,
     "actions": {
       "wIlkGuUddWSUp4nN": {
@@ -50,7 +50,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/equipment/neck/amulet-round-blue.webp",
         "range": "",
         "baseAction": false,

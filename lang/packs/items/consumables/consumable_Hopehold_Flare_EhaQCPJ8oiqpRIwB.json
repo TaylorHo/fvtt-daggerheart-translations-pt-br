@@ -1,10 +1,10 @@
 {
-  "name": "Hopehold Flare",
+  "name": "Fogareiro da Esperança",
   "type": "consumable",
   "_id": "EhaQCPJ8oiqpRIwB",
   "img": "icons/commodities/tech/smoke-bomb-purple.webp",
   "system": {
-    "description": "<p>When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene.</p><p>@Template[type:emanation|range:c]</p>",
+    "description": "<p>Quando você usa este sinalizador, os aliados dentro do alcance Próximo rolam um d6 quando gastam uma Esperança. Em um resultado 6, eles ganham o efeito dessa Esperança sem gastá-la. O sinalizador dura até o final da cena.</p><p>@Template[type:emanation|range:c]</p>",
     "quantity": 1,
     "actions": {
       "hTF2K4uWcrUypLbs": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/tech/smoke-bomb-purple.webp",
         "range": "",
         "baseAction": false,

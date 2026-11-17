@@ -1,9 +1,9 @@
 {
-  "name": "Traveler's Bell",
+  "name": "Sino do Viajante",
   "type": "loot",
   "img": "icons/tools/instruments/bell-brass-brown.webp",
   "system": {
-    "description": "<p>Once per long rest, you can ring this bell to magically open the shortest safe path through rough terrain for 1 hour.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode tocar este sino para abrir magicamente o caminho seguro mais curto através de terreno acidentado por 1 hora.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Ring Bell",
+        "name": "Tocar o Sino",
         "range": ""
       }
     }

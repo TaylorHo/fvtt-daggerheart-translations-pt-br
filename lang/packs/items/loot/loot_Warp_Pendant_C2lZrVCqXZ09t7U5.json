@@ -1,9 +1,9 @@
 {
-  "name": "Warp Pendant",
+  "name": "Pingente de Dobra",
   "type": "loot",
   "img": "icons/equipment/neck/pendant-runed-hagalz-blue.webp",
   "system": {
-    "description": "<p>Once per rest, mark a Stress to teleport to a location you can clearly see.</p>",
+    "description": "<p>Uma vez por descanso, marque um Fadiga para se teletransportar a um local que você consiga ver claramente.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     }

@@ -1,10 +1,10 @@
 {
-  "name": "Suspended Rod",
+  "name": "Cajado Suspenso",
   "type": "loot",
   "_id": "nnj12RiFanq7s5zv",
   "img": "icons/commodities/tech/pipe-metal.webp",
   "system": {
-    "description": "<p>This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place.</p>",
+    "description": "<p>Esta haste plana é inscrita com runas. Quando você ativa a haste, ela fica imediatamente suspensa no lugar. Até ser desativada, ela não pode se mover, não obedece às regras da gravidade e permanece onde está.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

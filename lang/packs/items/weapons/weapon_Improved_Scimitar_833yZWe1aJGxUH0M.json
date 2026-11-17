@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Scimitar",
+  "name": "Cimitarra Aprimorada",
   "type": "weapon",
   "_id": "833yZWe1aJGxUH0M",
   "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

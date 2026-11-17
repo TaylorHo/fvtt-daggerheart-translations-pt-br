@@ -1,5 +1,5 @@
 {
-  "name": "Knockback Bracelets",
+  "name": "Braceletes de Repulsão",
   "type": "loot",
   "_id": "2gaZtAAs0KRtAE7c",
   "img": "icons/equipment/wrist/bracer-reinforced.webp",
@@ -9,7 +9,7 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>On a successful weapon attack, you can knock your target back up to Close range from their location.</p>",
+    "description": "<p>Em um ataque com arma bem-sucedido, você pode empurrar seu alvo até o alcance Próximo de sua posição.</p>",
     "gmNotes": "",
     "quantity": 1,
     "actions": {}

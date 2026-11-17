@@ -1,9 +1,9 @@
 {
-  "name": "Drakemantle",
+  "name": "Manto de Draco",
   "type": "consumable",
   "img": "icons/commodities/leather/scales-blue.webp",
   "system": {
-    "description": "<p>You can use this enchanted ancient dragon hide to gain draconic characteristics until the end of the scene, when the hide falls aways in tatters. Until then, you can fly and gain a +5 bonus to your damage thresholds and a +1 bonus to your Proficiency.</p>",
+    "description": "<p>Você pode usar este couro encantado de dragão ancião para ganhar características dracônicas até o final da cena, quando o couro cai em farrapos. Até então, você pode voar e ganha um bônus de +5 nos seus limiares de dano e um bônus de +1 em sua Proficiência.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "7r21aeT3LT8wQypK",
   "effects": [
     {
-      "name": "Drakeform",
+      "name": "Forma de Draco",
       "disabled": false,
       "img": "icons/creatures/abilities/dragon-breath-purple.webp",
-      "description": "<p>Until the end of the scene, you can fly and gain a +5 bonus to your damage thresholds and a +1 bonus to your Proficiency.</p>",
+      "description": "<p>Até o final da cena, você pode voar e ganha um bônus de +5 nos seus limiares de dano e um bônus de +1 em sua Proficiência.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

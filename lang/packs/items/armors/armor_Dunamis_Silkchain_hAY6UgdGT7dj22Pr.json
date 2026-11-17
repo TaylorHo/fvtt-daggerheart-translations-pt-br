@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Dunamis Silkchain",
+  "name": "Corrente de Seda de Dunamis",
   "type": "armor",
   "_id": "hAY6UgdGT7dj22Pr",
   "img": "icons/equipment/chest/robe-layered-red.webp",
@@ -29,9 +29,7 @@
       "timeslowing": {
         "value": "timeslowing",
         "effectIds": [],
-        "actionIds": [
-          "8PD5JQuS05IA6HJT"
-        ],
+        "actionIds": ["8PD5JQuS05IA6HJT"],
         "config": {}
       }
     }

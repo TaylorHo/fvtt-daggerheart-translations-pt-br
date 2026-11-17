@@ -1,9 +1,9 @@
 {
-  "name": "Returning Ring",
+  "name": "Anel do Retorno",
   "type": "loot",
   "img": "icons/equipment/finger/ring-band-engraved-teal.webp",
   "system": {
-    "description": "<p>When you throw your primary weapon while wearing this ring, the weapon appears in your hand immediately after the attack.</p>",
+    "description": "<p>Quando você arremessa sua arma primária usando este anel, a arma aparece em sua mão imediatamente após o ataque.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

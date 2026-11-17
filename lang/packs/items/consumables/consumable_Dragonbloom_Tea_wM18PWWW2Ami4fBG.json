@@ -1,17 +1,17 @@
 {
-  "name": "Dragonbloom Tea",
+  "name": "Chá de Erva-Dragão",
   "type": "consumable",
   "_id": "wM18PWWW2Ami4fBG",
   "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
   "system": {
-    "description": "<p>You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency.</p>",
+    "description": "<p>Você pode beber este chá para liberar um ataque de sopro flamejante. Faça um Teste de Instinto contra todos os adversários à sua frente dentro do alcance Próximo. Os alvos contra os quais você tiver sucesso sofrem d20 de dano físico usando sua Proficiência.</p>",
     "quantity": 1,
     "actions": {
       "rcHEz3ImUDwo6lPC": {
         "type": "attack",
         "_id": "rcHEz3ImUDwo6lPC",
         "systemPath": "actions",
-        "description": "<p>You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency.</p><p>@Template[type:emanation|range:c]</p>",
+        "description": "<p>Você pode beber este chá para liberar um ataque de sopro flamejante. Faça um Teste de Instinto contra todos os adversários à sua frente dentro do alcance Próximo. Os alvos contra os quais você tiver sucesso sofrem d20 de dano físico usando sua Proficiência.</p><p>@Template[type:emanation|range:c]</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -79,7 +79,7 @@
           "difficulty": 10,
           "damageMod": "none"
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
         "range": "close",
         "baseAction": false,

@@ -1,10 +1,10 @@
 {
-  "name": "Hopekeeper Locket",
+  "name": "Medalhão da Esperança",
   "type": "loot",
   "_id": "9DcFR75tsnBYIp6Z",
   "img": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp",
   "system": {
-    "description": "<p>During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve.</p><p>When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re-imbued before it can be used this way again.</p>",
+    "description": "<p>Durante um descanso longo, se você tiver 6 Esperança, pode gastar uma Esperança para imbuir este medalhão com sua determinação abundante.</p><p>Quando você tiver 0 Esperança, pode usar o medalhão para ganhar imediatamente uma Esperança. O medalhão deve ser imbuído novamente antes de poder ser usado dessa forma outra vez.</p>",
     "quantity": 1,
     "actions": {
       "iwDm6P1ABr7vojGr": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Imbue",
+        "name": "Imbuir",
         "img": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp",
         "range": "",
         "baseAction": false,
@@ -79,7 +79,7 @@
           },
           "useDefault": false
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp",
         "range": "",
         "baseAction": false,

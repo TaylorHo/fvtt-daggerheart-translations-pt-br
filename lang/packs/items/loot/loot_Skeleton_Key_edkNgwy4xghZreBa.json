@@ -1,10 +1,10 @@
 {
-  "name": "Skeleton Key",
+  "name": "Chave Mestra",
   "type": "loot",
   "_id": "edkNgwy4xghZreBa",
   "img": "icons/sundries/misc/key-ornate-iron-black.webp",
   "system": {
-    "description": "<p>When you use this key to open a locked door, you gain advantage on the Finesse Roll.</p>",
+    "description": "<p>Quando você usa esta chave para abrir uma porta trancada, ganha vantagem no Teste de Acuidade.</p>",
     "quantity": 1,
     "actions": {
       "lV6W9M1CX6N8jSpt": {
@@ -50,7 +50,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Use Key",
+        "name": "Usar Chave",
         "img": "icons/sundries/misc/key-ornate-iron-black.webp",
         "range": "",
         "baseAction": false,

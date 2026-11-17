@@ -1,9 +1,9 @@
 {
-  "name": "Soul-Twin Circlets",
+  "name": "Diademas Almas Gêmeas",
   "type": "loot",
   "img": "icons/commodities/treasure/trinket-wing-white.webp",
   "system": {
-    "description": "<p>Two creatures can wear this pair of circlets. You can spend a Hope to switch places with whoever is wearing the other circlet.</p>",
+    "description": "<p>Duas criaturas podem usar este par de diademas. Você pode gastar uma Esperança para trocar de lugar com quem estiver usando o outro diadema.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     }

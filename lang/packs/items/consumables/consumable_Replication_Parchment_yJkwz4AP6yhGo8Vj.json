@@ -1,10 +1,10 @@
 {
-  "name": "Replication Parchment",
+  "name": "Pergaminho da Cópia",
   "type": "consumable",
   "_id": "yJkwz4AP6yhGo8Vj",
   "img": "icons/sundries/scrolls/scroll-worn-beige.webp",
   "system": {
-    "description": "<p>By touching this piece of parchment to another, you can perfectly copy the second parchment's contents. Once used, this parchment becomes mundane paper.</p>",
+    "description": "<p>Ao encostar este pedaço de pergaminho em outro, você pode copiar perfeitamente o conteúdo do segundo pergaminho. Depois de usado, este pergaminho se torna papel comum.</p>",
     "quantity": 1,
     "actions": {
       "j5gIVHXvcGu7PEZZ": {
@@ -35,7 +35,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/sundries/scrolls/scroll-worn-beige.webp",
         "range": "",
         "baseAction": false,

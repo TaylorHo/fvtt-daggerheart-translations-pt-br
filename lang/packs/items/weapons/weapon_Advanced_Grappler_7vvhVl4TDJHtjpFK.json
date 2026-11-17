@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Grappler",
+  "name": "Arpéu Avançado",
   "type": "weapon",
   "_id": "7vvhVl4TDJHtjpFK",
   "img": "icons/weapons/sickles/sickle-blue-purple.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "hooked": {
         "value": "hooked",
         "effectIds": [],
-        "actionIds": [
-          "vpm0kyd1SFRuBaak"
-        ],
+        "actionIds": ["vpm0kyd1SFRuBaak"],
         "config": {}
       }
     }

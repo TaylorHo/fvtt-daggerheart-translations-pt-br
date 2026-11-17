@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Demon's Edge",
+  "name": "Gume do Demônio",
   "type": "weapon",
   "_id": "WQYrz7LfARoiV7hl",
   "img": "icons/weapons/swords/sword-guard-serrated.webp",
@@ -19,8 +19,8 @@
       "HZfWsLRQkSlCt8iV": {
         "type": "damage",
         "chatDisplay": true,
-        "name": "Disturbing",
-        "description": "When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress.",
+        "name": "Inquietante",
+        "description": "Quando você derrota uma criatura com esta arma, todos os adversários dentro do alcance Próximo devem marcar um Fadiga.",
         "img": "icons/magic/death/skull-energy-light-white.webp",
         "damage": {
           "resources": {
@@ -73,7 +73,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

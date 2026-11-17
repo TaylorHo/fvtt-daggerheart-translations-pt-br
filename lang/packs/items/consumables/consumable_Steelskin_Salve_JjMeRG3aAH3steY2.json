@@ -1,9 +1,9 @@
 {
-  "name": "Steelskin Salve",
+  "name": "Unguento de Pele de Aço",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-pink.webp",
   "system": {
-    "description": "<p>You can apply this salve to your skin to gain a bonus to your damage thresholds equal to your tier until the end of the scene.</p>",
+    "description": "<p>Você pode aplicar este unguento na pele para ganhar um bônus nos seus limiares de dano igual ao seu patamar até o final da cena.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Apply",
+        "name": "Aplicar",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "JjMeRG3aAH3steY2",
   "effects": [
     {
-      "name": "Steelskin",
+      "name": "Pele de Aço",
       "disabled": false,
       "img": "icons/commodities/metal/mail-scale-steel.webp",
-      "description": "<p>You can apply this salve to your skin to gain a bonus to your damage thresholds equal to your tier until the end of the scene.</p>",
+      "description": "<p>Você pode aplicar este unguento na pele para ganhar um bônus nos seus limiares de dano igual ao seu patamar até o final da cena.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

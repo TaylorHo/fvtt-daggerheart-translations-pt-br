@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Cloverweave Cloak",
+  "name": "Capa de Tecido de Trevos",
   "type": "armor",
   "_id": "OegNW8TsqVdccwGM",
   "img": "icons/equipment/chest/coat-collared-red.webp",
@@ -19,8 +19,8 @@
       "0JzAOuMyJDSdEpy3": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Fortune-Favored",
-        "description": "Once per scene, you can change a failure with Hope into a success with Fear.",
+        "name": "Favorecido pela fortuna",
+        "description": "Uma vez por cena, você pode transformar um fracasso com Esperança em um sucesso com Medo.",
         "img": "icons/magic/control/buff-luck-fortune-green-gold.webp",
         "uses": {
           "max": "1",
@@ -59,9 +59,7 @@
       "fortuneFavored": {
         "value": "fortuneFavored",
         "effectIds": [],
-        "actionIds": [
-          "0JzAOuMyJDSdEpy3"
-        ],
+        "actionIds": ["0JzAOuMyJDSdEpy3"],
         "config": {}
       }
     }

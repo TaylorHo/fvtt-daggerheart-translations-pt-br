@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Segmented Staff",
+  "name": "Cajado Segmentado",
   "type": "weapon",
   "_id": "OymmLywAhtBbjYjP",
   "img": "icons/weapons/staves/staff-mended.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,
@@ -125,8 +125,8 @@
   },
   "effects": [
     {
-      "name": "Double Duty",
-      "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range",
+      "name": "Dupla Função",
+      "description": "+1 na Pontuação de Armadura; +1 no dano da arma primária dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/sword-shield-stylized-white.webp",
       "system": {
         "conditionals": [
@@ -177,8 +177,8 @@
       "_key": "!items.effects!OymmLywAhtBbjYjP.DQ783nkboRdHiAdK"
     },
     {
-      "name": "Double Duty",
-      "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range",
+      "name": "Dupla Função",
+      "description": "+1 na Pontuação de Armadura; +1 no dano da arma primária dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/sword-shield-stylized-white.webp",
       "_id": "iNCNhj2WdjpeJ0WX",
       "system": {

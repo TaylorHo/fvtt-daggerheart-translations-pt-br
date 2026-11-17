@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Casting Dagger",
+  "name": "Adaga de Conjuração",
   "type": "weapon",
   "_id": "eCEf5ysz8Eq0ma9u",
   "img": "icons/weapons/daggers/dagger-blue.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d6",
@@ -121,9 +119,7 @@
           "damage": {
             "dice": "d8",
             "bonus": 0,
-            "type": [
-              "magical"
-            ]
+            "type": ["magical"]
           }
         }
       }

@@ -1,9 +1,9 @@
 {
-  "name": "Sunlight Orb",
+  "name": "Orbe de Luz Solar",
   "type": "consumable",
   "img": "icons/commodities/gems/pearl-fire.webp",
   "system": {
-    "description": "<p>You can shatter this orb to make the area within Very Far range appear as though it's sunlit daytime for the next 24 hours.</p>",
+    "description": "<p>Você pode estilhaçar este orbe para fazer a área dentro do alcance Muito Distante parecer um dia ensolarado pelas próximas 24 horas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Shatter",
+        "name": "Estilhaçar",
         "range": ""
       }
     }

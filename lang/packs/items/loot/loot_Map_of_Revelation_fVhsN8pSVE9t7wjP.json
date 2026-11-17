@@ -1,9 +1,9 @@
 {
-  "name": "Map of Revelation",
+  "name": "Mapa da Revelação",
   "type": "loot",
   "img": "icons/tools/navigation/map-marked-black.webp",
   "system": {
-    "description": "<p>You can attune this map to one creature at a time. The map always shows the attuned creature's location.</p>",
+    "description": "<p>Você pode sintonizar este mapa a uma criatura por vez. O mapa sempre mostra a localização da criatura sintonizada.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

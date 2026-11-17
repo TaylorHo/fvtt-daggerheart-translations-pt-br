@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Legendary Greatstaff",
+  "name": "Cajado Grande Lendário",
   "type": "weapon",
   "_id": "jDtvEabkHY1GFgfc",
   "img": "icons/weapons/wands/wand-carved-fire.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {

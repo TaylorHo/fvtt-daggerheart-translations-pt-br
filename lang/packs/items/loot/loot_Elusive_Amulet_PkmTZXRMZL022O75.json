@@ -1,10 +1,10 @@
 {
-  "name": "Elusive Amulet",
+  "name": "Amuleto do Desaparecimento",
   "type": "loot",
   "_id": "PkmTZXRMZL022O75",
   "img": "icons/equipment/neck/pendant-rough-silver-purple.webp",
   "system": {
-    "description": "<p>Once per long rest, you can activate this amulet to become Hidden until you move. While Hidden in this way, you remain unseen even if an adversary moves to where they would normally see you.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode ativar este amuleto para ficar Escondido até se mover. Enquanto estiver Escondido dessa forma, você permanece invisível mesmo que um adversário se mova para onde normalmente o veria.</p>",
     "quantity": 1,
     "actions": {
       "vitnEzfU3gCzsRem": {
@@ -31,7 +31,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/equipment/neck/pendant-rough-silver-purple.webp",
         "range": "",
         "baseAction": false,
@@ -51,7 +51,7 @@
   },
   "effects": [
     {
-      "name": "Elusive Amulet",
+      "name": "Amuleto do Desaparecimento",
       "img": "icons/equipment/neck/pendant-rough-silver-purple.webp",
       "transfer": true,
       "_id": "YBkYjxU0Vn5JEsMK",
@@ -73,11 +73,9 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You are Hidden until you move. While Hidden in this way, you remain unseen even if an adversary moves to where they would normally see you.</p>",
+      "description": "<p>Você fica Escondido até se mover. Enquanto estiver Escondido dessa forma, você permanece invisível mesmo que um adversário se mova para onde normalmente o veria.</p>",
       "tint": "#ffffff",
-      "statuses": [
-        "hidden"
-      ],
+      "statuses": ["hidden"],
       "sort": 0,
       "flags": {},
       "_stats": {

@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Hallowed Heroplate",
+  "name": "Placa Heroica Sagrada",
   "type": "armor",
   "_id": "ukIkx5TCBUlgleBw",
   "img": "icons/equipment/chest/breastplate-collared-steel-grey.webp",
@@ -19,8 +19,8 @@
       "BI0HMrVMByFTti3u": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Blessed",
-        "description": "Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent.",
+        "name": "Abençoada",
+        "description": "Uma vez por descanso longo, você pode gastar qualquer quantidade de Esperança antes de fazer o movimento mortal Risk It All. Você ganha um bônus no resultado do seu Dado de Esperança igual à quantidade de Esperança gasta.",
         "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
         "uses": {
           "max": "1",
@@ -59,9 +59,7 @@
       "blessed": {
         "value": "blessed",
         "effectIds": [],
-        "actionIds": [
-          "BI0HMrVMByFTti3u"
-        ],
+        "actionIds": ["BI0HMrVMByFTti3u"],
         "config": {}
       }
     }

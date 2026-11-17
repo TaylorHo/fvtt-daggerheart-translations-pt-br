@@ -1,10 +1,10 @@
 {
-  "name": "Bloodstone",
+  "name": "Pedra de Brutalidade",
   "type": "loot",
   "_id": "oMd78vhL2x2NO8Mg",
   "img": "icons/commodities/treasure/token-engraved-eye-red.webp",
   "system": {
-    "description": "<p>You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature.</p><p><strong>Brutal</strong>: When you roll the maximum value on a damage die, roll an additional damage die.</p>",
+    "description": "<p>Você pode fixar esta pedra em uma arma que ainda não tenha uma característica. A arma ganha a seguinte característica.</p><p><strong>Brutal</strong>: Quando você rola o valor máximo em um dado de dano, role um dado de dano adicional.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

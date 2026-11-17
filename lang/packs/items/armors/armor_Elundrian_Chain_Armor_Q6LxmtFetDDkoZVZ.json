@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Elundrian Chain Armor",
+  "name": "Armadura de Malha Elundriana",
   "type": "armor",
   "_id": "Q6LxmtFetDDkoZVZ",
   "img": "icons/equipment/chest/breastplate-sculpted-green.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "warded": {
         "value": "warded",
-        "effectIds": [
-          "xGxqTCO8MjNq5Cw6"
-        ],
+        "effectIds": ["xGxqTCO8MjNq5Cw6"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Warded",
-      "description": "<p>You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.</p>",
+      "name": "Égide",
+      "description": "<p>Você reduz o dano mágico recebido pela sua Pontuação de Armadura antes de aplicá-lo aos seus limiares de dano.</p>",
       "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
       "_id": "xGxqTCO8MjNq5Cw6",
       "type": "base",
@@ -50,7 +48,7 @@
             "phase": "initial",
             "priority": 0,
             "value": {
-              "label": "Warded",
+              "label": "Égide",
               "value": "@system.armorScore.max",
               "costs": []
             }

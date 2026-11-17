@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Siphoning Gauntlets",
+  "name": "Manoplas Sifonadoras",
   "type": "weapon",
   "_id": "1N1jggda5DfdzdMj",
   "img": "icons/equipment/hand/glove-spiked-leather-grey.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,

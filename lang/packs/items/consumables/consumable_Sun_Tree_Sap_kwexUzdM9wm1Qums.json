@@ -1,10 +1,10 @@
 {
-  "name": "Sun Tree Sap",
+  "name": "Seiva da Árvore do Sol",
   "type": "consumable",
   "_id": "kwexUzdM9wm1Qums",
   "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
   "system": {
-    "description": "<p>Consume this sap to roll a [[/r d6]]. On a result of 5–6, clear 2 HP. On a result of 2–4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.</p>",
+    "description": "<p>Consuma esta seiva para rolar um [[/r d6]]. Em um resultado 5–6, limpe 2 PV. Em um resultado 2–4, limpe 3 Fadiga. Em um resultado 1, você enxerga através do véu da morte e retorna transformado, recebendo uma cicatriz.</p>",
     "quantity": 1,
     "actions": {
       "Fh7OR8ZmiLNvRPHa": {
@@ -59,7 +59,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Consume",
+        "name": "Consumir",
         "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
         "range": "",
         "baseAction": false,

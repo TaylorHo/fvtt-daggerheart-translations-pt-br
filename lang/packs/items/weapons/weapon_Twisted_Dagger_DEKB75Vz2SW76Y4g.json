@@ -1,6 +1,6 @@
 {
   "folder": "d7tdCsIUd94XuTtq",
-  "name": "Twisted Dagger",
+  "name": "Adaga Retorcida",
   "type": "weapon",
   "_id": "DEKB75Vz2SW76Y4g",
   "img": "icons/weapons/daggers/dagger-curved-guard-black.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

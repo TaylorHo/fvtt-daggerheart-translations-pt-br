@@ -1,9 +1,9 @@
 {
-  "name": "Furball Bag",
+  "name": "Bolsa Bola de Pelos",
   "type": "loot",
   "img": "icons/containers/bags/pouch-leather-pink.webp",
   "system": {
-    "description": "<p>Once per rest, you can produce [[/r 2d20]] harmless, cat-sized fur creatures of indeterminate origin and species from this bag.</p>",
+    "description": "<p>Uma vez por descanso, você pode tirar desta bolsa [[/r 2d20]] criaturas peludas inofensivas, do tamanho de um gato, de origem e espécie indeterminadas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Produce Creatures",
+        "name": "Produzir Criaturas",
         "range": ""
       }
     }

@@ -1,9 +1,9 @@
 {
-  "name": "Self-Sewing Thread",
+  "name": "Linha Autocosturante",
   "type": "consumable",
   "img": "icons/tools/hand/needle-thread-spool.webp",
   "system": {
-    "description": "<p>You can use this thread to clear either a Hit Point or 2 Armor Slots.</p>",
+    "description": "<p>Você pode usar esta linha para limpar um Ponto de Vida ou 2 Espaços de Armadura.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -85,7 +85,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Hit Point",
+        "name": "Limpar Ponto de Vida",
         "range": ""
       },
       "dE5BTVbmJ4Yuoy0M": {
@@ -160,7 +160,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Armor",
+        "name": "Limpar Espaço de Armadura",
         "range": ""
       }
     }

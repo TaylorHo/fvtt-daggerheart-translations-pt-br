@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Widogast Pendant",
+  "name": "Pingente de Widogast",
   "type": "weapon",
   "_id": "8Z5QrThfwkYPXNco",
   "img": "icons/equipment/neck/amulet-geometric-blue-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "8j3yjH0TiwwZsaBW",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "timebending": {
         "value": "timebending",
         "effectIds": [],
-        "actionIds": [
-          "gQFuVhPeKzNj93p6"
-        ],
+        "actionIds": ["gQFuVhPeKzNj93p6"],
         "config": {}
       }
     }

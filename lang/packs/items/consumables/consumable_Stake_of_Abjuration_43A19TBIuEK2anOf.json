@@ -1,9 +1,9 @@
 {
-  "name": "Stake of Abjuration",
+  "name": "Estaca da Abjuração",
   "type": "consumable",
   "img": "icons/sundries/survival/stake-rough-heavy-brown.webp",
   "system": {
-    "description": "<p>You can hammer this stake into the ground and make a proclamation. Until your next rest, a creature within Far range of the stake who transgresses that proclamation must mark a Stress. The stake lasts until your next rest, then it shatters.</p>",
+    "description": "<p>Você pode cravar esta estaca no chão e fazer uma proclamação. Até seu próximo descanso, uma criatura dentro do alcance Distante da estaca que transgredir essa proclamação deve marcar um Fadiga. A estaca dura até seu próximo descanso e depois se estilhaça.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

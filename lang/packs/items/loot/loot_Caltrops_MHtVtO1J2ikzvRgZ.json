@@ -1,9 +1,9 @@
 {
-  "name": "Caltrops",
+  "name": "Abrolhos",
   "type": "loot",
   "img": "icons/containers/bags/coinpouch-simple-tan.webp",
   "system": {
-    "description": "<p>You can spread these caltrops in a Very Close area around you. A creature hastening through that area must mark a Stress.</p>",
+    "description": "<p>Você pode espalhar estes abrolhos em uma área Muito Próxima ao seu redor. Uma criatura que atravessar apressada essa área deve marcar um Fadiga.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -26,7 +26,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Caltrops",
+            "name": "Abrolhos",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spread Caltrops",
+        "name": "Espalhar Abrolhos",
         "range": ""
       },
       "v2jdAgOxckv3uFhJ": {

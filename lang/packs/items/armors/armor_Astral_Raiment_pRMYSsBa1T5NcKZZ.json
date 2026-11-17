@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Astral Raiment",
+  "name": "Vestes Astrais",
   "type": "armor",
   "_id": "pRMYSsBa1T5NcKZZ",
   "img": "icons/equipment/chest/breastplate-layered-leather-blue-gold.webp",
@@ -19,8 +19,8 @@
       "1xXZfSn4U37AgDRB": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Stellar",
-        "description": "Mark a Stress to gain advantage on a Spellcast roll.",
+        "name": "Estelar",
+        "description": "Marque um Fadiga para ganhar vantagem em um teste de Conjuração.",
         "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
         "cost": [
           {
@@ -68,9 +68,7 @@
       "stellar": {
         "value": "stellar",
         "effectIds": [],
-        "actionIds": [
-          "1xXZfSn4U37AgDRB"
-        ],
+        "actionIds": ["1xXZfSn4U37AgDRB"],
         "config": {}
       }
     }

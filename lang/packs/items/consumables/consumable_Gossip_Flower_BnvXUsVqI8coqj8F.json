@@ -1,9 +1,9 @@
 {
-  "name": "Gossip Flower",
+  "name": "Flor Fofoqueira",
   "type": "consumable",
   "img": "icons/commodities/flowers/holly-buds-white.webp",
   "system": {
-    "description": "<p>You can plant this seed in soil. It instantly grows into a small flower that records everything it hears for up to one week. When plucked, the flower recites what it recorded in real time, then withers.</p>",
+    "description": "<p>Você pode plantar esta semente no solo. Ela cresce instantaneamente em uma pequena flor que grava tudo o que ouve por até uma semana. Quando colhida, a flor recita o que gravou em tempo real e depois murcha.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Plant",
+        "name": "Plantar",
         "range": ""
       }
     }

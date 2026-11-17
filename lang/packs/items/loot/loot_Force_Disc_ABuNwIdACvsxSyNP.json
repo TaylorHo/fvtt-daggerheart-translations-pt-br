@@ -1,9 +1,9 @@
 {
-  "name": "Force Disc",
+  "name": "Disco de Força",
   "type": "loot",
   "img": "icons/commodities/stone/stone-chunk-tan.webp",
   "system": {
-    "description": "<p>This shimmering two-dimensional disc of magical force has a 4-foot diameter and is magically tethered to a pebble. The disc always floats 3 feet north of, and at the same elevation as, the pebble. The pebble has a mass equal to one-hundredth of the total mass carried by the disc.</p>",
+    "description": "<p>Este disco bidimensional cintilante de força mágica tem 1,2 metro de diâmetro e está magicamente atado a um seixo. O disco sempre flutua 90 centímetros ao norte do seixo, na mesma altura que ele. O seixo tem uma massa igual a um centésimo da massa total carregada pelo disco.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

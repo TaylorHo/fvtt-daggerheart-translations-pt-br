@@ -1,9 +1,9 @@
 {
-  "name": "Grapnel",
+  "name": "Gancho de Escalada",
   "type": "loot",
   "img": "icons/weapons/thrown/shuriken-triple-purple.webp",
   "system": {
-    "description": "<p>You gain advantage on action rolls to climb sheer surfaces.</p>",
+    "description": "<p>Você ganha vantagem em testes de ação para escalar superfícies íngremes.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -16,7 +16,7 @@
   "_id": "RcYICit5t9dnMhzi",
   "effects": [
     {
-      "name": "Grapnel",
+      "name": "Gancho de Escalada",
       "type": "base",
       "system": {
         "changes": [
@@ -54,7 +54,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain advantage on action rolls to climb sheer surfaces.</p>",
+      "description": "<p>Você ganha vantagem em testes de ação para escalar superfícies íngremes.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

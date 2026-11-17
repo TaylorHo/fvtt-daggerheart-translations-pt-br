@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Braveshield",
+  "name": "Escudo Valente",
   "type": "weapon",
   "_id": "QEvgVoz9xKBSKsGi",
   "img": "icons/equipment/shield/kite-wooden-dragon-green.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "sheltering": {
         "value": "sheltering",
         "effectIds": [],
-        "actionIds": [
-          "Ctsyr3xDVCsDYbZ3"
-        ],
+        "actionIds": ["Ctsyr3xDVCsDYbZ3"],
         "config": {}
       }
     }

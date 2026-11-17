@@ -1,10 +1,10 @@
 {
-  "name": "Enlighten Relic",
+  "name": "Relíquia de Iluminação",
   "type": "loot",
   "_id": "vSGx1f9SYUiA29L3",
   "img": "icons/commodities/treasure/token-runed-os-grey.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Knowledge. You can only carry one relic.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Conhecimento. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Enlighten Relic",
+      "name": "Relíquia de Iluminação",
       "type": "base",
       "_id": "aWOGlmqC9l86GlFV",
       "img": "icons/magic/perception/third-eye-blue-red.webp",
@@ -45,7 +45,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Knowledge.</p>",
+      "description": "<p>Você ganha um bônus de +1 em seu Conhecimento.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

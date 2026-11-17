@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Chainmail Armor",
+  "name": "Armadura de Malha",
   "type": "armor",
   "_id": "haULhuEg37zUUvhb",
   "img": "icons/equipment/chest/breastplate-scale-grey.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "heavy": {
         "value": "heavy",
-        "effectIds": [
-          "ZfO5NjpqEIzZVlPq"
-        ],
+        "effectIds": ["ZfO5NjpqEIzZVlPq"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Heavy",
-      "description": "-1 to Evasion",
+      "name": "Pesada",
+      "description": "-1 na Evasão",
       "img": "icons/commodities/metal/ingot-worn-iron.webp",
       "_id": "ZfO5NjpqEIzZVlPq",
       "type": "base",

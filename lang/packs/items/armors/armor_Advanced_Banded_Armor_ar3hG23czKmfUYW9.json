@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Banded Armor",
+  "name": "Armadura de Bandas Avançada",
   "type": "armor",
   "_id": "ar3hG23czKmfUYW9",
   "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": [
-          "clo7We2aUibWdsmD"
-        ],
+        "effectIds": ["clo7We2aUibWdsmD"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Bulky",
-      "description": "-1 to Evasion; when you take Severe damage, you must mark a Stress.",
+      "name": "Volumosa",
+      "description": "-1 na Evasão; quando você sofre dano Severo, deve marcar um Fadiga.",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "system": {
         "changes": [

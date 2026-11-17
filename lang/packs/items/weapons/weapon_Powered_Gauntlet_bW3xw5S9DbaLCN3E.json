@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Powered Gauntlet",
+  "name": "Manopla Motorizada",
   "type": "weapon",
   "_id": "bW3xw5S9DbaLCN3E",
   "img": "icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp",
@@ -10,8 +10,8 @@
       "eEbxZKVYLmVRQ20C": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Charge",
-        "description": "Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.",
+        "name": "Carregar",
+        "description": "Marque um Fadiga para ganhar um bônus de +1 em sua Proficiência em um ataque com arma primária.",
         "img": "icons/magic/lightning/claws-unarmed-strike-teal.webp",
         "target": {
           "type": "self",
@@ -55,7 +55,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -167,8 +167,8 @@
   },
   "effects": [
     {
-      "name": "Charged",
-      "description": "Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.",
+      "name": "Carregar",
+      "description": "Marque um Fadiga para ganhar um bônus de +1 em sua Proficiência em um ataque com arma primária.",
       "img": "icons/magic/lightning/claws-unarmed-strike-teal.webp",
       "system": {
         "conditionals": [

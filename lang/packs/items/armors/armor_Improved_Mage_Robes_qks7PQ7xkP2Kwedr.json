@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Improved Mage Robes",
+  "name": "Vestes de Mago Aprimoradas",
   "type": "armor",
   "_id": "qks7PQ7xkP2Kwedr",
   "img": "icons/equipment/chest/robe-layered-teal.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "enchanted": {
         "value": "enchanted",
-        "effectIds": [
-          "68KNvbicN2lASHIo"
-        ],
+        "effectIds": ["68KNvbicN2lASHIo"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Enchanted",
-      "description": "Gain a bonus to your damage thresholds equal to your Spellcast trait.",
+      "name": "Encantada",
+      "description": "Receba um bônus nos seus limiares de dano igual à sua característica de Conjuração.",
       "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
       "system": {
         "changes": [

@@ -1,5 +1,5 @@
 {
-  "name": "Fulgurite Shard",
+  "name": "Fragmento de Fulgurita",
   "type": "consumable",
   "_id": "vrbpqW9l3zf6GPZy",
   "img": "icons/commodities/gems/gem-rough-cushion-purple.webp",
@@ -9,7 +9,7 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and mark 1d4 Stress as lightning crackles through the area.</p>",
+    "description": "<p>Escolha um ponto dentro do alcance Distante. Todos os alvos dentro do alcance Próximo desse ponto devem ser bem-sucedidos em um Teste de Reação (16) ou sofrer 3d6 de dano mágico e marcar 1d4 Fadiga enquanto relâmpagos estalam pela área.</p>",
     "gmNotes": "",
     "quantity": 1,
     "actions": {
@@ -34,9 +34,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "itemId": null
           },
           "resources": {
@@ -72,7 +70,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Fulgurite Shard",
+            "name": "Fragmento de Fulgurita",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -121,7 +119,7 @@
           "difficulty": 16,
           "damageMod": "none"
         },
-        "name": "Use",
+        "name": "Usar",
         "range": "far"
       }
     },

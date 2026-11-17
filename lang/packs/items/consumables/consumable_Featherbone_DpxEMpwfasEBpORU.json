@@ -1,10 +1,10 @@
 {
-  "name": "Featherbone",
+  "name": "Osso-Pena",
   "type": "consumable",
   "_id": "DpxEMpwfasEBpORU",
   "img": "icons/commodities/bones/bones-stack-worn-brown.webp",
   "system": {
-    "description": "<p>You can use this bone to control your falling speed for a number of minutes equal to your level.</p>",
+    "description": "<p>Você pode usar este osso para controlar sua velocidade de queda por um número de minutos igual ao seu nível.</p>",
     "quantity": 1,
     "actions": {
       "MC0EA6TDZpEHMz11": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/bones/bones-stack-worn-brown.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Featherbone",
+      "name": "Osso-Pena",
       "img": "icons/commodities/bones/bones-stack-worn-brown.webp",
       "transfer": false,
       "_id": "VfJIJBW96e45xQHY",
@@ -83,7 +83,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can use this bone to control your falling speed for a number of minutes equal to your level.</p>",
+      "description": "<p>Você pode usar este osso para controlar sua velocidade de queda por um número de minutos igual ao seu nível.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

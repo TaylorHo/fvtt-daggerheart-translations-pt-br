@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Spear",
+  "name": "Lança Avançada",
   "type": "weapon",
   "_id": "pK6dsNABKKp1CIGN",
   "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {

@@ -1,9 +1,9 @@
 {
-  "name": "Red Ooze Oil",
+  "name": "Óleo de Gosma Vermelha",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
   "system": {
-    "description": "<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Ignites the target. While Ignited, the target takes 1d4 magic damage when they take the spotlight.</p>",
+    "description": "<p>Você pode revestir sua arma com este óleo. O próximo ataque bem-sucedido que fizer com esta arma causa 1d8 de dano mágico extra e Incendeia temporariamente o alvo. Enquanto Incendiado, o alvo sofre 1d4 de dano mágico quando assume o centro das atenções.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Apply",
+        "name": "Aplicar",
         "range": ""
       },
       "jD3LZE5YeVjfTAtU": {
@@ -60,7 +60,7 @@
         "_id": "jD3LZE5YeVjfTAtU",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>While Ignited, the target takes 1d4 magic damage when they take the spotlight.</p>",
+        "description": "<p>Enquanto Incendiado, o alvo sofre 1d4 de dano mágico quando assume o centro das atenções.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -85,7 +85,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Ignite",
+        "name": "Incendiar",
         "range": "",
         "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp"
       }
@@ -94,10 +94,10 @@
   "_id": "3vr1v9tKLW2huI3H",
   "effects": [
     {
-      "name": "Red Ooze Oil",
+      "name": "Óleo de Gosma Vermelha",
       "disabled": false,
       "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
-      "description": "<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Ignites the target.</p>",
+      "description": "<p>Você pode revestir sua arma com este óleo. O próximo ataque bem-sucedido que fizer com esta arma causa 1d8 de dano mágico extra e Incendeia temporariamente o alvo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -158,10 +158,10 @@
       "_key": "!items.effects!3vr1v9tKLW2huI3H.x3sGgfLR0gkXxw5f"
     },
     {
-      "name": "Ignited",
+      "name": "Incendiado",
       "disabled": false,
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
-      "description": "<p>While Ignited, the target takes 1d4 magic damage when they take the spotlight.</p>",
+      "description": "<p>Enquanto Incendiado, o alvo sofre 1d4 de dano mágico quando assume o centro das atenções.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

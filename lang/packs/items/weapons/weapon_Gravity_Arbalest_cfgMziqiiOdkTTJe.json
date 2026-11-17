@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Gravity Arbalest",
+  "name": "Arbalesta da Gravidade",
   "type": "weapon",
   "_id": "cfgMziqiiOdkTTJe",
   "img": "icons/weapons/crossbows/handcrossbow-green.webp",
@@ -58,8 +58,8 @@
         },
         "type": "attack",
         "chatDisplay": true,
-        "name": "Magnetic",
-        "description": "When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target.",
+        "name": "Magnética",
+        "description": "Quando você faz um ataque com esta arma, pode gastar uma Esperança para forçar todos os adversários dentro do alcance Muito Próximo do alvo a fazer um Teste de Reação (16). As criaturas que falharem devem marcar um Fadiga e são puxadas para o alcance Corpo a Corpo do alvo.",
         "img": "icons/magic/movement/portal-vortex-orange.webp",
         "cost": [
           {
@@ -112,7 +112,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

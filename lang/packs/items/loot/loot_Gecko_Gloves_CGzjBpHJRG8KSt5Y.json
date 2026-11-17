@@ -1,10 +1,10 @@
 {
-  "name": "Gecko Gloves",
+  "name": "Luvas-Lagartixa",
   "type": "loot",
   "_id": "CGzjBpHJRG8KSt5Y",
   "img": "icons/equipment/hand/glove-ring-leather-green.webp",
   "system": {
-    "description": "<p>You can climb up vertical surfaces and across ceilings.</p>",
+    "description": "<p>Você pode escalar superfícies verticais e atravessar tetos.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

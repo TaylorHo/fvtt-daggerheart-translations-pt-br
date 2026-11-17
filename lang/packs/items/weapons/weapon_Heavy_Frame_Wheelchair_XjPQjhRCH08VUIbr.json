@@ -1,6 +1,6 @@
 {
   "folder": "6nJ3reb1jx83CtRy",
-  "name": "Heavy-Frame Wheelchair",
+  "name": "Cadeira de Rodas de Estrutura Pesada",
   "type": "weapon",
   "_id": "XjPQjhRCH08VUIbr",
   "img": "systems/daggerheart/assets/icons/documents/items/HeavyWheelchair.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "fKTeCKjfyQauf5bA",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Heavy",
-      "description": "-1 to Evasion",
+      "name": "Pesada",
+      "description": "-1 na Evasão",
       "img": "icons/commodities/metal/ingot-worn-iron.webp",
       "_id": "1godgiqdDADyR0Tw",
       "type": "base",

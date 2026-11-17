@@ -1,10 +1,10 @@
 {
-  "name": "Gill Salve",
+  "name": "Unguento de Guelras",
   "type": "consumable",
   "_id": "Nvbb9mze6o5D0AEg",
   "img": "icons/commodities/materials/bowl-powder-blue.webp",
   "system": {
-    "description": "<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>",
+    "description": "<p>Você pode aplicar este unguento no pescoço para respirar debaixo d'água por um número de minutos igual ao seu nível.</p>",
     "quantity": 1,
     "actions": {
       "57IIcyhEs2ByoENx": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Apply",
+        "name": "Aplicar",
         "img": "icons/commodities/materials/bowl-powder-blue.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Gill Salve",
+      "name": "Unguento de Guelras",
       "img": "icons/commodities/materials/bowl-powder-blue.webp",
       "transfer": false,
       "_id": "5rL9CY5GO9SJcEZq",
@@ -83,7 +83,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>",
+      "description": "<p>Você pode aplicar este unguento no pescoço para respirar debaixo d'água por um número de minutos igual ao seu nível.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

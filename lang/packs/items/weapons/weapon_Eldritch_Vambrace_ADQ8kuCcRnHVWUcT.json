@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Eldritch Vambrace",
+  "name": "Braçadeira Sinistra",
   "type": "weapon",
   "_id": "ADQ8kuCcRnHVWUcT",
   "img": "icons/equipment/hand/tech-gauntlet-white-heavy.webp",
@@ -19,8 +19,8 @@
       "eXTjCN7FiPPIG68X": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Deflect",
-        "description": "When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your available Armor Slots against the attack.",
+        "name": "Desviar",
+        "description": "Quando você é atacado, pode marcar um Espaço de Armadura para ganhar um bônus na Evasão igual aos seus Espaços de Armadura disponíveis contra o ataque.",
         "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
         "target": {
           "type": "self",
@@ -64,7 +64,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,
@@ -168,8 +168,8 @@
   },
   "effects": [
     {
-      "name": "Deflecting",
-      "description": "Gain a bonus to your Evasion equal to your available Armor Slots against the attack",
+      "name": "Desviar",
+      "description": "Receba um bônus na Evasão igual aos seus Espaços de Armadura disponíveis contra o ataque",
       "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
       "system": {
         "changes": [

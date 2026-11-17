@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Storm God's Greataxe",
+  "name": "Machado Grande do Deus da Tempestade",
   "type": "weapon",
   "_id": "bzXbKmU27hs1eVkB",
   "img": "icons/weapons/axes/axe-double-blue.webp",
@@ -19,8 +19,8 @@
       "go6bchi8pFs20jTQ": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Bounce",
-        "description": "Mark 1 or more Stress to hit that many targets in range of the attack.",
+        "name": "Ricochete",
+        "description": "Marque 1 ou mais Fadiga para atingir essa quantidade de alvos dentro do alcance do ataque.",
         "img": "icons/skills/movement/ball-spinning-blue.webp",
         "cost": [
           {
@@ -59,7 +59,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

@@ -1,10 +1,10 @@
 {
-  "name": "Glamour Stone",
+  "name": "Pedra do Glamour",
   "type": "loot",
   "_id": "Pj17cvdJ1XG1jv6I",
   "img": "icons/commodities/treasure/token-engraved-purple-glowing.webp",
   "system": {
-    "description": "<p>Activate this pebble-sized stone to memorize the appearance of someone you can see. Spend a Hope to magically recreate this guise on yourself as an illusion.</p>",
+    "description": "<p>Ative esta pedra do tamanho de um seixo para memorizar a aparência de alguém que você consiga ver. Gaste uma Esperança para recriar magicamente esse disfarce em si mesmo como uma ilusão.</p>",
     "quantity": 1,
     "actions": {
       "ATQgH12mufTOQLKs": {
@@ -40,7 +40,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Create Illusion",
+        "name": "Criar Ilusão",
         "img": "icons/commodities/treasure/token-engraved-purple-glowing.webp",
         "range": "self",
         "baseAction": false,
@@ -60,7 +60,7 @@
   },
   "effects": [
     {
-      "name": "Glamour Stone",
+      "name": "Pedra do Glamour",
       "img": "icons/commodities/treasure/token-engraved-purple-glowing.webp",
       "transfer": false,
       "_id": "K5SB6tfuDkdVaQYe",
@@ -82,7 +82,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Activate this pebble-sized stone to memorize the appearance of someone you can see. Spend a Hope to magically recreate this guise on yourself as an illusion.</p>",
+      "description": "<p>Ative esta pedra do tamanho de um seixo para memorizar a aparência de alguém que você consiga ver. Gaste uma Esperança para recriar magicamente esse disfarce em si mesmo como uma ilusão.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

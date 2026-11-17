@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Hand Crossbow",
+  "name": "Besta de Mão",
   "type": "weapon",
   "_id": "zxKt6qXe7uZB6ljm",
   "img": "icons/weapons/crossbows/crossbow-simple-red.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "i9jZXe5K5nIc58AG",
       "baseAction": true,

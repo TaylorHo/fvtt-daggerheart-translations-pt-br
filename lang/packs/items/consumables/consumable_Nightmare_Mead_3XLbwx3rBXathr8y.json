@@ -1,9 +1,9 @@
 {
-  "name": "Nightmare Mead",
+  "name": "Hidromel do Pesadelo",
   "type": "consumable",
   "img": "icons/consumables/potions/flask-ornate-skull-green.webp",
   "system": {
-    "description": "<p>You can drink this potion to discover the deepest fear of the next person you make eye contact with. When you do, the GM gains a Fear.</p>",
+    "description": "<p>Você pode beber esta poção para descobrir o maior medo da próxima pessoa com quem fizer contato visual. Quando fizer isso, o Mestre ganha um Medo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -85,7 +85,7 @@
           },
           "useDefault": false
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }

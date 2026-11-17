@@ -1,9 +1,9 @@
 {
-  "name": "Packet of Space Dust",
+  "name": "Pacote de Poeira Espacial",
   "type": "consumable",
   "img": "icons/containers/bags/sack-leather-purple.webp",
   "system": {
-    "description": "<p>This dust causes anything it covers to become lighter than air. One packet contains enough dust to cover the contents of a picnic basket, and the effects last for an hour.</p>",
+    "description": "<p>Este pó faz com que tudo o que ele cobre fique mais leve que o ar. Um pacote contém pó suficiente para cobrir o conteúdo de uma cesta de piquenique, e os efeitos duram uma hora.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }
@@ -60,16 +60,16 @@
   "_id": "uyybO6oGBE59Eydd",
   "effects": [
     {
-      "name": "Space Dusted",
+      "name": "Poeira Espacial",
       "disabled": false,
       "img": "icons/containers/bags/sack-leather-purple.webp",
-      "description": "<p>This dust causes anything it covers to become lighter than air, and the effects last for an hour.</p>",
+      "description": "<p>Este pó faz com que tudo o que ele cobre fique mais leve que o ar, e os efeitos duram uma hora.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
         "changes": [],
         "duration": {
-          "description": "<p>An hour</p>",
+          "description": "<p>Uma hora</p>",
           "type": "temporary"
         },
         "rangeDependence": null,

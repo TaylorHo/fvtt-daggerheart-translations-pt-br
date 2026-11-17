@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Monett's Cloak",
+  "name": "Capa de Monett",
   "type": "armor",
   "_id": "AQzU2RsqS5V5bd1v",
   "img": "icons/equipment/chest/coat-collared-red.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "magical": {
         "value": "magical",
-        "effectIds": [
-          "3n4O7PyAWMEFdr5p"
-        ],
+        "effectIds": ["3n4O7PyAWMEFdr5p"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Magical",
-      "description": "You can't mark an Armor Slot to reduce physical damage.",
+      "name": "Mágica",
+      "description": "Você não pode marcar um Espaço de Armadura para reduzir dano físico.",
       "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
       "_id": "3n4O7PyAWMEFdr5p",
       "type": "base",

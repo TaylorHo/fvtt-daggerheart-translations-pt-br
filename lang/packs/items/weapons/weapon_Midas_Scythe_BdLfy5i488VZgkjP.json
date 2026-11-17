@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Midas Scythe",
+  "name": "Foice de Midas",
   "type": "weapon",
   "_id": "BdLfy5i488VZgkjP",
   "img": "icons/weapons/sickles/scythe-bone-green-fire.webp",
@@ -10,8 +10,8 @@
       "A6lC0N6hQhqFTqCx": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Greedy",
-        "description": "Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.",
+        "name": "Egoísta",
+        "description": "Gaste um punhado de ouro para ganhar um bônus de +1 em sua Proficiência em uma rolagem de dano.",
         "img": "icons/commodities/currency/coins-crown-stack-gold.webp",
         "target": {
           "type": "self",
@@ -46,7 +46,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,
@@ -159,8 +159,8 @@
   },
   "effects": [
     {
-      "name": "Greed",
-      "description": "<p>Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.</p>",
+      "name": "Ganância",
+      "description": "<p>Gaste um punhado de ouro para ganhar um bônus de +1 em sua Proficiência em uma rolagem de dano.</p>",
       "img": "icons/commodities/currency/coins-crown-stack-gold.webp",
       "system": {
         "changes": [

@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Greatsword",
+  "name": "Espada Grande Aprimorada",
   "type": "weapon",
   "_id": "FPX4ouDrxXiQ5MDf",
   "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,17 +111,15 @@
     "itemFeatures": {
       "massive": {
         "value": "massive",
-        "effectIds": [
-          "5yXDeMBPcGMEtSNz"
-        ],
+        "effectIds": ["5yXDeMBPcGMEtSNz"],
         "actionIds": []
       }
     }
   },
   "effects": [
     {
-      "name": "Massive",
-      "description": "-1 to Evasion",
+      "name": "Enorme",
+      "description": "-1 na Evasão",
       "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "system": {
         "changes": [

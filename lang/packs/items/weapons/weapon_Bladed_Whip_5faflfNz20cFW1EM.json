@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Bladed Whip",
+  "name": "Chicote de Lâminas",
   "type": "weapon",
   "_id": "5faflfNz20cFW1EM",
   "img": "icons/weapons/misc/whip-red-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "quick": {
         "value": "quick",
         "effectIds": [],
-        "actionIds": [
-          "ss8Qu3f33HCTMwXB"
-        ],
+        "actionIds": ["ss8Qu3f33HCTMwXB"],
         "config": {}
       }
     }

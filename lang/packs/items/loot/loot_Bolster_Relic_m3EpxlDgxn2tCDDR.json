@@ -1,10 +1,10 @@
 {
-  "name": "Bolster Relic",
+  "name": "Relíquia do Impulso",
   "type": "loot",
   "_id": "m3EpxlDgxn2tCDDR",
   "img": "icons/commodities/treasure/token-runed-radr-brown.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Strength. You can only carry one relic.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Força. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Bolster Relic",
+      "name": "Relíquia do Impulso",
       "type": "base",
       "_id": "ByYXvJNr5YbXqn8I",
       "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
@@ -45,7 +45,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Strength.</p>",
+      "description": "<p>Você ganha um bônus de +1 em sua Força.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

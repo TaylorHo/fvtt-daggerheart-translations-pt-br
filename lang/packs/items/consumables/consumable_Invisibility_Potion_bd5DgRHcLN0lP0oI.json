@@ -1,9 +1,9 @@
 {
-  "name": "Invisibility Potion",
+  "name": "Poção de Invisibilidade",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
   "system": {
-    "description": "<p>You are Hidden until you deal damage to another creature or until your next rest.</p>",
+    "description": "<p>Você fica Escondido até causar dano a outra criatura ou até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,14 +60,12 @@
   "_id": "bd5DgRHcLN0lP0oI",
   "effects": [
     {
-      "name": "Invisibility",
+      "name": "Invisibilidade",
       "disabled": false,
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
-      "description": "<p>You are Hidden until you deal damage to another creature or until your next rest.</p>",
+      "description": "<p>Você fica Escondido até causar dano a outra criatura ou até seu próximo descanso.</p>",
       "transfer": false,
-      "statuses": [
-        "hidden"
-      ],
+      "statuses": ["hidden"],
       "system": {
         "changes": [],
         "duration": {

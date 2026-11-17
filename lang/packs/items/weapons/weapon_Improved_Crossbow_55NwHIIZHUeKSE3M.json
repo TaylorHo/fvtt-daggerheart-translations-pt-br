@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Crossbow",
+  "name": "Besta Aprimorada",
   "type": "weapon",
   "_id": "55NwHIIZHUeKSE3M",
   "img": "icons/weapons/crossbows/crossbow-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

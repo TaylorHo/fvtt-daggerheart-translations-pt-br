@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Quarterstaff",
+  "name": "Bordão Lendário",
   "type": "weapon",
   "_id": "1ZciqG7vIKLYpKsP",
   "img": "icons/weapons/staves/staff-orante-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

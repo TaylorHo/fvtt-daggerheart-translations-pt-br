@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Bladefare Armor",
+  "name": "Armadura Bladefare",
   "type": "armor",
   "_id": "mNN6pvcsS10ChrWF",
   "img": "icons/equipment/chest/breastplate-collared-steel-grey.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "physical": {
         "value": "physical",
-        "effectIds": [
-          "s8KtTIngTjnOlaTP"
-        ],
+        "effectIds": ["s8KtTIngTjnOlaTP"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Physical",
-      "description": "You can't mark an Armor Slot to reduce magic damage.",
+      "name": "Física",
+      "description": "Você não pode marcar um Espaço de Armadura para reduzir dano mágico.",
       "img": "icons/commodities/stone/ore-pile-tan.webp",
       "_id": "s8KtTIngTjnOlaTP",
       "type": "base",

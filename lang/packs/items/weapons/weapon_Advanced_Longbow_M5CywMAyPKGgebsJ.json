@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Longbow",
+  "name": "Arco Longo Avançado",
   "type": "weapon",
   "_id": "M5CywMAyPKGgebsJ",
   "img": "icons/weapons/bows/longbow-leather-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "CUpkNgCUE6CWAXc3"
-        ],
+        "effectIds": ["CUpkNgCUE6CWAXc3"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "_id": "CUpkNgCUE6CWAXc3",
       "type": "base",

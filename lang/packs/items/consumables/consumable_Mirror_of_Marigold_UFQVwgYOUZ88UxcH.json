@@ -1,10 +1,10 @@
 {
-  "name": "Mirror of Marigold",
+  "name": "Espelho-Maravilha",
   "type": "consumable",
   "_id": "UFQVwgYOUZ88UxcH",
   "img": "icons/commodities/treasure/token-silver-blue.webp",
   "system": {
-    "description": "<p>When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters.</p>",
+    "description": "<p>Quando você sofre dano, pode gastar uma Esperança para anular esse dano, após o que o espelho se estilhaça.</p>",
     "quantity": 1,
     "actions": {
       "EPN43cQmNC97cCw9": {
@@ -35,7 +35,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/treasure/token-silver-blue.webp",
         "range": "",
         "baseAction": false,

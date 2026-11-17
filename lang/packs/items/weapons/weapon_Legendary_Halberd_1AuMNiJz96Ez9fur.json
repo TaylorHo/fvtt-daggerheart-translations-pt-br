@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Halberd",
+  "name": "Alabarda Lendária",
   "type": "weapon",
   "_id": "1AuMNiJz96Ez9fur",
   "img": "icons/weapons/polearms/halberd-crescent-glowing.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "cumbersome": {
         "value": "cumbersome",
-        "effectIds": [
-          "MmVRlnSLFWBfNJlB"
-        ],
+        "effectIds": ["MmVRlnSLFWBfNJlB"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Cumbersome",
-      "description": "-1 to Finesse",
+      "name": "Inconveniente",
+      "description": "-1 na Acuidade",
       "img": "icons/commodities/metal/mail-plate-steel.webp",
       "_id": "MmVRlnSLFWBfNJlB",
       "type": "base",

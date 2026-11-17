@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Spiked Shield",
+  "name": "Escudo de Espinhos",
   "type": "weapon",
   "_id": "vzyzFwLUniWZV1rt",
   "img": "icons/equipment/shield/targe-wooden-boss-steel-brown.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -124,8 +124,8 @@
   },
   "effects": [
     {
-      "name": "Double Duty",
-      "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range",
+      "name": "Dupla Função",
+      "description": "+1 na Pontuação de Armadura; +1 no dano da arma primária dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/sword-shield-stylized-white.webp",
       "system": {
         "conditionals": [
@@ -176,8 +176,8 @@
       "_key": "!items.effects!vzyzFwLUniWZV1rt.gz2f4hmXhl7hbM6p"
     },
     {
-      "name": "Double Duty",
-      "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range",
+      "name": "Dupla Função",
+      "description": "+1 na Pontuação de Armadura; +1 no dano da arma primária dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/sword-shield-stylized-white.webp",
       "system": {
         "changes": [

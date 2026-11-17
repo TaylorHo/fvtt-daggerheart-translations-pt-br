@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Black Powder Revolver",
+  "name": "Revólver de Pólvora Negra",
   "type": "weapon",
   "_id": "AokqTusPzn0hghkE",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -123,9 +121,7 @@
       "reloading": {
         "value": "reloading",
         "effectIds": [],
-        "actionIds": [
-          "8BHprlLTXO0C71ps"
-        ],
+        "actionIds": ["8BHprlLTXO0C71ps"],
         "config": {}
       }
     }

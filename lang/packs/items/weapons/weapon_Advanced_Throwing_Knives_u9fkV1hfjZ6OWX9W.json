@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Throwing Knives",
+  "name": "Facas de Arremesso Avançadas",
   "type": "weapon",
   "_id": "u9fkV1hfjZ6OWX9W",
   "img": "icons/weapons/daggers/dagger-twin-green.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",

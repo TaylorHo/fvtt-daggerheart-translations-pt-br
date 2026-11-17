@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Improved Round Shield",
+  "name": "Escudo Redondo Aprimorado",
   "type": "weapon",
   "_id": "DlinEBGZfIlvreO3",
   "img": "icons/equipment/shield/round-wooden-reinforced-boss-steel.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "i9jZXe5K5nIc58AG",
       "baseAction": true,
@@ -125,8 +125,8 @@
   },
   "effects": [
     {
-      "name": "Protective",
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "name": "Protetora",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "img": "icons/skills/melee/shield-block-gray-orange.webp",
       "_id": "pZCrWd7zLTarvEQK",
       "type": "base",

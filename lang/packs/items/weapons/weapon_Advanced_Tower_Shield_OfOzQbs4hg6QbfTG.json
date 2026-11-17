@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Tower Shield",
+  "name": "Escudo de Torre Avançado",
   "type": "weapon",
   "_id": "OfOzQbs4hg6QbfTG",
   "img": "icons/equipment/shield/kite-wooden-thistle-pink.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "barrier": {
         "value": "barrier",
-        "effectIds": [
-          "87gedjJZGdFY81Mt"
-        ],
+        "effectIds": ["87gedjJZGdFY81Mt"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "87gedjJZGdFY81Mt",
       "type": "base",
@@ -167,8 +163,8 @@
       "_key": "!items.effects!OfOzQbs4hg6QbfTG.87gedjJZGdFY81Mt"
     },
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "J0f7zqqOr61ADpdy",
       "type": "base",

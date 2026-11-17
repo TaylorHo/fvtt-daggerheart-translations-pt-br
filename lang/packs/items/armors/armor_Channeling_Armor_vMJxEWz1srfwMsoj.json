@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Channeling Armor",
+  "name": "Armadura Canalizadora",
   "type": "armor",
   "_id": "vMJxEWz1srfwMsoj",
   "img": "icons/equipment/chest/robe-collared-blue.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "channeling": {
         "value": "channeling",
-        "effectIds": [
-          "8bwf1Ri3jYkjphEv"
-        ],
+        "effectIds": ["8bwf1Ri3jYkjphEv"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Channeling",
-      "description": "+1 to Spellcast Rolls",
+      "name": "Canalização",
+      "description": "+1 nos Testes de Conjuração",
       "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
       "_id": "8bwf1Ri3jYkjphEv",
       "type": "base",

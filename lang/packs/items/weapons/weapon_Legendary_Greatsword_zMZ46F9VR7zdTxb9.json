@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Greatsword",
+  "name": "Montante Lendário",
   "type": "weapon",
   "_id": "zMZ46F9VR7zdTxb9",
   "img": "icons/weapons/swords/greatsword-crossguard-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Massive",
-      "description": "-1 to Evasion",
+      "name": "Enorme",
+      "description": "-1 na Evasão",
       "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
       "system": {
         "changes": [

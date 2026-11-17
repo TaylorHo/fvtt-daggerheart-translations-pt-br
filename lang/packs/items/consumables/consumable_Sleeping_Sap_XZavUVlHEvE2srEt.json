@@ -1,10 +1,10 @@
 {
-  "name": "Sleeping Sap",
+  "name": "Seiva do Sono",
   "type": "consumable",
   "_id": "XZavUVlHEvE2srEt",
   "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
   "system": {
-    "description": "<p>You can drink this potion to fall asleep for a full night's rest. You clear all Stress upon waking.</p>",
+    "description": "<p>Você pode beber esta poção para adormecer e ter uma noite inteira de descanso. Você limpa todo o Fadiga ao acordar.</p>",
     "quantity": 1,
     "actions": {
       "0cqzI66ChzO6x8WF": {
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Wake",
+        "name": "Acordar",
         "img": "icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp",
         "range": "",
         "baseAction": false,

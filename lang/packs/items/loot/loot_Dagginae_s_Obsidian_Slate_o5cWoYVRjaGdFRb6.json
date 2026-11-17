@@ -1,9 +1,9 @@
 {
-  "name": "Dagginae's Obsidian Slate",
+  "name": "Lousa de Obsidiana de Dagginae",
   "type": "loot",
   "img": "icons/sundries/documents/document-worn-symbol-brown.webp",
   "system": {
-    "description": "<p>This wafer-thin sheet of volcanic glass is used by archivists to keep notes. Any information etched onto its surface disappears but can be recalled via a command you set.</p>",
+    "description": "<p>Esta folha finíssima de vidro vulcânico é usada por arquivistas para fazer anotações. Qualquer informação gravada em sua superfície desaparece, mas pode ser recuperada por meio de um comando que você define.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

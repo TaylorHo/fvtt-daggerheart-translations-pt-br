@@ -1,9 +1,9 @@
 {
-  "name": "Wildrider's Saddle",
+  "name": "Sela do Cavaleiro Selvagem",
   "type": "loot",
   "img": "icons/commodities/leather/leather-buckle-steel-tan.webp",
   "system": {
-    "description": "<p>This saddle grants any animal it's strapped onto the ability to understand their rider's commands.</p>",
+    "description": "<p>Esta sela concede a qualquer animal em que for presa a capacidade de entender os comandos de seu cavaleiro.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

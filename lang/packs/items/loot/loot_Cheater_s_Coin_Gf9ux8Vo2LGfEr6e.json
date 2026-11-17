@@ -1,9 +1,9 @@
 {
-  "name": "Cheater's Coin",
+  "name": "Moeda do Trapaceiro",
   "type": "loot",
   "img": "icons/commodities/currency/coin-inset-swirl-gold.webp",
   "system": {
-    "description": "<p>When you flip this coin, you can spend a Hope to determine which side it lands on.</p>",
+    "description": "<p>Quando você lança esta moeda, pode gastar uma Esperança para determinar em qual lado ela cai.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Cheat",
+        "name": "Trapacear",
         "range": ""
       }
     }

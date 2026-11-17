@@ -1,10 +1,10 @@
 {
-  "name": "Major Control Potion",
+  "name": "Poção de Controle Maior",
   "type": "consumable",
   "_id": "80s1FLmTLtohZ5GH",
   "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Finesse until your next rest.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Acuidade até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "fk272mE2zHIHq8qR": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Major Control Potion",
+      "name": "Poção de Controle Maior",
       "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
       "transfer": false,
       "_id": "YOgojNdjARXUUrky",

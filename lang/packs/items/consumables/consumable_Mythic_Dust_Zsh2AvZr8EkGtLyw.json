@@ -1,10 +1,10 @@
 {
-  "name": "Mythic Dust",
+  "name": "Pó Mítico",
   "type": "consumable",
   "_id": "Zsh2AvZr8EkGtLyw",
   "img": "icons/commodities/materials/bowl-powder-grey.webp",
   "system": {
-    "description": "<p>You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon.</p>",
+    "description": "<p>Você pode aplicar este pó em uma arma que cause dano mágico para adicionar um d12 à sua próxima rolagem de dano com essa arma.</p>",
     "quantity": 1,
     "actions": {
       "oHph7e6VrOwPetbE": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/materials/bowl-powder-grey.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Mythic Dust",
+      "name": "Pó Mítico",
       "img": "icons/commodities/materials/bowl-powder-grey.webp",
       "transfer": false,
       "_id": "L68lFhuWdS3ppDxR",
@@ -96,7 +96,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You deal 1d12 additional magical damage on your next damage roll with the weapon the venom was applied to.</p>",
+      "description": "<p>Você causa 1d12 de dano mágico adicional na sua próxima rolagem de dano com a arma em que o veneno foi aplicado.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

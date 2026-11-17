@@ -1,10 +1,10 @@
 {
-  "name": "Jumping Root",
+  "name": "Raiz da Cambalhota",
   "type": "consumable",
   "_id": "c2putn9apuurJhWX",
   "img": "icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp",
   "system": {
-    "description": "<p>Eat this root to leap up to Far range once without needing to roll.</p>",
+    "description": "<p>Coma esta raiz para saltar até o alcance Distante uma vez sem precisar rolar.</p>",
     "quantity": 1,
     "actions": {
       "TT4jzve7o2ykPcQO": {
@@ -35,7 +35,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Eat",
+        "name": "Comer",
         "img": "icons/consumables/plants/dried-bundle-wrapped-stems-sticks-brown.webp",
         "range": "",
         "baseAction": false,

@@ -1,9 +1,9 @@
 {
-  "name": "Iridian Dust",
+  "name": "Pó Iridiano",
   "type": "consumable",
   "img": "icons/commodities/materials/powder-red-green-yellow.webp",
   "system": {
-    "description": "<p>This multicolored powder sticks to everything and prevents creatures covered in it from becoming Hidden.</p>",
+    "description": "<p>Este pó multicolorido gruda em tudo e impede que criaturas cobertas por ele fiquem Escondidas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "ECPyjhxssMU469iv",
   "effects": [
     {
-      "name": "Iridian Dust",
+      "name": "Pó Iridiano",
       "disabled": false,
       "img": "icons/commodities/materials/powder-red-green-yellow.webp",
-      "description": "<p>This multicolored powder sticks to everything and prevents creatures covered in it from becoming Hidden.</p>",
+      "description": "<p>Este pó multicolorido gruda em tudo e impede que criaturas cobertas por ele fiquem Escondidas.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

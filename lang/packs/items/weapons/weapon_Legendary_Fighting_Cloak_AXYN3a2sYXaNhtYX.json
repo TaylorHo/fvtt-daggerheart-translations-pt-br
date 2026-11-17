@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Fighting Cloak",
+  "name": "Capa de Combate Lendária",
   "type": "weapon",
   "_id": "AXYN3a2sYXaNhtYX",
   "img": "icons/equipment/chest/coat-collared-red.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Padded",
-      "description": "@Resolve[@item.tier + 1|sign]{+2} to damage thresholds.",
+      "name": "Acolchoada",
+      "description": "@Resolve[@item.tier + 1|sign]{+2} nos limiares de dano.",
       "img": "icons/commodities/cloth/cloth-patterned-teal.webp",
       "system": {
         "changes": [

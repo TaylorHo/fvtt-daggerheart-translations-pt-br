@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Broadsword",
+  "name": "Espada Larga Avançada",
   "type": "weapon",
   "_id": "WtQAGz0TUgz8Xg70",
   "img": "icons/weapons/swords/sword-guard-embossed-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "reliable": {
         "value": "reliable",
-        "effectIds": [
-          "wMyzeKXFaM2P4N05"
-        ],
+        "effectIds": ["wMyzeKXFaM2P4N05"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "+1 to attack rolls",
+      "name": "Confiável",
+      "description": "+1 nos testes de ataque",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "system": {
         "conditionals": [
@@ -134,9 +130,7 @@
           },
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ],

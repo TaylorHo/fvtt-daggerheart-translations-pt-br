@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Improved Gambeson Armor",
+  "name": "Armadura de Gibão Aprimorada",
   "type": "armor",
   "_id": "jphnMZjnS2FkOH3s",
   "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "flexible": {
         "value": "flexible",
-        "effectIds": [
-          "BFwU3ErPaajUSMUz"
-        ],
+        "effectIds": ["BFwU3ErPaajUSMUz"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Flexible",
-      "description": "+1 to Evasion",
+      "name": "Flexível",
+      "description": "+1 na Evasão",
       "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
       "_id": "BFwU3ErPaajUSMUz",
       "type": "base",

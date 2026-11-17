@@ -1,10 +1,10 @@
 {
-  "name": "Enlighten Potion",
+  "name": "Poção da Iluminação",
   "type": "consumable",
   "_id": "aWHSO2AqDufi7nL4",
   "img": "icons/consumables/potions/vial-cork-empty.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your next Knowledge Roll.</p>",
+    "description": "<p>Você ganha um bônus de +1 no seu próximo Teste de Conhecimento.</p>",
     "quantity": 1,
     "actions": {
       "F3K719gxEwQH697e": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/vial-cork-empty.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Enlighten Potion",
+      "name": "Poção da Iluminação",
       "img": "icons/consumables/potions/vial-cork-empty.webp",
       "transfer": false,
       "_id": "QNzVrDW73jF1d5wE",

@@ -1,10 +1,10 @@
 {
-  "name": "Blood of the Yorgi",
+  "name": "Sangue dos Yorgi",
   "type": "consumable",
   "_id": "pDGzmczoTlKGmKgd",
   "img": "icons/consumables/potions/potion-tube-corked-bat-gold-red.webp",
   "system": {
-    "description": "<p>You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range.</p>",
+    "description": "<p>Você pode beber este sangue para desaparecer de onde está e reaparecer imediatamente em um ponto que consiga ver dentro do alcance Muito Distante.</p>",
     "quantity": 1,
     "actions": {
       "6QGfkGkFqqzuVOOY": {
@@ -35,7 +35,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/potion-tube-corked-bat-gold-red.webp",
         "range": "veryFar",
         "baseAction": false,

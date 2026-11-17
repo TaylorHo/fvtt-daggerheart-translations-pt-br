@@ -1,10 +1,10 @@
 {
-  "name": "Fire Jar",
+  "name": "Jarro de Fogo",
   "type": "loot",
   "_id": "X6RMkIt89wf7qX2E",
   "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
   "system": {
-    "description": "<p>You can pour out the strange liquid contents of this jar to instantly produce fire. The contents regenerate when you take a long rest.</p>",
+    "description": "<p>Você pode derramar o estranho conteúdo líquido deste jarro para produzir fogo instantaneamente. O conteúdo se regenera quando você faz um descanso longo.</p>",
     "quantity": 1,
     "actions": {
       "nzXMuxD8DpT1dMXF": {
@@ -26,7 +26,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Pour",
+        "name": "Despejar",
         "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
         "range": "",
         "baseAction": false,

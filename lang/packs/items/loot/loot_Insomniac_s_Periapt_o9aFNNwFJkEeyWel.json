@@ -1,9 +1,9 @@
 {
-  "name": "Insomniac's Periapt",
+  "name": "Amuleto do Insone",
   "type": "loot",
   "img": "icons/equipment/neck/necklace-simple-carved-spiral-blue.webp",
   "system": {
-    "description": "<p>When you take a rest without clearing Hit Points or Stress, you gain a +2 bonus to attack and damage rolls until your next rest.</p>",
+    "description": "<p>Quando você faz um descanso sem limpar Pontos de Vida nem Fadiga, ganha um bônus de +2 nos testes de ataque e nas rolagens de dano até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -42,7 +42,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": "self"
       }
     }
@@ -50,10 +50,10 @@
   "_id": "o9aFNNwFJkEeyWel",
   "effects": [
     {
-      "name": "Insomniac",
+      "name": "Insone",
       "disabled": false,
       "img": "icons/equipment/neck/necklace-simple-carved-spiral-blue.webp",
-      "description": "<p>You gain a +2 bonus to attack and damage rolls until your next rest.</p>",
+      "description": "<p>Você ganha um bônus de +2 nos testes de ataque e nas rolagens de dano até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -83,9 +83,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]

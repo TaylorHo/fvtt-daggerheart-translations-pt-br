@@ -1,10 +1,10 @@
 {
-  "name": "Major Stride Potion",
+  "name": "Poção da Velocidade Maior",
   "type": "consumable",
   "_id": "yK6eEDUrsPbZA8G0",
   "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Agility until your next rest.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Agilidade até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "UIVnvI726LJnlK86": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Major Stride Potion",
+      "name": "Poção da Velocidade Maior",
       "img": "icons/consumables/potions/potion-jar-capped-teal.webp",
       "transfer": false,
       "_id": "L9dAw8pws1o02XkE",

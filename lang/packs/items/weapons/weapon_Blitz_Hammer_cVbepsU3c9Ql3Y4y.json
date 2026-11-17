@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Blitz Hammer",
+  "name": "Martelo Blitz",
   "type": "weapon",
   "_id": "cVbepsU3c9Ql3Y4y",
   "img": "icons/weapons/hammers/hammer-drilling-spiked.webp",
@@ -18,8 +18,8 @@
       "1KG5ZPmXmH5X7GVe": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Accelerator",
-        "description": "Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack.",
+        "name": "Acelerador",
+        "description": "Uma vez por cena, marque um Fadiga para se mover até o alcance Distante e então fazer um ataque. Ganhe um bônus de +1 em sua Proficiência neste ataque.",
         "img": "icons/magic/movement/trail-streak-impact-blue.webp",
         "target": {
           "type": "self",
@@ -63,7 +63,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -92,9 +92,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -156,20 +154,16 @@
     "itemFeatures": {
       "accelerator": {
         "value": "accelerator",
-        "effectIds": [
-          "pAY6jFShsLHNjnRg"
-        ],
-        "actionIds": [
-          "1KG5ZPmXmH5X7GVe"
-        ],
+        "effectIds": ["pAY6jFShsLHNjnRg"],
+        "actionIds": ["1KG5ZPmXmH5X7GVe"],
         "config": {}
       }
     }
   },
   "effects": [
     {
-      "name": "Accelerator",
-      "description": "<p>Gain a +1 bonus to your Proficiency on this attack.</p>",
+      "name": "Acelerador",
+      "description": "<p>Ganhe um bônus de +1 em sua Proficiência neste ataque.</p>",
       "img": "icons/magic/movement/trail-streak-impact-blue.webp",
       "system": {
         "changes": [

@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Sword of Light & Flame",
+  "name": "Espada de Luz e Chama",
   "type": "weapon",
   "_id": "TVPCWnSELOVBv6G1",
   "img": "icons/skills/melee/strike-blade-hooked-orange-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,

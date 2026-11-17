@@ -1,9 +1,9 @@
 {
-  "name": "Slayer's Salt",
+  "name": "Sal do Matador",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-gold.webp",
   "system": {
-    "description": "<p>You can spread this salt in a line along windowsills or thresholds to create a magical barrier that undead creatures can't cross until the line is broken.</p>",
+    "description": "<p>Você pode espalhar este sal em uma linha ao longo de parapeitos ou soleiras para criar uma barreira mágica que criaturas mortas-vivas não podem atravessar até que a linha seja rompida.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

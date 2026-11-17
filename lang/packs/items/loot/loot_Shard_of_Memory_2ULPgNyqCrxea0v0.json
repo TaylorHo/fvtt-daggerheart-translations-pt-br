@@ -1,10 +1,10 @@
 {
-  "name": "Shard of Memory",
+  "name": "Fragmento da Memória",
   "type": "loot",
   "_id": "2ULPgNyqCrxea0v0",
   "img": "icons/commodities/gems/gem-rough-navette-purple-pink.webp",
   "system": {
-    "description": "<p>Once per long rest, you can <strong>spend 2 Hope</strong> to recall a domain card from your vault instead of paying its Recall Cost.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode <strong>gastar 2 Esperança</strong> para recuperar uma carta de domínio do seu cofre em vez de pagar seu Custo de Recuperação.</p>",
     "quantity": 1,
     "actions": {
       "YNRybKQC51muVHYH": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/gems/gem-rough-navette-purple-pink.webp",
         "range": "",
         "baseAction": false,

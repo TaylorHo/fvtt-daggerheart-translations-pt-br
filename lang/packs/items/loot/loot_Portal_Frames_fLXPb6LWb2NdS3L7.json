@@ -1,9 +1,9 @@
 {
-  "name": "Portal Frames",
+  "name": "Armações de Portal",
   "type": "loot",
   "img": "icons/commodities/treasure/gem-framed-spiral-purple.webp",
   "system": {
-    "description": "<p>This pair of small ornate frames, one red and one blue, are connected. Anything that passes into one exits from the other.</p>",
+    "description": "<p>Este par de pequenas molduras ornamentadas, uma vermelha e uma azul, está conectado. Qualquer coisa que entre em uma sai pela outra.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

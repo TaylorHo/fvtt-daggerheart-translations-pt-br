@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Labrys Axe",
+  "name": "Machado Lábris",
   "type": "weapon",
   "_id": "ijWppQzSOqVCb3rE",
   "img": "icons/weapons/axes/axe-battle-jagged.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -125,8 +125,8 @@
   },
   "effects": [
     {
-      "name": "Protective",
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "name": "Protetora",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "img": "icons/skills/melee/shield-block-gray-orange.webp",
       "system": {
         "changes": [

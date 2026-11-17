@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Throwing Knives",
+  "name": "Facas de Arremesso Lendárias",
   "type": "weapon",
   "_id": "dSIYc8RYX4el8IXg",
   "img": "icons/weapons/daggers/dagger-twin-curved-black.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

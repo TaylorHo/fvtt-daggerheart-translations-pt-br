@@ -1,9 +1,9 @@
 {
-  "name": "Communion Relic",
+  "name": "Relíquia da Comunhão",
   "type": "loot",
   "img": "icons/commodities/treasure/token-engraved-spiral-grey.webp",
   "system": {
-    "description": "<p>Once per rest, you can spend a Hope to use an ally's Experience as if it were your own. You can carry only one relic.</p>",
+    "description": "<p>Uma vez por descanso, você pode gastar uma Esperança para usar a Experiência de um aliado como se fosse sua. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     }

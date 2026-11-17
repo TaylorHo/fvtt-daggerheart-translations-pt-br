@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Improved Focus Runes",
+  "name": "Runas de Foco Aprimoradas",
   "type": "weapon",
   "_id": "eRfEi6a3Pb2dDrLP",
   "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Focused",
-      "description": "<p>+1 to primary weapon damage to targets within Very Close range.</p>",
+      "name": "Concentrada",
+      "description": "<p>+1 no dano da arma primária contra alvos dentro do alcance Muito Próximo.</p>",
       "img": "icons/magic/light/orb-shadow-blue.webp",
       "system": {
         "changes": [

@@ -1,9 +1,9 @@
 {
-  "name": "Psychopomp's Shroud",
+  "name": "Mortalha do Psicopompo",
   "type": "consumable",
   "img": "icons/commodities/cloth/cloth-patterned-teal.webp",
   "system": {
-    "description": "<p>You can place this shroud over the corpse of a recently deceased creature. The creature's spirit enters the shroud and becomes your spectral assistant until the next sunrise, when they pass through the veil of death and take the shroud with them.</p>",
+    "description": "<p>Você pode colocar esta mortalha sobre o cadáver de uma criatura recém-falecida. O espírito da criatura entra na mortalha e se torna seu assistente espectral até o próximo nascer do sol, quando atravessa o véu da morte levando a mortalha consigo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

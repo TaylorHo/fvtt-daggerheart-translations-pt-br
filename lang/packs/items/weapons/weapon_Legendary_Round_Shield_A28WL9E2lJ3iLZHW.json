@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Round Shield",
+  "name": "Escudo Redondo Lendário",
   "type": "weapon",
   "_id": "A28WL9E2lJ3iLZHW",
   "img": "icons/equipment/shield/round-wooden-boss-steel-yellow-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -125,8 +125,8 @@
   },
   "effects": [
     {
-      "name": "Protective",
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "name": "Protetora",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "img": "icons/skills/melee/shield-block-gray-orange.webp",
       "_id": "EixxJrRHyc6kj3Wg",
       "type": "base",

@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Granminster's Finery",
+  "name": "Trajes de Granminster",
   "type": "armor",
   "_id": "Fm6sgfz4fYJCvPiS",
   "img": "icons/equipment/chest/coat-collared-studded-red.webp",
@@ -29,9 +29,7 @@
     "itemFeatures": {
       "magnificent": {
         "value": "magnificent",
-        "effectIds": [
-          "zvc1X0O4HyQE9yfV"
-        ],
+        "effectIds": ["zvc1X0O4HyQE9yfV"],
         "actionIds": [],
         "config": {}
       }
@@ -39,8 +37,8 @@
   },
   "effects": [
     {
-      "name": "Magnificent",
-      "description": "Gain a bonus to your Armor Score equal to your Presence.",
+      "name": "Magnífica",
+      "description": "Receba um bônus na sua Pontuação de Armadura igual à sua Presença.",
       "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
       "system": {
         "changes": [

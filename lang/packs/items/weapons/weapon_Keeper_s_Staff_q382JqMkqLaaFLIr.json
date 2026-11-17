@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Keeper's Staff",
+  "name": "Cajado do Guardião",
   "type": "weapon",
   "_id": "q382JqMkqLaaFLIr",
   "img": "icons/weapons/wands/wand-gem-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "<p>+1 to attack rolls</p>",
+      "name": "Confiável",
+      "description": "<p>+1 nos testes de ataque</p>",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "system": {
         "conditionals": [

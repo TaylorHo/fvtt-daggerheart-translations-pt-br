@@ -1,9 +1,9 @@
 {
-  "name": "Green Ooze Oil",
+  "name": "Óleo de Gosma Verde",
   "type": "consumable",
   "img": "icons/commodities/materials/glass-orb-marble-green.webp",
   "system": {
-    "description": "<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a -2 penalty to their damage thresholds.</p>",
+    "description": "<p>Você pode revestir sua arma com este óleo. O próximo ataque bem-sucedido que fizer com esta arma causa 1d8 de dano mágico extra e Corrói temporariamente o alvo. Enquanto Corroído, o alvo recebe uma penalidade de -2 nos seus limiares de dano.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Coat",
+        "name": "Revestir",
         "range": ""
       },
       "Dt901UQjOONozDdc": {
@@ -85,7 +85,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Apply Corroded",
+        "name": "Aplicar Corroído",
         "range": "",
         "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp"
       }
@@ -94,10 +94,10 @@
   "_id": "YAJKrrRTqNJvfRqn",
   "effects": [
     {
-      "name": "Green Ooze Oil",
+      "name": "Óleo de Gosma Verde",
       "disabled": false,
       "img": "icons/commodities/materials/glass-orb-marble-green.webp",
-      "description": "<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target.</p>",
+      "description": "<p>Você pode revestir sua arma com este óleo. O próximo ataque bem-sucedido que fizer com esta arma causa 1d8 de dano mágico extra e Corrói temporariamente o alvo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -151,10 +151,10 @@
       "_key": "!items.effects!YAJKrrRTqNJvfRqn.0tVi0WsfLu3YzxeE"
     },
     {
-      "name": "Corroded",
+      "name": "Corroído",
       "disabled": false,
       "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
-      "description": "<p>While Corroded, the target gains a -2 penalty to their damage thresholds.</p>",
+      "description": "<p>Enquanto Corroído, o alvo recebe uma penalidade de -2 nos seus limiares de dano.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

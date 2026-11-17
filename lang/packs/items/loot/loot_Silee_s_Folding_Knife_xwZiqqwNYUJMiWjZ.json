@@ -1,9 +1,9 @@
 {
-  "name": "Silee's Folding Knife",
+  "name": "Canivete de Silee",
   "type": "loot",
   "img": "icons/weapons/daggers/knife-engraved-black.webp",
   "system": {
-    "description": "<p>This 3-inch blade has an edge that easily cuts through anything except the handle it's stored in.</p>",
+    "description": "<p>Esta lâmina de 7,5 centímetros tem um fio que corta facilmente qualquer coisa, exceto o cabo em que está guardada.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

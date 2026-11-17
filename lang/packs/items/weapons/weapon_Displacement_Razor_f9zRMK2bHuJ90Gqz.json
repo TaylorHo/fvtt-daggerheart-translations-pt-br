@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Displacement Razor",
+  "name": "Navalha do Deslocamento",
   "type": "weapon",
   "_id": "f9zRMK2bHuJ90Gqz",
   "img": "icons/weapons/swords/greatsword-guard-split-eyes.webp",
@@ -21,7 +21,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

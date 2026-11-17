@@ -1,17 +1,17 @@
 {
-  "name": "Stardrop",
+  "name": "Gota Estelar",
   "type": "consumable",
   "_id": "y4c1jrlHrf0wBWOq",
   "img": "icons/magic/light/projectiles-star-purple.webp",
   "system": {
-    "description": "<p>You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.</p>",
+    "description": "<p>Você pode usar esta gota estelar para invocar uma chuva de granizo de cometas que causa 8d20 de dano físico a todos os alvos dentro do alcance Muito Distante.</p>",
     "quantity": 1,
     "actions": {
       "pt5U6hlyx4T7MUOa": {
         "type": "damage",
         "_id": "pt5U6hlyx4T7MUOa",
         "systemPath": "actions",
-        "description": "<p>You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.</p><p>@Template[type:emanation|range:vf]</p>",
+        "description": "<p>Você pode usar esta gota estelar para invocar uma chuva de granizo de cometas que causa 8d20 de dano físico a todos os alvos dentro do alcance Muito Distante.</p><p>@Template[type:emanation|range:vf]</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -43,9 +43,7 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": [
-              "physical"
-            ],
+            "type": ["physical"],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -61,7 +59,7 @@
           "amount": null
         },
         "effects": [],
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/magic/light/projectiles-star-purple.webp",
         "range": "veryFar",
         "baseAction": false,

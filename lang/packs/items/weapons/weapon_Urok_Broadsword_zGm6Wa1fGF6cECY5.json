@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Urok Broadsword",
+  "name": "Espada Larga de Urok",
   "type": "weapon",
   "_id": "zGm6Wa1fGF6cECY5",
   "img": "icons/weapons/swords/greatsword-flamberge.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

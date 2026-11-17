@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Arcane Rifle",
+  "name": "Rifle Arcano Aprimorado",
   "type": "weapon",
   "_id": "AOCUK2L4JgPD8FtY",
   "img": "icons/weapons/guns/gun-purple.webp",
@@ -18,8 +18,8 @@
       "wfUJ95m1Numktbyc": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Aimed",
-        "description": "Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.",
+        "name": "Preciso",
+        "description": "Seu ataque tem desvantagem se o alvo estiver dentro do alcance Muito Próximo de você ou dentro do alcance Corpo a Corpo de um de seus aliados. Você pode marcar um Fadiga para ignorar essa penalidade.",
         "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

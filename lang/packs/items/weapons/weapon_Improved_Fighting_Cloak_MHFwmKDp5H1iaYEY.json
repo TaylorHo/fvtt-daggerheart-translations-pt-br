@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Improved Fighting Cloak",
+  "name": "Capa de Combate Aprimorada",
   "type": "weapon",
   "_id": "MHFwmKDp5H1iaYEY",
   "img": "icons/commodities/cloth/cloth-worn-leaf-green.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Padded",
-      "description": "<p>@Resolve[@item.tier + 1|sign]{+2} to damage thresholds.</p>",
+      "name": "Acolchoada",
+      "description": "<p>@Resolve[@item.tier + 1|sign]{+2} nos limiares de dano.</p>",
       "img": "icons/commodities/cloth/cloth-patterned-teal.webp",
       "system": {
         "changes": [

@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Fighting Cloak",
+  "name": "Capa de Combate",
   "type": "weapon",
   "_id": "A3kISypsGh9MNndo",
   "img": "icons/commodities/cloth/cloth-bolt-purple.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "Ze7hZdUWwqrb14Cv",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d4",
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "padded": {
         "value": "padded",
-        "effectIds": [
-          "CxilXxOVfmo18wTL"
-        ],
+        "effectIds": ["CxilXxOVfmo18wTL"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Padded",
-      "description": "@Resolve[@item.tier + 1|sign]{+2} to damage thresholds.",
+      "name": "Acolchoada",
+      "description": "@Resolve[@item.tier + 1|sign]{+2} nos limiares de dano.",
       "img": "icons/commodities/cloth/cloth-patterned-teal.webp",
       "system": {
         "changes": [

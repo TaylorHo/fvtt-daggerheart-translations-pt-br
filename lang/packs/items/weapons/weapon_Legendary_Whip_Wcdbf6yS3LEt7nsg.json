@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Whip",
+  "name": "Chicote Lendário",
   "type": "weapon",
   "_id": "Wcdbf6yS3LEt7nsg",
   "img": "icons/weapons/misc/whip-red-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,

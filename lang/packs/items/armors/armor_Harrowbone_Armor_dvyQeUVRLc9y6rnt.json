@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Harrowbone Armor",
+  "name": "Armadura de Ossos Ancestrais",
   "type": "armor",
   "_id": "dvyQeUVRLc9y6rnt",
   "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
@@ -29,9 +29,7 @@
       "resilient": {
         "value": "resilient",
         "effectIds": [],
-        "actionIds": [
-          "IzM88FIxQ35P5VB2"
-        ],
+        "actionIds": ["IzM88FIxQ35P5VB2"],
         "config": {}
       }
     }

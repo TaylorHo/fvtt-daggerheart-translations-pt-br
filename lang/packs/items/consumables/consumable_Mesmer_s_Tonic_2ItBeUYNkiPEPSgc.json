@@ -1,9 +1,9 @@
 {
-  "name": "Mesmer's Tonic",
+  "name": "Tônico do Mesmerista",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
   "system": {
-    "description": "<p>When you drink this tonic, the only thing you can hear until your next rest are the surface thoughts of creatures within Very Close range.</p>",
+    "description": "<p>Quando você bebe este tônico, a única coisa que consegue ouvir até seu próximo descanso são os pensamentos superficiais das criaturas dentro do alcance Muito Próximo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "2ItBeUYNkiPEPSgc",
   "effects": [
     {
-      "name": "Mesmer's Tonic",
+      "name": "Tônico do Mesmerista",
       "disabled": false,
       "img": "icons/consumables/potions/bottle-conical-bubbling-blue.webp",
-      "description": "<p>When you drink this tonic, the only thing you can hear until your next rest are the surface thoughts of creatures within Very Close range.</p>",
+      "description": "<p>Quando você bebe este tônico, a única coisa que consegue ouvir até seu próximo descanso são os pensamentos superficiais das criaturas dentro do alcance Muito Próximo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

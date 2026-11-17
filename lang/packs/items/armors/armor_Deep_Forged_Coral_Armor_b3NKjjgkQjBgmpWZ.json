@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Deep-Forged Coral Armor",
+  "name": "Armadura de Coral Forjado nas Profundezas",
   "type": "armor",
   "_id": "b3NKjjgkQjBgmpWZ",
   "img": "icons/equipment/chest/breastplate-sculpted-blue.webp",
@@ -29,9 +29,7 @@
     "itemFeatures": {
       "aquatic": {
         "value": "aquatic",
-        "effectIds": [
-          "3lzAYwHLDaq0HiMs"
-        ],
+        "effectIds": ["3lzAYwHLDaq0HiMs"],
         "actionIds": [],
         "config": {}
       }
@@ -39,8 +37,8 @@
   },
   "effects": [
     {
-      "name": "Aquatic",
-      "description": "You can breathe underwater and gain advantage on Agility Rolls while submerged.",
+      "name": "Aquática",
+      "description": "Você pode respirar debaixo d'água e ganha vantagem em Testes de Agilidade enquanto estiver submerso.",
       "img": "icons/magic/water/orb-water-bubbles-blue.webp",
       "system": {
         "changes": [

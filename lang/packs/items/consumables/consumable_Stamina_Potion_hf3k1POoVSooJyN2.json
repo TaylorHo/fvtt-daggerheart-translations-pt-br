@@ -1,10 +1,10 @@
 {
-  "name": "Stamina Potion",
+  "name": "Poção de Vigor",
   "type": "consumable",
   "_id": "hf3k1POoVSooJyN2",
   "img": "icons/consumables/potions/bottle-corked-green.webp",
   "system": {
-    "description": "<p>Clear 1d4+1 Stress.</p>",
+    "description": "<p>Limpe 1d4+1 Fadiga.</p>",
     "quantity": 1,
     "actions": {
       "BnYXCo5zr50Sw8gj": {
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-corked-green.webp",
         "range": "",
         "baseAction": false,

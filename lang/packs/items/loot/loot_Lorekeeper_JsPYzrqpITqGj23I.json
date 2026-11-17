@@ -1,10 +1,10 @@
 {
-  "name": "Lorekeeper",
+  "name": "Arquivo Infausto",
   "type": "loot",
   "_id": "JsPYzrqpITqGj23I",
   "img": "icons/sundries/books/book-backed-wood-tan.webp",
   "system": {
-    "description": "<p>You can store the name and details of up to three hostile creatures inside this book. You gain a +1 bonus to action rolls against those creatures.</p>",
+    "description": "<p>Você pode guardar neste livro o nome e os detalhes de até três criaturas hostis. Você ganha um bônus de +1 nos testes de ação contra essas criaturas.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

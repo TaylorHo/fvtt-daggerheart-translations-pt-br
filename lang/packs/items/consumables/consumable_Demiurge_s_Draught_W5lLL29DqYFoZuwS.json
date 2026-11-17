@@ -1,5 +1,5 @@
 {
-  "name": "Demiurge's Draught",
+  "name": "Trago do Demiurgo",
   "type": "consumable",
   "_id": "W5lLL29DqYFoZuwS",
   "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp",
@@ -9,7 +9,7 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>You can drink this draught to gain a +1 bonus to your Proficiency for your next successful attack roll.</p>",
+    "description": "<p>Você pode beber este trago para ganhar um bônus de +1 em sua Proficiência no seu próximo teste de ataque bem-sucedido.</p>",
     "gmNotes": "",
     "quantity": 1,
     "actions": {
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     },
@@ -60,10 +60,10 @@
   },
   "effects": [
     {
-      "name": "Demiurge's Draught",
+      "name": "Trago do Demiurgo",
       "disabled": false,
       "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp",
-      "description": "<p>You can drink this draught to gain a +1 bonus to your Proficiency for your next successful attack roll.</p>",
+      "description": "<p>Você pode beber este trago para ganhar um bônus de +1 em sua Proficiência no seu próximo teste de ataque bem-sucedido.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

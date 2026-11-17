@@ -1,9 +1,9 @@
 {
-  "name": "Gadiman's Backpack",
+  "name": "Mochila de Gadiman",
   "type": "loot",
   "img": "icons/containers/bags/pack-leather-black-brown.webp",
   "system": {
-    "description": "<p>Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel.</p>",
+    "description": "<p>Uma vez por descanso, você pode gastar uma Esperança para conjurar um item comum de até um pé cúbico de tamanho dentro desta bolsa.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     }

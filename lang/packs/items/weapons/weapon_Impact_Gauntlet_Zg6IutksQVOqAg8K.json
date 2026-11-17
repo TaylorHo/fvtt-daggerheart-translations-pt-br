@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Impact Gauntlet",
+  "name": "Manopla de Impacto",
   "type": "weapon",
   "_id": "Zg6IutksQVOqAg8K",
   "img": "icons/equipment/hand/gauntlet-armored-red-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Tower Shield",
+  "name": "Escudo de Torre",
   "type": "weapon",
   "_id": "C9aWpK1shVMWP4m5",
   "img": "icons/equipment/shield/oval-wooden-boss-bronze.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "h3g8PT67I6xr3xsW",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "8r0TcKWXboFV0eqS",
       "type": "base",
@@ -167,8 +167,8 @@
       "_key": "!items.effects!C9aWpK1shVMWP4m5.8r0TcKWXboFV0eqS"
     },
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "tLRc4UAnGuIq7er3",
       "type": "base",

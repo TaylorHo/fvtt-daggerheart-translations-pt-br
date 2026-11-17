@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Grappler",
+  "name": "Arpéu",
   "type": "weapon",
   "_id": "iEzPscUc18GuFoB6",
   "img": "icons/weapons/sickles/sickle-hooked-wood.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "i9jZXe5K5nIc58AG",
       "baseAction": true,

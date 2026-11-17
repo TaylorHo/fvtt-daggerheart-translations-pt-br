@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Staff of Augma",
+  "name": "Cajado de Augma",
   "type": "weapon",
   "_id": "tGWGWeNeEhnjTzif",
   "img": "icons/weapons/staves/staff-ornate-blue-jewel.webp",
@@ -19,8 +19,8 @@
       "fdXtuFA7Sy6r2GOw": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Catalytic",
-        "description": "On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll.",
+        "name": "Catalítica",
+        "description": "Em um ataque bem-sucedido, você pode marcar um Fadiga para dar a um aliado dentro do alcance Próximo um bônus de +3 em seu próximo teste de ataque.",
         "img": "icons/magic/control/sihouette-hold-beam-green.webp",
         "effects": [
           {
@@ -55,7 +55,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -160,8 +160,8 @@
   },
   "effects": [
     {
-      "name": "Catalytic",
-      "description": "You have a +3 bonus to your next attack roll.",
+      "name": "Catalítica",
+      "description": "Você tem um bônus de +3 em seu próximo teste de ataque.",
       "img": "icons/magic/control/sihouette-hold-beam-green.webp",
       "system": {
         "changes": [

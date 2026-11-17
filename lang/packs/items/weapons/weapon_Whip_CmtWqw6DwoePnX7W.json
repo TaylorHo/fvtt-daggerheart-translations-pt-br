@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Whip",
+  "name": "Chicote",
   "type": "weapon",
   "_id": "CmtWqw6DwoePnX7W",
   "img": "icons/weapons/misc/whip-red-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "AVjlF2Mv5AMDflgy",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "startling": {
         "value": "startling",
         "effectIds": [],
-        "actionIds": [
-          "N0CCc4o6N1HseQTn"
-        ],
+        "actionIds": ["N0CCc4o6N1HseQTn"],
         "config": {}
       }
     }

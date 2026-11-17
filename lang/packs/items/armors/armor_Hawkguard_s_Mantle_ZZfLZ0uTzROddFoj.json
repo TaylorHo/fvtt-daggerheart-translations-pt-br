@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Hawkguard's Mantle",
+  "name": "Manto do Guarda-Falcão",
   "type": "armor",
   "_id": "ZZfLZ0uTzROddFoj",
   "img": "icons/equipment/chest/breastplate-layered-gold.webp",
@@ -19,8 +19,8 @@
       "DlCbxmVa5udw4wLA": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Gliding",
-        "description": "You can glide up to Far range and are immune to damage from falling.",
+        "name": "Planadora",
+        "description": "Você pode planar até o alcance Distante e é imune a dano por queda.",
         "img": "icons/skills/movement/arrow-upward-yellow.webp",
         "_id": "DlCbxmVa5udw4wLA",
         "effects": [],
@@ -59,9 +59,7 @@
       "gliding": {
         "value": "gliding",
         "effectIds": [],
-        "actionIds": [
-          "DlCbxmVa5udw4wLA"
-        ],
+        "actionIds": ["DlCbxmVa5udw4wLA"],
         "config": {}
       }
     }

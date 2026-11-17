@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Arc Wand",
+  "name": "Varinha de Arco Voltaico",
   "type": "weapon",
   "_id": "m90xP486Xvp9EFZN",
   "img": "icons/weapons/wands/wand-carved-fire.webp",
@@ -19,8 +19,8 @@
       "WbMKifYfcRQpDiP8": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Bounce",
-        "description": "Mark 1 or more Stress to hit that many targets in range of the attack.",
+        "name": "Ricochete",
+        "description": "Marque 1 ou mais Fadiga para atingir essa quantidade de alvos dentro do alcance do ataque.",
         "img": "icons/skills/movement/ball-spinning-blue.webp",
         "cost": [
           {
@@ -59,7 +59,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -88,9 +88,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -153,9 +151,7 @@
       "bouncing": {
         "value": "bouncing",
         "effectIds": [],
-        "actionIds": [
-          "WbMKifYfcRQpDiP8"
-        ],
+        "actionIds": ["WbMKifYfcRQpDiP8"],
         "config": {}
       }
     }

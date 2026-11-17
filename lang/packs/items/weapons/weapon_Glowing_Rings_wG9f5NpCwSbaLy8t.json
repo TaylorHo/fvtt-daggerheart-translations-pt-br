@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Glowing Rings",
+  "name": "Anéis Brilhantes",
   "type": "weapon",
   "_id": "wG9f5NpCwSbaLy8t",
   "img": "icons/equipment/finger/ring-band-studded.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,

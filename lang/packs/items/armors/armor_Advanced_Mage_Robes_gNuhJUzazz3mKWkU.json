@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Mage Robes",
+  "name": "Vestes de Mago Avançadas",
   "type": "armor",
   "_id": "gNuhJUzazz3mKWkU",
   "img": "icons/equipment/chest/robe-layered-red.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "enchanted": {
         "value": "enchanted",
-        "effectIds": [
-          "FdkTFA6u4HAKrwa2"
-        ],
+        "effectIds": ["FdkTFA6u4HAKrwa2"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Enchanted",
-      "description": "Gain a bonus to your damage thresholds equal to your Spellcast trait.",
+      "name": "Encantada",
+      "description": "Receba um bônus nos seus limiares de dano igual à sua característica de Conjuração.",
       "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
       "system": {
         "changes": [

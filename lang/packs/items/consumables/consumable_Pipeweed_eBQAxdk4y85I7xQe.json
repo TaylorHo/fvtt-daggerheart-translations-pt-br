@@ -1,9 +1,9 @@
 {
-  "name": "Pipeweed",
+  "name": "Erva-de-cachimbo",
   "type": "consumable",
   "img": "icons/consumables/plants/leaf-dried-eaten-green.webp",
   "system": {
-    "description": "<p>When you choose the Clear Stress downtime move during a short rest, you can smoke this non-intoxicating leaf to clear an additional Stress. Any other PCs who chose the Clear Stress downtime move also gain this benefit.</p>",
+    "description": "<p>Quando você escolhe a ação de intervalo Limpar Fadiga durante um descanso curto, pode fumar esta folha não intoxicante para limpar um Fadiga adicional. Quaisquer outros PJs que tenham escolhido a ação de intervalo Limpar Fadiga também recebem esse benefício.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -85,7 +85,7 @@
           },
           "useDefault": false
         },
-        "name": "Smoke",
+        "name": "Fumar",
         "range": ""
       }
     }

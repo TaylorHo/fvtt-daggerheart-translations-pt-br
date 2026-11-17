@@ -1,9 +1,9 @@
 {
-  "name": "Whisperstep Anklet",
+  "name": "Tornozeleira Passo Sussurrante",
   "type": "loot",
   "img": "icons/equipment/finger/ring-cabochon-spiral-gold-green.webp",
   "system": {
-    "description": "<p>This anklet makes your steps silent as long as you don't move faster than walking speed.</p>",
+    "description": "<p>Esta tornozeleira torna seus passos silenciosos enquanto você não se mover mais rápido que uma caminhada.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

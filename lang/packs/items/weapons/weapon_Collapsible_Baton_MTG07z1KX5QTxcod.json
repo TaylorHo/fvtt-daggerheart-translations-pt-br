@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Collapsible Baton",
+  "name": "Bastão Retrátil",
   "type": "weapon",
   "_id": "MTG07z1KX5QTxcod",
   "img": "icons/weapons/maces/mace-round-steel.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,
@@ -50,9 +50,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",

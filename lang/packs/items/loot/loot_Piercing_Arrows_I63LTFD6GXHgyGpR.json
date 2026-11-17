@@ -1,10 +1,10 @@
 {
-  "name": "Piercing Arrows",
+  "name": "Flechas Perfurantes",
   "type": "loot",
   "_id": "I63LTFD6GXHgyGpR",
   "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
   "system": {
-    "description": "<p>Three times per rest when you succeed on an attack with one of these arrows, you can add your Proficiency to the damage roll.</p>",
+    "description": "<p>Três vezes por descanso, quando você é bem-sucedido em um ataque com uma destas flechas, pode adicionar sua Proficiência à rolagem de dano.</p>",
     "quantity": 1,
     "actions": {
       "DW5AqEM0F8XaUqpn": {
@@ -26,7 +26,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
         "range": "",
         "baseAction": false,
@@ -46,7 +46,7 @@
   },
   "effects": [
     {
-      "name": "Piercing Arrows",
+      "name": "Flechas Perfurantes",
       "type": "base",
       "_id": "lRfqfbwlfxzPbE6U",
       "img": "icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
@@ -75,7 +75,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Add your Proficiency to the damage roll of this attack.</p>",
+      "description": "<p>Adicione sua Proficiência à rolagem de dano deste ataque.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

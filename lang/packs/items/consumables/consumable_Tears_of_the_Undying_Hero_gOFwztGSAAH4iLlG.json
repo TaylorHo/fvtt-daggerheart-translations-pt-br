@@ -1,9 +1,9 @@
 {
-  "name": "Tears of the Undying Hero",
+  "name": "Lágrimas do Herói Imortal",
   "type": "consumable",
   "img": "icons/consumables/potions/flask-corked-blue.webp",
   "system": {
-    "description": "<p>When you drink this potion, death can't touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the Tend to Wounds downtime move to clear your Hit Points.</p>",
+    "description": "<p>Quando você bebe esta poção, a morte não pode tocá-lo até seu próximo descanso longo. Quando você marcaria seu último Ponto de Vida, em vez de fazer um movimento mortal, você faz um último teste de ação antes de cair em um sono sem sonhos até que um aliado escolha a ação de intervalo Cuidar dos Ferimentos para limpar seus Pontos de Vida.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "gOFwztGSAAH4iLlG",
   "effects": [
     {
-      "name": "Undying",
+      "name": "Imortal",
       "disabled": false,
       "img": "icons/consumables/potions/flask-corked-blue.webp",
-      "description": "<p>When you drink this potion, death can't touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the Tend to Wounds downtime move to clear your Hit Points.</p>",
+      "description": "<p>Quando você bebe esta poção, a morte não pode tocá-lo até seu próximo descanso longo. Quando você marcaria seu último Ponto de Vida, em vez de fazer um movimento mortal, você faz um último teste de ação antes de cair em um sono sem sonhos até que um aliado escolha a ação de intervalo Cuidar dos Ferimentos para limpar seus Pontos de Vida.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

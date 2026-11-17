@@ -1,10 +1,10 @@
 {
-  "name": "Armor Stitcher",
+  "name": "Remendo de Armadura",
   "type": "consumable",
   "_id": "VlbsCjvvLNfTzNXb",
   "img": "icons/skills/trades/textiles-stitching-leather-brown.webp",
   "system": {
-    "description": "<p>You can use this stitcher to spend any number of Hope and clear that many Armor Slots.</p>",
+    "description": "<p>Você pode usar este remendo para gastar qualquer quantidade de Esperança e limpar essa mesma quantidade de Espaços de Armadura.</p>",
     "quantity": 1,
     "actions": {
       "abD6jRVvOJnKUQaE": {
@@ -87,7 +87,7 @@
           },
           "useDefault": false
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     },

@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Gambeson Armor",
+  "name": "Armadura de Gibão",
   "type": "armor",
   "_id": "yJFp1bfpecDcStVK",
   "img": "icons/equipment/chest/vest-leather-tattered-white.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "flexible": {
         "value": "flexible",
-        "effectIds": [
-          "v1FNEsypRF5W6vVc"
-        ],
+        "effectIds": ["v1FNEsypRF5W6vVc"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Flexible",
-      "description": "+1 to Evasion",
+      "name": "Flexível",
+      "description": "+1 na Evasão",
       "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
       "_id": "v1FNEsypRF5W6vVc",
       "type": "base",

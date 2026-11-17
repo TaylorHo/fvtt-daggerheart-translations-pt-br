@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Full Fortified Armor",
+  "name": "Armadura Totalmente Fortificada",
   "type": "armor",
   "_id": "7emTSt6nhZuTlvt5",
   "img": "icons/equipment/chest/breastplate-layered-steel.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "fortified": {
         "value": "fortified",
-        "effectIds": [
-          "QIefVb73cm9gYju8"
-        ],
+        "effectIds": ["QIefVb73cm9gYju8"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Fortified",
-      "description": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.",
+      "name": "Fortificação",
+      "description": "Quando você marca um Espaço de Armadura, reduz a gravidade de um ataque em dois limiares em vez de um.",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
       "_id": "QIefVb73cm9gYju8",
       "type": "base",

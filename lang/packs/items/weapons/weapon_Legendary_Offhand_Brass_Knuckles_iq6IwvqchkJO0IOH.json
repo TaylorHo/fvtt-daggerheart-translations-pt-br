@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Offhand Brass Knuckles",
+  "name": "Soqueira Secundária Lendária",
   "type": "weapon",
   "_id": "iq6IwvqchkJO0IOH",
   "img": "icons/weapons/fist/fist-knuckles-brass.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Paired",
-      "description": "Add this Secondary Weapon's tier + 1 to your primary weapon against targets within Melee range",
+      "name": "Par",
+      "description": "Adicione o patamar + 1 desta Arma Secundária à sua arma primária contra alvos dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
       "system": {
         "changes": [

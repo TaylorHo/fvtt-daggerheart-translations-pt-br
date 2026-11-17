@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Gilded Falchion",
+  "name": "Falcata Dourada",
   "type": "weapon",
   "_id": "VwcOgqnzjf9LBj2S",
   "img": "icons/weapons/swords/sword-guard-worn-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

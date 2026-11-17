@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Enchanted Shillelagh",
+  "name": "Shillelagh Encantado",
   "type": "weapon",
   "_id": "3D7dl8odrgR89rDE",
   "img": "icons/weapons/clubs/club-bone-blue.webp",
@@ -21,7 +21,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,
@@ -126,7 +126,7 @@
   },
   "effects": [
     {
-      "name": "Protective",
+      "name": "Protetora",
       "type": "base",
       "system": {
         "changes": [
@@ -168,7 +168,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score",
+      "description": "Adicione @Resolve[@item.itemFeatures.protective.config.value|sign]{o Patamar do item} à sua Pontuação de Armadura",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

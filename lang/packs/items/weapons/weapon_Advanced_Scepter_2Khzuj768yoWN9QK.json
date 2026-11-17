@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Scepter",
+  "name": "Cetro Avançado",
   "type": "weapon",
   "_id": "2Khzuj768yoWN9QK",
   "img": "icons/weapons/staves/staff-forest-hooked.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "8j3yjH0TiwwZsaBW",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -121,9 +119,7 @@
           "damage": {
             "dice": "d8",
             "bonus": 4,
-            "type": [
-              "magical"
-            ]
+            "type": ["magical"]
           }
         }
       }

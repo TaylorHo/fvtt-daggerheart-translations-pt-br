@@ -1,6 +1,6 @@
 {
   "folder": "mV306wqqkeIDd9EE",
-  "name": "Throwing Knives",
+  "name": "Facas de Arremesso",
   "type": "weapon",
   "_id": "0Hn5RQP1zXKCAxq9",
   "img": "icons/weapons/daggers/knife-green.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "Ze7hZdUWwqrb14Cv",
       "baseAction": true,

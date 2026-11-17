@@ -1,9 +1,9 @@
 {
-  "name": "Cacophonous Concoction",
+  "name": "Mistura Cacofônica",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
   "system": {
-    "description": "<p>When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical.</p>",
+    "description": "<p>Quando você bebe esta poção, tudo o que disser ou fizer na próxima hora se torna impossível de ser relatado por uma testemunha. Qualquer tentativa dela de comunicar o que viu, ouviu ou percebeu de outra forma sai confusa ou sem sentido.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,16 +60,16 @@
   "_id": "4CDCPkloeXY7kD5H",
   "effects": [
     {
-      "name": "Cacophonous",
+      "name": "Cacofônico",
       "disabled": false,
       "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
-      "description": "<p>When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical.</p>",
+      "description": "<p>Quando você bebe esta poção, tudo o que disser ou fizer na próxima hora se torna impossível de ser relatado por uma testemunha. Qualquer tentativa dela de comunicar o que viu, ouviu ou percebeu de outra forma sai confusa ou sem sentido.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
         "changes": [],
         "duration": {
-          "description": "<p>An hour</p>",
+          "description": "<p>Uma hora</p>",
           "type": "temporary"
         },
         "rangeDependence": null,

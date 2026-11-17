@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "War Pick",
+  "name": "Picareta de Guerra",
   "type": "weapon",
   "_id": "XQR4yGeYBtdu5sQz",
   "img": "icons/weapons/hammers/hammer-war-spiked.webp",
@@ -19,8 +19,8 @@
       "cLnI9hFkRUgW3VlN": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Deadly",
-        "description": "When you deal Severe damage, the target must mark an additional HP.",
+        "name": "Mortal",
+        "description": "Quando você causa dano Severo, o alvo deve marcar um PV adicional.",
         "img": "icons/skills/melee/strike-sword-dagger-runes-red.webp",
         "_id": "cLnI9hFkRUgW3VlN",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

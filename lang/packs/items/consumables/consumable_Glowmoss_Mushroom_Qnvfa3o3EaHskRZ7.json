@@ -1,9 +1,9 @@
 {
-  "name": "Glowmoss Mushroom",
+  "name": "Cogumelo Musgobrilho",
   "type": "consumable",
   "img": "icons/consumables/mushrooms/umbontae-green.webp",
   "system": {
-    "description": "<p>You can break this mushroom into pieces, causing it to glow bright blue until your next long rest.</p>",
+    "description": "<p>Você pode partir este cogumelo em pedaços, fazendo-o brilhar em azul intenso até seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

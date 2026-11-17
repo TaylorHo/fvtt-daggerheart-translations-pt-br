@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Spidersilk Tunic",
+  "name": "Túnica de Seda de Aranha",
   "type": "armor",
   "_id": "IuzkxBqeAqomNfxZ",
   "img": "icons/creatures/webs/webthin-blue.webp",
@@ -29,9 +29,7 @@
     "itemFeatures": {
       "wallCrawling": {
         "value": "wallCrawling",
-        "effectIds": [
-          "a1I284B2QCnVEs7e"
-        ],
+        "effectIds": ["a1I284B2QCnVEs7e"],
         "actionIds": [],
         "config": {}
       }
@@ -39,8 +37,8 @@
   },
   "effects": [
     {
-      "name": "Wall-Crawling",
-      "description": "+1 Evasion; you can walk on walls as easily as on the ground.",
+      "name": "Escalada em Paredes",
+      "description": "+1 na Evasão; você pode andar pelas paredes tão facilmente quanto pelo chão.",
       "img": "icons/skills/movement/arrow-upward-blue.webp",
       "system": {
         "changes": [

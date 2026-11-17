@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Mage Robes",
+  "name": "Vestes de Mago",
   "type": "armor",
   "_id": "rWDk8ovwnBrBwWRR",
   "img": "icons/equipment/chest/robe-layered-white.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "enchanted": {
         "value": "enchanted",
-        "effectIds": [
-          "wYHVkzegSmeXOsmn"
-        ],
+        "effectIds": ["wYHVkzegSmeXOsmn"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Enchanted",
-      "description": "Gain a bonus to your damage thresholds equal to your Spellcast trait.",
+      "name": "Encantada",
+      "description": "Receba um bônus nos seus limiares de dano igual à sua característica de Conjuração.",
       "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
       "system": {
         "changes": [

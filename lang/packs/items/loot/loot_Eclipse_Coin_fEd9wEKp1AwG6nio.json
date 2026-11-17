@@ -1,9 +1,9 @@
 {
-  "name": "Eclipse Coin",
+  "name": "Moeda do Eclipse",
   "type": "loot",
   "img": "icons/commodities/currency/coin-engraved-waves-copper.webp",
   "system": {
-    "description": "<p>Once per rest, [[/r 1d2]]{flip a coin.} On heads, you gain a +1 bonus to attack rolls until your next successful attack. On tails, you gain +1 to your Evasion until an attack fails against you.</p>",
+    "description": "<p>Uma vez por descanso, [[/r 1d2]]{lance uma moeda.} Em cara, você ganha um bônus de +1 nos testes de ataque até seu próximo ataque bem-sucedido. Em coroa, você ganha +1 na Evasão até que um ataque falhe contra você.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -42,7 +42,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Heads",
+        "name": "Cara",
         "range": "self",
         "img": "icons/commodities/currency/coin-embossed-crown-gold.webp"
       },
@@ -76,7 +76,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Tails",
+        "name": "Coroa",
         "img": "icons/commodities/currency/coin-engraved-tail-gold.webp",
         "range": "self"
       }
@@ -85,10 +85,10 @@
   "_id": "fEd9wEKp1AwG6nio",
   "effects": [
     {
-      "name": "Heads",
+      "name": "Cara",
       "disabled": false,
       "img": "icons/commodities/currency/coin-embossed-crown-gold.webp",
-      "description": "<p>+1 bonus to attack rolls until your next successful attack.</p>",
+      "description": "<p>Bônus de +1 nos testes de ataque até seu próximo ataque bem-sucedido.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -111,9 +111,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]
@@ -145,10 +143,10 @@
       "_key": "!items.effects!fEd9wEKp1AwG6nio.1thJk2e2snAmyvq3"
     },
     {
-      "name": "Tails",
+      "name": "Coroa",
       "disabled": false,
       "img": "icons/commodities/currency/coin-engraved-tail-gold.webp",
-      "description": "<p>+1 to your Evasion until an attack fails against you.</p>",
+      "description": "<p>+1 na Evasão até que um ataque falhe contra você.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

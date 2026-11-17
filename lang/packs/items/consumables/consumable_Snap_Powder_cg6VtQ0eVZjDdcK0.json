@@ -1,10 +1,10 @@
 {
-  "name": "Snap Powder",
+  "name": "Pó do Estalo",
   "type": "consumable",
   "_id": "cg6VtQ0eVZjDdcK0",
   "img": "icons/commodities/materials/bowl-powder-gold.webp",
   "system": {
-    "description": "<p>Mark a Stress and clear a HP.</p>",
+    "description": "<p>Marque um Fadiga e limpe um PV.</p>",
     "quantity": 1,
     "actions": {
       "FVn1NAbzHHyX2lsM": {
@@ -81,7 +81,7 @@
           },
           "useDefault": false
         },
-        "name": "Imbibe",
+        "name": "Sorver",
         "img": "icons/commodities/materials/bowl-powder-gold.webp",
         "range": "",
         "baseAction": false,

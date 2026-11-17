@@ -1,10 +1,10 @@
 {
-  "name": "Valorstone",
+  "name": "Pedra da Resiliência",
   "type": "loot",
   "_id": "7yywua9TmQ4WP5WH",
   "img": "icons/commodities/treasure/token-engraved-spiral-grey-white.webp",
   "system": {
-    "description": "<p>You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature.</p><p><strong>Resilient</strong>: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.</p>",
+    "description": "<p>Você pode fixar esta pedra em uma armadura que ainda não tenha uma característica. A armadura ganha a seguinte característica.</p><p><strong>Resiliente</strong>: Antes de marcar seu último Espaço de Armadura, role um d6. Em um resultado 6, reduza a gravidade em um limiar sem marcar um Espaço de Armadura.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

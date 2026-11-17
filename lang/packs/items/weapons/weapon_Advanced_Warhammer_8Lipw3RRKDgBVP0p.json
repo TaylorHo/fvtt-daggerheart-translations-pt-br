@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Warhammer",
+  "name": "Martelo de Guerra Avançado",
   "type": "weapon",
   "_id": "8Lipw3RRKDgBVP0p",
   "img": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "heavy": {
         "value": "heavy",
-        "effectIds": [
-          "S6jedo3xSQhFBQH0"
-        ],
+        "effectIds": ["S6jedo3xSQhFBQH0"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Heavy",
-      "description": "-1 to Evasion",
+      "name": "Pesada",
+      "description": "-1 na Evasão",
       "img": "icons/commodities/metal/ingot-worn-iron.webp",
       "_id": "S6jedo3xSQhFBQH0",
       "type": "base",

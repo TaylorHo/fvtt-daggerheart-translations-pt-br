@@ -1,9 +1,9 @@
 {
-  "name": "Ciscan Fog Bottle",
+  "name": "Garrafa de Névoa Ciscana",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-corked-empty.webp",
   "system": {
-    "description": "<p>You can break this jar to fill the area within Close range with magical mist. A creature who enters the mist clears a Stress and becomes Hidden.</p>",
+    "description": "<p>Você pode quebrar este jarro para preencher a área dentro do alcance Próximo com névoa mágica. Uma criatura que entra na névoa limpa um Fadiga e fica Escondida.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -27,7 +27,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Ciscan Fog Bottle",
+            "name": "Garrafa de Névoa Ciscana",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -56,7 +56,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Break",
+        "name": "Quebrar",
         "range": ""
       }
     }

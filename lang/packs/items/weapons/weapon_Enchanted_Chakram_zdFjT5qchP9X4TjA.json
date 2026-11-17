@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Enchanted Chakram",
+  "name": "Chakram Encantado",
   "type": "weapon",
   "_id": "zdFjT5qchP9X4TjA",
   "img": "icons/commodities/metal/fragments-steel-ring.webp",
@@ -18,8 +18,8 @@
       "oK1CHBxZLcmM37jR": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Ricochet",
-        "description": "When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.",
+        "name": "Ricochete",
+        "description": "Quando você faz um ataque, pode marcar um Fadiga para atingir outra criatura dentro do alcance Muito Próximo do primeiro alvo desse ataque.",
         "img": "icons/magic/light/beam-impact-deflect-teal.webp",
         "cost": [
           {
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

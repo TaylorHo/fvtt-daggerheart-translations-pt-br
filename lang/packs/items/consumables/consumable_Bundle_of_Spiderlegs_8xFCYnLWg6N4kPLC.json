@@ -1,9 +1,9 @@
 {
-  "name": "Bundle of Spiderlegs",
+  "name": "Feixe de Patas de Aranha",
   "type": "consumable",
   "img": "icons/containers/bags/coinpouch-simple-leather-brown.webp",
   "system": {
-    "description": "<p>You can eat these spiderlegs to walk on walls until your next rest.</p>",
+    "description": "<p>Você pode comer estas patas de aranha para andar pelas paredes até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Eat",
+        "name": "Comer",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "8xFCYnLWg6N4kPLC",
   "effects": [
     {
-      "name": "Spiderwalking",
+      "name": "Andar de Aranha",
       "disabled": false,
       "img": "icons/commodities/biological/stinger-insect-brown.webp",
-      "description": "<p>You can eat these spiderlegs to walk on walls until your next rest.</p>",
+      "description": "<p>Você pode comer estas patas de aranha para andar pelas paredes até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

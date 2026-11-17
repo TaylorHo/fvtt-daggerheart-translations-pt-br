@@ -1,10 +1,10 @@
 {
-  "name": "Woven Net",
+  "name": "Rede Trançada",
   "type": "loot",
   "_id": "ARuv48PWUGJGBC4n",
   "img": "icons/tools/fishing/net-tan.webp",
   "system": {
-    "description": "<p>You can make a Finesse Roll using this net to trap a small creature. A trapped target can break free with a successful Attack Roll (16).</p>",
+    "description": "<p>Você pode fazer um Teste de Acuidade usando esta rede para prender uma criatura pequena. Um alvo preso pode se libertar com um Teste de Ataque (16) bem-sucedido.</p>",
     "quantity": 1,
     "actions": {
       "yv0l43uUDB2gWFd1": {
@@ -55,7 +55,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Throw",
+        "name": "Arremessar",
         "img": "icons/tools/fishing/net-tan.webp",
         "range": "",
         "baseAction": false,
@@ -75,7 +75,7 @@
   },
   "effects": [
     {
-      "name": "Woven Net",
+      "name": "Rede Trançada",
       "img": "icons/tools/fishing/net-tan.webp",
       "transfer": false,
       "_id": "KjAianGutrQuJNs3",
@@ -111,7 +111,7 @@
       "_key": "!items.effects!ARuv48PWUGJGBC4n.KjAianGutrQuJNs3"
     },
     {
-      "name": "Woven Net",
+      "name": "Rede Trançada",
       "img": "icons/tools/fishing/net-tan.webp",
       "transfer": false,
       "_id": "nY2UFMPZdoSUr6Ps",
@@ -135,9 +135,7 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": [
-        "restrained"
-      ],
+      "statuses": ["restrained"],
       "sort": 0,
       "flags": {},
       "_stats": {

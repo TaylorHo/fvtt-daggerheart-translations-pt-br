@@ -1,10 +1,10 @@
 {
-  "name": "Health Potion",
+  "name": "Poção de Vida",
   "type": "consumable",
   "_id": "Aruc2NLutWuVIjP1",
   "img": "icons/consumables/potions/bottle-corked-red.webp",
   "system": {
-    "description": "<p>Clear 1d4+1 HP.</p>",
+    "description": "<p>Limpe 1d4+1 PV.</p>",
     "quantity": 1,
     "actions": {
       "O5MYyHpkiEz9uf6A": {
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-corked-red.webp",
         "range": "",
         "baseAction": false,

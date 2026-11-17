@@ -1,10 +1,10 @@
 {
-  "name": "Varik Leaves",
+  "name": "Folhas de Varik",
   "type": "consumable",
   "_id": "hvy5BkG3F6iOIXTx",
   "img": "icons/consumables/plants/leaf-serrated-pink.webp",
   "system": {
-    "description": "<p>You can eat these paired leaves to immediately gain 2 Hope.</p>",
+    "description": "<p>Você pode comer estas folhas pareadas para ganhar imediatamente 2 Esperança.</p>",
     "quantity": 1,
     "actions": {
       "9e4l2Yiy8uV26SQF": {
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Eat",
+        "name": "Comer",
         "img": "icons/consumables/plants/leaf-serrated-pink.webp",
         "range": "",
         "baseAction": false,

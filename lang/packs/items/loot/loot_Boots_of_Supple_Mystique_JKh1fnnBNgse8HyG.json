@@ -1,9 +1,9 @@
 {
-  "name": "Boots of Supple Mystique",
+  "name": "Botas da Mística Flexível",
   "type": "loot",
   "img": "icons/equipment/feet/shoes-rounded-pink.webp",
   "system": {
-    "description": "<p>While wearing these boots, you don't leave tracks or footprints.</p>",
+    "description": "<p>Enquanto usar estas botas, você não deixa rastros nem pegadas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

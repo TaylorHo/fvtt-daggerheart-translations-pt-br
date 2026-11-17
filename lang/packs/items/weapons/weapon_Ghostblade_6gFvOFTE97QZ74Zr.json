@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Ghostblade",
+  "name": "Lâmina Fantasma",
   "type": "weapon",
   "_id": "6gFvOFTE97QZ74Zr",
   "img": "icons/weapons/swords/greatsword-evil-green.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "8j3yjH0TiwwZsaBW",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Otherwordly",
-      "description": "On a successful attack, you can deal physical or magic damage.",
+      "name": "Sobrenatural",
+      "description": "Em um ataque bem-sucedido, você pode causar dano físico ou mágico.",
       "img": "icons/weapons/swords/sword-flanged-lightning.webp",
       "system": {
         "conditionals": [

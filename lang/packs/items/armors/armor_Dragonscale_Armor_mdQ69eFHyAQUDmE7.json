@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Dragonscale Armor",
+  "name": "Armadura de Escamas de Dragão",
   "type": "armor",
   "_id": "mdQ69eFHyAQUDmE7",
   "img": "icons/equipment/chest/breastplate-rivited-red.webp",
@@ -29,9 +29,7 @@
       "impenetrable": {
         "value": "impenetrable",
         "effectIds": [],
-        "actionIds": [
-          "J1MCpcfXByKaSSgx"
-        ],
+        "actionIds": ["J1MCpcfXByKaSSgx"],
         "config": {}
       }
     }

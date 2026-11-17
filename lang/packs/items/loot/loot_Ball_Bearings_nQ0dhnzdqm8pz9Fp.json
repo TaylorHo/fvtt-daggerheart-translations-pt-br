@@ -1,9 +1,9 @@
 {
-  "name": "Ball Bearings",
+  "name": "Rolamentos de Esferas",
   "type": "loot",
   "img": "icons/containers/bags/sack-cloth-heavy-brown.webp",
   "system": {
-    "description": "<p>This pouch contains perfectly smooth metal spheres.</p>",
+    "description": "<p>Esta bolsa contém esferas de metal perfeitamente lisas.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

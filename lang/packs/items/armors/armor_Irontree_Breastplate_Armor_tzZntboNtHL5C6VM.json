@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Irontree Breastplate Armor",
+  "name": "Peitoral de Árvore-de-Ferro",
   "type": "armor",
   "_id": "tzZntboNtHL5C6VM",
   "img": "icons/equipment/chest/breastplate-layered-leather-brown-silver.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "reinforced": {
         "value": "reinforced",
-        "effectIds": [
-          "P3aCN8PQgPXP4C9M"
-        ],
+        "effectIds": ["P3aCN8PQgPXP4C9M"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Reinforced",
-      "description": "<p>When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.</p>",
+      "name": "Reforços",
+      "description": "<p>Quando você marca seu último Espaço de Armadura, aumente seus limiares de dano em +2 até limpar pelo menos 1 Espaço de Armadura.</p>",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-green.webp",
       "_id": "P3aCN8PQgPXP4C9M",
       "type": "base",

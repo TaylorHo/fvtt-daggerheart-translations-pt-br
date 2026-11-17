@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Wand of Essek",
+  "name": "Varinha de Essek",
   "type": "weapon",
   "_id": "ZrRGNjGCgZTTfgDG",
   "img": "icons/weapons/wands/wand-gem-pink.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,

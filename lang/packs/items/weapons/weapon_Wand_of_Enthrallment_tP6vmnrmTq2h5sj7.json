@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Wand of Enthrallment",
+  "name": "Varinha do Fascínio",
   "type": "weapon",
   "_id": "tP6vmnrmTq2h5sj7",
   "img": "icons/weapons/wands/wand-skull-feathers.webp",
@@ -10,8 +10,8 @@
       "weRZBt9v1kjNh6wI": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Persuade",
-        "description": "Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.",
+        "name": "Persuadir",
+        "description": "Antes de fazer um Teste de Presença, você pode marcar um Fadiga para ganhar um bônus de +2 no resultado.",
         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
         "target": {
           "type": "self",
@@ -55,7 +55,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,
@@ -168,8 +168,8 @@
   },
   "effects": [
     {
-      "name": "Persuasive",
-      "description": "Gain a +2 bonus to the Presence roll",
+      "name": "Convincente",
+      "description": "Receba um bônus de +2 no Teste de Presença",
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "system": {
         "conditionals": [

@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Shortstaff",
+  "name": "Cajado Curto Aprimorado",
   "type": "weapon",
   "_id": "Mn8ja5Oi1sXvvPSk",
   "img": "icons/weapons/staves/staff-ornate.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

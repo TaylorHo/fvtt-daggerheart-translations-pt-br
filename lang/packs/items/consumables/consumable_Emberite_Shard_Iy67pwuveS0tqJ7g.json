@@ -1,5 +1,5 @@
 {
-  "name": "Emberite Shard",
+  "name": "Fragmento de Brasita",
   "type": "consumable",
   "_id": "Iy67pwuveS0tqJ7g",
   "img": "icons/commodities/gems/gem-rough-cushion-red-white.webp",
@@ -9,7 +9,7 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and become temporarily Ablaze. While Ablaze, a creature must roll a d4 whenever they make an action roll. On a result of 1, they mark a Hit Point. On a result of 4, they clear the Ablaze condition.</p>",
+    "description": "<p>Escolha um ponto dentro do alcance Distante. Todos os alvos dentro do alcance Próximo desse ponto devem ser bem-sucedidos em um Teste de Reação (16) ou sofrer 3d6 de dano mágico e ficar temporariamente Em Chamas. Enquanto Em Chamas, uma criatura deve rolar um d4 sempre que fizer um teste de ação. Em um resultado 1, ela marca um Ponto de Vida. Em um resultado 4, ela remove a condição Em Chamas.</p>",
     "gmNotes": "",
     "quantity": 1,
     "actions": {
@@ -34,9 +34,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "magical"
-            ],
+            "type": ["magical"],
             "itemId": null
           },
           "resources": {}
@@ -53,7 +51,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Emberite Shard",
+            "name": "Fragmento de Brasita",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -107,7 +105,7 @@
           "difficulty": 16,
           "damageMod": "none"
         },
-        "name": "Use",
+        "name": "Usar",
         "range": "far"
       }
     },
@@ -115,10 +113,10 @@
   },
   "effects": [
     {
-      "name": "Ablaze",
+      "name": "Em Chamas",
       "disabled": false,
       "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
-      "description": "<p>While Ablaze, a creature must roll a d4 whenever they make an action roll. On a result of 1, they mark a Hit Point. On a result of 4, they clear the Ablaze condition.</p>",
+      "description": "<p>Enquanto Em Chamas, uma criatura deve rolar um d4 sempre que fizer um teste de ação. Em um resultado 1, ela marca um Ponto de Vida. Em um resultado 4, ela remove a condição Em Chamas.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

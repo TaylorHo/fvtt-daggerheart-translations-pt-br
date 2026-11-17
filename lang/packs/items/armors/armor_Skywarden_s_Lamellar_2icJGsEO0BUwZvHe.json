@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Skywarden's Lamellar",
+  "name": "Lamelar do Guardião do Céu",
   "type": "armor",
   "_id": "2icJGsEO0BUwZvHe",
   "img": "icons/equipment/chest/breastplate-purple.webp",
@@ -29,9 +29,7 @@
     "itemFeatures": {
       "vigilant": {
         "value": "vigilant",
-        "effectIds": [
-          "P1bG8YNaWOUkRbn7"
-        ],
+        "effectIds": ["P1bG8YNaWOUkRbn7"],
         "actionIds": [],
         "config": {}
       }
@@ -39,8 +37,8 @@
   },
   "effects": [
     {
-      "name": "Vigilant",
-      "description": "+2 to Evasion.",
+      "name": "Vigilante",
+      "description": "+2 na Evasão.",
       "img": "icons/magic/perception/eye-ringed-green.webp",
       "system": {
         "changes": [

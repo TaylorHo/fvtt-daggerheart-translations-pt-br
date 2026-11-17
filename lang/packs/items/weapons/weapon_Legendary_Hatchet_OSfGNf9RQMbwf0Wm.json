@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Hatchet",
+  "name": "Machadinha Lendária",
   "type": "weapon",
   "_id": "OSfGNf9RQMbwf0Wm",
   "img": "icons/weapons/axes/shortaxe-worn-black.webp",
@@ -18,8 +18,8 @@
       "sE7LyJkbAZMXTGH3": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Follow-Up",
-        "description": "On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack.",
+        "name": "Acompanhamento",
+        "description": "Em um ataque bem-sucedido com sua arma primária dentro do alcance Corpo a Corpo, você pode marcar um Fadiga para ganhar um bônus de +1 em sua Proficiência neste ataque.",
         "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
         "target": {
           "type": "self",
@@ -63,7 +63,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -168,8 +168,8 @@
   },
   "effects": [
     {
-      "name": "Follow-Up",
-      "description": "You have a +1 bonus to your Proficiency for this attack.",
+      "name": "Acompanhamento",
+      "description": "Você tem um bônus de +1 em sua Proficiência neste ataque.",
       "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "system": {
         "conditionals": [

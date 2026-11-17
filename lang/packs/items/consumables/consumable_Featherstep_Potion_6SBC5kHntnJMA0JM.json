@@ -1,9 +1,9 @@
 {
-  "name": "Featherstep Potion",
+  "name": "Poção de Passo de Pluma",
   "type": "consumable",
   "img": "icons/consumables/potions/potion-flask-corked-tied-necklace-teal.webp",
   "system": {
-    "description": "<p>You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest.</p>",
+    "description": "<p>Você pode beber esta poção para fazer brotar pequenas asas nos seus tornozelos que lhe dão um bônus na Evasão igual ao seu patamar até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "6SBC5kHntnJMA0JM",
   "effects": [
     {
-      "name": "New Effect",
+      "name": "Novo Efeito",
       "disabled": false,
       "img": "icons/consumables/potions/potion-flask-corked-tied-necklace-teal.webp",
-      "description": "<p>You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest.</p>",
+      "description": "<p>Você pode beber esta poção para fazer brotar pequenas asas nos seus tornozelos que lhe dão um bônus na Evasão igual ao seu patamar até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

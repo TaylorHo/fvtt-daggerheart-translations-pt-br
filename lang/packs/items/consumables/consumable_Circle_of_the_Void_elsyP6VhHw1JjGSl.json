@@ -1,10 +1,10 @@
 {
-  "name": "Circle of the Void",
+  "name": "Círculo do Vazio",
   "type": "consumable",
   "_id": "elsyP6VhHw1JjGSl",
   "img": "icons/magic/unholy/orb-glowing-purple.webp",
   "system": {
-    "description": "<p>Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage.</p>",
+    "description": "<p>Marque um Fadiga para criar um vazio que se estende até o alcance Distante. Nenhuma magia pode ser lançada dentro do vazio, e as criaturas dentro dele são imunes a dano mágico.</p>",
     "quantity": 1,
     "actions": {
       "ovR11FWCpXaFMPVx": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/magic/unholy/orb-glowing-purple.webp",
         "range": "",
         "baseAction": false,

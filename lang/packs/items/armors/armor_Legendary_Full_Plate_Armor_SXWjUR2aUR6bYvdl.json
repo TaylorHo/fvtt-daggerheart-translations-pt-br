@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Legendary Full Plate Armor",
+  "name": "Armadura de Placas Completa Lendária",
   "type": "armor",
   "_id": "SXWjUR2aUR6bYvdl",
   "img": "icons/equipment/chest/breastplate-layered-steel-blue-gold.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "veryheavy": {
         "value": "veryheavy",
-        "effectIds": [
-          "zvzkRX2Uevemmbz4"
-        ],
+        "effectIds": ["zvzkRX2Uevemmbz4"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Very Heavy",
-      "description": "-2 to Evasion; -1 to Agility",
+      "name": "Muito Pesada",
+      "description": "-2 na Evasão; -1 na Agilidade",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "_id": "zvzkRX2Uevemmbz4",
       "type": "base",

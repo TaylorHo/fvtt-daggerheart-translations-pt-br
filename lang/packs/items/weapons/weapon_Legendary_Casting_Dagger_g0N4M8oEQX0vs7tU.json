@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Legendary Casting Dagger",
+  "name": "Adaga de Conjuração Lendária",
   "type": "weapon",
   "_id": "g0N4M8oEQX0vs7tU",
   "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

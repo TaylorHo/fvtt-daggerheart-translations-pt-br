@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Hammer of Wrath",
+  "name": "Martelo da Ira",
   "type": "weapon",
   "_id": "1R4uzOpWD8bkYRUm",
   "img": "icons/weapons/hammers/hammer-double-studded.webp",
@@ -10,8 +10,8 @@
       "b9Nl6rOzaIoGUX5v": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Devastate",
-        "description": "Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.",
+        "name": "Devastar",
+        "description": "Antes de fazer um teste de ataque, você pode marcar um Fadiga para usar um d20 como seu dado de dano.",
         "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
         "cost": [
           {
@@ -50,7 +50,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,

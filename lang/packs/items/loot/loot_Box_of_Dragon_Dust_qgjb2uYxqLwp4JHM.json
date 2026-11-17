@@ -1,9 +1,9 @@
 {
-  "name": "Box of Dragon Dust",
+  "name": "Caixa de Pó de Dragão",
   "type": "loot",
   "img": "icons/containers/boxes/crate-tech-red.webp",
   "system": {
-    "description": "<p>This snuffbox is filled with combustible powder.</p>",
+    "description": "<p>Esta tabaqueira está cheia de pó combustível.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

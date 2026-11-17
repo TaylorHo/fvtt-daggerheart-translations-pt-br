@@ -1,10 +1,10 @@
 {
-  "name": "Ogre Musk",
+  "name": "Almíscar de Ogro",
   "type": "consumable",
   "_id": "qr1bosjFcUfuwq4B",
   "img": "icons/commodities/materials/slime-thick-green.webp",
   "system": {
-    "description": "<p>You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest.</p>",
+    "description": "<p>Você pode usar este almíscar para impedir que qualquer pessoa rastreie você por meios comuns ou mágicos até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "t0vgSnAuIcj7IevQ": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/materials/slime-thick-green.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Ogre Musk",
+      "name": "Almíscar de Ogro",
       "img": "icons/commodities/materials/slime-thick-green.webp",
       "transfer": false,
       "_id": "n73d0J4oMCBIPWHN",
@@ -84,7 +84,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You cannot be tracked by mundane or magical means until your next rest.</p>",
+      "description": "<p>Você não pode ser rastreado por meios comuns ou mágicos até seu próximo descanso.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

@@ -1,10 +1,10 @@
 {
-  "name": "Knowledge Stone",
+  "name": "Pedra do Conhecimento",
   "type": "consumable",
   "_id": "nL9IALzm9BNi5oSt",
   "img": "icons/commodities/treasure/token-engraved-blue-glowing.webp",
   "system": {
-    "description": "<p>If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault. After they take this knowledge, the stone crumbles.</p>",
+    "description": "<p>Se você morrer segurando esta pedra, um aliado pode pegar uma carta do seu carregamento para colocar no carregamento ou no cofre dele. Depois que ele tomar esse conhecimento, a pedra se desfaz.</p>",
     "quantity": 1,
     "actions": {
       "We38aIuxBrv8zhfr": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/treasure/token-engraved-blue-glowing.webp",
         "range": "",
         "baseAction": false,

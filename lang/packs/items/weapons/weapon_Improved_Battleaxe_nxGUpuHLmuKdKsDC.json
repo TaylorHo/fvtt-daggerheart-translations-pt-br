@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Battleaxe",
+  "name": "Machado de Batalha Aprimorado",
   "type": "weapon",
   "_id": "nxGUpuHLmuKdKsDC",
   "img": "icons/weapons/axes/axe-double-engraved-runes.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

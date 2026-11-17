@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Advanced Runelock Pistol",
+  "name": "Pistola de Fecho Rúnico Avançada",
   "type": "weapon",
   "_id": "EWYp0UcRA2g0hT8t",
   "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -27,8 +27,8 @@
       "a8XXgkfe64zMOY6R": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Reload",
-        "description": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+        "name": "Recarregável",
+        "description": "Depois de fazer um ataque, role um d6. Em um resultado 1, você deve marcar um Fadiga para recarregar esta arma antes de poder disparar novamente.",
         "img": "icons/weapons/ammunition/shot-round-blue.webp",
         "_id": "a8XXgkfe64zMOY6R",
         "effects": [],
@@ -58,7 +58,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,
@@ -87,9 +87,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "value": {
             "multiplier": "prof",
             "dice": "d6",
@@ -152,9 +150,7 @@
       "reloading": {
         "value": "reloading",
         "effectIds": [],
-        "actionIds": [
-          "a8XXgkfe64zMOY6R"
-        ],
+        "actionIds": ["a8XXgkfe64zMOY6R"],
         "config": {}
       }
     }

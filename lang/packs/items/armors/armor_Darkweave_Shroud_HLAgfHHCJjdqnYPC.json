@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Darkweave Shroud",
+  "name": "Mortalha de Trama Sombria",
   "type": "armor",
   "_id": "HLAgfHHCJjdqnYPC",
   "img": "icons/equipment/chest/breastplate-layered-leather-black.webp",
@@ -19,8 +19,8 @@
       "5Hq0OZmmnGykxe6H": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Ghostwalker",
-        "description": "Once per rest, mark a Stress to move up to Close range through solid objects.",
+        "name": "Caminhante Fantasma",
+        "description": "Uma vez por descanso, marque um Fadiga para se mover até o alcance Próximo através de objetos sólidos.",
         "img": "icons/magic/death/undead-ghost-scream-teal.webp",
         "uses": {
           "max": "1",
@@ -68,9 +68,7 @@
       "ghostwalker": {
         "value": "ghostwalker",
         "effectIds": [],
-        "actionIds": [
-          "5Hq0OZmmnGykxe6H"
-        ],
+        "actionIds": ["5Hq0OZmmnGykxe6H"],
         "config": {}
       }
     }

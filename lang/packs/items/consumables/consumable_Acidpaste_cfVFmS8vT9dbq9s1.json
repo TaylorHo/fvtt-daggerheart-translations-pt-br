@@ -1,10 +1,10 @@
 {
-  "name": "Acidpaste",
+  "name": "Pasta Ácida",
   "type": "consumable",
   "_id": "cfVFmS8vT9dbq9s1",
   "img": "icons/commodities/materials/bowl-powder-teal.webp",
   "system": {
-    "description": "<p>This paste eats away walls and other surfaces in bright flashes.</p>",
+    "description": "<p>Esta pasta corrói paredes e outras superfícies em clarões brilhantes.</p>",
     "quantity": 1,
     "actions": {
       "FQ2Ty0pP3z6JrBr6": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/commodities/materials/bowl-powder-teal.webp",
         "range": "",
         "baseAction": false,

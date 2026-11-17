@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Enchanter's Robes",
+  "name": "Vestes do Encantador",
   "type": "armor",
   "_id": "z8dQR56ZNXmRE0w9",
   "img": "icons/equipment/chest/robe-collared-blue.webp",
@@ -19,8 +19,8 @@
       "SqJwukvzZAPDgCJy": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Mnemonic",
-        "description": "Once per scene, you can recall a domain card from your vault without paying its Recall Cost.",
+        "name": "Mnemônica",
+        "description": "Uma vez por cena, você pode recuperar uma carta de domínio do seu cofre sem pagar seu Custo de Recuperação.",
         "img": "icons/magic/symbols/circle-ouroboros.webp",
         "uses": {
           "max": "1",
@@ -59,9 +59,7 @@
       "mnemonic": {
         "value": "mnemonic",
         "effectIds": [],
-        "actionIds": [
-          "SqJwukvzZAPDgCJy"
-        ],
+        "actionIds": ["SqJwukvzZAPDgCJy"],
         "config": {}
       }
     }

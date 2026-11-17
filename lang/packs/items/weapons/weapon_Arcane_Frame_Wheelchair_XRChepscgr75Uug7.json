@@ -1,6 +1,6 @@
 {
   "folder": "6nJ3reb1jx83CtRy",
-  "name": "Arcane-Frame Wheelchair",
+  "name": "Cadeira de Rodas de Estrutura Arcana",
   "type": "weapon",
   "_id": "XRChepscgr75Uug7",
   "img": "systems/daggerheart/assets/icons/documents/items/ArcaneWheelchair.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "fKTeCKjfyQauf5bA",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "reliable": {
         "value": "reliable",
-        "effectIds": [
-          "dXHsy9qr5FWZqsVq"
-        ],
+        "effectIds": ["dXHsy9qr5FWZqsVq"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Reliable",
-      "description": "+1 to attack rolls",
+      "name": "Confiável",
+      "description": "+1 nos testes de ataque",
       "img": "icons/skills/melee/strike-sword-slashing-red.webp",
       "_id": "dXHsy9qr5FWZqsVq",
       "type": "base",

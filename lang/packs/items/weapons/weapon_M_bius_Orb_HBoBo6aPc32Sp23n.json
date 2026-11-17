@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Möbius Orb",
+  "name": "Orbe de Möbius",
   "type": "weapon",
   "_id": "HBoBo6aPc32Sp23n",
   "img": "icons/commodities/treasure/gem-framed-spiral-purple.webp",
@@ -21,7 +21,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

@@ -1,9 +1,9 @@
 {
-  "name": "Snakeskin Spirit",
+  "name": "Aguardente de Pele de Serpente",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
   "system": {
-    "description": "<p>You can drink this potion to slough off your outer layer of skin and heal a scar.</p>",
+    "description": "<p>Você pode beber esta poção para descartar sua camada externa de pele e curar uma cicatriz.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }

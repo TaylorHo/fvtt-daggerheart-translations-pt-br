@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Legendary Tower Shield",
+  "name": "Escudo de Torre Lendário",
   "type": "weapon",
   "_id": "MaJIROht7A9LxIZx",
   "img": "icons/equipment/shield/kite-wooden-sigil-purple.webp",
@@ -12,7 +12,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "lBJMzxdGO2nJdTQS",
       "type": "base",
@@ -167,8 +167,8 @@
       "_key": "!items.effects!MaJIROht7A9LxIZx.lBJMzxdGO2nJdTQS"
     },
     {
-      "name": "Barrier",
-      "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+      "name": "Barreira",
+      "description": "Receba Patamar da Arma + 1 na Pontuação de Armadura; -1 na Evasão",
       "img": "icons/skills/melee/shield-block-bash-blue.webp",
       "_id": "1fgUIaXl6VQrhP7j",
       "type": "base",

@@ -1,9 +1,9 @@
 {
-  "name": "Crucible Frames",
+  "name": "Armações do Crisol",
   "type": "loot",
   "img": "icons/tools/scribal/spectacles-glasses.webp",
   "system": {
-    "description": "<p>These eyeglasses reveal weak points in objects and creatures. Three times per rest, you can spend a Hope to gain advantage on an attack roll.</p>",
+    "description": "<p>Estes óculos revelam pontos fracos em objetos e criaturas. Três vezes por descanso, você pode gastar uma Esperança para ganhar vantagem em um teste de ataque.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -46,7 +46,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Spend Hope",
+        "name": "Gastar Esperança",
         "range": ""
       }
     }

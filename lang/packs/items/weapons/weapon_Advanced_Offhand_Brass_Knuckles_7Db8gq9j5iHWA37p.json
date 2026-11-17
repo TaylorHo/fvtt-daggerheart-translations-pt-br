@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Offhand Brass Knuckles",
+  "name": "Soqueira Secundária Avançada",
   "type": "weapon",
   "_id": "7Db8gq9j5iHWA37p",
   "img": "icons/weapons/fist/fist-knuckles-spiked-grey.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -49,9 +49,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "paired": {
         "value": "paired",
-        "effectIds": [
-          "fwIRv0JhgzaawDwF"
-        ],
+        "effectIds": ["fwIRv0JhgzaawDwF"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Paired",
-      "description": "Add this Secondary Weapon's tier + 1 to your primary weapon against targets within Melee range",
+      "name": "Par",
+      "description": "Adicione o patamar + 1 desta Arma Secundária à sua arma primária contra alvos dentro do alcance Corpo a Corpo",
       "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
       "system": {
         "changes": [

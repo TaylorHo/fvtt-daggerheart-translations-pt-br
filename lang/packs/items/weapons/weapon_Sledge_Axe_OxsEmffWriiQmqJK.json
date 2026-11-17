@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Sledge Axe",
+  "name": "Machado-Marreta",
   "type": "weapon",
   "_id": "OxsEmffWriiQmqJK",
   "img": "icons/weapons/axes/axe-battle-heavy-jagged.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,
@@ -125,7 +125,7 @@
   },
   "effects": [
     {
-      "name": "Destructive",
+      "name": "Destruição",
       "description": "DAGGERHEART.CONFIG.WeaponFeature.destructive.effects.agility",
       "img": "icons/skills/melee/strike-flail-spiked-pink.webp",
       "_id": "dhhIibfRBwCGZ6Ab",

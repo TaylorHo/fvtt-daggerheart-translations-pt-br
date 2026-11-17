@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Soldier's Pike",
+  "name": "Pique do Soldado",
   "type": "weapon",
   "_id": "IneW8aOnetrUsM8r",
   "img": "icons/weapons/polearms/spear-hooked-spike.webp",
@@ -18,8 +18,8 @@
       "Y5HGiYOQ5Nd3W4zo": {
         "type": "damage",
         "chatDisplay": true,
-        "name": "Braced",
-        "description": "When an adversary within this weapon's range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point.",
+        "name": "Firme",
+        "description": "Quando um adversário dentro do alcance desta arma causar dano a você, você pode marcar 2 Fadiga para forçá-lo a marcar um Ponto de Vida.",
         "img": "icons/skills/melee/hand-grip-sword-red.webp",
         "cost": [
           {
@@ -81,7 +81,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

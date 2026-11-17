@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Shortbow",
+  "name": "Arco Curto Lendário",
   "type": "weapon",
   "_id": "j7kp36jaetfn5jb3",
   "img": "icons/weapons/bows/shortbow-recurve-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

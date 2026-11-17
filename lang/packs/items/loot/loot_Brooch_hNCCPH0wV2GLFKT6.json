@@ -1,9 +1,9 @@
 {
-  "name": "Brooch",
+  "name": "Broche",
   "type": "loot",
   "img": "icons/commodities/treasure/brooch-jewel-gold-blue.webp",
   "system": {
-    "description": "<p>On a successful weapon attack, you can knock your target back up to Close range from their location.</p>",
+    "description": "<p>Em um ataque com arma bem-sucedido, você pode empurrar seu alvo até o alcance Próximo de sua posição.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD",

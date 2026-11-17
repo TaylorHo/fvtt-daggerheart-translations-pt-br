@@ -1,10 +1,10 @@
 {
-  "name": "Homing Compasses",
+  "name": "Bússolas Harmônicas",
   "type": "loot",
   "_id": "yrAGYlDyoe4OYl7d",
   "img": "icons/tools/navigation/compass-worn-copper.webp",
   "system": {
-    "description": "<p>These two compasses point toward each other no matter how far apart they are.</p>",
+    "description": "<p>Estas duas bússolas apontam uma para a outra, não importa a distância que as separe.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

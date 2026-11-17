@@ -1,9 +1,9 @@
 {
-  "name": "Salamander Salve",
+  "name": "Unguento de Salamandra",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-blue.webp",
   "system": {
-    "description": "<p>You can apply this salve to your skin to make yourself immune to heat until your next rest.</p>",
+    "description": "<p>Você pode aplicar este unguento na pele para se tornar imune ao calor até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Apply",
+        "name": "Aplicar",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "eTQJhbNW5i6x79vI",
   "effects": [
     {
-      "name": "Salamaner Salve",
+      "name": "Unguento de Salamandra",
       "disabled": false,
       "img": "icons/commodities/materials/bowl-powder-blue.webp",
-      "description": "<p>You can apply this salve to your skin to make yourself immune to heat until your next rest.</p>",
+      "description": "<p>Você pode aplicar este unguento na pele para se tornar imune ao calor até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

@@ -1,9 +1,9 @@
 {
-  "name": "Phobophage's Circlet",
+  "name": "Diadema do Fobófago",
   "type": "loot",
   "img": "icons/commodities/treasure/crown-gold-laurel-wreath.webp",
   "system": {
-    "description": "<p>When the GM spends a Fear, roll a d4. Once per scene on a result of 4, you clear a Stress.</p>",
+    "description": "<p>Quando o Mestre gasta um Medo, role um d4. Uma vez por cena, em um resultado 4, você limpa um Fadiga.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -61,7 +61,7 @@
           "difficulty": null,
           "damageMod": "none"
         },
-        "name": "Roll d4",
+        "name": "Rolar d4",
         "range": ""
       }
     }

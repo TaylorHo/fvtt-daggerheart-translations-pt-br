@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Ego Blade",
+  "name": "Lâmina do Ego",
   "type": "weapon",
   "_id": "G7rH31KQ5eEZXcv0",
   "img": "icons/weapons/swords/sword-runed-glowing.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

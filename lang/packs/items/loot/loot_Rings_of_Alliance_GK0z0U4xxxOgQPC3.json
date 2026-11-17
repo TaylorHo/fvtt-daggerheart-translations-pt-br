@@ -1,9 +1,9 @@
 {
-  "name": "Rings of Alliance",
+  "name": "Anéis da Aliança",
   "type": "loot",
   "img": "icons/equipment/finger/ring-cabochon-silver-red.webp",
   "system": {
-    "description": "<p>Two creatures can wear this pair of rose gold rings. Once per session, you can initiate a Tag Team Roll with whoever is wearing the other ring without spending Hope or counting against your session limit for Tag Team Rolls.</p>",
+    "description": "<p>Duas criaturas podem usar este par de anéis de ouro rosado. Uma vez por sessão, você pode iniciar um Teste em Equipe com quem estiver usando o outro anel sem gastar Esperança nem contar para o seu limite de Testes em Equipe por sessão.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "range": ""
       }
     }

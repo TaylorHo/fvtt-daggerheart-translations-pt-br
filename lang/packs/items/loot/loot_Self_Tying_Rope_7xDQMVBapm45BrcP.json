@@ -1,9 +1,9 @@
 {
-  "name": "Self-Tying Rope",
+  "name": "Corda Autoatante",
   "type": "loot",
   "img": "icons/sundries/survival/rope-wrapped-purple.webp",
   "system": {
-    "description": "<p>You can command this rope to tie or untie itself.</p>",
+    "description": "<p>Você pode ordenar a esta corda que se amarre ou se desamarre sozinha.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

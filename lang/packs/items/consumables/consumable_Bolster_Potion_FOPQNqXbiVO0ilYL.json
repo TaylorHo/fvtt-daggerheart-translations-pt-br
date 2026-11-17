@@ -1,10 +1,10 @@
 {
-  "name": "Bolster Potion",
+  "name": "Poção do Impulso",
   "type": "consumable",
   "_id": "FOPQNqXbiVO0ilYL",
   "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your next Strength Roll.</p>",
+    "description": "<p>Você ganha um bônus de +1 no seu próximo Teste de Força.</p>",
     "quantity": 1,
     "actions": {
       "YqbQKTgblItoZOm8": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Bolster Potion",
+      "name": "Poção do Impulso",
       "img": "icons/consumables/potions/potion-vial-tube-yellow.webp",
       "transfer": false,
       "_id": "HVCJp9Tkhr1i4Oc1",

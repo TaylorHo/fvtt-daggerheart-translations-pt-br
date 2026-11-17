@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Rune-Forged Exosuit",
+  "name": "Exotraje Forjado em Runas",
   "type": "armor",
   "_id": "AHazopFnwVenDXqW",
   "img": "icons/equipment/chest/tech-red.webp",
@@ -29,9 +29,7 @@
     "itemFeatures": {
       "attuned": {
         "value": "attuned",
-        "effectIds": [
-          "VSuoGIo7GpK3JLfA"
-        ],
+        "effectIds": ["VSuoGIo7GpK3JLfA"],
         "actionIds": [],
         "config": {}
       }
@@ -39,8 +37,8 @@
   },
   "effects": [
     {
-      "name": "Attuned",
-      "description": "The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier.",
+      "name": "Sintonizada",
+      "description": "O número máximo de cartas de domínio no seu carregamento é reduzido em um, mas você ganha um bônus nos seus limiares de dano igual ao seu patamar.",
       "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
       "system": {
         "changes": [

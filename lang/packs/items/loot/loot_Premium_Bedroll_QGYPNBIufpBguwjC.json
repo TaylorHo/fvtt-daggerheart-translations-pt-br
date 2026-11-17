@@ -1,10 +1,10 @@
 {
-  "name": "Premium Bedroll",
+  "name": "Saco de Dormir de Qualidade",
   "type": "loot",
   "_id": "QGYPNBIufpBguwjC",
   "img": "icons/sundries/survival/bedroll-blue-red.webp",
   "system": {
-    "description": "<p>During downtime, you automatically clear a Stress.</p>",
+    "description": "<p>Durante o intervalo, você limpa automaticamente um Fadiga.</p>",
     "quantity": 1,
     "actions": {
       "Xe0zhVbSzZLgX1nC": {
@@ -41,7 +41,7 @@
           },
           "useDefault": false
         },
-        "name": "Take a nap",
+        "name": "Tirar uma Soneca",
         "img": "icons/sundries/survival/bedroll-blue-red.webp",
         "range": "",
         "baseAction": false,

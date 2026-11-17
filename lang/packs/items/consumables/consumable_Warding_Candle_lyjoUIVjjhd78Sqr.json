@@ -1,9 +1,9 @@
 {
-  "name": "Warding Candle",
+  "name": "Vela de Proteção",
   "type": "consumable",
   "img": "icons/sundries/lights/candle-lit-yellow.webp",
   "system": {
-    "description": "<p>You can light this candle to fill an area within Close range with a halo of light. A creature outside the halo can't enter it if they have ill intent toward a creature within it. The candle burns for an hour.</p>",
+    "description": "<p>Você pode acender esta vela para preencher uma área dentro do alcance Próximo com um halo de luz. Uma criatura fora do halo não pode entrar nele se tiver más intenções contra uma criatura dentro dele. A vela queima por uma hora.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -27,7 +27,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Warding Candle",
+            "name": "Vela de Proteção",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -56,7 +56,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

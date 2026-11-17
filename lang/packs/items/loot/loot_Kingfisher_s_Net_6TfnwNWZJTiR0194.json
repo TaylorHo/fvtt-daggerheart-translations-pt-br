@@ -1,9 +1,9 @@
 {
-  "name": "Kingfisher's Net",
+  "name": "Rede do Martim-pescador",
   "type": "loot",
   "img": "icons/tools/fishing/net-gold.webp",
   "system": {
-    "description": "<p>Once per long rest, you can use this net to scoop one live fish out of any amount of water, no matter how unlikely it is for that water to have fish in it.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode usar esta rede para pescar um peixe vivo de qualquer quantidade de água, não importa quão improvável seja haver peixes nela.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

@@ -1,17 +1,17 @@
 {
-  "name": "Sweet Moss",
+  "name": "Musgo Doce",
   "type": "consumable",
   "_id": "GrDrRqWgv7gvl9vn",
   "img": "icons/consumables/plants/succulent-bundle-green.webp",
   "system": {
-    "description": "<p>You can consume this moss during a rest to clear 1d10 HP or 1d10 Stress.</p>",
+    "description": "<p>Você pode consumir este musgo durante um descanso para limpar 1d10 PV ou 1d10 Fadiga.</p>",
     "quantity": 1,
     "actions": {
       "Sft4HkhlqsYH5qKI": {
         "type": "healing",
         "_id": "Sft4HkhlqsYH5qKI",
         "systemPath": "actions",
-        "description": "<p>You can consume this moss during a rest to clear 1d10 HP.</p>",
+        "description": "<p>Você pode consumir este musgo durante um descanso para limpar 1d10 PV.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Hit Points",
+        "name": "Limpar Pontos de Vida",
         "img": "icons/consumables/plants/succulent-bundle-green.webp",
         "range": "",
         "baseAction": false,
@@ -87,7 +87,7 @@
         "type": "healing",
         "_id": "IolxVguij8PjHSVt",
         "systemPath": "actions",
-        "description": "<p>You can consume this moss during a rest to clear 1d10 Stress.</p>",
+        "description": "<p>Você pode consumir este musgo durante um descanso para limpar 1d10 Fadiga.</p>",
         "chatDisplay": true,
         "actionType": "action",
         "cost": [
@@ -149,7 +149,7 @@
           },
           "useDefault": false
         },
-        "name": "Clear Stress",
+        "name": "Limpar Fadiga",
         "img": "icons/consumables/plants/succulent-bundle-green.webp",
         "range": "",
         "baseAction": false,

@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Casting Sword",
+  "name": "Espada de Conjuração",
   "type": "weapon",
   "_id": "2Fbf2cxLfbdGkU4I",
   "img": "icons/weapons/swords/sword-flanged-lightning.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "magical"
-          ],
+          "type": ["magical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -121,9 +119,7 @@
           "damage": {
             "dice": "d6",
             "bonus": 3,
-            "type": [
-              "magical"
-            ]
+            "type": ["magical"]
           }
         }
       }

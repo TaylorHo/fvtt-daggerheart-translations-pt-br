@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Gambeson Armor",
+  "name": "Armadura de Gibão Avançada",
   "type": "armor",
   "_id": "epkAmlZVk7HOfUUT",
   "img": "icons/equipment/chest/breastplate-purple.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "flexible": {
         "value": "flexible",
-        "effectIds": [
-          "Fq9Q93IHCchhfSss"
-        ],
+        "effectIds": ["Fq9Q93IHCchhfSss"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Flexible",
-      "description": "+1 to Evasion",
+      "name": "Flexível",
+      "description": "+1 na Evasão",
       "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
       "_id": "Fq9Q93IHCchhfSss",
       "type": "base",

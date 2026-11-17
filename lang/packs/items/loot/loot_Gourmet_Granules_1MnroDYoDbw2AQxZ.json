@@ -1,9 +1,9 @@
 {
-  "name": "Gourmet Granules",
+  "name": "Grânulos Gourmet",
   "type": "loot",
   "img": "icons/commodities/materials/bowl-powder-gold.webp",
   "system": {
-    "description": "<p>This savory powder makes any food it's sprinkled on delicious and healthy, no matter how bland or rotten it is.</p>",
+    "description": "<p>Este pó saboroso torna qualquer comida em que for polvilhado deliciosa e saudável, não importa quão insossa ou podre ela seja.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

@@ -1,6 +1,6 @@
 {
   "folder": "fFuMdvpD1F3UshmM",
-  "name": "Improved Light-Frame Wheelchair",
+  "name": "Cadeira de Rodas de Estrutura Leve Aprimorada",
   "type": "weapon",
   "img": "systems/daggerheart/assets/icons/documents/items/LightWheelchair.webp",
   "system": {
@@ -11,7 +11,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "fKTeCKjfyQauf5bA",
       "baseAction": true,

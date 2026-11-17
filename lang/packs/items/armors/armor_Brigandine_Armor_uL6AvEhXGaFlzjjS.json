@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Brigandine Armor",
+  "name": "Armadura de Brigantina",
   "type": "armor",
   "_id": "uL6AvEhXGaFlzjjS",
   "img": "icons/equipment/chest/breastplate-collared-leather-grey.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "lined": {
         "value": "lined",
-        "effectIds": [
-          "Qqdax2Dl4UHB9TxB"
-        ],
+        "effectIds": ["Qqdax2Dl4UHB9TxB"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Lined",
-      "description": "Mark a Stress to negate Minor damage.",
+      "name": "Forrada",
+      "description": "Marque um Fadiga para anular dano Menor.",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
       "system": {
         "changes": [

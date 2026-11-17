@@ -1,9 +1,9 @@
 {
-  "name": "Lionheart Tonic",
+  "name": "Tônico Coração de Leão",
   "type": "consumable",
   "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
   "system": {
-    "description": "<p>You can drink this tonic to gain a +1 bonus to your Proficiency until you roll with Fear.</p>",
+    "description": "<p>Você pode beber este tônico para ganhar um bônus de +1 em sua Proficiência até rolar com Medo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "G0JNdDEqxVDrwmvc",
   "effects": [
     {
-      "name": "Lionhearted",
+      "name": "Coração de Leão",
       "disabled": false,
       "img": "icons/consumables/potions/potion-bottle-corked-stopper-ornate-yellow.webp",
-      "description": "<p>You can drink this tonic to gain a +1 bonus to your Proficiency until you roll with Fear.</p>",
+      "description": "<p>Você pode beber este tônico para ganhar um bônus de +1 em sua Proficiência até rolar com Medo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

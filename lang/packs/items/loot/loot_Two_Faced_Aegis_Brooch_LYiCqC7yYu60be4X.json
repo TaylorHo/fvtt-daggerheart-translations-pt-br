@@ -1,9 +1,9 @@
 {
-  "name": "Two-Faced Aegis Brooch",
+  "name": "Broche Égide de Duas Faces",
   "type": "loot",
   "img": "icons/commodities/currency/coin-engraved-moon-silver.webp",
   "system": {
-    "description": "<p>Once per rest, [[/r 1d2]]{flip a coin}. On heads, you become immune to the next physical damage you take. On tails, you become immune to the next magic damage you take.</p>",
+    "description": "<p>Uma vez por descanso, [[/r 1d2]]{lance uma moeda}. Em cara, você fica imune ao próximo dano físico que sofrer. Em coroa, você fica imune ao próximo dano mágico que sofrer.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -42,7 +42,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Heads",
+        "name": "Cara",
         "range": "",
         "img": "icons/commodities/currency/coin-embossed-crown-gold.webp"
       },
@@ -76,7 +76,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Tails",
+        "name": "Coroa",
         "range": "",
         "img": "icons/commodities/currency/coin-engraved-tail-gold.webp"
       }
@@ -85,10 +85,10 @@
   "_id": "LYiCqC7yYu60be4X",
   "effects": [
     {
-      "name": "Heads",
+      "name": "Cara",
       "disabled": false,
       "img": "icons/commodities/currency/coin-embossed-crown-gold.webp",
-      "description": "<p>On heads, you become immune to the next physical damage you take.</p>",
+      "description": "<p>Em cara, você fica imune ao próximo dano físico que sofrer.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -137,10 +137,10 @@
       "_key": "!items.effects!LYiCqC7yYu60be4X.v4B2AXAw5ipJ3KG6"
     },
     {
-      "name": "Tails",
+      "name": "Coroa",
       "disabled": false,
       "img": "icons/commodities/currency/coin-engraved-tail-gold.webp",
-      "description": "<p>On tails, you become immune to the next magic damage you take.</p>",
+      "description": "<p>Em coroa, você fica imune ao próximo dano mágico que sofrer.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

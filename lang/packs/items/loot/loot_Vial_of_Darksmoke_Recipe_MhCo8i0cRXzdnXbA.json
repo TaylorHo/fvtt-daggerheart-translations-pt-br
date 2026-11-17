@@ -1,10 +1,10 @@
 {
-  "name": "Vial of Darksmoke Recipe",
+  "name": "Receita de Frasco de Fumaça Negra",
   "type": "loot",
   "_id": "MhCo8i0cRXzdnXbA",
   "img": "icons/sundries/scrolls/scroll-bound-black-brown.webp",
   "system": {
-    "description": "<p>As a downtime move, you can mark a Stress to craft a Vial of Darksmoke.</p>",
+    "description": "<p>Como uma ação de intervalo, você pode marcar um Fadiga para fabricar um Frasco de Fumaça Negra.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

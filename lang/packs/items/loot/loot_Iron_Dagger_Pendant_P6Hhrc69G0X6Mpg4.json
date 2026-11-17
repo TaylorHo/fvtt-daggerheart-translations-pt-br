@@ -1,9 +1,9 @@
 {
-  "name": "Iron Dagger Pendant",
+  "name": "Pingente Adaga de Ferro",
   "type": "loot",
   "img": "icons/equipment/neck/necklace-simple-engraved-stone.webp",
   "system": {
-    "description": "<p>Once per long rest, you can spend a Hope to tell the pendant a creature's name. The pendant gently pulls you toward that creature's current location until your next long rest.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode gastar uma Esperança para dizer ao pingente o nome de uma criatura. O pingente puxa suavemente você em direção à localização atual dessa criatura até seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -42,7 +42,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "range": "self"
       }
     }
@@ -50,10 +50,10 @@
   "_id": "P6Hhrc69G0X6Mpg4",
   "effects": [
     {
-      "name": "Iron Dagger Pendant",
+      "name": "Pingente Adaga de Ferro",
       "disabled": false,
       "img": "icons/equipment/neck/necklace-simple-engraved-stone.webp",
-      "description": "<p>The pendant gently pulls you toward that creature's current location until your next long rest.</p>",
+      "description": "<p>O pingente puxa suavemente você em direção à localização atual dessa criatura até seu próximo descanso longo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

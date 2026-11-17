@@ -1,9 +1,9 @@
 {
-  "name": "Hollowbark Horn",
+  "name": "Trompa de Cascaoca",
   "type": "loot",
   "img": "icons/commodities/treasure/horn-carved-banded.webp",
   "system": {
-    "description": "<p>You can blow this horn to summon a small woodland creature to perform a simple task.</p>",
+    "description": "<p>Você pode soprar esta trompa para convocar uma pequena criatura da floresta para realizar uma tarefa simples.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

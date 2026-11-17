@@ -1,10 +1,10 @@
 {
-  "name": "Corrector Sprite",
+  "name": "Espírito Sussurrante",
   "type": "loot",
   "_id": "G0RktbmtnuAlKCRH",
   "img": "icons/magic/light/orbs-smoke-pink.webp",
   "system": {
-    "description": "<p>This tiny sprite sits in the curve of your ear canal and whispers helpful advice during combat. Once per short rest, you can gain advantage on an attack roll.</p>",
+    "description": "<p>Este minúsculo espírito se aloja na curva do seu canal auditivo e sussurra conselhos úteis durante o combate. Uma vez por descanso curto, você pode ganhar vantagem em um teste de ataque.</p>",
     "quantity": 1,
     "actions": {
       "saCkJzt1fb9GnEre": {
@@ -26,7 +26,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Listen",
+        "name": "Ouvir",
         "img": "icons/magic/light/orbs-smoke-pink.webp",
         "range": "",
         "baseAction": false,

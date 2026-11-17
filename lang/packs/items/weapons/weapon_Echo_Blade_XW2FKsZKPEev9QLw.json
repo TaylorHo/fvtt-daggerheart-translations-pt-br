@@ -1,6 +1,6 @@
 {
   "folder": "woovqIJsIyoK1ZQW",
-  "name": "Echo Blade",
+  "name": "Lâmina do Eco",
   "type": "weapon",
   "_id": "XW2FKsZKPEev9QLw",
   "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
@@ -19,8 +19,8 @@
       "NO0cfOXGO0Z3vTwd": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Double Up",
-        "description": "When you make an attack with your primary weapon, you can deal damage to another target within Melee range.",
+        "name": "Alvo Duplo",
+        "description": "Quando você faz um ataque com sua arma primária, pode causar dano a outro alvo dentro do alcance Corpo a Corpo.",
         "img": "icons/skills/melee/strike-slashes-orange.webp",
         "_id": "NO0cfOXGO0Z3vTwd",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

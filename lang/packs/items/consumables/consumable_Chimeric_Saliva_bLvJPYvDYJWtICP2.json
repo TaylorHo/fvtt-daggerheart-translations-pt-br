@@ -1,9 +1,9 @@
 {
-  "name": "Chimeric Saliva",
+  "name": "Saliva Quimérica",
   "type": "consumable",
   "img": "icons/commodities/materials/liquid-purple.webp",
   "system": {
-    "description": "<p>You can apply this saliva to a weapon that deals physical damage to change its damage type to magic until your next rest.</p>",
+    "description": "<p>Você pode aplicar esta saliva em uma arma que cause dano físico para mudar seu tipo de dano para mágico até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Appky",
+        "name": "Aplicar",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "bLvJPYvDYJWtICP2",
   "effects": [
     {
-      "name": "Chimeric Saliva",
+      "name": "Saliva Quimérica",
       "disabled": false,
       "img": "icons/commodities/materials/liquid-purple.webp",
-      "description": "<p>You can apply this saliva to a weapon that deals physical damage to change its damage type to magic until your next rest.</p>",
+      "description": "<p>Você pode aplicar esta saliva em uma arma que cause dano físico para mudar seu tipo de dano para mágico até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

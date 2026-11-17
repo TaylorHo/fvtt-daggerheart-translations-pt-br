@@ -1,10 +1,10 @@
 {
-  "name": "Attune Relic",
+  "name": "Relíquia de Sintonia",
   "type": "loot",
   "_id": "vK6bKyQTT3m8WvMh",
   "img": "icons/commodities/treasure/token-runed-spiral-grey.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Instinct. You can only carry one relic.</p>",
+    "description": "<p>Você ganha um bônus de +1 em seu Instinto. Você só pode carregar uma relíquia.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Attune Relic",
+      "name": "Relíquia de Sintonia",
       "type": "base",
       "_id": "KmoJVnCQJUGyrZIk",
       "img": "icons/magic/perception/eye-ringed-green.webp",
@@ -45,7 +45,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to your Instinct.</p>",
+      "description": "<p>Você ganha um bônus de +1 em seu Instinto.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

@@ -1,9 +1,9 @@
 {
-  "name": "Mnemonic Potion",
+  "name": "Poção Mnemônica",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-corked-empty.webp",
   "system": {
-    "description": "<p>You can drink this potion to Utilize an Experience without spending a Hope.</p>",
+    "description": "<p>Você pode beber esta poção para Usar uma Experiência sem gastar uma Esperança.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }

@@ -1,10 +1,10 @@
 {
-  "name": "Arcane Cloak",
+  "name": "Capa Arcana",
   "type": "loot",
   "_id": "4STt98biZwjFoKOe",
   "img": "icons/equipment/back/cloak-layered-green-brown.webp",
   "system": {
-    "description": "<p>A creature with a Spellcast trait wearing this cloak can adjust its color, texture, and size at will.</p>",
+    "description": "<p>Uma criatura com uma característica de Conjuração que use esta capa pode ajustar sua cor, textura e tamanho à vontade.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

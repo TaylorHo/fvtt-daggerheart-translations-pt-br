@@ -1,9 +1,9 @@
 {
-  "name": "Cockerel Claw Tea",
+  "name": "Chá de Garra de Galo",
   "type": "consumable",
   "img": "icons/consumables/drinks/coffee.webp",
   "system": {
-    "description": "<p>You can drink this tea to refresh your features as if you had taken a long rest.</p>",
+    "description": "<p>Você pode beber este chá para renovar suas características como se tivesse feito um descanso longo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }

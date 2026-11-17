@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Mace",
+  "name": "Maça Aprimorada",
   "type": "weapon",
   "_id": "zSLx52U4Yltqx8F1",
   "img": "icons/weapons/maces/mace-spiked-wood-grey.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "6lmY7PMkxI3kmkpb",
       "baseAction": true,

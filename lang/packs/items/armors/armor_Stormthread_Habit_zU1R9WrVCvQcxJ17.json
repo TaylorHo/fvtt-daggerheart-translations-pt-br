@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Stormthread Habit",
+  "name": "Hábito de Fio de Tempestade",
   "type": "armor",
   "_id": "zU1R9WrVCvQcxJ17",
   "img": "icons/equipment/hand/gauntlet-armored-leather-steel-blue.webp",
@@ -19,8 +19,8 @@
       "yOf6C8teHAmMhIF1": {
         "type": "healing",
         "chatDisplay": true,
-        "name": "Clear Armor",
-        "description": "Once per scene when you take magic damage, you can clear an Armor Slot.",
+        "name": "Limpar Espaço de Armadura",
+        "description": "Uma vez por cena, quando você sofre dano mágico, pode limpar um Espaço de Armadura.",
         "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
         "target": {
           "type": "self",
@@ -97,9 +97,7 @@
       "absorbing": {
         "value": "absorbing",
         "effectIds": [],
-        "actionIds": [
-          "yOf6C8teHAmMhIF1"
-        ],
+        "actionIds": ["yOf6C8teHAmMhIF1"],
         "config": {}
       }
     }

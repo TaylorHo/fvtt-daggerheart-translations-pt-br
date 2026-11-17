@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Gunblade",
+  "name": "Espada-Pistola",
   "type": "weapon",
   "_id": "TREpAv9pWVrZbwMc",
   "img": "icons/weapons/guns/rifle-fluted.webp",
@@ -21,7 +21,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Brightsword",
+  "name": "Espada Luminosa Aprimorada",
   "type": "weapon",
   "_id": "C22glLmoQUNrKJ7W",
   "img": "icons/weapons/swords/sword-gold-holy.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

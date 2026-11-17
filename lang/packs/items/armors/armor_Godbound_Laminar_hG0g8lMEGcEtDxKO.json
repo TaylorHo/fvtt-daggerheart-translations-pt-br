@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Godbound Laminar",
+  "name": "Laminar do Divino",
   "type": "armor",
   "_id": "hG0g8lMEGcEtDxKO",
   "img": "icons/equipment/chest/breastplate-collared-steel-green.webp",
@@ -19,8 +19,8 @@
       "h7BCDsiPhLZxwllM": {
         "type": "healing",
         "chatDisplay": true,
-        "name": "Gain Hope",
-        "description": "When you mark an Armor Slot, gain a Hope.",
+        "name": "Ganhar Esperança",
+        "description": "Quando você marca um Espaço de Armadura, ganhe uma Esperança.",
         "img": "icons/magic/holy/chalice-glowing-yellow-blue.webp",
         "target": {
           "type": "self",
@@ -97,9 +97,7 @@
       "divine": {
         "value": "divine",
         "effectIds": [],
-        "actionIds": [
-          "h7BCDsiPhLZxwllM"
-        ],
+        "actionIds": ["h7BCDsiPhLZxwllM"],
         "config": {}
       }
     }

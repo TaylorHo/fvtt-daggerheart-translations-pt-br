@@ -1,9 +1,9 @@
 {
-  "name": "Sprite Bottle",
+  "name": "Garrafa de Sprite",
   "type": "consumable",
   "img": "icons/consumables/drinks/alcohol-spirits-bottle-green.webp",
   "system": {
-    "description": "<p>When you mark your last Hit Point, this bottle shatters to release the Sprite inside. The Sprite clears all your Hit Points before fading from the Mortal Realm.</p>",
+    "description": "<p>Quando você marca seu último Ponto de Vida, esta garrafa se estilhaça para libertar o Sprite dentro dela. O Sprite limpa todos os seus Pontos de Vida antes de desaparecer do Reino Mortal.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -85,7 +85,7 @@
           },
           "useDefault": false
         },
-        "name": "Use",
+        "name": "Usar",
         "range": ""
       }
     }

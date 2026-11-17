@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Hammer of Exota",
+  "name": "Martelo de Exota",
   "type": "weapon",
   "_id": "0lAkBEUvbM9Osmqb",
   "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

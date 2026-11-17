@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Soul Chain",
+  "name": "Corrente de Almas",
   "type": "weapon",
   "_id": "VpvBLIW3ilRr5cSA",
   "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
@@ -19,8 +19,8 @@
       "cGTB3G8sp5XZhucX": {
         "type": "damage",
         "chatDisplay": true,
-        "name": "Draining",
-        "description": "On a successful attack, you can spend a Hope to force the target to mark a Stress. If they do, you clear a Stress.",
+        "name": "Drenante",
+        "description": "Em um ataque bem-sucedido, você pode gastar uma Esperança para forçar o alvo a marcar um Fadiga. Se ele marcar, você limpa um Fadiga.",
         "img": "icons/magic/unholy/hand-light-green.webp",
         "damage": {
           "resources": {
@@ -73,7 +73,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,

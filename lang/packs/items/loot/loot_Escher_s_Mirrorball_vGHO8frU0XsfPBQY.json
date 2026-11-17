@@ -1,9 +1,9 @@
 {
-  "name": "Escher's Mirrorball",
+  "name": "Bola de Espelhos de Escher",
   "type": "loot",
   "img": "icons/commodities/gems/pearl-swirl-blue.webp",
   "system": {
-    "description": "<p>Once per long rest, you can command this fist-sized silver orb to capture an omnidirectional image of its surroundings on its surface. This image lasts until your next long rest.</p>",
+    "description": "<p>Uma vez por descanso longo, você pode ordenar a este orbe de prata do tamanho de um punho que capture em sua superfície uma imagem omnidirecional de seus arredores. Essa imagem dura até seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -50,10 +50,10 @@
   "_id": "vGHO8frU0XsfPBQY",
   "effects": [
     {
-      "name": "Captured Image",
+      "name": "Imagem Capturada",
       "disabled": false,
       "img": "icons/commodities/gems/pearl-swirl-blue.webp",
-      "description": "<p>This image lasts until your next long rest.</p>",
+      "description": "<p>Essa imagem dura até seu próximo descanso longo.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

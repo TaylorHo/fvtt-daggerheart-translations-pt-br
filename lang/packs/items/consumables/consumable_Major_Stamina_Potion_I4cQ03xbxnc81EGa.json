@@ -1,10 +1,10 @@
 {
-  "name": "Major Stamina Potion",
+  "name": "Poção de Vigor Maior",
   "type": "consumable",
   "_id": "I4cQ03xbxnc81EGa",
   "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
   "system": {
-    "description": "<p>Clear 1d4+2 Stress.</p>",
+    "description": "<p>Limpe 1d4+2 Fadiga.</p>",
     "quantity": 1,
     "actions": {
       "3duuNVqCeQaUUKTo": {
@@ -73,7 +73,7 @@
           },
           "useDefault": false
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
         "range": "",
         "baseAction": false,

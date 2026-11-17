@@ -1,10 +1,10 @@
 {
-  "name": "Phoenix Feather",
+  "name": "Pena de Fênix",
   "type": "loot",
   "_id": "QNtzJSVENww63THa",
   "img": "icons/commodities/materials/feather-red.webp",
   "system": {
-    "description": "<p>If you have at least one Phoenix Feather on you when you fall unconscious, you gain a +1 bonus to the roll you make to determine whether you gain a scar.</p>",
+    "description": "<p>Se você tiver pelo menos uma Pena de Fênix consigo quando cair inconsciente, ganha um bônus de +1 na rolagem que faz para determinar se recebe uma cicatriz.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

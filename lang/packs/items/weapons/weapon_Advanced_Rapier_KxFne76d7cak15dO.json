@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Advanced Rapier",
+  "name": "Rapieira Avançada",
   "type": "weapon",
   "_id": "KxFne76d7cak15dO",
   "img": "icons/weapons/swords/sword-jeweled-red.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -114,9 +112,7 @@
       "quick": {
         "value": "quick",
         "effectIds": [],
-        "actionIds": [
-          "bx2JFFD7JglAsVG6"
-        ],
+        "actionIds": ["bx2JFFD7JglAsVG6"],
         "config": {}
       }
     }

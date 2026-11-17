@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Bravesword",
+  "name": "Espada Valente",
   "type": "weapon",
   "_id": "QZrWAkprA2tL2MOI",
   "img": "icons/weapons/swords/greatsword-crossguard-embossed-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,
@@ -50,9 +50,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -113,9 +111,7 @@
     "itemFeatures": {
       "brave": {
         "value": "brave",
-        "effectIds": [
-          "lLM5uyDAGk3zVxoa"
-        ],
+        "effectIds": ["lLM5uyDAGk3zVxoa"],
         "actionIds": [],
         "config": {}
       }
@@ -123,8 +119,8 @@
   },
   "effects": [
     {
-      "name": "Brave",
-      "description": "-1 to Evasion; + Weapon Tier to Severe damage threshold",
+      "name": "Valente",
+      "description": "-1 na Evasão; + Patamar da Arma no limiar de dano Severo",
       "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
       "_id": "lLM5uyDAGk3zVxoa",
       "type": "base",

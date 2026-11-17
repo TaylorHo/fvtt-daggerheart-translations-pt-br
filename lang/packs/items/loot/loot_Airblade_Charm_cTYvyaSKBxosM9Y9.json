@@ -1,10 +1,10 @@
 {
-  "name": "Airblade Charm",
+  "name": "Amuleto do Alcance",
   "type": "loot",
   "_id": "cTYvyaSKBxosM9Y9",
   "img": "icons/equipment/neck/amulet-carved-stone-spiral-blue.webp",
   "system": {
-    "description": "<p>You can attach this charm to a weapon with a Melee range. Three times per rest, you can activate the charm and attack a target within Close range.</p>",
+    "description": "<p>Você pode fixar este amuleto em uma arma com alcance Corpo a Corpo. Três vezes por descanso, você pode ativar o amuleto e atacar um alvo dentro do alcance Próximo.</p>",
     "quantity": 1,
     "actions": {
       "nlAfmdgfHTmsOdPb": {
@@ -26,7 +26,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Activate",
+        "name": "Ativar",
         "img": "icons/equipment/neck/amulet-carved-stone-spiral-blue.webp",
         "range": "",
         "baseAction": false,

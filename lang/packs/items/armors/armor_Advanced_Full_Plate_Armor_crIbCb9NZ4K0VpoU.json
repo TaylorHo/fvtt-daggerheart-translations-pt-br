@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Full Plate Armor",
+  "name": "Armadura de Placas Completa Avançada",
   "type": "armor",
   "_id": "crIbCb9NZ4K0VpoU",
   "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "veryheavy": {
         "value": "veryheavy",
-        "effectIds": [
-          "awdHgEaM54G3emOU"
-        ],
+        "effectIds": ["awdHgEaM54G3emOU"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Very Heavy",
-      "description": "-2 to Evasion; -1 to Agility",
+      "name": "Muito Pesada",
+      "description": "-2 na Evasão; -1 na Agilidade",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "_id": "awdHgEaM54G3emOU",
       "type": "base",

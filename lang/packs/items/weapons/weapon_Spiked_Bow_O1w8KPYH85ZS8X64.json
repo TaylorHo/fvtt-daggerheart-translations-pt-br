@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Spiked Bow",
+  "name": "Arco Espinhoso",
   "type": "weapon",
   "_id": "O1w8KPYH85ZS8X64",
   "img": "icons/weapons/bows/bow-recurve-black.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tSwiEa50USNh6uEJ",
       "baseAction": true,

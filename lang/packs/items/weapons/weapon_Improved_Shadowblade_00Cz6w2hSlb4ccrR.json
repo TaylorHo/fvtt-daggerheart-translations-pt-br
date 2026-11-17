@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Improved Shadowblade",
+  "name": "Lâmina Sombria Aprimorada",
   "type": "weapon",
   "_id": "00Cz6w2hSlb4ccrR",
   "img": "icons/weapons/swords/sword-flanged-lightning.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Otherwordly",
-      "description": "On a successful attack, you can deal physical or magic damage.",
+      "name": "Sobrenatural",
+      "description": "Em um ataque bem-sucedido, você pode causar dano físico ou mágico.",
       "img": "icons/weapons/swords/sword-flanged-lightning.webp",
       "system": {
         "conditionals": [

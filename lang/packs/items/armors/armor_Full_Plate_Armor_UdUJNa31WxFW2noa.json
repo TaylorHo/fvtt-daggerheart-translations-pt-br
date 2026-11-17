@@ -1,6 +1,6 @@
 {
   "folder": "h4QgrovjVZ1oee7O",
-  "name": "Full Plate Armor",
+  "name": "Armadura de Placas Completa",
   "type": "armor",
   "_id": "UdUJNa31WxFW2noa",
   "img": "icons/equipment/chest/breastplate-collared-steel.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "veryheavy": {
         "value": "veryheavy",
-        "effectIds": [
-          "mfKMW9SX3Mnos1nY"
-        ],
+        "effectIds": ["mfKMW9SX3Mnos1nY"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Very Heavy",
-      "description": "-2 to Evasion; -1 to Agility",
+      "name": "Muito Pesada",
+      "description": "-2 na Evasão; -1 na Agilidade",
       "img": "icons/commodities/metal/ingot-stamped-steel.webp",
       "_id": "mfKMW9SX3Mnos1nY",
       "type": "base",

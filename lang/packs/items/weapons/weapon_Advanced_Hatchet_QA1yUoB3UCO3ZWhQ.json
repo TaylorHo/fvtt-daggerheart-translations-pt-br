@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Advanced Hatchet",
+  "name": "Machadinha Avançada",
   "type": "weapon",
   "_id": "QA1yUoB3UCO3ZWhQ",
   "img": "icons/weapons/axes/shortaxe-engraved-green.webp",
@@ -18,8 +18,8 @@
       "6xZol0JjA03kazRt": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Follow-Up",
-        "description": "On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack.",
+        "name": "Acompanhamento",
+        "description": "Em um ataque bem-sucedido com sua arma primária dentro do alcance Corpo a Corpo, você pode marcar um Fadiga para ganhar um bônus de +1 em sua Proficiência neste ataque.",
         "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
         "target": {
           "type": "self",
@@ -63,7 +63,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uWzrPLECLx4ZwjU6",
       "baseAction": true,
@@ -92,9 +92,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -156,20 +154,16 @@
     "itemFeatures": {
       "followUp": {
         "value": "followUp",
-        "effectIds": [
-          "s5EoYqyCvfuLNEqX"
-        ],
-        "actionIds": [
-          "6xZol0JjA03kazRt"
-        ],
+        "effectIds": ["s5EoYqyCvfuLNEqX"],
+        "actionIds": ["6xZol0JjA03kazRt"],
         "config": {}
       }
     }
   },
   "effects": [
     {
-      "name": "Follow-Up",
-      "description": "You have a +1 bonus to your Proficiency for this attack.",
+      "name": "Acompanhamento",
+      "description": "Você tem um bônus de +1 em sua Proficiência neste ataque.",
       "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
       "system": {
         "conditionals": [
@@ -179,9 +173,7 @@
           },
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ],

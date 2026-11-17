@@ -1,9 +1,9 @@
 {
-  "name": "Snapthorn Seed",
+  "name": "Semente de Espinhoestalo",
   "type": "consumable",
   "img": "icons/consumables/plants/thorned-curled-vine-green.webp",
   "system": {
-    "description": "<p>You can throw this seed at a point you can see. It explodes into a tangle of binding vines that temporarily Restrains all creatures within Close range of that point.</p>",
+    "description": "<p>Você pode arremessar esta semente em um ponto que consiga ver. Ela explode em um emaranhado de trepadeiras que temporariamente Restringe todas as criaturas dentro do alcance Próximo desse ponto.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -27,7 +27,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Snapthorn Seed",
+            "name": "Semente de Espinhoestalo",
             "type": "placed",
             "shape": "emanation",
             "size": "close",
@@ -61,7 +61,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Throw",
+        "name": "Arremessar",
         "range": ""
       }
     }
@@ -69,14 +69,12 @@
   "_id": "hHLAEbVkLJeOA9qz",
   "effects": [
     {
-      "name": "Thorned",
+      "name": "Espinhoso",
       "disabled": false,
       "img": "icons/consumables/plants/thorned-curled-vine-green.webp",
       "description": "",
       "transfer": false,
-      "statuses": [
-        "restrained"
-      ],
+      "statuses": ["restrained"],
       "system": {
         "changes": [],
         "duration": {

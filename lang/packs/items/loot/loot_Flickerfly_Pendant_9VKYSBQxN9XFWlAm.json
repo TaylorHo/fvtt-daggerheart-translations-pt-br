@@ -1,10 +1,10 @@
 {
-  "name": "Flickerfly Pendant",
+  "name": "Pingente de Oscilume",
   "type": "loot",
   "_id": "9VKYSBQxN9XFWlAm",
   "img": "icons/equipment/neck/choker-rough-green.webp",
   "system": {
-    "description": "<p>While you carry this pendant, your weapons with a Melee range that deal physical damage have a gossamer sheen and can attack targets within Very Close range.</p>",
+    "description": "<p>Enquanto você carregar este pingente, suas armas com alcance Corpo a Corpo que causam dano físico ganham um brilho etéreo e podem atacar alvos dentro do alcance Muito Próximo.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

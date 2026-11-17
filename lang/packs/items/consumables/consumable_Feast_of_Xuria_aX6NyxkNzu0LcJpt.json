@@ -1,10 +1,10 @@
 {
-  "name": "Feast of Xuria",
+  "name": "Ceia de Xuria",
   "type": "consumable",
   "_id": "aX6NyxkNzu0LcJpt",
   "img": "icons/consumables/food/bowl-stew-tofu-potato-red.webp",
   "system": {
-    "description": "<p>You can eat this meal to clear all HP and Stress and gain 1d4 Hope.</p>",
+    "description": "<p>Você pode comer esta refeição para limpar todos os PV e Fadiga e ganhar 1d4 Esperança.</p>",
     "quantity": 1,
     "actions": {
       "TL1fJitAJmDzrnHT": {
@@ -109,7 +109,7 @@
           },
           "useDefault": false
         },
-        "name": "Eat",
+        "name": "Comer",
         "img": "icons/consumables/food/bowl-stew-tofu-potato-red.webp",
         "range": "",
         "baseAction": false,

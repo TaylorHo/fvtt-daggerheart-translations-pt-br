@@ -1,6 +1,6 @@
 {
   "folder": "v3OQH9vwMVYsZvXS",
-  "name": "Buckler",
+  "name": "Broquel",
   "type": "weapon",
   "_id": "EmFTp9wzT6MHSaNz",
   "img": "icons/equipment/shield/heater-wooden-worn.webp",
@@ -10,8 +10,8 @@
       "i3J91scBT82JWSM1": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Deflect",
-        "description": "When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your available Armor Slots against the attack.",
+        "name": "Desviar",
+        "description": "Quando você é atacado, pode marcar um Espaço de Armadura para ganhar um bônus na Evasão igual aos seus Espaços de Armadura disponíveis contra o ataque.",
         "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
         "target": {
           "type": "self",
@@ -55,7 +55,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "qY9ylkwxFwRlPy6a",
       "baseAction": true,
@@ -93,9 +93,7 @@
               "formula": ""
             }
           },
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -156,19 +154,15 @@
     "itemFeatures": {
       "deflecting": {
         "value": "deflecting",
-        "effectIds": [
-          "iQdYFNjh3gM2KOJI"
-        ],
-        "actionIds": [
-          "i3J91scBT82JWSM1"
-        ]
+        "effectIds": ["iQdYFNjh3gM2KOJI"],
+        "actionIds": ["i3J91scBT82JWSM1"]
       }
     }
   },
   "effects": [
     {
-      "name": "Deflecting",
-      "description": "Gain a bonus to your Evasion equal to your available Armor Slots against the attack",
+      "name": "Desviar",
+      "description": "Receba um bônus na Evasão igual aos seus Espaços de Armadura disponíveis contra o ataque",
       "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
       "system": {
         "changes": [

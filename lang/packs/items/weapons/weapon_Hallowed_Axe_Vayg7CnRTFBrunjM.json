@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Hallowed Axe",
+  "name": "Machado Sagrado",
   "type": "weapon",
   "_id": "Vayg7CnRTFBrunjM",
   "img": "icons/weapons/axes/axe-broad-purple.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "ZSdAawliPNsoA7nP",
       "baseAction": true,

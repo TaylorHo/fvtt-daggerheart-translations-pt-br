@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Bellamoi Fine Armor",
+  "name": "Armadura Fina Bellamoi",
   "type": "armor",
   "_id": "WuoVwZA53XRAIt6d",
   "img": "icons/equipment/chest/breastplate-layered-gold.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "gilded": {
         "value": "gilded",
-        "effectIds": [
-          "Hy0sNtFS1JAXxgwC"
-        ],
+        "effectIds": ["Hy0sNtFS1JAXxgwC"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Gilded",
-      "description": "+1 to Presence",
+      "name": "Revestimento Dourado",
+      "description": "+1 na Presença",
       "img": "icons/magic/control/control-influence-crown-gold.webp",
       "_id": "Hy0sNtFS1JAXxgwC",
       "type": "base",

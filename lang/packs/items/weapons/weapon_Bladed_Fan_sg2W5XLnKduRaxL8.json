@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Bladed Fan",
+  "name": "Leque de Lâminas",
   "type": "weapon",
   "_id": "sg2W5XLnKduRaxL8",
   "img": "icons/weapons/daggers/knife-fan.webp",
@@ -19,8 +19,8 @@
       "KrXsIpyvPDci7gXH": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Parry",
-        "description": "When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.",
+        "name": "Aparar",
+        "description": "Quando você é atacado, role os dados de dano desta arma. Se algum dos dados de dano do atacante tirar o mesmo valor que os seus, os resultados iguais são descartados dos dados de dano do atacante antes de o dano que você sofre ser totalizado.",
         "img": "icons/skills/melee/shield-block-fire-orange.webp",
         "_id": "KrXsIpyvPDci7gXH",
         "effects": [],
@@ -50,7 +50,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,
@@ -79,9 +79,7 @@
       },
       "damage": {
         "main": {
-          "type": [
-            "physical"
-          ],
+          "type": ["physical"],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -144,9 +142,7 @@
       "parry": {
         "value": "parry",
         "effectIds": [],
-        "actionIds": [
-          "KrXsIpyvPDci7gXH"
-        ],
+        "actionIds": ["KrXsIpyvPDci7gXH"],
         "config": {}
       }
     }

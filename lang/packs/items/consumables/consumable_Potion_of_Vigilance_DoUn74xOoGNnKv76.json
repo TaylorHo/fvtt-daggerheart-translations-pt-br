@@ -1,9 +1,9 @@
 {
-  "name": "Potion of Vigilance",
+  "name": "Poção de Vigilância",
   "type": "consumable",
   "img": "icons/consumables/potions/potion-flask-corked-cyan.webp",
   "system": {
-    "description": "<p>You can drink this potion to gain a +1 bonus to your Evasion until you mark a Hit Point.</p>",
+    "description": "<p>Você pode beber esta poção para ganhar um bônus de +1 na Evasão até marcar um Ponto de Vida.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,10 +60,10 @@
   "_id": "DoUn74xOoGNnKv76",
   "effects": [
     {
-      "name": "Vigilant",
+      "name": "Vigilante",
       "disabled": false,
       "img": "icons/magic/perception/eye-ringed-green.webp",
-      "description": "<p>You can drink this potion to gain a +1 bonus to your Evasion until you mark a Hit Point.</p>",
+      "description": "<p>Você pode beber esta poção para ganhar um bônus de +1 na Evasão até marcar um Ponto de Vida.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

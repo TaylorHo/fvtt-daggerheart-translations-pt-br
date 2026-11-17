@@ -1,6 +1,6 @@
 {
   "folder": "cvhQpWXCo3YJhtwx",
-  "name": "Legendary Battleaxe",
+  "name": "Machado de Batalha Lendário",
   "type": "weapon",
   "_id": "1nztpLzoHGfbKf5x",
   "img": "icons/weapons/axes/axe-double-engraved-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "31XEMDUyjpqFA7H9",
       "baseAction": true,

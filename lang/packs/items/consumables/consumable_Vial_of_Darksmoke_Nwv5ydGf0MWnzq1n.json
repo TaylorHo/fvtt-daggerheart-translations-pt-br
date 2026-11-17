@@ -1,17 +1,17 @@
 {
-  "name": "Vial of Darksmoke",
+  "name": "Frasco de Fumaça Negra",
   "type": "consumable",
   "_id": "Nwv5ydGf0MWnzq1n",
   "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
   "system": {
-    "description": "<p>When an adversary attacks you, use  this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.</p>",
+    "description": "<p>Quando um adversário ataca você, use este frasco e role um número de d6 igual à sua Agilidade. Adicione o maior resultado à sua Evasão contra o ataque.</p>",
     "quantity": 1,
     "actions": {
       "4nFnAoyH5dENizsx": {
         "type": "effect",
         "_id": "4nFnAoyH5dENizsx",
         "systemPath": "actions",
-        "description": "<p>When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.</p>",
+        "description": "<p>Quando um adversário ataca você, use este frasco e role um número de d6 igual à sua Agilidade. Adicione o maior resultado à sua Evasão contra o ataque.</p>",
         "chatDisplay": true,
         "actionType": "reaction",
         "cost": [
@@ -35,7 +35,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
         "range": "",
         "baseAction": false,

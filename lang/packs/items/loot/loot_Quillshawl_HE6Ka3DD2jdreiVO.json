@@ -1,9 +1,9 @@
 {
-  "name": "Quillshawl",
+  "name": "Xale de Penas",
   "type": "loot",
   "img": "icons/commodities/cloth/ribbon-bow-purple.webp",
   "system": {
-    "description": "<p>If an adversary attacks you within Melee range, they must succeed on a Reaction Roll (12) or mark a Hit Point.</p>",
+    "description": "<p>Se um adversário atacar você dentro do alcance Corpo a Corpo, ele deve ser bem-sucedido em um Teste de Reação (12) ou marcar um Ponto de Vida.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -80,7 +80,7 @@
           "difficulty": 12,
           "damageMod": "none"
         },
-        "name": "Reaction Roll",
+        "name": "Teste de Reação",
         "range": "melee"
       }
     }

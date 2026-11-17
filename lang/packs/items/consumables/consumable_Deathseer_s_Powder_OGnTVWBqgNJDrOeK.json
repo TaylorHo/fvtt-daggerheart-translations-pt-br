@@ -1,9 +1,9 @@
 {
-  "name": "Deathseer's Powder",
+  "name": "Pó do Vidente da Morte",
   "type": "consumable",
   "img": "icons/commodities/materials/bowl-powder-teal.webp",
   "system": {
-    "description": "<p>You can sprinkle this powder over a recently deceased corpse to conjure a spectral reprise of their final minute of life.</p>",
+    "description": "<p>Você pode polvilhar este pó sobre um cadáver recém-falecido para conjurar uma reprise espectral do último minuto de vida dele.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -47,7 +47,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Sprinkle",
+        "name": "Polvilhar",
         "range": ""
       }
     }

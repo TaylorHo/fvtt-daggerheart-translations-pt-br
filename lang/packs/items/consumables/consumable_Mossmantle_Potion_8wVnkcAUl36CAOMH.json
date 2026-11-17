@@ -1,9 +1,9 @@
 {
-  "name": "Mossmantle Potion",
+  "name": "Poção de Mantomusgo",
   "type": "consumable",
   "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
   "system": {
-    "description": "<p>You can drink this tea to perfectly blend into natural environments until your next rest.</p>",
+    "description": "<p>Você pode beber este chá para se misturar perfeitamente a ambientes naturais até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -60,10 +60,10 @@
   "_id": "8wVnkcAUl36CAOMH",
   "effects": [
     {
-      "name": "Blending In",
+      "name": "Camuflagem",
       "disabled": false,
       "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
-      "description": "<p>You can drink this tea to perfectly blend into natural environments until your next rest.</p>",
+      "description": "<p>Você pode beber este chá para se misturar perfeitamente a ambientes naturais até seu próximo descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {

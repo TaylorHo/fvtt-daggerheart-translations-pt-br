@@ -1,6 +1,6 @@
 {
   "folder": "iSQtZICf7fVFJ7IS",
-  "name": "Improved Throwing Knives",
+  "name": "Facas de Arremesso Aprimoradas",
   "type": "weapon",
   "_id": "IGSI6Ez0NhbC6NsL",
   "img": "icons/weapons/daggers/knife-engraved-black.webp",
@@ -20,7 +20,7 @@
     "secondary": true,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "BTce2heMnn0eTuJ4",
       "baseAction": true,

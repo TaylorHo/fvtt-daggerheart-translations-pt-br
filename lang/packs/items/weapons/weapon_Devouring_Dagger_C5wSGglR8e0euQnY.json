@@ -1,6 +1,6 @@
 {
   "folder": "ereMKW01MCYg0qUY",
-  "name": "Devouring Dagger",
+  "name": "Adaga Devoradora",
   "type": "weapon",
   "_id": "C5wSGglR8e0euQnY",
   "img": "icons/weapons/daggers/dagger-double-skull-pink.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "YHE291ruSIJAh44F",
       "baseAction": true,

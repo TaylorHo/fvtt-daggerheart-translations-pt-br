@@ -1,6 +1,6 @@
 {
   "folder": "hLn0v6ov6KuFgptu",
-  "name": "Rosewild Armor",
+  "name": "Armadura Rosasselvagem",
   "type": "armor",
   "_id": "tN8kAeBvNKM3EBFo",
   "img": "icons/equipment/chest/breastplate-banded-leather-purple.webp",
@@ -29,9 +29,7 @@
       "hopeful": {
         "value": "hopeful",
         "effectIds": [],
-        "actionIds": [
-          "QRTnCYxJfuJHdnyV"
-        ],
+        "actionIds": ["QRTnCYxJfuJHdnyV"],
         "config": {}
       }
     }

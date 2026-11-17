@@ -1,6 +1,6 @@
 {
   "folder": "cnmKLegyDD1xkSuI",
-  "name": "Shadowblade",
+  "name": "Lâmina Sombria",
   "type": "weapon",
   "_id": "GnllSqInVOWFX3qW",
   "img": "icons/weapons/swords/sword-flanged-lightning.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,
@@ -122,8 +122,8 @@
   },
   "effects": [
     {
-      "name": "Otherwordly",
-      "description": "On a successful attack, you can deal physical or magic damage.",
+      "name": "Sobrenatural",
+      "description": "Em um ataque bem-sucedido, você pode causar dano físico ou mágico.",
       "img": "icons/weapons/swords/sword-flanged-lightning.webp",
       "system": {
         "conditionals": [

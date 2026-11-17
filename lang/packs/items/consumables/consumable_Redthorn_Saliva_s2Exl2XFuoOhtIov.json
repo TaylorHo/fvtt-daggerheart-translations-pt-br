@@ -1,10 +1,10 @@
 {
-  "name": "Redthorn Saliva",
+  "name": "Saliva de Espinho-Vermelho",
   "type": "consumable",
   "_id": "s2Exl2XFuoOhtIov",
   "img": "icons/commodities/materials/slime-thick-blue.webp",
   "system": {
-    "description": "<p>You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon.</p>",
+    "description": "<p>Você pode aplicar esta saliva em uma arma que cause dano físico para adicionar um d12 à sua próxima rolagem de dano com essa arma.</p>",
     "quantity": 1,
     "actions": {
       "kOU2DpAIHvQsFY5A": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Apply",
+        "name": "Aplicar",
         "img": "icons/commodities/materials/slime-thick-blue.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Redthorn Saliva",
+      "name": "Saliva de Espinho-Vermelho",
       "img": "icons/commodities/materials/slime-thick-blue.webp",
       "transfer": false,
       "_id": "tWf00ezdpxQQLuZ1",
@@ -96,7 +96,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You deal 1d12 additional physical damage on your next damage roll with the weapon the saliva was applied to.</p>",
+      "description": "<p>Você causa 1d12 de dano físico adicional na sua próxima rolagem de dano com a arma em que a saliva foi aplicada.</p>",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,

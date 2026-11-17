@@ -1,6 +1,6 @@
 {
   "folder": "Hbjp64XzuyJs2hOs",
-  "name": "Emberwoven Armor",
+  "name": "Armadura Tecida em Brasas",
   "type": "armor",
   "_id": "bcQUh4QG3qFX0Vx6",
   "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
@@ -29,9 +29,7 @@
       "burning": {
         "value": "burning",
         "effectIds": [],
-        "actionIds": [
-          "L8mHf4A8SylyxsMH"
-        ],
+        "actionIds": ["L8mHf4A8SylyxsMH"],
         "config": {}
       }
     }

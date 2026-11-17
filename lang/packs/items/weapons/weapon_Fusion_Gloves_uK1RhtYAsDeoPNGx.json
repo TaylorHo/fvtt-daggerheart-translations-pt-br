@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Fusion Gloves",
+  "name": "Luvas de Fusão",
   "type": "weapon",
   "_id": "uK1RhtYAsDeoPNGx",
   "img": "icons/equipment/hand/gauntlet-plate-gold.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Weapon Bond",
-      "description": "<p>Gain a bonus to your damage rolls equal to your level.</p>",
+      "name": "Vínculo da Arma",
+      "description": "<p>Receba um bônus nas rolagens de dano igual ao seu nível.</p>",
       "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
       "_id": "7ltP049dqxCaedyX",
       "type": "base",

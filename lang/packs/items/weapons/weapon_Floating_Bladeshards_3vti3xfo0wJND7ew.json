@@ -1,6 +1,6 @@
 {
   "folder": "UNDVQEo6UtTuueNQ",
-  "name": "Floating Bladeshards",
+  "name": "Estilhaços de Lâmina Flutuantes",
   "type": "weapon",
   "_id": "3vti3xfo0wJND7ew",
   "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
@@ -12,7 +12,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "B2LewQYZb9Jhl4A6",
       "baseAction": true,
@@ -123,8 +123,8 @@
   },
   "effects": [
     {
-      "name": "Powerful",
-      "description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+      "name": "Poderoso",
+      "description": "Em um ataque bem-sucedido, role um dado de dano adicional e descarte o menor resultado.",
       "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
       "_id": "T831j6kZiMnpMNmv",
       "type": "base",

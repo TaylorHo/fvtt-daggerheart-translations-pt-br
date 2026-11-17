@@ -1,10 +1,10 @@
 {
-  "name": "Belt of Unity",
+  "name": "Cinturão da Unidade",
   "type": "loot",
   "_id": "gFzkUGCjkRJtyoe9",
   "img": "icons/equipment/waist/belt-buckle-ornate-steel.webp",
   "system": {
-    "description": "<p>Once per session, you can spend 5 Hope to lead a Tag Team Roll with three PCs instead of two.</p>",
+    "description": "<p>Uma vez por sessão, você pode gastar 5 Esperança para conduzir um Teste em Equipe com três PJs em vez de dois.</p>",
     "quantity": 1,
     "actions": {
       "SuaYNEUO9U9TIZWb": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/equipment/waist/belt-buckle-ornate-steel.webp",
         "range": "",
         "baseAction": false,

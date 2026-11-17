@@ -1,9 +1,9 @@
 {
-  "name": "Namer's Oracle",
+  "name": "Oráculo do Nomeador",
   "type": "loot",
   "img": "icons/sundries/gaming/dice-runed-tan.webp",
   "system": {
-    "description": "<p>Once per session, you can roll this set of runic dice to reveal the full name of the last person you touched.</p>",
+    "description": "<p>Uma vez por sessão, você pode rolar este conjunto de dados rúnicos para revelar o nome completo da última pessoa que você tocou.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -37,7 +37,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Roll Dice",
+        "name": "Rolar Dados",
         "range": ""
       }
     }

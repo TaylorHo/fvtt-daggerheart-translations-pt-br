@@ -1,10 +1,10 @@
 {
-  "name": "Empty Chest",
+  "name": "Baú Vazio",
   "type": "loot",
   "_id": "p2yy61uKsyIsl8cU",
   "img": "icons/containers/chest/chest-simple-box-gold-brown.webp",
   "system": {
-    "description": "<p>This magical chest appears empty. When you speak a specific trigger word or action and open the chest, you can see the items stored within it.</p>",
+    "description": "<p>Este baú mágico parece vazio. Quando você diz uma palavra ou executa uma ação específica de ativação e abre o baú, consegue ver os itens guardados nele.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

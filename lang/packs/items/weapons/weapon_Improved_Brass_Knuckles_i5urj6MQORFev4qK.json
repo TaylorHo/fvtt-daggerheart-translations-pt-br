@@ -1,6 +1,6 @@
 {
   "folder": "guNyg9qBShhQOIWT",
-  "name": "Improved Brass Knuckles",
+  "name": "Soqueira Aprimorada",
   "type": "weapon",
   "_id": "i5urj6MQORFev4qK",
   "img": "icons/weapons/fist/fist-knuckles-spiked-blue.webp",
@@ -20,7 +20,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "tIzFTbqIe7VMOjul",
       "baseAction": true,

@@ -1,6 +1,6 @@
 {
   "folder": "oreMpiiytMRaR9sy",
-  "name": "Rocket Maul",
+  "name": "Malho Foguete",
   "type": "weapon",
   "_id": "2wKH8UalLK4UDYHV",
   "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -19,8 +19,8 @@
       "xd2N3IRFkGcy9byh": {
         "type": "effect",
         "chatDisplay": true,
-        "name": "Concuss",
-        "description": "On a successful attack, you can spend a Hope to knock the target back to Far range.",
+        "name": "Repelir",
+        "description": "Em um ataque bem-sucedido, você pode gastar uma Esperança para empurrar o alvo até o alcance Distante.",
         "img": "icons/skills/melee/shield-block-bash-yellow.webp",
         "target": {
           "type": "any",
@@ -59,7 +59,7 @@
     "secondary": false,
     "burden": "twoHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

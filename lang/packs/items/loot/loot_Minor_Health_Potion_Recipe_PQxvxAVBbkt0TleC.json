@@ -1,10 +1,10 @@
 {
-  "name": "Minor Health Potion Recipe",
+  "name": "Receita de Poção de Vida Menor",
   "type": "loot",
   "_id": "PQxvxAVBbkt0TleC",
   "img": "icons/sundries/scrolls/scroll-bound-red.webp",
   "system": {
-    "description": "<p>As a downtime move, you can use a vial of blood to craft a Minor Health Potion.</p>",
+    "description": "<p>Como uma ação de intervalo, você pode usar um frasco de sangue para fabricar uma Poção de Vida Menor.</p>",
     "quantity": 1,
     "actions": {},
     "attribution": {

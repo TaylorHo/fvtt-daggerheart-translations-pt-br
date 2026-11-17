@@ -1,9 +1,9 @@
 {
-  "name": "Blackwing Quill",
+  "name": "Pena de Asanegra",
   "type": "loot",
   "img": "icons/tools/scribal/ink-quill-pink.webp",
   "system": {
-    "description": "<p>This writing quill never runs out of ink or needs to be sharpened.</p>",
+    "description": "<p>Esta pena de escrever nunca fica sem tinta nem precisa ser apontada.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",

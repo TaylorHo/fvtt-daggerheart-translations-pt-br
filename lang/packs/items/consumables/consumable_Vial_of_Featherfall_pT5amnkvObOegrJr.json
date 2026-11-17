@@ -1,9 +1,9 @@
 {
-  "name": "Vial of Featherfall",
+  "name": "Frasco de Queda Suave",
   "type": "consumable",
   "img": "icons/consumables/potions/conical-ornate-purple.webp",
   "system": {
-    "description": "<p>You can drink this potion to ignore damage from falling for the next 10 minutes.</p>",
+    "description": "<p>Você pode beber esta poção para ignorar dano de queda pelos próximos 10 minutos.</p>",
     "quantity": 1,
     "attribution": {
       "source": "Daggerheart SRD H&F",
@@ -52,7 +52,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "range": ""
       }
     }
@@ -60,16 +60,16 @@
   "_id": "pT5amnkvObOegrJr",
   "effects": [
     {
-      "name": "Featherfalling",
+      "name": "Queda Suave",
       "disabled": false,
       "img": "icons/creatures/birds/raptor-hawk-flying.webp",
-      "description": "<p>You ignore damage from falling for the next 10 minutes.</p>",
+      "description": "<p>Você ignora dano de queda pelos próximos 10 minutos.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
         "changes": [],
         "duration": {
-          "description": "<p>10 minutes</p>",
+          "description": "<p>10 minutos</p>",
           "type": "temporary"
         },
         "rangeDependence": null,

@@ -1,10 +1,10 @@
 {
-  "name": "Major Bolster Potion",
+  "name": "Poção do Impulso Maior",
   "type": "consumable",
   "_id": "mnyQDRtngWWQeRXF",
   "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
   "system": {
-    "description": "<p>You gain a +1 bonus to your Strength until your next rest.</p>",
+    "description": "<p>Você ganha um bônus de +1 em sua Força até seu próximo descanso.</p>",
     "quantity": 1,
     "actions": {
       "Z7ehTbRegQvq74tl": {
@@ -40,7 +40,7 @@
           "type": "",
           "amount": null
         },
-        "name": "Drink",
+        "name": "Beber",
         "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
         "range": "",
         "baseAction": false,
@@ -61,7 +61,7 @@
   },
   "effects": [
     {
-      "name": "Major Bolster Potion",
+      "name": "Poção do Impulso Maior",
       "img": "icons/consumables/potions/potion-jar-corked-orange.webp",
       "transfer": false,
       "_id": "3PfXBJy0ZjLBDAIn",

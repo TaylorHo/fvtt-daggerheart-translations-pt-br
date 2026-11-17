@@ -1,10 +1,10 @@
 {
-  "name": "Ring of Unbreakable Resolve",
+  "name": "Anel da Vontade de Ferro",
   "type": "loot",
   "_id": "kn71qCQY0DnjmQBJ",
   "img": "icons/equipment/finger/ring-faceted-gold-teal.webp",
   "system": {
-    "description": "<p>Once per session, when the GM spends a Fear, you can spend 4 Hope to cancel the effects of that spent Fear.</p>",
+    "description": "<p>Uma vez por sessão, quando o Mestre gasta um Medo, você pode gastar 4 Esperança para cancelar os efeitos desse Medo gasto.</p>",
     "quantity": 1,
     "actions": {
       "R92d0DSVEwmqNJhM": {
@@ -35,7 +35,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Use",
+        "name": "Usar",
         "img": "icons/equipment/finger/ring-faceted-gold-teal.webp",
         "range": "",
         "baseAction": false,

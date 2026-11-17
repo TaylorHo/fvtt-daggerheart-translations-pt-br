@@ -1,6 +1,6 @@
 {
   "folder": "OKJC8cHvPuseBHWq",
-  "name": "Singing Sword",
+  "name": "Espada Cantante",
   "type": "weapon",
   "_id": "DdJFKHZ6UqG1X2oR",
   "img": "icons/weapons/swords/shortsword-broad-engraved.webp",
@@ -18,8 +18,8 @@
       "tD3OR33TwHpqDyGy": {
         "type": "healing",
         "chatDisplay": true,
-        "name": "Bolstering",
-        "description": "When you critically succeed on an attack, all PCs within Close range gain a Hope.",
+        "name": "Estimulante",
+        "description": "Quando você obtém sucesso crítico em um ataque, todos os PJs dentro do alcance Próximo ganham uma Esperança.",
         "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
         "damage": {
           "resources": {
@@ -87,7 +87,7 @@
     "secondary": false,
     "burden": "oneHanded",
     "attack": {
-      "name": "Attack",
+      "name": "Ataque",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
       "_id": "uqkwKuG0lNwWx1BN",
       "baseAction": true,

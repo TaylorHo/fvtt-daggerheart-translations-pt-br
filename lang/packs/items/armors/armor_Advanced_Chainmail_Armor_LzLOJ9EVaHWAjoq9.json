@@ -1,6 +1,6 @@
 {
   "folder": "rkSdPu86ybLz6aKF",
-  "name": "Advanced Chainmail Armor",
+  "name": "Armadura de Malha Avançada",
   "type": "armor",
   "_id": "LzLOJ9EVaHWAjoq9",
   "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
@@ -28,9 +28,7 @@
     "itemFeatures": {
       "heavy": {
         "value": "heavy",
-        "effectIds": [
-          "qlzHOAnpBYzosQxK"
-        ],
+        "effectIds": ["qlzHOAnpBYzosQxK"],
         "actionIds": [],
         "config": {}
       }
@@ -38,8 +36,8 @@
   },
   "effects": [
     {
-      "name": "Heavy",
-      "description": "-1 to Evasion",
+      "name": "Pesada",
+      "description": "-1 na Evasão",
       "img": "icons/commodities/metal/ingot-worn-iron.webp",
       "_id": "qlzHOAnpBYzosQxK",
       "type": "base",
