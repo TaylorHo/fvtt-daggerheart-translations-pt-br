@@ -1,5 +1,5 @@
 {
-  "name": "Ghost",
+  "name": "Fantasma",
   "type": "transformation",
   "_id": "RPWodzW2U43Oy8V6",
   "img": "icons/magic/death/undead-ghost-scream-teal.webp",
@@ -9,13 +9,13 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>Ghosts are the spirits of the once-living who are bound to the Mortal Realm.</p>",
+    "description": "<p>Fantasmas são os espíritos de quem um dia viveu e permanece preso ao Reino Mortal.</p>",
     "gmNotes": "",
     "features": [
       "Compendium.daggerheart.transformations.Item.Kz85MBLkNbcZB3Us",
       "Compendium.daggerheart.transformations.Item.ha5HN1sk0JpCG6us"
     ],
-    "questions": "<ul><li><p>How did you die, and what fear has your death instilled in you?</p></li><li><p>What brought you back from beyond the veil of death?</p></li><li><p>In life, you loved someone dearly. Why do you need to find them again?</p></li><li><p>What must you accomplish now that you’ve returned to the Mortal Realm? How will you meet your goal?</p></li><li><p>Who harmed you in your first life? How do you plan to deal with them now that you’ve returned?</p></li><li><p>You had to sacrifice something dear to you in order to come back to the Mortal Realm. What did you give up, and who did you give it to?</p></li></ul>",
+    "questions": "<ul><li><p>Como você morreu, e que medo sua morte despertou em você?</p></li><li><p>O que trouxe você de volta de além do véu da morte?</p></li><li><p>Em vida, você amou alguém profundamente. Por que você precisa encontrar essa pessoa novamente?</p></li><li><p>O que você precisa realizar agora que voltou ao Reino Mortal? Como vai alcançar seu objetivo?</p></li><li><p>Quem fez mal a você em sua primeira vida? Como pretende lidar com essa pessoa agora que voltou?</p></li><li><p>Você teve que sacrificar algo querido para voltar ao Reino Mortal. O que você abriu mão, e para quem entregou?</p></li></ul>",
     "loreReference": "ghost"
   },
   "effects": [],

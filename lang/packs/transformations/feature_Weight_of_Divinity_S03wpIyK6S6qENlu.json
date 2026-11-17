@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Weight of Divinity",
+  "name": "Peso da Divindade",
   "type": "feature",
   "_id": "S03wpIyK6S6qENlu",
   "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you fail a roll, you must mark a Stress or the GM gains a Fear.</p>",
+    "description": "<p>Quando você falha em um teste, deve marcar um Fadiga ou o Mestre ganha um Medo.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

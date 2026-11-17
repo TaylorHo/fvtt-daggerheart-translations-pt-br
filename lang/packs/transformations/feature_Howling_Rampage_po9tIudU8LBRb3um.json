@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Howling Rampage",
+  "name": "Fúria Uivante",
   "type": "feature",
   "_id": "po9tIudU8LBRb3um",
   "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you mark your last Stress while in Wolf Form, you go into a rampage. Roll a number of <strong>d20s</strong> equal to your tier and deal that much physical damage to all creatures within Very Close range, then drop out of Wolf Form.</p>",
+    "description": "<p>Quando você marca seu último Fadiga enquanto estiver na Forma de Lobo, você entra em fúria. Role uma quantidade de <strong>d20</strong> igual ao seu patamar e cause essa quantidade de dano físico a todas as criaturas dentro do alcance Muito Próximo; em seguida, saia da Forma de Lobo.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -31,9 +31,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "physical"
-            ],
+            "type": ["physical"],
             "itemId": null
           },
           "resources": {}
@@ -50,7 +48,7 @@
         "triggers": [],
         "areas": [
           {
-            "name": "Howling Rampage",
+            "name": "Fúria Uivante",
             "type": "placed",
             "shape": "emanation",
             "size": "veryClose",

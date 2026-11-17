@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Won't Stay Dead",
+  "name": "Não Fica Morto",
   "type": "feature",
   "_id": "vbNJ7JMrVXThS6rf",
   "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you choose the Risk It All death move and fail, you can <strong>permanently mark a Hit Point</strong> to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress. When you permanently mark your last Hit Point, you pass through the veil of death.</p>",
+    "description": "<p>Quando você escolhe o movimento mortal Risk It All e falha, pode <strong>marcar permanentemente um Ponto de Vida</strong> para ter sucesso em vez disso. Quando fizer isso, você ainda usa o valor do Dado de Esperança para limpar Pontos de Vida e Fadiga. Quando você marca permanentemente seu último Ponto de Vida, você atravessa o véu da morte.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

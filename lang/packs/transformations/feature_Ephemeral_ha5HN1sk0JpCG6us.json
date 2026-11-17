@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Ephemeral",
+  "name": "Efêmero",
   "type": "feature",
   "_id": "ha5HN1sk0JpCG6us",
   "img": "icons/magic/death/undead-ghost-scream-teal.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage, and can <strong>mark 2 Stress</strong> to momentarily pass through a solid object.</p>",
+    "description": "<p>Seu corpo oscila entre ser corpóreo e não ser. Você é resistente a dano físico, sofre dano mágico em dobro e pode <strong>marcar 2 Fadiga</strong> para atravessar momentaneamente um objeto sólido.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -15,7 +15,7 @@
         "_id": "pBliCoFhJ1tpOfFN",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p><strong>Mark 2 Stress</strong> to momentarily pass through a solid object.</p>",
+        "description": "<p><strong>Marque 2 Fadiga</strong> para atravessar momentaneamente um objeto sólido.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -44,7 +44,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },
@@ -54,7 +54,7 @@
   },
   "effects": [
     {
-      "name": "Ephemeral",
+      "name": "Efêmero",
       "type": "base",
       "system": {
         "changes": [
@@ -92,7 +92,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage.</p>",
+      "description": "<p>Seu corpo oscila entre ser corpóreo e não ser. Você é resistente a dano físico e sofre dano mágico em dobro.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

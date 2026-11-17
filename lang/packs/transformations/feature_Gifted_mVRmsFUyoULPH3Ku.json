@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Gifted",
+  "name": "Dotado",
   "type": "feature",
   "_id": "mVRmsFUyoULPH3Ku",
   "img": "icons/magic/control/buff-luck-fortune-green-gold.webp",
   "system": {
     "attribution": {},
-    "description": "<p>You gain a +1 bonus to action, reaction, and damage rolls.</p>",
+    "description": "<p>Você ganha um bônus de +1 nos testes de ação, de reação e nas rolagens de dano.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},
@@ -16,7 +16,7 @@
   },
   "effects": [
     {
-      "name": "Gifted",
+      "name": "Dotado",
       "type": "base",
       "system": {
         "changes": [
@@ -45,10 +45,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "action",
-              "reaction"
-            ],
+            "actionTypes": ["action", "reaction"],
             "traits": []
           }
         ]
@@ -70,7 +67,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>You gain a +1 bonus to action, reaction, and damage rolls.</p>",
+      "description": "<p>Você ganha um bônus de +1 nos testes de ação, de reação e nas rolagens de dano.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],

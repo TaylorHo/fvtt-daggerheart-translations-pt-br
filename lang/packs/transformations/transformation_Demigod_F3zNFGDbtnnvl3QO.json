@@ -1,5 +1,5 @@
 {
-  "name": "Demigod",
+  "name": "Semideus",
   "type": "transformation",
   "_id": "F3zNFGDbtnnvl3QO",
   "img": "icons/magic/control/control-influence-rally-purple.webp",
@@ -10,13 +10,13 @@
       "artist": "",
       "campaignFrame": ""
     },
-    "description": "<p>Demigods are mortal creatures whose veins flow with the blood of the gods.</p>",
+    "description": "<p>Semideuses são criaturas mortais em cujas veias corre o sangue dos deuses.</p>",
     "gmNotes": "",
     "features": [
       "Compendium.daggerheart.transformations.Item.mVRmsFUyoULPH3Ku",
       "Compendium.daggerheart.transformations.Item.S03wpIyK6S6qENlu"
     ],
-    "questions": "<ul><li><p>Your divinity has affected an aspect of your appearance. In what way do you look different from others?</p></li><li><p>Who bestowed demigod status upon you, and what trial did you complete to earn this gift?</p></li><li><p>You were made fun of as a child for your divine parentage. Why?</p></li><li><p>Why was the knowledge that you are a demigod kept from you for many years? Who kept this secret?</p></li><li><p>You have an obligation you must fulfill due to the immortal blood that runs in your veins. What is this duty?</p></li><li><p>In what way did your divinity initially manifest? Why did it surprise you?</p></li></ul>",
+    "questions": "<ul><li><p>Sua divindade afetou um aspecto da sua aparência. De que maneira você parece diferente dos outros?</p></li><li><p>Quem concedeu a você o status de semideus, e que provação você completou para merecer esse presente?</p></li><li><p>Zombaram de você quando criança por sua ascendência divina. Por quê?</p></li><li><p>Por que o fato de você ser um semideus foi mantido em segredo de você por muitos anos? Quem guardou esse segredo?</p></li><li><p>Você tem uma obrigação a cumprir por causa do sangue imortal que corre em suas veias. Qual é esse dever?</p></li><li><p>De que maneira sua divindade se manifestou inicialmente? Por que isso surpreendeu você?</p></li></ul>",
     "loreReference": "demigod"
   },
   "effects": [],

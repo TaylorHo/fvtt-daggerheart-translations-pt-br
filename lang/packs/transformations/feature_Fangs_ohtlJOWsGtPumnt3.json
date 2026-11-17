@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Fangs",
+  "name": "Presas",
   "type": "feature",
   "_id": "ohtlJOWsGtPumnt3",
   "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Make an attack using a trait of your choice to bite a target within Melee range. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>",
+    "description": "<p>Faça um ataque usando um atributo de sua escolha para morder um alvo dentro do alcance Corpo a Corpo. Em um sucesso, cause <strong>d6</strong> de dano físico usando sua Proficiência.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -31,9 +31,7 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": [
-              "physical"
-            ],
+            "type": ["physical"],
             "itemId": null
           },
           "resources": {}

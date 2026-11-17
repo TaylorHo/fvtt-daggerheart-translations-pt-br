@@ -1,5 +1,5 @@
 {
-  "name": "Reanimated",
+  "name": "Reanimado",
   "type": "transformation",
   "_id": "xPhDxFEaLc4ybhzS",
   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
@@ -9,13 +9,13 @@
       "page": null,
       "artist": ""
     },
-    "description": "<p>Reanimated are corpses who have been brought back to life.</p>",
+    "description": "<p>Reanimados são cadáveres que foram trazidos de volta à vida.</p>",
     "gmNotes": "",
     "features": [
       "Compendium.daggerheart.transformations.Item.ma7W7ZS1Ro02b7cZ",
       "Compendium.daggerheart.transformations.Item.vbNJ7JMrVXThS6rf"
     ],
-    "questions": "<ul><li><p>How did you first die, and how has that death affected your view on life?</p></li><li><p>A fragment of memory from your first life haunts you. What is the memory, and why do you think it’s important?</p></li><li><p>You had a dream for your life that you now believe you can never reach. What was your dream, and why do you think being reanimated makes it impossible to fulfill?</p></li><li><p>How were you brought back from the dead, and how did the process change your body?</p></li><li><p>Someone brought you back from death. Who were they, and how do you feel about this person and what they did to you?</p></li><li><p>In the brief time you passed through the veil of death, you saw something that changed you forever. What was it?</p></li></ul>",
+    "questions": "<ul><li><p>Como você morreu pela primeira vez, e como essa morte afetou sua visão da vida?</p></li><li><p>Um fragmento de memória da sua primeira vida assombra você. Qual é essa memória, e por que você acha que ela é importante?</p></li><li><p>Você tinha um sonho para a sua vida que agora acredita nunca poder alcançar. Qual era o sonho, e por que você acha que ser reanimado o torna impossível de realizar?</p></li><li><p>Como você foi trazido de volta dos mortos, e como o processo mudou seu corpo?</p></li><li><p>Alguém trouxe você de volta da morte. Quem foi, e o que você sente por essa pessoa e pelo que ela fez com você?</p></li><li><p>No breve tempo em que atravessou o véu da morte, você viu algo que o mudou para sempre. O que foi?</p></li></ul>",
     "loreReference": "reanimated"
   },
   "effects": [],

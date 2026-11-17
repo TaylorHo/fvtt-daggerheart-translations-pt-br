@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Wolf Form",
+  "name": "Forma de Lobo",
   "type": "feature",
   "_id": "m0lRcWjXdqGW4StE",
   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
   "system": {
     "attribution": {},
-    "description": "<p>When you mark 1 or more Hit Points, you can <strong>mark a Stress</strong> to enter your Wolf Form. While in this form, you gain a <strong>1d10</strong> bonus to attack and damage rolls. When you roll with Hope while in Wolf Form, you must mark a Stress. Your Wolf Form lasts until you go into your \"Howling Rampage\" or take a rest.</p>",
+    "description": "<p>Quando você marca 1 ou mais Pontos de Vida, pode <strong>marcar um Fadiga</strong> para assumir sua Forma de Lobo. Enquanto estiver nesta forma, você ganha um bônus de <strong>1d10</strong> nos testes de ataque e nas rolagens de dano. Quando você rola com Esperança na Forma de Lobo, deve marcar um Fadiga. Sua Forma de Lobo dura até você entrar em \"Fúria Uivante\" ou fazer um descanso.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {
@@ -49,7 +49,7 @@
           "type": "self",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": "self"
       }
     },
@@ -59,10 +59,10 @@
   },
   "effects": [
     {
-      "name": "Wolf Form",
+      "name": "Forma de Lobo",
       "disabled": false,
       "img": "icons/creatures/mammals/wolf-shadow-black.webp",
-      "description": "<p>While in this form, you gain a <strong>1d10</strong> bonus to attack and damage rolls. When you roll with Hope while in Wolf Form, you must also mark a Stress. Your Wolf Form lasts until you go into your \"Howling Rampage\" or take a rest.</p>",
+      "description": "<p>Enquanto estiver nesta forma, você ganha um bônus de <strong>1d10</strong> nos testes de ataque e nas rolagens de dano. Quando você rola com Esperança na Forma de Lobo, deve também marcar um Fadiga. Sua Forma de Lobo dura até você entrar em \"Fúria Uivante\" ou fazer um descanso.</p>",
       "transfer": false,
       "statuses": [],
       "system": {
@@ -92,9 +92,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]

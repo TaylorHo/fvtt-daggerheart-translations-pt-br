@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Only Skin Deep",
+  "name": "Apenas na Superfície",
   "type": "feature",
   "_id": "qXA130mgMnvPZfNF",
   "img": "icons/commodities/biological/hand-clawed-blue.webp",
   "system": {
     "attribution": {},
-    "description": "<p>You gain the benefit of only one of your chosen ancestry's features, which you select when you choose the ancestry. You can use a downtime move to choose a different feature from that ancestry.</p>",
+    "description": "<p>Você recebe o benefício de apenas uma das características da ancestralidade escolhida, que você seleciona ao escolher a ancestralidade. Você pode usar uma ação de intervalo para escolher uma característica diferente dessa ancestralidade.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

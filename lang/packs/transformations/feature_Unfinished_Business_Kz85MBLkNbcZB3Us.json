@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Unfinished Business",
+  "name": "Assuntos Pendentes",
   "type": "feature",
   "_id": "Kz85MBLkNbcZB3Us",
   "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
   "system": {
     "attribution": {},
-    "description": "<p>Work with your GM to decide what purpose or desire keeps you bound to the Mortal Realm. When you fulfill it, you cross through the veil of death.</p>",
+    "description": "<p>Trabalhe com seu Mestre para decidir qual propósito ou desejo mantém você preso ao Reino Mortal. Quando você o cumprir, atravessa o véu da morte.</p>",
     "gmNotes": "",
     "resource": null,
     "actions": {},

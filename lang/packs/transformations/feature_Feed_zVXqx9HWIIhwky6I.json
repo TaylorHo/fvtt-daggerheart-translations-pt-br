@@ -1,12 +1,12 @@
 {
   "folder": "D98dAGIivYnU7ing",
-  "name": "Feed",
+  "name": "Alimentar-se",
   "type": "feature",
   "_id": "zVXqx9HWIIhwky6I",
   "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
   "system": {
     "attribution": {},
-    "description": "<p>On a successful \"Fangs\" attack against a creature that can bleed, you can <strong>mark a Stress</strong> to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks. You can hold up to 6 tokens at a time. Before you make an action roll, you can spend a token to make your Fear Die a <strong>d20</strong>. When you take a long rest, remove a token. While there are no tokens on this card, you make action and reaction rolls with disadvantage.</p>",
+    "description": "<p>Em um ataque bem-sucedido com \"Presas\" contra uma criatura que possa sangrar, você pode <strong>marcar um Fadiga</strong> para se alimentar. Coloque nesta carta uma quantidade de fichas igual ao número de Pontos de Vida que o alvo marca. Você pode ter até 6 fichas por vez. Antes de fazer um teste de ação, você pode gastar uma ficha para transformar seu Dado de Medo em um <strong>d20</strong>. Quando você faz um descanso longo, remova uma ficha. Enquanto não houver fichas nesta carta, você faz testes de ação e de reação com desvantagem.</p>",
     "gmNotes": "",
     "resource": {
       "type": "simple",
@@ -24,7 +24,7 @@
         "_id": "aIjaPMtGneklpOgS",
         "systemPath": "actions",
         "baseAction": false,
-        "description": "<p>On a successful \"Fangs\" attack against a creature that can bleed, you can <strong>mark a Stress</strong> to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks.</p>",
+        "description": "<p>Em um ataque bem-sucedido com \"Presas\" contra uma criatura que possa sangrar, você pode <strong>marcar um Fadiga</strong> para se alimentar. Coloque nesta carta uma quantidade de fichas igual ao número de Pontos de Vida que o alvo marca.</p>",
         "chatDisplay": true,
         "originItem": {
           "type": "itemCollection"
@@ -53,7 +53,7 @@
           "type": "any",
           "amount": null
         },
-        "name": "Mark Stress",
+        "name": "Marcar Fadiga",
         "range": ""
       }
     },
