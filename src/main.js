@@ -41,7 +41,12 @@ const TEXT_KEYS = new Set([
   "questions",
   "backgroundQuestions",
   "connections",
+  "formulaName",
 ]);
+
+// Translated by path: "value" is only text under advantageOn.<id>.
+const isText = (key, path) =>
+  TEXT_KEYS.has(key) || /(^|\.)advantageOn\.[^.]+\.value$/.test(path);
 
 const fetchJSON = (path) =>
   fetch(foundry.utils.getRoute(PACKS + path))
@@ -67,18 +72,19 @@ const packEntries = async (collection) =>
     : {};
 
 /** Copy translatable strings from tr into src, matching arrays by _id (or position). */
-function merge(src, tr, key) {
-  if (typeof tr === "string") return TEXT_KEYS.has(key) ? tr : src;
+function merge(src, tr, key, path = "") {
+  if (typeof tr === "string") return isText(key, path) ? tr : src;
   if (Array.isArray(tr)) {
     if (!Array.isArray(src)) return src;
     tr.forEach((t, i) => {
       const j = t?._id ? src.findIndex((s) => s?._id === t._id) : i;
-      if (j >= 0 && j < src.length) src[j] = merge(src[j], t, key);
+      if (j >= 0 && j < src.length) src[j] = merge(src[j], t, key, path);
     });
     return src;
   }
   if (tr && typeof tr === "object" && src && typeof src === "object") {
-    for (const k in tr) if (k in src) src[k] = merge(src[k], tr[k], k);
+    for (const k in tr)
+      if (k in src) src[k] = merge(src[k], tr[k], k, path ? `${path}.${k}` : k);
   }
   return src;
 }
