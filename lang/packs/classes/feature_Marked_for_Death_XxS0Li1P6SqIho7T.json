@@ -6,8 +6,9 @@
   "img": "icons/magic/death/skull-trio-badge-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Em um ataque com arma bem-sucedido, você pode <strong>marcar 1 Fadiga</strong> para fazer do alvo uma <em>Marca da Morte</em>. Quando você causar dano a um alvo que marcou com a <em>Marca da Morte</em>, some à jogada de dano uma quantidade de <strong>d4</strong> igual ao seu patamar.</p><p>Você só pode ter um adversário com a <em>Marca da Morte</em> por vez. Essa condição dura até você fazer um descanso, o adversário atual com a <em>Marca da Morte</em> ser derrotado, ou o Mestre gastar uma quantidade de Medo igual ao seu patamar para removê-la.</p>",
     "gmNotes": "",

@@ -9,8 +9,9 @@
     "impulses": "Encontrar a verdade, aplicar a justiça, anular seus poderes",
     "difficulty": 20,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "Dh1UipXuHjMyzcbU": {

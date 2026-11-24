@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber esta poção para fazer brotar pequenas asas nos seus tornozelos que lhe dão um bônus na Evasão igual ao seu patamar até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

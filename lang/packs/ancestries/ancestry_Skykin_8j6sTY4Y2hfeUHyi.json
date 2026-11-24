@@ -5,10 +5,11 @@
   "system": {
     "loreReference": "skykin",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Celestinos são humanoides cujo corpo é feito de carne e ar.</p>",
     "gmNotes": "",

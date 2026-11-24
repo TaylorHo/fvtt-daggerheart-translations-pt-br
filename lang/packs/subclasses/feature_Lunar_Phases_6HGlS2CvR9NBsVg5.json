@@ -6,8 +6,9 @@
   "img": "icons/magic/nature/moon-crescent.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>No início de cada sessão, role um <strong>[[/r d6]]</strong> e coloque-o nesta carta. Você ganha o efeito correspondente até o fim da sessão.</p><table><thead><tr><td><p>Rolagem</p></td><td><p>Fase</p></td><td><p>Efeito</p></td></tr></thead><tbody><tr><td><p><strong>1</strong></p></td><td><p>Nova</p></td><td><p>Gaste 1 de Esperança para anular dano Menor.</p></td></tr><tr><td><p><strong>2–3</strong></p></td><td><p>Crescente</p></td><td><p>+2 nas jogadas de dano</p></td></tr><tr><td><p><strong>4</strong></p></td><td><p>Cheia</p></td><td><p>+3 nos limiares de dano</p></td></tr><tr><td><p><strong>5–6</strong></p></td><td><p>Minguante</p></td><td><p>+1 de Evasão</p></td></tr></tbody></table><p>Uma vez por descanso, você pode <strong>gastar 1 de Esperança</strong> para aumentar o valor deste dado em um. Se você aumentar o valor de um 6, ele se torna 1.</p>",
     "gmNotes": "",

@@ -9,8 +9,9 @@
     "impulses": "Confrontá-los com costumes alienígenas, deslumbrá-los com variedade infinita, tentá-los com o impossível",
     "difficulty": 20,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "5si048Lyh4c7sUrE": {

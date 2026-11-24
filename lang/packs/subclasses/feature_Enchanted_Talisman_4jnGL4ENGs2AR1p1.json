@@ -6,8 +6,9 @@
   "img": "icons/commodities/treasure/brooch-gold-eye-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, você pode imbuir um item pequeno com sua essência protetora. <strong>Gaste qualquer quantidade de Esperança</strong> para colocar a mesma quantidade de fichas nesta carta. Quando a pessoa que carrega o talismã sofrer dano, gaste uma ficha para reduzir em um o número de Pontos de Vida que ela marca. Limpe todas as fichas desta carta quando você fizer um descanso.</p>",
     "gmNotes": "",

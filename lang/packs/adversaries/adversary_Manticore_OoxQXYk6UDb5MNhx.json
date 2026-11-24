@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -234,7 +237,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["attack"],
+                "actionTypes": [
+                  "attack"
+                ],
                 "traits": []
               }
             ]
@@ -309,7 +314,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -474,7 +481,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -553,7 +562,9 @@
           "img": "icons/commodities/biological/stinger-insect-grey.webp",
           "description": "<p>Você fica <em>Restrito</em> até superar a toxina com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -665,7 +676,10 @@
           "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
           "description": "<p>Você fica <em>Restrito</em> e <em>Vulnerável</em> até escapar com um Teste de Força bem-sucedido (19).</p>",
           "transfer": true,
-          "statuses": ["restrained", "vulnerable"],
+          "statuses": [
+            "restrained",
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

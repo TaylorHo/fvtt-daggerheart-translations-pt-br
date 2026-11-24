@@ -68,7 +68,9 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -120,9 +122,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -413,7 +416,9 @@
           },
           "description": "<p><em>Vulnerável</em> até o seu próximo descanso ou até você limpar 1 PV.</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -485,7 +490,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

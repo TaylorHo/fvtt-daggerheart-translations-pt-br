@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/hand-weapon-glow-black-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Favor</strong> para rolar novamente qualquer quantidade dos seus dados de dano. Você pode continuar gastando Favor para usar esta habilidade na mesma jogada de dano.</p>",
     "gmNotes": "",

@@ -50,7 +50,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -101,9 +103,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -112,7 +115,9 @@
       "lucky": {
         "value": "lucky",
         "effectIds": [],
-        "actionIds": ["AtVHF6Y00zLo8W5G"],
+        "actionIds": [
+          "AtVHF6Y00zLo8W5G"
+        ],
         "config": {}
       }
     }

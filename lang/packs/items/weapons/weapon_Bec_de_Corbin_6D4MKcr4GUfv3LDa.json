@@ -6,9 +6,10 @@
   "img": "icons/weapons/hammers/hammer-war-rounding.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -87,7 +88,9 @@
       },
       "damage": {
         "main": {
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -150,7 +153,9 @@
       "devastating": {
         "value": "devastating",
         "effectIds": [],
-        "actionIds": ["hsPKe9xRQlcMwR9v"],
+        "actionIds": [
+          "hsPKe9xRQlcMwR9v"
+        ],
         "config": {}
       }
     }

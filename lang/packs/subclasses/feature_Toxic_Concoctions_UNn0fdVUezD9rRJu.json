@@ -6,8 +6,9 @@
   "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Marque 1 Fadiga</strong> para colocar <strong>1d4+1</strong> fichas nesta carta. Quando você fizer um ataque com arma bem-sucedido, pode gastar uma ficha para afligir o alvo com um veneno. Você conhece estes venenos:</p><ul><li><p><strong>Pétala Fantasma:</strong> O alvo fica temporariamente <em>Vulnerável</em>.</p></li><li><p><strong>Esporo Sepulcral:</strong> O alvo também deve marcar 1 Fadiga.</p></li><li><p><strong>Erva Sanguessuga:</strong> Você causa <strong>1d6</strong> de dano extra neste ataque.</p></li></ul><p>Quando você fizer um descanso longo, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",
@@ -195,7 +196,9 @@
       "img": "icons/magic/nature/plant-undersea-orb-purple.webp",
       "description": "<p>O alvo fica temporariamente <em>Vulnerável</em>.</p>",
       "transfer": false,
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "system": {
         "changes": [],
         "duration": {

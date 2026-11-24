@@ -43,9 +43,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": ""
   },
@@ -75,7 +76,9 @@
       },
       "description": "<p>Você fica Escondido até se mover. Enquanto estiver Escondido dessa forma, você permanece invisível mesmo que um adversário se mova para onde normalmente o veria.</p>",
       "tint": "#ffffff",
-      "statuses": ["hidden"],
+      "statuses": [
+        "hidden"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

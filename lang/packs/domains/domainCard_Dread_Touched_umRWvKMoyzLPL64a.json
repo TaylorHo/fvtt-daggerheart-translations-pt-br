@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 7,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando 4 ou mais das cartas de domínio no seu carregamento forem do domínio Pavor, receba os seguintes benefícios:</p><ul><li><p>Quando você tem sucesso com Medo, pode <strong>marcar 2 Fadiga</strong> para impedir que o Mestre ganhe um Medo.</p></li><li><p>Uma vez por descanso, ao fazer um teste de ação, você pode receber um bônus no teste igual ao número de Medo na reserva do Mestre.</p></li></ul>",
     "gmNotes": "",

@@ -23,9 +23,10 @@
     "type": "social",
     "impulses": "Justificar e perpetuar o domínio imperial, seduzir rivais com promessas de poder e conforto",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

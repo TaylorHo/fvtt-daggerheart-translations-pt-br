@@ -6,8 +6,9 @@
   "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, marque um círculo no chão delimitando uma área Muito Próxima ao seu redor e coloque nesta carta uma quantidade de fichas igual ao seu atributo de Conjuração. Enquanto estiverem dentro deste círculo, você e seus aliados ganham +2 de bônus nos limiares de dano, nas jogadas de ataque e na Evasão. Remova uma ficha cada vez que você ou um aliado dentro do círculo fizer uma jogada de ação ou evitar um ataque. Este feitiço dura até a última ficha ser removida ou você sair do círculo.</p>",
     "gmNotes": "",
@@ -41,7 +42,9 @@
             "shape": "emanation",
             "size": "veryClose",
             "hasHole": false,
-            "effects": ["YMhiEmt31R0s5MH0"]
+            "effects": [
+              "YMhiEmt31R0s5MH0"
+            ]
           }
         ],
         "cost": [],
@@ -147,11 +150,15 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [1],
+        "targetDispositions": [
+          1
+        ],
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": ["attack"],
+            "actionTypes": [
+              "attack"
+            ],
             "traits": []
           }
         ]

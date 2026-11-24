@@ -8,9 +8,10 @@
     "quantity": 1,
     "actions": {},
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": ""
   },

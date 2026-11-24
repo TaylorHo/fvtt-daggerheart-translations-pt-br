@@ -46,9 +46,10 @@
     },
     "examples": "Lula-Gigante, Baleia etc.",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "effects": [
@@ -91,7 +92,9 @@
             "phase": "initial",
             "value": {
               "name": "DAGGERHEART.ITEMS.Beastform.attackName",
-              "damageTypes": ["physical"],
+              "damageTypes": [
+                "physical"
+              ],
               "attackRange": "melee",
               "trait": "agility",
               "damageFormula": "@profd10 + 10",

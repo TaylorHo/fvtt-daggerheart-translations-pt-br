@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -359,7 +362,9 @@
       "name": "Vulnerável",
       "description": "Enquanto uma criatura está Vulnerável, todas as rolagens que a têm como alvo têm vantagem.\nUma criatura que já está Vulnerável não pode receber a condição novamente.",
       "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "flags": {
         "daggerheart": {
           "autoApplyFlagId": "auto-vulnerable"

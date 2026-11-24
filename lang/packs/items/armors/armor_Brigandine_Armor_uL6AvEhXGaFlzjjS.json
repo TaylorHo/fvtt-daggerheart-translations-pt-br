@@ -6,9 +6,10 @@
   "img": "icons/equipment/chest/breastplate-collared-leather-grey.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "lined": {
         "value": "lined",
-        "effectIds": ["Qqdax2Dl4UHB9TxB"],
+        "effectIds": [
+          "Qqdax2Dl4UHB9TxB"
+        ],
         "actionIds": [],
         "config": {}
       }

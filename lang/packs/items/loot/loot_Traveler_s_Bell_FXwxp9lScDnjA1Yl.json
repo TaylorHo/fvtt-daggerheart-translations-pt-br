@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por descanso longo, você pode tocar este sino para abrir magicamente o caminho seguro mais curto através de terreno acidentado por 1 hora.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

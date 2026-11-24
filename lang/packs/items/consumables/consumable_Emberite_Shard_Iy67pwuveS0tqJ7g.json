@@ -5,9 +5,10 @@
   "img": "icons/commodities/gems/gem-rough-cushion-red-white.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Escolha um ponto dentro do alcance Distante. Todos os alvos dentro do alcance Próximo desse ponto devem ser bem-sucedidos em um Teste de Reação (16) ou sofrer 3d6 de dano mágico e ficar temporariamente Em Chamas. Enquanto Em Chamas, uma criatura deve rolar um d4 sempre que fizer um teste de ação. Em um resultado 1, ela marca um Ponto de Vida. Em um resultado 4, ela remove a condição Em Chamas.</p>",
     "gmNotes": "",
@@ -34,7 +35,9 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": ["magical"],
+            "type": [
+              "magical"
+            ],
             "itemId": null
           },
           "resources": {}

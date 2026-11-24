@@ -34,9 +34,10 @@
     "type": "exploration",
     "impulses": "Marcar um ritmo sobrenatural para todos seguirem, corromper a floresta",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},
@@ -284,7 +285,10 @@
           },
           "description": "<p><em>Imobilizado</em> e <em>Vulnerável</em> até se libertar, removendo ambas as condições, com um Teste de Acuidade ou Força bem-sucedido ou causando 10 de dano às vinhas. Quando o alvo faz um teste para escapar, sofre <strong>1d8+4</strong> de dano físico e perde 1 de Esperança.</p><section id=\"secret-Eui1zx8GKoUhEXq6\" class=\"secret\"><p><em>Que memórias dolorosas as vinhas trazem à tona ao perfurar a carne?</em></p></section>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable", "restrained"],
+          "statuses": [
+            "vulnerable",
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -345,7 +349,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -453,7 +459,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

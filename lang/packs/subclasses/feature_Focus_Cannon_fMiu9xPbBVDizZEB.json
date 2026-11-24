@@ -6,8 +6,9 @@
   "img": "icons/magic/light/beam-rays-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Foco</strong> para fazer uma Jogada de Instinto contra um adversário em alcance Distante. Em caso de sucesso, cause <strong>d20+3</strong> de dano mágico usando sua Proficiência.</p>",
     "gmNotes": "",
@@ -34,7 +35,9 @@
             "valueAlt": null,
             "includeBase": false,
             "direct": false,
-            "type": ["magical"],
+            "type": [
+              "magical"
+            ],
             "itemId": null
           },
           "resources": {}

@@ -6,8 +6,9 @@
   "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Favor</strong> para aumentar o alcance da sua arma principal em um nível (como de Corpo a Corpo para Muito Próximo ou de Muito Próximo para Próximo), até um máximo de alcance Muito Distante. Este efeito termina quando você fizer um ataque bem-sucedido com essa arma.</p>",
     "gmNotes": "",

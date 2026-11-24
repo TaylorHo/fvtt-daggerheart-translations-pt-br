@@ -6,9 +6,10 @@
     "description": "<p>Esta folha finíssima de vidro vulcânico é usada por arquivistas para fazer anotações. Qualquer informação gravada em sua superfície desaparece, mas pode ser recuperada por meio de um comando que você define.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

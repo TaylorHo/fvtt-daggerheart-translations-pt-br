@@ -6,8 +6,9 @@
   "img": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Na primeira vez em uma cena em que você for bem-sucedido em um ataque, você causa o dobro de dano.</p>",
     "gmNotes": "",

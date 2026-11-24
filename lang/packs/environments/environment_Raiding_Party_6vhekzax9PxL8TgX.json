@@ -9,8 +9,9 @@
     "impulses": "Atear fogo, dominar com velocidade e números, levar tudo o que não estiver pregado",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "Z1qk14bnBBCM7Tnq": {
@@ -222,7 +223,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

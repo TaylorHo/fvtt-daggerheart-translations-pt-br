@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você pode falar magicamente com uma criatura que consiga ver, atormentando-a com suas palavras. Faça um <strong>Teste de Conjuração</strong> contra ela. Em caso de sucesso, ela deve marcar um Fadiga e fica paralisada de terror, ficando temporariamente <em>Restringida</em>.</p>",
     "gmNotes": "",

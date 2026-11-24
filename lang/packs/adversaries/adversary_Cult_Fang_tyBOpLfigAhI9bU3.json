@@ -68,7 +68,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -120,9 +122,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -418,7 +421,9 @@
           },
           "description": "",
           "tint": "#ffffff",
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

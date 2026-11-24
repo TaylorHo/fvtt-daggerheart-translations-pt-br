@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 10,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você causa dano dobrado a alvos que tenham todo o seu Fadiga marcado.</p><p>Além disso, quando um adversário dentro do alcance Próximo é derrotado com todo o seu Fadiga marcado, você ganha uma Esperança.</p>",
     "gmNotes": "",

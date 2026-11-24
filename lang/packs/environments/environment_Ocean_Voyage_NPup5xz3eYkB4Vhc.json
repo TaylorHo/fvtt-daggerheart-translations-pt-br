@@ -9,8 +9,9 @@
     "impulses": "Revelar o que espreita sob as ondas, enviá-los na direção errada, afundar o navio, esgotar seus recursos",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "1jkJtSVsk6R7dwt6": {

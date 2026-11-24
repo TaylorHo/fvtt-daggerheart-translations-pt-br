@@ -9,8 +9,9 @@
     "impulses": "Expressar a cultura e a história locais, forjar novas relações, fortalecer a comunidade",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "LTxP8vZW7KiVkU7l": {
@@ -223,7 +224,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

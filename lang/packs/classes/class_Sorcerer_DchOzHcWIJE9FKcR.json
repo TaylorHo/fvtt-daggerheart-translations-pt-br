@@ -5,7 +5,10 @@
   "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
   "system": {
     "description": "<p>Nem todos os usuários de magia inata escolhem aprimorar seu ofício, mas aqueles que o fazem podem se tornar poderosos feiticeiros. Os dons desses condutores são passados por famílias, mesmo que a família desconheça ou relute em praticá-los. As habilidades de um feiticeiro podem variar do elemental ao ilusório e além, e muitos praticantes se reúnem em coletivos baseados em seus talentos. Tornar-se um feiticeiro formidável não é a prática de adquirir poder, mas de aprender a cultivar e controlar o poder que já se possui. A magia de um feiticeiro desorientado ou indisciplinado é, de fato, uma força perigosa.</p>",
-    "domains": ["arcana", "midnight"],
+    "domains": [
+      "arcana",
+      "midnight"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 10,
@@ -57,9 +60,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "O que você fez que deixou as pessoas da sua comunidade desconfiadas de você?",

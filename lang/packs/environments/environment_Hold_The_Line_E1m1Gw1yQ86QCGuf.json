@@ -9,8 +9,9 @@
     "impulses": "Lançar ondas de inimigos contra as margens do grupo, nunca deixá-los respirar, mirar no Protegido",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {},
     "notes": ""

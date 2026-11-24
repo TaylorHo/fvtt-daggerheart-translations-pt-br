@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/hands-circle-light-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, <strong>gaste qualquer quantidade de Favor</strong> para rolar a mesma quantidade de Dados de Patrono. Para cada resultado 4 ou maior, limpe 1 Ponto de Vida.</p>",
     "gmNotes": "",

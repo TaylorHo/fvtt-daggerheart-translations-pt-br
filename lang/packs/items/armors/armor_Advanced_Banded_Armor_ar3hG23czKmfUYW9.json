@@ -6,9 +6,10 @@
   "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": ["clo7We2aUibWdsmD"],
+        "effectIds": [
+          "clo7We2aUibWdsmD"
+        ],
         "actionIds": [],
         "config": {}
       }

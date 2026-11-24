@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -227,7 +230,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -315,7 +320,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -381,7 +388,9 @@
           "img": "icons/magic/time/hourglass-tilted-gray.webp",
           "description": "<p>Você fica Lento até rolar com Esperança. Enquanto estiver Lento, você fica <em>Vulnerável</em> e deve marcar 1 Fadiga quando se mover.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -459,7 +468,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

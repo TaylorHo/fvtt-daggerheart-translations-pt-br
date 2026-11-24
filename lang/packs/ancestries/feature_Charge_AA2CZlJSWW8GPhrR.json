@@ -44,7 +44,9 @@
               "bonus": null
             },
             "applyTo": "hitPoints",
-            "type": ["magical"],
+            "type": [
+              "magical"
+            ],
             "base": false,
             "resultBased": false,
             "valueAlt": null,
@@ -72,9 +74,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,

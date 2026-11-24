@@ -5,9 +5,10 @@
   "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Vampiros são criaturas mortas-vivas de presas afiadas que se alimentam do sangue dos vivos.</p>",
     "gmNotes": "",

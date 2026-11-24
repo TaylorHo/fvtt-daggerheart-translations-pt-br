@@ -6,9 +6,10 @@
     "description": "<p>Quando você marcaria um Fadiga para recarregar uma arma, você não o marca.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

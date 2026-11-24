@@ -6,9 +6,10 @@
     "description": "<p>Você pode arremessar esta semente em um ponto que consiga ver. Ela explode em um emaranhado de trepadeiras que temporariamente Restringe todas as criaturas dentro do alcance Próximo desse ponto.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",
@@ -74,7 +75,9 @@
       "img": "icons/consumables/plants/thorned-curled-vine-green.webp",
       "description": "",
       "transfer": false,
-      "statuses": ["restrained"],
+      "statuses": [
+        "restrained"
+      ],
       "system": {
         "changes": [],
         "duration": {

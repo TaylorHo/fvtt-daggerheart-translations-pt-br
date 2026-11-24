@@ -6,9 +6,10 @@
     "description": "<p>Este pó faz com que tudo o que ele cobre fique mais leve que o ar. Um pacote contém pó suficiente para cobrir o conteúdo de uma cesta de piquenique, e os efeitos duram uma hora.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

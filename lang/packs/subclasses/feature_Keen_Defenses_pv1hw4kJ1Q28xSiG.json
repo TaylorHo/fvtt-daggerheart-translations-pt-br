@@ -6,8 +6,9 @@
   "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você for alvo de um ataque, pode <strong>gastar 1 de Foco</strong> para ganhar um bônus na sua Evasão igual ao seu patamar contra o ataque.</p>",
     "gmNotes": "",

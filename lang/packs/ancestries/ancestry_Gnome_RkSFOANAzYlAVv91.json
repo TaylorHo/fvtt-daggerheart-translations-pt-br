@@ -5,10 +5,11 @@
   "system": {
     "loreReference": "gnome",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Gnomos são tipicamente humanoides pequenos de cabeça cônica e com a capacidade de se teletransportar por curtas distâncias.</p>",
     "gmNotes": "",

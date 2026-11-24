@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 8,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Receba um bônus de +1 nos seus limiares de dano para cada Fadiga que você tenha marcado.</p><p>Além disso, quando você rola com Medo, pode <strong>gastar 2 Esperança</strong> para limpar um Espaço de Armadura.</p>",
     "gmNotes": "",

@@ -5,14 +5,17 @@
   "system": {
     "loreReference": "hearthborne",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Fazer parte de uma comunidade Nascida no Lar significa que você vem de origens humildes, tendo vivido em uma vila modesta ou em um campo pitoresco.</p>",
     "gmNotes": "",
-    "features": ["Compendium.daggerheart.communities.Item.u5OSsvjcD8tvf5Gc"]
+    "features": [
+      "Compendium.daggerheart.communities.Item.u5OSsvjcD8tvf5Gc"
+    ]
   },
   "_id": "wbI1Im48QmZA1UIE",
   "img": "icons/environment/settlement/house-farmland-small.webp",

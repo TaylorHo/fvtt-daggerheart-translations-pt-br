@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -214,7 +217,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -305,7 +310,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -460,7 +467,9 @@
           "img": "icons/skills/melee/strike-slashes-orange.webp",
           "description": "<p>Você fica <em>Restringido</em> até ter sucesso em um Teste de Força (20).</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -555,7 +564,10 @@
                   "scale": 1,
                   "ring": "#c11010",
                   "background": null,
-                  "effects": ["RING_PULSE", "BKG_WAVE"]
+                  "effects": [
+                    "RING_PULSE",
+                    "BKG_WAVE"
+                  ]
                 }
               }
             },

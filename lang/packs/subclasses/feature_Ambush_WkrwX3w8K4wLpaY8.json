@@ -6,8 +6,9 @@
   "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Sua habilidade \"Marca da Morte\" usa <strong>d6</strong> em vez de d4.</p>",
     "gmNotes": "",

@@ -74,7 +74,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -126,9 +128,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -275,7 +278,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -426,7 +431,10 @@
           },
           "description": "<p><em>Imobilizado</em> e <em>Vulnerável</em> até você se libertar, encerrando ambas as condições, com um Teste de Instinto bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable", "restrained"],
+          "statuses": [
+            "vulnerable",
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -626,7 +634,9 @@
           },
           "description": "<p><em>Vulnerável</em> até você se libertar de seu arrependimento com um Teste de Presença ou de Força bem-sucedido. Se você falhar em se libertar, perde 1 Esperança.</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

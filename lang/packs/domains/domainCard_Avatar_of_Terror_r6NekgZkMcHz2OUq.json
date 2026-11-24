@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 10,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Marque um Fadiga</strong> para se transformar em uma criatura movida pelo medo. Enquanto estiver nesta forma, você ganha um bônus de <strong>1d6</strong> nas suas rolagens de dano para cada Medo na reserva do Mestre. Além disso, você ganha uma Esperança quando o Mestre gasta um Medo para dar destaque a um adversário dentro do alcance Muito Próximo.</p><p>Antes de fazer um teste de ação, você deve gastar uma Esperança. Se não puder, você volta à sua forma normal.</p>",
     "gmNotes": "",

@@ -6,9 +6,10 @@
     "description": "<p>Você pode usar esta máscara na sua próxima subida de nível para trocar os valores de quaisquer de seus atributos. Quando fizer isso, a máscara se torna seu rosto permanente.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

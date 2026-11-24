@@ -9,8 +9,9 @@
     "impulses": "Reunir todos, celebrar uma ocasião marcante, estimular o abandono festivo",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "XVwmaoATfYXwo3B2": {
@@ -407,7 +408,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["action"],
+                "actionTypes": [
+                  "action"
+                ],
                 "traits": []
               }
             ]

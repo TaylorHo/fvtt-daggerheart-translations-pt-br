@@ -6,8 +6,9 @@
   "img": "icons/magic/symbols/rune-sigil-rough-white-teal.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando um adversário escolher você ou um aliado em alcance Muito Próximo como alvo de um ataque, você pode <strong>gastar 1 de Favor</strong> para dar a ele desvantagem na jogada. Se o adversário falhar na jogada, ele também deve marcar 1 Fadiga.</p>",
     "gmNotes": "",

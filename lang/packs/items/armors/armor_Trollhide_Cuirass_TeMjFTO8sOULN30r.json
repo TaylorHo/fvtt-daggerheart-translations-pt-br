@@ -6,10 +6,11 @@
   "img": "icons/commodities/biological/shell-ridged-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -97,7 +98,9 @@
       "selfHealing": {
         "value": "selfHealing",
         "effectIds": [],
-        "actionIds": ["3KVzpGEV8ThH4jhu"],
+        "actionIds": [
+          "3KVzpGEV8ThH4jhu"
+        ],
         "config": {}
       }
     }

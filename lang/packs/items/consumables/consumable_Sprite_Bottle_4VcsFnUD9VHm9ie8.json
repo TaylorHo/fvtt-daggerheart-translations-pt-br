@@ -6,9 +6,10 @@
     "description": "<p>Quando você marca seu último Ponto de Vida, esta garrafa se estilhaça para libertar o Sprite dentro dela. O Sprite limpa todos os seus Pontos de Vida antes de desaparecer do Reino Mortal.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

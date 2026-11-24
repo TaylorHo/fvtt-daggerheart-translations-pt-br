@@ -71,7 +71,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -168,7 +171,9 @@
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": ["m85gM6jedURrqbFJ"]
+                "effects": [
+                  "m85gM6jedURrqbFJ"
+                ]
               }
             ],
             "cost": [],
@@ -199,7 +204,9 @@
           "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
           "description": "",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -208,7 +215,9 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [1],
+            "targetDispositions": [
+              1
+            ],
             "conditionals": []
           },
           "_id": "m85gM6jedURrqbFJ",

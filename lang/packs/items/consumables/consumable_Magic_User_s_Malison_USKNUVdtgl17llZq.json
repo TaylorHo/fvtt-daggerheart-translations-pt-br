@@ -6,9 +6,10 @@
     "description": "<p>Quando você liberta a alma aprisionada deste conjurador, pode lançar uma magia de uma carta do seu cofre como se ela estivesse no seu carregamento. Isso não funciona para cartas permanentemente no cofre.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

@@ -76,7 +76,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -127,9 +129,10 @@
     },
     "motivesAndTactics": "Sufocar, voar, intimidar, matar ou morrer",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "gargantuan",
     "advantageSources": [],
@@ -545,7 +548,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -744,7 +749,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -890,7 +897,9 @@
           },
           "description": "<p><em>Imobilizado</em> pelos escombros até você se libertar com um Teste de Força bem-sucedido.</p>",
           "tint": "#ffffff",
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

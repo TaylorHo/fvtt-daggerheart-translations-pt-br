@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por descanso longo, você pode usar esta rede para pescar um peixe vivo de qualquer quantidade de água, não importa quão improvável seja haver peixes nela.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

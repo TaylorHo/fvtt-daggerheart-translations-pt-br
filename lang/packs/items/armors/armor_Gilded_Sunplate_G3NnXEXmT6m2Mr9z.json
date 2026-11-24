@@ -6,10 +6,11 @@
   "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -97,7 +98,9 @@
       "resplendent": {
         "value": "resplendent",
         "effectIds": [],
-        "actionIds": ["d9r7VK4r3fb7KHMu"],
+        "actionIds": [
+          "d9r7VK4r3fb7KHMu"
+        ],
         "config": {}
       }
     }

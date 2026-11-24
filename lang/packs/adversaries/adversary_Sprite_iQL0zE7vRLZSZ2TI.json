@@ -57,7 +57,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -113,8 +115,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -229,7 +232,9 @@
           "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
           "description": "<p><em>Escondido</em> até que ataque.</p>",
           "transfer": true,
-          "statuses": ["hidden"],
+          "statuses": [
+            "hidden"
+          ],
           "system": {
             "changes": [],
             "duration": {

@@ -5,7 +5,10 @@
   "img": "icons/magic/symbols/circled-gem-pink.webp",
   "system": {
     "description": "<p>Seja por meio de uma instituição ou de estudo individual, aqueles conhecidos como magos adquirem e aprimoram imenso poder mágico ao longo de anos de aprendizado, usando uma variedade de ferramentas, incluindo livros, pedras, poções e ervas. Alguns magos dedicam a vida a dominar uma escola de magia específica, enquanto outros aprendem com uma grande variedade de disciplinas. Muitos magos se tornam figuras sábias e poderosas em suas comunidades, aconselhando governantes, fornecendo remédios e cura e até liderando conselhos de guerra. Embora todos esses magos trabalhem rumo ao objetivo comum de reunir conhecimento mágico, magos costumam ter o maior conflito dentro de suas próprias fileiras, pois a aquisição, a guarda e o compartilhamento de segredos poderosos são tema de intenso debate que resultou em incontáveis mortes.</p>",
-    "domains": ["codex", "splendor"],
+    "domains": [
+      "codex",
+      "splendor"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 11,
@@ -53,9 +56,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "De quais responsabilidades sua comunidade um dia dependeu de você?\nComo você as decepcionou?",

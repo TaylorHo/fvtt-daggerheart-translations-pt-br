@@ -6,14 +6,18 @@
   "img": "icons/weapons/daggers/dagger-glowing-white.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Assassinos são mestres em infligir ferimentos mortais com golpes precisos. Diferente daqueles que usam a violência apenas como meio para um fim, assassinos encaram a morte como uma profissão. Muitos membros desta classe acreditam que seu ofício é digno, quando não sagrado, e alguns se juntam a guildas para aprimorar sua arte, definir suas crenças e ganhar dinheiro. Pessoas de todas as camadas contratam assassinos por suas habilidades: governantes poderosos que querem evitar uma guerra total, líderes de negócios que desejam eliminar a concorrência e até pessoas comuns que esperam acertar contas com um rancor. Muitas vezes, um assassino é o último recurso para matar aqueles antes considerados impossíveis de matar. Enquanto alguns desses profissionais mortais destruirão qualquer um em seu caminho pelas razões certas ou pelo preço certo, outros seguem códigos morais rígidos ou regras pessoais que ditam seus alvos. Quem se tornar alvo de um assassino deve se considerar entre os mortos.</p>",
     "gmNotes": "",
-    "domains": ["blade", "midnight"],
+    "domains": [
+      "blade",
+      "midnight"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 12,

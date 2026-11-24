@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 9,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando um adversário dentro do alcance Próximo sofre dano Severo, você pode limpar um Fadiga.</p>",
     "gmNotes": "",

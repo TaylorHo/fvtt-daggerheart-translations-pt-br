@@ -74,7 +74,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -126,9 +128,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "gargantuan",
     "advantageSources": [],
@@ -429,7 +432,10 @@
           },
           "description": "<p>Você fica <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força bem-sucedido ou o Kraken sofrer dano Maior ou superior. Enquanto estiver <em>Restrito</em> e <em>Vulnerável</em> dessa forma, você deve marcar 1 Fadiga quando fizer uma rolagem de ação.</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable", "restrained"],
+          "statuses": [
+            "vulnerable",
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -490,7 +496,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

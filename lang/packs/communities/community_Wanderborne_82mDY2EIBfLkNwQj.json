@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida na Estrada significa que você viveu como nômade, abrindo mão de um lar permanente e conhecendo uma grande variedade de culturas.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.2RSrQouA2zEJ5Xee"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.2RSrQouA2zEJ5Xee"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "wanderborne",
     "gmNotes": ""

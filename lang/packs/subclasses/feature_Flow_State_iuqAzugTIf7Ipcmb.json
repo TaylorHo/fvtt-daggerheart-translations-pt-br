@@ -6,8 +6,9 @@
   "img": "icons/magic/life/cross-beam-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você pode <strong>marcar 1 Fadiga</strong> em vez de gastar 1 de Foco para mudar para uma postura diferente. Além disso, pode <strong>gastar 1 de Foco</strong> em vez de marcar 1 Fadiga para iniciar um golpe combinado.</p>",
     "gmNotes": "",

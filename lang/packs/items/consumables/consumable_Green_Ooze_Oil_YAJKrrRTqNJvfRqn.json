@@ -6,9 +6,10 @@
     "description": "<p>Você pode revestir sua arma com este óleo. O próximo ataque bem-sucedido que fizer com esta arma causa 1d8 de dano mágico extra e Corrói temporariamente o alvo. Enquanto Corroído, o alvo recebe uma penalidade de -2 nos seus limiares de dano.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

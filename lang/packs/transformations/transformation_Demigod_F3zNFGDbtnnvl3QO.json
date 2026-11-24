@@ -5,10 +5,11 @@
   "img": "icons/magic/control/control-influence-rally-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "<p>Semideuses são criaturas mortais em cujas veias corre o sangue dos deuses.</p>",
     "gmNotes": "",

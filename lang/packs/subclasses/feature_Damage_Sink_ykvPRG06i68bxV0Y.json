@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/orb-swirling-teal.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, você pode <strong>gastar 1 de Favor</strong> para reduzir pela metade o dano recebido.</p>",
     "gmNotes": "",

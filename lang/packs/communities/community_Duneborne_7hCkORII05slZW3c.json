@@ -5,14 +5,17 @@
   "system": {
     "loreReference": "duneborne",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Fazer parte de uma comunidade Nascida nas Dunas significa que você fez um lar entre as areias movediças e o clima árido do deserto.</p>",
     "gmNotes": "",
-    "features": ["Compendium.daggerheart.communities.Item.DOrvaVrES1HYhG2u"]
+    "features": [
+      "Compendium.daggerheart.communities.Item.DOrvaVrES1HYhG2u"
+    ]
   },
   "_id": "7hCkORII05slZW3c",
   "img": "icons/environment/settlement/tent.webp",

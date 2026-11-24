@@ -27,9 +27,10 @@
     "type": "social",
     "impulses": "Comprar barato e vender caro, tentar e seduzir com mercadorias de perto e de longe",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

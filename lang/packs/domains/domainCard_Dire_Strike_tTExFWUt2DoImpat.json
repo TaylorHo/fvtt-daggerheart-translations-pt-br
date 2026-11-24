@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 5,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando um alvo marca qualquer quantidade de Pontos de Vida de um ataque seu, você pode <strong>gastar uma Esperança</strong> para drenar o poder dele. O Mestre perde um Medo.</p>",
     "gmNotes": "",

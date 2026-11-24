@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber este frasco de tinta para se transformar em um cefalópode de tamanho aproximado ao seu pela próxima hora. Você ganha pele emborrachada, ossos macios, a capacidade de respirar debaixo d'água e novos membros até ter oito no total.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

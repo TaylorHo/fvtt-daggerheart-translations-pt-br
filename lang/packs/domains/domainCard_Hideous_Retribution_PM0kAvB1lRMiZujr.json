@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 2,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando um aliado dentro do alcance Próximo sofre dano de um alvo que você consegue ver, você pode fazer um teste de reação contra o alvo usando sua característica de Conjuração. Em caso de sucesso, <strong>marque um Fadiga</strong> para causar <strong>d6</strong> de dano mágico usando sua Proficiência.</p>",
     "gmNotes": "",

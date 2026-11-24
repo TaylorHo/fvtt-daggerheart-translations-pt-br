@@ -6,8 +6,9 @@
   "img": "icons/tools/navigation/map-chart-tan.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Esperança</strong> para pedir ao Mestre uma forma rápida ou discreta de entrar ou sair de um lugar que você consiga ver. A próxima jogada que você fizer com base nessa informação tem vantagem.</p>",
     "gmNotes": "",

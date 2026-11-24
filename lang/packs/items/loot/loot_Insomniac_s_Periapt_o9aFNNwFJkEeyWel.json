@@ -6,9 +6,10 @@
     "description": "<p>Quando você faz um descanso sem limpar Pontos de Vida nem Fadiga, ganha um bônus de +2 nos testes de ataque e nas rolagens de dano até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {
@@ -83,7 +84,9 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": ["attack"],
+            "actionTypes": [
+              "attack"
+            ],
             "traits": []
           }
         ]

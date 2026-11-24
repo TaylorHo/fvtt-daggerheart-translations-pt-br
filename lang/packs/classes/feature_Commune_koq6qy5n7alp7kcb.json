@@ -6,8 +6,9 @@
   "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso longo, em um momento de calma, você pode se comunicar com um ancestral, uma divindade, um espírito ou um ser de outro mundo. Faça uma pergunta a ele e então role uma quantidade de <strong>[[/r d6]]{d6s}</strong> igual ao seu atributo de Conjuração. Escolha um dos resultados e consulte a tabela abaixo para ver o efeito.</p><ul><li><p>1–3: Você sente um sabor, um cheiro ou uma sensação relevante para a resposta.</p></li><li><p>4–5: Você ouve sons ou vê uma visão relevante para a resposta.</p></li><li><p>6: Você vivencia psiquicamente uma cena relevante para a resposta como se estivesse lá.</p></li></ul>",
     "gmNotes": "",

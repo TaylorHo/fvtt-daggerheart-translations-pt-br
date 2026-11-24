@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida no Subterrâneo significa que você vem de uma sociedade subterrânea.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.aMla3xQuCHEwORGD"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.aMla3xQuCHEwORGD"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "underborne",
     "gmNotes": ""

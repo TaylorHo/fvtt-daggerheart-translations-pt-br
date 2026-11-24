@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -251,7 +254,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -339,7 +344,9 @@
           "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
           "description": "<p>Você está <em>Vulnerável</em> até seu próximo descanso.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -415,7 +422,9 @@
                 "shape": "circle",
                 "size": "close",
                 "hasHole": false,
-                "effects": ["Moc6wn3ERNbStLtM"]
+                "effects": [
+                  "Moc6wn3ERNbStLtM"
+                ]
               }
             ],
             "cost": [
@@ -455,7 +464,9 @@
           "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
           "description": "",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

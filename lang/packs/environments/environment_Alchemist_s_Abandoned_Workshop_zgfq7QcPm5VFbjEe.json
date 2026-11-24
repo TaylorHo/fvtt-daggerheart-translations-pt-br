@@ -9,8 +9,9 @@
     "impulses": "Romper a barreira entre vida e morte, atrair raios dos céus, sobrecarregar o maquinário",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "wk749LjUruN8wDBK": {
@@ -90,7 +91,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -207,7 +210,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

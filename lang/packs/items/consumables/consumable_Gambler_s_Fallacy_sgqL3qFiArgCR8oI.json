@@ -6,9 +6,10 @@
     "description": "<p>Você pode gastar qualquer quantidade de punhados de ouro colocando-os neste pote de cerâmica com fenda em formato de porco. Quando você arremessa o pote em um ponto dentro do alcance Distante, ele explode e causa 1d20 de dano mágico para cada punhado de ouro gasto a todas as criaturas dentro do alcance Próximo desse ponto. Todo o ouro dentro do pote é destruído.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

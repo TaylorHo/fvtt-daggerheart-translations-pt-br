@@ -5,7 +5,10 @@
   "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
   "system": {
     "description": "<p>Patrulheiros são caçadores altamente habilidosos que, apesar de suas capacidades marciais, raramente emprestam suas habilidades a um exército. Pelo domínio do corpo e por um profundo entendimento da natureza selvagem, patrulheiros se tornam estrategistas astutos, perseguindo suas presas com esperteza e paciência. Muitos patrulheiros rastreiam e lutam ao lado de um companheiro animal com quem forjaram um poderoso laço espiritual. Ao aprimorar suas habilidades na natureza, patrulheiros se tornam rastreadores especialistas, tão propensos a prender seus inimigos em uma armadilha quanto a atacá-los de frente.</p>",
-    "domains": ["bone", "sage"],
+    "domains": [
+      "bone",
+      "sage"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 12,
@@ -49,9 +52,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Uma terrível criatura feriu sua comunidade, e você jurou caçá-la. O que ela é, e que rastro ou sinal peculiar ela deixa para trás?",

@@ -18,9 +18,10 @@
       "severe": 32
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "flexible": {
         "value": "flexible",
-        "effectIds": ["3AUNxBoj7mp1ziJQ"],
+        "effectIds": [
+          "3AUNxBoj7mp1ziJQ"
+        ],
         "actionIds": [],
         "config": {}
       }

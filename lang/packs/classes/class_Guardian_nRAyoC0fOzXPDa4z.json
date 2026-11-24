@@ -5,7 +5,10 @@
   "img": "icons/equipment/shield/heater-wooden-sword-green.webp",
   "system": {
     "description": "<p>O título de guardião representa uma série de profissões marciais, falando mais sobre sua bússola moral e fortitude inabalável do que sobre o modo como lutam. Embora muitos guardiões se juntem a grupos militantes por um país ou causa, são mais propensos a seguir os poucos que realmente estimam, custe o que custar. Guardiões são conhecidos por lutar com ferocidade notável mesmo contra probabilidades esmagadoras, defendendo seu grupo acima de tudo. Ai daqueles que ferirem o aliado de um guardião, pois o guardião responderá a essa ofensa na mesma moeda.</p>",
-    "domains": ["valor", "blade"],
+    "domains": [
+      "valor",
+      "blade"
+    ],
     "classItems": [],
     "hitPoints": 7,
     "evasion": 9,
@@ -49,9 +52,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Quem da sua comunidade você não conseguiu proteger, e por que ainda pensa nessa pessoa?",

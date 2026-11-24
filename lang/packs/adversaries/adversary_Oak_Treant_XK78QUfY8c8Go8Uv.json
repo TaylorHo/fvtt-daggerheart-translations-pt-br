@@ -72,7 +72,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -125,9 +127,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "motivesAndTactics": "Esconder-se à vista de todos, preservar a floresta, fincar raízes, balançar galhos",
     "size": "large",
@@ -299,7 +302,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

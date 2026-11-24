@@ -71,7 +71,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -242,7 +245,9 @@
           "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
           "description": "<p>Você está <em>Vulnerável</em> até causar dano ao Bando ou o Bando ser derrotado.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

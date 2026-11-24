@@ -6,8 +6,9 @@
   "img": "icons/skills/melee/strike-weapons-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você fizer um ataque com uma arma Corpo a Corpo, pode <strong>gastar qualquer quantidade de Esperança</strong> para escolher como alvo a mesma quantidade de criaturas adicionais em alcance Corpo a Corpo.</p>",
     "gmNotes": "",

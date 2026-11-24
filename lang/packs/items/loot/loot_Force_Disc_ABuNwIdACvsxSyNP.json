@@ -6,9 +6,10 @@
     "description": "<p>Este disco bidimensional cintilante de força mágica tem 1,2 metro de diâmetro e está magicamente atado a um seixo. O disco sempre flutua 90 centímetros ao norte do seixo, na mesma altura que ele. O seixo tem uma massa igual a um centésimo da massa total carregada pelo disco.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

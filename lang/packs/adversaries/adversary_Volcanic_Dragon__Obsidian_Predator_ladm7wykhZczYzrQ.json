@@ -76,7 +76,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -127,9 +129,10 @@
     },
     "motivesAndTactics": "Defender covil, mergulhar em ataque, voar, caçar, intimidar",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "gargantuan",
     "advantageSources": [],
@@ -561,7 +564,9 @@
           },
           "description": "<p><em>Vulnerável</em> até sua próxima rolagem com Esperança.</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {
@@ -615,7 +620,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

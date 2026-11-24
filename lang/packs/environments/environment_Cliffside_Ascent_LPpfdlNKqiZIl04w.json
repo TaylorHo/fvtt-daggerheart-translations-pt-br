@@ -22,9 +22,10 @@
     "type": "traversal",
     "impulses": "Lançar os despreparados a uma queda rochosa fatal, atrair pessoas com a promessa do que há no topo",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

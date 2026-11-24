@@ -6,8 +6,9 @@
   "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, você pode realizar um feito atlético inacreditável, como correr sobre a água, saltar entre telhados distantes ou escalar um edifício sem precisar rolar. Ao fazer isso, ganhe 1 de Esperança e limpe 1 de Fadiga.</p>",
     "gmNotes": "",

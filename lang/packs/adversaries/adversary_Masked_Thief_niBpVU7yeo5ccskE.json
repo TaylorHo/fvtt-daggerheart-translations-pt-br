@@ -74,7 +74,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -126,9 +128,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -440,7 +443,10 @@
           },
           "description": "<p>Você fica <em>Restrito</em> e <em>Vulnerável</em> até se libertar, encerrando ambas as condições, com um Teste de Acuidade ou Força (13) bem-sucedido.</p><p>[[/dr trait=finesse difficulty=13]]<br>[[/dr trait=strength difficulty=13]]</p>",
           "tint": "#ffffff",
-          "statuses": ["vulnerable", "restrained"],
+          "statuses": [
+            "vulnerable",
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

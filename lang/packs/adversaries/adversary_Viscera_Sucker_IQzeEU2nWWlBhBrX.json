@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -224,7 +227,9 @@
           "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
           "description": "<p>Você está <em>Imobilizado</em> até escapar com um Teste de Força (16) bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["restrain"],
+          "statuses": [
+            "restrain"
+          ],
           "system": {
             "changes": [],
             "duration": {

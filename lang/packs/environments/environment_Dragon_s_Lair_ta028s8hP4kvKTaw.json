@@ -9,8 +9,9 @@
     "impulses": "Atrair para os níveis inferiores, tornar a fuga impossível, tentar com tesouros, despertar o dragão",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "qy2gXfJmTL0CFppe": {
@@ -288,7 +289,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

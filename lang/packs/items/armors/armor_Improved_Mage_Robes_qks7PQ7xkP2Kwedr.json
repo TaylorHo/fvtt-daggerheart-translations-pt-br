@@ -6,9 +6,10 @@
   "img": "icons/equipment/chest/robe-layered-teal.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "enchanted": {
         "value": "enchanted",
-        "effectIds": ["68KNvbicN2lASHIo"],
+        "effectIds": [
+          "68KNvbicN2lASHIo"
+        ],
         "actionIds": [],
         "config": {}
       }

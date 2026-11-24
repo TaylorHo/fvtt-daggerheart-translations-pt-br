@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por sessão, você pode rolar este conjunto de dados rúnicos para revelar o nome completo da última pessoa que você tocou.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

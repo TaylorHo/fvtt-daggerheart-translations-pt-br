@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -360,7 +363,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -434,7 +439,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -586,7 +593,9 @@
           "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
           "description": "<p>Você está <em>Vulnerável</em> até ter sucesso em uma rolagem de ataque ou o Demiurgo ser derrotado.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -630,7 +639,9 @@
           "img": "icons/magic/water/barrier-ice-crystal-wall-faceted.webp",
           "description": "<p>Você está <em>Contido</em> até <strong>gastar 1 de Esperança</strong> para escapar.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -725,7 +736,9 @@
                   "scale": 1,
                   "ring": "#c7a600",
                   "background": null,
-                  "effects": ["RING_PULSE"]
+                  "effects": [
+                    "RING_PULSE"
+                  ]
                 }
               }
             },

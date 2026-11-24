@@ -29,9 +29,10 @@
     "type": "traversal",
     "impulses": "Cobrar um pedágio glacial em suprimentos e vigor, revelar interferência mágica, atrasar a viagem",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

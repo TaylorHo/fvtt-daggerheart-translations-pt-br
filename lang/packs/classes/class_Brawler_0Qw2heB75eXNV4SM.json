@@ -5,14 +5,18 @@
   "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Especialistas em combate desarmado, lutadores transformam o próprio corpo em armas letais. Seja por treinamento formal, por estudo com um mentor ou por aprender suas habilidades uma luta de cada vez, o processo é sempre rigoroso, pois lutadores desenvolvem corpo e mente para atuarem como um só. Lutadores são valorizados por seu poder e versatilidade e costumam se juntar a um grupo ou a uma causa quando surge a necessidade ou o desejo. Como o corpo de um lutador é sua arma mais forte, eles costumam buscar novos desafios ou parceiros de treino constantes para manter suas habilidades e acrescentar novas técnicas ao seu repertório. Embora possam parecer inofensivos para quem está acostumado a inimigos armados até os dentes, lutadores muitas vezes realizam mais com os punhos nus que um soldado comum com uma espada.</p>",
     "gmNotes": "",
-    "domains": ["valor", "bone"],
+    "domains": [
+      "valor",
+      "bone"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 10,

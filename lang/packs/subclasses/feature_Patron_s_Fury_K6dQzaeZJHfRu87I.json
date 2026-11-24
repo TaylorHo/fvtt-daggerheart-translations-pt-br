@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Favor</strong> para imbuir seus ataques com o poder do seu Patrono até você causar dano Grave ou a cena terminar. Quando você rolar dano enquanto este efeito estiver ativo, também rola uma quantidade de Dados de Patrono igual ao seu patamar e soma o total ao dano causado.</p>",
     "gmNotes": "",

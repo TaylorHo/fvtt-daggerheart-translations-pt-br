@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 5,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 2 Esperança</strong> para conjurar uma névoa sinistra que torna você e aliados de sua escolha dentro do alcance Próximo momentaneamente incorpóreos. Enquanto uma criatura estiver incorpórea, ela pode atravessar objetos sólidos e é imune a dano físico. Ela volta a ser corpórea depois de atravessar um objeto sólido ou fazer um teste de ação. Caso contrário, este efeito dura até o final da cena.</p>",
     "gmNotes": "",

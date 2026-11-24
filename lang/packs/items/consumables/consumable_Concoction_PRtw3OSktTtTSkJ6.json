@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber esta poção para descobrir o maior medo da próxima pessoa com quem fizer contato visual.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

@@ -6,9 +6,10 @@
     "description": "<p>Quando você bebe esta poção, tudo o que disser ou fizer na próxima hora se torna impossível de ser relatado por uma testemunha. Qualquer tentativa dela de comunicar o que viu, ouviu ou percebeu de outra forma sai confusa ou sem sentido.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

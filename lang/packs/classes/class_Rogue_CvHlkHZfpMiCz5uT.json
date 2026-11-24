@@ -5,7 +5,10 @@
   "img": "icons/magic/defensive/shield-barrier-blades-teal.webp",
   "system": {
     "description": "<p>Ladinos são patifes, muitas vezes tanto na atitude quanto na prática. Amplamente conhecidos como mentirosos e ladrões, os melhores desta classe se movem pelo mundo no anonimato. Usando sua inteligência afiada e suas lâminas, ladinos enganam seus inimigos por manipulação social tão facilmente quanto arrombam fechaduras, entram por janelas ou desferem golpes baixos. Esses mestres do ofício mágico manipulam sombra e movimento, acrescentando uma variedade de ferramentas úteis e mortais ao seu repertório. Ladinos frequentemente fundam guildas para conhecer futuros cúmplices, contratar trabalhos e aprimorar habilidades secretas, provando que há honra entre ladrões para quem sabe onde procurar.</p>",
-    "domains": ["midnight", "grace"],
+    "domains": [
+      "midnight",
+      "grace"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 12,
@@ -53,9 +56,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Pelo que você foi pego fazendo que o levou a ser exilado da sua comunidade de origem?",

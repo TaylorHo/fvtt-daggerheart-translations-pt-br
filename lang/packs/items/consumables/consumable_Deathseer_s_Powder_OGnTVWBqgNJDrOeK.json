@@ -6,9 +6,10 @@
     "description": "<p>Você pode polvilhar este pó sobre um cadáver recém-falecido para conjurar uma reprise espectral do último minuto de vida dele.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -315,7 +318,10 @@
           "img": "icons/commodities/biological/tentacle-pink.webp",
           "description": "<p>Enquanto estiver Agarrado, você está <em>Restrito</em> e <em>Vulnerável</em> até se libertar com um Teste de Força ou Acuidade bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["restrain", "vulnerable"],
+          "statuses": [
+            "restrain",
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -393,7 +399,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

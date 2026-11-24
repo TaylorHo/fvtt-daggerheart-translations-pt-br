@@ -6,10 +6,11 @@
   "img": "icons/weapons/wands/wand-carved-fire.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -88,7 +89,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -151,7 +154,9 @@
       "bouncing": {
         "value": "bouncing",
         "effectIds": [],
-        "actionIds": ["WbMKifYfcRQpDiP8"],
+        "actionIds": [
+          "WbMKifYfcRQpDiP8"
+        ],
         "config": {}
       }
     }

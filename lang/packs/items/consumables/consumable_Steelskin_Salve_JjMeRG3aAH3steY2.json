@@ -6,9 +6,10 @@
     "description": "<p>Você pode aplicar este unguento na pele para ganhar um bônus nos seus limiares de dano igual ao seu patamar até o final da cena.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

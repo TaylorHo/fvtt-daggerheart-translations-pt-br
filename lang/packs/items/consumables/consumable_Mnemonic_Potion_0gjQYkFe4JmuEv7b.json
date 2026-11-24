@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber esta poção para Usar uma Experiência sem gastar uma Esperança.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

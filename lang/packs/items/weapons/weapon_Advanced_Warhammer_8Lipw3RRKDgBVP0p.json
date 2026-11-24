@@ -50,7 +50,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -101,9 +103,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -111,7 +114,9 @@
     "itemFeatures": {
       "heavy": {
         "value": "heavy",
-        "effectIds": ["S6jedo3xSQhFBQH0"],
+        "effectIds": [
+          "S6jedo3xSQhFBQH0"
+        ],
         "actionIds": [],
         "config": {}
       }

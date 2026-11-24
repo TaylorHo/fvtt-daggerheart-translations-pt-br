@@ -6,9 +6,10 @@
     "description": "<p>Quando você lança esta moeda, pode gastar uma Esperança para determinar em qual lado ela cai.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

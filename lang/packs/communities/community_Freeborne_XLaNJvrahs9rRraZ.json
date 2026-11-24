@@ -5,14 +5,17 @@
   "system": {
     "loreReference": "freeborne",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Fazer parte de uma comunidade Nascida Livre significa que você vem de um coletivo que um dia viveu sob um governo tirânico, mas agora está liberto.</p>",
     "gmNotes": "",
-    "features": ["Compendium.daggerheart.communities.Item.OyzEkHdHYwmoofQx"]
+    "features": [
+      "Compendium.daggerheart.communities.Item.OyzEkHdHYwmoofQx"
+    ]
   },
   "_id": "XLaNJvrahs9rRraZ",
   "img": "icons/environment/settlement/gazebo.webp",

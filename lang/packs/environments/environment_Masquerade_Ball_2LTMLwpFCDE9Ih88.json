@@ -9,8 +9,9 @@
     "impulses": "Dançar a noite toda, comer e se divertir, fazer acordos secretos, trocar informações valiosas",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "XrsOn1uflDlwE4EM": {

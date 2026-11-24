@@ -330,10 +330,36 @@
                 },
                 "Embed": {
                     "attack": "ATQ",
-                    "thresholds": "Limites"
+                    "thresholds": "Limites",
+                    "hordeHP": "{hp}/PV"
                 },
                 "hordeDamage": "Dano de Horda",
                 "horderHp": "Horda/PV",
+                "colossus": {
+                    "FIELDS": {
+                        "role": {
+                            "label": "Função",
+                            "choices": {
+                                "framework": "Estrutura",
+                                "part": "Parte"
+                            }
+                        },
+                        "parts": {
+                            "label": "Partes"
+                        },
+                        "frameworkUuid": {
+                            "label": "Estrutura"
+                        }
+                    },
+                    "Notifications": {
+                        "AlreadyAddedPart": "Esta parte do Colosso já foi adicionada.",
+                        "OnlyParts": "Apenas partes do Colosso podem ser adicionadas à lista de partes.",
+                        "OnlyFrameworks": "Apenas Estruturas de Colosso podem ser adicionadas.",
+                        "MustBeSameCompendium": "Partes e estruturas de Colossos devem estar no mesmo compêndio.",
+                        "MustOwnBoth": "Você precisa ser proprietário de ambos os documentos para estabelecer um vínculo.",
+                        "FrameworkNotLinked": "Esta parte não está vinculada a esta estrutura, e as atualizações não serão propagadas até que ela seja adicionada à cena."
+                    }
+                },
                 "adversaryReactionRoll": {
                     "headerTitle": "Teste de Reação Adversária"
                 },
@@ -511,7 +537,9 @@
                 "macroCopyNotification": "Uma macro para abrir o Path Viewer foi copiada para sua área de transferência. Cole-o em uma macro na sua hotbar."
             },
             "Attribution": {
-                "title": "Fontes"
+                "title": "Fontes",
+                "other": "Outra",
+                "srd": "SRD"
             },
             "CharacterCreation": {
                 "tabs": {
@@ -1060,6 +1088,10 @@
                 "bruiser": {
                     "label": "Brutamontes",
                     "description": "Adversários resistentes com ataques poderosos."
+                },
+                "colossus": {
+                    "label": "Colosso",
+                    "description": "Adversários de grande porte que utilizam múltiplos blocos de estatísticas."
                 },
                 "horde": {
                     "label": "Horda",
@@ -3270,6 +3302,7 @@
                 "attack": "Ataque",
                 "base": "Básico",
                 "biography": "Biografia",
+                "colossus": "Colosso",
                 "compendiumPacks": "Pacotes de compêndio",
                 "conditionals": "Condicionais",
                 "configuration": "Configuração",
@@ -3513,6 +3546,9 @@
                     },
                     "artist": {
                         "label": "Artista"
+                    },
+                    "srd": {
+                        "label": "É SRD?"
                     }
                 },
                 "resource": {
@@ -3553,6 +3589,9 @@
                 "loreReference": {
                     "label": "Referência de conhecimento",
                     "hint": "Caminho ou ID da página de descrição completa do diário"
+                },
+                "tier": {
+                    "label": "Patamar"
                 }
             },
             "Ancestry": {
@@ -3563,6 +3602,7 @@
             "Armor": {
                 "baseScore": "Armadura Base",
                 "scoreShort": "Pontuação",
+                "header": "Armadura de Patamar {tier}",
                 "baseThresholds": {
                     "base": "Limiares Base",
                     "major": "Limiar Maior",
@@ -3731,6 +3771,7 @@
             "Weapon": {
                 "weaponType": "Tipo de Arma",
                 "configureAttack": "Configurar ataque",
+                "header": "Arma de Patamar {tier} ({type})",
                 "primaryWeapon": {
                     "full": "Arma Principal",
                     "short": "Primário"
@@ -4186,6 +4227,7 @@
                     "rollHealing": "Rolar Cura",
                     "applyEffect": "Aplicar Efeitos"
                 },
+                "blind": "Cego",
                 "clearResource": "Limpar {quantity} {resource}",
                 "clearResourceFully": "Totalmente claro {resource}",
                 "damageSummary": {
@@ -4414,7 +4456,8 @@
                 "comboDiceOnlyTwoDiceError": "A funcionalidade de dados combinados só funciona em um único par de dois dados",
                 "reloadRequired": "A {weapon} deve ser recarregada para ser usada!",
                 "partnerRequired": "Um parceiro deve ser designado para usar esta ação.",
-                "actorMissing": "O ator {actorName} não pôde sofrer dano porque não existe mais"
+                "actorMissing": "O ator {actorName} não pôde sofrer dano porque não existe mais",
+                "outdatedModules": "Alguns de seus módulos são incompatíveis e causarão problemas no sistema. Desative os seguintes módulos: {modules}"
             },
             "Progress": {
                 "migrationLabel": "Realizando migração de sistema. Aguarde e não feche o Foundry."

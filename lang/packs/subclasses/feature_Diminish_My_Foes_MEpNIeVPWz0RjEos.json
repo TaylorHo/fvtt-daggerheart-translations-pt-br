@@ -6,8 +6,9 @@
   "img": "icons/magic/control/energy-stream-link-large-white.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você for bem-sucedido com Esperança em uma jogada de ação contra um alvo, pode <strong>gastar qualquer quantidade de Favor</strong> para forçar o alvo a marcar a mesma quantidade de Fadiga.</p>",
     "gmNotes": "",

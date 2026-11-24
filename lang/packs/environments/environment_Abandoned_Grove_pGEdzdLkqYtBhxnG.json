@@ -29,9 +29,10 @@
     "type": "exploration",
     "impulses": "Atrair os curiosos, ecoar o passado",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},
@@ -188,7 +189,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -285,7 +288,9 @@
           },
           "description": "<p><em>Imobilizado</em> dura até você ser libertado com um Teste de Acuidade ou Força bem-sucedido ou causando pelo menos 6 de dano às vinhas.</p>",
           "tint": "#ffffff",
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

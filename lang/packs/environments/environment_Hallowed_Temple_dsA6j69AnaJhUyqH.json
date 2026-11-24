@@ -21,9 +21,10 @@
     "type": "social",
     "impulses": "Conectar o Reino Mortal aos Sagrados Superiores, exibir o poder do divino, prestar auxílio e amparo aos fiéis",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber este chá para renovar suas características como se tivesse feito um descanso longo.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

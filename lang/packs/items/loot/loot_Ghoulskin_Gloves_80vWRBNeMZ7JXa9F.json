@@ -6,9 +6,10 @@
     "description": "<p>Quando você ataca com uma arma física usando estas luvas, o dano é considerado tanto físico quanto mágico.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

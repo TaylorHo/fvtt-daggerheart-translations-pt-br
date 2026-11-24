@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 9,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso, <strong>marque qualquer quantidade de Fadiga</strong> para rolar a mesma quantidade de <strong>d20</strong>, causando dano mágico igual ao resultado total. Se este ataque derrotar o alvo, todos os adversários dentro do alcance Distante do alvo devem marcar um Fadiga.</p>",
     "gmNotes": "",

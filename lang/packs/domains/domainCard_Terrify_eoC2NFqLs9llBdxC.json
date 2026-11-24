@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 3,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Próximo. Em caso de sucesso, o alvo marca <strong>1d4</strong> Fadiga, e você pode fazer o alvo fugir uma distância de alcance para longe de você (como de Muito Próximo para Próximo ou de Próximo para Distante). Em um sucesso com Medo, o alvo também fica temporariamente <em>Vulnerável</em>.</p>",
     "gmNotes": "",

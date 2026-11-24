@@ -5,9 +5,10 @@
   "img": "icons/equipment/wrist/bracer-reinforced.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Em um ataque com arma bem-sucedido, você pode empurrar seu alvo até o alcance Próximo de sua posição.</p>",
     "gmNotes": "",

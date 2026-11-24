@@ -50,7 +50,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -101,9 +103,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -119,7 +122,9 @@
           "damage": {
             "dice": "d8",
             "bonus": 4,
-            "type": ["magical"]
+            "type": [
+              "magical"
+            ]
           }
         }
       }

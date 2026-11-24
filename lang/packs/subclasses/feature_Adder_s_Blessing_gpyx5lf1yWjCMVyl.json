@@ -6,8 +6,9 @@
   "img": "icons/creatures/reptiles/serpent-horned-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você é imune a venenos e outras toxinas.</p>",
     "gmNotes": "",

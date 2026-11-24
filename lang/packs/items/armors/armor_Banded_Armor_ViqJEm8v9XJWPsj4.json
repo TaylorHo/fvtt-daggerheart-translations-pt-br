@@ -6,9 +6,10 @@
   "img": "icons/equipment/chest/bullet-proof-vest-kevlar.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": ["JkRfeN3ioW857m1p"],
+        "effectIds": [
+          "JkRfeN3ioW857m1p"
+        ],
         "actionIds": [],
         "config": {}
       }

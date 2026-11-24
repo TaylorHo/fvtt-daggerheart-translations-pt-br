@@ -6,9 +6,10 @@
   "img": "icons/weapons/guns/gun-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -87,7 +88,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -150,7 +153,9 @@
       "aimed": {
         "value": "aimed",
         "effectIds": [],
-        "actionIds": ["0BlWvjZi8EgnT6ln"],
+        "actionIds": [
+          "0BlWvjZi8EgnT6ln"
+        ],
         "config": {}
       }
     }

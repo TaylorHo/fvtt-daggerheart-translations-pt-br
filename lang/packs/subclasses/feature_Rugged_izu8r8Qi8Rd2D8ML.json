@@ -6,8 +6,9 @@
   "img": "icons/skills/melee/shield-block-gray-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Ganhe +3 de bônus permanente no seu limiar de dano Grave.</p>",
     "gmNotes": "",

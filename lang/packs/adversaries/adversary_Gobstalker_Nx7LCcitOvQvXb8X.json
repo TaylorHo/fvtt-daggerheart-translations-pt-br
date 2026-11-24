@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -317,7 +320,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -579,7 +584,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -849,7 +856,10 @@
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
           "description": "<p>O alvo congela no lugar, ficando <em>Vulnerável</em> e <em>Restrito</em> até marcar 2 Fadiga.</p>",
           "transfer": false,
-          "statuses": ["restrained", "vulnerable"],
+          "statuses": [
+            "restrained",
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -937,7 +947,9 @@
           "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
           "description": "<p>O alvo fica <em>Vulnerável</em> e deve marcar 1 Fadiga para se mover até <strong>gastar 2 Esperança</strong>.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

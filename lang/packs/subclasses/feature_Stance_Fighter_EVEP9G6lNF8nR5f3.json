@@ -6,8 +6,9 @@
   "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você pode canalizar sua determinação interior para assumir posturas marciais que lhe concedem benefícios especiais em combate.</p><p>Pegue a ficha de Posturas Marciais e escolha duas posturas marciais do Patamar 1. Cada vez que você subir de nível, escolha uma postura adicional do seu patamar ou inferior.</p><hr><p><em>Atualmente, a implementação disso é simplesmente pegar as posturas que você quer no compêndio <strong>Subclasses —&gt; Habilidades de Subclasse —&gt; Posturas Marciais</strong></em></p>",
     "gmNotes": "",
@@ -15,7 +16,9 @@
     "actions": {},
     "featureForm": "passive",
     "granter": null,
-    "actorResources": ["focus"]
+    "actorResources": [
+      "focus"
+    ]
   },
   "effects": [],
   "sort": 0,

@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -325,7 +328,9 @@
           "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
           "description": "<p>Você está imobilizado até se libertar com um Teste de Força bem-sucedido. Quando você gastar Esperança, o Mestre recebe 1 Medo.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -403,7 +408,9 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

@@ -78,7 +78,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -131,9 +133,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -280,7 +283,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -587,7 +592,9 @@
           },
           "description": "<p>Você está <em>Restrito</em> por correntes de fumaça até se libertar com um Teste de Força ou Instinto bem-sucedido. Um alvo Restrito por essa habilidade deve gastar uma Esperança para fazer um teste de ação.</p>",
           "tint": "#ffffff",
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

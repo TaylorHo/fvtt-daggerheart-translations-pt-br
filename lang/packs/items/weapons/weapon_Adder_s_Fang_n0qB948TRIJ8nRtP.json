@@ -6,10 +6,11 @@
   "img": "icons/weapons/daggers/dagger-poisoned-curved-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -84,7 +85,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -146,8 +149,12 @@
     "itemFeatures": {
       "venomous": {
         "value": "venomous",
-        "effectIds": ["t6Qu6nt3bGnkTlXP"],
-        "actionIds": ["1nmjsSNRC9uHl2j4"],
+        "effectIds": [
+          "t6Qu6nt3bGnkTlXP"
+        ],
+        "actionIds": [
+          "1nmjsSNRC9uHl2j4"
+        ],
         "config": {}
       }
     }
@@ -157,7 +164,9 @@
       "name": "Venenosa",
       "description": "",
       "img": "icons/skills/toxins/symbol-poison-drop-skull-green.webp",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "transfer": false,
       "_id": "t6Qu6nt3bGnkTlXP",
       "type": "base",

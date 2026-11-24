@@ -104,9 +104,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,
@@ -140,7 +141,9 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

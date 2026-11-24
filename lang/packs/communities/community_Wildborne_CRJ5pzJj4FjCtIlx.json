@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida na Selva significa que você viveu nas profundezas da floresta.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.TQ1AIQjndC4mYmmU"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.TQ1AIQjndC4mYmmU"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "wildborne",
     "gmNotes": ""

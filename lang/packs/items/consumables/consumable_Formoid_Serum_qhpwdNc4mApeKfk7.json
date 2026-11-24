@@ -6,9 +6,10 @@
     "description": "<p>Você pode beber esta poção para se tornar um enxame de 16 milhões de formigas até o final da cena. Você mantém e tem acesso a todo o equipamento, espólio e características.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

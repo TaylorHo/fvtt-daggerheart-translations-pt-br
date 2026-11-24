@@ -23,9 +23,10 @@
     "type": "event",
     "impulses": "Acumular poder, intimidar, silenciar a dissidência",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},
@@ -469,7 +470,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["attack"],
+                "actionTypes": [
+                  "attack"
+                ],
                 "traits": []
               }
             ]

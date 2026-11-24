@@ -6,8 +6,9 @@
   "img": "icons/magic/light/projectile-halo-teal.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por sessão, você pode conjurar uma coluna de luar que ilumina a área em alcance Próximo até o fim da cena. Enquanto estiverem banhados por este luar, você e seus aliados ganham +1 de bônus em <strong>Jogadas de Conjuração</strong> e podem enxergar através de ilusões.</p>",
     "gmNotes": "",
@@ -32,7 +33,9 @@
             "shape": "emanation",
             "size": "close",
             "hasHole": false,
-            "effects": ["91YMJHhyGeGj7zwm"]
+            "effects": [
+              "91YMJHhyGeGj7zwm"
+            ]
           }
         ],
         "cost": [],
@@ -79,11 +82,15 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [1],
+        "targetDispositions": [
+          1
+        ],
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": ["spellcast"],
+            "actionTypes": [
+              "spellcast"
+            ],
             "traits": []
           }
         ]

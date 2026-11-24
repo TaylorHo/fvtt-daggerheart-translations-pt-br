@@ -9,8 +9,9 @@
     "impulses": "Enterrá-los a sete palmos, sufocar com névoa, atrair com promessas de tesouro sepultado, libertar os mortos inquietos",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "6RB1MDFDZlGQGOXa": {
@@ -309,7 +310,9 @@
           "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
           "description": "",
           "transfer": true,
-          "statuses": ["restrain"],
+          "statuses": [
+            "restrain"
+          ],
           "system": {
             "changes": [],
             "duration": {

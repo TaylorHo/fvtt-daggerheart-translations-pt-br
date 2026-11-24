@@ -22,9 +22,10 @@
     "type": "event",
     "impulses": "Profanar a terra, unir o Reino Mortal aos Círculos Inferiores",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

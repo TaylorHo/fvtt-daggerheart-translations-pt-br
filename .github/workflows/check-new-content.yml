@@ -35,7 +35,7 @@ jobs:
           # tags may or may not carry a "v" prefix
           resolve() { for t in "$1" "v${1#v}" "${1#v}"; do git -C upstream rev-parse -q --verify "refs/tags/$t" >/dev/null && { echo "$t"; return; }; done; echo "$1"; }
           old_tag=$(resolve "$current"); new_tag=$(resolve "$latest")
-          git -C upstream diff "$old_tag" "$new_tag" -- lang/en.json packs/ > diff.patch
+          git -C upstream diff "$old_tag" "$new_tag" -- lang/en.json src/packs/ > diff.patch
           echo "current=$old_tag" >> "$GITHUB_OUTPUT"
           echo "latest=$new_tag" >> "$GITHUB_OUTPUT"
           if [ -s diff.patch ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
@@ -53,7 +53,7 @@ jobs:
           gh label create upstream-sync --color 0E8A16 2>/dev/null || true
           compare="https://github.com/$UPSTREAM/compare/$CUR...$NEW"
           {
-            echo "Houve mudanças em \`lang/en.json\` e/ou \`packs/\` no sistema Daggerheart upstream entre **$CUR** e **$NEW**."
+            echo "Houve mudanças em \`lang/en.json\` e/ou \`src/packs/\` no sistema Daggerheart upstream entre **$CUR** e **$NEW**."
             echo
             echo "Comparação completa: $compare"
             echo

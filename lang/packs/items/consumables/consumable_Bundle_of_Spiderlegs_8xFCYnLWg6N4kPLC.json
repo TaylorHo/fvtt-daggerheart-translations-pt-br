@@ -6,9 +6,10 @@
     "description": "<p>Você pode comer estas patas de aranha para andar pelas paredes até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

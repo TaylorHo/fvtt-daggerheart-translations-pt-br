@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 1 de Favor</strong> para se envolver em um aspecto aterrorizante do seu Patrono, que dura até você sofrer dano Grave ou a cena terminar. Enquanto este efeito estiver ativo, você ganha um bônus nos seus limiares de dano igual ao seu patamar e tem vantagem em jogadas de ação para intimidar um alvo.</p>",
     "gmNotes": "",

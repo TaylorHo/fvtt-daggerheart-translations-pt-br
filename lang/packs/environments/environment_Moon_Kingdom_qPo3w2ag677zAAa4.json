@@ -9,8 +9,9 @@
     "impulses": "Borrar a linha entre sonho e realidade, deixar a consciência fluir e refluir como a maré, sussurrar ecos de opulência ancestral",
     "difficulty": 20,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "dGGEFeoh8LOS51RN": {
@@ -160,7 +161,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["spellcast"],
+                "actionTypes": [
+                  "spellcast"
+                ],
                 "traits": []
               }
             ]
@@ -231,7 +234,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

@@ -6,8 +6,9 @@
   "img": "icons/weapons/swords/greatsword-evil-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você causar dano Grave a uma criatura, pode <strong>marcar 1 Fadiga</strong> para forçá-la a marcar 1 Ponto de Vida adicional.</p>",
     "gmNotes": "",

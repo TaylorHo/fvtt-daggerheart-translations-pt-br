@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -224,7 +227,9 @@
           "img": "icons/magic/symbols/circle-ouroboros.webp",
           "description": "<p>Você fica Constrito até a Lâmia se mover ou sofrer dano Maior ou superior.</p><p>Enquanto estiver Constrito, o alvo fica <em>Restrito</em> e deve marcar 1 Fadiga quando a Lâmia receber o destaque.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -421,7 +426,9 @@
           "img": "icons/magic/control/silhouette-hold-change-green.webp",
           "description": "<p>Você fica <em>Vulnerável</em> até ter sucesso em um Teste de Instinto (19).</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

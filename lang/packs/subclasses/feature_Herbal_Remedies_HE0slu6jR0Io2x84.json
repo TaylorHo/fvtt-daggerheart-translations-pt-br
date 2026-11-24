@@ -6,8 +6,9 @@
   "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você ou um aliado na cena limpar 1 ou mais Pontos de Vida ou de Fadiga pelo uso de um consumível, aumente em 1 a quantidade limpa.</p>",
     "gmNotes": "",

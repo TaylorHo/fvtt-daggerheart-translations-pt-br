@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por descanso, [[/r 1d2]]{lance uma moeda.} Em cara, você ganha um bônus de +1 nos testes de ataque até seu próximo ataque bem-sucedido. Em coroa, você ganha +1 na Evasão até que um ataque falhe contra você.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {
@@ -111,7 +112,9 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": ["attack"],
+            "actionTypes": [
+              "attack"
+            ],
             "traits": []
           }
         ]

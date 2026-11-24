@@ -6,8 +6,9 @@
   "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Marque 1 Fadiga</strong> para <em>Amaldiçoar</em> temporariamente um alvo em alcance Distante. Enquanto estiver <em>Amaldiçoado</em>, o alvo sofre uma penalidade nas jogadas de dano e na Dificuldade igual ao seu patamar. O número máximo de criaturas que você pode <em>Amaldiçoar</em> ao mesmo tempo é igual ao seu atributo de Conjuração.</p>",
     "gmNotes": "",

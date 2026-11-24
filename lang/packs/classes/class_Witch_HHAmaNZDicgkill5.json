@@ -5,14 +5,18 @@
   "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Bruxas são praticantes mágicas que se comunicam com as forças da natureza e com entidades de reinos além. Essas conjuradoras invocam poder por meio do ofício, combinando o tangível e o efêmero ao lançar feitiços, murmurar encantamentos, criar talismãs, tecer ilusões e manter outras práticas personalizadas. Elas podem proteger seus aliados e ferir seus inimigos ao invocar poderosas forças além de si mesmas — seres sobrenaturais como ancestrais, divindades ou aspectos da natureza. Muitas vezes, seu conhecimento mágico é transmitido por essas entidades ou por muitas gerações de praticantes que se reúnem em pequenos grupos conhecidos como covens. Bruxas são frequentemente temidas e incompreendidas, pois seus métodos podem parecer misteriosos, estranhos e até macabros para os não iniciados. Seja qual for o caminho que trilhem, uma bruxa percorre a fronteira entre luz e sombra sem medo.</p>",
     "gmNotes": "",
-    "domains": ["sage", "dread"],
+    "domains": [
+      "sage",
+      "dread"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 10,

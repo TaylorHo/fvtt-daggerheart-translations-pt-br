@@ -6,9 +6,10 @@
   "img": "icons/equipment/shield/heater-stone-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -49,7 +50,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d4",
@@ -111,7 +114,9 @@
     "itemFeatures": {
       "protective": {
         "value": "protective",
-        "effectIds": ["TqOWmUMXr5RnE8fY"],
+        "effectIds": [
+          "TqOWmUMXr5RnE8fY"
+        ],
         "actionIds": [],
         "config": {
           "value": "@item.tier"

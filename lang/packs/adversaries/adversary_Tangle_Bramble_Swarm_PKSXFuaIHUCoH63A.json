@@ -83,7 +83,9 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "valueAlt": {
             "multiplier": "flat",
             "flatMultiplier": 1,
@@ -126,9 +128,10 @@
       "areas": []
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -279,7 +282,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -401,7 +406,9 @@
           },
           "description": "<p>Se um alvo tiver qualquer ficha de espinheiro, ele fica Contido. Se um alvo tiver 3 ou mais fichas de espinheiro, ele também fica Vulnerável. Todas as fichas de espinheiro podem ser removidas com sucesso em uma rolagem de Finesse (12 + a quantidade de fichas de espinheiro) ou causando dano Maior ou superior ao Enxame. Se fichas de espinheiro forem removidas de um alvo com uma rolagem de Finesse, uma quantidade de Lacaios Espinheiro Emaranhado surge em alcance Corpo a Corpo igual à quantidade de fichas removidas.</p>",
           "tint": "#ffffff",
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

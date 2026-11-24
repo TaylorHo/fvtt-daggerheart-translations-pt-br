@@ -43,9 +43,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": ""
   },
@@ -75,7 +76,9 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": ["spellcast"],
+            "actionTypes": [
+              "spellcast"
+            ],
             "traits": []
           }
         ]

@@ -6,9 +6,10 @@
     "description": "<p>Este pequeno dispositivo mecânico tem a forma de um filhote de lobo-estrige e pode ser programado para realizar truques simples.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

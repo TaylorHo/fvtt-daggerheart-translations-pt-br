@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -364,7 +367,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -559,7 +564,10 @@
                   "scale": 1,
                   "ring": "#4d086d",
                   "background": null,
-                  "effects": ["RING_PULSE", "BKG_WAVE"]
+                  "effects": [
+                    "RING_PULSE",
+                    "BKG_WAVE"
+                  ]
                 }
               }
             },

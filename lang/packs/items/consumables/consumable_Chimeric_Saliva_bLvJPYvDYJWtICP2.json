@@ -6,9 +6,10 @@
     "description": "<p>Você pode aplicar esta saliva em uma arma que cause dano físico para mudar seu tipo de dano para mágico até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

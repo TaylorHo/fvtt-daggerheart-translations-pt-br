@@ -9,8 +9,9 @@
     "impulses": "Cortá-los até o âmago, fraturar suas psiques, mostrar seu verdadeiro reflexo",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "ALbfIsyRuqyBQ1AG": {
@@ -170,7 +171,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

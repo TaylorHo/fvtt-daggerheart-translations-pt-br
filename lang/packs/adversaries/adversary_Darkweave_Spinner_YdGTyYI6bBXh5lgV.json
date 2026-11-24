@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -229,7 +232,10 @@
           "img": "icons/commodities/materials/material-webbing.webp",
           "description": "<p>Você está <em>Vulnerável</em> e <em>Restrito</em> até ser bem-sucedido em um Teste de Força (10).</p>",
           "transfer": false,
-          "statuses": ["vulnerable", "restrain"],
+          "statuses": [
+            "vulnerable",
+            "restrain"
+          ],
           "system": {
             "changes": [],
             "duration": {

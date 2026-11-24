@@ -9,8 +9,9 @@
     "impulses": "Deixá-los arrepiados, atrasá-los até o retorno da bruxa, trancá-los lá dentro, mudar de lugar, tentá-los com curiosidades mágicas",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "nwm0MT2J8z6il7m9": {
@@ -186,7 +187,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

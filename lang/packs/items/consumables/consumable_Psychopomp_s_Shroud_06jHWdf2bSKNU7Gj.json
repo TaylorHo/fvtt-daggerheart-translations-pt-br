@@ -6,9 +6,10 @@
     "description": "<p>Você pode colocar esta mortalha sobre o cadáver de uma criatura recém-falecida. O espírito da criatura entra na mortalha e se torna seu assistente espectral até o próximo nascer do sol, quando atravessa o véu da morte levando a mortalha consigo.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

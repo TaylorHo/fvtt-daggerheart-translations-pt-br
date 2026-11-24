@@ -6,8 +6,9 @@
   "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você começa com 3 de Favor. Você pode usar uma ação de intervalo para prestar tributo ao seu patrono. Descreva como e ganhe Favor igual ao seu atributo de Conjuração. Além disso, quando for bem-sucedido em uma jogada de ação com Esperança, você pode escolher ganhar 1 de Favor em vez de 1 de Esperança.</p>",
     "gmNotes": "",
@@ -15,7 +16,9 @@
     "actions": {},
     "featureForm": "passive",
     "granter": null,
-    "actorResources": ["favor"]
+    "actorResources": [
+      "favor"
+    ]
   },
   "effects": [],
   "sort": 0,

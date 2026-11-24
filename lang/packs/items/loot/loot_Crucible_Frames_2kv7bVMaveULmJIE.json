@@ -6,9 +6,10 @@
     "description": "<p>Estes óculos revelam pontos fracos em objetos e criaturas. Três vezes por descanso, você pode gastar uma Esperança para ganhar vantagem em um teste de ataque.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

@@ -6,8 +6,9 @@
   "img": "icons/skills/melee/shield-block-bash-yellow.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, quando um adversário em alcance Corpo a Corpo forçar você a marcar qualquer quantidade de Pontos de Vida, você pode <strong>marcar 1 Fadiga</strong> para forçá-lo a marcar a mesma quantidade de Pontos de Vida.</p>",
     "gmNotes": "",

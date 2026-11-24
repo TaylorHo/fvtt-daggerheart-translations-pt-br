@@ -76,7 +76,9 @@
             "multiplier": "flat"
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -137,9 +139,10 @@
     },
     "motivesAndTactics": "Disseminar morte impiedosa, punir os desafiadores, garantir a vitória a qualquer custo",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -424,7 +427,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -596,7 +601,9 @@
                 "type": "placed",
                 "shape": "emanation",
                 "size": "far",
-                "effects": ["KlTKlZXjdXQ9v6qB"],
+                "effects": [
+                  "KlTKlZXjdXQ9v6qB"
+                ],
                 "hasHole": false
               }
             ],
@@ -662,7 +669,9 @@
           "img": "icons/magic/unholy/barrier-fire-pink.webp",
           "description": "<p>Você fica <em>Vulnerável</em> até sair do círculo.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -670,7 +679,10 @@
               "type": ""
             },
             "stacking": null,
-            "targetDispositions": [1, 0],
+            "targetDispositions": [
+              1,
+              0
+            ],
             "rangeDependence": null,
             "conditionals": []
           },

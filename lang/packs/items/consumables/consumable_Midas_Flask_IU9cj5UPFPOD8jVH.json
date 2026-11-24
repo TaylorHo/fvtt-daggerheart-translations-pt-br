@@ -6,9 +6,10 @@
     "description": "<p>Você pode despejar este pequeno frasco de líquido alquímico sobre um item comum para transmutá-lo instantaneamente em um punhado de ouro.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

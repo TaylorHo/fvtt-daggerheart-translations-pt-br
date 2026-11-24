@@ -6,9 +6,10 @@
     "description": "<p>Quando você arremessa sua arma primária usando este anel, a arma aparece em sua mão imediatamente após o ataque.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por descanso, você pode tirar desta bolsa [[/r 2d20]] criaturas peludas inofensivas, do tamanho de um gato, de origem e espécie indeterminadas.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

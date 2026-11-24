@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/orb-contained-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando um adversário escolher você ou um aliado em alcance Muito Próximo como alvo de um ataque, você pode <strong>gastar 1 de Favor</strong> para <em>Drená-lo</em>. Ao fazer isso, ele deve marcar 1 Fadiga e você pode limpar 1 de Fadiga. Enquanto estiver <em>Drenado</em>, o alvo usa um <strong>d12</strong> em vez de um d20 nas jogadas de ataque (inclusive para vantagem ou desvantagem) até falhar em uma jogada.</p>",
     "gmNotes": "",

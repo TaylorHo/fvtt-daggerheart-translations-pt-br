@@ -6,9 +6,10 @@
   "img": "icons/equipment/chest/breastplate-metal-scaled-grey.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -28,7 +29,9 @@
     "itemFeatures": {
       "bulky": {
         "value": "bulky",
-        "effectIds": ["ItHCEXGyY7KY3ODo"],
+        "effectIds": [
+          "ItHCEXGyY7KY3ODo"
+        ],
         "actionIds": [],
         "config": {}
       }

@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 4,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por cena<strong>, marque um Fadiga</strong> para invocar uma criatura sobrenatural que causa <strong>d8+1</strong> de dano mágico usando sua característica de Conjuração a um alvo dentro do alcance Distante. Se o alvo marcar quaisquer Pontos de Vida com este ataque, ele deve ser bem-sucedido em um <strong>Teste de Reação (12)</strong> para se fortalecer contra o horror ou marcar a mesma quantidade de Fadiga.</p><p>Depois de fazer o ataque, a criatura se dissipa.</p>",
     "gmNotes": "",

@@ -6,9 +6,10 @@
     "description": "<p>Você pode ordenar a esta corda que se amarre ou se desamarre sozinha.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

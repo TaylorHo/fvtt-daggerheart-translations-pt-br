@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -115,8 +117,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -218,7 +221,10 @@
           "img": "icons/commodities/biological/tentacle-purple-white.webp",
           "description": "<p>Você está <em>Imobilizado</em> e <em>Vulnerável</em> até escapar com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["restrained", "vulnerable"],
+          "statuses": [
+            "restrained",
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -391,7 +397,9 @@
           "img": "icons/skills/movement/arrow-down-pink.webp",
           "description": "<p>Você está <em>Vulnerável</em> até sair da área da tinta.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

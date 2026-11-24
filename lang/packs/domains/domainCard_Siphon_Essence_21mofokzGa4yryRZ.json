@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 2,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Muito Próximo. Uma vez por descanso longo, em caso de sucesso, o alvo sofre <strong>d12+4</strong> de dano mágico usando sua Proficiência. Em um sucesso com Medo, você ganha um bônus de +1 em sua Proficiência neste ataque.</p><p>Você limpa uma quantidade de Pontos de Vida igual ao número de Pontos de Vida que o alvo marcou com este ataque.</p>",
     "gmNotes": "",

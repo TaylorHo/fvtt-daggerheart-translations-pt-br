@@ -6,8 +6,9 @@
   "img": "icons/magic/movement/trail-streak-impact-blue.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você for bem-sucedido em um ataque contra um alvo, pode <strong>gastar 1 de Esperança</strong> para arremessar o alvo até alcance Próximo ou para forçá-lo a marcar 1 Fadiga.</p>",
     "gmNotes": "",

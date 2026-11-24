@@ -9,8 +9,9 @@
     "impulses": "Criar pânico por toda parte, bloquear as saídas, isolar, fazê-los correr em busca de segurança, dividir o grupo",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "sOYNTMSDlEz1swf7": {
@@ -104,7 +105,9 @@
           "img": "icons/magic/earth/barrier-stone-brown-green.webp",
           "description": "",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -182,7 +185,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -253,7 +258,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/orb-stone-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso longo, quando você sofreria dano, pode <strong>gastar 1 de Favor</strong> em vez de marcar Pontos de Vida.</p>",
     "gmNotes": "",

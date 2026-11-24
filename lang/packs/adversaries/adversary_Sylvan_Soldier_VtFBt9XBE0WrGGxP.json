@@ -74,7 +74,9 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -126,9 +128,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -268,7 +271,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -375,7 +380,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,
@@ -522,7 +529,9 @@
           },
           "description": "<p>Fique Escondido até o próximo ataque do Soldado ou até que um personagem tenha sucesso em uma rolagem de Instinto (14) para encontrá-lo.</p>",
           "tint": "#ffffff",
-          "statuses": ["hidden"],
+          "statuses": [
+            "hidden"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

@@ -21,9 +21,10 @@
     "type": "traversal",
     "impulses": "Aniquilar certezas, consumir poder, desafiar a lógica",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},
@@ -399,7 +400,9 @@
                   "multiplier": "flat"
                 },
                 "applyTo": "hitPoints",
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "base": false,
                 "resultBased": false,
                 "valueAlt": null,

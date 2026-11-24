@@ -6,8 +6,9 @@
   "img": "icons/magic/death/skull-poison-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você também conhece estes venenos:</p><ul><li><p><strong>Semente da Praga:</strong> O alvo sofre -3 de penalidade nos seus limiares de dano até o fim da cena. Este efeito não acumula.</p></li><li><p><strong>Folha do Medo:</strong> Você causa dano extra igual ao resultado do seu Dado de Medo neste ataque.</p></li><li><p><strong>Espinho do Cadáver:</strong> O alvo tem desvantagem em jogadas de reação até o fim da cena.</p></li></ul>",
     "gmNotes": "",

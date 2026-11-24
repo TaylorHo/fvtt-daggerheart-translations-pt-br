@@ -129,7 +129,9 @@
             "shape": "emanation",
             "size": "close",
             "hasHole": true,
-            "effects": ["yvpWNCNobg0LLjey"]
+            "effects": [
+              "yvpWNCNobg0LLjey"
+            ]
           }
         ],
         "baseAction": false,
@@ -209,7 +211,9 @@
             "shape": "emanation",
             "size": "veryClose",
             "hasHole": false,
-            "effects": ["I7zovLpRwEEbM1pO"]
+            "effects": [
+              "I7zovLpRwEEbM1pO"
+            ]
           }
         ],
         "cost": [
@@ -239,9 +243,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,
@@ -343,7 +348,9 @@
           "type": ""
         },
         "stacking": null,
-        "targetDispositions": [1],
+        "targetDispositions": [
+          1
+        ],
         "rangeDependence": null,
         "conditionals": []
       },
@@ -400,7 +407,9 @@
         },
         "rangeDependence": null,
         "stacking": null,
-        "targetDispositions": [1]
+        "targetDispositions": [
+          1
+        ]
       },
       "_id": "I7zovLpRwEEbM1pO",
       "type": "base",

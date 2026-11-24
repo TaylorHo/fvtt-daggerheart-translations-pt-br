@@ -6,9 +6,10 @@
     "description": "<p>Quando você arremessa este tijolo cinza no chão, ele cresce imediatamente em uma parede de pedra maciça de 1,8 metro de altura, 3 metros de largura e 60 centímetros de profundidade.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

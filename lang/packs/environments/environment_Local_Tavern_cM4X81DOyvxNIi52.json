@@ -35,9 +35,10 @@
     "type": "social",
     "impulses": "Oferecer oportunidades a aventureiros, nutrir a comunidade",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

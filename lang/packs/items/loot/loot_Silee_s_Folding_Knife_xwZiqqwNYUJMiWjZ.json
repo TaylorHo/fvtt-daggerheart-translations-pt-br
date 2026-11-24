@@ -6,9 +6,10 @@
     "description": "<p>Esta lâmina de 7,5 centímetros tem um fio que corta facilmente qualquer coisa, exceto o cabo em que está guardada.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

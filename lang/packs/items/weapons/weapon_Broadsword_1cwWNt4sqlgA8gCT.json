@@ -40,7 +40,9 @@
       },
       "damage": {
         "main": {
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d8",
@@ -101,9 +103,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -111,7 +114,9 @@
     "itemFeatures": {
       "reliable": {
         "value": "reliable",
-        "effectIds": ["dCE1ee7imaFHNqG5"],
+        "effectIds": [
+          "dCE1ee7imaFHNqG5"
+        ],
         "actionIds": [],
         "config": {}
       }
@@ -130,7 +135,9 @@
           },
           {
             "type": "actionType",
-            "actionTypes": ["attack"],
+            "actionTypes": [
+              "attack"
+            ],
             "traits": []
           }
         ],

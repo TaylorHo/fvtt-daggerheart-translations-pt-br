@@ -9,8 +9,9 @@
     "impulses": "Soprar ventos de furacão, sufocar com deslizamentos de lama, derrubar estruturas, inundar, arremessar destroços, iluminar o céu",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "hEkx10JrH1v3FFzG": {
@@ -241,7 +242,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

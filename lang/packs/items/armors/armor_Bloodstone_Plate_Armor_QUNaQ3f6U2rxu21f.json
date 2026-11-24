@@ -6,10 +6,11 @@
   "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "artist": "",
-      "campaignFrame": ""
+      "campaignFrame": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -97,7 +98,9 @@
       "bloodthirsty": {
         "value": "bloodthirsty",
         "effectIds": [],
-        "actionIds": ["LoUjBJNX5nvhKyZM"],
+        "actionIds": [
+          "LoUjBJNX5nvhKyZM"
+        ],
         "config": {}
       }
     }

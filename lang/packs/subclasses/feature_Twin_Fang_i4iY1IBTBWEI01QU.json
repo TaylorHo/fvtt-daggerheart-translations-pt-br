@@ -6,8 +6,9 @@
   "img": "icons/skills/melee/strike-dagger-poison-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você afligir com um veneno que conhece um alvo com a <em>Marca da Morte</em>, pode gastar uma ficha adicional para também infligir o efeito de um segundo veneno que conheça.</p>",
     "gmNotes": "",

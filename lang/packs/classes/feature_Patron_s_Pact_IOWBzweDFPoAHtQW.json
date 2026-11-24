@@ -6,8 +6,9 @@
   "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você se comprometeu com uma entidade sobrenatural — como um deus, fada ou demônio — em troca de poder. Escreva o nome dela na sua ficha de personagem e depois defina com o seu Mestre sua esfera de influência (como Natureza, Caos, Sabedoria, Travessura, Amor, Guerra, Justiça ou Morte). Antes de fazer uma jogada de ação relacionada à esfera de influência do seu patrono, você pode <strong>gastar 1 Favor</strong> para invocar a ajuda dele, rolando seu Dado de Patrono e somando o resultado ao total. Seu Dado de Patrono começa como um <strong>[[/r d6]]</strong> e aumenta para um <strong>[[/r d8]]</strong> no nível 5.</p>",
     "gmNotes": "",

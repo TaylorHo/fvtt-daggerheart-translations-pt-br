@@ -6,8 +6,9 @@
   "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você também conhece estes venenos:</p><ul><li><p><strong>Videira da Meia-noite:</strong> O alvo tem desvantagem em jogadas de ataque até marcar 1 Fadiga para encerrar esta condição.</p></li><li><p><strong>Raiz de Górgona:</strong> O alvo fica temporariamente <em>Imobilizado</em>.</p></li></ul>",
     "gmNotes": "",
@@ -145,7 +146,9 @@
       "img": "icons/commodities/flowers/dandelion-pod-blue.webp",
       "description": "",
       "transfer": false,
-      "statuses": ["restrain"],
+      "statuses": [
+        "restrain"
+      ],
       "system": {
         "changes": [],
         "duration": {

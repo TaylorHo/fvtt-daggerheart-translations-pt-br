@@ -6,9 +6,10 @@
     "description": "<p>Você fica Escondido até causar dano a outra criatura ou até seu próximo descanso.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",
@@ -65,7 +66,9 @@
       "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
       "description": "<p>Você fica Escondido até causar dano a outra criatura ou até seu próximo descanso.</p>",
       "transfer": false,
-      "statuses": ["hidden"],
+      "statuses": [
+        "hidden"
+      ],
       "system": {
         "changes": [],
         "duration": {

@@ -6,8 +6,9 @@
   "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Seus ataques de mãos nuas são tão fortes quanto qualquer lâmina. Você tem uma arma principal chamada Golpe de Lutador equipada enquanto não tiver outras Armas Ativas. Ela usa um atributo à sua escolha, tem alcance Corpo a Corpo e causa dano físico de <strong>d8+d6</strong> usando sua Proficiência (tanto o <strong>d8</strong> quanto o <strong>d6</strong> escalam com a sua Proficiência). Enquanto esta arma estiver ativa, você ganha +1 de bônus na sua Evasão.</p>",
     "gmNotes": "",
@@ -35,7 +36,9 @@
             "phase": "initial",
             "value": {
               "name": "Golpe de Lutador",
-              "damageTypes": ["physical"],
+              "damageTypes": [
+                "physical"
+              ],
               "attackRange": "melee",
               "trait": "highest",
               "damageFormula": "@profd8 + @profd6",

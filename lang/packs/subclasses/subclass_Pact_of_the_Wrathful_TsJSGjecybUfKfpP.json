@@ -6,10 +6,11 @@
   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Escolha Pacto da Ira se quiser destruir aqueles que agem contra você.</p>",
     "gmNotes": "",

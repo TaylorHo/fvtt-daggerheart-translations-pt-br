@@ -6,8 +6,9 @@
   "img": "icons/magic/death/skull-energy-light-white.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, quando você sofrer dano, pode <strong>gastar qualquer quantidade de Favor</strong> para rolar essa quantidade de Dados de Patrono e escolher como alvo uma quantidade de criaturas em alcance Próximo igual ao maior resultado. Cada alvo deve marcar 1 Ponto de Vida.</p>",
     "gmNotes": "",

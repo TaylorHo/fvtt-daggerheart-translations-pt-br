@@ -6,8 +6,9 @@
   "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar 2 de Fadiga.</p>",
     "gmNotes": "",

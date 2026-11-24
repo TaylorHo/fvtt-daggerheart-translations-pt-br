@@ -6,10 +6,11 @@
   "img": "icons/skills/melee/strike-dagger-blood-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Escolha Guilda dos Executores se quiser abater seus alvos com precisão letal.</p>",
     "gmNotes": "",

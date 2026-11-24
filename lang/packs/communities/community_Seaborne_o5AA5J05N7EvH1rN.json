@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida no Mar significa que você viveu em ou perto de uma grande massa d'água.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.07x6Qe6qMzDw2xN4"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.07x6Qe6qMzDw2xN4"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "seaborne",
     "gmNotes": ""

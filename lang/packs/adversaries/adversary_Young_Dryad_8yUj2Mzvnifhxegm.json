@@ -74,7 +74,9 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -126,9 +128,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "medium",
     "advantageSources": [],
@@ -405,7 +408,9 @@
           },
           "description": "<p>Você está <em>Imobilizado</em> até ser libertado com um Teste de Força bem-sucedido. Quando uma criatura faz uma jogada de ação contra a gaiola, ela deve marcar 1 de Fadiga.</p>",
           "tint": "#ffffff",
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "sort": 0,
           "flags": {},
           "_stats": {

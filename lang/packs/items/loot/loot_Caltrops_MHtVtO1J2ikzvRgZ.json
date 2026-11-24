@@ -6,9 +6,10 @@
     "description": "<p>Você pode espalhar estes abrolhos em uma área Muito Próxima ao seu redor. Uma criatura que atravessar apressada essa área deve marcar um Fadiga.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

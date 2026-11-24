@@ -6,8 +6,9 @@
   "img": "icons/magic/unholy/hand-marked-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você tem vantagem em ataques contra criaturas Amaldiçoadas.</p>",
     "gmNotes": "",

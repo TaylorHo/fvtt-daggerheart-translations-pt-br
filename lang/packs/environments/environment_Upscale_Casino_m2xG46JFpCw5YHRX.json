@@ -9,8 +9,9 @@
     "impulses": "Fazer o grande prêmio pairar fora de alcance, deslumbrar com espetáculo, explorar seus vícios",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "cDV40IntAD7wIsdW": {

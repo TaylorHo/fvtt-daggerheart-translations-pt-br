@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -190,7 +193,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -452,7 +457,10 @@
           "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
           "description": "<p>Você fica <em>Vulnerável</em> e <em>Imobilizado</em> até remover a condição com um Teste de Instinto bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["vulnerable", "restrain"],
+          "statuses": [
+            "vulnerable",
+            "restrain"
+          ],
           "system": {
             "changes": [],
             "duration": {

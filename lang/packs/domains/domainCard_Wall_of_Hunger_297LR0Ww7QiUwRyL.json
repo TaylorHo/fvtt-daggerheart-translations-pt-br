@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 7,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração (10).</strong> Em caso de sucesso, você pode gastar uma Esperança para criar uma muralha visível de energia necrótica serpenteante entre dois pontos dentro do alcance Distante. A muralha dura até você marcar um Ponto de Vida ou lançar esta magia novamente. Uma criatura que esteja dentro da muralha quando ela surge, ou que a atravesse, deve marcar 2 Fadiga.</p>",
     "gmNotes": "",

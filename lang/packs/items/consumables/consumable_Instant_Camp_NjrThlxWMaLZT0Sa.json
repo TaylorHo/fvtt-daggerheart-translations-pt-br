@@ -6,9 +6,10 @@
     "description": "<p>Você pode desdobrar esta pequena caixa mecânica em uma tenda de acampamento grande o suficiente para abrigar seis pessoas com segurança. A tenda desmonta ao final do seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

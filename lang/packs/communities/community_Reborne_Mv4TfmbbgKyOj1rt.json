@@ -5,14 +5,17 @@
   "system": {
     "loreReference": "reborne",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Você já foi membro de uma comunidade diferente da qual não faz mais parte.</p>",
     "gmNotes": "",
-    "features": ["Compendium.daggerheart.communities.Item.3Q6bQ73PdGz2Bmcz"]
+    "features": [
+      "Compendium.daggerheart.communities.Item.3Q6bQ73PdGz2Bmcz"
+    ]
   },
   "_id": "Mv4TfmbbgKyOj1rt",
   "img": "icons/environment/settlement/hut.webp",

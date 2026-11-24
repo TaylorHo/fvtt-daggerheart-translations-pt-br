@@ -53,9 +53,10 @@
     },
     "consumeOnUse": true,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": ""
   },
@@ -86,7 +87,9 @@
       },
       "description": "<p>Você fica Vulnerável até marcar um Ponto de Vida.</p>",
       "tint": "#ffffff",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

@@ -6,9 +6,10 @@
   "img": "icons/weapons/sickles/scythe-wrapped-worn-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -87,7 +88,9 @@
       },
       "damage": {
         "main": {
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d10",
@@ -150,7 +153,9 @@
       "quick": {
         "value": "quick",
         "effectIds": [],
-        "actionIds": ["oS1KZo6N8KzUMxgt"],
+        "actionIds": [
+          "oS1KZo6N8KzUMxgt"
+        ],
         "config": {}
       }
     }

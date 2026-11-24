@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso, você pode <strong>marcar um Fadiga</strong> para se envolver em energia sombria. Quando fizer isso, coloque nesta carta uma quantidade de fichas igual ao número de Medo na reserva do Mestre. Depois que um teste de ataque for feito contra você, você pode gastar qualquer quantidade de fichas para dar ao resultado uma penalidade de -1 por ficha gasta.</p><p>Ao final da cena, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",

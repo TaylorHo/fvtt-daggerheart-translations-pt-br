@@ -6,9 +6,10 @@
     "description": "<p>Você pode quebrar este sino enferrujado e sem badalo contra o chão para invocar um corcel esquelético que sai de dentro da terra e serve você até o próximo nascer do sol.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

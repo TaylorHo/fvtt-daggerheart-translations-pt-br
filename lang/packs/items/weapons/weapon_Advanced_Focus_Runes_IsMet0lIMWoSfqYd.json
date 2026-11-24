@@ -6,9 +6,10 @@
   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -49,7 +50,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d6",
@@ -111,7 +114,9 @@
     "itemFeatures": {
       "focused": {
         "value": "focused",
-        "effectIds": ["O9SelXMg3PlMtcnf"],
+        "effectIds": [
+          "O9SelXMg3PlMtcnf"
+        ],
         "actionIds": [],
         "config": {}
       }

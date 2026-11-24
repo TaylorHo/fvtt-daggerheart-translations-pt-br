@@ -155,9 +155,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,
@@ -235,7 +236,9 @@
       },
       "description": "<p>Quando um ataque contra você for bem-sucedido, você pode marcar 1 Fadiga para deixar o atacante temporariamente Vulnerável.</p>",
       "tint": "#ffffff",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida na Nobreza significa que você está acostumado a uma vida de elegância, opulência e prestígio nos mais altos escalões da sociedade.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.C7NR6qRatawZusmg"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.C7NR6qRatawZusmg"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "highborne",
     "gmNotes": ""

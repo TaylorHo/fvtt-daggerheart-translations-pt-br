@@ -6,8 +6,9 @@
   "img": "icons/magic/control/silhouette-hold-change-blue.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Gaste 3 de Esperança</strong> para intimidar um alvo em alcance Próximo, deixando-o temporariamente <em>Vulnerável</em>.</p>",
     "gmNotes": "",
@@ -67,7 +68,9 @@
       "img": "icons/magic/death/skull-energy-light-white.webp",
       "description": "",
       "transfer": false,
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "system": {
         "changes": [],
         "duration": {

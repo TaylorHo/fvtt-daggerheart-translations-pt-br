@@ -9,8 +9,9 @@
     "impulses": "Afogar em desespero, sugar a vida, atrair a um sono sem fim",
     "difficulty": 20,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {},
     "notes": ""
@@ -206,7 +207,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

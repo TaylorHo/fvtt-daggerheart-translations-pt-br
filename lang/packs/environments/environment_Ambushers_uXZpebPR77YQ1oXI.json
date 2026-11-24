@@ -12,9 +12,10 @@
     "type": "event",
     "impulses": "Escapar, reagrupar, proteger os mais vulneráveis",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

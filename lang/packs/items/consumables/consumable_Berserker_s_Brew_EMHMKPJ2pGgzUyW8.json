@@ -5,9 +5,10 @@
   "img": "icons/consumables/potions/bottle-corked-red.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Quando você bebe esta dose de líquido, ganha um bônus em sua Força e uma penalidade em sua Acuidade e Conhecimento iguais ao seu Instinto (mínimo 1). Este efeito dura até você fazer um movimento mortal ou até seu próximo descanso.</p>",
     "gmNotes": "",

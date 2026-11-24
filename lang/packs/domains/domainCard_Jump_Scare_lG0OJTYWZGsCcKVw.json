@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 6,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você causa dano mágico a um alvo, pode <strong>marcar um Fadiga</strong> para se teletransportar para o alcance Corpo a Corpo dele. Quando fizer isso, ele fica <em>Vulnerável</em> até marcar 1 ou mais Pontos de Vida.</p>",
     "gmNotes": "",

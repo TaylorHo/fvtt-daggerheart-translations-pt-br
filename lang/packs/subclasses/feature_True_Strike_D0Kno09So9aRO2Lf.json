@@ -6,8 +6,9 @@
   "img": "icons/magic/death/weapon-sword-skull-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por descanso longo, quando você falhar em um ataque, pode <strong>gastar 1 de Esperança</strong> para torná-lo um sucesso.</p>",
     "gmNotes": "",

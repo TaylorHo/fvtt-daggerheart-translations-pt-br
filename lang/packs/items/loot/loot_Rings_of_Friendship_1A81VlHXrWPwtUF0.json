@@ -6,9 +6,10 @@
     "description": "<p>Duas criaturas podem usar este par de anéis em forma de serpentes enroladas. Você pode gastar a Esperança de quem estiver usando o outro anel (com a permissão dessa pessoa) como se fosse sua.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

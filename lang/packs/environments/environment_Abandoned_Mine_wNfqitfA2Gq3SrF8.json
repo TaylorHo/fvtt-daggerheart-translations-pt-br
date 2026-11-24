@@ -9,8 +9,9 @@
     "impulses": "Envenenar o grupo com gases mortais, estremecer e desabar, dividir o grupo, fazê-los voltar",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "vGJG6PfuucD4WEsB": {
@@ -244,7 +245,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -314,7 +317,9 @@
           "img": "icons/magic/earth/projectile-stone-landslide.webp",
           "description": "",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {

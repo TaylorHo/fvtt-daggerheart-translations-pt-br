@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -325,7 +328,9 @@
           "img": "icons/skills/wounds/injury-face-impact-orange.webp",
           "description": "",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -403,7 +408,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -638,7 +645,9 @@
           "img": "icons/skills/movement/arrow-down-pink.webp",
           "description": "<p>Você fica Imobilizado até escapar com um Teste de Força bem-sucedido. Enquanto estiver Imobilizado, você fica <em>Restrito</em> e sofre <strong>1d12</strong> de dano mágico adicional dos ataques do Masque Muerte.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {

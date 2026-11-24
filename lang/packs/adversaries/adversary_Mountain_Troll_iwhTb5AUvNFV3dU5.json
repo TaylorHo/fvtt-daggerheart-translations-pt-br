@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -307,7 +310,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -441,7 +446,10 @@
                   "scale": 1,
                   "ring": "#a30000",
                   "background": null,
-                  "effects": ["RING_PULSE", "BKG_WAVE"]
+                  "effects": [
+                    "RING_PULSE",
+                    "BKG_WAVE"
+                  ]
                 }
               }
             },
@@ -475,7 +483,9 @@
                 "phase": "initial",
                 "value": {
                   "name": "Golpe de Garra",
-                  "damageTypes": ["physical"],
+                  "damageTypes": [
+                    "physical"
+                  ],
                   "attackRange": "veryClose",
                   "trait": null,
                   "damageFormula": "1d10+3",

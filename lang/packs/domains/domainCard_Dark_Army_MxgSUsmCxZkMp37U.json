@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 8,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração (14)</strong>. Uma vez por descanso longo, em caso de sucesso, você pode invocar demônios que cercam e acompanham você. Coloque 8 fichas nesta carta. Quando você causar dano a um alvo dentro do alcance Muito Próximo, pode gastar qualquer quantidade de fichas para adicionar <strong>1d8</strong> por ficha gasta à sua rolagem de dano. Além disso, quando você sofrer dano, pode gastar qualquer quantidade de fichas para reduzir o dano em <strong>1d8</strong> por ficha gasta. Cada vez que você gasta uma ficha, um demônio age em seu favor e depois desaparece.</p><p>Quando você faz um descanso, limpe todas as fichas não gastas.</p>",
     "gmNotes": "",

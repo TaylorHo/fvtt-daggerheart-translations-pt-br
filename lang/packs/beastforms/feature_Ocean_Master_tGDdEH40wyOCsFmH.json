@@ -42,9 +42,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,
@@ -78,7 +79,9 @@
       },
       "description": "",
       "tint": "#ffffff",
-      "statuses": ["restrained"],
+      "statuses": [
+        "restrained"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

@@ -6,8 +6,9 @@
   "img": "icons/magic/death/weapon-scythe-rune-green.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Sua habilidade \"Marca da Morte\" usa <strong>d8</strong> em vez de d6.</p>",
     "gmNotes": "",

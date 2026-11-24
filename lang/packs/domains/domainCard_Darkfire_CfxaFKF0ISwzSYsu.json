@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 6,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Uma vez por cena, <strong>gaste qualquer quantidade de Esperança</strong> para escolher a mesma quantidade de adversários dentro do alcance Próximo. Cada alvo faz um <strong>Teste de Reação (15)</strong>. Os alvos que falharem sofrem <strong>d8+6</strong> de dano mágico usando sua característica de Conjuração, envoltos em fogo sombrio. Os alvos que tiverem sucesso sofrem metade do dano.</p>",
     "gmNotes": "",

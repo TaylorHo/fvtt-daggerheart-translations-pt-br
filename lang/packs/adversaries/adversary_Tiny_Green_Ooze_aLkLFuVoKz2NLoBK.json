@@ -53,7 +53,9 @@
             "flatMultiplier": 1
           },
           "applyTo": "hitPoints",
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "resultBased": false,
           "valueAlt": {
             "multiplier": "prof",
@@ -120,9 +122,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "size": "tiny",
     "advantageSources": [],

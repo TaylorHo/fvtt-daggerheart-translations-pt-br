@@ -5,9 +5,10 @@
   "img": "icons/creatures/mammals/wolf-howl-moon-forest-blue.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Lobisomens são criaturas que se transformam em grandes lobos sobrenaturais.</p>",
     "gmNotes": "",

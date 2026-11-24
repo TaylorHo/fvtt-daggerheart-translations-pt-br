@@ -6,9 +6,10 @@
     "description": "<p>Em um ataque com arma bem-sucedido, você pode empurrar seu alvo até o alcance Próximo de sua posição.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

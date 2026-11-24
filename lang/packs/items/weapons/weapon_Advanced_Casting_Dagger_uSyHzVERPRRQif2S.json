@@ -6,9 +6,10 @@
   "img": "icons/weapons/daggers/dagger-notched-blackened.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -49,7 +50,9 @@
       },
       "damage": {
         "main": {
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d6",
@@ -119,7 +122,9 @@
           "damage": {
             "dice": "d8",
             "bonus": 6,
-            "type": ["magical"]
+            "type": [
+              "magical"
+            ]
           }
         }
       }

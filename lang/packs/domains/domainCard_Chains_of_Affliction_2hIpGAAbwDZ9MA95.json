@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 4,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p><strong>Marque 2 Fadiga</strong> para <em>Acorrentar</em> temporariamente um alvo dentro do alcance Próximo. Quando uma criatura <em>Acorrentada</em> causa dano, o alvo do ataque dela marca um Ponto de Vida a menos do que normalmente marcaria. Você não pode ter mais de uma criatura <em>Acorrentada</em> por vez.</p>",
     "gmNotes": "",

@@ -6,8 +6,9 @@
   "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você ganha +2 de bônus na sua Evasão contra ataques feitos por uma criatura que você marcou com a <em>Marca da Morte</em>.</p>",
     "gmNotes": "",

@@ -6,9 +6,10 @@
     "description": "<p>Você pode acender esta vela para preencher uma área dentro do alcance Próximo com um halo de luz. Uma criatura fora do halo não pode entrar nele se tiver más intenções contra uma criatura dentro dele. A vela queima por uma hora.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

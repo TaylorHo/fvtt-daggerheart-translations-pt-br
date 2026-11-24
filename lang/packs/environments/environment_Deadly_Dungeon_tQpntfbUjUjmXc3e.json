@@ -9,8 +9,9 @@
     "impulses": "Devorar os recursos do grupo, armar a armadilha, tentá-los com tesouros, lançar monstros contra eles, fazê-los voltar",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "sGbzbXsgB4qjaZbz": {
@@ -215,7 +216,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

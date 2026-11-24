@@ -6,8 +6,9 @@
   "img": "icons/magic/symbols/runes-triangle-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você falhar em uma jogada, pode <strong>gastar 3 de Esperança</strong> para rolar novamente com vantagem.</p>",
     "gmNotes": "",

@@ -5,9 +5,10 @@
   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Reanimados são cadáveres que foram trazidos de volta à vida.</p>",
     "gmNotes": "",

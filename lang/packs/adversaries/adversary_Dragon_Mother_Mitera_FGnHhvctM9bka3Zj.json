@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -342,7 +345,9 @@
           "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
           "description": "<p>Quando a contagem regressiva disparar, Mitera fica <em>Vulnerável</em> e recebe +2 de bônus em jogadas de ataque.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [
               {
@@ -363,7 +368,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["attack"],
+                "actionTypes": [
+                  "attack"
+                ],
                 "traits": []
               }
             ]
@@ -478,7 +485,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -541,7 +550,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -746,7 +757,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -852,7 +865,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -959,7 +974,9 @@
           "img": "icons/magic/water/snowflake-ice-blue.webp",
           "description": "<p>Você fica <em>Imobilizado</em> pelo gelo até se libertar com um Teste de Força bem-sucedido.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -1037,7 +1054,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -1125,7 +1144,9 @@
           "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
           "description": "<p>Você está <em>Vulnerável</em> até limpar 1 PV.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

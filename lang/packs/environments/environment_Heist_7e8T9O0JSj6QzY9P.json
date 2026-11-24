@@ -9,8 +9,9 @@
     "impulses": "Fazer o grupo se preparar, separá-los, erguer obstáculos, prendê-los lá dentro, esgotar seus recursos",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "gzQzvwR4kNa9okSB": {
@@ -249,7 +250,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": true,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

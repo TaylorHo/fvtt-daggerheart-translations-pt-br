@@ -6,8 +6,9 @@
   "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você tiver sucesso crítico em um ataque com arma Corpo a Corpo, ganha 1 de Esperança adicional, limpa 1 de Fadiga adicional e ganha +1 de bônus na sua Proficiência nesse ataque.</p>",
     "gmNotes": "",

@@ -9,8 +9,9 @@
     "impulses": "Evocar imagens de areia e mar, dar-lhes um respiro, prepará-los para o conflito adiante",
     "difficulty": 14,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {},
     "notes": ""

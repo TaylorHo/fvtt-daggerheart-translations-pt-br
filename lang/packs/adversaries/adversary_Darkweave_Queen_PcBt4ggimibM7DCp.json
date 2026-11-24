@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -257,7 +260,9 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -398,7 +403,10 @@
           "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
           "description": "<p>Você está <em>Vulnerável</em> e <em>Restrito</em> até ser bem-sucedido em um Teste de Força (12) ou fazer um descanso.</p>",
           "transfer": false,
-          "statuses": ["vulnerable", "restrained"],
+          "statuses": [
+            "vulnerable",
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {

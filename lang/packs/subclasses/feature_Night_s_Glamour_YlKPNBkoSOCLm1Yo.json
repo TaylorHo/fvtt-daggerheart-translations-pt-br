@@ -6,8 +6,9 @@
   "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça uma <strong>Jogada de Conjuração (13)</strong> para <em>Glamourizar</em> a si mesmo em uma fachada enfeitiçante. Enquanto estiver <em>Glamourizado</em>, você tem vantagem em jogadas que aproveitem sua aparência ilusória. Além disso, adversários em alcance Próximo devem marcar 1 Fadiga para atacar você.</p><p>A menos que você <strong>marque 1 Fadiga</strong> para manter seu <em>Glamour</em>, ele se desfaz quando você marcar um Ponto de Vida ou causar dano.</p>",
     "gmNotes": "",

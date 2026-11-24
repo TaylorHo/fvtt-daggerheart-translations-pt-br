@@ -6,9 +6,10 @@
     "description": "<p>Você pode espalhar este sal em uma linha ao longo de parapeitos ou soleiras para criar uma barreira mágica que criaturas mortas-vivas não podem atravessar até que a linha seja rompida.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

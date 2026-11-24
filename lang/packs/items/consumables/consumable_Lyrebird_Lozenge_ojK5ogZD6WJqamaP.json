@@ -6,9 +6,10 @@
     "description": "<p>Você pode dissolver esta pastilha na boca para imitar perfeitamente qualquer voz que já tenha ouvido até o final da cena.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

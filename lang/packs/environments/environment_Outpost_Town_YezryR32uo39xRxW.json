@@ -31,9 +31,10 @@
     "type": "social",
     "impulses": "Levar os desesperados à ruína certa, lucrar com esperança esfarrapada",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

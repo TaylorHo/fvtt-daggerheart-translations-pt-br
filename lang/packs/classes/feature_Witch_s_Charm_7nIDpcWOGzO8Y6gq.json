@@ -6,8 +6,9 @@
   "img": "icons/magic/control/debuff-energy-hold-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD",
-      "page": null
+      "source": "Daggerheart Livro Básico",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Quando você ou um aliado em alcance Distante falhar em uma jogada de ação, você pode <strong>gastar 3 de Esperança</strong> para transformá-la em um sucesso com Medo.</p>",
     "gmNotes": "",

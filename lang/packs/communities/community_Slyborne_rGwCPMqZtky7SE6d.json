@@ -5,11 +5,14 @@
   "folder": null,
   "system": {
     "description": "<p>Fazer parte de uma comunidade Nascida na Astúcia significa que você vem de um grupo que opera fora da lei, incluindo todo tipo de criminosos, trapaceiros e vigaristas.</p>",
-    "features": ["Compendium.daggerheart.communities.Item.ZmEuBdL0JrvuA8le"],
+    "features": [
+      "Compendium.daggerheart.communities.Item.ZmEuBdL0JrvuA8le"
+    ],
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "loreReference": "slyborne",
     "gmNotes": ""

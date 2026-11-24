@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 3,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Você pode transferir sofrimento de uma criatura para outra. Uma vez por descanso, marque qualquer quantidade de Pontos de Vida de uma criatura disposta dentro do alcance Corpo a Corpo para limpar a mesma quantidade de Pontos de Vida de outra criatura disposta dentro do alcance Corpo a Corpo.</p>",
     "gmNotes": "",

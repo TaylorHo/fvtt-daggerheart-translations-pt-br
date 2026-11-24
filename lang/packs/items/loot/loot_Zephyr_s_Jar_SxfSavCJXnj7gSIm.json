@@ -6,9 +6,10 @@
     "description": "<p>Você pode abrir este jarro vazio durante o mau tempo para capturar a tempestade e deixar para trás um céu limpo. A tempestade permanece dentro dele até ser liberada ao reabrir o jarro.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

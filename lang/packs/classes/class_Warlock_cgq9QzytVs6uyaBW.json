@@ -5,14 +5,18 @@
   "img": "icons/magic/unholy/orb-hands-pink.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Aqueles que trocaram suas vidas — ou talvez até suas almas — com um patrono de outro mundo em troca de um poder incrível são conhecidos como bruxos. Muitas vezes, esses mortais chegaram a um ponto de desespero que os leva a fazer esse sacrifício: esperam proteger a si mesmos ou a um ente querido, ajudar sua comunidade, buscar vingança, aumentar seu status ou, de outra forma, impulsionar suas ambições. As poderosas entidades a quem imploram são tão variadas quanto os próprios bruxos: deuses, espíritos, demônios ou outros seres desconhecidos até mesmo para o mortal que faz o pacto. Cada entidade tem sua própria esfera de influência que define seu poder de outro mundo, e aquelas que colecionam almas raramente são conhecidas por sua benevolência. Assim, o poder de um bruxo é definido pela relação que ele mantém com seu benfeitor. Apesar de sua magia aterrorizante, bruxos podem descobrir que alguém ou algo mais está movendo seus pauzinhos.</p>",
     "gmNotes": "",
-    "domains": ["dread", "grace"],
+    "domains": [
+      "dread",
+      "grace"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 11,

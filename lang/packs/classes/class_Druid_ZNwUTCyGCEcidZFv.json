@@ -5,7 +5,10 @@
   "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
   "system": {
     "description": "<p>Tornar-se um druida é mais que uma ocupação; é um chamado para aqueles que desejam aprender com a magia da natureza selvagem e protegê-la. Embora se possa subestimar um druida gentil que pratica o trabalho muitas vezes silencioso de cultivar a flora, druidas que canalizam as forças indomadas da natureza são aterrorizantes de se ver. Druidas cultivam suas habilidades em pequenos grupos, muitas vezes unidos por um ethos ou local específico, mas alguns preferem trabalhar sozinhos. Após anos de estudo e dedicação, druidas aprendem a se transformar em feras e a moldar a própria natureza.</p>",
-    "domains": ["sage", "arcana"],
+    "domains": [
+      "sage",
+      "arcana"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 10,
@@ -53,9 +56,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Por que a comunidade em que você cresceu era tão dependente da natureza e de suas criaturas?",

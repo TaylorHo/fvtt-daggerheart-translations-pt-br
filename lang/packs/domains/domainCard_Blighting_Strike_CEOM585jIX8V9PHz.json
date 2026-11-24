@@ -6,8 +6,9 @@
     "domain": "dread",
     "level": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "description": "<p>Faça um <strong>Teste de Conjuração</strong> contra um alvo dentro do alcance Distante. Em caso de sucesso:</p><ul><li><p>Em um teste com Esperança, cause <strong>d6+1</strong> de dano mágico usando sua Proficiência. Em um teste com Medo, cause <strong>d10+1</strong> de dano mágico usando sua Proficiência.</p></li><li><p>O próximo ataque bem-sucedido do alvo causa metade do dano.</p></li></ul><p>Em caso de falha, você deve gastar uma Esperança ou marcar um Fadiga.</p>",
     "gmNotes": "",

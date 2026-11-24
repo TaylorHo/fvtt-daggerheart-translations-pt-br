@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -164,7 +167,9 @@
                 "shape": "emanation",
                 "size": "veryClose",
                 "hasHole": false,
-                "effects": ["b1p1GOBQ4VRDKvn6"]
+                "effects": [
+                  "b1p1GOBQ4VRDKvn6"
+                ]
               }
             ],
             "cost": [],
@@ -195,7 +200,9 @@
           "img": "icons/magic/air/fog-gas-smoke-green.webp",
           "description": "<p>A Harpia emite um fedor nauseante que deixa todos os não Harpias <em>Vulneráveis</em> enquanto estiverem dentro do alcance Muito Perto.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -204,7 +211,9 @@
             },
             "rangeDependence": null,
             "stacking": null,
-            "targetDispositions": [1],
+            "targetDispositions": [
+              1
+            ],
             "conditionals": []
           },
           "_id": "b1p1GOBQ4VRDKvn6",
@@ -273,7 +282,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

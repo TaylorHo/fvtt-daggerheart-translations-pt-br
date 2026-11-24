@@ -6,9 +6,10 @@
     "description": "<p>Este par de pequenas molduras ornamentadas, uma vermelha e uma azul, está conectado. Qualquer coisa que entre em uma sai pela outra.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

@@ -5,7 +5,10 @@
   "img": "icons/tools/instruments/harp-red.webp",
   "system": {
     "description": "<p>Bardos são as pessoas mais carismáticas de todos os reinos. Membros desta classe são mestres em cativar e se especializam em diversos tipos de performance, como cantar, tocar instrumentos musicais, tecer histórias ou contar piadas. Seja se apresentando para uma plateia ou falando com um indivíduo, bardos prosperam em situações sociais. Membros desta profissão se unem e treinam em escolas ou guildas, mas uma corrente de egocentrismo percorre aqueles de persuasão bárdica. Embora possam ser a classe mais propensa a unir as pessoas, um bardo de mau humor pode destruir um grupo com a mesma facilidade.</p>",
-    "domains": ["grace", "codex"],
+    "domains": [
+      "grace",
+      "codex"
+    ],
     "classItems": [],
     "hitPoints": 5,
     "evasion": 10,
@@ -49,9 +52,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Quem da sua comunidade ensinou você a ter tanta confiança em si mesmo?",

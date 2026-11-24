@@ -177,9 +177,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "granter": null,
@@ -213,7 +214,9 @@
       },
       "description": "<p>Deixe um alvo em alcance Próximo temporariamente Vulnerável.</p>",
       "tint": "#ffffff",
-      "statuses": ["vulnerable"],
+      "statuses": [
+        "vulnerable"
+      ],
       "sort": 0,
       "flags": {},
       "_stats": {

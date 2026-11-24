@@ -6,9 +6,10 @@
     "description": "<p>Você pode usar esta linha para limpar um Ponto de Vida ou 2 Espaços de Armadura.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

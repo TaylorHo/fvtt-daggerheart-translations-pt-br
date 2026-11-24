@@ -6,9 +6,10 @@
     "description": "<p>Você pode arremessar este orbe mecânico do tamanho de um pêssego em um ponto dentro do alcance Distante. Ele implode e puxa todas as criaturas e objetos dentro do alcance Próximo desse ponto para o alcance Corpo a Corpo dele.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "consumeOnUse": true,
     "gmNotes": "",

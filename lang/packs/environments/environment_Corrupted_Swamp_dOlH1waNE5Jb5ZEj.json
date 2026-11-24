@@ -9,8 +9,9 @@
     "impulses": "Corromper, enfatizar a podridão, revelar o distorcido e antinatural, adoecer",
     "difficulty": 11,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {},
     "notes": ""
@@ -120,7 +121,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["action"],
+                "actionTypes": [
+                  "action"
+                ],
                 "traits": []
               }
             ]
@@ -360,7 +363,9 @@
           "img": "icons/magic/nature/plant-sprout-snow-green.webp",
           "description": "<p>Você fica <em>Vulnerável</em> até o fim da cena.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

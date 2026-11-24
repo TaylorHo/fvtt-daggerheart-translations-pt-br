@@ -6,9 +6,10 @@
     "description": "<p>Um PJ que faz um descanso no santuário temporal pode escolher uma ação de intervalo adicional.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {}

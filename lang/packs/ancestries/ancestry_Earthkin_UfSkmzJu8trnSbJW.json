@@ -5,10 +5,11 @@
   "system": {
     "loreReference": "earthkin",
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
       "campaignFrame": "",
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "<p>Terranos são humanoides cujo corpo é feito de carne e terra.</p>",
     "gmNotes": "",

@@ -5,7 +5,10 @@
   "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
   "system": {
     "description": "<p>Tornar-se um guerreiro exige anos, muitas vezes uma vida inteira, de treinamento e dedicação ao domínio das armas e da violência. Enquanto muitos que buscam lutar aprimoram apenas sua força, guerreiros entendem a importância de um corpo e uma mente ágeis, o que os torna alguns dos combatentes mais procurados em todos os reinos. Com frequência, guerreiros encontram trabalho em um exército, em um bando de mercenários ou até em uma guarda real, mas seu potencial é desperdiçado em qualquer posição em que não possam continuar a melhorar e expandir suas habilidades. Guerreiros são conhecidos por ter uma arma favorita; interpor-se entre eles e sua lâmina seria um erro grave.</p>",
-    "domains": ["blade", "bone"],
+    "domains": [
+      "blade",
+      "bone"
+    ],
     "classItems": [],
     "hitPoints": 6,
     "evasion": 11,
@@ -53,9 +56,10 @@
     },
     "isMulticlass": false,
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "backgroundQuestions": [
       "Quem ensinou você a lutar, e por que essa pessoa ficou para trás quando você saiu de casa?",

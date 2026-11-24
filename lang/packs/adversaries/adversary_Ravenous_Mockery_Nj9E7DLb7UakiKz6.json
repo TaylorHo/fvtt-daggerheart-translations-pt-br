@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -229,7 +232,9 @@
           "img": "icons/commodities/biological/tongue-violet.webp",
           "description": "<p>Você fica <em>Restringido</em> até escapar com um Teste de Força bem-sucedido</p>",
           "transfer": true,
-          "statuses": ["restrain"],
+          "statuses": [
+            "restrain"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -407,7 +412,9 @@
           "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
           "description": "<p>Você está Restringido e deve marcar um PV sempre que a Zombaria estiver em destaque.</p>",
           "transfer": false,
-          "statuses": ["restrained"],
+          "statuses": [
+            "restrained"
+          ],
           "system": {
             "changes": [],
             "duration": {

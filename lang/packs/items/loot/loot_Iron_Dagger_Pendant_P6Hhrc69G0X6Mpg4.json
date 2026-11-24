@@ -6,9 +6,10 @@
     "description": "<p>Uma vez por descanso longo, você pode gastar uma Esperança para dizer ao pingente o nome de uma criatura. O pingente puxa suavemente você em direção à localização atual dessa criatura até seu próximo descanso longo.</p>",
     "quantity": 1,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "actions": {

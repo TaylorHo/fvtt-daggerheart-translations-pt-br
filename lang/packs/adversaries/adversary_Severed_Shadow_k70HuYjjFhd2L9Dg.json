@@ -57,7 +57,9 @@
               "formula": ""
             }
           },
-          "type": ["magical"],
+          "type": [
+            "magical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -102,8 +104,9 @@
     },
     "experiences": {},
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -242,7 +245,9 @@
           "img": "icons/magic/death/undead-ghost-strike-white.webp",
           "description": "<p>Você está <em>Vulnerável</em> e deve marcar um Fadiga quando realiza uma ação até a Sombra ser derrotada.</p>",
           "transfer": false,
-          "statuses": ["vulnerable"],
+          "statuses": [
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {
@@ -320,7 +325,9 @@
                 "valueAlt": null,
                 "includeBase": true,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "close",
                 "itemId": null
               },

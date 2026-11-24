@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -117,8 +119,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -344,7 +347,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -720,7 +725,9 @@
                   "scale": 1,
                   "ring": "#630303",
                   "background": null,
-                  "effects": ["RING_PULSE"]
+                  "effects": [
+                    "RING_PULSE"
+                  ]
                 }
               }
             },
@@ -754,7 +761,9 @@
                 "phase": "initial",
                 "value": {
                   "name": "Garras",
-                  "damageTypes": ["physical"],
+                  "damageTypes": [
+                    "physical"
+                  ],
                   "attackRange": "close",
                   "trait": null,
                   "damageFormula": "3d12 + 6",
@@ -915,7 +924,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -977,7 +988,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },

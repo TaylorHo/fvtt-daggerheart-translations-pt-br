@@ -61,7 +61,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "base": false,
           "applyTo": "hitPoints",
           "resultBased": false,
@@ -112,8 +114,9 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "resistance": {
       "physical": {
@@ -166,7 +169,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["physical"],
+                "type": [
+                  "physical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -245,7 +250,10 @@
           "img": "icons/commodities/biological/stinger-insect-grey.webp",
           "description": "<p>Você fica <em>Restringido</em> e <em>Vulnerável</em> até rolar com Esperança.</p>",
           "transfer": false,
-          "statuses": ["restrained", "vulnerable"],
+          "statuses": [
+            "restrained",
+            "vulnerable"
+          ],
           "system": {
             "changes": [],
             "duration": {

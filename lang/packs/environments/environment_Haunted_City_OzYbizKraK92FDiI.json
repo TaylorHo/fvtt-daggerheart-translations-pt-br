@@ -21,9 +21,10 @@
     "type": "exploration",
     "impulses": "Despistar e desorientar, reprisar apocalipses públicos e pessoais",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

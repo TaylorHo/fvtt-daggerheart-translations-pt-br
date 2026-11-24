@@ -55,9 +55,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -81,7 +82,7 @@
           {
             "key": "system.bonuses.damage.bonus",
             "type": "add",
-            "value": "2",
+            "value": 2,
             "priority": null,
             "phase": "initial"
           },
@@ -102,9 +103,7 @@
         "conditionals": [
           {
             "type": "actionType",
-            "actionTypes": [
-              "attack"
-            ],
+            "actionTypes": ["attack"],
             "traits": []
           }
         ]

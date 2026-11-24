@@ -9,8 +9,9 @@
     "impulses": "Coletar energia mágica, exaurir intrusos, revelar o desconhecido, liberar rajadas de poder mágico",
     "difficulty": 16,
     "attribution": {
-      "source": "Daggerheart SRD H&F",
-      "page": null
+      "source": "Daggerheart: Esperança e Medo",
+      "page": null,
+      "srd": true
     },
     "potentialAdversaries": {
       "tnf3DtcDpHvsezF0": {
@@ -101,7 +102,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -179,7 +182,9 @@
                 "valueAlt": null,
                 "includeBase": false,
                 "direct": false,
-                "type": ["magical"],
+                "type": [
+                  "magical"
+                ],
                 "groupAttack": "",
                 "itemId": null
               },
@@ -278,7 +283,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["spellcast"],
+                "actionTypes": [
+                  "spellcast"
+                ],
                 "traits": []
               }
             ]
@@ -336,7 +343,9 @@
             "conditionals": [
               {
                 "type": "actionType",
-                "actionTypes": ["spellcast"],
+                "actionTypes": [
+                  "spellcast"
+                ],
                 "traits": []
               }
             ]

@@ -20,9 +20,10 @@
     "type": "exploration",
     "impulses": "Confundir intrusos, mergulhar em segredos que melhor ficariam enterrados, manifestar morte-em-vida, liberar uma maré de mortos-vivos",
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     }
   },
   "flags": {},

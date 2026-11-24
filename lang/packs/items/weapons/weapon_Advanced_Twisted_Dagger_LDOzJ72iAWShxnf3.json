@@ -6,9 +6,10 @@
   "img": "icons/weapons/daggers/dagger-crooked-black.webp",
   "system": {
     "attribution": {
-      "source": "Daggerheart SRD H&F",
+      "source": "Daggerheart: Esperança e Medo",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "description": "",
     "gmNotes": "",
@@ -49,7 +50,9 @@
       },
       "damage": {
         "main": {
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "value": {
             "multiplier": "prof",
             "dice": "d8",

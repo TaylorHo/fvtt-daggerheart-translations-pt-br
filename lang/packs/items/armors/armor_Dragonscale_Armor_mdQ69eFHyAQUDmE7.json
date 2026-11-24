@@ -18,9 +18,10 @@
       "severe": 27
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "gmNotes": "",
     "resource": null,
@@ -29,7 +30,9 @@
       "impenetrable": {
         "value": "impenetrable",
         "effectIds": [],
-        "actionIds": ["J1MCpcfXByKaSSgx"],
+        "actionIds": [
+          "J1MCpcfXByKaSSgx"
+        ],
         "config": {}
       }
     }

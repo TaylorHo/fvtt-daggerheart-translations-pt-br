@@ -50,7 +50,9 @@
               "formula": ""
             }
           },
-          "type": ["physical"],
+          "type": [
+            "physical"
+          ],
           "applyTo": "hitPoints",
           "resultBased": false,
           "valueAlt": {
@@ -101,9 +103,10 @@
       }
     },
     "attribution": {
-      "source": "Daggerheart SRD",
+      "source": "Daggerheart Livro Básico",
       "page": null,
-      "artist": ""
+      "artist": "",
+      "srd": true
     },
     "resource": {
       "type": "simple",
@@ -121,7 +124,9 @@
       "reloading": {
         "value": "reloading",
         "effectIds": [],
-        "actionIds": ["ah3BGmVtSTNNPZto"],
+        "actionIds": [
+          "ah3BGmVtSTNNPZto"
+        ],
         "config": {}
       }
     }
