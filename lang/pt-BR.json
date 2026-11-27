@@ -349,15 +349,18 @@
                         },
                         "frameworkUuid": {
                             "label": "Estrutura"
-                        }
+                        },
+                        "adjacentParts": "Partes Adjacentes"
                     },
+                    "adjacentSegments": "Segmentos Adjacentes",
                     "Notifications": {
                         "AlreadyAddedPart": "Esta parte do Colosso já foi adicionada.",
                         "OnlyParts": "Apenas partes do Colosso podem ser adicionadas à lista de partes.",
                         "OnlyFrameworks": "Apenas Estruturas de Colosso podem ser adicionadas.",
                         "MustBeSameCompendium": "Partes e estruturas de Colossos devem estar no mesmo compêndio.",
                         "MustOwnBoth": "Você precisa ser proprietário de ambos os documentos para estabelecer um vínculo.",
-                        "FrameworkNotLinked": "Esta parte não está vinculada a esta estrutura, e as atualizações não serão propagadas até que ela seja adicionada à cena."
+                        "FrameworkNotLinked": "Esta parte não está vinculada a esta estrutura, e as atualizações não serão propagadas até que ela seja adicionada à cena.",
+                        "AllPartsPlaced": "Todas as partes do colosso já estão presentes."
                     }
                 },
                 "adversaryReactionRoll": {
@@ -813,8 +816,14 @@
                     "genericEffects": "Efeitos do Foundry",
                     "depositPartyTokens": "Carregar tokens de grupo",
                     "retrievePartyTokens": "Coletar tokens de grupo",
-                    "depositCompanionTokens": "Guardar Ficha de Companheiro",
-                    "retrieveCompanionTokens": "Recuperar Ficha de Companheiro"
+                    "depositCompanionTokens": "Guardar Token de Companheiro",
+                    "retrieveCompanionTokens": "Recuperar Token de Companheiro",
+                    "depositColossiParts": "Colocar partes do colosso",
+                    "retrieveColossiParts": "Recuperar partes do colosso",
+                    "retrieveColossi": {
+                        "title": "Recuperar partes do colosso",
+                        "content": "Recuperar as partes do colosso remove todos os pontos de vida, efeitos ativos e características marcadas. Esses dados não podem ser recuperados. Tem certeza?"
+                    }
                 }
             },
             "ImageSelect": {
@@ -4290,7 +4299,8 @@
                     "confirmText": "Tem certeza que deseja rolar novamente?"
                 },
                 "resourceRoll": {
-                    "playerMessage": "{user} rolou novamente seu {name}"
+                    "playerMessage": "{user} rolou novamente seu {name}",
+                    "title": "Rolagem de recurso"
                 },
                 "saveRoll": {
                     "reactionRollAllTargets": "Teste de reação em todos os alvos"
